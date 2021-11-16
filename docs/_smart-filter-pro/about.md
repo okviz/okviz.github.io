@@ -39,7 +39,7 @@ Power BI frequently receives updates and thus, custom visuals must interact with
 We recommend you read [Updating Power BI custom visuals](https://okviz.com/blog/updating-power-bi-custom-visuals/) - OKVIZ for more information.
 
 
-Smart Filter Pro sends out notifications about new versions if the [**Check for Updates**](#send-telemetry) setting is enabled. It checks if there is a new version of the visual and displays a message in the Editing view of report. In any case, a notification email about a new version available is sent to the user who registers Smart Filter Pro, including a link for the direct download. Just like Send telemetry setting, this setting will also not work in case you do not have a working Internet connection.
+Smart Filter Pro sends out notifications about new versions if the **Check for Updates** setting is enabled. It checks if there is a new version of the visual and displays a message in the Editing view of report. In any case, a notification email about a new version available is sent to the user who registers Smart Filter Pro, including a link for the direct download. Just like [Send telemetry](#send-telemetry) setting, this setting will also not work in case you do not have a working Internet connection.
  
 <!-- TODO Screenshot of update alert -->
 
