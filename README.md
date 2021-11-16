@@ -1,3 +1,3 @@
-# okviz.github.io
+# OKVIZ Documentation
 
-<div class="foo"></div>
+Browse the documentation at [docs.okviz.com](https://docs.okviz.com)
