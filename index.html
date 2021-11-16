@@ -1,0 +1,15 @@
+---
+layout: default
+title: OKVIZ Documentation
+---
+
+    <ul>
+        {% assign sorted_smart-filter-pro = site.smart-filter-pro | sort: "order" %}
+        {% for page in sorted_smart-filter-pro %}
+
+            <li>
+              <a href="{{ page.url }}">{{ page.title }}</a>
+            </li>
+
+          {% endfor %}
+      </ul>
