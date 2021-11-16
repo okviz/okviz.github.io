@@ -21,7 +21,7 @@
 title: OKVIZ Documentation
 email: support@okviz.com
 domain: docs.okviz.com
-url: http://docs.okviz.com
+url: https://docs.okviz.com
 permalink: /:categories/:title:output_ext
 
 collections_dir: _docs
