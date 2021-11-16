@@ -13,7 +13,7 @@ Licensing details in this section include the below fields:
 -	License key: Alphanumeric key that gives access to the licensed version of visual
 -	License status - Active/Expired, and 
 -	Expiration date
-
+[test](/smart-filter-pro/test.md)
  
 
 The license for Smart Filter Pro follows a subscription-based model. There are different plans available depending on the type of Power BI license used. 

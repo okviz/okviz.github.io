@@ -24,7 +24,7 @@ domain: docs.okviz.com
 url: https://docs.okviz.com
 permalink: /:categories/:title:output_ext
 
-collections_dir: _docs
+collections_dir: docs
 collections:
   smart-filter-pro:
       output: true
