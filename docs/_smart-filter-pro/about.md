@@ -23,7 +23,7 @@ The license for Smart Filter Pro follows a subscription-based model. There are d
 
 The licensing of Smart Filter Pro is different when downloaded from the AppSource marketplace and when downloaded from our website. When downloaded from the AppSource marketplace, the user needs to explicitly write the license key every time they add a visual to a report. 
 
-More information about licensing can be found here: [Licensing](/visuals/licensing)
+More information about licensing can be found here: [Licensing](/general/licensing)
 
 ## Send Telemetry
 
@@ -38,7 +38,7 @@ The "Send telemetry" setting, if enabled, sends anonymous data to OKVIZ about th
 
 Power BI frequently receives updates and thus, custom visuals must interact with this evolving platform synchronously. Updates might be required not only when a user might be interested in new features, but also to guarantee existing features. Bug fixes and updates required to support new versions of Power BI are the two main reasons why keeping the custom visuals up-to-date is important.
 
-We recommend you read [Updating OKVIZ Custom Visuals](/visuals/updating) for more information.
+We recommend you read [Updating OKVIZ Custom Visuals](/general/updating) for more information.
 
 
 Smart Filter Pro sends out notifications about new versions if the **Check for Updates** setting is enabled. It checks if there is a new version of the visual and displays a message in the Editing view of report. In any case, a notification email about a new version available is sent to the user who registers Smart Filter Pro, including a link for the direct download. Just like [Send telemetry](#send-telemetry) setting, this setting will also not work in case you do not have a working Internet connection.
