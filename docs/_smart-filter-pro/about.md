@@ -3,7 +3,7 @@ layout: page
 title:  "About & License"
 published: true
 date:               2021-11-15
-last_modified_at:   2021-11-16
+last_modified_at:   2021-11-19
 order: 10
 ---
 This properties group displays the name and version of the visual, licensing details, and options related to deployment and updates.
