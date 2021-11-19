@@ -22,14 +22,25 @@ title: OKVIZ Documentation
 email: support@okviz.com
 domain: docs.okviz.com
 url: https://docs.okviz.com
+plugins:
+  - jekyll-sitemap
 permalink: /:categories/:title:output_ext
-
+excerpt_separator: <!--more-->
 collections_dir: docs
 collections:
-  smart-filter-pro:
-      output: true
-  calendar-pro:
-      output: true
+    general:
+        title: General
+        order: 10
+        output: true
+    calendar-pro:
+        title: Calendar Pro
+        order: 20
+        output: false    
+    smart-filter-pro:
+        title: Smart Filter Pro
+        order: 30
+        output: true
+    
 
 # Build settings
 #theme: okviz

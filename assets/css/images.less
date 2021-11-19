@@ -21,7 +21,7 @@
 
 .icon {
 	  &:before, &:after {
-		    font-family: 'bravo' !important;
+		    font-family: 'okviz' !important;
         vertical-align: middle;
         font-style: normal;
         //font-weight: normal;
@@ -46,7 +46,83 @@
       }
     }
 }
+.noicon {
+  &:after, &:before  {
+    content: "";
+    margin:0;
+  }
+}
 
 [class^="icon-"], [class*=" icon-"] {
     .icon;
 }
+
+.icon-search {
+  &:before {
+    content: "\e900";
+  }
+}
+.icon-time:before {
+  content: "\e901";
+}
+.icon-cart:before {
+  content: "\e902";
+}
+.icon-aa:before {
+  content: "\e903";
+}
+.icon-pencil:before {
+  content: "\e904";
+}
+.icon-notice:before {
+  content: "\e905";
+}
+.icon-flag:before {
+  content: "\e906";
+}
+.icon-pen:before {
+  content: "\e907";
+}
+.icon-up {
+  &:before {
+    content: "\e908";
+  }
+}
+.icon-down {
+  &:before {
+    content: "\e90b";
+  }
+}
+.icon-next {
+  &:after {
+    content: "\e909";
+  }
+}
+.icon-alert:before {
+  content: "\e90a";
+}
+
+.icon-close:before {
+  content: "\e90c";
+}
+.icon-previous:before {
+  content: "\e90d";
+}
+.icon-dark:before {
+  content: "\e90e";
+}
+.icon-light:before {
+  content: "\e90f";
+}
+.icon-theme:before {
+  content: "\e910";
+}
+.icon-anchor:before {
+  content: "\e911";
+}
+.icon-github:before {
+  content: "\e912";
+}
+
+
+

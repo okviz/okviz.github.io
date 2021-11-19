@@ -48,7 +48,7 @@
     -moz-column-gap: @gap;
     -webkit-column-gap: @gap;
 }
-.shadow(@h: 0, @v: 1px, @blur: 1px, @spread: 0, @color:rgba(0,0,0,0.3)) {
+.shadow(@h: 0, @v: 3px, @blur: 5px, @spread: -4px, @color:rgba(0,0,0,0.3)) {
     //-webkit-box-shadow: @h @v @blur @spread @color;
     //-moz-box-shadow: @h @v @blur @spread @color;
     box-shadow: @h @v @blur @spread @color;
@@ -145,4 +145,7 @@
             color: @disabled-color-dark !important;
         }
     }
+}
+.title {
+    font-family: @title-font;
 }

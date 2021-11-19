@@ -11,10 +11,7 @@
 @images: "../images"; 
 
 // Fonts
-@default-text-font: Segoe UI,-apple-system,Helvetica Neue,sans-serif;
-@default-code-font: Consolas,Menlo,Monaco,monospace;
-@text-font: @default-text-font;
-@code-font: @default-code-font;
+@import "fonts.less";
 
 // Variables
 @import "colors.less";
@@ -27,6 +24,10 @@
 
 // Common
 @import "common.less";
+@import "header.less";
+@import "footer.less";
+@import "nav.less";
 
 // Pages
 @import "page.less";
+@import "errors.less";

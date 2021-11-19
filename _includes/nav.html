@@ -1,0 +1,33 @@
+<nav>
+{{ default_collection_url }}
+    <ul>
+        <li class="l0{% if page.url == "/" %} current{% endif %}"><a href="/">Docs</a></li>
+
+        {% assign sorted_collections = site.collections | sort: "order" %}
+        {% for collection in sorted_collections %}
+
+            {% if collection.label != "posts" and collection.output %}
+
+                {% assign default_collection_url = "/" | append: collection.label | append: "/index.html" %}
+                
+                <li class="l0{% if page.collection == collection.label %} expanded{% endif %}{% if page.url == default_collection_url %} current{% endif %}">
+                    {% if site[collection.label].size > 0 %}
+                        <a href="#" class="tree-toggle"><span class="icon"></span></a>
+                    {% endif %}
+                    <a href="/{{ collection.label }}" class="tree-link">{{ collection.title }}</a>
+                    <ul>
+                        {% assign sorted_pages = site[collection.label] | sort: "order" %}
+                        {% for _page in sorted_pages %}
+                            {% unless _page.id contains "/index" %}
+                            <li class="l1{% if page.url == _page.url %} current{% endif %}" >
+                                <a href="{{ _page.url }}" class="tree-link">{% if _page.menu_title %}{{ _page.menu_title }}{% else %}{{ _page.title }}{% endif %}</a>
+                            </li>
+                            {% endunless %}
+                        {% endfor %}
+                    </ul>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+
+</nav>
