@@ -28,12 +28,14 @@ layout: default
                 </div>
             {% endif %}
 
-            {% capture jekyll_toc %}{% include toc.html html=page.content %}{% endcapture %}
-            {% unless jekyll_toc == empty %}
-                <div class="toc">
-                    <strong class="uc">In this page</strong>
-                    {{ jekyll_toc }}
-                </div>
+            {% unless page.toc == false %}
+                {% capture jekyll_toc %}{% include toc.html html=page.content h_max=page.toc_max h_min=page.toc_min %}{% endcapture %}
+                {% unless jekyll_toc == empty %}
+                    <div class="toc">
+                        <strong class="uc">In this page</strong>
+                        {{ jekyll_toc }}
+                    </div>
+                {% endunless %}
             {% endunless %}
 
             {{ content }}
@@ -47,9 +49,9 @@ layout: default
                     
                     Last updated: 
                     {% if page.last_modified_at %}
-                        {{ page.last_modified_at | date: "%b %d, %y" }}
+                        {{ page.last_modified_at | date: "%b %d, %Y" }}
                     {% else %}
-                        {{ page.date | date: "%b %d, %y" }}
+                        {{ page.date | date: "%b %d, %Y" }}
                     {% endif %}
 
                  {% endif %}

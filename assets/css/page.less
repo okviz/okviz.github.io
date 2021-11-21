@@ -41,12 +41,15 @@
             //max-width: 70%;
             //height: auto;
             margin: 20px 5px;
-            display: block;
+            display: inline-block;
             border: 1px solid @border-color;
             .shadow;
     
             &.noborder {
                 border:none;
+            }
+            &.noround {
+                border-radius: 0;
             }
             &.nomargin {
                 margin:0;
@@ -96,19 +99,22 @@
                 }
             }
 
-            ul, li {
-                padding:0 5px;
-                list-style: none;
+            ul {
+                padding:0 20px;
+            }
+            li {
+                padding:0;
+                color: @accent-back-color;
             }
         }
 
         blockquote {
-            display: inline-block;
-            background-color: @warning-color;
-        
-            margin: 10px 0 10px -30px;
-            padding: 0 10px 0 30px;
-            p { 
+            margin: 10px 0;
+            p {   
+                display: inline-block;
+                background-color: @warning-color;
+                .border-radius;
+                padding: 0 10px;
                 margin: 0;
                 .icon;
                 &:before {

@@ -1,7 +1,6 @@
 <nav>
-{{ default_collection_url }}
     <ul>
-        <li class="l0{% if page.url == "/" %} current{% endif %}"><a href="/">Docs</a></li>
+        <li class="l0{% if page.url == "/" %} current{% endif %}"><a href="/" class="tree-link">Docs</a></li>
 
         {% assign sorted_collections = site.collections | sort: "order" %}
         {% for collection in sorted_collections %}

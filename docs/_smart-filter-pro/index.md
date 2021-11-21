@@ -7,6 +7,6 @@ date:               2021-11-15
 last_modified_at:   2021-11-16
 order: 0
 ---
-What is Smart Filter Pro? 
+> What is Smart Filter Pro? 
 
-Download link
+> Links (download and sample)
