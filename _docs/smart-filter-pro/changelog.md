@@ -74,9 +74,9 @@ Smart Filter Pro uses **Power BI Custom Visuals API v1.13.0** - compatible with 
 
 **Added:**
 - The ability to connect a measure to display its value for each category in the filter (supported by Dropdown/Observer/Hierarchy modes).<br>
-<img src="changelog/v221-values-dropdown.png" width="400"><br>
-<img src="changelog/v221-values-observer.png" width="400"><br>
-<img src="changelog/v221-values-hierarchy.png" width="400">
+<img src="images/changelog/v221-values-dropdown.png" width="400"><br>
+<img src="images/changelog/v221-values-observer.png" width="400"><br>
+<img src="images/changelog/v221-values-hierarchy.png" width="400">
 - A new option to change the text of the “Select all” button in Hierarchy mode.
 
 **Fixed:**
@@ -111,7 +111,7 @@ If you have experienced the issue before, please update the visual to this versi
 
 **Added:**
 - An option to wrap long strings.<br>
-<img src="changelog/v217-wrap.png" width="400">
+<img src="images/changelog/v217-wrap.png" width="400">
 - Support to date hierarchies filtering.
 
 **Fixed:**
@@ -122,9 +122,9 @@ If you have experienced the issue before, please update the visual to this versi
 **Released:** 2020-04-11
 
 **Added:**
-- A new working mode, which is faster than the others and easier to use: [Search mode](mode.html#search).<br>
+- A new working mode, which is faster than the others and easier to use: [Search mode](mode#search).<br>
 With this mode, you can paste and filter long lists of values or search while typing, without sacrificing the overall performance.<br>
-<img src="changelog/v216-search-mode.gif" width="550">
+<img src="images/changelog/v216-search-mode.gif" width="550">
 - Single selection for Observer mode.
 
 **Fixed:**
@@ -192,13 +192,13 @@ With this mode, you can paste and filter long lists of values or search while ty
 
 **Added:**
 - Placeholder text color property.<br>
-<img src="changelog/v211-placeholder-color-smart-filter-pro.png" width="500">
+<img src="images/changelog/v211-placeholder-color-smart-filter-pro.png" width="500">
 - Custom sorting for multiple connected fields.<br>
-<img src="changelog/v211-custom-sorting-smart-filter-pro.png" width="380">
+<img src="images/changelog/v211-custom-sorting-smart-filter-pro.png" width="380">
 
 **Changed:**
 - New SVG icon for Visuals panel.<br>
-<img src="changelog/v211-icon.svg" width="64" class="noround noborder nomargin">
+<img src="images/changelog/v211-icon.svg" width="64" class="noround noborder nomargin">
 
 ## v2.1.0
 **Released:** 2019-12-06
@@ -208,7 +208,7 @@ With this mode, you can paste and filter long lists of values or search while ty
 
 **Added:**
 - An option to change the default condition for strings filtering in Filter mode.<br>
-<img src="changelog/v210-default-condition-for-strings.png" width="200">
+<img src="images/changelog/v210-default-condition-for-strings.png" width="200">
 
 
 ## v2.0.9
@@ -220,7 +220,7 @@ With this mode, you can paste and filter long lists of values or search while ty
 
 **Added:**
 - An option to hide blank values in Hierarchy mode.<br>
-<img src="changelog/v209-blank-option.png" width="500">
+<img src="images/changelog/v209-blank-option.png" width="500">
 
 ## v2.0.8
 **Released:** 2019-05-28
@@ -235,12 +235,12 @@ With this mode, you can paste and filter long lists of values or search while ty
 
 ### New Hierarchy mode (beta)
 
-Smart Filter Pro now supports four different view modes: [Dropdown](mode.html#dropdown), [Observer](mode.html#observer), [Filter](mode.html#filter) and the new [Hierarchy mode](mode.html#hierarchy).
+Smart Filter Pro now supports four different view modes: [Dropdown](mode#dropdown), [Observer](mode#observer), [Filter](mode#filter) and the new [Hierarchy mode](mode#hierarchy).
 
 With the Hierarchy mode your columns are arranged in a tree view, according their relationship in the underlying model. You can select single or multiple nodes in order to filter the other charts of your reports.
 
-<img src="changelog/v208-hierarchy-2.png" width="170">
-<img src="changelog/v208-hierarchy.png" width="280">
+<img src="images/changelog/v208-hierarchy-2.png" width="170">
+<img src="images/changelog/v208-hierarchy.png" width="280">
 
 
 
@@ -257,7 +257,7 @@ With the Hierarchy mode your columns are arranged in a tree view, according thei
 **Released:** 2019-02-11
 
 **Added:**
- - Support to Power BI Custom Themes. [Find out more](themes.html)
+ - Support to Power BI Custom Themes. [Find out more](themes)
 
 ## v2.0.5
 **Released:** 2019-01-21

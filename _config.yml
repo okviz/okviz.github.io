@@ -26,20 +26,10 @@ plugins:
   - jekyll-sitemap
 permalink: /:categories/:title:output_ext
 excerpt_separator: <!--more-->
-collections_dir: docs
 collections:
-    general:
-        title: General
-        order: 10
+    docs:
         output: true
-    calendar-pro:
-        title: Calendar Pro
-        order: 20
-        output: false    
-    smart-filter-pro:
-        title: Smart Filter Pro
-        order: 30
-        output: true
+        permalink: /:path
     
 
 # Build settings

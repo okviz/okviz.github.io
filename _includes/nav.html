@@ -2,30 +2,29 @@
     <ul>
         <li class="l0{% if page.url == "/" %} current{% endif %}"><a href="/" class="tree-link">Docs</a></li>
 
-        {% assign sorted_collections = site.collections | sort: "order" %}
-        {% for collection in sorted_collections %}
+        {% assign roots = "General,Smart Filter Pro" | split: "," %}
+        {% for root in roots %}
+            {% assign slug = root | slugify %}
+            {% assign root_url = "/" | append: slug | append: "/" %}
+            {% assign root_url_index = root_url | append: "index" %}
 
-            {% if collection.label != "posts" and collection.output %}
-
-                {% assign default_collection_url = "/" | append: collection.label | append: "/index.html" %}
-                
-                <li class="l0{% if page.collection == collection.label %} expanded{% endif %}{% if page.url == default_collection_url %} current{% endif %}">
-                    {% if site[collection.label].size > 0 %}
-                        <a href="#" class="tree-toggle"><span class="icon"></span></a>
-                    {% endif %}
-                    <a href="/{{ collection.label }}" class="tree-link">{{ collection.title }}</a>
-                    <ul>
-                        {% assign sorted_pages = site[collection.label] | sort: "order" %}
-                        {% for _page in sorted_pages %}
+            <li class="l0{% if page.url == root_url or page.url == root_url_index %} current{% endif %}{% if page.url contains root_url %} expanded{% endif %}">
+                <a href="#" class="tree-toggle"><span class="icon"></span></a>
+                <a href="{{ root_url }}" class="tree-link">{{ root }}</a>
+                <ul>
+                    {% assign sorted_pages = site.docs| sort: "order" %}
+                    {% for _page in sorted_pages %}
+                        {% if _page.url contains root_url %}
                             {% unless _page.id contains "/index" %}
                             <li class="l1{% if page.url == _page.url %} current{% endif %}" >
                                 <a href="{{ _page.url }}" class="tree-link">{% if _page.menu_title %}{{ _page.menu_title }}{% else %}{{ _page.title }}{% endif %}</a>
                             </li>
                             {% endunless %}
-                        {% endfor %}
-                    </ul>
-                </li>
-            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </li>
+
         {% endfor %}
     </ul>
 
