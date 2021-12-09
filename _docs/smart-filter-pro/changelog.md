@@ -122,7 +122,7 @@ If you have experienced the issue before, please update the visual to this versi
 **Released:** 2020-04-11
 
 **Added:**
-- A new working mode, which is faster than the others and easier to use: [Search mode](mode#search).<br>
+- A new working mode, which is faster than the others and easier to use: [Search mode](mode/search).<br>
 With this mode, you can paste and filter long lists of values or search while typing, without sacrificing the overall performance.<br>
 <img src="images/changelog/v216-search-mode.gif" width="550">
 - Single selection for Observer mode.
@@ -235,7 +235,7 @@ With this mode, you can paste and filter long lists of values or search while ty
 
 ### New Hierarchy mode (beta)
 
-Smart Filter Pro now supports four different view modes: [Dropdown](mode#dropdown), [Observer](mode#observer), [Filter](mode#filter) and the new [Hierarchy mode](mode#hierarchy).
+Smart Filter Pro now supports four different view modes: [Dropdown](mode/dropdown), [Observer](mode/observer), [Filter](mode/filter) and the new [Hierarchy mode](mode/hierarchy).
 
 With the Hierarchy mode your columns are arranged in a tree view, according their relationship in the underlying model. You can select single or multiple nodes in order to filter the other charts of your reports.
 

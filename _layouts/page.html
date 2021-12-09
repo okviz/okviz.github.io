@@ -3,18 +3,19 @@ layout: default
 ---
 {% assign text_content = page.content | strip_newlines %}
 <div class="page">
-    {% include nav.html %}
+    <nav>
+        <ul>
+            <li class="l0{% if page.url == "/index" or page.url == "/" %} current{% endif %}"><a href="/" class="tree-link">Docs</a></li>
+            {% include nav.html url="/" level=1 %}
+        </ul>
+    </nav>
 
     <div class="content">
         <article>
             <header>
-   
-                {% assign collection = site.collections | where: "label", page.collection | first %}
-                {% assign default_collection_url = "/" | append: page.collection | append: "/index.html" %}
-                {% if collection.title != page.title and page.url != default_collection_url and page.url != "/" %}
-                    <div class="breadcrumb"><a href="/{{ collection.label }}" class="unseen">{{ collection.title  }}</a></div>
-                {% endif %}
-                <a href="{{ page.url }}" class="solo"><h1>{{ page.title }}</h1></a>
+                {% include breadcrumbs.html %}
+            
+                <a href="{{ page.url | remove: "index" }}" class="solo"><h1>{{ page.title }}</h1></a>
                 <hr>
             </header>
 
@@ -40,12 +41,9 @@ layout: default
 
             {{ content }}
 
-            
-
             <footer>
-
                 {% if page.last_modified_at or page.date %}
-                    <a href="https://github.com/okviz/docs/commits/main/{{ site.collections_dir }}/{{ page.path }}" title="View file history on Github" class="unseen" rel="nofollow" target="_blank"><span class="icon-github"></span></a>
+                    <a href="https://github.com/okviz/docs/commits/main{{ site.collections_dir }}/{{ page.path }}" title="View file history on Github" class="unseen" rel="nofollow" target="_blank"><span class="icon-github"></span></a>
                     
                     Last updated: 
                     {% if page.last_modified_at %}
