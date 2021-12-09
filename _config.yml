@@ -30,7 +30,9 @@ collections:
     docs:
         output: true
         permalink: /:path
-    
+
+exclude:
+  - "*.less"
 
 # Build settings
 #theme: okviz
