@@ -23,7 +23,7 @@ Contact us at [support@okviz.com](mailto:support@okviz.com?subject=Smart%20Filte
 - A **sample Power BI report (PBIX file)** that reproduces the problem.
 <br>Note that:
     - If your report contains private data, recreate it with dummy data. Or we can sign a NDA document to access the original data.
-    - If the issue is performance related or if the visual load a large amount of data, include the data as a separate Excel file.
+    - If the issue is performance related or if the visual loads a large amount of data, include the data as a separate Excel file.
     - If your report loads the visual from the Organizational Store, replace it with a local version, otherwise we won't able to check the report correctly. You can find a local version of the visual in your [Account](https://okviz.com/account/) section on the OKVIZ website.
 
 
