@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Free visuals"
+title:  "Free Visuals"
 published: true
 draft: true
 date:               2021-11-20

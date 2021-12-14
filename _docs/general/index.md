@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "General"
+title:  "OKVIZ Visuals"
 published: true
 draft: true
 date:               2021-11-17
