@@ -69,9 +69,11 @@ The syntax for querying text fields includes rules for the most common uses, but
 
 
 ### Dates
+
 <todo>TODO</todo>
 
 ### Numbers
+
 <todo>TODO</todo>
 
 > The syntax provided here is also available for the Search mode. Learn more about the [differences between Filter and Search modes](search#differences-between-search-and-filter-modes).
