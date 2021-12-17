@@ -1,12 +1,12 @@
 ---
-layout: page
-title:  "Sorting"
-published: true
-draft: true
+layout:             page
+title:              Sorting
+published:          true
 date:               2021-11-20
-last_modified_at:   
-order: 60
+modified:           2021-12-14
+order:              /02/07
+version:            2.1.1
 ---
-> Sorting options
+<todo>Sorting options</todo>
 
-> Differences between builtin and custom sorting
+<todo>Differences between builtin and custom sorting</todo>

@@ -1,14 +1,17 @@
 ---
-layout: page
-title:  "Custom Themes"
-published: true
-draft: true
+layout:             page
+title:              Custom Themes
+published:          true
 date:               2021-11-20
-last_modified_at:   
-order: 61
+modified:           2021-12-14
+order:              /02/08
+version:            2.0.6
 ---
-> What is supported?
-- The first global color is the Items back color
-- The global backgroud color is the Dropdown back color
-- The global background light color is the Border color
-- The foreground light color is the labels Font color (for Observer mode)
+<todo>What is supported?
+<ul>
+    <li>The first global color is the Items back color</li>
+    <li>The global backgroud color is the Dropdown back color</li>
+    <li>The global background light color is the Border color</li>
+    <li>The foreground light color is the labels Font color (for Observer mode)</li>
+</ul>
+</todo>

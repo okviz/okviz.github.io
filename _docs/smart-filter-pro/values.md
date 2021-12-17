@@ -1,10 +1,9 @@
 ---
-layout: page
-title:  "Values"
-published: true
-draft: true
+layout:             page
+title:              Values
+published:          true
 date:               2021-11-20
-last_modified_at:   
-order: 40
+modified:           2021-12-14
+order:              /02/05
+version:            2.2.1
 ---
-> Values options

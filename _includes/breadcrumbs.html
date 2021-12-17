@@ -2,6 +2,7 @@
 {% assign level = crumbs | size | minus: 1 %}
 
 {% if level > 1 %} 
+  <!--googleoff: snippet-->
   <div class="breadcrumbs">
     {% for crumb in crumbs offset: 1 %}
       {% unless forloop.last %}
@@ -25,4 +26,5 @@
       {% endunless %}
     {% endfor %}
   </div>
+  <!--googleon: snippet-->
 {% endif %}

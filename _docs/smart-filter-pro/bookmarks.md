@@ -1,12 +1,11 @@
 ---
-layout: page
-title:  "Bookmarks"
-published: true
-draft: true
+layout:             page
+title:              Bookmarks
+published:          true
 date:               2021-11-20
-last_modified_at:   
-order: 62
+modified:           2021-12-14 
+order:              /02/10
 ---
-> Smart Filter Pro supports bookmarks
+<todo>Smart Filter Pro supports bookmarks</todo>
 
-> Link to bookmarks explanation on Microsoft
+<todo>Link to bookmarks explanation on Microsoft</todo>

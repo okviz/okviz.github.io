@@ -1,10 +1,10 @@
 ---
-layout: page
-title:  "Sync Slicers"
-published: true
-draft: true
+layout:             page
+title:              Sync Slicers
+published:          true
 date:               2021-11-20
-last_modified_at:   
-order: 63
+modified:           2021-12-14
+order:              /02/11
+version:            2.0.2
 ---
-> How sync slicers work
+<todo>How sync slicers work</todo>

@@ -1,18 +1,17 @@
 ---
-layout: page
-title:  "Certification"
-published: true
-draft: true
+layout:             page
+title:              Certification
+published:          true
 date:               2021-11-17
-last_modified_at:
-order: 50
+modified:           2021-11-17
+order:              /01/07
 ---
-> Are OKVIZ visuals certified?
+<todo>Are OKVIZ visuals certified?</todo>
 
-> What certification means?
+<todo>What certification means?</todo>
 
-> What are the uncertified visuals limits?
+<todo>What are the uncertified visuals limits?</todo>
 
-> How to enable uncertified visuals
+<todo>How to enable uncertified visuals</todo>
 
-> External links
+<todo>External links</todo>

@@ -1,10 +1,8 @@
 ---
-layout: page
-title:  "Appearance"
-published: true
-draft: true
+layout:             page
+title:              Appearance
+published:          true
 date:               2021-11-20
-last_modified_at:   
-order: 30
+modified:           2021-12-14
+order:              /02/04
 ---
-> Appearance options

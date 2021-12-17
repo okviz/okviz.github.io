@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign text_content = page.content | strip_newlines %}
+{% assign text_content = page.content | strip_newlines | strip %}
 <div class="page">
     <nav>
         <ul>
@@ -15,21 +15,36 @@ layout: default
             <header>
                 {% include breadcrumbs.html %}
             
-                <a href="{{ page.url | remove: "index" }}" class="solo"><h1>{{ page.title }}</h1></a>
+                <a href="{{ page.url | remove: "index" }}" class="solo"><h1>{{ page.title }}
+                     {% if page.available %}
+                        <!--googleoff: snippet-->
+                        <div class="badge availability" title="Available in {{ page.available }}">{{ page.available }}</div>
+                        <!--googleon: snippet-->
+                    {% endif %}
+                    {% if page.version %}
+                        <!--googleoff: snippet-->
+                        <div class="badge version lc" title="Available from version {{ page.version }}">v{{ page.version }}</div>
+                        <!--googleon: snippet-->
+                    {% endif %}
+                </h1></a>
+               
                 <hr>
             </header>
 
-            {% if page.draft or text_content == empty %}
+            {% if page.draft or text_content contains "<todo>" or text_content == empty %}
+                <!--googleoff: snippet-->
                 <div class="draft">
                     <div class="icon icon-pencil"></div>
                     <p>
                         <strong>This page is still under development.</strong> 
-                        If you need information on this topic, please <a href="mailto:support@okviz.com?subject=Docs:%20{{ page.title | uri_escape }}">contact us</a>
+                        If you need information on this topic, please <a href="mailto:support@okviz.com?subject=Docs:{{ page.title | uri_escape }}">contact us</a>
                     </p>
                 </div>
+                <!--googleon: snippet-->
             {% endif %}
 
             {% unless page.toc == false %}
+                <!--googleoff: snippet-->
                 {% capture jekyll_toc %}{% include toc.html html=page.content h_max=page.toc_max h_min=page.toc_min %}{% endcapture %}
                 {% unless jekyll_toc == empty %}
                     <div class="toc">
@@ -37,17 +52,24 @@ layout: default
                         {{ jekyll_toc }}
                     </div>
                 {% endunless %}
+                <!--googleon: snippet-->
             {% endunless %}
+
+            
 
             {{ content }}
 
             <footer>
-                {% if page.last_modified_at or page.date %}
+                {% if page.available %}
+                    <p>The features in this page are available only in <strong>{{ page.available | replace: " | ", ", " }}</strong>.</p>
+                {% endif %}
+
+                {% if page.modified or page.date %}
                     <a href="https://github.com/okviz/docs/commits/main{{ site.collections_dir }}/{{ page.path }}" title="View file history on Github" class="unseen" rel="nofollow" target="_blank"><span class="icon-github"></span></a>
                     
                     Last updated: 
-                    {% if page.last_modified_at %}
-                        {{ page.last_modified_at | date: "%b %d, %Y" }}
+                    {% if page.modified %}
+                        {{ page.modified | date: "%b %d, %Y" }}
                     {% else %}
                         {{ page.date | date: "%b %d, %Y" }}
                     {% endif %}

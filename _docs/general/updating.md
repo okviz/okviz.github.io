@@ -1,11 +1,9 @@
 ---
-layout: page
-title:  "Updating OKVIZ custom visuals"
-menu_title: "Updating"
-published: true
-draft: true
+layout:             page
+title:              Updating Visuals
+menu_title:         Updating
+published:          true
 date:               2021-11-17
-last_modified_at:
-order: 30
+modified:           2021-11-17
+order:              /01/02
 ---
-> How to update visuals (all methods)

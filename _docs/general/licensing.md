@@ -1,12 +1,11 @@
 ---
-layout: page
-title:  "Licensing"
-published: true
-draft: true
+layout:             page
+title:              Licensing
+published:          true
 date:               2021-11-17
-last_modified_at:
-order: 40
+modified:           2021-11-17
+order:              /01/05
 ---
-> Licensing options for PRO visuals
+<todo>Licensing options for PRO visuals</todo>
 
-> Examples
+<todo>Examples</todo>

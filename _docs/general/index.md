@@ -1,12 +1,9 @@
 ---
-layout: page
-title:  "OKVIZ Visuals"
-published: true
-draft: true
+layout:             page
+title:              OKVIZ Visuals
+published:          true
 date:               2021-11-17
-last_modified_at:
-order: 0
+modified:           2021-11-17
+order:              /01
 ---
-> List OKVIZ visuals
-
-> Links to OKVIZ pages
+<todo>List OKVIZ visuals with links to external resources</todo>

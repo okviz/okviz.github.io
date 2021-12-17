@@ -2,11 +2,12 @@
 nav {
     position: fixed;
     height: calc(100% - 140px);
-    width: 240px;
+    width: 270px;
     overflow: hidden;
     overflow-y: auto;
     padding: 20px 10px;
     //background: linear-gradient(0, #fff 0%, #fafafa 100%);
+    scroll-behavior:auto;
     
     ul, li {
         list-style: none;
@@ -16,24 +17,35 @@ nav {
     ul {
         ul {
             border-left: 2px solid @border-color;
-            margin: 5px 0 0 7px;
+            
         }
     }
     li {
-        padding: 5px 20px;
+        padding: 6px 20px;
         display: none;
+        line-height: 1.4;
 
         .tree-toggle .icon {
             .icon-up;
+
+            &:before {
+                font-weight: 700;
+            }
         }
 
         &.expanded {
-            .tree-toggle .icon {
+            & > .tree-toggle .icon {
                 .icon-down;
+            }
+
+            ul {
+                margin: 5px 0 0 7px;
             }
         }
         
-
+        hr {
+            margin: 5px 0;
+        }
 
         a {
             font-weight: normal;
@@ -49,8 +61,11 @@ nav {
         }
         &.current > a.tree-link, & > a.tree-link:hover {
             color: @accent-back-color !important;
-            font-weight: 700;
+            
             //font-size: 17px;
+        }
+        &.current > a.tree-link {
+            font-weight: 700;
         }
 
         &.l0 > a {

@@ -1,16 +1,25 @@
 ---
-layout: page
-title:  "Changelog"
-published: true
-draft: false
+layout:             page
+title:              Changelog
+published:          true
 date:               2018-06-01
-last_modified_at:   2021-10-21
-order: 9999999
-#toc: false
-toc_max: 2
+modified:           2021-12-15
+order:              /02/99
+toc_max:            2
 ---
-This page contains a quick summary of versions and notable changes of Smart Filter Pro.<br>
+This page contains a quick summary of versions and notable changes of Smart Filter Pro.  
 Smart Filter Pro uses **Power BI Custom Visuals API v1.13.0** - compatible with Power BI July 2018 and later versions.
+
+## v2.2.8
+**Released:** 2021-12-31
+
+**Changed:**
+- Some options labels and tooltips.
+
+**Fixed:**
+- An issue with Max items in dropdown option.
+
+
 ## v2.2.7
 **Released:** 2021-10-21
 
@@ -34,10 +43,10 @@ Smart Filter Pro uses **Power BI Custom Visuals API v1.13.0** - compatible with 
 **Released:** 2021-08-01
 
 **Changed:**
-- “Filter other fields“ has been renamed to “Cross Filtering“.
+- ***Filter other fields*** has been renamed to ***Cross Filtering***.
 
 **Added:**
-- New cross filtering behaviors - The old behavior has been kept for backward compatibility but the default is now a corrected new version which fixes a few bugs that appeared in some scenarios. Also, a 'Sequential' behavior has been added: it can be used to filter other fields based on the order they appear in the visual.
+- [New cross filtering behaviors](mode/cross-filtering#cross-filtering-behavior) - The old behavior has been kept for backward compatibility but the default is now a corrected new version which fixes a few bugs that appeared in some scenarios. Also, a 'Sequential' behavior has been added: it can be used to filter other fields based on the order they appear in the visual.
 
 **Fixed:**
 - Custom sorting for numeric values
@@ -46,7 +55,7 @@ Smart Filter Pro uses **Power BI Custom Visuals API v1.13.0** - compatible with 
 **Released:** 2021-07-15
 
 **Added:**
-- New option to empty the whole report if no selection is set on the visual (Mode\Empty filter by default). It’s useful to limit the number of data loaded at startup with huge datasets.
+- [New option to empty the whole report](mode/empty-when-no-selection) if no selection is set on the visual. It's useful to limit the number of data loaded at startup with huge datasets.
 
 **Fixed:**
 - Problems with boolean values in Observer mode.
@@ -59,7 +68,7 @@ Smart Filter Pro uses **Power BI Custom Visuals API v1.13.0** - compatible with 
 - The ability to select multiple values in Observer mode without using CTRL.
 - The ability to paste multiple values mapped to a specific field when you are in Filter mode with Consolidate fields enabled. E.g.: you can write FIELDNAME: and then pasting multiple values to automatically apply the filter(s) to your report.
 - The ability to sort by value.
-- The ability to use the Search mode with multiple fields. In this case the visual displays a select box you can use to choose the field to use.
+- The ability to use the [Search mode](mode/search) with multiple fields. In this case the visual displays a select box you can use to choose the field to use.
 - The ability to change the background color in Observer mode.
 
 ## v2.2.2
@@ -73,21 +82,21 @@ Smart Filter Pro uses **Power BI Custom Visuals API v1.13.0** - compatible with 
 **Released:** 2020-10-14
 
 **Added:**
-- The ability to connect a measure to display its value for each category in the filter (supported by Dropdown/Observer/Hierarchy modes).<br>
-<img src="images/changelog/v221-values-dropdown.png" width="400"><br>
-<img src="images/changelog/v221-values-observer.png" width="400"><br>
+- The ability to connect a measure to [display its value](values) for each category in the filter (supported by Dropdown/Observer/Hierarchy modes).  
+<img src="images/changelog/v221-values-dropdown.png" width="400">  
+<img src="images/changelog/v221-values-observer.png" width="400">  
 <img src="images/changelog/v221-values-hierarchy.png" width="400">
-- A new option to change the text of the “Select all” button in Hierarchy mode.
+- A new option to change the text of the ***Select all*** button in Hierarchy mode.
 
 **Fixed:**
-- A fix to the position of “Select all” button.
+- A fix to the position of ***Select all*** button.
 - A fix for the control icons in Search mode.
 
 ## v2.2.0
 **Released:** 2020-09-30
 
 **Added:**
-- A new option to control how many items must be displayed before compressing the field when you are in Dropdown mode and the Compress multiple items option is enabled.
+- [A new option](mode/compress-multiple) to control how many items must be displayed before compressing the field when you are in Dropdown mode and the Compress multiple items option is enabled.
 - A few new options to control the appearance of the Hierarchy mode - now you change the expand icon, the nodes padding, and change the carets/checkboxes color.
 
 **Fixed:**
@@ -110,7 +119,7 @@ If you have experienced the issue before, please update the visual to this versi
 **Released:** 2020-04-23
 
 **Added:**
-- An option to wrap long strings.<br>
+- An option to wrap long strings.  
 <img src="images/changelog/v217-wrap.png" width="400">
 - Support to date hierarchies filtering.
 
@@ -122,8 +131,8 @@ If you have experienced the issue before, please update the visual to this versi
 **Released:** 2020-04-11
 
 **Added:**
-- A new working mode, which is faster than the others and easier to use: [Search mode](mode/search).<br>
-With this mode, you can paste and filter long lists of values or search while typing, without sacrificing the overall performance.<br>
+- A new working mode, which is faster than the others and easier to use: [Search Mode](mode/search).  
+With this mode, you can paste and filter long lists of values or search while typing, without sacrificing the overall performance.  
 <img src="images/changelog/v216-search-mode.gif" width="550">
 - Single selection for Observer mode.
 
@@ -154,7 +163,7 @@ With this mode, you can paste and filter long lists of values or search while ty
 - Improved context help.
 
 **Removed:**
-- The “Store your visual in the Organizational Custom Visuals” warning has been removed.
+- The ***Store your visual in the Organizational Custom Visuals*** warning has been removed.
 
 ## v2.1.3
 **Released:** 2020-03-09
@@ -191,13 +200,13 @@ With this mode, you can paste and filter long lists of values or search while ty
 - Incremental loading continuous fetching.
 
 **Added:**
-- Placeholder text color property.<br>
+- Placeholder text color property.  
 <img src="images/changelog/v211-placeholder-color-smart-filter-pro.png" width="500">
-- Custom sorting for multiple connected fields.<br>
+- Custom sorting for multiple connected fields.  
 <img src="images/changelog/v211-custom-sorting-smart-filter-pro.png" width="380">
 
 **Changed:**
-- New SVG icon for Visuals panel.<br>
+- New SVG icon for Visuals panel.  
 <img src="images/changelog/v211-icon.svg" width="64" class="noround noborder nomargin">
 
 ## v2.1.0
@@ -207,7 +216,7 @@ With this mode, you can paste and filter long lists of values or search while ty
 - An issue when filtering (Blank) values.
 
 **Added:**
-- An option to change the default condition for strings filtering in Filter mode.<br>
+- An option to change the default condition for strings filtering in Filter mode.  
 <img src="images/changelog/v210-default-condition-for-strings.png" width="200">
 
 
@@ -219,7 +228,7 @@ With this mode, you can paste and filter long lists of values or search while ty
 - An issue with cross selection.
 
 **Added:**
-- An option to hide blank values in Hierarchy mode.<br>
+- An option to hide blank values in Hierarchy mode.  
 <img src="images/changelog/v209-blank-option.png" width="500">
 
 ## v2.0.8

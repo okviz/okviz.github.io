@@ -1,10 +1,9 @@
 ---
-layout: page
-title:  "Free Visuals"
-published: true
-draft: true
+layout:             page
+title:              Free Visuals
+published:          true
 date:               2021-11-20
-last_modified_at:
-order: 999
+modified:           2021-11-20
+order:              /01/98
 ---
-> List of resources related to free visuals
+<todo>List of resources related to free visuals</todo>

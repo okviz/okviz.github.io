@@ -23,7 +23,6 @@ body {
     line-height: 1.7;
     color: @text-color;
     background: @back-color;
-    cursor: default !important;
     min-width: @min-width;
     height: 100%;
     overflow: hidden;
@@ -44,10 +43,7 @@ body {
     //.flex-direction(column); 
 
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: @title-font;
-    font-weight: 700;
-}
+
 h1 {
     font-size: 40px;
     line-height: 1.3;
@@ -67,6 +63,14 @@ h4{
     font-size: 18px;
     line-height: 1.6;
     margin: 20px 0 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: @title-font;
+    font-weight: 700;
+    &.nohero {
+        margin-bottom: 5px;
+    }
 }
 img, svg {
     display: inline-block;
@@ -136,21 +140,34 @@ textarea {
 }
 code {
     user-select: text;
+    background: @blockquote-back-color;
+    border: 1px solid @border-color;
+    padding:0 10px;
+    .border-radius;
+    font-size: 1.1em;
+    display: inline-block;
+    margin: 8px 5px;
+
+    blockquote & {
+        background: @back-color;
+        margin: 0 5px;
+    }
 }
 a {
     text-decoration: none;
     color: @accent-back-color;
     font-weight: 600;
     cursor: pointer;
-    .icon;
-    &:after {
-        content: "\e909";
-        font-size: 0.6em;
-        margin: 0 4px 0 2px;
-    }
+    
 
-    &[href*="#"]{
-        .noicon;
+    &[href*="mailto:"], &[href*="microsoft.com"], &[href*="github.com"], &[target="_blank"], &.cta {
+
+        .icon;
+        &:after {
+            content: "\e909";
+            font-size: 0.6em;
+            margin: 0 4px 0 2px;
+        }
     }
 
     &:visited {
@@ -208,7 +225,7 @@ a {
         opacity: .7;
     }
     &:hover:not(.disabled), &:not(.disabled).active {
-        color: darken(@control-color, 10%);
+        color: lighten(@control-color, 10%);
         background-color: darken(@control-back-color, 10%);
     }
     &.disabled {
@@ -221,6 +238,7 @@ a {
     }
     &:before, &:after {
         font-size: 16px;
+        margin:0
     }
     .dark & { 
         color: @control-color-dark; 
@@ -429,9 +447,41 @@ label[for] {
    cursor: pointer; 
 }
 
+blockquote {
+            
+    background-color: @blockquote-back-color;
+    padding: 0;
+    
+    .border-radius(8px);
+    border: 1px solid @border-color;
+    margin: 10px 0;
 
+    p {
+        .icon;
+        .icon-info;
+        margin:0;
+        padding: 15px;
+
+        &:before {
+            font-size: 1.5em;
+            margin: 0px 5px 0 0;
+            display: block;
+            float: left;
+        }
+    }
+    ul {
+        margin-top: 0;
+    }
+}
 .wrapper {
     padding: 30px;
     margin: 0 auto;
     max-width: 900px;
+}
+
+.todo {
+    display: none;
+    .show-todo & {
+        display: unset;
+    }
 }
