@@ -169,3 +169,57 @@ function highlight(resultItem){
     }
     return result;
 }
+
+class Theme{
+
+    constructor() {
+        this.device = "light";
+        this.current = localStorage.getItem("theme");;
+
+        if (window.matchMedia) {
+            let mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+            this.device = (mediaQuery.matches ? "dark" : "light");
+            mediaQuery.addEventListener("change", e => {
+                this.device = (e.matches ? "dark" : "light");
+                this.apply();
+            });
+        }
+
+        document.querySelector(".change-theme").addEventListener("click", e => {
+            e.preventDefault();
+            let newTheme = (this.current == "light" ? "dark" : (this.current == "dark" ? "auto" : "light"));
+            this.apply(newTheme);
+        });
+
+        this.apply();
+    }
+
+    apply(theme) {
+        if (!theme) theme = "auto";
+
+        this.current = theme;
+        localStorage.setItem("theme", theme);
+
+        let ctrl = document.querySelector(".change-theme .ctrl");
+        ctrl.classList.remove("icon-theme-auto", "icon-theme-light", "icon-theme-dark");
+        ctrl.classList.add(`icon-theme-${theme}`);
+
+        if (document.body.classList.contains("no-theme")) return;
+
+        if (theme == "dark" || (theme == "auto" && this.device == "dark")) {
+            document.body.classList.add("dark");
+        } else {
+            document.body.classList.remove("dark");
+        }
+
+        
+    }
+
+    get isDark() {
+        return this.current == "dark";
+    }
+    get isLight() {
+        return this.current == "light";
+    }
+}
+new Theme();

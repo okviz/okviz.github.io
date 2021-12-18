@@ -14,17 +14,26 @@
     }
 }
 .scrollbar(@thumb-color, @track-color) {
-    scrollbar-color: @track-color @thumb-color;
 
+    scrollbar-width: thin;
+    scrollbar-color: @thumb-color @track-color;
+
+    ::-webkit-scrollbar {
+        //width: 12px;
+        //height: 12px;
+    }
     ::-webkit-scrollbar, ::-webkit-scrollbar-track,
     ::-webkit-scrollbar-corner {
         background: @track-color;
     }
     ::-webkit-scrollbar-thumb {
         background: @thumb-color;
-        border:3px solid @track-color;
-        border-radius: 8px;
-        margin:0 2px;
+        border: 4px solid @track-color;
+        background-clip: padding-box;
+        border-radius: 12px;
+    }
+    ::-webkit-scrollbar-track-piece {
+        display: none;
     }
 }
 .placeholder(@color) {

@@ -29,6 +29,7 @@ body {
     
     .flexbox(flex-start, stretch, column);
     .selection(@selection-back-color, @selection-color);
+    .scrollbar(@scroll-thumb-color, @scroll-track-color);
 
     &.dark { 
         background: @back-color-dark; 
@@ -36,7 +37,7 @@ body {
 
         .selection(@selection-back-color-dark, @selection-color-dark);
 
-        .scrollbar(@border-color-dark, darken(@back-color-dark, 5%));
+        .scrollbar(@scroll-thumb-color-dark, @scroll-track-color-dark);;
     }
 
     //.flexbox();
@@ -86,7 +87,10 @@ img, svg {
 hr {
     margin: 20px 0;
     border: 0;
-    border-bottom: 2px solid @border-color;
+    border-bottom: 2px solid @hr-color;
+    .dark & {
+        border-color: @hr-color-dark;
+    }
 }
 form {
     display: inline;
@@ -95,7 +99,9 @@ input, select, textarea {
     .placeholder(@placeholder-color);
     &:focus { outline: none;}
     &::-moz-focus-inner {  border: 0; }
-    
+    color: @text-color;
+
+    .dark & { color: @text-color-dark; }
 }
 input[type=text], input[type=password], input[type=email], input[type=number], input[type=tel], textarea {
     user-select: text;
@@ -146,11 +152,20 @@ code {
     .border-radius;
     font-size: 1.1em;
     display: inline-block;
-    margin: 8px 5px;
+    margin: 2px 5px;
+    .dark & {
+        background-color: @blockquote-back-color-dark;
+        border-color: @border-color-dark;
+    }
+
 
     blockquote & {
         background: @back-color;
         margin: 0 5px;
+
+        .dark & {
+            background-color: @back-color-dark;
+        }
     }
 }
 a {
@@ -200,6 +215,14 @@ a {
         &:hover {
             color: darken(@text-color, 30%);
             //text-decoration: none;
+        }
+
+        .dark & {
+            color: @text-color-dark;
+
+            &:hover {
+                color: lighten(@text-color-dark, 30%);
+            }
         }
     }
     &.solo, &.button, &.unseen {
@@ -455,6 +478,11 @@ blockquote {
     .border-radius(8px);
     border: 1px solid @border-color;
     margin: 10px 0;
+
+    .dark & {
+        background-color: @blockquote-back-color-dark;
+        border-color: @border-color-dark;
+    }
 
     p {
         .icon;

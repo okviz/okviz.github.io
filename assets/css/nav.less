@@ -16,8 +16,11 @@ nav {
     }
     ul {
         ul {
-            border-left: 2px solid @border-color;
+            border-left: 2px solid @hr-color;
             
+            .dark & {
+                border-color: @hr-color-dark;
+            }
         }
     }
     li {
@@ -51,6 +54,8 @@ nav {
             font-weight: normal;
             color: @text-color !important;
             
+            .dark & { color: @text-color-dark !important}
+
             &:hover {
                 color: @accent-back-color !important;
                 text-decoration: none;

@@ -10,6 +10,10 @@
         position: relative;
         overflow: auto;
         border-left: 1px solid @border-color;
+
+        .dark & {
+            border-color: @border-color-dark;
+        }
     }
     .content-no-nav {
         height: 100%;
@@ -44,6 +48,13 @@
             color: @note-color;
             font-size: 14px;
             
+            .icon {
+                color: @text-color;
+
+                .dark & {
+                    color: @text-color-dark;
+                }
+            }
         }
 
         img {
@@ -87,6 +98,11 @@
             font-size: 14px;
              .flexbox(center);
 
+             .dark & {
+                background-color: @blockquote-back-color-dark;
+                border-color: @border-color-dark;
+            }
+
             .icon {
                 font-size: 25px;
                 margin:0 5px 0 0;
@@ -128,6 +144,11 @@
             &:before {
                 content: "\e906";
                 //font-size: 0.8em;
+            }
+
+            .dark & {
+                background-color: @warning-color-dark;
+                color: @text-color;
             }
 
             .show-todo & {

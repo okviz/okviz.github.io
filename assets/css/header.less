@@ -7,6 +7,11 @@ header.main {
     background: @header-back-color;
     .flexbox(center);
     
+    .dark & {
+        background: @header-back-color-dark;
+        border-color: @border-color-dark;
+    }
+
     .logo {
         .flexbox(center);
         margin: 0 20px;
@@ -22,7 +27,7 @@ header.main {
     }
 
     .search {
-        background: @back-color;
+        background: @input-back-color;
         position: relative;
         margin: 0 20px 0 50px;
         .flexbox(center);
@@ -30,7 +35,10 @@ header.main {
         .border-radius(8px);
         width: 40%;
        
-        //.shadow;
+        .dark & {
+            background: @input-back-color-dark;
+            border-color: @border-color-dark;
+        }
 
         input {
             width: calc(100% - 40px);
@@ -54,6 +62,12 @@ header.main {
         max-height: 300px;
         .shadow(0, 6px, 15px, 6px, rgba(0, 0, 0, 0.1));
 
+        .dark & {
+            background: @back-color-dark;
+            border-color: @border-color-dark;
+            .shadow(0, 6px, 15px, 6px, rgba(0, 0, 0, 0.3));
+        }
+
         ul {
             list-style: none;
             padding: 0;
@@ -64,12 +78,18 @@ header.main {
                 font-size: 14px;
                 border-top: 1px solid @border-color;
 
+                .dark & { border-color:@border-color-dark ;}
+
                 &:first-child {
                     border-top: none;
                 }
 
                 &:hover {
                     background: darken(@back-color, 5%);
+
+                    .dark & {
+                        background-color: lighten(@back-color-dark, 5%);;
+                    }
                 }
                 &.no-results {
                     color: @disabled-color;
@@ -84,15 +104,16 @@ header.main {
             }
         }
     } 
-    .todo {
+
+    .controls {
         margin-left: auto;
     }
     .gotoweb {
-        margin-left: auto;
+        margin-left: 20px;
         padding: 0 20px;
         border-left: 1px solid @border-color;
-        .show-todo & {
-            margin-left: 20px
+        .dark & {
+            border-color: @border-color-dark;
         }
     }
       
