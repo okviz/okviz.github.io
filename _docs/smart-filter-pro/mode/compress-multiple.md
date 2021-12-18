@@ -25,12 +25,12 @@ This feature can be useful if you have limited space, and you can choose to comp
 
 **Default value:** 1
 
-This option allows you to set the number of selected filter items to be displayed in the input box before compressing the field as specified by the Compress Multiple option. 
+This option allows you to set the number of selected filter items to be displayed in the input box before compressing the field as specified by the ***Compress Multiple*** option. 
 
 <img src="images/compress-multiple-2.png" width="600">
 
-For instance, let us say you set this value to 3, so until you select less than or equal to three items for filter, those three selected items will be displayed in the input box which is the usual behavior.
+For instance, let us say you set this value to 3, so until you select less than or equal to three items for filtering, those three selected items will be displayed in the input box which is the usual behavior.
 
 <img src="images/compress-multiple-3.png" width="600">
 
-As soon as you select more than three items for filter, the field will be compressed and the input box will display a shorter compressed description of the field name along with the number of items selected. 
+As soon as you select more than three items for filtering, the field will be compressed and the input box will display a shorter compressed description of the field name along with the number of items selected. 

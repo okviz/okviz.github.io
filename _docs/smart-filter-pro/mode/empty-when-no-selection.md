@@ -17,7 +17,7 @@ This option, if enabled, applies an empty filter to the report if no user select
 
 <todo>Retake the screenshot: we need a single screenshot split into two screens, one before and the other after applying the option.</todo>
 
-In above example, you see that an empty filter is applied to the report as there is no item specified for filter in the input text box.
+In above example, you see that an empty filter is applied to the report as there is no item specified for filtering in the input text box.
 
 > The empty filter is actually a special filter that, when applied to the report, ***almost certainly*** produces no results. With some datasets, in fact, you may see unexpected results – here are the real values the filter assumes based on the type of the parent field:
 - **Text:** _@£$%

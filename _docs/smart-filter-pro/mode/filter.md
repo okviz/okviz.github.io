@@ -7,7 +7,7 @@ date:               2021-12-09
 modified:           2021-12-16
 order:              /02/03/02
 toc_max:            3
-internal:           filters
+internal:           filter
 ---
 The Filter mode in Smart Filter Pro allows advanced data queries by defining conditions using wildcards, comparison, and logical operators. The filter conditions – one or more – are written with a simple syntax giving instant results. One can search for specific date intervals, for numbers smaller or greater than others, for strings within a piece of text, and so on. 
 
@@ -185,7 +185,7 @@ Moreover, loading many items in the visual increases the memory consumed, potent
 
 ## No Data Limits
 
-Another benefit of Filter mode is that there are no limits on the volume of the dataset it can filter, because it doesn't load data into memory and therefore the common [limits set by Power BI](https://docs.microsoft.com/en-us/power-bi/developer/visuals/fetch-more-data#known-limitations-of-fetchmoredata) don't apply here. The other modes (except Search mode), on the other hand, cannot load more than **1,048,576 rows** and cannot exceed more than **100 MB of memory**.
+Another benefit of Filter mode is that there are no limits on the volume of the dataset it can filter. That's because it doesn't load data into memory and, therefore, the common [limits set by Power BI](https://docs.microsoft.com/en-us/power-bi/developer/visuals/fetch-more-data#known-limitations-of-fetchmoredata) don't apply here. The other modes (except Search mode), on the other hand, cannot load more than **1,048,576 rows** and cannot exceed more than **100 MB of memory**.
 
 
 ## Options
