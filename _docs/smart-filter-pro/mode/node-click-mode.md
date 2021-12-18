@@ -39,5 +39,3 @@ Clicking on a label expands/collapses the node to which the label belongs.
 Clicking on a label expands/collapses the node to which the label belongs AND toggles the selection on the checkbox.
 
 <todo>Take a screencast</todo>
-
-.
