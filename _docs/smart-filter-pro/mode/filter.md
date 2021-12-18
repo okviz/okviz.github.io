@@ -45,7 +45,7 @@ The syntax for querying text fields includes rules for the most common uses:
     - `*udio` **is not supported** and won't return any results.
     - `a??io` returns values starting with ***a***, followed by two characters and ending with ***io***.
 
-    <todo>Take a screenshot</todo>
+    <img src="images/filter-mode-2.png" width="350">
 - #### Exact match {#exact}
     You can perform an exact match search without using any special characters if the [Default Condition for Text](default-text-condition) is set to ***Equal to***, otherwise you need to enclose your keyword in double quotes.
 
@@ -53,7 +53,7 @@ The syntax for querying text fields includes rules for the most common uses:
     - `audio` returns all values equal to ***audio*** if the default condition for text is ***Equal to***, otherwise returns all values containing ***audio*** (see [Containing Text](#contains)).
     - `"audio"` returns all values equal to ***audio***.
 
-    <todo>Take a screenshot</todo>
+    <img src="images/filter-mode-3.png" width="350">
 
 - #### Not Containing/Match Text
 
@@ -66,7 +66,7 @@ The syntax for querying text fields includes rules for the most common uses:
    - `!*audio*` returns all values except those that include ***audio***.
    - `!aud*` returns all values except those starting with ***aud***.
    
-   <todo>Take a screenshot</todo>
+   <img src="images/filter-mode-4.png" width="350">
 
     > The Not condition is quite limited - **you cannot add more than 20 keywords with Not** in the same query.
 
