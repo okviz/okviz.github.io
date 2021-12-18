@@ -164,19 +164,9 @@ The available operators are:
 - #### OR
     Use it when you want at least one of the specified conditions to be satisfied.
 
-<<<<<<< HEAD
     <todo>Take a screenshot with interactive OR</todo>
 
 You can set the operator with a specific option: [Keywords Operator](keywords-operator).
-=======
-### Dates
-
-<todo>TODO</todo>
-
-### Numbers
-
-<todo>TODO</todo>
->>>>>>> 1db87eda9f52a5c3926f9f49928609293787930f
 
 
 ## Performance Boost
