@@ -58,7 +58,7 @@ For instance, suppose you choose a country Syria that has only sold products in 
 
 <img src="images/cross-filtering-sequential-2.png" width="700">
 
-So, you can see that even though there are only three possible categories for Syria, but the ***Category*** dropdown list is still showing all the available categories with the cross filtering behavior working only from top to bottom.
+So, you can see that even though there are only three possible categories for Syria, but the ***Category*** dropdown list is still showing all the available categories with the cross-filtering behavior working only from top to bottom.
 
 ### Legacy
 

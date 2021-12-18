@@ -10,7 +10,7 @@ order:              /02/03/05
 internal:           hierarchy
 version:            2.0.8
 ---
-The Hierarchy mode arranges the fields connected to Smart Filter Pro in a tree view as per their relationship in the underlying model. You can select single or multiple nodes in order to filter other visuals of the reports.
+The Hierarchy mode arranges the fields connected to Smart Filter Pro in a tree view as per their relationship in the underlying model. You can select single or multiple nodes to filter other visuals of the reports.
 
 <img src="images/hierarchy-mode.png" width="700">
 

@@ -66,7 +66,7 @@ Smart Filter Pro uses **Power BI Custom Visuals API v1.13.0** - compatible with 
 
 **Added:**
 - The ability to select multiple values in Observer mode without using CTRL.
-- The ability to paste multiple values mapped to a specific field when you are in Filter mode with Consolidate fields enabled. E.g.: you can write FIELDNAME: and then pasting multiple values to automatically apply the filter(s) to your report.
+- The ability to paste multiple values mapped to a specific field when you are in Filter mode with Consolidate fields enabled. E.g.: you can write FIELDNAME: and then paste multiple values to automatically apply the filter(s) to your report.
 - The ability to sort by value.
 - The ability to use the [Search mode](mode/search) with multiple fields. In this case the visual displays a select box you can use to choose the field to use.
 - The ability to change the background color in Observer mode.
@@ -100,13 +100,13 @@ Smart Filter Pro uses **Power BI Custom Visuals API v1.13.0** - compatible with 
 - A few new options to control the appearance of the Hierarchy mode - now you change the expand icon, the nodes padding, and change the carets/checkboxes color.
 
 **Fixed:**
-- An issue that prevented to change the placeholders color in Firefox.
+- An issue that prevented changing the color of placeholders in Firefox.
 
 ## v2.1.9
 **Released:** 2020-05-08
 
 **Fixed:**
-- An issue that prevented to change the font family of labels and placeholders.
+- An issue that prevented changing the font family of labels and placeholders.
 
 ## v2.1.8
 **Released:** 2020-05-03
@@ -124,7 +124,7 @@ If you have experienced the issue before, please update the visual to this versi
 - Support to date hierarchies filtering.
 
 **Fixed:**
-- An issue with multiple fields filtering (regression form previous version).
+- An issue with multiple fields filtering (regression from previous version).
 - Appearance of controls icons for Search mode.
 
 ## v2.1.6
@@ -246,7 +246,7 @@ With this mode, you can paste and filter long lists of values or search while ty
 
 Smart Filter Pro now supports four different view modes: [Dropdown](mode/dropdown), [Observer](mode/observer), [Filter](mode/filter) and the new [Hierarchy mode](mode/hierarchy).
 
-With the Hierarchy mode your columns are arranged in a tree view, according their relationship in the underlying model. You can select single or multiple nodes in order to filter the other charts of your reports.
+With the Hierarchy mode your columns are arranged in a tree view, according to their relationship in the underlying model. You can select single or multiple nodes to filter the other charts of your reports.
 
 <img src="images/changelog/v208-hierarchy-2.png" width="170">
 <img src="images/changelog/v208-hierarchy.png" width="280">
@@ -315,7 +315,7 @@ With the Hierarchy mode your columns are arranged in a tree view, according thei
 **Added:**
 - FilterMultiple option.
 - Consolidate Filters option.
-- Multi selection to Observer mode.
+- Multi-selection to Observer mode.
 
 **Changed:**
 - Start ignoring white spaces in search.

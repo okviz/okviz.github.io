@@ -28,7 +28,7 @@ You can choose between:
 
 Let us say you want to filter and find out which product offerings include camcorders as the subcategory. Now if you type `camcorders` in the input box, and the ***Default Condition for Text*** is chosen as ***Equal to***, then the results will be filtered displaying the ***Camcorders*** category. 
 
-Using ***Equal to*** as default condition is equivalent to write `"camcorders"` in the input box, and for this reason the visual alters the entered keyword by automatically enclosing it in double quotes.
+Using ***Equal to*** as the default condition is equivalent to write `"camcorders"` in the input box, and for this reason, the visual alters the entered keyword by automatically enclosing it in double quotes.
 
 <img src="images/default-condition-1.png" width="750">
  
