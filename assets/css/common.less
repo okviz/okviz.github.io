@@ -58,12 +58,17 @@ h2 {
 h3 {
     font-size: 22px;
     line-height: 1.5;
-    margin: 20px 0 15px;
+    margin: 20px 0 15px 0;
 }
 h4{
     font-size: 18px;
     line-height: 1.6;
-    margin: 20px 0 15px;
+    margin: 20px 0 15px 0;
+}
+h5, h6 {
+    font-size: 1em;
+    line-height: 1.6;
+    margin: 20px 0 0 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -175,7 +180,7 @@ a {
     cursor: pointer;
     
 
-    &[href*="mailto:"], &[href*="microsoft.com"], &[href*="github.com"], &[target="_blank"], &.cta {
+    &[href*="mailto:"], &[href*="microsoft.com"], &[href*="github.com"], &[href*="wikipedia.org"], &[target="_blank"], &.cta {
 
         .icon;
         &:after {
@@ -477,7 +482,7 @@ blockquote {
     
     .border-radius(8px);
     border: 1px solid @border-color;
-    margin: 10px 0;
+    margin: 10px 0 30px 0 ;
 
     .dark & {
         background-color: @blockquote-back-color-dark;
