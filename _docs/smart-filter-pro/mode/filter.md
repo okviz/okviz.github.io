@@ -4,7 +4,7 @@ title:              Filter Mode
 menu_title:         Filter
 published:          true
 date:               2021-12-09
-modified:           2021-12-16
+modified:           2021-12-19
 order:              /02/03/02
 toc_max:            3
 internal:           filter
@@ -75,26 +75,28 @@ The syntax for querying text fields includes rules for the most common uses:
 The Filter mode provides a simple syntax to perform advanced queries on date fields:
 
 > <span id="ISO8601"></span>
-    The recommended format for entering dates is [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601), but you can use a slight variation that best suits you. For example: `2018-01-15`, `2018.1.15` or `20180115` are all valid and represent ***Jan 15, 2018***.
+    The recommended format for entering dates is [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601), but you can use a slight variation that best suits you. For example: `2008-01-15`, `2008.1.15` or `20080115` are all valid and represent ***Jan 15, 2008***.
 
 - #### Dates Comparison
 
     You can use the common comparison operators to search for dates:
-    - `2018-01-15` (no operators) searches for an **exact match**.
-    - `>2018-01-15` apply a **greater than** comparison.
-    - `>=2018-01-15` apply a **greater than or equal to** comparison.
-    - `<2018-01-15` apply a **less than** comparison.
-    - `<=2018-01-15` apply **less than or equal to** comparison.
-    - `!2018-01-15` searches for dates different from the one provided – **max 20 of these comparisons are allowed**.
+    - `2008-01-15` (no operators) searches for an **exact match**.
+    - `>2008-01-15` apply a **greater than** comparison.
+    - `>=2008-01-15` apply a **greater than or equal to** comparison.
+    - `<2008-01-15` apply a **less than** comparison.
+    - `<=2008-01-15` apply **less than or equal to** comparison.
+    - `!2008-01-15` searches for dates different from the one provided – **max 20 of these comparisons are allowed**.
+
+    <img src="images/filter-mode-5.png" width="350">
 
    Date comparisons are not limited to days, you can also enter years or months and the filter will transform them to the first day of the period, if the comparison uses ***>***, and to the last day, if the operator is ***<***. 
    
    For example:
-   - `>2018` means `>2017-12-31`  
-   - `<2018-01` means `<2018-01-01`  
-   - `2018` or `!2018` means that you are searching for a date range. See below for more details.
+   - `>2008` means `>2007-12-31`  
+   - `<2008-01` means `<2008-01-01`  
+   - `2008` or `!2008` means that you are searching for a date range. See below for more details.
 
-   <todo>Take a screenshot</todo>
+   <img src="images/filter-mode-6.png" width="350">
 - #### Date Ranges
 
     You can query date ranges by combining two different comparisons and using the [AND operator](#operators), or you can just use one of these shorthand syntaxes:
@@ -102,30 +104,30 @@ The Filter mode provides a simple syntax to perform advanced queries on date fie
     - ##### Year  
         You can query a single a year with a 4-digit number, instead of two conditions.  
         For example: 
-        - `2018` is equivalent to `>=2018-01-01` AND `<=2018-12-31` 
-        - `!2018` is equivalent to `<2018-01-01` AND `>2018-12-31`
+        - `2008` is equivalent to `>=2008-01-01` AND `<=2008-12-31` 
+        - `!2008` is equivalent to `<2008-01-01` AND `>2008-12-31`
 
     - ##### Years Range 
         You can query a range of years with two numbers connected by a dash ***_***.  
         For example: 
-        - `2018_2021` is equivalent to `>=2018-01-01` AND `<=2021-12-31`
+        - `2008_2010` is equivalent to `>=2008-01-01` AND `<=2010-12-31`
 
     - ##### Month 
         You can query a single month with an **ISO 8601** number (or a variation of it).  
         For example: 
-        - `2018-01` is equivalent to `>=2018-01-01` AND `<=2018-01-31`
+        - `2008-01` is equivalent to `>=2008-01-01` AND `<=2008-01-31`
 
     - ##### Months Range
         As for the years, you can create complex ranges by using a dash ***_*** with months.  
         For example: 
-        - `2018.1_2021.6` is equivalent to `>=2018-01-01` AND `<=2021-06-30`
+        - `2008.1_2010.6` is equivalent to `>=2008-01-01` AND `<=2010-06-30`
 
     - ##### Days Range 
         The dash ***_*** is available also with days - use the [ISO 8601 format](#ISO8601) as described above.  
         For example: 
-        - `20180115_20210615` is equivalent to `>=2018-01-15` AND `<=2021-06-15`  
+        - `20080115_20100615` is equivalent to `>=2008-01-15` AND `<=2010-06-15`  
 
-    <todo>Take a screenshot</todo>
+    <img src="images/filter-mode-7.png" width="350">
 
     > Note that these shortened ranges are inclusive - the first and last dates of the range are always included.
 
@@ -141,7 +143,7 @@ The syntax available for date fields is also supported by number fields. You can
 - `!100` means **not** comparison.
 - `100_200` searches for a range of values between ***100*** and ***200***.
 
-<todo>Take a screenshot</todo>
+<img src="images/filter-mode-8.png" width="450">
 
 ### Case
 
@@ -153,18 +155,11 @@ For example:
 
 In Filter mode, you can choose the logical operator to combine different conditions for each field. This means that all conditions share the same operator, but you can have different operators in each field.
 
-<todo>Take a screenshot with different condition in different fields</todo>
+<img src="images/filter-mode-9.png" width="350">
 
 The available operators are:
-- #### AND
-    Use it when you want all the specified conditions to be satisfied.
-
-    <todo>Take a screenshot with interactive AND</todo>
-
-- #### OR
-    Use it when you want at least one of the specified conditions to be satisfied.
-
-    <todo>Take a screenshot with interactive OR</todo>
+- **AND**: Use it when you want all the specified conditions to be satisfied.
+- **OR**: Use it when you want at least one of the specified conditions to be satisfied.
 
 You can set the operator with a specific option: [Keywords Operator](keywords-operator).
 
@@ -177,7 +172,7 @@ One of the main advantages of the Filter mode is the performance boost it offers
 
 The performance boost is more evident when we use a high cardinality column – a column that displays multiple distinct values – for filtering data. For instance, let us say you use the Dropdown mode and select ***Order Number*** – a high cardinality column – from the ***Sales*** table. 
 
-<todo>Take a screenshot of the example</todo>
+<todo assign="@twinkle">Take a screenshot of the example</todo>
 
 When you start typing order numbers in the textbox, the order numbers do not appear as immediately as they would for a column which is not a high cardinality column – ***Product Category***, for example.  Thus, the result set loading time is longer in Dropdown mode.
 
