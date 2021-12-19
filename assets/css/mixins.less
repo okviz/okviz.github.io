@@ -173,16 +173,28 @@
     .border-radius(8px);
     border: 1px solid darken(@badge-back-color, 10%);
     letter-spacing: .5px;
+    cursor: default;
 
     &.availability {
         background-color: @availability-back-color;
         color: @availability-color;
-        border: 1px solid darken(@availability-back-color, 10%);
+        border-color: darken(@availability-back-color, 10%);
     }
     &.version {
         background-color: @version-back-color;
         color: @version-color;
-        border: 1px solid darken(@version-back-color, 10%);
+        border-color: darken(@version-back-color, 10%);
+    }
+    &.assign {
+        display: inline-block;
+        text-transform: lowercase;
+        letter-spacing: normal;
+
+        padding: 4px 8px;
+        margin: 0 5px;
+        &[data-assign=""] {
+            display: none;
+        }
     }
 }
 h1, h2, h3, h4, h5, h6 {
