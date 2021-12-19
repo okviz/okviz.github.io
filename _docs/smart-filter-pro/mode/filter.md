@@ -20,7 +20,7 @@ The Filter mode is very useful when you are dealing with huge datasets, and load
 
 ## How to Search
 
-Unlike the Dropdown mode, which only allows simple exact-match queries, Filter mode supports advanced and powerful queries that you can you use to slice your data uniquely.
+Unlike the Dropdown mode, which only allows simple queries, Filter mode supports advanced and powerful queries that you can you use to slice your data uniquely.
 
 The syntax available differs depending on the type of the field to the visual, so here are the options for each type. Multiple conditions are combined using a [logical operator](#operators) specific for each field.
 
