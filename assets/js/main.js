@@ -191,7 +191,7 @@ class Theme{
             this.apply(newTheme);
         });
 
-        this.apply();
+        this.apply(this.current);
     }
 
     apply(theme) {
