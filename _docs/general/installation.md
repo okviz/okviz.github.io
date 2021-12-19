@@ -11,6 +11,6 @@ OKVIZ visuals (like any other custom visuals for Power BI) are packed as files w
 ### Import a visual from a file
 <todo></todo>
 ### Import a visual from the AppSource
-<todo></todo>
+
 ### Install a visual in your organization marketplace
 <todo></todo>
