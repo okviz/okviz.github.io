@@ -1,14 +1,8 @@
 ---
 layout: default
 ---
-{% assign text_content = page.content | strip_newlines | strip %}
 <div class="page">
-    <nav>
-        <ul>
-            <li class="l0{% if page.url == "/index" or page.url == "/" %} current{% endif %}"><a href="/" class="tree-link">Docs</a></li>
-            {% include nav.html url="/" level=1 %}
-        </ul>
-    </nav>
+    {% include page-nav.html %}
 
     <div class="content">
         <article>
@@ -31,31 +25,9 @@ layout: default
                 <hr>
             </header>
 
-            {% if page.draft or text_content contains "<todo>" or text_content == empty %}
-                <!--googleoff: snippet-->
-                <div class="draft">
-                    <div class="icon icon-pencil"></div>
-                    <p>
-                        <strong>DRAFT</strong> &nbsp;&nbsp; This page is not complete –
-                        if you need information on this topic, please <a href="mailto:support@okviz.com?subject=Docs:{{ page.title | uri_escape }}">contact us</a>
-                    </p>
-                </div>
-                <!--googleon: snippet-->
-            {% endif %}
+            {% include draft.html %}
 
-            {% unless page.toc == false %}
-                <!--googleoff: snippet-->
-                {% capture jekyll_toc %}{% include toc.html html=page.content h_max=page.toc_max h_min=page.toc_min %}{% endcapture %}
-                {% unless jekyll_toc == empty %}
-                    <div class="toc">
-                        <strong class="uc">In this page</strong>
-                        {{ jekyll_toc }}
-                    </div>
-                {% endunless %}
-                <!--googleon: snippet-->
-            {% endunless %}
-
-            
+            {% include page-toc.html %}
 
             {{ content }}
 
