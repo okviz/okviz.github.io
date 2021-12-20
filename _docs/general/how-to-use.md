@@ -8,5 +8,3 @@ modified:           2021-12-14
 order:              /01/03
 ---
 <todo>How to use a custom visual (brief description - link to Microsoft resources)</todo>
-
-<todo>Something to check</todo>
