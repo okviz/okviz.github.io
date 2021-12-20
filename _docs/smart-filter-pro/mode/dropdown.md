@@ -14,7 +14,7 @@ The Dropdown mode in Smart Filter Pro allows you to select items for filtering d
  
 ## Incremental Loading
 
-The Dropdown mode populates the drop-down list using a tecnique called ***Incremental Loading*** – it doesn't load all data at once, but requests small blocks of values (5000) at a time, completing the list incrementally. This means that, with a large volume of data, this process may take several seconds during which some values are not available for queries.  
+The Dropdown mode populates the drop-down list using a technique called ***Incremental Loading*** – it doesn't load all data at once, but requests small blocks of values (5000) at a time, completing the list incrementally. This means that, with a large volume of data, this process may take several seconds during which some values are not available for queries.  
 
 > Keep in mind that you can limit the [number of rows to retrieve](max-rows) with a specific option.
 
@@ -25,8 +25,18 @@ For this reason, the **Dropdown mode is not recommended with fields greater than
 
 ## How to Search
 
+The Dropdown mode searches for input keywrdo
 <todo>Explain how search works in this mode (no wildcards support, case insensitive) - Mention that the "Contains" vs "Start with" match is affected by the Autocomplete option.</todo>
 
+### Case
+
+Search in Dropdown mode is always case insensitive - you can write keywords in any case and the matching algorithm won't rely on that.  
+For example: 
+- `Audio` and `audio` produce the same results.
+
+### Operator
+
+In Dropdown mode, all keywords are always applied with the logical **OR** operator, which means that any value that matches at least one of the input keywords is returned as a result.
 
 ## Options
 

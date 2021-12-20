@@ -31,9 +31,9 @@ This option allows you to choose how the cross-filtering is applied:
  
 ### Every field
 
-With Every field option, the cross-filtering feature works for all the fields in similar manner – the filter is applied not only from top to bottom, but also from bottom to top. So, if an item is selected from the first filter, then the second filter dropdown list will only contain possible list of items related to the selected value of first filter. Similarly, if an item is selected from the second filter, then the first filter dropdown list will only contain possible list of items related to the selected value of second filter.
+With Every field option, the cross-filtering feature works for all the fields in similar manner – the filter is applied not only from top to bottom, but also from bottom to top. So, if an item is selected from the first filter, then the second filter dropdown list will only contain the possible list of items related to the selected value of the first filter. Similarly, if an item is selected from the second filter, then the first filter dropdown list will only contain the possible list of items related to the selected value of the second filter.
 
-Let us say you have product category and country fields in Smart Filter Pro.  
+Let us say you have ***Product Category*** and ***Country*** fields in Smart Filter Pro.  
 If you select ***Music, Movies and Audio Books*** from the ***Category*** dropdown, then the ***Country*** dropdown is populated with countries that only contain sales in the ***Music, Movies and Audio Books*** category. 
 
 <img src="images/cross-filtering-every-field-1.png" width="700">

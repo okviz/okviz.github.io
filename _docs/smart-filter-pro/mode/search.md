@@ -9,7 +9,7 @@ order:              /02/03/03
 internal:           search
 version:            2.1.6
 ---
-Search mode is the simplified version of the [Filter mode](filter). This working mode is faster and easier to use. It allows entering or pasting long list of values and dynamic searching without sacrificing the overall performance. The Search mode allows to apply filters even automatically on typing.
+Search mode is the simplified version of the [Filter mode](filter). This working mode is faster and easier to use. It allows entering or pasting a long list of values and dynamic searching without sacrificing the overall performance. The Search mode allows to apply filters even automatically on typing.
 
 <img src="images/search-mode.png" width="600">
 

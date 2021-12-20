@@ -168,11 +168,11 @@ You can set the operator with a specific option: [Keywords Operator](keywords-op
 
 One of the main advantages of the Filter mode is the performance boost it offers. The Dropdown, Observer, and Hierarchy modes load all the items in memory, regardless of the filters applied by the user. **The Filter mode is faster as it doesn't load the values at all, but only applies a filter to the report.** 
 
-> In Dropdown, Observer, and Hierarchy modes, data is loaded incrementally when the visual is rendered and whenever a filter is applied to the report from any other visual. This means that clicking on any chart to slice the data in the report reactivates the process and could take many seconds to complete, depending on the number of rows in the column.
+> In Dropdown, Observer, and Hierarchy modes, data is [loaded incrementally](dropdown#incremental-loading) when the visual is rendered and whenever a filter is applied to the report from any other visual. This means that clicking on any chart to slice the data in the report reactivates the process and could take many seconds to complete, depending on the number of rows in the column.
 
-The performance boost is more evident when we use a high cardinality column – a column that displays multiple distinct values – for filtering data. For instance, let us say you use the Dropdown mode and select ***Order Number*** – a high cardinality column – from the ***Sales*** table. 
+The performance boost is evident when we use a high cardinality column – a column that displays multiple distinct values – for filtering data. For instance, let us say you use the Dropdown mode and select ***Order Number*** – a high cardinality column – from the ***Sales*** table. 
 
-<todo assign="@twinkle">Take a screenshot of the example</todo>
+<todo>Take a screenshot of the example</todo>
 
 When you start typing order numbers in the textbox, the order numbers do not appear as immediately as they would for a column which is not a high cardinality column – ***Product Category***, for example.  Thus, the result set loading time is longer in Dropdown mode.
 
