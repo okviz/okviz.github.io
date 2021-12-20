@@ -11,4 +11,4 @@ Welcome to OKVIZ Documentation for Power BI Custom Visuals.
 
 <todo>Show all the first level nodes</todo>
 
-<todo>Marco added this todo</todo>
+<todo>This was wrong</todo>
