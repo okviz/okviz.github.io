@@ -362,8 +362,8 @@ URL is invisible to the end user and can be:
 #### Images
 
 You are not allowed to embed images in Markdown documents like in Word, but they must be referenced from another location. This means that you need to place image files in a separate folder to use them in a document.
-The rule is to create a folder called images in the parent folder of the document and put all the images in it.
 
+Always create a folder called images in the parent folder of the document you are working on (if not exists) and put all the images in it.  
 For example, the images of ***smart-filter-pro/about.md*** must be placed in the folder ***_docs/smart-filter-pro/images/***.
 
 To insert an image into a document you can use this syntax:
@@ -376,6 +376,11 @@ For example, ***smart-filter-pro/about.md*** contains the image ***check-for-upd
 
     <img src="images/check-for-updates.png" width="200">
 
+> **PNG is the preferred format for images**. Use JPG only if the image is a photography.
+You can use GIF images too, but the problem with this format is the size - it gets too big very quickly when you record something on the screen (screencasting).  
+In general, an **acceptable file size is less than 150KB**.
+
+
 #### TODO/Placeholders
 
 You can add some placeholders and notes in unfinished documents, to keep track of the content to be edited or the tasks to be performed. You can also define an assignment attribute with the contributor's username.
@@ -383,9 +388,3 @@ You can add some placeholders and notes in unfinished documents, to keep track o
     <todo>Retake the screenshot</todo>
 
     <todo assign="danieleperilli">Complete this section</todo>
-
-## Best Practices
-
-Follow these best practices to make the docs clean and consistent.
-
-<todo>TODO</todo>
