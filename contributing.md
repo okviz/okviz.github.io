@@ -31,11 +31,8 @@ To edit the docs you need to follow the steps below:
     1. [Synchronize your Local Copy](#synchronize-your-local-copy)
     2. [Create a Branch](#create-a-branch)
     3. [Make your Changes](#make-your-changes)
-    4. [Synchronize your Local Copy](#synchronize-your-local-copy-1)
-    5. [Commit your Changes](#commit-your-changes)
-    6. [Create a Pull Request](#create-a-pull-request)  
-    7. [Switch Back to main](#switch-back-to-main) 
-
+    4. [Commit your Changes](#commit-your-changes)
+    5. [Create a Pull Request](#create-a-pull-request)  
 
 - **Approve Changes** (for reviewers only):
     1. [Review the Pull Request](#review-the-pull-request)  
@@ -47,30 +44,31 @@ You need to follow the steps below only the first time.
 1. #### Install Git
 
     Download Git from <https://git-scm.com/> and install it using the default options.
+
+    After installing it, you need to configure your Github account – to do that:
+
+    1. Open Command Prompt (or Terminal on Mac).
+        The easiest way to do that is from search tool in the ***Start*** menu - search for ***cmd*** and click on the first result.
+        
+        <img src="assets/images/contributing/cmd.png" width="600">
+
+    2. At the command prompt, enter the following commands (replace ***your-email@domain.com*** and ***your-username*** with the ones you registered on Github): 
+        - `git config --global user.email "your-email@domain.com"` (press Enter)
+        - `git config --global user.name "your-username"` (press Enter)
+
+    <img src="assets/images/contributing/git-config.png" width="550">
+    
 2. #### Install VSCode
 
     While it is possible to edit repo documents directly through the Github website, it's easier to use a desktop tool such as Visual Studio Code (**VSCode**). 
 
     Download VSCode from <https://code.visualstudio.com/> and install it.
 
-    After installing it, you need to configure your Github account – to do that:
-
-    1. Open VSCode
-
-    2. Click on ***Terminal*** \ ***New Terminal*** on the top file menu
-        <img src="assets/images/contributing/terminal.png" width="600">
-
-    3. On the terminal area at the bottom of the editor, insert the following commands (replace ***your-email@domain.com*** and ***your-username*** with the ones you have registered on Github): 
-        - `git config --global user.email "your-email@domain.com"` (press Enter)
-        - `git config --global user.name "your-username"` (press Enter)
-
-    <img src="assets/images/contributing/git-config.png" width="550">
-
 3. #### Clone the Repo
 
     Cloning a repository means creating a local copy of a remote repository on your computer. You can make any changes on your local copy and then, send those changes back online through a **Commit**.
 
-    To clone the repo, click on the ***Clone Repository*** button in the Editors sidebar of VSCode and insert this repository URL: `https://github.com/okviz/docs.git`
+    To clone the repo, open VSCode, click on the ***Clone Repository*** button in the ***Editors*** sidebar, and insert this repository URL: `https://github.com/okviz/docs.git`
 
     <img src="assets/images/contributing/clone-repo.png" width="700">
 
@@ -92,8 +90,6 @@ A session starts with synchronization and ends with a Pull Request.
 
     <img src="assets/images/contributing/pull.png" width="450">
 
-    > Note that someone may be making some changes to the same files you are working on after the Pull. For this reason, it is a good practice to repeat the Pull also before committing your changes. VSCode helps you resolve any conflicts that may arise.
-
 2. #### Create a Branch
 
     Now that you have the latest content on your computer, you need to create a new branch.  
@@ -105,13 +101,13 @@ A session starts with synchronization and ends with a Pull Request.
 
     To create a new branch, click on the label ***main*** on the lower-left corner of the VSCode window. Then click ***Create new branch...***, and enter a name in the format `username-YYYY-MM-DD` (replace ***username*** with your Github username and ***YYYY-MM-DD*** with the current date in ISO 8601 format).
 
-    <todo>Take a screenshot of creating a new branch</todo>
+    <img src="assets/images/contributing/create-branch.png" width="550">
 
 3. #### Make your Changes
 
     At this point, you are working on a different branch (you see the name of the branch you have just created in the lower-left corner of the VSCode window - if the name is still ***main***, click on the name and select the correct one).
 
-    <todo>Take a screenshot of the branch name</todo>
+    <img src="assets/images/contributing/branch-name.png" width="200">
 
     The only place containing documents you may want to change is the **_docs** directory:
 
@@ -133,10 +129,8 @@ A session starts with synchronization and ends with a Pull Request.
     <img src="assets/images/contributing/preview-pane.png" width="850">
 
     After editing the files, save them and you are ready for the next steps.
-4. #### Synchronize your Local Copy
 
-    Same as [#1](#synchronize-your-local-copy).
-5. #### Commit your Changes
+4. #### Commit your Changes
 
     Committing a change means sending the files you changed locally back to the online repo. In fact, before committing, all changes are stored only in your local computer.
 
@@ -144,24 +138,32 @@ A session starts with synchronization and ends with a Pull Request.
 
     <img src="assets/images/contributing/commit.png" width="850">
 
-    The first time you commit something, VSCode needs to be authorized to access your Github account. Click on **Sign in with your browser** on the dialog box that appears, and follow the on-screen instructions to proceed.
+    Then click ***Publish Branch***.
 
-    <img src="assets/images/contributing/signin.png" width="300">
+    <img src="assets/images/contributing/publish-branch.png" width="300">
 
-6. #### Create a Pull Request
+    > The first time you commit something, VSCode needs to be authorized to access your Github account. Click on **Sign in with your browser** on the dialog box that appears, and follow the on-screen instructions to proceed.  
+    > <img src="assets/images/contributing/signin.png" width="300">
+
+    
+
+5. #### Create a Pull Request
 
     At this point your changes are online on another branch, not visible on the website. You want to make them available to everyone, but you can't commit them directly to the ***main*** branch because every change requires approval. To request approval, you need to create a Pull Request (**PR**).
 
-    <todo>TODO</todo>
+    First of all, go to the repo on Github (<https://github.com/okviz/docs>), ***Sign in*** if you are not logged in, then click on ***Compare & pull request*** button that should appear on top of the files list.
+    
+    <img src="assets/images/contributing/pr-1.png" width="700">
 
-7. #### Switch Back to main
+    On the next page you can add more details to the request you are making and you can review all the changes you made. Also, note the top bar with the merge information - you are asking to merge you patch branch to the main branch.
 
-    After sending the PR, you need to switch back your local repo to the ***main*** branch.
-    To do that, click the newly created branch name on the lower-left corner of the VSCode window and select ***main*** from the dropdown list. 
+    <img src="assets/images/contributing/pr-3.png" width="800">
 
-    <todo>Take a screenshot</todo>
+    If everything looks fine, press the ***Create pull request*** button.
 
-    > This step is performed just to be safe - so you are sure not to use the wrong branch the next time you work on the docs.
+   <img src="assets/images/contributing/pr-2.png" width="800">
+
+   At this point, the repo owner and the collaborator will be notified and may decide to approve your changes,  request more details, or discard the PR.
 
     *You are done, congratulations!*
 
@@ -172,9 +174,11 @@ These steps are for reviewers only. They must review the Pull Request, approve i
 1. #### Review the Pull Request
 
     <todo>TODO</todo>
+
 2. #### Delete the Branch
 
     <todo>TODO</todo>
+
 ## Markdown Syntax
  
 Markdown documents (file extension ***.md***) are simple text files with additional special syntax that you can use to style your content, embed images, or create links.  
