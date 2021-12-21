@@ -56,7 +56,7 @@ You need to follow the steps below only the first time.
         - `git config --global user.email "your-email@domain.com"` (press Enter)
         - `git config --global user.name "your-username"` (press Enter)
 
-    <img src="assets/images/contributing/git-config.png" width="550">
+        <img src="assets/images/contributing/git-config.png" width="550">
     
 2. #### Install VSCode
 
@@ -169,7 +169,7 @@ A session starts with synchronization and ends with a Pull Request.
 
 ### Approve Changes
 
-These steps are for reviewers only. They must review the Pull Request, approve it, and delete the branch (patch) created by the contributor.
+These steps are for reviewers only. They must review the Pull Request, approve it, and delete the patch branch created by the contributor.
 
 1. #### Review the Pull Request
 
