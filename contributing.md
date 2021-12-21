@@ -2,6 +2,8 @@
 layout:     page-no-nav
 title:      Contributing
 published:  true
+date:       2021-12-20
+modified:   2021-12-21
 sitemap:    false
 draft:      "no"
 toc_max:    3
@@ -316,12 +318,12 @@ Text can be everything, but it is preferable to use a meaningful text like the t
 URL is invisible to the end user and can be:
 
 - **Absolute URL**  
-    When you need to link a page external to the Repo. For instance:
+    When you need to link a page external to the repo. For instance:
 
         [OKVIZ website](https://okviz.com/) 
 
 - **Relative URL**  
-    When you need to link a page of the Repo. 
+    When you need to link a page of the repo. 
 
     - If the page to link is in the same folder as the document, simply use the file name (without extension) as the URL.  
         For example, ***smart-filter-pro/changelog.md*** contains the following link to ***smart-filter-pro/about.md***:
