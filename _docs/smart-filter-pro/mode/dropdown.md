@@ -25,13 +25,15 @@ For this reason, the **Dropdown mode is not recommended with fields greater than
 
 ## How to Search
 
-The Dropdown mode searches for input keywrdo
-<todo>Explain how search works in this mode (no wildcards support, case insensitive) - Mention that the "Contains" vs "Start with" match is affected by the Autocomplete option.</todo>
+Smart Filter Pro in Dropdown mode returns all values **containing** the entered keyword. For example:
+- `phone` returns `Telephone`, `Cellphones` and `Phone Accessories`. 
+
+This behavior is different when the [Autocomplete](autocomplete) option is enabled. In this case, the visual returns all values **starting with** the keyword entered.  So, with Autocomplete turned on:
+- `phone` returns only `Phone Accessories`.
 
 ### Case
 
-Search in Dropdown mode is always case insensitive - you can write keywords in any case and the matching algorithm won't rely on that.  
-For example: 
+Search in Dropdown mode is always case insensitive - you can write keywords in any case and the matching algorithm won't rely on that. For example: 
 - `Audio` and `audio` produce the same results.
 
 ### Operator

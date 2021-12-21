@@ -25,7 +25,14 @@ The search is performed in the same way and with the [same syntax available in F
 
 ## Differences between Search and Filter Modes
 
-<todo>TODO</todo>
+The Search and Filter modes share the same filter engine, the same query syntax and both allow you to change the logical operators/matching behavior either statically or interactively - the main differences concern the user interface. 
+
+The unique features of the Search mode are:
+
+- Makes it easy to enter **multi-line text** easier thanks to its large text area.
+- Supports **pasting of thousands of values** simultaneously without sacrificing overall performance.
+- **Does not transform the entered text into keywords** that you can only remove, but leaves it as is allowing for quick editing.
+- Can **search as you type**, speeding up the whole process (see [Search on Event](search-on-event)).
 
 ## Options
 
