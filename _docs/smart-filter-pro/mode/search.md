@@ -17,7 +17,7 @@ The Search mode supports multiple fields, like the other modes, but only allows 
 
 <img src="images/search-mode-multi.png" width="350">
 
-<todo>Retake the screenshot with the fields panel side by side with visual</todo>
+<todo assign="twinkle">Retake the screenshot with the fields panel side by side with visual</todo>
 
 ## How to Search
 

@@ -7,7 +7,7 @@ date:               2021-12-21
 modified:           2021-12-21
 order:              /01/02
 ---
-<todo>TODO</todo>
+<todo assign="daniele">Complete this page</todo>
 ### Updating a visual in the Org Repo
 
 When a new version of a custom visual already installed in the Org Repo is published, the Power BI admins can automatically update all the reports using that visual throughout the organization.

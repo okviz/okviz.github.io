@@ -7,7 +7,7 @@ modified:           2021-12-14
 order:              /02/08
 version:            2.0.6
 ---
-<todo>What is supported?
+<todo assign="daniele">What is supported?
 <ul>
     <li>The first global color is the Items back color</li>
     <li>The global backgroud color is the Dropdown back color</li>

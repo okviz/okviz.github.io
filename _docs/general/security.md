@@ -6,6 +6,6 @@ date:               2021-11-21
 modified:           2021-11-21
 order:              /01/06
 ---
-<todo>Security measures</todo>
+<todo assign="daniele">Security measures</todo>
 
-<todo>Data sent over the Internet</todo>
+<todo assign="daniele">Data sent over the Internet</todo>

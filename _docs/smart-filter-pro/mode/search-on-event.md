@@ -17,7 +17,7 @@ These options control the behavior of Smart Filter Pro in Search mode with user 
 
 This option, when enabled, allows you to perform a search and automatically apply the filter after typing the text, without the need of explicitly click on the Apply filter button.
 
-<todo>Take a screencast</todo>
+<todo assign="daniele">Take a screencast</todo>
 
 ## Search on paste
 
@@ -25,4 +25,4 @@ This option, when enabled, allows you to perform a search and automatically appl
 
 This option, when enabled, allows you to perform a search and automatically apply the filter after pasting some text in the search box, without the need of explicitly click on the Apply filter button.
 
-<todo>Take a screencast?</todo>
+<todo assign="daniele">Take a screencast?</todo>

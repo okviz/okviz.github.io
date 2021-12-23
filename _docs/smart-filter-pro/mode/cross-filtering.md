@@ -27,7 +27,7 @@ This option allows you to choose how the cross-filtering is applied:
 - [Sequentially](#sequential)
 
 <img src="images/cross-filtering-behavior.png" width="200">
-<todo>Retake the screenshot with v2.2.8</todo>
+<todo assign="daniele">Retake the screenshot with v2.2.8</todo>
  
 ### Every field
 

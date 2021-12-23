@@ -6,4 +6,4 @@ date:               2021-11-17
 modified:           2021-12-14
 order:              /02/97
 ---
-<todo>Compare features available in Pro and Free versions</todo>
+<todo assign="daniele">Compare features available in Pro and Free versions</todo>

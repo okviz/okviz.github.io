@@ -7,4 +7,6 @@ modified:           2021-12-14
 order:              /02/11
 version:            2.0.2
 ---
-<todo>How sync slicers work</todo>
+<todo assign="twinkle">How sync slicers work</todo>
+
+<todo assign="twinkle">Link to https://docs.microsoft.com/en-us/power-bi/developer/visuals/enable-sync-slicers</todo>

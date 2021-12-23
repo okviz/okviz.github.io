@@ -18,4 +18,4 @@ In Observer mode, the selected items will be highlighted in the input box, and a
 
 In Hierarchy mode, the selected state of nodes is kept when you click on different checkboxes.
 
-<todo>Take a screenshot for Hierarchy mode</todo>
+<todo assign="twinkle">Take a screenshot for Hierarchy mode</todo>

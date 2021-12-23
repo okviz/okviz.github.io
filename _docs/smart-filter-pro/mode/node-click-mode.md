@@ -13,7 +13,7 @@ available:          Hierarchy mode
 This option defines the behavior of your click on the label of the tree nodes when the Smart Filter Pro is in Hierarchy mode.
 
 <img src="images/node-clicking.png" width="250">
-<todo>Retake a screenshot with the dropdown expanded</todo>
+<todo assign="twinkle">Retake a screenshot with the dropdown expanded</todo>
 
 You can choose among:
 - [Select/Deselect](#select/deselect)
@@ -26,16 +26,16 @@ You can choose among:
 
 Clicking on a label toggles the selection on the checkbox, by applying the relative filter to the report.
 
-<todo>Take a screencast</todo>
+<todo assign="daniele">Take a screencast</todo>
 
 ## Expand/Collapse
 
 Clicking on a label expands/collapses the node to which the label belongs.
 
-<todo>Take a screencast</todo>
+<todo assign="daniele">Take a screencast</todo>
 
 ## Do both
 
 Clicking on a label expands/collapses the node to which the label belongs AND toggles the selection on the checkbox.
 
-<todo>Take a screencast</todo>
+<todo assign="daniele">Take a screencast</todo>

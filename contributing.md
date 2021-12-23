@@ -3,18 +3,15 @@ layout:     page-no-nav
 title:      Contributing
 published:  true
 date:       2021-12-20
-modified:   2021-12-21
+modified:   2021-12-23
 sitemap:    false
-draft:      "no"
-toc_max:    3
+toc_max:    2
 ---
 This document explains the workflow for editing the OKVIZ documentation (**docs**). Note that:
 - The files consisting of the docs are hosted on Github at this URL (**repo**):
     <https://github.com/okviz/docs>  
 - We use Github to edit, review and manage documents, but despite the repo being publicly accessible, end users will browse the docs at this URL (**website**):
     <https://docs.okviz.com>
-
-For more information on Github, [check out this video](https://www.youtube.com/watch?v=w3jLJU7DT5E)
 
 ## Workflow
 
@@ -35,12 +32,13 @@ To edit the docs you need to follow the steps below:
     2. [Create a Branch](#create-a-branch)
     3. [Make your Changes](#make-your-changes)
     4. [Commit your Changes](#commit-your-changes)
-    5. [Create a Pull Request](#create-a-pull-request)  
-    6. [Switch Back to "main"](#switch-back-to-main) 
+    5. [Create a Pull Request](#create-a-pull-request) 
+    6. (optional) [Edit the Pull Request](#edit-the-pull-request) 
+    7. [Delete the Branch](#delete-the-branch) 
 
 - **Approve Changes** (for reviewers only):
     1. [Review the Pull Request](#review-the-pull-request)  
-    2. [Delete the Branch](#delete-the-branch)
+    2. [Delete the Branch](#delete-the-branch-1)
 
 ### Setup
 
@@ -79,7 +77,8 @@ You need to follow the steps below only the first time.
     After inserting the URL, you are asked to choose a folder on your computer to store the content of the copy of the repo. Create a new one called ***OKVIZ*** and press ***Select Repository Location***. 
 
     At this point, VSCode downloads all the content from the repo online to your local folder and you're ready to start.  
-    Proceed by opening the folder and trusting the authors.
+
+    Click ***Open*** and ***Trust the authors*** in the poppus that appear.
 
 ### Make Changes
 
@@ -97,11 +96,11 @@ A session starts with synchronization and ends with a Pull Request.
 2. #### Create a Branch
 
     Now that you have the latest content on your computer, you need to create a new branch.  
-    All documents accessible by the end users on the website are stored in the ***main*** branch of the repo, to make the review of your changes easier you need to copy this branch into a new one.
+    All documents accessible by the end users on the website are stored in the ***main*** branch of the repo - to make the review of your changes easier you need to copy this branch into a new one.
 
     Treat this new branch like a patch - a group of changes you want to apply to the ***main*** branch at the end of the current session.  
 
-    > After the end of the session, **you will no longer use this branch**.
+    > After the end of the session and the approval of the related Pull Request, **this branch will be deleted** (more later).
 
     To create a new branch, click on the label ***main*** on the lower-left corner of the VSCode window. Then click ***Create new branch...***, and enter a name in the format `username-YYYY-MM-DD` (replace ***username*** with your Github username and ***YYYY-MM-DD*** with the current date in ISO 8601 format).
 
@@ -109,7 +108,7 @@ A session starts with synchronization and ends with a Pull Request.
 
 3. #### Make your Changes
 
-    At this point, you are working on a different branch (you see the name of the branch you have just created in the lower-left corner of the VSCode window - if the name is still ***main***, click on the name and select the correct one).
+    At this point, you are working on a different branch (you can see the name of the branch you have just created in the lower left corner of the VSCode window - if the name is still ***main***, click on the name and select the correct one).
 
     <img src="assets/images/contributing/branch-name.png" width="200">
 
@@ -124,13 +123,13 @@ A session starts with synchronization and ends with a Pull Request.
 
     > **IMPORTANT**: Don't change any files outside of the ***_docs*** directory.
 
-    The files in the _docs directory are written in Markdown (file extension ***.md***) which is a simplified version of HTML - see the [Markdown Syntax](#markdown-syntax) section for more information.  
-
     You can create files or folders directly in VSCode by right-clicking on the sidebar and choosing the appropriate command, and you can edit a file by left clicking on it in the sidebar. 
     
-    Editing a Markdown file is easier if you also open the preview pane via the preview button - any changes in Markdown are interpreted and displayed in the preview pane in real time.
+    The files in the _docs directory are written in Markdown (file extension ***.md***) which is a simplified version of HTML. Editing a Markdown file is easier if you also open the preview pane - any changes in Markdown are interpreted and displayed in the preview pane in real time.
 
     <img src="assets/images/contributing/preview-pane.png" width="850">
+
+    See [Markdown Editing](markdown-editing) and [Best Practices](best-practices) to learn how to properly format your content. 
 
     After editing the files, save them and you are ready for the next steps.
 
@@ -142,7 +141,11 @@ A session starts with synchronization and ends with a Pull Request.
 
     <img src="assets/images/contributing/commit.png" width="850">
 
-    Then click ***Publish Branch***.
+    If VSCode asks for staging your changes, click on ***Always***.
+
+    <img src="assets/images/contributing/always-stage.png" width="500">
+
+    Then click ***Publish Branch*** (or ***Sync Changes*** if you are following this step after sending the PR - more later).
 
     <img src="assets/images/contributing/publish-branch.png" width="300">
 
@@ -159,7 +162,7 @@ A session starts with synchronization and ends with a Pull Request.
     
     <img src="assets/images/contributing/pr-1.png" width="700">
 
-    On the next page you can add more details to the request you are making and you can review all the changes you made. Also, note the top bar with the merge information - you are asking to merge you patch branch to the main branch.
+    On the next page, you can add more details to the request you are making and you can review all the changes you made. Also, note the top bar with the merge information - you are asking to merge your patch branch into the main branch.
 
     <img src="assets/images/contributing/pr-3.png" width="800">
 
@@ -167,22 +170,48 @@ A session starts with synchronization and ends with a Pull Request.
 
    <img src="assets/images/contributing/pr-2.png" width="800">
 
-   At this point, the repo owner and the collaborator will be notified and may decide to approve your changes,  request more details, or discard the PR.
+   At this point, the repo owner and the collaborators will be notified of your PR and may decide to approve it, request more details, or discard it.
 
-6. #### Switch Back to "main"
+6. #### Edit the Pull Request
 
-    After sending the PR, you need to switch back your local repo to the ***main*** branch.
-    To do that, click the newly created branch name on the lower-left corner of the VSCode window and select ***main*** from the dropdown list. 
+    In case the reviewers request a change to your PR, you will be notified through an email from Github.
+
+    To make a change in the PR:
+
+    1. Open your local copy of the repo with VSCode.
+
+    2. [Synchronize your local copy](#synchronize-your-local-copy).
+
+    3. Verify that the current branch is the same branch you created for the PR (you can see the name in the lower left corner of the VSCode window - if the name is different, click on it and select the correct one).
+
+        <img src="assets/images/contributing/branch-name.png" width="200">
+
+    4. Make your changes.
+
+    5. [Commit your changes](#commit-your-changes).
+
+    There is no need to create a new PR or notify the reviewers, everything is handled automatically by Github.
+
+7. #### Delete the Branch
+
+    **After receiving a notification that the PR has been approved**, you need to switch back your local repo to the ***main*** branch, and delete the patch branch.
+    To do this, click on the patch branch name in the lower left corner of the VSCode window and select ***main*** from the dropdown list. 
 
     <img src="assets/images/contributing/branch-back.png" width="600">
 
-    > This step is performed just to be safe - so you are sure not to use the wrong branch the next time you work on the docs.
+    At this point, click on the source control icon, select the ellipsis button, choose ***Branch***, then ***Delete Branch...***, and select the patch branch name.
 
-    *You are done, congratulations!*
+    > **IMPORTANT**: Don't delete the patch branch until the PR has been approved or closed.
+
+    <img src="assets/images/contributing/delete-local-branch.png" width="600">
+
+    If VSCode shows more than a branch with the same name, **select all** and proceed, we don't need these copies anymore.
+
+*You are done, congratulations!*<br><br>
 
 ### Approve Changes
 
-These steps are for reviewers only. They must review the Pull Request, approve it, and delete the patch branch created by the contributor.
+These steps are for reviewers only. They must review the Pull Request, approve it (or request for changes), and delete the patch branch created online by the contributor.
 
 1. #### Review the Pull Request
 
@@ -198,195 +227,30 @@ These steps are for reviewers only. They must review the Pull Request, approve i
 
     <img src="assets/images/contributing/pr-6.png" width="800">
 
-    If you want to make some changes to the files included in the PR, you can do it in Github. Click the ellipsis button of the file you want to edit and choose ***Edit file*** from the context menu.
+    If you want to request some changes from the author, click on ***Request changes*** and leave a comment. The author will be notified of your comments.
+
+    If you want to directly apply some changes to the files included in the PR, you can do it in Github. Click the ellipsis button of the file you want to edit and choose ***Edit file*** from the context menu.
 
     <img src="assets/images/contributing/pr-7.png" width="400">
 
-    After approving the PR, you can merge the changes into the main branch. Do this by clicking ***Merge pull request*** and confirming it.
+    See [Markdown Editing](markdown-editing) to learn the supported syntax.
+
+    After approving the PR, you can merge the changes into the main branch. To do this, click ***Merge pull request*** and confirm.
 
     <img src="assets/images/contributing/pr-8.png" width="800">
 
 2. #### Delete the Branch
 
-    After the PR has been merged into the main branch, the patch branch must be deleted.
+    After the PR has been merged into the main branch, the patch branch must be deleted. Press the ***Delete branch*** button next to the merge confirmation message.
     
     <img src="assets/images/contributing/delete-branch.png" width="800">
 
-    *You are done, congratulations! The changes will be visible on the website in a couple of minutes.*
+*You are done, congratulations!   
+The changes will be visible on the website in a couple of minutes.*<br>
 
-## Markdown Syntax
- 
-Markdown documents (file extension ***.md***) are simple text files with additional special syntax that you can use to style your content, embed images, or create links.  
-These documents are interpreted, this means that **what you write is not exactly what will appear** on the website, for this reason it is recommended to use the VSCode preview pane to see the final result while editing.
+## Content Editing
 
-### Header
+See [Markdown Editing](markdown-editing) to learn how to properly format your content.
+## Best Practices
 
-Every file must contain a header in the following format (note that the ***\-\-\-*** lines are required):
-
-    ---
-    layout:         page
-    title:          Document title
-    menu_title:     Menu title
-    published:      true
-    draft:          false
-    date:           2021-11-15
-    modified:   	2021-11-21
-    order:          /1/2/document-title
-    toc:            false
-    version:        2.0
-    available:      Availability note
-    internal:       Internal reference
-    ---
-
-- **layout:** always set the value ***page***.
-- **title:** set the title of the document.
-- **menu_title:** (optional) set a title for the navigation menu if you want to make it different from the main title.
-- **published:** set ***true*** to display the document on the website 
-- **draft:** (optional) set ***true*** to show a notice that the document is not completed (note that this notice appears automatically if the document is empty or if it contains &lt;todo&gt;&lt;/todo&gt; tag.
-- **date:** set the creation date of the document.
-- **modified:** set the date of the last modification of the document.
-- **order:** set a string to be used to sort the document in the navigation menu - check existing files to know how sorting works. In general, if the page is the child of a node, it is necessary to insert the order attribute of the parent node plus a slash ***/*** and a number (if you want to give a static position) or a sanitized version of the title (without spaces and special characters - if you want to use alphabetical sorting).
-- **toc:** (optional) set ***false*** to hide the automatic table of contents.
-- **version:** (optional) used only with visual options - set the version of the visual when the option was introduced.
-- **available:** (optional) used only with visual options - set the mode(s) in which the option is available.
-- **internal:** (optional) used to define some internal reference, useful for maintenance - this attribute is not displayed in the website.
-
-### Body
-
-Here is a common list of syntaxes you may want to use. For a full explanation of the syntax, check out this article: [Basic writing and formatting syntax on Github](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-
-#### Title
-
-    ## The second largest title after the document title
-    ### Title 3
-    #### Title 4
-    ##### Title 5
-    ###### The smallest title in the document
-
-#### Paragraph
-
-Define paragraphs by inserting a blank line between them.
-
-    This line is on paragraph 1.
-
-    This line is on paragraph 2.
-
-#### Carriage Return
-
-Put at least two spaces after the end of a line and a carriage return, otherwise the carriage return alone will be ignored.
-
-    This line is on line 1.  (two spaces here)
-    This line is on line 2.
-
-#### Bold
-
-    This text is **bold**.
-
-#### Italic
-
-    This text is *italic*.
-
-#### Bold Italic
-
-    This text is ***bold italic***.
-
-#### Unordered List
-
-    - Item A
-    - Item B
-    - Item C
-
-#### Ordered List
-
-    1. Item 1
-    2. Item 2
-    3. Item 3
-
-#### Notices
-
-    > Use this syntax to write a notice.
-
-#### Code
-
-    `Use this syntax to write blocks of code, or to refer to the user input.`
-
-#### Links
-
-    [text](URL)
-
-Text can be everything, but it is preferable to use a meaningful text like the title of the document to be linked rather than a generic call to action such as ***Click here*** or ***Learn more***.  
-URL is invisible to the end user and can be:
-
-- **Absolute URL**  
-    When you need to link a page external to the repo. For instance:
-
-        [OKVIZ website](https://okviz.com/) 
-
-- **Relative URL**  
-    When you need to link a page of the repo. 
-
-    - If the page to link is in the same folder as the document, simply use the file name (without extension) as the URL.  
-        For example, ***smart-filter-pro/changelog.md*** contains the following link to ***smart-filter-pro/about.md***:
-
-            [About](about)
-
-    - If the page belongs to a different folder, you need to go up one level and include the new folder name in the URL.  
-        For example, ***smart-filter-pro/changelog.md*** contains the following link to ***general/licensing.md***:
-
-            [Licensing](../general/licensing)
-
-    > Do not put the file extension ***.md*** or a trailing slash ***/*** into these links.
-
-- **Anchor**  
-    Markdown automatically generates anchors for each title/heading you place in a document.
-    An anchor is a way to identify a location in a document.  
-    Every anchor has an ID equal to a sanitized version of the title it refers to.  
-    For example, a title like this:
-
-        ## Check for updates 
-
-    has an anchor with this ID:
-
-        check-for-updates
-
-    Sanitizing the title means that spaces are replaced with dashes ***-*** and all special characters (such as &, ; or :) are removed.
-
-    You can create links to anchors by adding a # plus the anchor ID to the URL.  
-    For example, ***smart-filter-pro/changelog.md*** contains this link to the Price section of ***general/licensing.md***:
-	
-        [Licensing](../general/licensing#price)
-
-    If the link needs to point to an anchor on the same document, you can simply write # plus the anchor ID. 
-    For instance:
-
-        [See "Check for updates" below](#check-for-updates)
-
-#### Images
-
-You are not allowed to embed images in Markdown documents like in Word, but they must be referenced from another location. This means that you need to place image files in a separate folder to use them in a document.
-
-Always create a folder called images in the parent folder of the document you are working on (if not exists) and put all the images in it.  
-For example, the images of ***smart-filter-pro/about.md*** must be placed in the folder ***_docs/smart-filter-pro/images/***.
-
-To insert an image into a document you can use this syntax:
-
-    <img src="images/IMAGE_FILE_NAME" width="WIDTH">
-
-Replace ***WIDTH*** with a reasonable value – note that you don't need to specify the height - it is automatically calculated by the browser to maintain the aspect ratio of the image.
-
-For example, ***smart-filter-pro/about.md*** contains the image ***check-for-updates.png***:
-
-    <img src="images/check-for-updates.png" width="200">
-
-> **PNG is the preferred format for images**. Use JPG only if the image is a photography.
-You can use GIF images too, but the problem with this format is the size - it gets too big very quickly when you record something on the screen (screencasting).  
-In general, an **acceptable file size is less than 150KB**.
-
-
-#### TODO/Placeholders
-
-You can add some placeholders and notes in unfinished documents, to keep track of the content to be edited or the tasks to be performed. You can also define an assignment attribute with the contributor's username.
-
-    <todo>Retake the screenshot</todo>
-
-    <todo assign="danieleperilli">Complete this section</todo>
+Follow the [Best Practices](best-practices) to keep the docs clean and consistent.

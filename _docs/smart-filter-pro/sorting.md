@@ -7,6 +7,6 @@ modified:           2021-12-14
 order:              /02/07
 version:            2.1.1
 ---
-<todo>Sorting options</todo>
+<todo assign="twinkle">TODO</todo>
 
-<todo>Differences between builtin and custom sorting</todo>
+<todo assign="daniele">Differences between builtin and custom sorting</todo>
