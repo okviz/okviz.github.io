@@ -47,7 +47,7 @@ For example: <code>If you enter `audio`, then something happens.</code>
 
 #### &lt;img&gt; Width
 
-- When you insert an image in a document, you must define a ***width*** attribute (see the [Markdown Syntax](#images)) - choose a number of pixels that allow the end users to read the relevant information of the document in which they are placed. In case of screenshots, try to keep the actual size of the user interface.
+- When you insert an image in a document, you must define a ***width*** attribute (see the [Markdown Syntax](markdown-editing)) - choose a number of pixels that allow the end users to read the relevant information of the document in which they are placed. In case of screenshots, try to keep the actual size of the user interface.
     > Note that whatever width you choose, it cannot exceed the width of the parent container, but don't worry, an automatic rule will be applied to prevent this. 
 
     > The height of the images is automatically calculated to keep the aspect ratio - you don't need to provide it.
