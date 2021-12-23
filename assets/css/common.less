@@ -90,7 +90,7 @@ img, svg {
     -ms-interpolation-mode: nearest-neighbor;*/
 }
 hr {
-    margin: 20px 0;
+    margin: 30px 0;
     border: 0;
     border-bottom: 2px solid @hr-color;
     .dark & {
@@ -411,10 +411,14 @@ table {
         border-collapse: collapse;
         text-align: left;
         vertical-align: middle;
-        
+        border: 1px solid @border-color;
+
+        img {
+            border: none !important;
+        }
     }
     td {
-        border-top: 1px solid @border-color;
+        
         background-color: @table-cell-back-color;
         color: @table-cell-color;
     }
@@ -422,19 +426,20 @@ table {
         //font-size: 11px;
         //text-transform: uppercase;
         font-weight: bold;
+        font-size: 0.9em;
         background-color: @table-header-back-color;
         color: @table-header-color;
     }
     
     tr:hover td {
-        background-color: darken(@table-cell-back-color, 10%);
+        background-color: darken(@table-cell-back-color, 5%);
     }
     
     &.alternate tr:nth-child(even) td {
         background-color: @table-cell-back-color-alt;
     }
     &.alternate tr:nth-child(even):hover td {
-        background-color: darken(@table-cell-back-color-alt, 10%);
+        background-color: darken(@table-cell-back-color-alt, 5%);
     }
 
     .dark & {

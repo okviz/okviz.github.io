@@ -20,7 +20,7 @@
 
     <link rel="stylesheet" href="/assets/css/main.min.css?v={{ "now" | date: "%s" }}">
 </head>
-<body>
+<body class="page-{{ page.title | slugify }}">
 
     {% include header.html %}
 

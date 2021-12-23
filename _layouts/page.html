@@ -9,7 +9,7 @@ layout: default
             <header>
                 {% include breadcrumbs.html %}
             
-                <a href="{{ page.url | remove: "index" }}" class="solo"><h1>{{ page.title }}
+                <a href="{{ page.url | remove: "index" | remove: ".html" }}" class="solo"><h1>{{ page.title }}
                      {% if page.available %}
                         <!--googleoff: snippet-->
                         <div class="badge availability" title="Available in {{ page.available }}">{{ page.available }}</div>

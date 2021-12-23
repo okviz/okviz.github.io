@@ -5,7 +5,7 @@ layout: default
     <div class="content-no-nav">
         <article>
             <header>
-                <a href="{{ page.url | remove: "index" }}" class="solo"><h1>{{ page.title }}</h1></a>
+                <a href="{{ page.url | remove: "index" | remove: ".html" }}" class="solo"><h1>{{ page.title }}</h1></a>
                 <hr>
             </header>
 
