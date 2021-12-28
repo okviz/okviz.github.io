@@ -21,3 +21,5 @@ To apply a filter to a specific field, when this option is enabled, enter the fi
 For example: to search ***Contoso*** in the field ***Brand*** just write `brand:contoso` and hit Enter (field names and value are case insensitive - for more information on the supported syntax see [How to Search in Filter Mode](filter#how-to-search)).
 
 > Note that you can't filter on every field of your dataset without doing anything, **you must first connect every field** you are interested in to the visual.
+
+> Note that you can't set the logical operator to ***OR*** when you filter different fields in the same input, otherwise Power BI will throw an error.
