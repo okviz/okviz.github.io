@@ -195,14 +195,17 @@ class Theme{
     }
 
     apply(theme) {
-        if (!theme) theme = "auto";
 
-        this.current = theme;
-        localStorage.setItem("theme", theme);
-
-        let ctrl = document.querySelector(".change-theme .ctrl");
-        ctrl.classList.remove("icon-theme-auto", "icon-theme-light", "icon-theme-dark");
-        ctrl.classList.add(`icon-theme-${theme}`);
+        if (!theme) {
+            theme = this.current;
+        } else {
+            this.current = theme;
+            localStorage.setItem("theme", theme);
+            
+            let ctrl = document.querySelector(".change-theme .ctrl");
+            ctrl.classList.remove("icon-theme-auto", "icon-theme-light", "icon-theme-dark");
+            ctrl.classList.add(`icon-theme-${theme}`);
+        }
 
         if (document.body.classList.contains("no-theme")) return;
 
