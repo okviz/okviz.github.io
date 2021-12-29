@@ -18,7 +18,7 @@ Contact us at [support@okviz.com](mailto:support@okviz.com?subject=Smart%20Filte
 - A clear and concise **description of the problem**.
 - The **version of the visual** you are using. You can find it the [About & License](../smart-filter-pro/about) section of the visual options.
 - The **version of Power BI Desktop** you are using (or the browser you are using with the Power BI service).
-- A **screenshot/screencast** of the problem (if applicable).
+- A **screenshot/screencast** of the problem (if applicable). You can use <https://www.loom.com/> to record the screen.
 - A **sample Power BI report (PBIX file)** that reproduces the problem.  
 Note that:
     - If your report contains private data, recreate it with dummy data. Or we can sign an NDA document to access the original data.
