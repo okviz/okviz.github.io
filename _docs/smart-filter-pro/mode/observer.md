@@ -14,8 +14,8 @@ The Observer mode makes Smart Filter Pro a narrative visual, by displaying all t
 
 In case, there is more than one field connected to the visual, then each one is presented as a separate group.
 
-<img src="images/observer-mode-2.png" width="750">
-<todo assign="twinkle">Retake the screenshot with the fields panel side by side with visual</todo>
+<img src="images/observer-mode-multi.png" width="650">
+
 
 > Note that when no user selection is set, the visual displays up to **1000 items** for each connected field.
 
