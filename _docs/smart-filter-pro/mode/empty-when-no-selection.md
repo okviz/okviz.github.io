@@ -13,7 +13,7 @@ version:            2.2.4
 
 This option, if enabled, applies an empty filter to the report if no user selection is set for filter in Smart Filter Pro. It works with textual/date/numeric fields. 
  
-<img src="images/empty-filter.png" width="700">
+<img src="images/EmptyWhenNoSelectn.png" width="1500">
 
 <todo assign="twinkle">Retake the screenshot: we need a single screenshot split into two screens, one before and the other after applying the option.</todo>
 
