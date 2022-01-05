@@ -40,6 +40,3 @@ Let us consider an example for *Carriage return* chosen as the separator. Suppos
 In order to quickly apply the filter, you can copy these items, choose ***Carriage return*** as the character used by the ***Split pasted text by*** option, and right click/Paste (or Ctrl+V or Cmd+V on Mac) in Smart Filter Pro. This will apply filter with these subcategories showing the desired result.   
 
 <img src="images/split-pasted-text-Excel.png" width="750">  
-
-
-<todo assign="twinkle">Pasting from Excel is the most requested feature among end-users. We need a detailed example with an Excel worksheet.</todo>

@@ -24,7 +24,6 @@ In case ***Carriage return*** is chosen, each line in the search box is treated 
 
 <img src="images/split-text-CrgReturn.png" width="800">
 
-<todo assign="twinkle">Take a screenshot</todo>
 
 > Note the ***Carriage return*** is the option to choose if you need to paste text into the search box from Excel. More info on this features are available in [Split pasted text for Dropdown/Filter mode](split-pasted-text#pasting-from-excel).
 

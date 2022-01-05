@@ -20,4 +20,4 @@ In Hierarchy mode, the selected state of nodes is kept when you click on differe
 
 <img src="images/multi-select-2.png" width="700">
 
-<todo assign="twinkle">Take a screenshot for Hierarchy mode</todo>
+
