@@ -12,12 +12,12 @@ version:            2.0.9
 
 This option, if enabled, hides the nodes without data from a hierarchy view. In other words, it does not display the items with value (Blank) in the tree. 
 
-<img src="images/hide-blank-node-1.png" width="700">
+<img src="images/hide-blank-node-1.png" width="600">
 
 <todo assign="twinkle">Retake the screenshot with a tree node - this option applies to Hierarchy mode only and displaying the visual with a single field doesn't enforce this message.</todo>
 
 For instance, the field Status in the Store table has three possible values: Closed, Restructured, and (Blank). If you enable the Hide blank nodes option, then the Blank node will be hidden from the tree in Smart Filter Pro.
  
-<img src="images/hide-blank-node-2.png" width="700">
+<img src="images/hide-blank-node-2.png" width="600">
 
 <todo assign="twinkle">Ditto</todo>
