@@ -12,8 +12,8 @@ available:          Hierarchy mode
 
 This option defines the behavior of your click on the label of the tree nodes when the Smart Filter Pro is in Hierarchy mode.
 
-<img src="images/node-clicking.png" width="250">
-<todo assign="twinkle">Retake a screenshot with the dropdown expanded</todo>
+<img src="images/node-click-behavior.png" width="200">
+
 
 You can choose among:
 - [Select/Deselect](#select/deselect)

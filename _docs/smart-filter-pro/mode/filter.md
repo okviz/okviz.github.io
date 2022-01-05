@@ -172,7 +172,7 @@ One of the main advantages of the Filter mode is the performance boost it offers
 
 The performance boost is evident when we use a high cardinality column – a column that displays multiple distinct values – for filtering data. For instance, let us say you use the Dropdown mode and select ***Order Number*** – a high cardinality column – from the ***Sales*** table. 
 
-<todo assign="twinkle">Take a screenshot of the example</todo>
+<img src="images/filter-mode-10.png" width="650">
 
 When you start typing order numbers in the textbox, the order numbers do not appear as immediately as they would for a column which is not a high cardinality column – ***Product Category***, for example.  Thus, the result set loading time is longer in Dropdown mode.
 

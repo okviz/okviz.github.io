@@ -16,11 +16,11 @@ Smart Filter Pro supports pasting text from other applications like Excel, Word 
 
 This option allows you to choose a special character which can be used as separator to split the pasted text into multiple keywords. It is more relevant in case multiple items are to be selected for filtering one or more fields, and can save effort on typing.
 
-For instance, let us say you have a report with Smart Filter Pro connected to a sales category field and want to see the sales of a list of categories that you have stored in a comma-separated string (CSV), like this:
+For instance, let us say you have a report with Smart Filter Pro connected to a sales subcategory field and want to see the sales of a list of subcategories that you have stored in a comma-separated string (CSV), like this:
 
 `desktops, televisions, laptops, monitors, movie DVD`
 
-In order to quickly apply the filter, you can copy the string, choose ***Comma*** as the character used by the ***Split pasted text by*** option, and right click/Paste (or Ctrl+V or Cmd+V on Mac) in Smart Filter Pro. This will apply filter with these categories showing the desired result. 
+In order to quickly apply the filter, you can copy the string, choose ***Comma*** as the character used by the ***Split pasted text by*** option, and right click/Paste (or Ctrl+V or Cmd+V on Mac) in Smart Filter Pro. This will apply filter with these subcategories showing the desired result. 
 
 <img src="images/split-pasted-text.png" width="850">
 
@@ -30,6 +30,13 @@ Other than ***Comma***, the characters you can use as separators are ***Space***
 
 ## Pasting from Excel
 
-To paste values from an Excel worksheet you need to choose ***Carriage return*** as delimiter character.
+To paste values from an Excel worksheet you need to choose ***Carriage return*** as delimiter character.  
 
-<todo assign="twinkle">Pasting from Excel is the most requested feature among end-users. We need a detailed example with an Excel worksheet.</todo>
+Let us consider an example for *Carriage return* chosen as the separator. Suppose you want to have the results filtered for the subcategories that belong to the category *Computers*, and you have these items/keywords stored in an Excel file separated by carriage return, i.e., in different cells one below the other.   
+
+<img src="images/Capture_SplitPastedTextExcel.png" width="200">  
+
+
+In order to quickly apply the filter, you can copy these items, choose ***Carriage return*** as the character used by the ***Split pasted text by*** option, and right click/Paste (or Ctrl+V or Cmd+V on Mac) in Smart Filter Pro. This will apply filter with these subcategories showing the desired result.   
+
+<img src="images/split-pasted-text-Excel.png" width="750">  
