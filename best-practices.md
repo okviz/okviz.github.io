@@ -110,3 +110,10 @@ For example: <code>If you enter `audio`, then something happens.</code>
 
 #### Mouse Cursor
 - **Don't capture the mouse cursor** in screenshots.
+
+### File (and Folder) Names
+
+These rules apply to both folders, Markdown files and images:
+
+- Don't put spaces or ***_*** in file names.  
+For example: ***this-is-a-new-file.md*** instead of ***this is a new_file.md***.
