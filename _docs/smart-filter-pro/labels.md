@@ -14,7 +14,7 @@ The *Labels & Placeholders* properties group displays the field(s) name used in 
 
 Now if you change the field in the visual from Brand to Category, then the field name in the *Labels & Placeholders* section will automatically change.   
 
-<img src="images/Labels-Placeholders2.png" width="600">   
+<img src="images/Labels-Placeholders2.png" width="550">   
 
 The name of the field displayed in the visual can also be changed.  
 
@@ -22,4 +22,4 @@ The name of the field displayed in the visual can also be changed.
 
 For the Observer mode, the visual appearance of *Labels & Placeholders* is little different from the other modes. This section displays the field(s) name used in Smart Filter Pro for filtering data, as well as the font color, font family, and text size of the field in the input text box of Smart Filter Pro. 
 
-<img src="images/Labels-Placeholders4.png" width="600">  
+<img src="images/Labels-Placeholders4.png" width="550">  
