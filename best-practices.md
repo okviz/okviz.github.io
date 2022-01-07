@@ -13,7 +13,7 @@ The following directions are required to keep the OKVIZ docs clean and consisten
 
 These rules apply to both folders, Markdown files and images:
 
-- **Don't put spaces**, ***_*** or other special characters ***(& , ; : % $ " ' / \\ ? ! @)*** in file names.  
+- **Don't put spaces** or other special characters ***(_ & , ; : % $ " ' / \\ ? ! @)*** in file names.  
 For example: ***this-is-a-new-file.md*** instead of ***this is a new_file.md***.
 
 ### Content
