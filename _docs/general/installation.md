@@ -9,7 +9,6 @@ toc_max:            2
 ---
 OKVIZ visuals (like any other custom visuals for Power BI) are wrapped as files with the ***.pbiviz*** extension. You cannot directly open .pbiviz files with Power BI. Instead, you must import them into your reports or install them in your organization marketplace by following one of the methods described below.
 
-<todo assign="twinkle">Retake screenshots with the latest Power BI UI</todo>
 
 ## Import a visual from a file
 
@@ -33,7 +32,7 @@ You can use custom visuals locally, even without access to an Internet connectio
 
 ## Import a visual from the AppSource
 
-<todo assign="twinkle">TODO</todo>
+<todo assign="daniele">TODO</todo>
 
 ## Install a visual in your organizational repository
 
@@ -89,7 +88,7 @@ To use a custom visual from the Org Repo:
 1.	Open a report with Power BI Desktop or from the Power BI service.
 2.	Select the ellipses from the bottom of the ***Visualizations*** pane and choose ***Get more visuals***.
 
-    <img src="images/installation-9.png" width="300">
+    <img src="images/installation-9.png" width="350">
 
 3.	Select ***My organization*** from the top tab menu. Choose the visual to import and press ***Add***.
 
