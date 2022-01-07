@@ -14,7 +14,7 @@ The Dropdown mode in Smart Filter Pro allows you to select items for filtering d
  
 ## Incremental Loading
 
-The Dropdown mode populates the drop-down list using a technique called ***Incremental Loading*** – it doesn't load all data at once, but requests small blocks of values (5000) at a time, completing the list incrementally. This means that, with a large volume of data, this process may take several seconds during which some values are not available for queries.  
+The Dropdown mode populates the drop-down list using a technique called ***Incremental Loading*** – it doesn't load all the data at once, but requests small blocks of values (5,000) at a time, completing the list incrementally. This means that, with a large volume of data, this process may take several seconds during which some values are not available for queries.  
 
 > Keep in mind that you can limit the [number of rows to retrieve](max-rows) with a specific option.
 
