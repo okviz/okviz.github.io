@@ -32,7 +32,7 @@ You can use custom visuals locally, even without access to an Internet connectio
 
 ## Import a visual from the AppSource
 
-<todo assign="twinkle">TODO</todo>
+<todo assign="daniele">TODO</todo>
 
 ## Install a visual in your organizational repository
 
