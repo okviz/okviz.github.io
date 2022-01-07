@@ -17,15 +17,15 @@ You can use custom visuals locally, even without access to an Internet connectio
 1.	Open a report with Power BI Desktop or from the Power BI service.
 2.	Select the ellipses from the bottom of the ***Visualizations*** pane. 
 
-    <img src="images/installation 1.png" width="180">
+    <img src="images/installation-1.png" width="180">
 
 3.	From the dropdown list, select ***Import a visual from a file***. 
 
-    <img src="images/installation 2.png" width="350">
+    <img src="images/installation-2.png" width="350">
 
 4.	From the Open File dialog box, select the .pbiviz file to import and then select ***Open***. The icon for the custom visual is added to the bottom of your Visualizations pane.
 
-    <img src="images/installation 3.png" width="180">
+    <img src="images/installation-3.png" width="180">
 
 5.	Click on the new icon and start using the visual.
 
@@ -88,7 +88,7 @@ To use a custom visual from the Org Repo:
 1.	Open a report with Power BI Desktop or from the Power BI service.
 2.	Select the ellipses from the bottom of the ***Visualizations*** pane and choose ***Get more visuals***.
 
-    <img src="images/installation 9.png" width="350">
+    <img src="images/installation-9.png" width="350">
 
 3.	Select ***My organization*** from the top tab menu. Choose the visual to import and press ***Add***.
 
@@ -96,4 +96,4 @@ To use a custom visual from the Org Repo:
 
 4.	The icon for the custom visual is added to the bottom of your ***Visualizations*** pane and is now available for use in your report.
 
-    <img src="images/installation 3.png" width="180">
+    <img src="images/installation-3.png" width="180">
