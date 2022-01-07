@@ -8,5 +8,3 @@ order:      /
 Welcome to OKVIZ Documentation for Power BI Custom Visuals.
 
 <todo assign="daniele">A quick description of OKVIZ and this site</todo>
-
-<todo assign="daniele">Show all the first level nodes</todo>
