@@ -3,7 +3,7 @@ layout:     page-no-nav
 title:      Contributing
 published:  true
 date:       2021-12-20
-modified:   2021-12-23
+modified:   2022-01-08
 sitemap:    false
 toc_max:    2
 ---
@@ -38,7 +38,7 @@ To edit the docs you need to follow the steps below:
 
 4. **Approve Changes** (for reviewers):
     1. [Review the Pull Request](#review-the-pull-request)  
-    2. *(optional)* [Make some Changes](#make-some-changes)
+    2. *(optional)* [Change the Pull Request](#change-the-pull-request)
     3. [Merge the Branch](#merge-the-branch)
     4. [Delete the Branch](#delete-the-branch-1)
 
@@ -233,7 +233,7 @@ These steps are for reviewers only. They must review the Pull Request, approve i
 
     If you want to request some changes from the author, click on ***Request changes*** and leave a comment. The author will be notified of your comments.
 
-2. #### Make some Changes
+2. #### Change the Pull Request
 
     *(Optional)*  
 
@@ -260,9 +260,9 @@ These steps are for reviewers only. They must review the Pull Request, approve i
 
         2. **Switch to the PR Branch**
 
-            Since the branch created by the author for PR is public, you can switch to it and make any changes easily from your computer too. Any changes made there are automatically reflected in the Pull Request.
+            Since the branch created for the PR is public, you can switch to it and make changes also if you are not the original author. Any changes made there are automatically reflected in the Pull Request.
 
-            First you need to know the name of the branch used by the author of the PR. It's' at the top of the Github review page.
+            First you need to know the name of the branch used by the author of the PR. It's at the top of the Github review page.
 
             <img src="assets/images/contributing/pr-3b.png" width="800">
 
