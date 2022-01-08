@@ -17,28 +17,30 @@ This document explains the workflow for editing the OKVIZ documentation (**docs*
 
 To edit the docs you need to follow the steps below:
 
-- **Create a Github Account:**  
+1. **Create a Github Account**:  
     You can create a Github account at this URL: <https://github.com/join>  
     Follow the on-screen directions, activate your account, then provide us your username, so we can invite you as a repo collaborator.
 
-- **Setup** (steps to follow once):
+2. **Setup**:
     1. [Install Git](#install-git)
     2. [Install VSCode](#install-vscode)
     3. [Clone the Repo](#clone-the-repo)  
 
 
-- **Make Changes** (steps to follow on every session):
+3. **Make Changes** (for authors):
     1. [Synchronize your Local Copy](#synchronize-your-local-copy)
     2. [Create a Branch](#create-a-branch)
     3. [Make your Changes](#make-your-changes)
     4. [Commit your Changes](#commit-your-changes)
     5. [Create a Pull Request](#create-a-pull-request) 
-    6. (optional) [Edit the Pull Request](#edit-the-pull-request) 
+    6. *(optional)* [Edit the Pull Request](#edit-the-pull-request) 
     7. [Delete the Branch](#delete-the-branch) 
 
-- **Approve Changes** (for reviewers only):
+4. **Approve Changes** (for reviewers):
     1. [Review the Pull Request](#review-the-pull-request)  
-    2. [Delete the Branch](#delete-the-branch-1)
+    2. *(optional)* [Make some Changes](#make-some-changes)
+    3. [Merge the Branch](#merge-the-branch)
+    4. [Delete the Branch](#delete-the-branch-1)
 
 ### Setup
 
@@ -174,6 +176,8 @@ A session starts with synchronization and ends with a Pull Request.
 
 6. #### Edit the Pull Request
 
+    *(Optional)*  
+
     In case the reviewers request a change to your PR, you will be notified through an email from Github.
 
     To make a change in the PR:
@@ -229,24 +233,66 @@ These steps are for reviewers only. They must review the Pull Request, approve i
 
     If you want to request some changes from the author, click on ***Request changes*** and leave a comment. The author will be notified of your comments.
 
-    If you want to directly apply some changes to the files included in the PR, you can do it in Github. Click the ellipsis button of the file you want to edit and choose ***Edit file*** from the context menu.
+2. #### Make some Changes
 
-    <img src="assets/images/contributing/pr-7.png" width="400">
+    *(Optional)*  
 
-    See [Markdown Editing](markdown-editing) to learn the supported syntax.
+    If you want to apply some changes to the files included in the PR, bypassing the author, you can do it in two ways:
+    
+    - **Change Files in Github**
 
+        Click the ellipsis button of the file you want to edit and choose ***Edit file*** from the context menu.
+
+        <img src="assets/images/contributing/pr-7.png" width="400">
+
+        > Note that the ***Edit File*** button may sometimes be disabled. This happens because you have probably clicked somewhere that Github has placed you in a different branch for. In this case, simply click on the PR as you did in the first step of this section, then click on the file you want to edit and the button should be enabled again.
+        
+        See [Markdown Editing](markdown-editing) to learn the supported syntax for content editing.
+
+    *- Or -*
+
+    - **Change Files in VSCode**
+
+        Another way to directly change files of the PR is to use VSCode.  
+        The procedure is similar what the authors do to make changes to the repo, with some differences:
+
+        1. [Synchronize your Local Copy](#synchronize-your-local-copy)
+
+        2. **Switch to the PR Branch**
+
+            Since the branch created by the author for PR is public, you can switch to it and make any changes easily from your computer too. Any changes made there are automatically reflected in the Pull Request.
+
+            First you need to know the name of the branch used by the author of the PR. It's' at the top of the Github review page.
+
+            <img src="assets/images/contributing/pr-3b.png" width="800">
+
+            Now, in VSCode change the current branch from the lower left corner of the window. Click there and select the PR branch name from the dropdown list. 
+
+            <img src="assets/images/contributing/branch-name.png" width="200">
+
+            You are now ready to make changes.
+
+        3. [Make your Changes](#make-your-changes)
+
+        4. [Commit your Changes](#commit-your-changes)
+
+    
+    After committing the changes, you need to approve the PR as described in the previous step.
+
+3. #### Merge the Branch 
+    
     After approving the PR, you can merge the changes into the main branch. To do this, click ***Merge pull request*** and confirm.
 
     <img src="assets/images/contributing/pr-8.png" width="800">
 
-2. #### Delete the Branch
+4. #### Delete the Branch
 
     After the PR has been merged into the main branch, the patch branch must be deleted. Press the ***Delete branch*** button next to the merge confirmation message.
     
     <img src="assets/images/contributing/delete-branch.png" width="800">
 
 *You are done, congratulations!   
-The changes will be visible on the website in a couple of minutes.*<br>
+The changes will be visible on the website in a couple of minutes. If the changes do not appear, contact the administrator who will force the update manually.*<br>
 
 ## Content Editing
 
