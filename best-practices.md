@@ -3,7 +3,7 @@ layout:     page-no-nav
 title:      Best Practices
 published:  true
 date:       2021-12-20
-modified:   2022-01-07
+modified:   2022-01-08
 sitemap:    false
 ---
 
@@ -19,6 +19,8 @@ For example: ***this-is-a-new-file.md*** instead of ***this is a new_file.md***.
 ### Content
 
 - Use the [supported syntax](markdown-editing).
+
+- Don't forget to update the **modified** attribute in the header of each file you edit.
 
 - Use Camel Case (first character of each word capitalized) for titles.  
 For example: **Best Practices** instead of **Best practices**.
