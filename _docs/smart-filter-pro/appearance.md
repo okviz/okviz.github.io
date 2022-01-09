@@ -352,7 +352,7 @@ Let us see how is the visual appearance on selecting each of these options:
 
 <img src="images/Dropdown32.png" width="600">   
 
--- **Caret**: This displays a button in the form of small triangle for expanding/collapsing the nodes. When the parent category is expanded to show the subcategories as well, then the triangle appears as a downward facing triangle towards right. However, if the parent category is not expanded, then the triangle appears pointing to right.  
+- **Caret**: This displays a button in the form of small triangle for expanding/collapsing the nodes. When the parent category is expanded to show the subcategories as well, then the triangle appears as a downward facing triangle towards right. However, if the parent category is not expanded, then the triangle appears pointing to right.  
 
 <img src="images/Dropdown33.png" width="600">   
 
