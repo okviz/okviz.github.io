@@ -7,7 +7,7 @@ modified:   2022-01-08
 sitemap:    false
 toc_max:    2
 ---
-This document explains the workflow for editing the OKVIZ documentation (**docs**). Note that:
+This document explains the workflow to edit the OKVIZ documentation (**docs**). Note that:
 - The files consisting of the docs are hosted on Github at this URL (**repo**):
     <https://github.com/okviz/docs>  
 - We use Github to edit, review and manage documents, but despite the repo being publicly accessible, end users will browse the docs at this URL (**website**):
@@ -49,10 +49,10 @@ You need to follow the steps below only the first time.
 
     Download Git from <https://git-scm.com/> and install it using the default options.
 
-    After installing it, you need to configure your Github account – to do that:
+    After installing it, you need to configure your Github account. Here is how:
 
     1. Open Command Prompt (or Terminal on Mac).
-        The easiest way to do that is from search tool in the ***Start*** menu - search for ***cmd*** and click on the first result.
+        The easiest way to do that is from the search tool in the ***Start*** menu - search for ***cmd*** and click on the first result.
         
         <img src="assets/images/contributing/cmd.png" width="600">
 
@@ -70,7 +70,7 @@ You need to follow the steps below only the first time.
 
 3. #### Clone the Repo
 
-    Cloning a repository means creating a local copy of a remote repository on your computer. You can make any changes on your local copy and then, send those changes back online through a **Commit**.
+    Cloning a repository means creating a local copy of a remote repository on your computer. You can make any changes on your local copy, and then send those changes back online through a **Commit**.
 
     To clone the repo, open VSCode, click on the ***Clone Repository*** button in the ***Editors*** sidebar, and insert this repository URL: `https://github.com/okviz/docs.git`
 
@@ -80,16 +80,16 @@ You need to follow the steps below only the first time.
 
     At this point, VSCode downloads all the content from the repo online to your local folder and you're ready to start.  
 
-    Click ***Open*** and ***Trust the authors*** in the poppus that appear.
+    Click ***Open*** and ***Trust the authors*** in the pop-ups that appear.
 
 ### Make Changes
 
-You have to follow the steps below every time you want to make some changes to the docs in a session. 
+You have to follow the steps below every time you want to make changes to the docs in a session. 
 A session starts with synchronization and ends with a Pull Request.
 
 1. #### Synchronize your Local Copy
 
-    The first thing to do is to synchronize your local version of the repo with the version online, to include any changes made by the other contributors.
+    The first thing to do is to synchronize your local version of the repo with the online version, to include any changes made by the other contributors.
 
     In VSCode, click on the source control icon, select the ellipsis button, and choose the ***Pull*** command from the context menu. 
 
@@ -104,13 +104,13 @@ A session starts with synchronization and ends with a Pull Request.
 
     > After the end of the session and the approval of the related Pull Request, **this branch will be deleted** (more later).
 
-    To create a new branch, click on the label ***main*** on the lower-left corner of the VSCode window. Then click ***Create new branch...***, and enter a name in the format `username-YYYY-MM-DD` (replace ***username*** with your Github username and ***YYYY-MM-DD*** with the current date in ISO 8601 format).
+    To create a new branch, click on the  ***main*** label on the lower-left corner of the VSCode window. Then click ***Create new branch...***, and enter a name in the format `username-YYYY-MM-DD` (replace ***username*** with your Github username and ***YYYY-MM-DD*** with the current date in ISO 8601 format).
 
     <img src="assets/images/contributing/create-branch.png" width="550">
 
 3. #### Make your Changes
 
-    At this point, you are working on a different branch (you can see the name of the branch you have just created in the lower left corner of the VSCode window - if the name is still ***main***, click on the name and select the correct one).
+    At this point, you are working on a different branch. You can see the name of the branch you have just created in the lower left corner of the VSCode window - if the name is still ***main***, click on the name and select the correct one.
 
     <img src="assets/images/contributing/branch-name.png" width="200">
 
@@ -125,7 +125,7 @@ A session starts with synchronization and ends with a Pull Request.
 
     > **IMPORTANT**: Don't change any files outside of the ***_docs*** directory.
 
-    You can create files or folders directly in VSCode by right-clicking on the sidebar and choosing the appropriate command, and you can edit a file by left clicking on it in the sidebar. 
+    You can create files or folders directly in VSCode by right-clicking on the sidebar and choosing the appropriate command, and you can edit a file by left-clicking on it in the sidebar. 
     
     The files in the _docs directory are written in Markdown (file extension ***.md***) which is a simplified version of HTML. Editing a Markdown file is easier if you also open the preview pane - any changes in Markdown are interpreted and displayed in the preview pane in real time.
 
@@ -137,17 +137,17 @@ A session starts with synchronization and ends with a Pull Request.
 
 4. #### Commit your Changes
 
-    Committing a change means sending the files you changed locally back to the online repo. In fact, before committing, all changes are stored only in your local computer.
+    Committing a change means sending the files you changed locally back to the online repo. Indeed, before you commit them, all changes are stored only on your local computer.
 
     To commit with VSCode, click on the ***Source Control*** icon, add a small description of the changes made in the input box above the ***Changes*** section, click the ellipsis button and choose Commit (or CTRL + Enter).
 
     <img src="assets/images/contributing/commit.png" width="850">
 
-    If VSCode asks for staging your changes, click on ***Always***.
+    If VSCode asks if you want to stage your changes, click on ***Always***.
 
     <img src="assets/images/contributing/always-stage.png" width="500">
 
-    Then click ***Publish Branch*** (or ***Sync Changes*** if you are following this step after sending the PR - more later).
+    Then click ***Publish Branch*** (or ***Sync Changes*** if you are following this step after sending the Pull Request - more later).
 
     <img src="assets/images/contributing/publish-branch.png" width="300">
 
@@ -156,7 +156,7 @@ A session starts with synchronization and ends with a Pull Request.
 
     
 
-5. #### Create a Pull Request
+5. #### Create a Pull Request 
 
     At this point your changes are online on another branch, not visible on the website. You want to make them available to everyone, but you can't commit them directly to the ***main*** branch because every change requires approval. To request approval, you need to create a Pull Request (**PR**).
 
@@ -209,13 +209,13 @@ A session starts with synchronization and ends with a Pull Request.
 
     <img src="assets/images/contributing/delete-local-branch.png" width="600">
 
-    If VSCode shows more than a branch with the same name, **select all** and proceed, we don't need these copies anymore.
+    If VSCode shows more than one branch with the same name, **select all** and proceed, we don't need these copies anymore.
 
 *You are done, congratulations!*<br><br>
 
 ### Approve Changes
 
-These steps are for reviewers only. They must review the Pull Request, approve it (or request for changes), and delete the patch branch created online by the contributor.
+These steps are for reviewers only. They must review the Pull Request, approve it (or request changes), and delete the patch branch created online by the contributor.
 
 1. #### Review the Pull Request
 
@@ -227,17 +227,17 @@ These steps are for reviewers only. They must review the Pull Request, approve i
 
     <img src="assets/images/contributing/pr-5.png" width="700">
 
-    Here you can see all the changes included in the PR and decide to approve them from the ***Review changes*** dialog. 
+    Here you can see all the changes included in the PR and decide to approve them from the ***Review changes*** dialog box. 
 
     <img src="assets/images/contributing/pr-6.png" width="800">
 
-    If you want to request some changes from the author, click on ***Request changes*** and leave a comment. The author will be notified of your comments.
+    If you want to request changes from the author, click on ***Request changes*** and leave a comment. The author will be notified of your comments.
 
 2. #### Change the Pull Request
 
     *(Optional)*  
 
-    If you want to apply some changes to the files included in the PR, bypassing the author, you can do it in two ways:
+    If you want to apply some changes to the files included in the PR and bypass the author, you can do this in two ways:
     
     - **Change Files in Github**
 
@@ -245,7 +245,7 @@ These steps are for reviewers only. They must review the Pull Request, approve i
 
         <img src="assets/images/contributing/pr-7.png" width="400">
 
-        > Note that the ***Edit File*** button may sometimes be disabled. This happens because you have probably clicked somewhere that Github has placed you in a different branch for. In this case, simply click on the PR as you did in the first step of this section, then click on the file you want to edit and the button should be enabled again.
+        > Note that the ***Edit File*** button may sometimes be disabled. This happens because you probably clicked somewhere and got placed into a different branch by Github. In this case, simply click on the PR as you did in the first step of this section, then click on the file you want to edit and the button should be enabled again.
         
         See [Markdown Editing](markdown-editing) to learn the supported syntax for content editing.
 
@@ -253,14 +253,14 @@ These steps are for reviewers only. They must review the Pull Request, approve i
 
     - **Change Files in VSCode**
 
-        Another way to directly change files of the PR is to use VSCode.  
-        The procedure is similar what the authors do to make changes to the repo, with some differences:
+        Another way of directly changing the files of the PR is to use VSCode.  
+        The procedure is similar to what the authors do to make changes to the repo, with some differences:
 
         1. [Synchronize your Local Copy](#synchronize-your-local-copy)
 
         2. **Switch to the PR Branch**
 
-            Since the branch created for the PR is public, you can switch to it and make changes also if you are not the original author. Any changes made there are automatically reflected in the Pull Request.
+            Since the branch created for the PR is public, you can switch to it and make changes even if you are not the original author. Any changes made there are automatically reflected in the Pull Request.
 
             First you need to know the name of the branch used by the author of the PR. It's at the top of the Github review page.
 
@@ -269,8 +269,8 @@ These steps are for reviewers only. They must review the Pull Request, approve i
             Now, in VSCode change the current branch from the lower left corner of the window. Click there and select the PR branch name from the dropdown list. 
 
             <img src="assets/images/contributing/branch-name.png" width="200">
-
-            You are now ready to make changes.
+           
+           You are now ready to make changes.
 
         3. [Make your Changes](#make-your-changes)
 
