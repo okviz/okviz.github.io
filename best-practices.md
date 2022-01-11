@@ -3,7 +3,7 @@ layout:     page-no-nav
 title:      Best Practices
 published:  true
 date:       2021-12-20
-modified:   2022-01-08
+modified:   2022-01-11
 sitemap:    false
 ---
 
@@ -15,6 +15,8 @@ These rules apply to both folders, Markdown files and images:
 
 - **Don't put spaces** or other special characters ***(_ & , ; : % $ " ' / \\ ? ! @)*** in file names.  
 For example: ***this-is-a-new-file.md*** instead of ***this is a new_file.md***.
+- **Use lowercase** file names.
+For example: ***dropdown1.png*** instead of ***Dropdown1.png***.
 
 ### Content
 
