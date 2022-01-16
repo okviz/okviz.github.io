@@ -41,7 +41,7 @@ Every file must contain a header in the following format (note that the ***\-\-\
 - **order:** set a string to be used to sort the document in the navigation menu - check existing files to know how sorting works. In general, if the page is the child of a node, it is necessary to insert the order attribute of the parent node plus a slash ***/*** and a number (if you want to give a static position) or a sanitized version of the title (without spaces and special characters - if you want to use alphabetical sorting).
 - **toc:** (optional) set ***false*** to hide the automatic table of contents.
 - **version:** (optional) used only with visual options - set the version of the visual when the option was introduced.
-- **available:** (optional) used only with visual options - set the mode(s) in which the option is available.
+- **available:** (optional) used only with visual options - set the mode(s) in which the option is available. Setting this attribute will display an indicator under the document title. You can manually place this information in a different location using the [Available Badge](#available-badge).
 - **internal:** (optional) used to define some internal reference, useful for maintenance - not displayed on the website.
 
 ### Body
@@ -388,7 +388,27 @@ Always create a folder called images in the parent folder of the document you ar
 
 > Set a reasonable number of pixels in the ***width*** attribute of the &lt;img&gt; tag (see the [Best Practices](best-practices)).
 
-#### TODO
+#### Available Badge
+
+Sometimes it is necessary to display the availability limits of a feature described by the document. You can do this by adding the ***available*** attribute in the [document header](#header) or, if you need to put this information in a different position on the page, you can use this syntax anywhere in the text:
+
+<table>
+    <tr>
+        <th>Markdown</th>
+        <th>Rendered Output</th>
+    </tr>
+    <tr>
+        <td>
+            <pre>&#60;div class="badge availability"&#62;Dropdown mode&#60;/div&#62;</pre>
+        </td>
+        <td>
+            <div class="badge availability">Dropdown mode</div>
+        </td>
+    </tr>
+</table>
+
+
+#### TODO Badge
 
 You can add some placeholders and notes in unfinished documents, to keep track of the content to be edited or the tasks to be performed. You can also define an assignment attribute with the contributor's name.
 
@@ -402,12 +422,12 @@ You can add some placeholders and notes in unfinished documents, to keep track o
 <pre>
 &#60;todo&#62;Take a screenshot&#60;/todo&#62;
 
-&#60;todo assign="claire"&#62;TODO&#60;/todo&#62;
+&#60;todo assign="marco"&#62;TODO&#60;/todo&#62;
 </pre>
         </td>
         <td>
             <todo>Take a screenshot</todo><br>
-            <todo assign="claire">TODO</todo>
+            <todo assign="marco">TODO</todo>
         </td>
     </tr>
 </table>

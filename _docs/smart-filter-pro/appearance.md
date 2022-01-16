@@ -3,415 +3,270 @@ layout:             page
 title:              Appearance
 published:          true
 date:               2021-11-20
-modified:           2022-01-08
+modified:           2022-01-16
 order:              /02/04
 ---
   
-The *Appearance* properties group has features related to appearance of the visual items. Some features in this section are available for all the modes, while some are only available and relevant to some specific modes. Most of the features in the *Appearance* properties group are related to font and colour of the visual items.  
+The Appearance properties group contains options related to the appearance of Smart Filter Pro. 
 
-Let us have a look at the features in this properties group for each mode one by one:  
+Let us have a look at these options one by one:  
 
-## Dropdown Mode  
+## Border  
+<div class="badge availability">All modes except Hierarchy</div>
 
-### Dropdown Back Color  
+**Default value:** On
 
-This feature represents the background color of the dropdown.  
+This option, if enabled, draws a border outline for the input textbox or field area.  
 
-<img src="images/Dropdown1.png" width="550">   
+<img src="images/appearance-border.png" width="600">  
 
-The dropdown back color has been purposely changed from white to light grey for clear illustration.  
+## Border Color  
+<div class="badge availability">All modes except Hierarchy</div>
 
-### Items Back Color  
+This option defines the border color of the input textbox.  
 
-This feature represents the background color of the item selected for filter.   
+<todo assign="twinkle">Take a screenshot with a different border color</todo>
 
-<img src="images/Dropdown2.png" width="550">    
+## Clear Button  
+<div class="badge availability">Dropdown | Filter | Search mode</div>
 
-### Items Text Color  
+**Default value:** On
 
-This feature represents the font color of the item selected for filter.   
+This option, if enabled, displays a button inside every input control so as to clear all of the content/selected items in one go. This button is hidden and is visible only when you hover over the input box. 
 
-<img src="images/Dropdown3.png" width="550">   
+<img src="images/appearance-clear.png" width="550">    
 
-You see here that the font of the selected item is white against blue background.    
+## Controls Color  
+<div class="badge availability">All modes except Hierarchy</div>
 
-### Input Color  
+This option defines the color of the interface controls of the visual, such as the dropdown arrow in Dropdown mode, the help button in Filter mode and so on.
 
-This feature represents the font color of the input item before selection. As soon as the user presses the Enter key, filter is applied and the color of the item changes to item text color.  
+<img src="images/appearance-controls-color.png" width="550">   
 
-<img src="images/Dropdown4.png" width="550">    
 
-### Input Back Color  
+## Dropdown Back Color  
+<div class="badge availability">Dropdown mode</div>
 
-This feature represents the background color of the input textbox.    
+This option defines the background color of the dropdown list.  
 
-<img src="images/Dropdown5.png" width="600">  
+<img src="images/appearance-dropdown-back-color.png" width="550">   
+
+## Expand/Collapse Icon  
+<div class="badge availability">Hierarchy mode</div>
+
+**Default value:** Chevron
+
+This option defines the appearance of the icon used for expanding/collapsing the nodes in a hierarchy tree. It provides three options to choose from:
+
+- **Chevron**: This displays an arrow button for expanding/collapsing the nodes  
+
+    <img src="images/appearance-expand-chevron.png" width="600">   
+
+- **Plus/Minus**: This displays a plus/minus button for expanding/collapsing the nodes  
+
+    <img src="images/appearance-expand-plus.png" width="600">   
+
+- **Caret**: This displays a button in the form of small triangle for expanding/collapsing the nodes.
+
+    <img src="images/appearance-expand-caret.png" width="600">   
+
+## Filter Button   
+<div class="badge availability">Filter | Search mode</div>
+
+**Default value:** On
+
+This option, if enabled, shows a button inside the input controls to apply the filter. In case this option is not enabled, the button is hidden and you can apply the filter by pressing the Enter key with Filter mode, or CTRL + Enter (Cmd + Enter on Mac) with Search mode.  
+
+<img src="images/appearance-filter-button.png" width="550">  
+
+## Font Family  
+
+This option defines the font style of the filter items of the visual.  
+
+<img src="images/appearance-font-family.png" width="550">    
+
+
+## General Clear Button  
+<div class="badge availability">Dropdown | Filter mode</div>
+
+**Default value:** Off
+
+This option, if enabled, displays a button to clear the contents of all input fields at the same time. This makes more sense when there are multiple fields connected to the visual, and you do not want to click on individual [clear buttons](#clear-button) in each input box to empty it. This button is visible only when you hover over the extreme right end of the visual.  
+
+<img src="images/appearance-general-clear.png" width="550">   
+
+## Help Button  
+<div class="badge availability">Filter mode</div>
+
+**Default value:** On
+
+This option, if enabled, shows a button inside the input box to display a tooltip containing the available [query syntax](mode/filter#how-to-search) as per the field of the input box. The button is hidden and is visible only when you hover over the input box.  
+
+<img src="images/appearance-help-button.png" width="550">    
+
+
+## Horizontal
+<div class="badge availability">Dropdown | Observer mode</div>
+
+**Default value:** Off
+
+This option defines the arrangement of the input controls when multiple fields are connected to the visual. If enabled, the controls are aligned horizontally, otherwise each control is positionated below the others.
+
+<todo assign="twinkle">Take screeenshots of Horizontal alignment in Dropdown and Observer modes</todo>
+
+## Input Back Color  
+<div class="badge availability">All modes except Hierarchy</div>
+
+This option defines the background color of the input textbox.    
+
+<img src="images/appearance-input-back-color.png" width="550">  
 
 The input back color has been purposely changed from white to dark grey for clear illustration.  
 
-### Border  
+## Input Color  
+<div class="badge availability">All modes except Hierarchy</div>
 
-This feature if enabled, draws a border outline for the input textbox.  
+This option defines the font color of the input textbox. The color of the filter items is defined by a [different option](#items-text-color).  
 
-<img src="images/Dropdown6.png" width="600">  
+<img src="images/appearance-input-color.png" width="550">    
 
-### Border Color  
+## Items Back Color  
+<div class="badge availability">Dropdown | Filter | Observer mode</div>
 
-This feature represents the border color of the input textbox.  
+This option defines the background color of the filter elements in the visual.   
 
-<img src="images/Dropdown7.png" width="600">   
+<img src="images/appearance-item-back-color.png" width="550">    
 
-## Controls Color  
+## Items Text Color  
+<div class="badge availability">Dropdown | Filter | Observer mode</div>
 
-This feature represents the color of the dropdown control – the arrow in the right corner of input textbox used for expanding the dropdown list.  
+This option defines the font color of the filter elements in the visual.   
 
-<img src="images/Dropdown8.png" width="550">   
+<img src="images/appearance-fore-color.png" width="550">   
 
-### Word Wrap  
+## Max Item Width  
+<div class="badge availability">Dropdown | Filter | Observer mode</div>
 
-The word-wrap feature allows long words to be able to be broken and *wrap* onto the next line. It is a word processing feature that automatically transfers a word for which there is insufficient space from the end of one line of text to the beginning of the next.  
+**Default value:** 0
 
-<img src="images/Dropdown9.png" width="550">   
+This option is used to set the maximum width of each filter items. 
 
-As you can see in the example above that the category item *Music, Movies and Audio Books* is not completely visible due to less width of the visual. However, if you switch on the *Word wrap* feature, then the invisible text will be wrapped onto the next line.  
+<img src="images/appearance-max-width.png" width="550">   
 
-<img src="images/Dropdown10.png" width="550">    
+> Set ***Max Item Width*** to 0 to automatically use all the required space.   
 
-### Font Family  
+## Min Input Lines  
+<div class="badge availability">Dropdown | Filter mode</div>
 
-This feature represents the font style of the items selected for filter in input textbox.  
+**Default value:** 1
 
-<img src="images/Dropdown11.png" width="550">    
+This option is used to set the minimum height of the input textbox.
 
-### Text Size  
+As you select multiple elements, the height of the visual automatically increases to accommodate the selection. Setting a value greater than 1 here forces the visual to be a specific number of lines tall. For example, if the elements you select span 2 lines and you put 3 as a minimum, the visual height will be 3 lines. However, if the elements span 4 lines, the height of the visual will be 4 lines.
 
-This feature represents the font size of the items’ text.  
+<todo assign="twinkle">Retake the screenshot to with the option set to 3 and 4 selected items (2 lines)</todo>
 
-<img src="images/Dropdown12.png" width="550">   
+> Set ***Min Input Lines*** to 0 to automatically fill the height of the visual.   
 
-### Min Input Lines  
+## Node Arrow Color  
+<div class="badge availability">Hierarchy mode</div>
 
-This feature is used to set the minimum height of the input textbox. It is set to 0 so as to automatically fill the size/height of the visual.   
+This option defines the color of the arrow icon used to expand/collapse the hierarchy tree nodes.  
 
-For instance, if you select multiple subcategory items for filter, then the *Min input lines* feature will accordingly adjust and increase the height of the input textbox so as to accommodate all the item selections.  
+<img src="images/appearance-node-arrow.png" width="550">  
 
-<img src="images/Dropdown13.png" width="550">   
+## Node Checkbox Color  
+<div class="badge availability">Hierarchy mode</div>
 
-If the value is set to 0, then the height of the input textbox will fill the entire visual.  
+This option defines the checkbox color of the tree node items.   
 
-<img src="images/Dropdown14.png" width="550">   
+<img src="images/appearance-node-checkbox.png" width="550">    
 
-Here you see that the height of the input textbox has filled the entire visual.  
 
-### Max Item Width  
+## Node Text Color  
+<div class="badge availability">Hierarchy mode</div>
 
-This feature is used to set the maximum width of each selected items. It is set to 0 so as to automatically use all the required space.   
+This option defines the font color of the tree node items.   
 
-<img src="images/Dropdown15.png" width="500">   
+<img src="images/appearance-node-color.png" width="550">    
 
-If the value is set to 0, then it will automatically use all the required space.   
+## Node Text Color (Hover)
+<div class="badge availability">Hierarchy mode</div>
 
-<img src="images/Dropdown16.png" width="500">   
+This option defines the font color of the tree node items on hover.  
 
-### Clear Button  
+<img src="images/appearance-node-hover-color.png" width="550">    
 
-This option, if enabled,  displays a button inside all the selected input fields so as to clear all of the content/selected items in one go. This button is hidden and is visible only when you hover over the input box.  
+## Stepped Layout Indentation  
+<div class="badge availability">Hierarchy mode</div>
 
-<img src="images/Dropdwn17.png" width="1150">    
+**Default value:** 10
 
-In case, there is more than one input field in Smart Filter Pro, then the *Clear button* will be available in all the input boxes.  
-
-<img src="images/Dropdown18.png" width="600">    
-
-<img src="images/Dropdown19.png" width="600">    
-
-So, when you click on all the *Clear buttons* of all the input boxes, then all the selected items of all the fields will be cleared.  
-
-<img src="images/Dropdown20.png" width="600">  
-
-### General Clear Button  
-
-This option, if enabled, displays a button inside the visual, but out of the input box so as to allow to clear the contents of all input fields in general. This makes more sense when there are multiple fields in Smart Filter Pro, and you do not have to click on individual clear buttons in each input box to clear all the selections of all the fields. This button is also hidden and is visible only when you hover over the extreme right end of the visual.  
-
-<img src="images/Dropdown21.png" width="1200">   
-
-### Tooltips  
-
-Smart Filter Pro connects multiple fields and measures to the *Tooltips* field so as to display additional information for selected keywords. These additional fields are added to the *Tooltips* Fields area and are displayed on hovering over the visual. This feature is available only in Dropdown and Observer modes.  
-
-<img src="images/Dropdown22.png" width="550">    
-
-<img src="images/Dropdown23.png" width="600">    
-
-## Filter Mode  
-
-### Items Back Color  
-
-[Items back color](#items-back-color)    
-
-
-### Items Text Color  
-
-[Items text color](#items-text-color)  
-
-### Input Color  
-
-[Input color](#input-color)  
-
-### Input Back Color  
-
-[Input back color](#input-back-color)  
-
-### Border 
-
-[Border](#border)  
-
-### Border Color  
-
-[Border color](#border-color)  
-
-### Controls Color  
-
-[Controls color](#controls-color)  
-
-### Word Wrap  
-
-[Word wrap](#word-wrap)  
-
-### Font Family  
-
-[Font family](#font-family)  
-
-### Text Size 
-
-[Text size](#text-size)  
-
-### Min Input Lines  
-
-[Min input lines](#min-input-lines)  
-
-### Max Item Width  
-
-[Max item width](#max-item-width)  
-
-### Filter Button   
-
-This feature, if enabled, shows a button inside the input box to apply the filter. In case this feature is not enabled – the button is hidden and the user can apply filter normally by pressing the Enter key in case of Filter mode, or CTRL + Enter in case of Search mode.  
-
-<img src="images/Dropdown24.png" width="550">  
-
-On clicking this button, filter will be applied on the selected item without the need to press Enter Key.    
-
-<img src="images/Dropdown25.png" width="550">   
-
-Since the filter has been applied now, so the filter button gets greyed out.  
-
-### Help Button  
-
-This feature, if enabled, shows a button inside the input box to display a tooltip containing the available query syntax as per the field in the input box – numeric/textual/date. The button is hidden and is visible only when you hover over the input box.  
-
-<img src="images/Dropdown26.png" width="550">    
-
-### Clear Button
-
-[Clear button](#clear-button)  
-
-### General Clear Button
-
-[General clear button](#general-clear-button)  
-
-### Tooltips
-
-[Tooltips](#tooltips)  
-
-## Search Mode  
-
-### Input Color
-
-[Input color](#input-color)   
-
-### Input Back Color
-
-[Input back color](#input-back-color)   
-
-### Border
-
-[Border](#border)   
-
-### Border Color
-
-[Border color](#border-color)   
-
-### Controls Color
-
-[Controls color](#controls-color)   
-
-### Font Family
-
-[Font family](#font-family)   
-
-### Text Size
-
-[Text size](#text-size)   
-
-### Filter Button
-
-[Filter button](#filter-button)  
-
-### Clear Button
-
-[Clear button](#clear-button)   
-
-## Observer Mode    
-
-### Items Back Color  
-
-[Items back color](#items-back-color)   
-
-### Items Text Color  
-
-[Items text color](#items-text-color) 
-
-### Input Color
-
-[Input color](#input-color)   
-
-### Input Back Color
-
-[Input back color](#input-back-color)   
-
-### Border
-
-[Border](#border)   
-
-### Border Color
-
-[Border color](#border-color)   
-
-### Controls Color
-
-[Controls color](#controls-color)    
-
-### Word Wrap  
-
-[Word wrap](#word-wrap) 
-
-### Font Family
-
-[Font family](#font-family)   
-
-### Text Size
-
-[Text size](#text-size)   
-
-### Max Item Width
-
-[Max item width](#max-item-width)  
-
-### Tooltips
-
-[Tooltips](#tooltips)  
-
-## Hierarchy Mode  
-
-### Node Text Color  
-
-This feature represents the font color of the node items.   
-
-<img src="images/Dropdown27.png" width="600">    
-
-### Hover Node Text Color  
-
-This feature represents the font color of the node item that you hover over.  
-
-<img src="images/Dropdown28.png" width="600">    
-
-### Node Arrow Color  
-
-This feature represents the color of the icon – the node arrow which is used to expand/collapse the nodes when there is more than one field/column in the visual displaying parent category and sub categories.   
-
-<img src="images/Dropdown29.png" width="600">   
-
-### Node Checkbox Color  
-
-This feature represents the checkbox color of the node item.   
-
-<img src="images/Dropdown30.png" width="600">    
-
-### Expand/Collapse Icon  
-
-This feature represents the appearance of the icon used for expanding/collapsing the nodes when there is more than one field/column in the visual displaying parent category and sub categories. It provides three options to choose from – *Chevron*, *Plus/Minus*, *Caret*.   
-
-Let us see how is the visual appearance on selecting each of these options:   
-
-- **Chevron**: This displays an arrow button for expanding/collapsing the nodes. When the parent category is expanded to show the subcategories as well, then the arrow appears as a downward facing arrow. However, if the parent category is not expanded, then the arrow appears pointing to right.    
-
-<img src="images/Dropdown31.png" width="600">   
-
-- **Plus/Minus**: This displays a plus/minus button for expanding/collapsing the nodes. When the parent category is expanded to show the subcategories as well, then the button appears as a minus button. However, if the parent category is not expanded, then the button appears as a plus button.  
-
-<img src="images/Dropdown32.png" width="600">   
-
-- **Caret**: This displays a button in the form of small triangle for expanding/collapsing the nodes. When the parent category is expanded to show the subcategories as well, then the triangle appears as a downward facing triangle towards right. However, if the parent category is not expanded, then the triangle appears pointing to right.  
-
-<img src="images/Dropdown33.png" width="600">   
-
-### Stepped Layout Indentation  
-
-This feature is used to choose the value for indentation where the subcategories are indented in a progression underneath the parent category.  
+This option is used to choose the value for indentation where the subnodes are indented in a progression underneath the parent node in a hierarchy tree.  
 
 For instance, if you choose this value to be a very low number say 3, then the subcategories in the visual dropdown will be placed almost right under the parent category.  
 
-<img src="images/Dropdown34.png" width="550">   
+<img src="images/appearance-stepped-layout.png" width="550">   
 
-So, you can see that the subcategories for *Audio* are not indented well and placed almost right under the parent category *Audio*. Keeping a low number for indentation gives the appearance of child subcategories at same level as the parent.
+## Text Size  
 
-Now if you choose this value to be 20 say, then the subcategories will be indented in a progression underneath the parent category.  
+This option defines the font size of the items.  
 
-<img src="images/Dropdown35.png" width="550">   
+<img src="images/appearance-text-size.png" width="550">   
 
-So, you see that the subcategories for *Audio* are indented in a progression underneath the parent category *Audio*. Thus, the subcategories are displayed properly as child of parent category *Audio*.  
+## Tooltips  
 
-### Tree Controls  
+<div class="badge availability">All modes except Search</div>
 
-This feature is used to show a bar with additional controls that allow to expand/collapse the nodes, and clear selections using buttons. These additional buttons are visible only when you hover over the input box.  
+**Default value:** On
 
-<img src="images/Dropdown36.png" width="550">   
+Enable this option to display additional information in the tooltips of each filter item of the visual.
 
-For instance, let us say you have the fields Category and Subcategory in Smart Filter Pro, and all of the parent categories are collapsed in the visual. Now if you wish to display all the subcategories of each parent category, then you can use the expand button to expand all the parent nodes in one go.    
+<img src="images/appearance-tooltips.png" width="550">    
 
-<img src="images/Dropdown37.png" width="550">    
+You can enrich the content of the toolips by connecting different measures to the ***Tooltips*** field of the visual.
 
-So, when you click on the *Expand all* nodes button, then all the parent nodes get expanded in one go to show the subcategories as well.  
+<img src="images/appearance-tooltips2.png" width="550"> 
 
-<img src="images/Dropdown38.png" width="550">    
+> For more information, see this article: [Customize tooltips in Power BI](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-custom-tooltips)
 
-Similarly, if you wish to collapse all the nodes in ne go, then you can use the *Collapse all* nodes button to display only the parent categories.  
+   
 
-<img src="images/Dropdown39.png" width="550">    
+## Tree Controls  
+<div class="badge availability">Hierarchy mode</div>
 
-So, when you click on the *Collapse all* nodes button, then all the parent nodes get collapsed in one go.  
+**Default value:** On
 
-<img src="images/Dropdown40.png" width="550">    
+This option is used to show a toolbar with controls to expand/collapse the nodes, and clear the current selection in a tree. This toolbar is visible only on hover.  
 
-The extreme right button on enabling the *Tree controls* feature is the button used for clearing all the selections. Suppose the categories *Computers* and *Cell phones* are selected for filter.  
+<img src="images/appearance-tree-controls.png" width="550">   
 
-<img src="images/Dropdown41.png" width="550">     
+For instance, let us say you have the fields ***Category*** and ***Subcategory***, and all of the parent categories are collapsed in the visual. Now if you wish to display all the subcategories of each parent category, then you can use the expand button to expand all the parent nodes in one go.    
 
-Now the moment you click on the *Clear selections* button, the selected items will be cleared and you will see the list of items without any application of filter.  
+<img src="images/appearance-tree-controls2.png" width="550">    
 
-<img src="images/Dropdown42.png" width="550">   
+Similarly, if you wish to collapse all the nodes in one go, then you can use the ***Collapse all*** button to display only the parent categories.  
 
-### Tooltips  
+<img src="images/appearance-tree-controls3.png" width="550">    
 
-[Tooltips](#tooltips)
+The last button on the the right is used for clearing all the selections.
 
+<img src="images/appearance-tree-controls4.png" width="550">   
 
+## Word Wrap  
+<div class="badge availability">Dropdown | Filter | Observer mode</div>
 
+**Default value:** Off
 
+The option allows you to break long words and wrap them in multiple lines. It is a word processing function that automatically transfers a word for which there is not enough space from the end of one line of text to the beginning of the next.
 
+<img src="images/appearance-word-wrap.png" width="550">   
 
+<img src="images/appearance-word-wrap2.png" width="550">   
 
+## Word Wrap (Hierarchy)
+<div class="badge availability">Hierarchy mode</div>
 
+**Default value:** Truncate
 
-
+<todo assign="twinkle">Word wrap in Hierarchy mode is different from the other modes</todo>
