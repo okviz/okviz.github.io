@@ -3,15 +3,15 @@ layout:     page-no-nav
 title:      Contributing
 published:  true
 date:       2021-12-20
-modified:   2022-01-08
+modified:   2022-01-17
 sitemap:    false
 toc_max:    2
 ---
-This document explains the workflow to edit the OKVIZ documentation (**docs**). Note that:
-- The files consisting of the docs are hosted on Github at this URL (**repo**):
-    <https://github.com/okviz/docs>  
-- We use Github to edit, review and manage documents, but despite the repo being publicly accessible, end users will browse the docs at this URL (**website**):
-    <https://docs.okviz.com>
+This document explains the workflow to edit this documentation (**docs**). Note that:
+- The files consisting of the docs are hosted on Github at this URL (**repo**):  
+    <{{ site.github }}>  
+- We use Github to edit, review and manage documents, but despite the repo being publicly accessible, end users will browse the docs at this URL (**website**):  
+    <{{ site.url }}>
 
 ## Workflow
 
@@ -72,11 +72,11 @@ You need to follow the steps below only the first time.
 
     Cloning a repository means creating a local copy of a remote repository on your computer. You can make any changes on your local copy, and then send those changes back online through a **Commit**.
 
-    To clone the repo, open VSCode, click on the ***Clone Repository*** button in the ***Editors*** sidebar, and insert this repository URL: `https://github.com/okviz/docs.git`
+    To clone the repo, open VSCode, click on the ***Clone Repository*** button in the ***Editors*** sidebar, and insert this repository URL: `{{ site.github }}.git`
 
     <img src="assets/images/contributing/clone-repo.png" width="700">
 
-    After inserting the URL, you are asked to choose a folder on your computer to store the content of the copy of the repo. Create a new one called ***OKVIZ*** and press ***Select Repository Location***. 
+    After inserting the URL, you are asked to choose a folder on your computer to store the content of the copy of the repo. Create a new one and press ***Select Repository Location***. 
 
     At this point, VSCode downloads all the content from the repo online to your local folder and you're ready to start.  
 
@@ -160,7 +160,7 @@ A session starts with synchronization and ends with a Pull Request.
 
     At this point your changes are online on another branch, not visible on the website. You want to make them available to everyone, but you can't commit them directly to the ***main*** branch because every change requires approval. To request approval, you need to create a Pull Request (**PR**).
 
-    First of all, go to the repo on Github (<https://github.com/okviz/docs>), ***Sign in*** if you are not logged in, then click on ***Compare & pull request*** button that should appear on top of the files list.
+    First of all, go to the repo on Github (<{{ site.github }}>), ***Sign in*** if you are not logged in, then click on ***Compare & pull request*** button that should appear on top of the files list.
     
     <img src="assets/images/contributing/pr-1.png" width="700">
 
@@ -219,7 +219,7 @@ These steps are for reviewers only. They must review the Pull Request, approve i
 
 1. #### Review the Pull Request
 
-    To review the PR, open the repo on Github, click on [Pull requests](https://github.com/okviz/docs/pulls) and select it from the list.
+    To review the PR, open the repo on Github, click on [Pull requests]({{ site.github }}/pulls) and select it from the list.
 
     <img src="assets/images/contributing/pr-4.png" width="800">
 
