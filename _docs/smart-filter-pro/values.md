@@ -22,7 +22,7 @@ Each mode displays values in a different way:
     <img src="images/values-observer-mode.png" width="650">
 - **Hierarchy mode**  
     <img src="images/values-hierarchy-mode.png" width="650">   
-    <todo assign="twinkle">Retook the screenshot with values visible</todo> 
+  
  
 
 
