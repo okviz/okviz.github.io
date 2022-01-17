@@ -22,6 +22,9 @@ title: OKVIZ Documentation
 email: support@okviz.com
 domain: docs.okviz.com
 url: https://docs.okviz.com
+company: OKVIZ Corp.
+website: https://okviz.com
+github: https://github.com/okviz/docs
 plugins:
   - jekyll-sitemap
 permalink: /:categories/:title:output_ext

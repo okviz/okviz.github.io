@@ -7,7 +7,7 @@ modified:   2022-01-11
 sitemap:    false
 ---
 
-The following directions are required to keep the OKVIZ docs clean and consistent.
+The following directions are required to keep this documentation clean and consistent.
 
 ### File Name
 
