@@ -3,7 +3,7 @@ layout:             page
 title:              Values
 published:          true
 date:               2021-11-20
-modified:           2022-01-16
+modified:           2022-01-17
 order:              /02/05
 version:            2.2.1
 available:          Dropdown | Observer | Hierarchy mode
@@ -22,7 +22,7 @@ Each mode displays values in a different way:
     <img src="images/values-observer-mode.png" width="650">
 - **Hierarchy mode**  
     <img src="images/values-hierarchy-mode.png" width="650">   
-    <todo assign="twinkle">Retook the screenshot with values visible</todo> 
+  
  
 
 
