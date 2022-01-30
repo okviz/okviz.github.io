@@ -3,25 +3,25 @@ layout:             page
 title:              Bookmarks
 published:          true
 date:               2021-11-20
-modified:           2022-01-22 
+modified:           2022-01-30 
 order:              /02/10
 ---
 
- The [Power BI Bookmarks](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-bookmarks) option allows you to capture the current state of a report page. Bookmarks save the current filters and slicers, cross-highlighted visuals, sort order, and so on. Smart Filter Pro also supports the ***Bookmarks*** feature of Power BI seamlessly.   
+***Bookmarks*** is a feature of Power BI that allows you to capture and save the current state of a report page. Smart Filter Pro supports this feature seamlessly.   
 
- In order to illustrate this option, suppose that you have ***Brand*** and ***Subcategory*** as the input fields in Smart Filter Pro on a particular report page.   
+To illustrate this option, suppose that you have ***Brand*** and ***Subcategory*** as the input fields in Smart Filter Pro on a particular report page.   
 
- <img src="images/bookmark-1.png" width="750">    
+<img src="images/bookmark-1.png" width="750">    
 
- Now you want this report page to always filter on some specific brand and subcategories whenever you open it. Thus, you can create a bookmark capturing filters of your preference in Smart Filter Pro. 
- 
- Let us say you want to capture the state of visuals filtered by the Contoso brand, and some specific subcategories related to *Phone*. To do this, first apply the specific filters in Smart Filter Pro, and then create a bookmark using the ***Bookmarks*** button under the ***View*** tab. Click on ***Add*** and name it.  
+Now you want this report page to filter on some specific brands (e.g. ***Contoso***) and subcategories (e.g. some phone-related products) every time you want with a single click. Thus, you can create a bookmark. 
+To do so, you first need to display the ***Bookmarks pane***:
+- In Power BI Desktop click on the ***View*** ribbon, then select ***Bookmarks***.
+- In Power BI Service, click on the ***View*** menu, then enable the ***Bookmarks pane***.
 
- <img src="images/bookmark-2.png" width="850">   
+Then you can click on the ***Add*** button and choose a meaningful name.
 
- Even after you clear/change these filters, clicking on this bookmark every time will automatically change to the view that belonged to the bookmark. 
+<img src="images/bookmark-2.png" width="850">   
 
-If you click on the three dots next to the bookmark, then a dropdown menu will appear that will have some pre-checked options. If the ***Data*** option is checked, then the current state of data within the filters, slicers, and all the visuals will also be captured, and each time you navigate to/click on this bookmark, you will see exactly the same state of data.   
+Even after changing the filters on this page, clicking on a bookmark will automatically change the state of each visual on the page to the state it was at the time you set the bookmark. 
 
-<img src="images/bookmark-3.png" width="850">  
-
+> Find more information here: [Create report bookmarks in Power BI to share insights and build stories](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-bookmarks)

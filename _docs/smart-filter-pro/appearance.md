@@ -3,7 +3,7 @@ layout:             page
 title:              Appearance
 published:          true
 date:               2021-11-20
-modified:           2022-01-22
+modified:           2022-01-30
 order:              /02/04
 ---
   
@@ -166,9 +166,7 @@ This option is used to set the minimum height of the input textbox.
 
 As you select multiple elements, the height of the visual automatically increases to accommodate the selection. Setting a value greater than 1 here forces the visual to be a specific number of lines tall. For example, if the elements you select span 2 lines and you put 3 as a minimum, the visual height will be 3 lines. However, if the elements span 4 lines, the height of the visual will be 4 lines.
 
-<img src="images/appearance-min-input-lines-1.png" width="550">  
-
-<img src="images/appearance-min-input-lines-2.png" width="550">
+<todo assign="daniele">Retake two screenshot spanning 2 and 4 lines.</todo>
 
 > Set ***Min Input Lines*** to 0 to automatically fill the height of the visual.   
 
@@ -273,17 +271,17 @@ The option allows you to break long words and wrap them in multiple lines. It is
 
 **Default value:** Truncate
 
-The word-wrap option in Hierarchy mode is different from other modes. It allows you to choose how to display long node names and provides three options to choose from:    
+The word-wrap option in Hierarchy mode allows you to choose how to display long node names with three options to choose from:    
 
-- **Truncate**: This truncates long node names in case the width of the visual is less. The long node name is truncated according to the available width.   
+- **Truncate**: This truncates node names to keep them on one line and add the ellipsis at the end.   
 
-<img src="images/appearance-wordwrap-truncate-hierarchy-mode.png" width="450">  
+    <img src="images/appearance-wordwrap-truncate-hierarchy-mode.png" width="450">  
 
-- **Wrap**: This breaks long node names and wrap them in multiple lines in case width of the visual is less.  
+- **Wrap**: This breaks node names across multiple lines in case the width of the visual is less than their length.  
 
-<img src="images/appearance-wordwrap-wrap-hierarchy-mode.png" width="450">   
+    <img src="images/appearance-wordwrap-wrap-hierarchy-mode.png" width="450">   
 
---**Scroll**: This displays a scroll bar when there are long node names in case width of the visual is less. A horizontal scroll bar is added to view the full node name.  
+- **Scroll**: This displays the horizontal scroll bar when node names are longer than the width of the visual.  
 
-<img src="images/appearance-wordwrap-scroll-hierarchy-mode.png" width="450"> 
+    <img src="images/appearance-wordwrap-scroll-hierarchy-mode.png" width="450"> 
 
