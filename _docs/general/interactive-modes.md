@@ -7,6 +7,8 @@ modified:           2022-01-22
 order:              /01/04
 ---
 
+<todo>Fix doc</todo>
+
 There are two [modes for interacting with reports](https://docs.microsoft.com/en-us/power-bi/create-reports/service-interact-with-a-report-in-editing-view) in the Power BI service: ***Reading view*** and ***Editing view***. If you are a business user, then you are more likely to use ***Reading view*** to consume reports created by others. ***Editing view*** is used by report owners and designers, who create the reports and share them with others.   
 
 ***Reading view*** is the way to explore and interact with reports created by colleagues. Even in ***Reading view***, the content is not static. The ***Reading view*** even allows you to slice and dice the content, discover interesting insights in data, send you alerts when data changes, and email reports to you on a schedule you set. This can be done for all your data, any time, in the cloud or on-premises, from any device.  
