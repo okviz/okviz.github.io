@@ -20,10 +20,10 @@ Contact us at [support@okviz.com](mailto:support@okviz.com?subject=Smart%20Filte
 - The **version of Power BI Desktop** you are using (or the browser you are using with the Power BI service).
 - A **screenshot/screencast** of the problem (if applicable). 
     You can record the screen on Windows by using PSR (Steps Recorder). Follow these steps:
-    - Click on the Start menu, then type `PSR`, then click on ***Open Step Recorder***  
-    - Click on the help icon and choose ***Settings***; here you need to set 100 in the  ***Number of recent screen captures to store*** option.
-    - Press ***Start Record*** 
-    - Record the issue and once this is done, please select ***Stop recording***, save the file somewhere and sent it to us.
+    1. Click on the Start menu, then type `PSR`, then click on ***Open Step Recorder***.  
+    2. Click on the help icon and choose ***Settings***; here you need to set 100 in the  ***Number of recent screen captures to store*** option.
+    3. Press ***Start Record***. 
+    4. Record the issue and once this is done, please select ***Stop recording***, save the file somewhere and sent it to us.
 
 - A **sample Power BI report (PBIX file)** that reproduces the problem.  
 Note that:
