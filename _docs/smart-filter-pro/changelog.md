@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2018-06-01
-modified:           2021-12-15
+modified:           2022-03-20
 order:              /02/99
 toc_max:            2
 ---
@@ -11,14 +11,12 @@ This page contains a quick summary of versions and notable changes of Smart Filt
 Smart Filter Pro uses **Power BI Custom Visuals API v1.13.0** - compatible with Power BI July 2018 and later versions.
 
 ## v2.2.8
-**Released:** 2021-12-31
+**Released:** 2022-03-20
 
 **Changed:**
 - Some options labels and tooltips.
-
-**Fixed:**
-- An issue with Max items in dropdown option.
-
+- [Max Items in Dropdown](mode/max-items-in-dropdown) now can be 0 to include all results available in cache for the query string.
+- Improved memory usage.
 
 ## v2.2.7
 **Released:** 2021-10-21

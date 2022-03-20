@@ -271,7 +271,7 @@ The option allows you to break long words and wrap them in multiple lines. It is
 
 **Default value:** Truncate
 
-The word-wrap option in Hierarchy mode allows you to choose how to display long node names with three options to choose from:    
+The word-wrap option in Hierarchy mode allows you to choose how to display long node names in two ways:    
 
 - **Truncate**: This truncates node names to keep them on one line and add the ellipsis at the end.   
 
@@ -280,8 +280,3 @@ The word-wrap option in Hierarchy mode allows you to choose how to display long 
 - **Wrap**: This breaks node names across multiple lines in case the width of the visual is less than their length.  
 
     <img src="images/appearance-wordwrap-wrap-hierarchy-mode.png" width="450">   
-
-- **Scroll**: This displays the horizontal scroll bar when node names are longer than the width of the visual.  
-
-    <img src="images/appearance-wordwrap-scroll-hierarchy-mode.png" width="450"> 
-
