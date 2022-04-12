@@ -130,7 +130,7 @@ GEM
       commonmarker (~> 0.14)
       jekyll (>= 3.7, < 5.0)
     jekyll-commonmark-ghpages (0.1.6)
-      commonmarker (~> 0.23.4)
+      commonmarker (~> 0.17.6)
       jekyll-commonmark (~> 1.2)
       rouge (>= 2.0, < 4.0)
     jekyll-default-layout (0.1.4)
@@ -229,9 +229,11 @@ GEM
       jekyll-seo-tag (~> 2.1)
     minitest (5.15.0)
     multipart-post (2.1.1)
-    nokogiri (1.13.3-arm64-darwin)
+    nokogiri (1.13.4-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.13.3-x86_64-darwin)
+    nokogiri (1.13.4-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.13.4-x86_64-linux)
       racc (~> 1.4)
     octokit (4.22.0)
       faraday (>= 0.9)
@@ -276,6 +278,7 @@ GEM
 PLATFORMS
   universal-darwin-20
   universal-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   github-pages (~> 219)
