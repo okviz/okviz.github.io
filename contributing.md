@@ -54,7 +54,7 @@ You need to follow the steps below only the first time.
     1. Open Command Prompt (or Terminal on Mac).
         The easiest way to do that is from the search tool in the ***Start*** menu - search for ***cmd*** and click on the first result.
         
-        <img src="../assets/images/contributing/cmd.png" width="600">
+        <img src="{{ "assets/images/contributing/cmd.png" | absolute_url }}" width="600">
 
     2. At the command prompt, enter the following commands (replace ***your-email@domain.com*** and ***your-username*** with the ones you registered on Github): 
         - `git config --global user.email "your-email@domain.com"` (press Enter)
