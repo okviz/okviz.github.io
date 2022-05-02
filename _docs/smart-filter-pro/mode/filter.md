@@ -15,7 +15,7 @@ The Filter mode in Smart Filter Pro allows advanced data queries by defining con
 
 By allowing advanced search conditions for filtering, the Filter mode helps refine your search and eliminate any restrictions on which elements in a column to filter. For instance, the filter semantic that can be applied to the dates allows the user to specify complex rules in filtering dates that are not possible to define using the default slicers.
 
-The Filter mode is very useful when you are dealing with huge datasets, and loading all data in memory can be very expensive. The other modes (except [Search mode](search), which is similar to Filter mode) loads all the data in memory, so it can be slow in certain conditions. On the other hand, this mode uses [a different approach that helps boost performance](#performance-boost) and load large datasets faster than ever.
+The Filter mode is very useful when you are dealing with huge datasets, and loading all data in memory can be very expensive. The other modes (except [Search mode](search.md), which is similar to Filter mode) loads all the data in memory, so it can be slow in certain conditions. On the other hand, this mode uses [a different approach that helps boost performance](#performance-boost) and load large datasets faster than ever.
 
 
 ## How to Search
@@ -24,14 +24,14 @@ Unlike the Dropdown mode, which only allows simple queries, Filter mode supports
 
 The syntax available differs depending on the type of the field to the visual, so here are the options for each type. Multiple conditions are combined using a [logical operator](#operators) specific for each field.
 
-> The syntax here is also supported by the Search mode. Learn more about the [differences between Filter and Search modes](search#differences-between-search-and-filter-modes).
+> The syntax here is also supported by the Search mode. Learn more about the [differences between Filter and Search modes](search.md#differences-between-search-and-filter-modes).
 
 ### Text Search
 
 The syntax for querying text fields includes rules for the most common uses:
            
 - #### Containing Text {#contains}
-    You can perform a search that returns values containing your keyword without using any special characters if the [Default Condition for Text](default-text-condition) is set to ***Contains***, otherwise you can use the wildcard characters ***\**** and ***?*** to define the part of the string you don't know along with your keyword. 
+    You can perform a search that returns values containing your keyword without using any special characters if the [Default Condition for Text](default-text-condition.md) is set to ***Contains***, otherwise you can use the wildcard characters ***\**** and ***?*** to define the part of the string you don't know along with your keyword. 
 
     The character ***\**** is used to define an unknown string of any length.   
     The character ***?*** defines a single unknown character.
@@ -47,7 +47,7 @@ The syntax for querying text fields includes rules for the most common uses:
 
     <img src="images/filter-mode-2.png" width="350">
 - #### Exact match {#exact}
-    You can perform an exact match search without using any special characters if the [Default Condition for Text](default-text-condition) is set to ***Equal to***, otherwise you need to enclose your keyword in double quotes.
+    You can perform an exact match search without using any special characters if the [Default Condition for Text](default-text-condition.md) is set to ***Equal to***, otherwise you need to enclose your keyword in double quotes.
 
     For example:
     - `audio` returns all values equal to ***audio*** if the default condition for text is ***Equal to***, otherwise returns all values containing ***audio*** (see [Containing Text](#contains)).
@@ -62,7 +62,7 @@ The syntax for querying text fields includes rules for the most common uses:
 
     
    For example: 
-   - `!audio` returns all values except those that include ***audio*** if the [Default Condition for Text](default-text-condition) option is ***Contains***, otherwise returns all values except those equal to ***audio***.
+   - `!audio` returns all values except those that include ***audio*** if the [Default Condition for Text](default-text-condition.md) option is ***Contains***, otherwise returns all values except those equal to ***audio***.
    - `!*audio*` returns all values except those that include ***audio***.
    - `!aud*` returns all values except those starting with ***aud***.
    
@@ -161,14 +161,14 @@ The available operators are:
 - **AND**: Use it when you want all the specified conditions to be satisfied.
 - **OR**: Use it when you want at least one of the specified conditions to be satisfied.
 
-You can set the operator with a specific option: [Keywords Operator](keywords-operator).
+You can set the operator with a specific option: [Keywords Operator](keywords-operator.md).
 
 
 ## Performance Boost
 
 One of the main advantages of the Filter mode is the performance boost it offers. The Dropdown, Observer, and Hierarchy modes load all the items in memory, regardless of the filters applied by the user. **The Filter mode is faster as it doesn't load the values at all, but only applies a filter to the report.** 
 
-> In Dropdown, Observer, and Hierarchy modes, data is [loaded incrementally](dropdown#incremental-loading) when the visual is rendered and whenever a filter is applied to the report from any other visual. This means that clicking on any chart to slice the data in the report reactivates the process and could take many seconds to complete, depending on the number of rows in the column.
+> In Dropdown, Observer, and Hierarchy modes, data is [loaded incrementally](dropdown.md#incremental-loading) when the visual is rendered and whenever a filter is applied to the report from any other visual. This means that clicking on any chart to slice the data in the report reactivates the process and could take many seconds to complete, depending on the number of rows in the column.
 
 The performance boost is evident when we use a high cardinality column – a column that displays multiple distinct values – for filtering data. For instance, let us say you use the Dropdown mode and select ***Order Number*** – a high cardinality column – from the ***Sales*** table. 
 
@@ -186,9 +186,9 @@ Another benefit of Filter mode is that there are no limits on the volume of the 
 ## Options
 
 On selecting the Filter mode, the options available are:
-- [Consolidate Fields](consolidate-fields)
-- [Default Condition for Text](default-text-condition)
-- [Empty when no Selection](empty-when-no-selection)
-- [Keywords Operator](keywords-operator)
-- [Single Selection](single-selection)
-- [Split Pasted Text by](split-pasted-text)
+- [Consolidate Fields](consolidate-fields.md)
+- [Default Condition for Text](default-text-condition.md)
+- [Empty when no Selection](empty-when-no-selection.md)
+- [Keywords Operator](keywords-operator.md)
+- [Single Selection](single-selection.md)
+- [Split Pasted Text by](split-pasted-text.md)

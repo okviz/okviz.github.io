@@ -22,8 +22,8 @@ In case, there is more than one field connected to the visual, then each one is 
 ## Options
 
 On selecting the Observer mode, the options available are:
-- [Empty List Text](limiting-items#empty-list-text)
-- [Max Items](limiting-items#max-items)
-- [Multi-Select with CTRL](multi-selection)
-- [Show Hidden Count](limiting-items#show-hidden-count)
-- [Single Selection](single-selection)
+- [Empty List Text](limiting-items.md#empty-list-text)
+- [Max Items](limiting-items.md#max-items)
+- [Multi-Select with CTRL](multi-selection.md)
+- [Show Hidden Count](limiting-items.md#show-hidden-count)
+- [Single Selection](single-selection.md)

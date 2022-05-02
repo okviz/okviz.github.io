@@ -47,7 +47,7 @@ The Power BI Organizational Visuals Repository (**Org Repo**) is a private marke
 These steps are described in detail in the following sections.
 
 > We encourage you to install OKVIZ visuals in the Org Repo in order to benefit from automatic updates and timely support.  
-More information here: [Organizational Visuals](org-visuals)
+More information here: [Organizational Visuals](org-visuals.md)
 
 
 ### Installing a visual in the Org Repo
@@ -78,7 +78,7 @@ Power BI admins can deploy custom visuals throughout their organization. This wa
 
     <img src="images/installation-8.png" width="600">
 
-    > Why is it necessary to enable uncertified visuals? Find out why here: [Certification](certification)
+    > Why is it necessary to enable uncertified visuals? Find out why here: [Certification](certification.md)
 
 
 ### Importing a visual from the Org Repo into your reports

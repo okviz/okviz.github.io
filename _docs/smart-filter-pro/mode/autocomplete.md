@@ -28,5 +28,5 @@ This option automatically displays the dropdown list while typing. Whenever you 
 <img src="images/autocomplete-2.png" width="700">
 
 > Note that if the Autocomplete feature is enabled, the **dropdown only lists values starting with the input string**.  
-If you want to return values containing the input string in any position, you need to disable this feature. See also [How to Search in Dropdown Mode](dropdown#how-to-search).
+If you want to return values containing the input string in any position, you need to disable this feature. See also [How to Search in Dropdown Mode](dropdown.md#how-to-search).
  

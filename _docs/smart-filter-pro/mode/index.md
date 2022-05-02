@@ -14,8 +14,8 @@ Smart Filter Pro can be used in different modes. Each mode provides different ad
 <img src="images/mode-option.png" width="180">
 
 Let us have a detailed look at all the modes one by one:
-- [Dropdown](dropdown)
-- [Filter](filter)
-- [Search](search)
-- [Observer](observer)
-- [Hierarchy](hierarchy)
+- [Dropdown](dropdown.md)
+- [Filter](filter.md)
+- [Search](search.md)
+- [Observer](observer.md)
+- [Hierarchy](hierarchy.md)

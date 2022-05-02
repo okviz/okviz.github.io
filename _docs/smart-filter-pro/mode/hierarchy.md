@@ -17,9 +17,9 @@ The Hierarchy mode arranges the fields connected to Smart Filter Pro in a tree v
 ## Options
 
 On selecting the Hierarchy mode, the options available are:
-- [Hide Blank Nodes](hide-blank-nodes)
-- [Max Rows to Retrieve](max-rows)
-- [Multi-Select with CTRL](multi-selection)
-- [Node Click Behavior](node-click-mode)
-- [Show 'Select All'](select-all)
-- [Single Selection](single-selection)
+- [Hide Blank Nodes](hide-blank-nodes.md)
+- [Max Rows to Retrieve](max-rows.md)
+- [Multi-Select with CTRL](multi-selection.md)
+- [Node Click Behavior](node-click-mode.md)
+- [Show 'Select All'](select-all.md)
+- [Single Selection](single-selection.md)

@@ -22,9 +22,9 @@ The license for Smart Filter Pro follows a subscription-based model. There are d
 
 The licensing of Smart Filter Pro is different when downloaded from the AppSource marketplace and when downloaded from our website. When downloaded from the AppSource marketplace, the user needs to explicitly write the license key every time they add a visual to a report. 
 
-> More information about licensing can be found here: [Licensing](../general/licensing)
+> More information about licensing can be found here: [Licensing](../../general/licensing.md)
 
 The other options in this section are:
-- [Check for Updates](check-for-updates)
-- [Send Telemetry](send-telemetry)
+- [Check for Updates](check-for-updates.md)
+- [Send Telemetry](send-telemetry.md)
 

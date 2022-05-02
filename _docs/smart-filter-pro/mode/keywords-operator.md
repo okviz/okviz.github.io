@@ -13,7 +13,7 @@ available:          Filter | Search mode
 
 This option allows you to choose the logical operator to use in the query performed by Smart Filter Pro in Filter/Search mode.
 
-> To learn how search works and the full syntax you can use, see: [How to Search in Filter/Search Mode](filter#how-to-search)
+> To learn how search works and the full syntax you can use, see: [How to Search in Filter/Search Mode](filter.md#how-to-search)
 
 Let us have a look at each of the available choices:
 - [AND](#and)
@@ -45,6 +45,6 @@ You see that the logical operator OR satisfies either of the specified filter co
 ## Interactive
 
 The ***Interactive*** option lets you switch between the AND and OR operators in the visual interactively.
-If you choose ***Interactive***, in fact, a special toggle is displayed in the input box to choose and switch from one operator to another even in [Reading view](../../general/interactive-modes). This means that not only the report designer can change the operator but also the end-users.
+If you choose ***Interactive***, in fact, a special toggle is displayed in the input box to choose and switch from one operator to another even in [Reading view](../../general/interactive-modes.md). This means that not only the report designer can change the operator but also the end-users.
 
 <img src="images/keywords-op-4.png" width="700">

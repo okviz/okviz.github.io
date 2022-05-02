@@ -13,14 +13,14 @@ available:          Search mode
 
 This option allows you to define how the search is performed with the Search mode.
 
-> To learn how search works and the full syntax you can use, see: [How to Search in Search Mode](search#how-to-search)
+> To learn how search works and the full syntax you can use, see: [How to Search in Search Mode](search.md#how-to-search)
 
 You can choose between: 
 - [Exact Match](#exact-match)
 - [Contains/Wildcards](#contains/wildcards)
 - [Interactive](#interactive)
 
-This feature is similar to the [Default Condition for Text](default-text-condition) of Filter mode, but introduces fundamental differences. 
+This feature is similar to the [Default Condition for Text](default-text-condition.md) of Filter mode, but introduces fundamental differences. 
 
 ## Exact Match
 
@@ -40,7 +40,7 @@ For instance, in the above example where the keyword `audio` is specified in the
 
 ## Interactive
 
-If you choose ***Interactive*** as matching method, a toggle is displayed in the search box to switch from one mode to another even in [Reading view](../../general/interactive-modes). This means that not only the report designer can change the matching but also the end users.  
+If you choose ***Interactive*** as matching method, a toggle is displayed in the search box to switch from one mode to another even in [Reading view](../../general/interactive-modes.md). This means that not only the report designer can change the matching but also the end users.  
 Moreover, the toggle shows a hover tooltip with a summary of the syntax you can use in both modes.
 
 <img src="images/matching-3.png" width="600">

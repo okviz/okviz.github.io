@@ -13,7 +13,7 @@ Here are the most common errors you can run into with Power BI and Smart Filter 
     It happens when you enable ***Consolidate Fields*** and change the logical operator to ***OR***. Unfortunately, Power BI doesn't support filtering of different fields in OR.
 
 - **The visual is no longer available. Please contact your administrator for details.**  
-    It happens when you share a report containing Smart Filter Pro coming from the Organizational Store outside your organization. If you plan to share pbix, include Smart Filter Pro directly from a file. See [Installation](../general/installation) for more information.
+    It happens when you share a report containing Smart Filter Pro coming from the Organizational Store outside your organization. If you plan to share pbix, include Smart Filter Pro directly from a file. See [Installation](../general/installation.md) for more information.
 
 
 > Other errors are listed here: [Troubleshooting tile errors](https://docs.microsoft.com/en-us/power-bi/connect-data/refresh-troubleshooting-tile-errors)

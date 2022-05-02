@@ -18,7 +18,7 @@ This option allows you to choose how to search text fields when wildcard or spec
 For example, the option affects this query: `camcorders`  
 but it has no effect on these: `<= 100` `2017_2019` `*phone` 
 
-> To learn how search works and the full syntax you can use, see: [How to Search in Filter Mode](filter#how-to-search)
+> To learn how search works and the full syntax you can use, see: [How to Search in Filter Mode](filter.md#how-to-search)
 
 You can choose between: 
 - [Equal to](#equal-to)
