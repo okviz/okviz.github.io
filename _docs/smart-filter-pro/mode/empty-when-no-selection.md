@@ -6,7 +6,6 @@ date:               2021-12-14
 modified:           2021-12-15
 order:              /02/03/99/empty-when-no-selection
 internal:           defaultNoFilter
-available:          Dropdown | Filter | Search mode
 version:            2.2.4
 ---
 **Default value:** Off

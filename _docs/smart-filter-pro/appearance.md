@@ -146,12 +146,24 @@ This option defines the font color of the filter elements in the visual.
 
 <img src="images/appearance-fore-color.png" width="550">   
 
+## Min Item Width  
+<div class="badge availability">Dropdown | Filter | Observer mode</div> <div class="badge version lc" title="Available from version 2.2.9">v2.2.9</div>
+
+**Default value:** 0
+
+This option is used to set the minimum width of each filter item. 
+
+<todo assign="daniele">Take a screenshot.</todo>
+  
+
+> Set ***Max Item Width*** to 0 to automatically use all the required space.   
+
 ## Max Item Width  
 <div class="badge availability">Dropdown | Filter | Observer mode</div>
 
 **Default value:** 0
 
-This option is used to set the maximum width of each filter items. 
+This option is used to set the maximum width of each filter item. 
 
 <img src="images/appearance-max-width.png" width="550">   
 

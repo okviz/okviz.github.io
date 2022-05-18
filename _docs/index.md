@@ -3,13 +3,15 @@ layout:     home
 title:      OKVIZ Documentation
 menu_title: Docs
 published:  true
+date:       2022-05-04
+modified:   2022-05-04
 order:      /
 ---
-Welcome to OKVIZ Documentation for Power BI Custom Visuals.
+Welcome to OKVIZ documentation of Custom Visuals for Power BI.
 
-[OKVIZ](https://okviz.com), launched in 2015, was one of the first player in the third-party developer community of Power BI. Since then we produce high quality custom visuals for Power BI, such as **Smart Filter Pro**, **Card with States**, **Synoptic Panel**, and **Bullet Chart**.
+This documentation contains an overview of all the features available in our visuals and a detailed reference for premium visuals such as Smart Filter Pro.
 
-This documentation contains an overview of the features common to all OKVIZ visuals and a deeper explanation of the features of premium visuals such as **Smart Filter Pro**.
+Next reading:
 
-- [Common Features of OKVIZ visuals](general)
+- [Features of OKVIZ visuals](general)
 - [Smart Filter Pro](smart-filter-pro)

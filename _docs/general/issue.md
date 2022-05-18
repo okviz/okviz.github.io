@@ -5,15 +5,15 @@ menu_title:         Issues
 toc:                false
 published:          true
 date:               2021-12-03
-modified:           2021-12-14
+modified:           2024-05-04
 order:              /01/99
 ---
 
-To submit an OKVIZ visual issue, please follow the directions below.
+To submit an issue with OKVIZ visuals, please follow the directions below.
 
-## Smart Filter Pro
+## Premium Visuals (Smart Filter Pro)
 
-Contact us at [support@okviz.com](mailto:support@okviz.com?subject=Smart%20Filter%20Pro%20Issue&body=Subscription no.:%0D%0ADescription%20of%20the%20problem:%0D%0A%0D%0A%0D%0ASmart%20Filter%20Pro%20version:%0D%0APower%20BI%20version:%0D%0AScreenshot:%0D%0A%0D%0A%5BDON%27T%20FORGET%20TO%20ATTACH%20A%20SAMPLE%20REPORT%5D) providing this information (all required):
+Contact us at [support@okviz.com](mailto:support@okviz.com?subject=Paid%20Visual%20Issue&body=Subscription%20 #:%0D%0ADescription%20of%20the%20problem:%0D%0A%0D%0A%0D%0ASmart%20Filter%20Pro%20version:%0D%0APower%20BI%20version:%0D%0AScreenshot:%0D%0A%0D%0A%5BDON%27T%20FORGET%20TO%20ATTACH%20A%20SAMPLE%20REPORT%5D) providing this information (all required):
 - Your **subscription number**.
 - A clear and concise **description of the problem**.
 - The **version of the visual** you are using. You can find it the [About & License](../smart-filter-pro/about) section of the visual options.
@@ -27,9 +27,9 @@ Contact us at [support@okviz.com](mailto:support@okviz.com?subject=Smart%20Filte
 
 - A **sample Power BI report (PBIX file)** that reproduces the problem.  
 Note that:
-    - If your report contains private data, recreate it with dummy data. Or we can sign an NDA document to access the original data.
-    - If the issue is performance related or if the visual loads a large amount of data, include the data as a separate Excel file.
-    - If your report loads the visual from the Organizational Store, replace it with a local version, otherwise we won't able to check the report correctly. You can find a local version of the visual in your [Account](https://okviz.com/account/) section on the OKVIZ website.
+    - If your report contains private data, you should recreate it with dummy data. Or we can sign an NDA document to access the original data.
+    - If the issue is related to performance or loads a large amount of data, you should include the data as a separate Excel file.
+    - If your report loads the visual from the Organizational Store, you should replace it with a local version, otherwise we will not be able to check the report correctly. You can find a local version of the visual in your [Account](https://okviz.com/account/) section on the OKVIZ website.
 
 
 ## Free Visuals
@@ -44,9 +44,9 @@ Note that:
 If your report contains private data or you cannot share it publicly for any reason, please recreate it with dummy data. 
 If you are not able to upload the sample file to Github, please send it to [support@okviz.com](mailto:support@okviz.com?subject=Free%20Visual%20Issue%20) with a reference to the issue number.
 
-> IMPORTANT: We don't consider issues without a sample file!
+> IMPORTANT: We will not consider issues without a sample file!
 
-## Other Cases
+## Microsoft Support
 
-Sometimes the issue you want to report is not related to our code or is also applicable to custom visuals of other vendors.  
-In such cases it is best to open a support ticket with Microsoft at this page: [Open a Microsoft Support Ticket](https://powerbi.microsoft.com/en-us/support/pro/)
+Sometimes the issue you want to report is not related to our code or affects custom visuals from other vendors.  
+In such cases, it is best to open a support ticket with Microsoft at this page: [Open a Microsoft Support Ticket](https://powerbi.microsoft.com/en-us/support/pro/)

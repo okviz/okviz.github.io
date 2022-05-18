@@ -8,9 +8,9 @@ order:              /02
 ---
   
 
-**Smart Filter Pro** is a custom visual by OKVIZ that works like an advanced slicer in Power BI and allows you to filter on multiple data columns. Smart Filter Pro provides several unique features and can be used in 5 different modes.
+**Smart Filter Pro** is a Power BI custom visual that works like an advanced slicer and allows to filter on multiple data columns. Smart Filter Pro provides several unique features and can be used in different modes.
 
-See an overview of Smart Filter Pro features below (or [download the report file](https://okviz.com/wp-content/okviz/smartFilterProByOKViz-tour-web.pbix) to try it with Power BI Desktop):
+See an overview of Smart Filter Pro features below (or [download the report file](https://okviz.com/wp-content/okviz/smartFilterProByOKViz-tour-web.pbix) for Power BI Desktop):
 
 <iframe class="embed" src="https://app.powerbi.com/view?r=eyJrIjoiMGJjN2RiNTUtMzFmZC00N2JhLTk3N2QtNzk1YzE1ODE1NmY2IiwidCI6ImY1NDViZDY2LTdjM2YtNDcyOS04NTFhLWI3Y2EzYWM5ZmI2ZSIsImMiOjh9" frameborder="0" allowfullscreen="true"></iframe>
 
