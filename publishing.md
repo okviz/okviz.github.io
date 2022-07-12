@@ -29,16 +29,17 @@ This document contains the steps to follow in order to publish a new Power BI vi
 
 ## Publishing
 
-1. Create  a new branch called **certification** (lowercase) based in the current one (this is required only if the visual must be certified by Microsoft)
-2. Build the visual package (PBIVIZ) via `pbiviz package`
-3. Move the package to the `archive` folder
-4. Update the sample visual report located in the `archive` folder:
+1. Build the visual package (PBIVIZ) via `pbiviz package`
+2. Move the package to the `archive` folder
+3. Update the sample visual report located in the `archive` folder:
     1. Open the sample file (usually it is named **VisualName-tour.pbix**)
     2. Activate the ***Developer Mode*** in Power BI Desktop
     3. Import the new visual package in the report
     4. Save and close
 
-5. Commit the latest changes to the repo
+4. Commit the latest changes to the repo
+
+5. Create a new branch called **certification** (lowercase) based in the current one (this is required only if the visual must be certified by Microsoft). **If the certification branch already exists, delete it and recreate it.**
 
 6. Send the PBIVIZ and PBIX files to Microsoft through the [Microsoft Partner Center](https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/overview).
 
