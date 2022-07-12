@@ -30,25 +30,27 @@ This document contains the steps to follow in order to publish a new Power BI vi
 ## Publishing
 
 1. Build the visual package (PBIVIZ) via `pbiviz package`
-2. Move the package to the `archive` folder
-3. Update the sample visual report located in the `archive` folder:
+2. Rename the package as **VisualName-x.x.x.x.pbix**
+3. Move the package to the `archive` folder
+4. Update the sample visual report located in the `archive` folder:
     1. Open the sample file (usually it is named **VisualName-tour.pbix**)
     2. Activate the ***Developer Mode*** in Power BI Desktop
     3. Import the new visual package in the report
     4. Save and close
 
-4. Commit the latest changes to the repo
+5. Commit the latest changes to the repo
 
-5. Create a new branch called **certification** (lowercase) based in the current one (this is required only if the visual must be certified by Microsoft). **If the certification branch already exists, delete it and recreate it.**
+6. Create a new branch called **certification** (lowercase) based in the current one (this is required only if the visual must be certified by Microsoft). **If a certification branch already exists, delete it and recreate it.**
 
-6. Send the PBIVIZ and PBIX files to Microsoft through the [Microsoft Partner Center](https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/overview).
+7. Send the PBIVIZ and PBIX files to Microsoft through the [Microsoft Partner Center](https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/overview).
 
-7. Create a private version of the visual:
+8. Create a private version of the visual:
     1. Open ***pbiviz.json***
     2. Change `visual.displayName` by adding the visual version number (E.g. **Visual Name by OKVIZ 1.0.0**)
     3. Change `visual.guid` by adding the visual version number (E.g. **COMPLEX_GUID_1.0.0**)
     4. Change `assets.icon` with a specific version icon (if available)
     5. Build the package
-    6. **IMPORTANT:** Revert the changes made in steps 2-3-4
+    6. Rename the package as **VisualName-x.x.x.x-priv.pbix**
+    7. **IMPORTANT:** Revert the changes made in steps 2-3-4
 
-8. Publish the private version on the Org Store
+9. Publish the private version on the [Organizational Store](https://app.powerbi.com/admin-portal/organizationVisuals)
