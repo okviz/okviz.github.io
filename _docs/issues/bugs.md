@@ -5,7 +5,7 @@ toc:                false
 published:          true
 date:               2021-12-03
 modified:           2022-07-14
-order:              /smart-filter-pro/{975}
+order:              /03/02
 ---
 
 To report a bug with OKVIZ visuals, please follow the directions below:
@@ -17,7 +17,7 @@ To report a bug with OKVIZ visuals, please follow the directions below:
 3. Include a sample report (***.pbix*** file) that reproduces the issue. If your report contains private data or you cannot share it publicly for any reason, please recreate it with dummy data. 
 If you are not able to upload the sample file to Github, please send it to [support@okviz.com](mailto:support@okviz.com) with a **reference to the issue number**.
 
-> **IMPORTANT**: We will not consider issues without a sample file!
+> **IMPORTANT** We will not consider issues without a sample file!
 
 ## Issues Pages
 

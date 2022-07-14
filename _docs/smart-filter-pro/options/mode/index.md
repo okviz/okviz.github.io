@@ -11,7 +11,7 @@ internal:           mode
 
 Smart Filter Pro can be used in different modes. Each mode provides different advantages and unique features. This property allows you to select a mode and gives you access to the options available with each of them.
 
-<img src="images/mode-option.png" width="180">
+<img src="images/mode-option.png" width="200">
 
 Let us have a detailed look at all the modes one by one:
 - [Dropdown](dropdown.md)

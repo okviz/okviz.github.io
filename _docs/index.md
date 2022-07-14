@@ -14,10 +14,12 @@ Since 2015, OKVIZ has been developing several high-quality custom visuals for Po
 
 Next reading:
 
-- [Get started](get-started)
+- [Get Started](get-started)
+- [Features](features)
+- [Issues](issues)
+- [Free visuals](free-visuals)
 - [Bullet Chart](bullet-chart)
 - [Calendar Pro](calendar-pro)
 - [Smart Filter Pro](smart-filter-pro)
-- [Other visuals](free-visuals)
 
 > To download and try our visuals, [visit OKVIZ.com](https://okviz.com)

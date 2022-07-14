@@ -10,7 +10,7 @@ internal:           dropdown
 ---
 The Dropdown mode in Smart Filter Pro allows you to select items for filtering data by scrolling down a list, or by typing a few keywords and refining your search with an auto-complete list.
 
-<img src="images/dropdown-mode.png" width="650">
+<img src="images/dropdown-mode.png" width="500">
  
 ## Incremental Loading
 

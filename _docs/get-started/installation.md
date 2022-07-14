@@ -72,7 +72,7 @@ Power BI admins can deploy custom visuals throughout their organization. This wa
     <img src="images/installation-7.png" width="600">
 
 
-5.	**IMPORTANT:** Enable uncertified custom visuals within your organization.   
+5.	**IMPORTANT** Enable uncertified custom visuals within your organization.   
 
     Go to ***Tenant*** settings, then make sure ***Allow visuals created using the Power BI SDK*** is ***Enabled***; then, make sure ***Add and use certified visuals only*** is ***Disabled***.
 

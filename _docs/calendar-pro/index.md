@@ -6,5 +6,6 @@ date:               2022-07-13
 modified:           2022-07-13
 order:              /calendar-pro
 class:              front-section
+menu_class:         icon icon-calendar
 ---
   

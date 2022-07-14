@@ -6,6 +6,7 @@ date:               2021-11-15
 modified:           2022-01-16
 order:              /smart-filter-pro
 class:              front-section
+menu_class:         icon icon-smart-filter
 ---
   
 

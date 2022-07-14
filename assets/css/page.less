@@ -143,6 +143,14 @@
             li {
                 padding:0;
                 color: @accent-back-color;
+
+                &.truncated {
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    list-style-position: inside;
+                    margin-left: -10px;
+                }
             }
         }
 

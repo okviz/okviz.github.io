@@ -15,3 +15,5 @@ order:              /02/certification
 <todo assign="daniele">How to enable uncertified visuals</todo>
 
 <todo assign="daniele">External links</todo>
+
+Find out more about certification here: [Get your Power BI visual certified](https://docs.microsoft.com/en-us/power-bi/developer/visuals/power-bi-custom-visuals-certified#certification-requirements)

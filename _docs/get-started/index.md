@@ -9,7 +9,7 @@ order:              /01
 class:              front-section
 ---
 
-In this section, you will find a guide on how to get started with OKVIZ visuals and common information on security, privacy, and certification.
+In this section, you will find a guide on how to get started with OKVIZ visuals and how to update them.
 
 Next reading:
 
@@ -17,8 +17,3 @@ Next reading:
 - [Updating](updating.md)
 - [How to Use Visuals](how-to-use.md)
 - [Org Store](org-store.md)
-- [Licensing](licensing.md)
-- [Security & Privacy](security.md)
-- [Certification](certification.md)
-- [Common Errors](errors.md)
-- [Bug Report](bugs.md)

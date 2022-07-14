@@ -4,8 +4,7 @@ title:              Free Visuals
 published:          true
 date:               2022-07-13
 modified:           2022-07-13
-order:              /{98}
-class:              front-section
+order:              /04
 ---
 
 OKVIZ has released and maintains several custom visuals for Power BI available for free. There is no complete documentation for these visuals yet, but you can find some helpful resources below:
@@ -23,8 +22,9 @@ None of these visuals send your data over the Internet or collect your use. You'
 ## Certification
 
 All of our free visuals are certified by Microsoft. This means that they have inspected our source code (and continue to do so on any updates) to make sure there is no malware and we are not stealing your data.  
-Find out more about certification here: [Get your Power BI visual certified](https://docs.microsoft.com/en-us/power-bi/developer/visuals/power-bi-custom-visuals-certified#certification-requirements)
+
+> Find out more information here: [Certification](../features/certification.md)
 
 ## Bug Report
 
-For any issues with these visuals, please refer to [Bug Report](../get-started/bugs.md).
+For any issues with these visuals, please refer to [Bug Report](../issues/bugs.md).

@@ -51,6 +51,6 @@ This document contains the steps to follow in order to publish a new Power BI vi
     4. Change `assets.icon` with a specific version icon (if available)
     5. Build the package
     6. Rename the package as **VisualName-x.x.x.x-priv.pbix**
-    7. **IMPORTANT:** Revert the changes made in steps 2-3-4
+    7. **IMPORTANT** Revert the changes made in steps 2-3-4
 
 9. Publish the private version on the [Org Store](https://app.powerbi.com/admin-portal/organizationVisuals)

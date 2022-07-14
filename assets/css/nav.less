@@ -29,9 +29,7 @@ nav {
         display: none;
         line-height: 1.4;
         white-space: nowrap;
-        &.child {
-            padding-left: 20px;
-        }
+     
         .tree-toggle .icon {
             display: inline-block;
             .icon-right;
@@ -81,6 +79,10 @@ nav {
 
             &.tree-link {
                 white-space: normal;
+
+                &.icon:before {
+                    margin-right: 10px;
+                }
             }
 
         }
@@ -91,6 +93,10 @@ nav {
         }
         &.current > a.tree-link {
             font-weight: 700;
+
+            &:before { 
+                font-weight: normal;
+            }
         }
 
         /*&.l0 > a {

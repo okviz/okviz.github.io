@@ -8,11 +8,11 @@
 
         {% if _page.url contains include.url and page_level == include.level %}
 
-            <li class="l{{ include.level }}{% if page.url == _page.url %} current{% endif %}{% if page.url contains page_url %} expanded{% endif %}{% if _page.menu_class %} {{ _page.menu_class }}{% endif %}">
+            <li class="l{{ include.level }}{% if page.url == _page.url %} current{% endif %}{% if page.url contains page_url %} expanded{% endif %}">
                 {% if page_file == "index" and page_level > 0 %}
                     <a href="#" class="tree-toggle"><span class="icon"></span></a>
                 {% endif %}
-                <a href="{{ page_url }}" class="tree-link">{% if _page.menu_title %}{{ _page.menu_title }}{% else %}{{ _page.title }}{% endif %}</a>
+                <a href="{{ page_url }}" class="tree-link{% if _page.menu_class %} {{ _page.menu_class }}{% endif %}">{% if _page.menu_title %}{{ _page.menu_title }}{% else %}{{ _page.title }}{% endif %}</a>
 
                 {% if page_file == "index" %}
                     <ul>
@@ -29,11 +29,12 @@
 
 
 <!--
-    {% comment %}
-    Decomment just for order checking
+    { % comment %}
+    Order checking
+    {{ include.url }} {{ include.level }}
+        {% for _page in sorted_pages %}
+            {{ _page.url }} ({{ _page.order }})
+        {% endfor %}
 
-    {% for _page in sorted_pages %}
-        {{ _page.url }} ({{ _page.order }})
-    {% endfor %}
-    {% endcomment %}
+    { % endcomment %}
 -->
