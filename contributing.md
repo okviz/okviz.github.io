@@ -123,7 +123,7 @@ A session starts with synchronization and ends with a Pull Request.
             [any-other-visual-name]
        
 
-    > **IMPORTANT** Do not change any files outside of the ***_docs*** directory.
+    > **IMPORTANT**: Do not change any files outside of the ***_docs*** directory.
 
     You can create files or folders directly in VSCode by right-clicking on the sidebar and choosing the appropriate command, and you can edit a file by left-clicking on it in the sidebar. 
     
@@ -205,7 +205,7 @@ A session starts with synchronization and ends with a Pull Request.
 
     At this point, click on the source control icon, select the ellipsis button, choose ***Branch***, then ***Delete Branch...***, and select the patch branch name.
 
-    > **IMPORTANT** Do not delete the patch branch until the PR has been approved or closed.
+    > **IMPORTANT**: Do not delete the patch branch until the PR has been approved or closed.
 
     <img src="assets/images/contributing/delete-local-branch.png" width="600">
 

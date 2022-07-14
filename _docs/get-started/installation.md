@@ -3,7 +3,7 @@ layout:             page
 title:              Installation
 published:          true
 date:               2021-11-17
-modified:           2021-12-20
+modified:           2022-07-14
 order:              /01/01
 toc_max:            2
 ---
@@ -15,24 +15,36 @@ OKVIZ visuals (like any other custom visuals for Power BI) are wrapped as files 
 You can use custom visuals locally, even without access to an Internet connection or Power BI service. Follow these steps:
 
 1.	Open a report with Power BI Desktop or from the Power BI service.
-2.	Select the ellipses from the bottom of the ***Visualizations*** pane. 
+2.	Select the ellipsis from the bottom of the ***Visualizations*** pane and choose ***Import a visual from a file*** from the dropdown menu.
 
-    <img src="images/installation-1.png" width="180">
+    <img src="images/installation-file-1.png" width="300">
 
-3.	From the dropdown list, select ***Import a visual from a file***. 
+4.	From the Open File dialog box, select the .pbiviz file to import and then select ***Open***. The icon for the custom visual is added to the bottom of your ***Visualizations*** pane.
 
-    <img src="images/installation-2.png" width="350">
-
-4.	From the Open File dialog box, select the .pbiviz file to import and then select ***Open***. The icon for the custom visual is added to the bottom of your Visualizations pane.
-
-    <img src="images/installation-3.png" width="180">
+    <img src="images/installation-done.png" width="250">
 
 5.	Click on the new icon and start using the visual.
 
 
 ## Import a visual from the AppSource
 
-<todo assign="daniele">TODO</todo>
+The easiest way to load a custom visual into your reports is through the AppSource. AppSource is the marketplace provided by Microsoft that includes all public visuals from different vendors and is reachable directly in Power BI.
+To use it, follow these steps:
+
+1.	Open a report with Power BI Desktop or from the Power BI service.
+2.	Select the ellipsis from the bottom of the ***Visualizations*** pane and choose ***Get more visuals*** from the dropdown menu.
+
+    <img src="images/installation-as-1.png" width="350">
+
+4.	From the dialog box, search for the visual you want to install, click on it and press ***Add*** in the next screen.
+
+    <img src="images/installation-as-2.png" width="600">
+
+    <img src="images/installation-as-3.png" width="600">
+
+5.	Click on the new icon in the ***Visualizations*** pane and start using the visual.
+
+> **Smart Filter Pro**: The benefit of using AppSource is that **every update of Smart Filter Pro is automatically applied** to each of your reports. Unfortunately, **this is also a drawback** as you do not have control over the version of the visual in use and cannot downgrade to an older version in case of regression. For this reason, we recommend that you install it as described in the next method.
 
 ## Install a visual in your Org Store
 
@@ -46,54 +58,58 @@ The Power BI Organizational Store is a private marketplace used to store and sha
 
 These steps are described in detail in the following sections.
 
-> We encourage you to install OKVIZ visuals in the Org Store in order to benefit from automatic updates and timely support.  
-More information here: [Org Store](org-store.md)
+> **Smart Filter Pro**:  We encourage you to install Smart Filter Pro in the Org Store in order to benefit from automatic updates and timely support. More information here: [Power BI Organizational Store](org-store.md)
 
 
 ### Installing a visual in the Org Store
 
 Power BI admins can deploy custom visuals throughout their organization. This way, any user creating a report can easily discover and use them. To install a new custom visual in the Org Store:
 
-1.	Log into your Power BI account and navigate to ***Admin*** portal.
+1.	Log into your Power BI account and navigate to ***Admin portal***.
 
-    <img src="images/installation-4.png" width="400">
+    <img src="images/installation-org-1.png" width="500">
 
-2.	In the ***Organizational visuals*** tab, select ***Add an organizational visual***. In the panel that appears on the right, click the ***Browse*** button.
+2.	In the ***Organizational visuals*** tab, select ***Add visual***, then ***From a file***.
 
-    <img src="images/installation-5.png" width="750">
+    <img src="images/installation-org-2.png" width="750">
 
-3.	In the ***Open File*** dialog box, choose the custom visual to import; give it a name – you can simply copy the actual name of the custom visual – and press ***Add***.
+3.	In the panel that appears on the right, click the ***Browse*** button, choose the custom visual to import and give it a name – you can simply copy the actual name of the custom visual. Press ***Add***.
 
-    <img src="images/installation-6.png" width="400">
+    <img src="images/installation-org-3.png" width="400">
 
 
 4.	The visual is now installed correctly.
 
-    <img src="images/installation-7.png" width="600">
+    <img src="images/installation-org-4.png" width="700">
 
 
-5.	**IMPORTANT** Enable uncertified custom visuals within your organization.   
+5.	Enable uncertified custom visuals within your organization
 
-    Go to ***Tenant*** settings, then make sure ***Allow visuals created using the Power BI SDK*** is ***Enabled***; then, make sure ***Add and use certified visuals only*** is ***Disabled***.
+    Go to ***Tenant settings***, then make sure ***Allow visuals created using the Power BI SDK*** is ***Enabled***; then make sure ***Add and use certified visuals only (block uncertified)*** is ***Disabled***.
 
-    <img src="images/installation-8.png" width="600">
+    <img src="images/installation-org-5.png" width="600">
 
-    > Why is it necessary to enable uncertified visuals? Find out why here: [Certification](certification.md)
-
+    > **Smart Filter Pro**: This last step is required for Smart Filter Pro only as it is uncertified.   
+    Find out why we did not apply for certification here: [Smart Filter Pro Certification](../smart-filter-pro/features/certification.md)
 
 ### Importing a visual from the Org Store into your reports
 
 To use a custom visual from the Org Store:
 
 1.	Open a report with Power BI Desktop or from the Power BI service.
-2.	Select the ellipses from the bottom of the ***Visualizations*** pane and choose ***Get more visuals***.
+2.	Select the ellipsis from the bottom of the ***Visualizations*** pane and choose ***Get more visuals***.
 
-    <img src="images/installation-9.png" width="350">
+    <img src="images/installation-as-1.png" width="300">
 
-3.	Select ***My organization*** from the top tab menu. Choose the visual to import and press ***Add***.
+3.	Select ***Organization visuals*** from the top tab menu. Choose the visual to import and press ***Get it now***.
 
-    <img src="images/installation-10.png" width="600">
+    <img src="images/installation-org-6.png" width="600">
 
 4.	The icon for the custom visual is added to the bottom of your ***Visualizations*** pane and is now available for use in your report.
 
-    <img src="images/installation-3.png" width="180">
+    <img src="images/installation-done.png" width="250">
+
+
+Next reading:
+
+- [How to Use Visuals](how-to-use.md)

@@ -1,6 +1,6 @@
 ---
 layout:             page
-title:              Organizational Store
+title:              Discover the Organizational Store
 menu_title:         Org Store
 published:          true
 date:               2021-12-21

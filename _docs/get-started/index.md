@@ -16,4 +16,4 @@ Next reading:
 - [Installation](installation.md)
 - [Updating](updating.md)
 - [How to Use Visuals](how-to-use.md)
-- [Org Store](org-store.md)
+- [Power BI Organizational Store](org-store.md)
