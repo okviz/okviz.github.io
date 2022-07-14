@@ -12,11 +12,11 @@ Here are some of the most common errors you can run into with Power BI and custo
     Related to **Smart Filter Pro**: this happens when you enable [Consolidate Fields](../smart-filter-pro/options/mode/consolidate-fields.md) and change the logical operator to ***OR***. Unfortunately, Power BI doesn't support filtering of different fields in OR.
 
 - **The visual is no longer available. Please contact your administrator for details.**  
-    This happens when you share a report containing a custom visual stored in the Organizational Store outside your organization. If you plan to share a report file, include any custom visuals directly from a file. See [Installation](installation.md) for more information.  
+    This happens when you share a report containing a custom visual stored in the Org Store outside your organization. If you plan to share a report file, include any custom visuals directly from a file. See [Installation](installation.md) for more information.  
 
     <todo>Screenshot</todo>
 
-    This error also occurs if you remove a custom visual from the Organizational Store. This usually happens when you want to update a visual to a new version but **instead of changing the package file, you delete the old entry and create a new one.** In this case, even though the internal ID of the visual is the same, Power BI cannot recognize which visual it was and shows the error. Unfortunately, visuals in this state can only be deleted from your reports - you can't switch them to a different visual type like you normally would. For more information on how to properly update  custom visuals, see [Updating](updating.md).
+    This error also occurs if you remove a custom visual from the Org Store. This usually happens when you want to update a visual to a new version but **instead of changing the package file, you delete the old entry and create a new one.** In this case, even though the internal ID of the visual is the same, Power BI cannot recognize which visual it was and shows the error. Unfortunately, visuals in this state can only be deleted from your reports - you can't switch them to a different visual type like you normally would. For more information on how to properly update  custom visuals, see [Updating](updating.md).
 
 <todo>TODO</todo>
 

@@ -36,23 +36,23 @@ You can use custom visuals locally, even without access to an Internet connectio
 
 ## Install a visual in your organizational repository
 
-The Power BI Organizational Visuals Repository (**Org Repo**) is a private marketplace used to store and share visuals within an organization. In order to use OKVIZ visuals in the Org Repo, there are two steps required:
+The Power BI Organizational Visuals Repository (**Org Store**) is a private marketplace used to store and share visuals within an organization. In order to use OKVIZ visuals in the Org Store, there are two steps required:
 
-1.	[Installing a visual in the Org Repo](#installing-a-visual-in-the-org-repo)  
+1.	[Installing a visual in the Org Store](#installing-a-visual-in-the-org-repo)  
     This must be done by an admin every time a new version of the custom visual is released.
 
-2.	[Importing a visual from the Org Repo into your reports](#importing-a-visual-from-the-org-repo-into-your-reports)  
+2.	[Importing a visual from the Org Store into your reports](#importing-a-visual-from-the-org-repo-into-your-reports)  
     Any user in the organization can do that.
 
 These steps are described in detail in the following sections.
 
-> We encourage you to install OKVIZ visuals in the Org Repo in order to benefit from automatic updates and timely support.  
+> We encourage you to install OKVIZ visuals in the Org Store in order to benefit from automatic updates and timely support.  
 More information here: [Organizational Visuals](org-visuals.md)
 
 
-### Installing a visual in the Org Repo
+### Installing a visual in the Org Store
 
-Power BI admins can deploy custom visuals throughout their organization. This way, any user creating a report can easily discover and use them. To install a new custom visual in the Org Repo:
+Power BI admins can deploy custom visuals throughout their organization. This way, any user creating a report can easily discover and use them. To install a new custom visual in the Org Store:
 
 1.	Log into your Power BI account and navigate to ***Admin*** portal.
 
@@ -81,9 +81,9 @@ Power BI admins can deploy custom visuals throughout their organization. This wa
     > Why is it necessary to enable uncertified visuals? Find out why here: [Certification](certification.md)
 
 
-### Importing a visual from the Org Repo into your reports
+### Importing a visual from the Org Store into your reports
 
-To use a custom visual from the Org Repo:
+To use a custom visual from the Org Store:
 
 1.	Open a report with Power BI Desktop or from the Power BI service.
 2.	Select the ellipses from the bottom of the ***Visualizations*** pane and choose ***Get more visuals***.
