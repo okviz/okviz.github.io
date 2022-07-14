@@ -4,7 +4,7 @@ title:              Certification
 published:          true
 date:               2022-07-13
 modified:           2022-07-13
-order:              /smart-filter-pro/{91}
+order:              /smart-filter-pro/features/certification
 ---
 <todo assign="daniele">Are OKVIZ visuals certified?</todo>
 

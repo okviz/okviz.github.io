@@ -4,7 +4,7 @@ title:              Licensing
 published:          true
 date:               2021-11-17
 modified:           2022-05-30
-order:              /smart-filter-pro/{90}
+order:              /smart-filter-pro/pro-vs-free/licensing
 ---
 
 Smart Filter Pro can be used only with a valid subscription with OKVIZ.   

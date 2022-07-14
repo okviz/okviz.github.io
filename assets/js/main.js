@@ -8,7 +8,7 @@
 let treeToggleEls = document.querySelectorAll(".tree-toggle");
 treeToggleEls.forEach(a => {
 
-    if (a.parentElement.querySelectorAll("ul li").length > 1) {
+    if (a.parentElement.querySelectorAll("ul li").length > 0) {
         a.addEventListener("click", e => {
             e.preventDefault();
             let parent = e.currentTarget.parentNode;
