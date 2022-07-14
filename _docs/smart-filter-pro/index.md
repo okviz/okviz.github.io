@@ -4,7 +4,7 @@ title:              Smart Filter Pro
 published:          true
 date:               2021-11-15
 modified:           2022-01-16
-order:              /02
+order:              /smart-filter-pro
 class:              front-section
 ---
   
@@ -13,6 +13,13 @@ class:              front-section
 
 See an interactive demo of Smart Filter Pro below (or [download the report file](https://okviz.com/wp-content/okviz/smartFilterProByOKViz-tour-web.pbix) for Power BI Desktop):
 
-<iframe class="embed" src="https://app.powerbi.com/view?r=eyJrIjoiMGJjN2RiNTUtMzFmZC00N2JhLTk3N2QtNzk1YzE1ODE1NmY2IiwidCI6ImY1NDViZDY2LTdjM2YtNDcyOS04NTFhLWI3Y2EzYWM5ZmI2ZSIsImMiOjh9" frameborder="0" allowfullscreen="true"></iframe>
+<todo>Screenshot</todo>
+
+<todo assign="daniele">How to install? (link to installation page)</todo>
+
+<todo assign="daniele">How to use? (link to how to use page). Refer to <https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-slicers#sync-and-use-slicers-on-other-pages></todo>
+
+<todo assign="daniele">List of options sections with quick links</todo>
+
 
 For more information [visit OKVIZ website](https://okviz.com/smart-filter-pro)

@@ -3,7 +3,7 @@ layout:     page-no-nav
 title:      Markdown Editing
 published:  true
 date:       2021-12-20
-modified:   2021-12-23
+modified:   2022-07-13
 sitemap:    false
 draft:      "no"
 ---
@@ -26,7 +26,7 @@ Every file must contain a header in the following format (note that the ***\-\-\
     draft:          false
     date:           2021-11-15
     modified:   	2021-11-21
-    order:          /1/2/document-title
+    order:          /01/02/document-title
     toc:            false
     version:        2.0
     available:      Availability note
@@ -40,7 +40,7 @@ Every file must contain a header in the following format (note that the ***\-\-\
 - **draft:** (optional) set ***true*** to show a notice that the document is not completed (note that this notice appears automatically if the document is empty or if it contains &lt;todo&gt;&lt;/todo&gt; tag. Set ***"no"*** to never show the notice.
 - **date:** set the creation date of the document.
 - **modified:** set the date of the last modification of the document.
-- **order:** set a string to be used to sort the document in the navigation menu - check existing files to know how sorting works. In general, if the page is the child of a node, it is necessary to insert the order attribute of the parent node plus a slash ***/*** and a number (if you want to give a static position) or a sanitized version of the title (without spaces and special characters - if you want to use alphabetical sorting).
+- **order:** set a string to be used to sort the document in the navigation menu - check existing files to know how sorting works. In general, if the page is the child of a node, it is necessary to insert the order attribute of the parent node plus a slash ***/*** and a number (if you want to give a static position) or a sanitized version of the title (without spaces and special characters - if you want to use alphabetical sorting). Note that numbers come  before letters (as they are placed before in the ASCII table); if you want that they are placed after letters, you need to enclose them in curly braces: e.g. ***zzz*** is after ***01*** but before ***{01}***.
 - **toc:** (optional) set ***false*** to hide the automatic table of contents.
 - **version:** (optional) used only with visual options - set the version of the visual when the option was introduced.
 - **available:** (optional) used only with visual options - set the mode(s) in which the option is available. Setting this attribute will display an indicator under the document title. You can manually place this information in a different location using the [Available Badge](#available-badge).
@@ -339,7 +339,7 @@ The URL of the links can be:
     - If the page belongs to a different folder, you need to go up one level and include the new folder name in the URL.  
         For example, ***smart-filter-pro/changelog.md*** contains the following link to ***general/licensing.md***:
 
-        `[Licensing](../general/licensing.md)`
+        `[Licensing](../get-started/licensing.md)`
 
 - **Anchor**  
     Markdown automatically generates anchors for each title/heading you place in a document.
@@ -358,7 +358,7 @@ The URL of the links can be:
     You can create links to anchors by adding a # plus the anchor ID to the URL.  
     For example, ***smart-filter-pro/changelog.md*** contains this link to the Price section of ***general/licensing.md***:
 	
-    `[Licensing](../general/licensing.md#price)`
+    `[Licensing](../get-started/licensing.md#price)`
 
     If the link needs to point to an anchor on the same document, you can simply write # plus the anchor ID. 
     For instance:

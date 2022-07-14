@@ -8,7 +8,7 @@
 
         {% if _page.url contains include.url and page_level == include.level %}
 
-            <li class="l{{ include.level }}{% if page.url == _page.url %} current{% endif %}{% if page.url contains page_url %} expanded{% endif %}">
+            <li class="l{{ include.level }}{% if page.url == _page.url %} current{% endif %}{% if page.url contains page_url %} expanded{% endif %}{% if _page.menu_class %} {{ _page.menu_class }}{% endif %}">
                 {% if page_file == "index" and page_level > 0 %}
                     <a href="#" class="tree-toggle"><span class="icon"></span></a>
                 {% endif %}

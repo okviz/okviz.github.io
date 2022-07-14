@@ -3,15 +3,15 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2018-06-01
-modified:           2022-05-18
-order:              /02/99
+modified:           2022-07-14
+order:              /smart-filter-pro/{98}
 toc_max:            2
 ---
 This page contains a quick summary of versions and notable changes of Smart Filter Pro.  
 Smart Filter Pro uses **Power BI Custom Visuals API v1.13.0** - compatible with Power BI July 2018 and later versions.
 
-## v2.2.9
-**Released:** 2022-05-21
+## v2.2.9.1
+**Released:** 2022-07-05
 
 **Added:**
 - Support for Power BI context menu.
@@ -23,6 +23,7 @@ Smart Filter Pro uses **Power BI Custom Visuals API v1.13.0** - compatible with 
 
 **Fixed:**
 - An issue with *Select all* with Hierarchy mode.
+- An issue with license validation.
 
 ## v2.2.8
 **Released:** 2022-03-20

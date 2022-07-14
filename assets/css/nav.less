@@ -25,20 +25,33 @@ nav {
         }
     }*/
     li {
-        padding: 4px 20px;
+        padding: 4px 0 4px 15px;
         display: none;
         line-height: 1.4;
         white-space: nowrap;
-
+        &.child {
+            padding-left: 20px;
+        }
         .tree-toggle .icon {
-            .icon-up;
+            display: inline-block;
+            .icon-right;
 
             &:before {
                 font-weight: 700;
+                margin: 0 5px 0 0;
             }
         }
+        &.non-expandable {
+            .tree-toggle .icon { 
+                .icon-minus;
+                color: @disabled-color;
 
-        &.expanded {
+                .dark & {
+                    color: @disabled-color-dark;
+                }
+            }
+        }
+        &:not(.non-expandable).expanded {
             & > .tree-toggle .icon {
                 .icon-down;
             }

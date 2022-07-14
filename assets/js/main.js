@@ -7,14 +7,19 @@
 // Navigation
 let treeToggleEls = document.querySelectorAll(".tree-toggle");
 treeToggleEls.forEach(a => {
-    a.addEventListener("click", e => {
-        e.preventDefault();
-        let parent = e.currentTarget.parentNode;
-        if (parent.classList.contains("expanded")) 
-            parent.classList.remove("expanded");
-        else
-            parent.classList.add("expanded");
-    });
+
+    if (a.parentElement.querySelectorAll("ul li").length > 1) {
+        a.addEventListener("click", e => {
+            e.preventDefault();
+            let parent = e.currentTarget.parentNode;
+            if (parent.classList.contains("expanded")) 
+                parent.classList.remove("expanded");
+            else
+                parent.classList.add("expanded");
+        });
+    } else {
+        a.parentElement.classList.add("non-expandable");
+    }
 });
 let treeLinks = document.querySelectorAll(".tree-link");
 for (let i = 0; i < treeLinks.length; i++) {
@@ -23,6 +28,7 @@ for (let i = 0; i < treeLinks.length; i++) {
         break;
     }
 }
+
 
 // Split
 let defaultSizes = [20, 80];
