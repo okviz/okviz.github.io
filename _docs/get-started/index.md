@@ -15,7 +15,7 @@ Next reading:
 - [Installation](installation.md)
 - [Updating](updating.md)
 - [How to Use Visuals](how-to-use.md)
-- [Organizational Visuals](org-visuals.md)
+- [Org Store](org-store.md)
 - [Licensing](licensing.md)
 - [Security & Privacy](security.md)
 - [Certification](certification.md)
