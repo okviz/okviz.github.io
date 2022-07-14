@@ -5,7 +5,7 @@ menu_title:         Search
 published:          true
 date:               2021-12-09
 modified:           2021-12-16
-order:              /02/03/03
+order:              /smart-filter-pro/options/mode/03
 internal:           search
 version:            2.1.6
 ---

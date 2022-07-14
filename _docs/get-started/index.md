@@ -1,6 +1,7 @@
 ---
 layout:             page
-title:              Get started
+title:              Get Started with OKVIZ Visuals
+menu_title:         Get Started
 published:          true
 date:               2021-11-17
 modified:           2022-07-13

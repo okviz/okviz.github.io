@@ -9,7 +9,7 @@ order:              /smart-filter-pro/{90}
 
 Smart Filter Pro can be used only with a valid subscription with OKVIZ.   
 
-Find how Smart Filter Pro licensing system works here: [OKVIZ Licensing](../get-started/licensing.md#okviz-licensing)
+<todo>How it works</todo>
 
 <img src="images/licensing.png" width="400">
 

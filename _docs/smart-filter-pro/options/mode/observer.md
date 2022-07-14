@@ -5,7 +5,7 @@ menu_title:         Observer
 published:          true
 date:               2021-12-09
 modified:           2021-12-16
-order:              /02/03/04
+order:              /smart-filter-pro/options/mode/04
 internal:           observer
 ---
 The Observer mode makes Smart Filter Pro a narrative visual, by displaying all the applied filters in one place as buttons. This is not a read-only mode, but you can click on every button to apply the relevant filter to the report.

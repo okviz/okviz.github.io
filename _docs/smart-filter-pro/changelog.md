@@ -347,4 +347,4 @@ With the Hierarchy mode your columns are arranged in a tree view, according to t
 Initial public release.
 
 ## v1.x.x
-This branch has been forked from Smart Filter Free.
+This branch has been forked from Smart Filter (Free).
