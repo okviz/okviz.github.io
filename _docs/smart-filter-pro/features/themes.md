@@ -1,6 +1,6 @@
 ---
 layout:             page
-title:              Custom Themes
+title:              Power BI Themes
 menu_title:         Themes
 published:          true
 date:               2021-11-20

@@ -10,7 +10,7 @@ class:              front-section
 
 This section contains a reference to all the options available in Smart Filter Pro.
 
-Sections:
+Next reading:
 
 - [About & License](about)
 - [Appearance](appearance)

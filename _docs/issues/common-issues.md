@@ -10,7 +10,7 @@ order:              /03/01
 Here are some of the most common errors you can run into with Power BI and custom visuals:
 
 - ### We can't display this visual because a measure is used in cross highlighting. Please remove the measure or cross highlight.
-    Related to **Smart Filter Pro**: this happens when you enable [Consolidate Fields](../smart-filter-pro/options/mode/consolidate-fields.md) and change the logical operator to ***OR***. Unfortunately, Power BI doesn't support filtering of different fields in OR.
+    **Smart Filter Pro**: This happens when you enable [Consolidate Fields](../smart-filter-pro/options/mode/consolidate-fields.md) and change the logical operator to ***OR***. Unfortunately, Power BI doesn't support filtering of different fields in OR.
 
 - ### The visual is no longer available. Please contact your administrator for details.
     This happens when you share a report containing a custom visual stored in the Org Store outside your organization. If you plan to share a report file, include any custom visuals directly from a file. See [Installation](../get-started/installation.md) for more information.  

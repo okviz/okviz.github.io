@@ -4,7 +4,7 @@ title:      OKVIZ Documentation
 menu_title: Docs
 published:  true
 date:       2022-05-04
-modified:   2022-07-13
+modified:   2022-07-15
 order:      /
 class:      front-site
 ---
@@ -17,9 +17,12 @@ Next reading:
 - [Get Started](get-started)
 - [Features](features)
 - [Issues](issues)
-- [Free visuals](free-visuals)
+
+Visuals:
+
 - [Bullet Chart](bullet-chart)
 - [Calendar Pro](calendar-pro)
 - [Smart Filter Pro](smart-filter-pro)
+- [Free visuals](free-visuals)
 
 > To download and try our visuals, [visit OKVIZ.com](https://okviz.com)
