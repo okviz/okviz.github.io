@@ -143,6 +143,14 @@
             li {
                 padding:0;
                 color: @accent-back-color;
+
+                &.truncated {
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    list-style-position: inside;
+                    margin-left: -10px;
+                }
             }
         }
 
@@ -189,5 +197,19 @@
 
             todo, .badge { display: inline-block !important;}
         }
+    }
+}
+
+.front-site {
+    .content {
+        font-size: 1.2em;
+        line-height: 1.5;
+    }
+}
+
+.front-section {
+    .content {
+        font-size: 1.1em;
+        line-height: 1.6;
     }
 }
