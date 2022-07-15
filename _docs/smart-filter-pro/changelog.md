@@ -4,7 +4,7 @@ title:              Changelog
 published:          true
 date:               2018-06-01
 modified:           2022-07-14
-order:              /smart-filter-pro/{98}
+order:              /smart-filter-pro/{99}
 toc_max:            2
 ---
 This page contains a quick summary of versions and notable changes of Smart Filter Pro.  

@@ -22,4 +22,4 @@ This is the type of data sent to OKVIZ telemetry systems:
 
 OKVIZ collects this data through Google Analytics and a proprietary system hosted on Microsoft Azure servers.
 
-> More information on the data we send over the Internet can be found here: [Security & Privacy](../../get-started/security.md)
+> More information on the data we send over the Internet can be found here: [Security & Privacy](../../security.md)

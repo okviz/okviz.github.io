@@ -12,9 +12,9 @@ This section contains a list of features of Smart Filter Pro. This is not a comp
 
 Next reading:
 
+- [UI Modes](modes.md)
 - [Certification](certification.md)
 - [Copy & Paste](copy-paste.md)
 - [Printing & Exporting](printing.md)
 - [Sync Slicers](sync-slicers.md)
 - [Power BI Themes](themes.md)
-- [Run Modes](modes.md)
