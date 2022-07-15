@@ -38,9 +38,9 @@ Releasing custom visuals to the AppSource requires a Microsoft review process th
 
 By using the Org Store, you are in control of any update. Indeed, if there is a critical bug in one of the visuals you are using, you can quickly apply a patch to every report on the very day the update is available. This way, you are not dependent on Microsoft’s timeline for releasing the custom visual on to the marketplace.
 
-Unfortunately, **this is only true for private, uncertified visuals.** This is because a visualmust be reviewed, approved and released in AppSource to be certified, which brings us back to the 3-week process.
+Unfortunately, **this is only true for private, uncertified visuals.** This is because a visual must be reviewed, approved and released in AppSource to be certified, which brings us back to the 3-week process.
 
-> Find out more on the certification here: [Certification](../features/certification.md)
+> Find out more on certification here: [Certification](../features/certification.md)
 
 ## How to Manage Visuals in the Org Store
 
