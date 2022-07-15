@@ -1,8 +1,8 @@
 ---
 layout:         page
-title:          Conditional colors
-published:      false
+title:          Conditional Colors
+published:      true
 date:           2022-07-07
 modified:   	2022-07-07
-order:          /3/conditional-colors
+order:          /bullet-chart/options/conditional-colors
 ---

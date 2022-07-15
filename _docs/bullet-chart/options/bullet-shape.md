@@ -1,15 +1,14 @@
 ---
 layout:         page
-title:          Bullet shape
+title:          Bullet Shape
 published:      true
 date:           2022-07-07
 modified:   	2022-07-13
-order:          /3/bullet-shape
+order:          /bullet-chart/options/bullet-shape
+available:      Premium
 ---
 
-Options in this section allow to change bars' appearance for each bullet. All options in this section are **Premium options**.
-
-> More information about premium options can be found here: [Premium](../../general/premium.md)
+Options in this section allow to change bars' appearance for each bullet. All options in this section are [Premium options](premium.md).
 
 <img src="../images/bullet-shape.png" width="200">
 
@@ -27,7 +26,7 @@ If enabled, draws a border outline for the bullet bar.
 
 Defines border outline color.
 
-<img src="../images/bullet-shape-border-color.png" width="500">
+<img src="../images/bullet-shape-border-color.png" width="700">
 
 ## Border stroke
 

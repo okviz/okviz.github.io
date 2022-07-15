@@ -18,7 +18,7 @@ OKVIZ has released and maintains several custom visuals for Power BI available f
 
 ## Security & Privacy
 
-None of these visuals send your data over the Internet or collect åyour use. You're safe!
+None of these visuals send your data over the Internet or collect your use. You're safe!
 ## Certification
 
 All of our free visuals are certified by Microsoft. This means that they have inspected our source code (and continue to do so on any updates) to make sure there is no malware and we are not stealing your data.  

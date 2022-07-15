@@ -1,8 +1,8 @@
 ---
 layout:         page
-title:          Advanced editor
-published:      false
+title:          Advanced Editor
+published:      true
 date:           2022-07-07
 modified:   	2022-07-07
-order:          /3/editor
+order:          /bullet-chart/options/advanced-editor
 ---

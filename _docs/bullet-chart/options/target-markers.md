@@ -1,8 +1,8 @@
 ---
 layout:         page
-title:          Target markers
-published:      false
+title:          Target Markers
+published:      true
 date:           2022-07-07
 modified:   	2022-07-07
-order:          /3/target-markers
+order:          /bullet-chart/options/target-markers
 ---

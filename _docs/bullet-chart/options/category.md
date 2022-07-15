@@ -1,10 +1,10 @@
 ---
 layout:         page
-title:          Category axis
-published:      false
+title:          Category Axis
+published:      true
 date:           2022-07-07
 modified:   	2022-07-12
-order:          /3/category
+order:          /bullet-chart/options/category-axis
 ---
 
 **Default value:** On

@@ -4,12 +4,12 @@ title:          About
 published:      true
 date:           2022-07-07
 modified:   	2022-07-11
-order:          /3/about
+order:          /bullet-chart/options/about
 ---
 
 This properties group displays basic visual's information 
 
-<img src="../images/about.png" width="150">
+<img src="../images/about.png" width="250">
 
 ## Name
 

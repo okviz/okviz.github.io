@@ -1,9 +1,9 @@
 ---
 layout:         page
-title:          Data colors
-published:      false
+title:          Data Colors
+published:      true
 date:           2022-07-07
 modified:   	2022-07-11
-order:          /3/data-colors
+order:          /bullet-chart/options/data-colors
 ---
 

@@ -1,10 +1,10 @@
 ---
 layout:         page
-title:          Value axis
+title:          Value Axis
 published:      true
 date:           2022-07-07
 modified:   	2022-07-14
-order:          /3/value
+order:          /bullet-chart/options/value-axis
 ---
 **Default value:** On
 

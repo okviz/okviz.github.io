@@ -4,7 +4,7 @@ title:          Premium
 published:      true
 date:           2022-07-07
 modified:   	2022-07-13
-order:          /3/premium
+order:          /bullet-chart/options/premium
 ---
 
 Bullet Chart is a free visual, but some advanced feature are only available with a **Premium license**.

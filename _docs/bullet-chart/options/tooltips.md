@@ -1,8 +1,8 @@
 ---
 layout:         page
 title:          Tooltips
-published:      false
+published:      true
 date:           2022-07-07
 modified:   	2022-07-07
-order:          /3/tooltips
+order:          /bullet-chart/options/tooltips
 ---

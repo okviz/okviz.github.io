@@ -1,10 +1,10 @@
 ---
 layout:         page
-title:          Data labels
+title:          Data Labels
 published:      true
 date:           2022-07-07
 modified:   	2022-07-14
-order:          /3/data-labels
+order:          /bullet-chart/options/data-labels
 ---
 
 **Default value:** Off
