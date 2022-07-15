@@ -15,19 +15,23 @@ Here are some of the most common errors you can run into with Power BI and custo
 - ### The visual is no longer available. Please contact your administrator for details.
     This happens when you share a report containing a custom visual stored in the Org Store outside your organization. If you plan to share a report file, include any custom visuals directly from a file. See [Installation](../get-started/installation.md) for more information.  
 
-    <img src="images/visual-no-longer-available.png" width="500">
+    <img src="images/visual-no-longer-available.png" width="450">
 
     This error also occurs if you remove a custom visual from the Org Store. This usually happens when you want to update a visual to a new version but **instead of changing the package file, you delete the old entry and create a new one.** In this case, even though the internal ID of the visual is the same, Power BI cannot recognize which visual it was and shows the error. Unfortunately, visuals in this state can only be deleted from your reports - you can't switch them to a different visual type like you normally would. For more information on how to properly update  custom visuals, see [Updating](../get-started/updating.md).
 
 - ### Too many "Field" values. Not displaying all data. Filter the data or choose another field.
-    This error occurs when the field bound to the visual contains too many rows or exceeds the capacity of the visual. In fact, custom visuals are capable of getting max 1,000,000 rows with ***incremental loading*** enabled and 30,000 without it. Since not all our visuals use this advanced technique, you may see this message. 
+    This error occurs when the field bound to the visual contains too many rows or exceeds the capacity of the visual. In fact, custom visuals are capable of getting max 1,000,000 rows with a technique called ***Incremental Loading*** and 30,000 without it. Since not all our visuals use this advanced technique, you may see this message in some cases. 
 
     <img src="images/too-many-values.png" width="700">
     
-    Refer to the documentation of the visual to see if incremental loading is supported.
+    Refer to the documentation of the visual to see if Incremental Loading is supported.
     
+- ### This visual does not support exporting.  
+    This error occurs when you try to export a report to PDF/Power Point or the report is embedded in an email and the visual is not certified. [Read more on certification](../get-started/certification.md).
+    
+    <img src="../issues/images/not-support-exporting.png" width="350">
 
-<todo>TODO</todo>
+## Other Issues  
 
-> More errors are available here: [Troubleshooting tile errors](https://docs.microsoft.com/en-us/power-bi/connect-data/refresh-troubleshooting-tile-errors)
+More errors are available on the Microsoft website: [Troubleshooting tile errors](https://docs.microsoft.com/en-us/power-bi/connect-data/refresh-troubleshooting-tile-errors)
 

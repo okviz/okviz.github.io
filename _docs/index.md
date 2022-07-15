@@ -18,11 +18,11 @@ Next reading:
 - [Features](features)
 - [Issues](issues)
 
-Visuals:
+Visuals reference:
 
 - [Bullet Chart](bullet-chart)
 - [Calendar Pro](calendar-pro)
 - [Smart Filter Pro](smart-filter-pro)
-- [Free visuals](free-visuals)
+- [Other visuals](free-visuals)
 
 > To download and try our visuals, [visit OKVIZ.com](https://okviz.com)

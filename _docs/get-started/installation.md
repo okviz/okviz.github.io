@@ -9,6 +9,8 @@ toc_max:            2
 ---
 OKVIZ visuals (like any other custom visuals for Power BI) are wrapped as files with the ***.pbiviz*** extension. You cannot directly open .pbiviz files with Power BI. Instead, you must import them into your reports or install them in your organization marketplace by following one of the methods described below.
 
+Custom visuals may be disabled in your organization, [check your tenant settings](#enable-custom-visuals) to be sure.
+
 
 ## From a File
 
@@ -84,18 +86,6 @@ Power BI admins can deploy custom visuals throughout their organization. This wa
     <img src="images/installation-org-4.png" width="700">
 
 
-5.	Enable custom visuals within your organization.
-
-    Go to ***Tenant settings*** and make sure that:
-
-    - ***Allow visuals created using the Power BI SDK*** is enabled; 
-    - ***Add and use certified visuals only (block uncertified)*** is disabled.
-
-    > **Smart Filter Pro**: The latter is required by Smart Filter Pro only as it is uncertified.   
-    Find out why we did not apply for certification here: [Smart Filter Pro Certification](../smart-filter-pro/features/certification.md)
-
-    <img src="images/admin-portal-cv.png" width="650">
-
 ### 2. Importing a visual from the Org Store
 
 To use a custom visual stored in the Org Store:
@@ -113,8 +103,16 @@ To use a custom visual stored in the Org Store:
 
     <img src="images/installation-done.png" width="250">
 
-> Visuals stored in the Org Store are only available within your organization. If you plan to share a report with a visual from your Org Store externally, you need to replace it with a local file, othwerwise it will not available to your recipients and [they will see an error](../issues/common-issues.md#the-visual-is-no-longer-available-please-contact-your-administrator-for-details).
+> Visuals stored in the Org Store are only available within your organization. If you plan to share a report with a visual from your Org Store externally, you need to replace it with a local file, othwerwise [your recipients will see an error](../issues/common-issues.md#the-visual-is-no-longer-available-please-contact-your-administrator-for-details).
 
-Next reading:
+## Enable Custom Visuals
 
-- [How to Use Visuals](how-to-use.md)
+After installing the visual, you need to check if custom visuals can be run in your organization. To do so, go to ***Tenant settings*** of the Admin portal and make sure that:
+
+- ***Allow visuals created using the Power BI SDK*** is enabled; 
+- ***Add and use certified visuals only (block uncertified)*** is disabled.
+
+> **Smart Filter Pro**: The latter is required by Smart Filter Pro only as it is uncertified.   
+Find out why we did not apply for certification here: [Smart Filter Pro Certification](../smart-filter-pro/security.md#certification)
+
+<img src="images/admin-portal-cv.png" width="650">
