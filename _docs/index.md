@@ -4,7 +4,7 @@ title:      OKVIZ Documentation
 menu_title: Docs
 published:  true
 date:       2022-05-04
-modified:   2022-07-15
+modified:   2022-07-16
 order:      /
 class:      front-site
 ---
@@ -12,17 +12,6 @@ Welcome to the documentation of OKVIZ visuals for Power BI.
 
 Since 2015, OKVIZ has been developing several high-quality custom visuals for Power BI; on this site you will find a reference of these visuals along with general information on common features such as installation, security, and certification.
 
-Next reading:
+> To download a try our visuals, visit [OKVIZ.com](https://okviz.com)
 
-- [Get Started](get-started)
-- [Features](features)
-- [Issues](issues)
-
-Visuals reference:
-
-- [Bullet Chart](bullet-chart)
-- [Calendar Pro](calendar-pro)
-- [Smart Filter Pro](smart-filter-pro)
-- [Other visuals](free-visuals)
-
-> To download and try our visuals, [visit OKVIZ.com](https://okviz.com)
+{% include next %}

@@ -22,6 +22,7 @@ Every file must contain a header in the following format (note that the ***\-\-\
     layout:         page
     title:          Document title
     menu_title:     Menu title
+    next_title:     Next reading title
     published:      true
     draft:          false
     date:           2021-11-15
@@ -35,7 +36,8 @@ Every file must contain a header in the following format (note that the ***\-\-\
 
 - **layout:** always set the value ***page***.
 - **title:** set the title of the document.
-- **menu_title:** (optional) set a title for the navigation menu if you want to make it different from the main title.
+- **menu_title:** (optional) set a title for the navigation menu, if you want to make it different from the main title.
+- **next_title:** (optional) set a title for the next reading section of the pages, if you want to make it different from the main title.
 - **published:** set ***true*** to display the document on the website 
 - **draft:** (optional) set ***true*** to show a notice that the document is not completed (note that this notice appears automatically if the document is empty or if it contains &lt;todo&gt;&lt;/todo&gt; tag. Set ***"no"*** to never show the notice.
 - **date:** set the creation date of the document.
@@ -369,7 +371,7 @@ The URL of the links can be:
 
 <table>
     <tr>
-        <th>Markdown</th>
+        <th>Syntax</th>
         <th>Rendered Output</th>
     </tr>
     <tr>
@@ -394,7 +396,7 @@ Sometimes it is necessary to display the availability limits of a feature descri
 
 <table>
     <tr>
-        <th>Markdown</th>
+        <th>Syntax</th>
         <th>Rendered Output</th>
     </tr>
     <tr>
@@ -414,7 +416,7 @@ You can add some placeholders and notes in unfinished documents, to keep track o
 
 <table>
     <tr>
-        <th>Markdown</th>
+        <th>Syntax</th>
         <th>Rendered Output</th>
     </tr>
     <tr>
@@ -433,3 +435,31 @@ You can add some placeholders and notes in unfinished documents, to keep track o
 </table>
 
 > TODOs are not displayed on the website by default, please contact the administrator to learn how to enable them.
+
+#### Next Reading
+
+You can add a section at the end of any page with a list of links to other pages at the same folder level.
+
+<table>
+    <tr>
+        <th>Syntax</th>
+        <th>Rendered Output</th>
+    </tr>
+    <tr>
+        <td>
+<pre>
+&#123;% include next %&#125;
+</pre>
+        </td>
+        <td>
+            <div class="next-reading" style="margin:0">
+                <div class="title">Next Reading:</div>
+                <ul>
+                    <li>
+                        <a href="#">Get Started with OKVIZ Visuals</a>
+                    </li>
+                </ul>
+            </div>
+        </td>
+    </tr>
+</table>

@@ -17,7 +17,7 @@ In case, there is more than one field connected to the visual, then each one is 
 <img src="images/observer-mode-multi.png" width="630">
 
 
-> Note that when no user selection is set, the visual displays up to **1000 items** for each connected field.
+> Note that when no user selection is set, the visual displays up to **1,000 items** for each connected field.
 
 ## Options
 

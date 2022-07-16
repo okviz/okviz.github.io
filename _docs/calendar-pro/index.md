@@ -9,3 +9,4 @@ class:              front-section
 menu_class:         icon icon-calendar
 ---
   
+{% include next %}

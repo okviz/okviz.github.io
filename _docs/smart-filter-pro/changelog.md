@@ -220,7 +220,7 @@ With this mode, you can paste and filter long lists of values or search while ty
 
 **Changed:**
 - New SVG icon for Visuals panel.  
-<img src="images/changelog/v211-icon.svg" width="64" class="noround noborder nomargin">
+<img src="images/changelog/v211-icon.svg" width="100" class="noround noborder nomargin noshadow">
 
 ## v2.1.0
 **Released:** 2019-12-06
@@ -334,7 +334,7 @@ With the Hierarchy mode your columns are arranged in a tree view, according to t
 - Start ignoring white spaces in search.
 - Improved multi fields filter.
 - The clear button now clear only its parent field.
-- Limit the first bunch of rows to 1000, then load data incrementally.
+- Limit the first bunch of rows to 1,000, then load data incrementally.
 
 **Fixed:**
 - An issue with blanks.
