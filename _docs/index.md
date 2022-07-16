@@ -12,6 +12,6 @@ Welcome to the documentation of OKVIZ visuals for Power BI.
 
 Since 2015, OKVIZ has been developing several high-quality custom visuals for Power BI; on this site you will find a reference of these visuals along with general information on common features such as installation, security, and certification.
 
-> To download a try our visuals, visit [OKVIZ.com](https://okviz.com)
+> To download and try our visuals, visit [OKVIZ.com](https://okviz.com)
 
 {% include next %}
