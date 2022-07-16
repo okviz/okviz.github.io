@@ -7,4 +7,4 @@ modified:           2021-12-14
 order:              /smart-filter-pro/features/02
 class:              front-section
 ---
-<todo assign="daniele">Compare features available in Pro and Free versions</todo>
+<todo>Compare features available in Pro and Free versions</todo>

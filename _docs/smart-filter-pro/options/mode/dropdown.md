@@ -4,13 +4,13 @@ title:              Dropdown Mode
 menu_title:         Dropdown
 published:          true
 date:               2021-12-09
-modified:           2021-12-14
+modified:           2022-07-16
 order:              /smart-filter-pro/options/mode/01
 internal:           dropdown
 ---
 The Dropdown mode in Smart Filter Pro allows you to select items for filtering data by scrolling down a list, or by typing a few keywords and refining your search with an auto-complete list.
 
-<img src="images/dropdown-mode.png" width="500">
+<img src="images/dropdown-mode.png" width="400">
  
 ## Incremental Loading
 
@@ -43,6 +43,7 @@ In Dropdown mode, all keywords are always applied with the logical **OR** operat
 ## Options
 
 On selecting the Dropdown mode, the options available are:
+
 - [Autocomplete](autocomplete.md)
 - [Compress Multiple](compress-multiple.md)
 - [Cross Filtering](cross-filtering.md)

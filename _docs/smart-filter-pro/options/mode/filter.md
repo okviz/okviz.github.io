@@ -4,14 +4,14 @@ title:              Filter Mode
 menu_title:         Filter
 published:          true
 date:               2021-12-09
-modified:           2021-12-19
+modified:           2022-07-16
 order:              /smart-filter-pro/options/mode/02
 toc_max:            3
 internal:           filter
 ---
 The Filter mode in Smart Filter Pro allows advanced data queries by defining conditions using wildcards, comparison, and logical operators. The filter conditions – one or more – are written with a simple syntax giving instant results. One can search for specific date intervals, for numbers smaller or greater than others, for strings within a piece of text, and so on. 
 
-<img src="images/filter-mode-1.png" width="520">
+<img src="images/filter-mode-1.png" width="500">
 
 By allowing advanced search conditions for filtering, the Filter mode helps refine your search and eliminate any restrictions on which elements in a column to filter. For instance, the filter semantic that can be applied to the dates allows the user to specify complex rules in filtering dates that are not possible to define using the default slicers.
 
@@ -129,7 +129,7 @@ The Filter mode provides a simple syntax to perform advanced queries on date fie
 
     <img src="images/filter-mode-7.png" width="350">
 
-    > Note that these shortened ranges are inclusive - the first and last dates of the range are always included.
+    > These shortened ranges are inclusive - the first and last dates of the range are always included.
 
 ### Number Search
 

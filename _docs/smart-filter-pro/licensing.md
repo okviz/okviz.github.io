@@ -26,7 +26,9 @@ The Smart Filter Pro licensing works in different ways depending on how you load
     If you use Smart Filter Pro from AppSource, you must activate each instance of the visual in your reports by entering the licensee name and license key in the dedicated fields.  
     Therefore, **sharing the visual within your organization also requires sharing license information.**
 
+    <img src="images/unlicensed.png" width="300">  
     <img src="images/licensing-unlock.png" width="170">
+    
 
-    Additionally, **the visual must continually check with our servers the status of your subscription**, producing additional network activity that can be mitigated by using a hard-coded license as described above. 
+    Additionally, **the visual needs to continually check with our servers the status of your subscription**, producing additional network activity that can be mitigated by using a hard-coded license as described above. 
 

@@ -152,7 +152,7 @@ This option defines the font color of the filter elements in the visual.
 
 This option is used to set the minimum width of each filter item. 
 
-<todo assign="daniele">Take a screenshot.</todo>
+<todo>Screenshot</todo>
 
 
 ## Max Item Width  
@@ -175,7 +175,7 @@ This option is used to set the minimum height of the input textbox.
 
 As you select multiple elements, the height of the visual automatically increases to accommodate the selection. Setting a value greater than 1 here forces the visual to be a specific number of lines tall. For example, if the elements you select span 2 lines and you put 3 as a minimum, the visual height will be 3 lines. However, if the elements span 4 lines, the height of the visual will be 4 lines.
 
-<todo assign="daniele">Retake two screenshot spanning 2 and 4 lines.</todo>
+<todo>Two screenshots spanning 2 and 4 lines</todo>
 
 > Set ***Min Input Lines*** to 0 to automatically fill the height of the visual.   
 

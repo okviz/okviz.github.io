@@ -39,4 +39,4 @@ This additional option, when enabled, shows a label with the number of hidden it
 
 This option allows you to set the text to display in case the field connected to Smart Filter Pro has no items or the current filter on the report has ripped all the values from this field.
 
-<todo assign="daniele">Take a screenshot</todo>
+<todo>Screenshot</todo>
