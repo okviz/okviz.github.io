@@ -367,7 +367,7 @@ The URL of the links can be:
 
     `[See "Check for updates" below](#check-for-updates)`
 
-#### Image
+#### Screenshot (Image)
 
 <table>
     <tr>
@@ -376,10 +376,10 @@ The URL of the links can be:
     </tr>
     <tr>
         <td>
-            <pre>&#60;img src="images/okviz.png" width="100"&#62;</pre>
+            <pre>&#60;img src="images/screenshot.png" width="500"&#62;</pre>
         </td>
         <td>
-            <img src="assets/images/markdown-editing/okviz.png" width="100">
+            <img src="assets/images/markdown-editing/screenshot.png" width="500" class="noround noshadow noborder">
         </td>
     </tr>
 </table>
@@ -389,6 +389,28 @@ You are not allowed to embed images in Markdown documents like in Word, but they
 Always create a folder called images in the parent folder of the document you are working on (if it doesn't exist) and put all the images in it. For example, the images of ***smart-filter-pro/about.md*** must be placed in the folder ***_docs/smart-filter-pro/images/***.
 
 > Set a reasonable number of pixels in the ***width*** attribute of the &lt;img&gt; tag (see the [Best Practices](best-practices.md)).
+
+#### Screencast (Video)
+
+<table>
+    <tr>
+        <th>Syntax</th>
+        <th>Rendered Output</th>
+    </tr>
+    <tr>
+        <td>
+<pre>&#60;video src="images/screencast.mp4" 
+ autoplay loop muted width="500"&#62;&#60;/video&#62;</pre>
+        </td>
+        <td>
+            <video src="assets/images/markdown-editing/screencast.mp4" width="500" autoplay loop muted></video>
+        </td>
+    </tr>
+</table>
+
+Like with images, you need to use a HTML syntax to embed videos in your pages. Follow the same rules and best practices of images.
+
+> Be sure to include ***autoplay***, ***loop*** and ***muted*** attributes.
 
 #### Available Badge
 
@@ -410,7 +432,7 @@ Sometimes it is necessary to display the availability limits of a feature descri
 </table>
 
 
-#### TODO Badge
+#### TO DO Badge
 
 You can add some placeholders and notes in unfinished documents, to keep track of the content to be edited or the tasks to be performed. You can also define an assignment attribute with the contributor's name.
 

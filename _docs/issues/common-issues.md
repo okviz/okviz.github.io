@@ -12,7 +12,7 @@ Here are some of the most common errors you can run into with Power BI and custo
 - ### Generic error
     When you see a generic error without a clear description and just a ***Learn more*** link, it is probably because the size reserved for the visual is too small and the message has simply been cut off. Before reporting this, try enlarging the visual to see if a clearer message appears.
 
-    <video src="images/generic-error.mp4" autoplay="true" loop="true" width="450"></video>
+    <video src="images/generic-error.mp4" width="450" autoplay loop muted></video>
 
 - ### The visual is no longer available. Please contact your administrator for details.
     This happens when you share a report containing a custom visual stored in the Org Store outside your organization. If you plan to share a report file, include any custom visuals directly from a file. See [Installation](../get-started/installation.md) for more information.  

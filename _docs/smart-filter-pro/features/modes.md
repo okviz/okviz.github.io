@@ -11,7 +11,7 @@ Smart Filter Pro can work in different modes. Each mode has unique benefits and 
 
 For example, ***Filter mode*** is useful if you have huge datasets since it doesn't consume all the resources of the other modes and can search on-demand, while the ***Dropdown mode*** loads all underlying data incrementally.
 
-<video src="images/modes.mp4" autoplay="true" loop="true" width="600"></video>
+<video src="images/modes.mp4" width="600" autoplay loop muted></video>
 
 Each mode is explained in detail on the following pages:
 
