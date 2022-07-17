@@ -5,6 +5,7 @@ published:          true
 date:               2022-07-13
 modified:           2022-07-13
 order:              /{99}
+class:              normal
 ---
 
 OKVIZ has released and maintains several custom visuals for Power BI available for free. There is no complete documentation for these visuals yet, but you can find some helpful resources below:

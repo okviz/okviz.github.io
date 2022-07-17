@@ -5,6 +5,7 @@ published:          true
 date:               2021-11-20
 modified:           2022-07-17
 order:              /smart-filter-pro/options/appearance
+class:              normal
 ---
   
 The Appearance properties group contains options related to the appearance of Smart Filter Pro. 

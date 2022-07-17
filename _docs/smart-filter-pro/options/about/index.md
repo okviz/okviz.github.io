@@ -7,6 +7,7 @@ modified:           2022-07-16
 order:              /smart-filter-pro/options/about-license
 internal:           name, version, license, user, key, expiry
 toc:                false
+class:              normal
 ---
 This properties group displays the name and version of the visual, licensing details, and options related to deployment and updates.
 

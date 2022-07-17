@@ -8,7 +8,6 @@ modified:           2022-07-17
 order:              /02
 ---
 
-This section contains features common to multiple OKVIZ visuals.  
-You can find the complete list of features of each visual in its dedicated section. 
+This section contains features common to multiple OKVIZ visuals. You can find the complete list of features of each visual in its dedicated section. 
 
 {% include next %}

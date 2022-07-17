@@ -3,7 +3,7 @@ layout: default
 ---
 {% assign page_file = page.url | split: "/" | last %}
 
-<div class="page {{ page.class }}{% if page_file == "index" %} front-section{% endif %}">
+<div class="page{% if page_file == "index" %} front-section{% endif %} {{ page.class }}">
     {% include page-nav.html %}
 
     <div class="content main-content">

@@ -6,6 +6,7 @@ date:               2021-12-14
 modified:           2022-07-16
 order:              /smart-filter-pro/options/mode
 internal:           mode
+class:              normal
 ---
 **Default value:** Dropdown
 
