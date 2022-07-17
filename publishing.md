@@ -47,7 +47,7 @@ This document contains the steps to follow in order to publish a new Power BI vi
 8. Create a private version of the visual:
     1. Open ***pbiviz.json***
     2. Change `visual.displayName` by adding the visual version number (E.g. **Visual Name by OKVIZ 1.0.0**)
-    3. Change `visual.guid` by adding the visual version number (E.g. **COMPLEX_GUID_1.0.0**)
+    3. Change `visual.guid` by adding the visual version number (E.g. **VISUAL_GUID_1_0_0**)
     4. Change `assets.icon` with a specific version icon (if available)
     5. Build the package
     6. Rename the package as **VisualName-x.x.x.x-priv.pbix**
