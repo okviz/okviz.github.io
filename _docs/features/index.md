@@ -6,7 +6,6 @@ published:          true
 date:               2022-07-14
 modified:           2022-07-17
 order:              /02
-class:              front-section
 ---
 
 This section contains features common to multiple OKVIZ visuals.  

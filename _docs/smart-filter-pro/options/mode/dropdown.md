@@ -16,11 +16,10 @@ The Dropdown mode in Smart Filter Pro allows you to select items for filtering d
 
 The Dropdown mode populates the drop-down list using a technique called ***Incremental Loading*** – it doesn't load all the data at once, but requests small blocks of values (5,000) at a time, completing the list incrementally. This means that, with a large volume of data, this process may take several seconds during which some values are not available for queries.  
 
-> Keep in mind that you can limit the [number of rows to retrieve](max-rows.md) with a specific option.
+> You can limit the [number of rows to retrieve](max-rows.md) with a specific option.
 
 > Note that the **Incremental Loading is restarted on each report update** (for example, when changing filters, clicking on any chart/slicer, or changing the active report page), so a large column may slow down the entire report.  
-
-For this reason, the **Dropdown mode is not recommended with fields greater than 30,000 rows**. For larger datasets, the [Filter mode](filter.md) is better, as it doesn't load values into memory, but just apply filters on demand.
+For this reason, the **Dropdown mode is not recommended with fields greater than 50,000 rows**. For larger datasets, the [Filter mode](filter.md) is better, as it doesn't load values into memory, but just apply filters on demand.
 
 
 ## How to Search

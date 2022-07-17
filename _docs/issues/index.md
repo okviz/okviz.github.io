@@ -5,7 +5,6 @@ published:          true
 date:               2022-07-14
 modified:           2022-07-14
 order:              /03
-class:              front-section
 menu_sep:           true
 menu_sep_force:     true
 ---
