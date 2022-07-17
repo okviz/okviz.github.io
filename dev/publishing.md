@@ -1,10 +1,10 @@
 ---
 layout:     page-no-nav
-title:      Visual Publishing
+title:      Custom Visual Publishing
 published:  true
 toc:        false
 date:       2022-07-12
-modified:   2022-07-12
+modified:   2022-07-17
 sitemap:    false
 ---
 

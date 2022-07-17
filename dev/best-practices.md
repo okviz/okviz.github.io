@@ -3,7 +3,7 @@ layout:     page-no-nav
 title:      Best Practices
 published:  true
 date:       2021-12-20
-modified:   2022-01-11
+modified:   2022-07-17
 sitemap:    false
 ---
 
@@ -76,10 +76,10 @@ For example: <code>If you enter `audio`, then something happens.</code>
         </tr>
         <tr>
             <td>
-                <img src="assets/images/best-practices/too-much-blank-space.png" width="400">
+                <img src="images/best-practices/too-much-blank-space.png" width="400">
             </td>
             <td>
-                <img src="assets/images/best-practices/ok-blank-space.png" width="400">
+                <img src="images/best-practices/ok-blank-space.png" width="400">
             </td>
         </tr>
     </table>
@@ -102,7 +102,7 @@ For example: <code>If you enter `audio`, then something happens.</code>
 
 - If there are multiple shapes and you need to highlight the steps to follow in sequence, **number the shapes**.
 
-    <img src="assets/images/contributing/pull.png" width="450">
+    <img src="images/contributing/pull.png" width="450">
 
 - **Don't apply shadows** to highlighting shapes.
 
@@ -113,10 +113,10 @@ For example: <code>If you enter `audio`, then something happens.</code>
         </tr>
         <tr>
             <td>
-                <img src="assets/images/best-practices/shadow.png" width="200">
+                <img src="images/best-practices/shadow.png" width="200">
             </td>
             <td>
-                <img src="assets/images/best-practices/noshadow.png" width="200">
+                <img src="images/best-practices/noshadow.png" width="200">
             </td>
         </tr>
     </table>

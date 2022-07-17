@@ -3,7 +3,7 @@ layout:     page-no-nav
 title:      Markdown Editing
 published:  true
 date:       2021-12-20
-modified:   2022-07-13
+modified:   2022-07-17
 sitemap:    false
 draft:      "no"
 ---
@@ -379,7 +379,7 @@ The URL of the links can be:
             <pre>&#60;img src="images/screenshot.png" width="500"&#62;</pre>
         </td>
         <td>
-            <img src="assets/images/markdown-editing/screenshot.png" width="500" class="noround noshadow noborder">
+            <img src="images/markdown-editing/screenshot.png" width="500" class="noround noshadow noborder">
         </td>
     </tr>
 </table>
@@ -403,7 +403,7 @@ Always create a folder called images in the parent folder of the document you ar
  autoplay loop muted width="500"&#62;&#60;/video&#62;</pre>
         </td>
         <td>
-            <video src="assets/images/markdown-editing/screencast.mp4" width="500" autoplay loop muted></video>
+            <video src="images/markdown-editing/screencast.mp4" width="500" autoplay loop muted></video>
         </td>
     </tr>
 </table>

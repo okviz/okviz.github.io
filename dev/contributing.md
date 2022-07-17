@@ -3,7 +3,7 @@ layout:     page-no-nav
 title:      Contributing
 published:  true
 date:       2021-12-20
-modified:   2022-01-17
+modified:   2022-07-17
 sitemap:    false
 toc_max:    2
 ---
@@ -54,13 +54,13 @@ You need to follow the steps below only the first time.
     1. Open Command Prompt (or Terminal on Mac).
         The easiest way to do that is from the search tool in the ***Start*** menu - search for ***cmd*** and click on the first result.
         
-        <img src="assets/images/contributing/cmd.png" width="600">
+        <img src="images/contributing/cmd.png" width="600">
 
     2. At the command prompt, enter the following commands (replace ***your-email@domain.com*** and ***your-username*** with the ones you registered on Github): 
         - `git config --global user.email "your-email@domain.com"` (press Enter)
         - `git config --global user.name "your-username"` (press Enter)
 
-        <img src="assets/images/contributing/git-config.png" width="550">
+        <img src="images/contributing/git-config.png" width="550">
     
 2. #### Install VSCode
 
@@ -74,7 +74,7 @@ You need to follow the steps below only the first time.
 
     To clone the repo, open VSCode, click on the ***Clone Repository*** button in the ***Editors*** sidebar, and insert this repository URL: `{{ site.github }}.git`
 
-    <img src="assets/images/contributing/clone-repo.png" width="700">
+    <img src="images/contributing/clone-repo.png" width="700">
 
     After inserting the URL, you are asked to choose a folder on your computer to store the content of the copy of the repo. Create a new one and press ***Select Repository Location***. 
 
@@ -93,7 +93,7 @@ A session starts with synchronization and ends with a Pull Request.
 
     In VSCode, click on the source control icon, select the ellipsis button, and choose the ***Pull*** command from the context menu. 
 
-    <img src="assets/images/contributing/pull.png" width="450">
+    <img src="images/contributing/pull.png" width="450">
 
 2. #### Create a Branch
 
@@ -106,13 +106,13 @@ A session starts with synchronization and ends with a Pull Request.
 
     To create a new branch, click on the  ***main*** label on the lower-left corner of the VSCode window. Then click ***Create new branch...***, and enter a name in the format `username-YYYY-MM-DD` (replace ***username*** with your Github username and ***YYYY-MM-DD*** with the current date in ISO 8601 format).
 
-    <img src="assets/images/contributing/create-branch.png" width="550">
+    <img src="images/contributing/create-branch.png" width="550">
 
 3. #### Make your Changes
 
     At this point, you are working on a different branch. You can see the name of the branch you have just created in the lower left corner of the VSCode window - if the name is still ***main***, click on the name and select the correct one.
 
-    <img src="assets/images/contributing/branch-name.png" width="200">
+    <img src="images/contributing/branch-name.png" width="200">
 
     The only place containing documents you may want to change is the **_docs** directory:
 
@@ -129,7 +129,7 @@ A session starts with synchronization and ends with a Pull Request.
     
     The files in the _docs directory are written in Markdown (file extension ***.md***) which is a simplified version of HTML. Editing a Markdown file is easier if you also open the preview pane - any changes in Markdown are interpreted and displayed in the preview pane in real time.
 
-    <img src="assets/images/contributing/preview-pane.png" width="850">
+    <img src="images/contributing/preview-pane.png" width="850">
 
     See [Markdown Editing](markdown-editing.md) and [Best Practices](best-practices.md) to learn how to properly format your content. 
 
@@ -141,18 +141,18 @@ A session starts with synchronization and ends with a Pull Request.
 
     To commit with VSCode, click on the ***Source Control*** icon, add a small description of the changes made in the input box above the ***Changes*** section, click the ellipsis button and choose Commit (or CTRL + Enter).
 
-    <img src="assets/images/contributing/commit.png" width="850">
+    <img src="images/contributing/commit.png" width="850">
 
     If VSCode asks if you want to stage your changes, click on ***Always***.
 
-    <img src="assets/images/contributing/always-stage.png" width="500">
+    <img src="images/contributing/always-stage.png" width="500">
 
     Then click ***Publish Branch*** (or ***Sync Changes*** if you are following this step after sending the Pull Request - more later).
 
-    <img src="assets/images/contributing/publish-branch.png" width="300">
+    <img src="images/contributing/publish-branch.png" width="300">
 
     > The first time you commit something, VSCode needs to be authorized to access your Github account. Click on **Sign in with your browser** on the dialog box that appears, and follow the on-screen instructions to proceed.  
-    > <img src="assets/images/contributing/signin.png" width="300">
+    > <img src="images/contributing/signin.png" width="300">
 
     
 
@@ -162,15 +162,15 @@ A session starts with synchronization and ends with a Pull Request.
 
     First of all, go to the repo on Github (<{{ site.github }}>), ***Sign in*** if you are not logged in, then click on ***Compare & pull request*** button that should appear on top of the files list.
     
-    <img src="assets/images/contributing/pr-1.png" width="700">
+    <img src="images/contributing/pr-1.png" width="700">
 
     On the next page, you can add more details to the request you are making and you can review all the changes you made. Also, note the top bar with the merge information - you are asking to merge your patch branch into the main branch.
 
-    <img src="assets/images/contributing/pr-3.png" width="800">
+    <img src="images/contributing/pr-3.png" width="800">
 
     If everything looks fine, press the ***Create pull request*** button.
 
-   <img src="assets/images/contributing/pr-2.png" width="800">
+   <img src="images/contributing/pr-2.png" width="800">
 
    At this point, the repo owner and the collaborators will be notified of your PR and may decide to approve it, request more details, or discard it.
 
@@ -188,7 +188,7 @@ A session starts with synchronization and ends with a Pull Request.
 
     3. Verify that the current branch is the same branch you created for the PR (you can see the name in the lower left corner of the VSCode window - if the name is different, click on it and select the correct one).
 
-        <img src="assets/images/contributing/branch-name.png" width="200">
+        <img src="images/contributing/branch-name.png" width="200">
 
     4. Make your changes.
 
@@ -201,13 +201,13 @@ A session starts with synchronization and ends with a Pull Request.
     **After receiving a notification that the PR has been approved**, you need to switch back your local repo to the ***main*** branch, and delete the patch branch.
     To do this, click on the patch branch name in the lower left corner of the VSCode window and select ***main*** from the dropdown list. 
 
-    <img src="assets/images/contributing/branch-back.png" width="600">
+    <img src="images/contributing/branch-back.png" width="600">
 
     At this point, click on the source control icon, select the ellipsis button, choose ***Branch***, then ***Delete Branch...***, and select the patch branch name.
 
     > **IMPORTANT**: Do not delete the patch branch until the PR has been approved or closed.
 
-    <img src="assets/images/contributing/delete-local-branch.png" width="600">
+    <img src="images/contributing/delete-local-branch.png" width="600">
 
     If VSCode shows more than one branch with the same name, **select all** and proceed, we don't need these copies anymore.
 
@@ -221,15 +221,15 @@ These steps are for reviewers only. They must review the Pull Request, approve i
 
     To review the PR, open the repo on Github, click on [Pull requests]({{ site.github }}/pulls) and select it from the list.
 
-    <img src="assets/images/contributing/pr-4.png" width="800">
+    <img src="images/contributing/pr-4.png" width="800">
 
     On the next page you can see that the PR requires at least 1 approving review to be merged into the main branch. To proceed, click on ***Add your review***. 
 
-    <img src="assets/images/contributing/pr-5.png" width="700">
+    <img src="images/contributing/pr-5.png" width="700">
 
     Here you can see all the changes included in the PR and decide to approve them from the ***Review changes*** dialog box. 
 
-    <img src="assets/images/contributing/pr-6.png" width="800">
+    <img src="images/contributing/pr-6.png" width="800">
 
     If you want to request changes from the author, click on ***Request changes*** and leave a comment. The author will be notified of your comments.
 
@@ -243,7 +243,7 @@ These steps are for reviewers only. They must review the Pull Request, approve i
 
         Click the ellipsis button of the file you want to edit and choose ***Edit file*** from the context menu.
 
-        <img src="assets/images/contributing/pr-7.png" width="400">
+        <img src="images/contributing/pr-7.png" width="400">
 
         > Note that the ***Edit File*** button may sometimes be disabled. This happens because you probably clicked somewhere and got placed into a different branch by Github. In this case, simply click on the PR as you did in the first step of this section, then click on the file you want to edit and the button should be enabled again.
         
@@ -264,11 +264,11 @@ These steps are for reviewers only. They must review the Pull Request, approve i
 
             First you need to know the name of the branch used by the author of the PR. It's at the top of the Github review page.
 
-            <img src="assets/images/contributing/pr-3b.png" width="800">
+            <img src="images/contributing/pr-3b.png" width="800">
 
             Now, in VSCode change the current branch from the lower left corner of the window. Click there and select the PR branch name from the dropdown list. 
 
-            <img src="assets/images/contributing/branch-name.png" width="200">
+            <img src="images/contributing/branch-name.png" width="200">
            
            You are now ready to make changes.
 
@@ -283,13 +283,13 @@ These steps are for reviewers only. They must review the Pull Request, approve i
     
     After approving the PR, you can merge the changes into the main branch. To do this, click ***Merge pull request*** and confirm.
 
-    <img src="assets/images/contributing/pr-8.png" width="800">
+    <img src="images/contributing/pr-8.png" width="800">
 
 4. #### Delete the Branch
 
     After the PR has been merged into the main branch, the patch branch must be deleted. Press the ***Delete branch*** button next to the merge confirmation message.
     
-    <img src="assets/images/contributing/delete-branch.png" width="800">
+    <img src="images/contributing/delete-branch.png" width="800">
 
 *You are done, congratulations!   
 The changes will be visible on the website in a couple of minutes. If the changes do not appear, contact the administrator who will force the update manually.*<br>
