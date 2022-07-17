@@ -1,10 +1,10 @@
 ---
 layout:             page
-title:              UI Modes
+title:              Display Modes
 published:          true
 date:               2022-07-13
 modified:           2022-07-15
-order:              /smart-filter-pro/features/01
+order:              /smart-filter-pro/features/display-modes
 ---
 
 Smart Filter Pro can work in different modes. Each mode has unique benefits and features.
