@@ -100,7 +100,7 @@ This option, if enabled, displays a button to clear the contents of all input fi
 
 **Default value:** On
 
-This option, if enabled, shows a button inside the input box to display a tooltip containing the available [query syntax](mode/filter.md#how-to-search) as per the field of the input box. The button is hidden and is visible only when you hover over the input box.  
+This option, if enabled, shows a button inside the input box to display a tooltip containing the available [query syntax](../mode/filter.md#how-to-search) as per the field of the input box. The button is hidden and is visible only when you hover over the input box.  
 
 <img src="images/appearance-help-button.png" width="550">    
 

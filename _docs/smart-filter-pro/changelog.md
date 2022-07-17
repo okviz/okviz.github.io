@@ -30,7 +30,7 @@ Smart Filter Pro uses **Power BI Custom Visuals API v1.13.0** - compatible with 
 
 **Changed:**
 - Some options labels and tooltips.
-- [Max Items in Dropdown](mode/max-items-in-dropdown.md) now can be 0 to include all results available in cache for the query string.
+- [Max Items in Dropdown](options/mode/max-items-in-dropdown.md) now can be 0 to include all results available in cache for the query string.
 - Improved memory usage.
 
 ## v2.2.7
@@ -59,7 +59,7 @@ Smart Filter Pro uses **Power BI Custom Visuals API v1.13.0** - compatible with 
 - ***Filter other fields*** has been renamed to ***Cross Filtering***.
 
 **Added:**
-- [New cross filtering behaviors](mode/cross-filtering.md#cross-filtering-behavior) - The old behavior has been kept for backward compatibility but the default is now a corrected new version which fixes a few bugs that appeared in some scenarios. Also, a 'Sequential' behavior has been added: it can be used to filter other fields based on the order they appear in the visual.
+- [New cross filtering behaviors](options/mode/cross-filtering.md#cross-filtering-behavior) - The old behavior has been kept for backward compatibility but the default is now a corrected new version which fixes a few bugs that appeared in some scenarios. Also, a 'Sequential' behavior has been added: it can be used to filter other fields based on the order they appear in the visual.
 
 **Fixed:**
 - Custom sorting for numeric values
@@ -68,7 +68,7 @@ Smart Filter Pro uses **Power BI Custom Visuals API v1.13.0** - compatible with 
 **Released:** 2021-07-15
 
 **Added:**
-- [New option to empty the whole report](mode/empty-when-no-selection.md) if no selection is set on the visual. It's useful to limit the number of data loaded at startup with huge datasets.
+- [New option to empty the whole report](options/mode/empty-when-no-selection.md) if no selection is set on the visual. It's useful to limit the number of data loaded at startup with huge datasets.
 
 **Fixed:**
 - Problems with boolean values in Observer mode.
@@ -81,7 +81,7 @@ Smart Filter Pro uses **Power BI Custom Visuals API v1.13.0** - compatible with 
 - The ability to select multiple values in Observer mode without using CTRL.
 - The ability to paste multiple values mapped to a specific field when you are in Filter mode with Consolidate fields enabled. E.g.: you can write FIELDNAME: and then paste multiple values to automatically apply the filter(s) to your report.
 - The ability to sort by value.
-- The ability to use the [Search mode](mode/search.md) with multiple fields. In this case the visual displays a select box you can use to choose the field to use.
+- The ability to use the [Search mode](options/mode/search.md) with multiple fields. In this case the visual displays a select box you can use to choose the field to use.
 - The ability to change the background color in Observer mode.
 
 ## v2.2.2
@@ -95,7 +95,7 @@ Smart Filter Pro uses **Power BI Custom Visuals API v1.13.0** - compatible with 
 **Released:** 2020-10-14
 
 **Added:**
-- The ability to connect a measure to [display its value](values) for each category in the filter (supported by Dropdown/Observer/Hierarchy modes).  
+- The ability to connect a measure to [display its value](options/values) for each category in the filter (supported by Dropdown/Observer/Hierarchy modes).  
 <img src="images/changelog/v221-values-dropdown.png" width="400">  
 <img src="images/changelog/v221-values-observer.png" width="400">  
 <img src="images/changelog/v221-values-hierarchy.png" width="400">
@@ -109,7 +109,7 @@ Smart Filter Pro uses **Power BI Custom Visuals API v1.13.0** - compatible with 
 **Released:** 2020-09-30
 
 **Added:**
-- [A new option](mode/compress-multiple.md) to control how many items must be displayed before compressing the field when you are in Dropdown mode and the Compress multiple items option is enabled.
+- [A new option](options/mode/compress-multiple.md) to control how many items must be displayed before compressing the field when you are in Dropdown mode and the Compress multiple items option is enabled.
 - A few new options to control the appearance of the Hierarchy mode - now you change the expand icon, the nodes padding, and change the carets/checkboxes color.
 
 **Fixed:**
@@ -144,7 +144,7 @@ If you have experienced the issue before, please update the visual to this versi
 **Released:** 2020-04-11
 
 **Added:**
-- A new working mode, which is faster than the others and easier to use: [Search Mode](mode/search.md).  
+- A new working mode, which is faster than the others and easier to use: [Search Mode](options/mode/search.md).  
 With this mode, you can paste and filter long lists of values or search while typing, without sacrificing the overall performance.  
 <img src="images/changelog/v216-search-mode.gif" width="550">
 - Single selection for Observer mode.
@@ -257,7 +257,7 @@ With this mode, you can paste and filter long lists of values or search while ty
 
 ### New Hierarchy mode (beta)
 
-Smart Filter Pro now supports four different view modes: [Dropdown](mode/dropdown.md), [Observer](mode/observer.md), [Filter](mode/filter.md) and the new [Hierarchy mode](mode/hierarchy).
+Smart Filter Pro now supports four different view modes: [Dropdown](options/mode/dropdown.md), [Observer](options/mode/observer.md), [Filter](options/mode/filter.md) and the new [Hierarchy mode](options/mode/hierarchy).
 
 With the Hierarchy mode your columns are arranged in a tree view, according to their relationship in the underlying model. You can select single or multiple nodes to filter the other charts of your reports.
 
@@ -279,7 +279,7 @@ With the Hierarchy mode your columns are arranged in a tree view, according to t
 **Released:** 2019-02-11
 
 **Added:**
- - Support to Power BI Custom Themes. [Find out more](themes.md)
+ - Support Power BI Report Themes. [Find out more](features/themes.md)
 
 ## v2.0.5
 **Released:** 2019-01-21

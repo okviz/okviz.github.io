@@ -62,7 +62,7 @@ So, you can see that even though there are only three possible categories for Sy
 
 ### Legacy
 
-If you used the cross-filtering feature before [v2.2.5](../changelog.md#v225), you may see unexpected results with other behaviors.
+If you used the cross-filtering feature before [v2.2.5](../../changelog.md#v225), you may see unexpected results with other behaviors.
 If this is the case, you can use the Legacy option as cross-filtering behavior.
 
 > Note that this option uses a different, outdated approach and it's still available for back compatibility only.
