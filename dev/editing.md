@@ -1,6 +1,6 @@
 ---
 layout:     page-no-nav
-title:      Markdown Editing
+title:      Content Editing
 published:  true
 date:       2021-12-20
 modified:   2022-07-17
@@ -251,6 +251,46 @@ This line is in line 2.</pre>
     </tr>
 </table>
 
+#### Table
+
+<table>
+    <tr>
+        <th>Markdown</th>
+        <th>Rendered Output</th>
+    </tr>
+    <tr>
+        <td>
+<pre>
+| Column A | Column B |
+| --- | --- |
+| Value 1A | Value 1B |
+| Value 2A | Value 2B |
+</pre>
+        </td>
+        <td>
+            
+            <table>  
+                <thead>  
+                    <tr>
+                        <th>Column A</th>
+                        <th>Column B</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Value 1A</td>
+                        <td>Value 1B</td>
+                    </tr>
+                    <tr>
+                        <td>Value 2A</td>
+                        <td>Value 2B</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </td>
+    </tr>
+</table>
 
 #### Notice
 

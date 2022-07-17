@@ -22,7 +22,7 @@ For example: ***dropdown1.png*** instead of ***Dropdown1.png***.
 
 ### Content
 
-- Use the [supported syntax](markdown-editing.md).
+- Use the [supported syntax](editing.md).
 
 - Don't forget to update the **modified** attribute in the header of each file you edit.
 
@@ -60,7 +60,7 @@ For example: <code>If you enter `audio`, then something happens.</code>
 
 #### &lt;img&gt; Width
 
-- When you insert an image in a document, you must define a ***width*** attribute (see the [Markdown Syntax](markdown-editing.md)) - choose a number of pixels that allow the end users to read the relevant information of the document in which they are placed. In case of screenshots, try to keep the actual size of the user interface.
+- When you insert an image in a document, you must define a ***width*** attribute (see the [Markdown Syntax](editing.md)) - choose a number of pixels that allow the end users to read the relevant information of the document in which they are placed. In case of screenshots, try to keep the actual size of the user interface.
     > Note that whatever width you choose, it cannot exceed the width of the parent container, but don't worry, an automatic rule will be applied to prevent this. 
 
     > The height of the images is automatically calculated to keep the aspect ratio - you don't need to provide it.
