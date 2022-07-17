@@ -6,6 +6,7 @@ date:               2021-11-15
 modified:           2022-07-16
 order:              /smart-filter-pro
 menu_class:         icon icon-smart-filter
+next_reading:       true
 ---
   
 
@@ -14,5 +15,3 @@ menu_class:         icon icon-smart-filter
 <img src="images/smart-filter-pro.png" width="440" class="noborder noround noshadow">
 
 > You can download and try Smart Filter Pro from this page: [Try Smart Filter Pro](https://okviz.com/smart-filter-pro)
-
-{% include next %}

@@ -28,11 +28,14 @@ Every file must contain a header in the following format (note that the ***\-\-\
     date:           2021-11-15
     modified:   	2021-11-21
     order:          /01/02/document-title
-    toc:            false
+    toc:            true
+    next_reading:   false
     version:        2.0
     available:      Availability note
     internal:       Internal reference
     ---
+
+Options:
 
 - **layout:** always set the value ***page***.
 - **title:** set the title of the document.
@@ -44,6 +47,7 @@ Every file must contain a header in the following format (note that the ***\-\-\
 - **modified:** set the date of the last modification of the document.
 - **order:** set a string to be used to sort the document in the navigation menu - check existing files to know how sorting works. In general, if the page is the child of a node, it is necessary to insert the order attribute of the parent node plus a slash ***/*** and a number (if you want to give a static position) or a sanitized version of the title (without spaces and special characters - if you want to use alphabetical sorting). Note that numbers come  before letters (as they are placed before in the ASCII table); if you want that they are placed after letters, you need to enclose them in curly braces: e.g. ***zzz*** is after ***01*** but before ***{01}***.
 - **toc:** (optional) set ***false*** to hide the automatic table of contents.
+- **next_reading:** (optional) set **true** to show the ***Next Reading*** section at the end of the page. Note there is also a [special template tag](#next-reading) you can use to obtain the same result, useful if you need to place it on a different position.
 - **version:** (optional) used only with visual options - set the version of the visual when the option was introduced.
 - **available:** (optional) used only with visual options - set the mode(s) in which the option is available. Setting this attribute will display an indicator under the document title. You can manually place this information in a different location using the [Available Badge](#available-badge).
 - **internal:** (optional) used to define some internal reference, useful for maintenance - not displayed on the website.
@@ -500,7 +504,7 @@ You can add some placeholders and notes in unfinished documents, to keep track o
 
 #### Next Reading
 
-You can add a section at the end of any page with a list of links to other pages at the same folder level.
+You can add a section containing a list of links to other pages at the same folder level. You can also use the ***next_reading*** option in the [header of the file](#header) to automatically display this section at the bottom of the page.
 
 <table>
     <tr>
@@ -514,11 +518,14 @@ You can add a section at the end of any page with a list of links to other pages
 </pre>
         </td>
         <td>
-            <div class="next-reading" style="margin:0">
+            <div class="next-reading" style="margin:0; width: 300px">
                 <div class="title">Next Reading:</div>
                 <ul>
                     <li>
-                        <a href="#">Get Started with OKVIZ Visuals</a>
+                        <a href="best-practices">Best Practices</a>
+                    </li>
+                    <li>
+                        <a href="contributing">Contributing</a>
                     </li>
                 </ul>
             </div>
