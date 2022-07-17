@@ -90,15 +90,15 @@ For example: <code>If you enter `audio`, then something happens.</code>
 
 - When you take multiple screenshots of the same interface just to highlight minor changes, **each screenshot must be the same width** and every element that doesn't change between images must be in the same location.
 
-    <img src="smart-filter-pro/mode/images/filter-mode-3.png" width="300">
-    <img src="smart-filter-pro/mode/images/filter-mode-2.png" width="300">
-    <img src="smart-filter-pro/mode/images/filter-mode-4.png" width="300">
+    <img src="/smart-filter-pro/options/mode/images/filter-mode-3.png" width="300">
+    <img src="/smart-filter-pro/options/mode/images/filter-mode-2.png" width="300">
+    <img src="/smart-filter-pro/options/mode/images/filter-mode-4.png" width="300">
 
 #### Highlighting Shapes
 
 - Use <b style="color:red">rectangles or arrows in red</b> to highlight relevant areas in screenshots.
 
-    <img src="smart-filter-pro/mode/images/hide-blank-node-2.png" width="500">
+    <img src="/smart-filter-pro/options/mode/images/hide-blank-node-2.png" width="500">
 
 - If there are multiple shapes and you need to highlight the steps to follow in sequence, **number the shapes**.
 
