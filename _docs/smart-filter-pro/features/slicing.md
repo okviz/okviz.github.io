@@ -17,9 +17,8 @@ One of the pecularities of the slicers is that they can be filtered only by othe
 **Smart Filter Pro is slicer.**
 
 ## Sync Slicers
-<div class="badge version lc" title="Available from version 2.0.2">v2.0.2</div>
 
-***Sync Slicers*** is a feature of Power BI that allows you to apply the filter of a visual slicer placed on a single page to other pages of the same report. Smart Filter Pro supports this feature as well. 
+***Sync Slicers*** is a feature of Power BI that allows you to apply the filter of a slicer placed on a single page to other pages of the same report. Smart Filter Pro supports this feature as well. 
 
 To use ***Sync Slicers***, you can follow these steps:
 
