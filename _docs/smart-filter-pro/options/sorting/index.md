@@ -7,7 +7,6 @@ modified:           2022-07-16
 order:              /smart-filter-pro/options/sorting
 version:            2.1.1
 available:          all modes except Search
-class:              normal
 ---
 
 The Sorting option allows you to choose how to sort the items of the field used for filtering in Smart Filter Pro. It offers two sorting methods to choose from: ***Default***, and ***Custom***. 
