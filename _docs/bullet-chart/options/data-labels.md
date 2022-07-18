@@ -9,8 +9,6 @@ order:          /bullet-chart/options/data-labels
 
 **Default value:** Off
 
-<todo> Define how default value are displayed when related to 'show' sections' option </todo>
-
 When enabled, this options' section displays data labels and allows to edit their appearance.
 
 ## Font family
