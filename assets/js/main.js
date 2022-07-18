@@ -29,6 +29,28 @@ for (let i = 0; i < treeLinks.length; i++) {
     }
 }
 
+// TOC
+const tocElement = document.querySelector(".toc");
+if (tocElement) {
+    const observer = new IntersectionObserver(([e]) => e.target.classList.toggle("sticky", e.intersectionRatio < 1), { threshold: [1] });
+    observer.observe(tocElement);
+}
+tocElement.querySelector(".expander").addEventListener("click", e => {
+    e.preventDefault();
+
+    const item = "toc";
+    const rawExpanded = localStorage.getItem(item);
+    const expanded = !(rawExpanded != null ? rawExpanded == "true" : !tocElement.classList.contains("sticky"));
+    localStorage.setItem(item, expanded);
+
+    if (expanded) {
+        tocElement.classList.add("expanded");
+        tocElement.classList.remove("collapsed");
+    } else {
+        tocElement.classList.remove("expanded");
+        tocElement.classList.add("collapsed");
+    }
+});
 
 // Split
 let defaultSizes = [20, 80];
