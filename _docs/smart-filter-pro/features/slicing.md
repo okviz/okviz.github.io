@@ -12,7 +12,7 @@ There are two types of visuals in Power BI: those that highlight data on user in
 
 <img src="images/filter-pane.png" width="180">
 
-One of the pecularities of the slicers is that they can be filtered only by other slicers. Also, when you apply a filter on a slicer, this is somewhat permanent, as opposed to normal visuals which can be easily reverted from other visuals.
+One of the pecularities of the slicers is that they can be filtered only by other slicers, also if you try to manually change their interactivity. Also, when you apply a filter on a slicer, this is somewhat permanent until you remove the filter, as opposed to normal visuals which can be easily reverted from other visuals.
 
 **Smart Filter Pro is slicer.**
 
