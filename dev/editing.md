@@ -467,7 +467,7 @@ Sometimes it is necessary to display the availability limits of a feature descri
     </tr>
     <tr>
         <td>
-            <pre>&#123;% include badge avail="Dropdown mode" %&#125;</pre>
+            <pre>&#123;% include badge in="Dropdown mode" %&#125;</pre>
         </td>
         <td>
             <div class="badge availability">Dropdown mode</div>

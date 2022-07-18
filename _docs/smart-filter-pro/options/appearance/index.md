@@ -13,7 +13,7 @@ The Appearance properties group contains options related to the appearance of Sm
 Let us have a look at these options one by one:  
 
 ## Border  
-{% include badge avail="All modes except Hierarchy" %}
+{% include badge in="All modes except Hierarchy" %}
 
 **Default value:** On
 
@@ -22,14 +22,14 @@ This option, if enabled, draws a border outline for the input textbox or field a
 <img src="images/appearance-border.png" width="600">  
 
 ## Border Color  
-{% include badge avail="All modes except Hierarchy" %}
+{% include badge in="All modes except Hierarchy" %}
 
 This option defines the border color of the input textbox.  
 
 <img src="images/appearance-border-color.png" width="600">
 
 ## Clear Button  
-{% include badge avail="Dropdown | Filter | Search mode" %}
+{% include badge in="Dropdown | Filter | Search mode" %}
 
 **Default value:** On
 
@@ -38,7 +38,7 @@ This option, if enabled, displays a button inside every input control so as to c
 <img src="images/appearance-clear.png" width="550">    
 
 ## Controls Color  
-{% include badge avail="All modes except Hierarchy" %}
+{% include badge in="All modes except Hierarchy" %}
 
 This option defines the color of the interface controls of the visual, such as the dropdown arrow in Dropdown mode, the help button in Filter mode and so on.
 
@@ -46,14 +46,14 @@ This option defines the color of the interface controls of the visual, such as t
 
 
 ## Dropdown Back Color  
-{% include badge avail="Dropdown mode" %}
+{% include badge in="Dropdown mode" %}
 
 This option defines the background color of the dropdown list.  
 
 <img src="images/appearance-dropdown-back-color.png" width="550">   
 
 ## Expand/Collapse Icon  
-{% include badge avail="Hierarchy mode" %}
+{% include badge in="Hierarchy mode" %}
 
 **Default value:** Chevron
 
@@ -72,7 +72,7 @@ This option defines the appearance of the icon used for expanding/collapsing the
     <img src="images/appearance-expand-caret.png" width="600">   
 
 ## Filter Button   
-{% include badge avail="Filter | Search mode" %}
+{% include badge in="Filter | Search mode" %}
 
 **Default value:** On
 
@@ -88,7 +88,7 @@ This option defines the font style of the filter items of the visual.
 
 
 ## General Clear Button  
-{% include badge avail="Dropdown | Filter mode" %}
+{% include badge in="Dropdown | Filter mode" %}
 
 **Default value:** Off
 
@@ -97,7 +97,7 @@ This option, if enabled, displays a button to clear the contents of all input fi
 <img src="images/appearance-general-clear.png" width="550">   
 
 ## Help Button  
-{% include badge avail="Filter mode" %}
+{% include badge in="Filter mode" %}
 
 **Default value:** On
 
@@ -107,7 +107,7 @@ This option, if enabled, shows a button inside the input box to display a toolti
 
 
 ## Horizontal
-{% include badge avail="Dropdown | Observer mode" %}
+{% include badge in="Dropdown | Observer mode" %}
 
 **Default value:** Off
 
@@ -118,7 +118,7 @@ This option defines the arrangement of the input controls when multiple fields a
 <img src="images/appearance-horizontal-on-observermode.png" width="600"> 
 
 ## Input Back Color  
-{% include badge avail="All modes except Hierarchy" %}
+{% include badge in="All modes except Hierarchy" %}
 
 This option defines the background color of the input textbox.    
 
@@ -127,28 +127,28 @@ This option defines the background color of the input textbox.
 The input back color has been purposely changed from white to dark grey for clear illustration.  
 
 ## Input Color  
-{% include badge avail="All modes except Hierarchy" %}
+{% include badge in="All modes except Hierarchy" %}
 
 This option defines the font color of the input textbox. The color of the filter items is defined by a [different option](#items-text-color).  
 
 <img src="images/appearance-input-color.png" width="550">    
 
 ## Items Back Color  
-{% include badge avail="Dropdown | Filter | Observer mode" %}
+{% include badge in="Dropdown | Filter | Observer mode" %}
 
 This option defines the background color of the filter elements in the visual.   
 
 <img src="images/appearance-item-back-color.png" width="550">    
 
 ## Items Text Color  
-{% include badge avail="Dropdown | Filter | Observer mode" %}
+{% include badge in="Dropdown | Filter | Observer mode" %}
 
 This option defines the font color of the filter elements in the visual.   
 
 <img src="images/appearance-fore-color.png" width="550">   
 
 ## Min Item Width  
-{% include badge avail="Dropdown | Filter | Observer mode" %}
+{% include badge in="Dropdown | Filter | Observer mode" %}
 {% include badge v="2.2.9" %}
 
 **Default value:** 0
@@ -159,7 +159,7 @@ This option is used to set the minimum width of each filter item.
 
 
 ## Max Item Width  
-{% include badge avail="Dropdown | Filter | Observer mode" %}
+{% include badge in="Dropdown | Filter | Observer mode" %}
 
 **Default value:** 0
 
@@ -170,7 +170,7 @@ This option is used to set the maximum width of each filter item.
 > Set ***Max Item Width*** to 0 to automatically use all the required space.   
 
 ## Min Input Lines  
-{% include badge avail="Dropdown | Filter mode" %}
+{% include badge in="Dropdown | Filter mode" %}
 
 **Default value:** 1
 
@@ -183,14 +183,14 @@ As you select multiple elements, the height of the visual automatically increase
 > Set ***Min Input Lines*** to 0 to automatically fill the height of the visual.   
 
 ## Node Arrow Color  
-{% include badge avail="Hierarchy mode" %}
+{% include badge in="Hierarchy mode" %}
 
 This option defines the color of the arrow icon used to expand/collapse the hierarchy tree nodes.  
 
 <img src="images/appearance-node-arrow.png" width="550">  
 
 ## Node Checkbox Color  
-{% include badge avail="Hierarchy mode" %}
+{% include badge in="Hierarchy mode" %}
 
 This option defines the checkbox color of the tree node items.   
 
@@ -198,21 +198,21 @@ This option defines the checkbox color of the tree node items.
 
 
 ## Node Text Color  
-{% include badge avail="Hierarchy mode" %}
+{% include badge in="Hierarchy mode" %}
 
 This option defines the font color of the tree node items.   
 
 <img src="images/appearance-node-color.png" width="550">    
 
 ## Node Text Color (Hover)
-{% include badge avail="Hierarchy mode" %}
+{% include badge in="Hierarchy mode" %}
 
 This option defines the font color of the tree node items on hover.  
 
 <img src="images/appearance-node-hover-color.png" width="550">    
 
 ## Stepped Layout Indentation  
-{% include badge avail="Hierarchy mode" %}
+{% include badge in="Hierarchy mode" %}
 
 **Default value:** 10
 
@@ -231,7 +231,7 @@ This option defines the font size of the items.
 <img src="images/appearance-text-size.png" width="550">   
 
 ## Tooltips  
-{% include badge avail="All modes except Search" %}
+{% include badge in="All modes except Search" %}
 
 **Default value:** On
 
@@ -246,7 +246,7 @@ You can enrich the content of the toolips by connecting different measures to th
 > For more information, see this article: [Customize tooltips in Power BI](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-custom-tooltips)
 
 ## Tree Controls  
-{% include badge avail="Hierarchy mode" %}
+{% include badge in="Hierarchy mode" %}
 
 **Default value:** On
 
@@ -267,7 +267,7 @@ The last button on the the right is used for clearing all the selections.
 <img src="images/appearance-tree-controls4.png" width="550">   
 
 ## Word Wrap  
-{% include badge avail="Dropdown | Filter | Observer mode" %}
+{% include badge in="Dropdown | Filter | Observer mode" %}
 
 **Default value:** Off
 
@@ -278,7 +278,7 @@ The option allows you to break long words and wrap them in multiple lines. It is
 <img src="images/appearance-word-wrap2.png" width="550">   
 
 ## Word Wrap (Hierarchy)  
-{% include badge avail="Hierarchy mode" %}
+{% include badge in="Hierarchy mode" %}
 
 **Default value:** Truncate
 
