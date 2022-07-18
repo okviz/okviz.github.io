@@ -3,7 +3,7 @@ layout:     page-no-nav
 title:      Content Editing
 published:  true
 date:       2021-12-20
-modified:   2022-07-17
+modified:   2022-07-18
 sitemap:    false
 draft:      "no"
 ---
@@ -456,9 +456,9 @@ Like with images, you need to use a HTML syntax to embed videos in your pages. F
 
 > Be sure to include ***autoplay***, ***loop*** and ***muted*** attributes.
 
-#### Available Badge
+#### Badges
 
-Sometimes it is necessary to display the availability limits of a feature described by the document. You can do this by adding the ***available*** attribute in the [document header](#header) or, if you need to put this information in a different position on the page, you can use this syntax anywhere in the text:
+Sometimes it is necessary to display the availability limits of a feature described by the document. You can do this by adding the ***available*** or ***version*** attributes in the [document header](#header) or, if you need to put this information in a different position on the page, you can use this syntax anywhere in the text:
 
 <table>
     <tr>
@@ -467,16 +467,52 @@ Sometimes it is necessary to display the availability limits of a feature descri
     </tr>
     <tr>
         <td>
-            <pre>&#60;div class="badge availability"&#62;Dropdown mode&#60;/div&#62;</pre>
+            <pre>&#123;% include badge avail="Dropdown mode" %&#125;</pre>
         </td>
         <td>
             <div class="badge availability">Dropdown mode</div>
         </td>
     </tr>
+     <tr>
+        <td>
+            <pre>&#123;% include badge v="2.2.1" %&#125;</pre>
+        </td>
+        <td>
+            <div class="badge version lc" title="Available from version 2.2.1">v2.2.1</div>
+        </td>
+    </tr>
 </table>
 
+#### Next Reading
 
-#### TO DO Badge
+You can add a section containing a list of links to other pages at the same folder level. You can also use the ***next_reading*** option in the [document header](#header) to automatically display this section at the bottom of the page.
+
+<table>
+    <tr>
+        <th>Syntax</th>
+        <th>Rendered Output</th>
+    </tr>
+    <tr>
+        <td>
+            <pre>&#123;% include next %&#125;</pre>
+        </td>
+        <td>
+            <div class="next-reading" style="margin:0; width: 300px">
+                <div class="title">Next Reading:</div>
+                <ul>
+                    <li>
+                        <a href="best-practices">Best Practices</a>
+                    </li>
+                    <li>
+                        <a href="contributing">Contributing</a>
+                    </li>
+                </ul>
+            </div>
+        </td>
+    </tr>
+</table>
+
+#### ToDo
 
 You can add some placeholders and notes in unfinished documents, to keep track of the content to be edited or the tasks to be performed. You can also define an assignment attribute with the contributor's name.
 
@@ -501,34 +537,3 @@ You can add some placeholders and notes in unfinished documents, to keep track o
 </table>
 
 > TODOs are not displayed on the website by default, please contact the administrator to learn how to enable them.
-
-#### Next Reading
-
-You can add a section containing a list of links to other pages at the same folder level. You can also use the ***next_reading*** option in the [header of the file](#header) to automatically display this section at the bottom of the page.
-
-<table>
-    <tr>
-        <th>Syntax</th>
-        <th>Rendered Output</th>
-    </tr>
-    <tr>
-        <td>
-<pre>
-&#123;% include next %&#125;
-</pre>
-        </td>
-        <td>
-            <div class="next-reading" style="margin:0; width: 300px">
-                <div class="title">Next Reading:</div>
-                <ul>
-                    <li>
-                        <a href="best-practices">Best Practices</a>
-                    </li>
-                    <li>
-                        <a href="contributing">Contributing</a>
-                    </li>
-                </ul>
-            </div>
-        </td>
-    </tr>
-</table>

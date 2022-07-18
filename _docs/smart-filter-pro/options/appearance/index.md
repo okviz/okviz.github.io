@@ -5,6 +5,7 @@ published:          true
 date:               2021-11-20
 modified:           2022-07-17
 order:              /smart-filter-pro/options/appearance
+internal:           search
 class:              normal
 ---
   
@@ -12,7 +13,7 @@ The Appearance properties group contains options related to the appearance of Sm
 Let us have a look at these options one by one:  
 
 ## Border  
-<div class="badge availability">All modes except Hierarchy</div>
+{% include badge avail="All modes except Hierarchy" %}
 
 **Default value:** On
 
@@ -21,14 +22,14 @@ This option, if enabled, draws a border outline for the input textbox or field a
 <img src="images/appearance-border.png" width="600">  
 
 ## Border Color  
-<div class="badge availability">All modes except Hierarchy</div>
+{% include badge avail="All modes except Hierarchy" %}
 
 This option defines the border color of the input textbox.  
 
 <img src="images/appearance-border-color.png" width="600">
 
 ## Clear Button  
-<div class="badge availability">Dropdown | Filter | Search mode</div>
+{% include badge avail="Dropdown | Filter | Search mode" %}
 
 **Default value:** On
 
@@ -37,7 +38,7 @@ This option, if enabled, displays a button inside every input control so as to c
 <img src="images/appearance-clear.png" width="550">    
 
 ## Controls Color  
-<div class="badge availability">All modes except Hierarchy</div>
+{% include badge avail="All modes except Hierarchy" %}
 
 This option defines the color of the interface controls of the visual, such as the dropdown arrow in Dropdown mode, the help button in Filter mode and so on.
 
@@ -45,14 +46,14 @@ This option defines the color of the interface controls of the visual, such as t
 
 
 ## Dropdown Back Color  
-<div class="badge availability">Dropdown mode</div>
+{% include badge avail="Dropdown mode" %}
 
 This option defines the background color of the dropdown list.  
 
 <img src="images/appearance-dropdown-back-color.png" width="550">   
 
 ## Expand/Collapse Icon  
-<div class="badge availability">Hierarchy mode</div>
+{% include badge avail="Hierarchy mode" %}
 
 **Default value:** Chevron
 
@@ -71,7 +72,7 @@ This option defines the appearance of the icon used for expanding/collapsing the
     <img src="images/appearance-expand-caret.png" width="600">   
 
 ## Filter Button   
-<div class="badge availability">Filter | Search mode</div>
+{% include badge avail="Filter | Search mode" %}
 
 **Default value:** On
 
@@ -87,7 +88,7 @@ This option defines the font style of the filter items of the visual.
 
 
 ## General Clear Button  
-<div class="badge availability">Dropdown | Filter mode</div>
+{% include badge avail="Dropdown | Filter mode" %}
 
 **Default value:** Off
 
@@ -96,7 +97,7 @@ This option, if enabled, displays a button to clear the contents of all input fi
 <img src="images/appearance-general-clear.png" width="550">   
 
 ## Help Button  
-<div class="badge availability">Filter mode</div>
+{% include badge avail="Filter mode" %}
 
 **Default value:** On
 
@@ -106,7 +107,7 @@ This option, if enabled, shows a button inside the input box to display a toolti
 
 
 ## Horizontal
-<div class="badge availability">Dropdown | Observer mode</div>
+{% include badge avail="Dropdown | Observer mode" %}
 
 **Default value:** Off
 
@@ -117,7 +118,7 @@ This option defines the arrangement of the input controls when multiple fields a
 <img src="images/appearance-horizontal-on-observermode.png" width="600"> 
 
 ## Input Back Color  
-<div class="badge availability">All modes except Hierarchy</div>
+{% include badge avail="All modes except Hierarchy" %}
 
 This option defines the background color of the input textbox.    
 
@@ -126,28 +127,29 @@ This option defines the background color of the input textbox.
 The input back color has been purposely changed from white to dark grey for clear illustration.  
 
 ## Input Color  
-<div class="badge availability">All modes except Hierarchy</div>
+{% include badge avail="All modes except Hierarchy" %}
 
 This option defines the font color of the input textbox. The color of the filter items is defined by a [different option](#items-text-color).  
 
 <img src="images/appearance-input-color.png" width="550">    
 
 ## Items Back Color  
-<div class="badge availability">Dropdown | Filter | Observer mode</div>
+{% include badge avail="Dropdown | Filter | Observer mode" %}
 
 This option defines the background color of the filter elements in the visual.   
 
 <img src="images/appearance-item-back-color.png" width="550">    
 
 ## Items Text Color  
-<div class="badge availability">Dropdown | Filter | Observer mode</div>
+{% include badge avail="Dropdown | Filter | Observer mode" %}
 
 This option defines the font color of the filter elements in the visual.   
 
 <img src="images/appearance-fore-color.png" width="550">   
 
 ## Min Item Width  
-<div class="badge availability">Dropdown | Filter | Observer mode</div> <div class="badge version lc" title="Available from version 2.2.9">v2.2.9</div>
+{% include badge avail="Dropdown | Filter | Observer mode" %}
+{% include badge v="2.2.9" %}
 
 **Default value:** 0
 
@@ -157,7 +159,7 @@ This option is used to set the minimum width of each filter item.
 
 
 ## Max Item Width  
-<div class="badge availability">Dropdown | Filter | Observer mode</div>
+{% include badge avail="Dropdown | Filter | Observer mode" %}
 
 **Default value:** 0
 
@@ -168,7 +170,7 @@ This option is used to set the maximum width of each filter item.
 > Set ***Max Item Width*** to 0 to automatically use all the required space.   
 
 ## Min Input Lines  
-<div class="badge availability">Dropdown | Filter mode</div>
+{% include badge avail="Dropdown | Filter mode" %}
 
 **Default value:** 1
 
@@ -181,14 +183,14 @@ As you select multiple elements, the height of the visual automatically increase
 > Set ***Min Input Lines*** to 0 to automatically fill the height of the visual.   
 
 ## Node Arrow Color  
-<div class="badge availability">Hierarchy mode</div>
+{% include badge avail="Hierarchy mode" %}
 
 This option defines the color of the arrow icon used to expand/collapse the hierarchy tree nodes.  
 
 <img src="images/appearance-node-arrow.png" width="550">  
 
 ## Node Checkbox Color  
-<div class="badge availability">Hierarchy mode</div>
+{% include badge avail="Hierarchy mode" %}
 
 This option defines the checkbox color of the tree node items.   
 
@@ -196,21 +198,21 @@ This option defines the checkbox color of the tree node items.
 
 
 ## Node Text Color  
-<div class="badge availability">Hierarchy mode</div>
+{% include badge avail="Hierarchy mode" %}
 
 This option defines the font color of the tree node items.   
 
 <img src="images/appearance-node-color.png" width="550">    
 
 ## Node Text Color (Hover)
-<div class="badge availability">Hierarchy mode</div>
+{% include badge avail="Hierarchy mode" %}
 
 This option defines the font color of the tree node items on hover.  
 
 <img src="images/appearance-node-hover-color.png" width="550">    
 
 ## Stepped Layout Indentation  
-<div class="badge availability">Hierarchy mode</div>
+{% include badge avail="Hierarchy mode" %}
 
 **Default value:** 10
 
@@ -222,13 +224,14 @@ For instance, if you choose this value to be a very low number say 3, then the s
 
 ## Text Size  
 
+**Default value:** 10pt
+
 This option defines the font size of the items.  
 
 <img src="images/appearance-text-size.png" width="550">   
 
 ## Tooltips  
-
-<div class="badge availability">All modes except Search</div>
+{% include badge avail="All modes except Search" %}
 
 **Default value:** On
 
@@ -242,10 +245,8 @@ You can enrich the content of the toolips by connecting different measures to th
 
 > For more information, see this article: [Customize tooltips in Power BI](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-custom-tooltips)
 
-   
-
 ## Tree Controls  
-<div class="badge availability">Hierarchy mode</div>
+{% include badge avail="Hierarchy mode" %}
 
 **Default value:** On
 
@@ -266,7 +267,7 @@ The last button on the the right is used for clearing all the selections.
 <img src="images/appearance-tree-controls4.png" width="550">   
 
 ## Word Wrap  
-<div class="badge availability">Dropdown | Filter | Observer mode</div>
+{% include badge avail="Dropdown | Filter | Observer mode" %}
 
 **Default value:** Off
 
@@ -276,8 +277,8 @@ The option allows you to break long words and wrap them in multiple lines. It is
 
 <img src="images/appearance-word-wrap2.png" width="550">   
 
-## Word Wrap (Hierarchy)
-<div class="badge availability">Hierarchy mode</div>
+## Word Wrap (Hierarchy)  
+{% include badge avail="Hierarchy mode" %}
 
 **Default value:** Truncate
 

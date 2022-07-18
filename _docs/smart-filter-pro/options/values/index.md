@@ -7,6 +7,7 @@ modified:           2022-01-17
 order:              /smart-filter-pro/options/values
 version:            2.2.1
 available:          Dropdown | Observer | Hierarchy mode
+internal:           sumValues
 class:              normal
 ---
 
