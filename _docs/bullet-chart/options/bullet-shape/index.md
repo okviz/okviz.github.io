@@ -10,7 +10,7 @@ available:      Premium
 
 Options in this section allow to change bars' appearance for each bullet. All options in this section are [Premium options](premium.md).
 
-<img src="../images/bullet-shape.png" width="200">
+<img src="images/bullet-shape.png" width="350">
 
 Let us have a look at these options one by one:
 
@@ -20,13 +20,13 @@ Let us have a look at these options one by one:
 
 If enabled, draws a border outline for the bullet bar.
 
-<img src="../images/bullet-shape-border-on.png" width="700">
+<img src="images/bullet-shape-border-on.png" width="700">
 
 ## Border Color
 
 Defines border outline color.
 
-<img src="../images/bullet-shape-border-color.png" width="700">
+<img src="images/bullet-shape-border-color.png" width="700">
 
 ## Border Stroke
 
@@ -34,7 +34,7 @@ Defines border outline color.
 
 Defines the border stroke width.
 
-<img src="../images/bullet-shape-border-stroke.png" width="700">
+<img src="images/bullet-shape-border-stroke.png" width="700">
 
 ## Border Style
 
@@ -44,15 +44,15 @@ Defines the style of the border line. It provides three options to choose from:
 
 - **Dashed:**  Line made up of short strokes with breaks in between.
 
-    <img src="../images/bullet-shape-border-style-dashed.png" width="700">   
+    <img src="images/bullet-shape-border-style-dashed.png" width="700">   
 
 - **Solid:** Solid line without breaks.
 
-    <img src="../images/bullet-shape-border-style-solid.png" width="700">   
+    <img src="images/bullet-shape-border-style-solid.png" width="700">   
 
 - **Dotted:** Line made up of dots with breaks in between.
 
-    <img src="../images/bullet-shape-border-style-dotted.png" width="700">   
+    <img src="images/bullet-shape-border-style-dotted.png" width="700">   
 
 ## Line Density 
 
@@ -60,7 +60,7 @@ Defines the style of the border line. It provides three options to choose from:
 
 This option is only visible when **Border style** is set to ***Dashed*** or ***Dotted***. It defines the distance between dashes/dots of the border line: the smaller the value, the greater the distance.
 
-<img src="../images/bullet-shape-line-density.png" width="700">
+<img src="images/bullet-shape-line-density.png" width="700">
 
 ## Corner Radius
 
@@ -68,7 +68,7 @@ This option is only visible when **Border style** is set to ***Dashed*** or ***D
 
 Allows to define the bars' curve on the corners. 
 
-<img src="../images/bullet-shape-corner-radius.png" width="700">
+<img src="images/bullet-shape-corner-radius.png" width="700">
 
 ## Shadow
 
@@ -76,7 +76,7 @@ Allows to define the bars' curve on the corners.
 
 If enabled, add a shadow to bars.
 
-<img src="../images/bullet-shape-shadow.png" width="700">
+<img src="images/bullet-shape-shadow.png" width="700">
 
 ## Offset
 
@@ -88,7 +88,7 @@ Defines the offset of the shadow relative to the bar. Provides two options to ch
 
 - **inside:** The shadow is placed within the bar.
 
-    <img src="../images/bullet-shape-shadow-offset-inside.png" width="700">
+    <img src="images/bullet-shape-shadow-offset-inside.png" width="700">
 
 ## Position
 
@@ -96,7 +96,7 @@ Defines the offset of the shadow relative to the bar. Provides two options to ch
 
 Defines the position of the shadow relative to the bars. 
 
-<img src="../images/bullet-shape-shadow-position.png" width="700">
+<img src="images/bullet-shape-shadow-position.png" width="700">
 
 For both **Offset** options - ***Inside*** or ***Outside*** - provides the following position options to choose from:
 
@@ -116,11 +116,11 @@ For both **Offset** options - ***Inside*** or ***Outside*** - provides the follo
 
 This option is shown only when a comparison value is connected. 
 
-<img src="../images/comparison-value-connected.png" width="250">
+<img src="images/comparison-value-connected.png" width="250">
 
 If enabled, the shadow is also applied to the comparison value bar, with same **Offset** and **Position**.
 
-<img src="../images/bullet-shape-shadow-comparison.png" width="700">
+<img src="images/bullet-shape-shadow-comparison.png" width="700">
 
 
 

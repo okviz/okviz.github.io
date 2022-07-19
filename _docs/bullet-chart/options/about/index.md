@@ -9,7 +9,7 @@ order:          /bullet-chart/options/about
 
 This properties group displays basic visual's information 
 
-<img src="../images/about.png" width="250">
+<img src="images/about.png" width="250">
 
 ## Name
 
@@ -25,5 +25,5 @@ The current version of visual
 
 If selected, log significant information and errors in the script console of the browser. This could affect the performance of your report.
 
-<img src="../images/about-diagnostics.png" width="500">
+<img src="images/about-diagnostics.png" width="500">
 
