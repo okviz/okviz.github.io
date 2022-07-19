@@ -4,7 +4,7 @@ title:              Default Condition for Text
 menu_title:         Default Condition
 published:          true
 date:               2021-12-16
-modified:           2021-12-17
+modified:           2022-07-16
 toc:                false
 order:              /smart-filter-pro/options/mode/default-condition
 internal:           defaultTextCondition
@@ -32,7 +32,7 @@ Using ***Equal to*** as the default condition is equivalent to write `"camcorder
 
 <img src="images/default-condition-1.png" width="750">
  
-> Note that you can still search for values that **contain your keyword** using the syntax: `*camcorders*`
+> You can still search for values that **contain your keyword** using the syntax: `*camcorders*`
 
 ## Contains
 
@@ -40,4 +40,4 @@ If you choose ***Contains*** as the default condition and type `camcorders`, all
  
 <img src="images/default-condition-2.png" width="750">
 
-> Note that you can still search for values that **match your string** using the syntax: `"camcorders"`
+> You can still search for values that **match your string** using the syntax: `"camcorders"`

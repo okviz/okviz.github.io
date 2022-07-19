@@ -12,4 +12,4 @@ OKVIZ visuals and custom visuals in general are like any other core visual of Po
 
 Here is an handy guide from Microsoft: [Add visuals to a Power BI report](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-report-add-visualizations-i)
 
-<img src="images/visuals-drag.png" width="500">
+<video src="images/drag-drop.mp4" width="700" autoplay loop muted></video>

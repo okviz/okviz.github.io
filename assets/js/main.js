@@ -29,6 +29,46 @@ for (let i = 0; i < treeLinks.length; i++) {
     }
 }
 
+// TOC
+const tocElement = document.querySelector(".toc");
+if (tocElement) {
+    const observer = new IntersectionObserver(([e]) => e.target.classList.toggle("sticky", e.intersectionRatio < 1), { threshold: [1] });
+    observer.observe(tocElement);
+
+    tocElement.querySelector(".expander").addEventListener("click", e => {
+        e.preventDefault();
+
+        const expanded = !(!tocElement.classList.contains("collapsed") && (tocElement.classList.contains("expanded") || !tocElement.classList.contains("sticky")));
+        if (expanded) {
+            tocElement.classList.add("expanded");
+            tocElement.classList.remove("collapsed");
+        } else {
+            tocElement.classList.remove("expanded");
+            tocElement.classList.add("collapsed");
+        }
+    });
+    tocElement.querySelector(".pin").addEventListener("click", e => {
+        e.preventDefault();
+
+        const rawPinned = localStorage.getItem("toc");
+        pinned = (rawPinned != null ? rawPinned == "true" : true);
+        pinToc(!pinned);
+    });
+
+    const pinToc = (pinned)=>{
+        if (pinned === undefined) {
+            const rawPinned = localStorage.getItem("toc");
+            pinned = (rawPinned != null ? rawPinned == "true" : true);
+        }
+        if (pinned)
+            tocElement.classList.add("pinned");
+        else
+            tocElement.classList.remove("pinned");
+
+        localStorage.setItem("toc", pinned);
+    };
+    pinToc();
+}
 
 // Split
 let defaultSizes = [20, 80];
@@ -85,7 +125,11 @@ searchEl.addEventListener("keyup", e => {
     search(e.currentTarget.value);
 });
 searchEl.addEventListener("click", e => {
+    e.stopPropagation();
     search(e.currentTarget.value);
+});
+document.querySelector("header.main").addEventListener("click", e => {
+    toggleResults(false);
 });
 
 function toggleResults(toggle, html = false) {

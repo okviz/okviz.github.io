@@ -4,18 +4,18 @@ title:              Search Mode
 menu_title:         Search
 published:          true
 date:               2021-12-09
-modified:           2021-12-16
+modified:           2022-07-16
 order:              /smart-filter-pro/options/mode/03
 internal:           search
 version:            2.1.6
 ---
 Search mode is the simplified version of the [Filter mode](filter.md). This working mode is faster and easier to use. It allows entering or pasting a long list of values and dynamic searching without sacrificing the overall performance. The Search mode allows to apply filters even automatically on typing.
 
-<img src="images/search-mode.png" width="480">
+<img src="images/search-mode.png" width="400">
 
 The Search mode supports multiple fields, like the other modes, but only allows you to search for one field at a time. In case you connect multiple fields, a drop-down menu appears at the top of the visual from which you can select the field to search for.
 
-<img src="images/search-mode-manycategories.png" width="600">
+<img src="images/search-mode-manycategories.png" width="650">
 
 
 ## How to Search

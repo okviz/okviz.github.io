@@ -63,8 +63,8 @@
     box-shadow: @h @v @blur @spread @color;
 } 
 .noshadow {
-    box-shadow: none;
-    text-shadow:none; 
+    box-shadow: none !important;
+    text-shadow:none !important; 
 }
 .noappearence {
     -webkit-appearance:none; 
@@ -162,7 +162,7 @@
     font-family: @title-font;
 }
 .badge {
-    display: table;
+    display: inline-block;
     font-size: 13px;
     font-weight: 600;
     line-height: 1;

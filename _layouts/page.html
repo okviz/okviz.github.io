@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-<div class="page {{ page.class }}">
+{% assign page_file = page.url | split: "/" | last %}
+
+<div class="page{% if page_file == "index" and page.next_reading %} front-section{% endif %} {{ page.class }}">
     {% include page-nav.html %}
 
     <div class="content main-content">
@@ -14,14 +16,10 @@ layout: default
             
                 <a href="{{ page.url | remove: "index" | remove: ".html" }}" class="solo"><h1>{{ page.title }}
                      {% if page.available %}
-                        <!--googleoff: snippet-->
-                        <div class="badge availability" title="Available in {{ page.available }}">{{ page.available }}</div>
-                        <!--googleon: snippet-->
+                        {% include badge in=page.available %}
                     {% endif %}
                     {% if page.version %}
-                        <!--googleoff: snippet-->
-                        <div class="badge version lc" title="Available from version {{ page.version }}">v{{ page.version }}</div>
-                        <!--googleon: snippet-->
+                        {% include badge v=page.version %}
                     {% endif %}
                 </h1></a>
                
@@ -34,15 +32,21 @@ layout: default
 
             {{ content }}
 
+            {% if page.related %}
+                {% include related %}
+            {% elsif page.next_reading %}
+                {% include next %}
+            {% endif %}
+
             <footer>
                 {% if page.available %}
-                    <p>The features in this page are available only in <strong>{{ page.available | replace: " | ", ", " }}</strong>.</p>
+                    <p>The content of this page is relevant or only available to <strong>{{ page.available | replace: " | ", ", " }}</strong>.</p>
                 {% endif %}
 
                 {% if page.modified or page.date %}
                     <a href="{{ site.github }}/commits/main{{ site.collections_dir }}/{{ page.path }}" title="View file history on Github" class="unseen" rel="nofollow" target="_blank"><span class="icon icon-github"></span></a>
                     
-                    Last updated: 
+                    Last update: 
                     {% if page.modified %}
                         {{ page.modified | date: "%b %d, %Y" }}
                     {% else %}

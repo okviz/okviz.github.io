@@ -3,7 +3,7 @@ layout:             page
 title:              Cross Filtering
 published:          true
 date:               2021-12-14
-modified:           2021-12-15
+modified:           2022-07-17
 order:              /smart-filter-pro/options/mode/cross-filtering
 toc:                false
 internal:           filterMultiple, crossFiltering
@@ -14,7 +14,7 @@ version:            2.2.5
 
 When multiple fields are selected for filtering in Smart Filter Pro, cross-filtering allows you to choose if different fields/input boxes filter the others. When users select an item of a field with this option enabled, then the items in the other fields will be automatically filtered based on the value of that item. 
  
-<img src="images/cross-filtering.png" width="200">
+<img src="images/cross-filtering.png" width="150">
 
 To define how cross-filtering works in detail, you need to select its behavior with the option below.
 
@@ -23,11 +23,11 @@ To define how cross-filtering works in detail, you need to select its behavior w
 **Default value:** Every field
 
 This option allows you to choose how the cross-filtering is applied: 
-- [To every field](#every-field)
-- [Sequentially](#sequential)
+- [Every field](#every-field)
+- [Sequential](#sequential)
+- [Legacy](#legacy)
 
-<img src="images/cross-filtering-behavior.png" width="200">
-<todo assign="daniele">Retake the screenshot with v2.2.8</todo>
+<img src="images/cross-filtering-behavior.png" width="150">
  
 ### Every field
 
@@ -62,7 +62,7 @@ So, you can see that even though there are only three possible categories for Sy
 
 ### Legacy
 
-If you used the cross-filtering feature before [v2.2.5](../changelog.md#v225), you may see unexpected results with other behaviors.
+If you used the cross-filtering feature before [v2.2.5](../../changelog.md#v225), you may see unexpected results with other behaviors.
 If this is the case, you can use the Legacy option as cross-filtering behavior.
 
 > Note that this option uses a different, outdated approach and it's still available for back compatibility only.

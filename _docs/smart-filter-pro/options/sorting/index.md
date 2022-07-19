@@ -3,7 +3,7 @@ layout:             page
 title:              Sorting
 published:          true
 date:               2021-11-20
-modified:           2022-01-16
+modified:           2022-07-16
 order:              /smart-filter-pro/options/sorting
 version:            2.1.1
 available:          all modes except Search
@@ -17,7 +17,7 @@ The ***Default*** method is the one available in every Power BI visual. You clic
 
 <img src="images/sorting-default.png" width="850">   
 
-> The default sorting method is described in detail here: [Change how a chart is sorted in a Power BI report (Microsoft)](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-change-sort)
+> The default sorting method is described in detail here: [Change how a chart is sorted in a Power BI report](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-change-sort)
 
 
 ## Custom Sorting
@@ -27,7 +27,7 @@ Let us say you have 2 fields: ***Category*** and ***Sales***. You want to sort t
 
 This property can be well illustrated by selecting the Observer mode. Suppose you have ***Category*** as the input category field, and ***Sales Amount*** is selected as ***Values***.   
 
-<img src="images/sorting2.png" width="650">   
+<img src="images/sorting2.png" width="700">   
 
 Now if you choose the custom sort method, then you will get a list of sort options to choose from:  
 
@@ -39,7 +39,7 @@ Now if you choose the custom sort method, then you will get a list of sort optio
 
 For instance, let us say you select ***Sort descending***, then the categories in the input box will be displayed in descending order alphabetically.    
 
-<img src="images/sorting5.png" width="650">   
+<img src="images/sorting5.png" width="700">   
 
 If ***Sort by value descending*** is chosen, then the categories in the input box will be displayed in descending order of their sales. 
 
@@ -47,7 +47,7 @@ If ***Sort by value descending*** is chosen, then the categories in the input bo
 
 In case there is more than one field in Smart Filter Pro, then the custom sort method allows to choose a different sort order for every field. For instance, suppose you have ***Brand*** and ***Category*** as the input fields, and ***Sales Amount*** is selected as ***Values***. Now if you wish to sort the ***Brand*** field alphabetically in ascending order, and the ***Category*** field by value in ascending order, then you can choose the ***Custom*** sort method, and the required sort order for each field from the field dropdowns.  
 
-<img src="images/sorting7.png" width="750">  
+<img src="images/sorting7.png" width="700">  
 
 As you see in the example above, the custom sort method has been chosen, and the field ***Brand*** is sorted alphabetically in ascending order, whereas the field ***Category*** is sorted by value in ascending order.
 

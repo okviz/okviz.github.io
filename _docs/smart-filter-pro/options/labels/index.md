@@ -5,7 +5,7 @@ menu_title:         Labels
 published:          true
 date:               2021-11-20
 modified:           2022-01-16  
-order:              /smart-filter-pro/options/labels
+order:              /smart-filter-pro/options/labels-placeholders
 ---
 
 The Labels & Placeholders properties group defines the appearance of the input text placeholders (or the area title for the Observer mode) of the visual. 

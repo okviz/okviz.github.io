@@ -27,4 +27,4 @@ All of our free visuals are certified by Microsoft. This means that they have in
 
 ## Bug Report
 
-For any issues with these visuals, please refer to [Bug Report](../issues/bugs.md).
+For any issues with these visuals, refer to [Bug Report](../issues/bugs.md).

@@ -41,7 +41,7 @@ These OKVIZ visuals, instead, are not yet certified:
 
 ### Limitations
 
-Uncertified visuals have some limitations, compared to the licensed visuals:
+Uncertified visuals have some limitations, compared to licensed visuals:
 
 - Cannot be **exported to PDF/Power Point** files
 - Cannot be included in **email subscriptions** for Power BI reports
@@ -52,4 +52,4 @@ These limitations mean that if, for example, you export a report containing an u
 
 ### Enabled Uncertified Visuals
 
-Uncertified visuals may be disabled in your organization; refer to this page if you need to enable them: [Enable Custom Visuals](../get-started/installation.md#enable-custom-visuals)
+Uncertified visuals may have been disabled in your organization; refer to this page to enable them: [Enable Custom Visuals](../get-started/installation.md#enable-custom-visuals)

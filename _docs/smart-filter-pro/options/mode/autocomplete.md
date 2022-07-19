@@ -3,7 +3,7 @@ layout:             page
 title:              Autocomplete
 published:          true
 date:               2021-12-15
-modified:           2021-12-15
+modified:           2022-07-16
 order:              /smart-filter-pro/options/mode/autocomplete
 toc:                false
 internal:           autocomplete, autoOpenDropdown
@@ -27,6 +27,6 @@ This option automatically displays the dropdown list while typing. Whenever you 
 
 <img src="images/autocomplete-2.png" width="700">
 
-> Note that if the Autocomplete feature is enabled, the **dropdown only lists values starting with the input string**.  
+> If the Autocomplete feature is enabled, the **dropdown only lists values starting with the input string**.  
 If you want to return values containing the input string in any position, you need to disable this feature. See also [How to Search in Dropdown Mode](dropdown.md#how-to-search).
  

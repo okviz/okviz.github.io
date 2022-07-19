@@ -3,17 +3,16 @@ layout:             page
 title:              Empty when no Selection
 published:          true
 date:               2021-12-14
-modified:           2021-12-15
+modified:           2022-07-17
 order:              /smart-filter-pro/options/mode/empty-when-no-selection
 internal:           defaultNoFilter
 version:            2.2.4
 ---
 **Default value:** Off
 
-This option, if enabled, applies an empty filter to the report if no user selection is set for filter in Smart Filter Pro. It works with textual/date/numeric fields. 
+This option, if enabled, applies an empty filter to the report if no user selection is set in Smart Filter Pro. It works with textual/date/numeric fields. 
  
-<img src="images/EmptyWhenNoSelectn.png" width="1500">  
-
+<video src="images/empty-filter.mp4" width="600" autoplay loop muted></video>
 
 In above example, you see that an empty filter is applied to the report as there is no item specified for filtering in the input text box.
 
