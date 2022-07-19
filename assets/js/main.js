@@ -54,7 +54,7 @@ if (tocElement) {
         pinned = (rawPinned != null ? rawPinned == "true" : true);
         pinToc(!pinned);
     });
-    
+
     const pinToc = (pinned)=>{
         if (pinned === undefined) {
             const rawPinned = localStorage.getItem("toc");
@@ -125,7 +125,11 @@ searchEl.addEventListener("keyup", e => {
     search(e.currentTarget.value);
 });
 searchEl.addEventListener("click", e => {
+    e.stopPropagation();
     search(e.currentTarget.value);
+});
+document.querySelector("header.main").addEventListener("click", e => {
+    toggleResults(false);
 });
 
 function toggleResults(toggle, html = false) {
