@@ -9,11 +9,11 @@ order:          /bullet-chart/options/premium
 
 Bullet Chart is a free visual, but some advanced feature are only available with a **Premium license**.
 
-> More information about premium license can be found here: [Premium license]("link to AppSource")
+> More information about premium license can be found here: [Licensing]("../licensing.md")
 
 <todo> Add link to AppSource </todo>
 
-## Show premium features
+## Show Premium Features
 
 **Default value:** On
 

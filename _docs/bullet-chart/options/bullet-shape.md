@@ -3,7 +3,7 @@ layout:         page
 title:          Bullet Shape
 published:      true
 date:           2022-07-07
-modified:   	2022-07-18
+modified:   	2022-07-19
 order:          /bullet-chart/options/bullet-shape
 available:      Premium
 ---
@@ -22,13 +22,13 @@ If enabled, draws a border outline for the bullet bar.
 
 <img src="../images/bullet-shape-border-on.png" width="700">
 
-## Border color
+## Border Color
 
 Defines border outline color.
 
 <img src="../images/bullet-shape-border-color.png" width="700">
 
-## Border stroke
+## Border Stroke
 
 **Default value:** 1px
 
@@ -36,33 +36,33 @@ Defines the border stroke width.
 
 <img src="../images/bullet-shape-border-stroke.png" width="700">
 
-## Border style
+## Border Style
 
 **Default value:** Solid
 
 Defines the style of the border line. It provides three options to choose from:
 
-- **Dashed:**  Line made up of short strokes with breaks in between 
+- **Dashed:**  Line made up of short strokes with breaks in between.
 
     <img src="../images/bullet-shape-border-style-dashed.png" width="700">   
 
-- **Solid:** Solid line without breaks
+- **Solid:** Solid line without breaks.
 
     <img src="../images/bullet-shape-border-style-solid.png" width="700">   
 
-- **Dotted:** Line made up of dots with breaks in between 
+- **Dotted:** Line made up of dots with breaks in between.
 
     <img src="../images/bullet-shape-border-style-dotted.png" width="700">   
 
-## Line density 
+## Line Density 
 
 **Default value:** 40
 
-This option is only visible when **Border style** is set to ***Dashed*** or ***Dotted***. Defines the distance between dashes/dots of the border line: the smaller the value, the greater the distance.
+This option is only visible when **Border style** is set to ***Dashed*** or ***Dotted***. It defines the distance between dashes/dots of the border line: the smaller the value, the greater the distance.
 
 <img src="../images/bullet-shape-line-density.png" width="700">
 
-## Corner radius
+## Corner Radius
 
 **Default value:** 0px
 
@@ -84,9 +84,9 @@ If enabled, add a shadow to bars.
 
 Defines the offset of the shadow relative to the bar. Provides two options to choose from:
 
-- **Outside:** The shadow is placed outer the bar, as in the previous image 
+- **Outside:** The shadow is placed outer the bar, as in the previous image.
 
-- **inside:** The shadow is placed within the bar
+- **inside:** The shadow is placed within the bar.
 
     <img src="../images/bullet-shape-shadow-offset-inside.png" width="700">
 
@@ -101,21 +101,13 @@ Defines the position of the shadow relative to the bars.
 For both **Offset** options - ***Inside*** or ***Outside*** - provides the following position options to choose from:
 
 - **Bottom right**  
-
 - **Bottom**
-
 - **Bottom left** 
-
 - **Right**
-
 - **Center**
-
 - **Left**
-
 - **Top right**  
-
 - **Top**
-
 - **Top left** 
 
 ## Shadow (comparison)
@@ -126,7 +118,7 @@ This option is shown only when a comparison value is connected.
 
 <img src="../images/comparison-value-connected.png" width="250">
 
-If enabled, the shadow is also applied to the comparison value bar, with same **Offset** and **Position**
+If enabled, the shadow is also applied to the comparison value bar, with same **Offset** and **Position**.
 
 <img src="../images/bullet-shape-shadow-comparison.png" width="700">
 
