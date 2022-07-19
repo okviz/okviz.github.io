@@ -5,7 +5,10 @@
     {% unless jekyll_toc == empty %}
         <div class="toc">
             <div class="toc-content">
-                <div class="expander icon"></div>
+                <div class="controls">
+                    <div class="expander icon"></div>
+                    <div class="pin icon"></div>
+                </div>
                 <strong class="uc">In this page</strong>
                 {{ jekyll_toc }}
             </div>

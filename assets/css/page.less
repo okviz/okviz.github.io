@@ -119,10 +119,9 @@
         
         .toc {
             float:right;
-            position: sticky;
             top: -1px;
             margin: 0 0 20px 40px;
-  
+
             .toc-content {
                 overflow: hidden;
                 position: relative;
@@ -142,22 +141,39 @@
                     background-color: @header-back-color-dark;
                     border-color: @border-color-dark;
                 }
-
-                .expander {
+                .controls { 
                     position: absolute;
                     top: 0;
                     right: 0;
-                    padding: 8px 10px;
-                    cursor: pointer;
-                    text-align: center;
-                    .icon-down;
+                    padding:5px 8px;
+                    display: flex;
+                    align-items: center;
 
-                    &:hover {
-                        color: @accent-back-color !important;
-                    }
-                    &:before {
-                        margin:0;
-                        font-size: 18px;
+                    div {
+                        padding: 3px 4px;
+                        cursor: pointer;
+                        text-align: center;
+                        
+
+                        &:hover {
+                            color: @accent-back-color !important;
+                        }
+                        &:before {
+                            margin:0;
+                        }
+
+                        &.expander {
+                            .icon-down;
+                            &:before {
+                                font-size: 18px;
+                            }
+                        }
+                        &.pin {
+                            .icon-pin;
+                            &:before {
+                                font-size: 15px;
+                            }
+                        }
                     }
                 }
 
@@ -184,6 +200,7 @@
                     }
                 }
             }
+
             &.sticky {
                 padding: 20px 0;
                 .toc-content {
@@ -197,7 +214,7 @@
                 .toc-content {
                     height: 20px;
                     .expander {
-                        .icon-up;
+                        .icon-up !important;
                     }
                 }
             }
@@ -206,6 +223,15 @@
                     height: auto !important;
                     .expander {
                         .icon-down !important;
+                    }
+                }
+            }
+            &.pinned {
+                position: sticky;
+
+                .toc-content {
+                    .pin {
+                        .icon-pinned !important;
                     }
                 }
             }

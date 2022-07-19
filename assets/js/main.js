@@ -38,11 +38,7 @@ if (tocElement) {
 tocElement.querySelector(".expander").addEventListener("click", e => {
     e.preventDefault();
 
-    const item = "toc";
-    const rawExpanded = localStorage.getItem(item);
-    const expanded = !(rawExpanded != null ? rawExpanded == "true" : !tocElement.classList.contains("sticky"));
-    localStorage.setItem(item, expanded);
-
+    const expanded = !(!tocElement.classList.contains("collapsed") && (tocElement.classList.contains("expanded") || !tocElement.classList.contains("sticky")));
     if (expanded) {
         tocElement.classList.add("expanded");
         tocElement.classList.remove("collapsed");
@@ -51,6 +47,26 @@ tocElement.querySelector(".expander").addEventListener("click", e => {
         tocElement.classList.add("collapsed");
     }
 });
+tocElement.querySelector(".pin").addEventListener("click", e => {
+    e.preventDefault();
+
+    const rawPinned = localStorage.getItem("toc");
+    pinned = (rawPinned != null ? rawPinned == "true" : true);
+    pinToc(!pinned);
+});
+const pinToc = (pinned)=>{
+    if (pinned === undefined) {
+        const rawPinned = localStorage.getItem("toc");
+        pinned = (rawPinned != null ? rawPinned == "true" : true);
+    }
+    if (pinned)
+        tocElement.classList.add("pinned");
+    else
+        tocElement.classList.remove("pinned");
+
+    localStorage.setItem("toc", pinned);
+};
+pinToc();
 
 // Split
 let defaultSizes = [20, 80];

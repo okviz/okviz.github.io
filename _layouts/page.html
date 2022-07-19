@@ -16,7 +16,7 @@ layout: default
             
                 <a href="{{ page.url | remove: "index" | remove: ".html" }}" class="solo"><h1>{{ page.title }}
                      {% if page.available %}
-                        {% include badge avail=page.available %}
+                        {% include badge in=page.available %}
                     {% endif %}
                     {% if page.version %}
                         {% include badge v=page.version %}
