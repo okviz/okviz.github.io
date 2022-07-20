@@ -40,7 +40,7 @@ layout: default
 
             <footer>
                 {% if page.available %}
-                    <p>The content of this page is relevant or only available to: <strong>{{ page.available | replace: " | ", ", " }}</strong>.</p>
+                    <p>The content of this page is relevant or only available to: <strong>{{ page.available | replace: " | ", ", " }}</strong></p>
                 {% endif %}
 
                 {% if page.modified or page.date %}
