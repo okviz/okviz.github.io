@@ -35,12 +35,12 @@ layout: default
             {% if page.related %}
                 {% include related %}
             {% elsif page.next_reading %}
-                {% include next %}
+                {% include next title=page.next_reading_title %}
             {% endif %}
 
             <footer>
                 {% if page.available %}
-                    <p>The content of this page is relevant or only available to <strong>{{ page.available | replace: " | ", ", " }}</strong>.</p>
+                    <p>The content of this page is relevant or only available to: <strong>{{ page.available | replace: " | ", ", " }}</strong>.</p>
                 {% endif %}
 
                 {% if page.modified or page.date %}

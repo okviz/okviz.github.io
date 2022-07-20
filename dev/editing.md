@@ -439,6 +439,8 @@ Always create a folder called images in the parent folder of the document you ar
 
 > Set a reasonable number of pixels in the ***width*** attribute of the &lt;img&gt; tag (see the [Best Practices](best-practices.md)).
 
+> You can align text around images by adding `class="fr"` or `class="fl"` to the img tag.
+
 #### Screencast (Video)
 
 <table>
@@ -484,6 +486,25 @@ Sometimes it is necessary to display the availability limits of a feature descri
         </td>
         <td>
             <div class="badge version lc" title="Available from version 2.2.1">v2.2.1</div>
+        </td>
+    </tr>
+</table>
+
+#### Color Cells
+
+You can include simple color cells in your pages.
+
+<table>
+    <tr>
+        <th>Syntax</th>
+        <th>Rendered Output</th>
+    </tr>
+    <tr>
+        <td>
+            <pre>&#123;% include color value="#FF0000" %&#125;</pre>
+        </td>
+        <td>
+            <div class="color-cell" style="background:#FF0000"></div>
         </td>
     </tr>
 </table>

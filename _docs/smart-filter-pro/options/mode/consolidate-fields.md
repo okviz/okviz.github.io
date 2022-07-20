@@ -22,4 +22,4 @@ For example: to search ***Contoso*** in the field ***Brand*** just write `brand:
 
 > You cannot filter on every field of your dataset without doing anything, **you must first connect every field** you are interested in to the visual.
 
-> You cannot set the logical operator to ***OR*** when you filter different fields in the same input, otherwise Power BI will throw an error.
+> You cannot set the logical operator to ***OR*** when you filter different fields in the same input, otherwise Power BI will throw an error. More information: [Common Issues](../../../issues/common-issues.md#we-cant-display-this-visual-because-a-measure-is-used-in-cross-highlighting-please-remove-the-measure-or-cross-highlight)

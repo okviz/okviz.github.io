@@ -5,9 +5,10 @@ published:          true
 date:               2021-12-15
 modified:           2022-07-16
 order:              /smart-filter-pro/options/mode/autocomplete
-toc:                false
-internal:           autocomplete, autoOpenDropdown
+internal:           autocomplete
 available:          Dropdown mode
+related:
+    - auto-show-dropdown.md
 ---
 **Default value:** On
 
@@ -19,14 +20,5 @@ For instance, if you have a field of categories of products and you start typing
 
 In case there is more than one category starting with the specified user input, then it would be autocompleted with the top most category that starts with that keyword. By top most category, we mean the first category as per the sorting order chosen for the field. 
 
-## Auto Show Dropdown
-
-**Default value:** On
-
-This option automatically displays the dropdown list while typing. Whenever you start typing an item for filter, the dropdown list with the most relevant values starting with the text you typed will pop up automatically.
-
-<img src="images/autocomplete-2.png" width="700">
-
-> If the Autocomplete feature is enabled, the **dropdown only lists values starting with the input string**.  
+> When autocomplete is enabled, the **dropdown only lists values starting with the input string**.  
 If you want to return values containing the input string in any position, you need to disable this feature. See also [How to Search in Dropdown Mode](dropdown.md#how-to-search).
- 

@@ -3,7 +3,7 @@ layout:             page
 title:              Report Themes
 published:          true
 date:               2021-11-20
-modified:           2022-07-16
+modified:           2022-07-20
 order:              /smart-filter-pro/features/themes
 ---
 
@@ -13,9 +13,9 @@ Assuming you are setting up a custom JSON theme file ([as described here](https:
 
 | Property | Theme Color |
 | -------- | ----------- |
-| [Items back color](../options/appearance/index.md#items-back-color)       | dataColors (first color) |
-| [Dropdown back color](../options/appearance/index.md#dropdown-back-color) | background |
-| [Border color](../options/appearance/index.md#border-color)               | backgroundLight |
-| [Labels font color](../options/labels/index.md)                           | foregroundLight |
-| [Node text color](../options/appearance/index.md#node-text-color)         | foreground |
+| [Items back color](../options/appearance/items-back-color.md)       | dataColors (first color) |
+| [Dropdown back color](../options/appearance/dropdown-back-color.md) | background |
+| [Border color](../options/appearance/border-color.md)               | backgroundLight |
+| [Labels font color](../options/labels/index.md)                     | foregroundLight |
+| [Node text color](../options/appearance/node-text-color.md)         | foreground |
 

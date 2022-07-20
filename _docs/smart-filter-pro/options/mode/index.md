@@ -3,20 +3,23 @@ layout:             page
 title:              Mode
 published:          true
 date:               2021-12-14
-modified:           2022-07-16
+modified:           2022-07-19
 order:              /smart-filter-pro/options/mode
 internal:           mode
 ---
+
 **Default value:** Dropdown
 
-Smart Filter Pro can be used in different modes. Each mode provides different advantages and unique features. This property allows you to select a mode and gives you access to the options available with each of them.
+Smart Filter Pro can be used in different modes, each one providing unique benefits and features.
 
-<img src="images/mode-option.png" width="180">
+For example, ***Filter mode*** is useful if you have huge datasets since it doesn't consume all the resources of the other modes and can search on-demand, while the ***Dropdown mode*** loads all underlying data incrementally.
 
-#### Available Modes:
+<video src="images/modes.mp4" width="600" autoplay loop muted></video>
 
-- [Dropdown](dropdown.md)
-- [Filter](filter.md)
-- [Search](search.md)
-- [Observer](observer.md)
-- [Hierarchy](hierarchy.md)
+This is the main setting that drives the visibility of the others in this section. Follow the links below to explore each mode and the relevant options:
+
+- [Dropdown](../../features/dropdown.md)
+- [Filter](../../features/filter.md)
+- [Search](../../features/search.md)
+- [Observer](../../features/observer.md)
+- [Hierarchy](../../features/hierarchy.md)
