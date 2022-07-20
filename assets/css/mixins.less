@@ -185,6 +185,18 @@
         color: @version-color;
         border-color: darken(@version-back-color, 10%);
     }
+    &.premium {
+        background-color: @premium-back-color;
+        color: @premium-color;
+        border-color: darken(@premium-back-color, 10%);
+
+        a {
+            color: @premium-color !important;
+            &:hover {
+                color: darken(@premium-color, 10%) !important;
+            }
+        }
+    }
     &.assign {
         display: inline-block;
         text-transform: lowercase;
@@ -201,7 +213,8 @@ h1, h2, h3, h4, h5, h6 {
     .badge {
         display: inline-block;
         vertical-align: middle;
-        margin-left: 5px;
+        margin-left: 6px;
+        margin-top: -3px;
     }
 }
 .bad {

@@ -14,14 +14,19 @@ layout: default
             <header>
                 {% include breadcrumbs.html %}
             
-                <a href="{{ page.url | remove: "index" | remove: ".html" }}" class="solo"><h1>{{ page.title }}
-                     {% if page.available %}
+                <h1>
+                    <a href="{{ page.url | remove: "index" | remove: ".html" }}" class="solo">{{ page.title }}</a>
+                    {% if page.available %}
                         {% include badge in=page.available %}
                     {% endif %}
                     {% if page.version %}
                         {% include badge v=page.version %}
                     {% endif %}
-                </h1></a>
+                    {% if page.premium %}
+                        {% include badge premium=page.premium %}
+                    {% endif %}
+                </h1>
+                    
                
                 <hr>
             </header>

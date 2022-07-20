@@ -31,6 +31,7 @@ Every file must contain a header in the following format (note that the ***\-\-\
     toc:                true
     version:            2.0
     available:          Availability note
+    premium:            /01/premium.md
     internal:           Internal reference (not displayed)
     next_reading:       false
     next_reading_title: Next Reading
@@ -53,12 +54,13 @@ Options:
 - **modified:** set the date of the last modification of the document.
 - **order:** set a string to be used to sort the document in the navigation menu - check existing files to know how sorting works. In general, if the page is the child of a node, it is necessary to insert the order attribute of the parent node plus a slash ***/*** and a number (if you want to give a static position) or a sanitized version of the title (without spaces and special characters - if you want to use alphabetical sorting). Note that numbers come  before letters (as they are placed before in the ASCII table); if you want that they are placed after letters, you need to enclose them in curly braces: e.g. ***zzz*** is after ***01*** but before ***{01}***.
 - **toc:** (optional) set ***false*** to hide the automatic table of contents.
-- **version:** (optional) used only with visual options - set the version of the visual when the option was introduced.
-- **available:** (optional) used only with visual options - set the mode(s) in which the option is available. Setting this attribute will display an indicator under the document title. You can manually place this information in a different location using the [Available Badge](#available-badge).
+- **version:** (optional) used only with visual options - set the version of the visual when the option was introduced. You can manually place this information in a different place using the [badge syntax](#available-badge).
+- **available:** (optional) used only with visual options - set the mode(s) in which the option is available. Setting this attribute will display an indicator under the document title. You can manually place this information in a different place using the [badge syntax](#available-badge).
+- **premium:** (optional) used to say that the argument of the page is relevant to premium users only. Set **true** to just show a badge or enter a file path to also add a link to the specified page - **../** is not supported. You can manually place this information in a different place using the [badge syntax](#available-badge).
 - **internal:** (optional) used to define some internal reference, useful for maintenance - not displayed on the website.
 - **next_reading:** (optional) set **true** to show the ***Next Reading*** section at the end of the page. Note there is also a [special template tag](#next-reading) you can use to obtain the same result, useful if you need to place it on a different position.
 - **next_reading_title:** (optional) set a custom title for the ***Next Reading*** section. Default is: "Next Reading".
-- **related:** (optional) define a list of pages related to this one; you can use URLs relative to the _docs root (they must start with a slash) or relative to the same parent path (no slashes at the beginnig). **You cannot use ../**. At the bottom of the page will be displayed a section like ***Next Reading***. If defined, the **next_reading** option will be ignored.
+- **related:** (optional) define a list of pages related to this one; you can use URLs relative to the _docs root (they must start with a slash) or relative to the same parent path (no slashes at the beginnig) - **../** is not supported. At the bottom of the page will be displayed a section like ***Next Reading***. If defined, the **next_reading** option will be ignored.
 - **related_title:** (optional) set a custom title for the related section. Default is: "Related Pages"
 
 ### Body
@@ -469,7 +471,7 @@ Like with images, you need to use a HTML syntax to embed videos in your pages. F
 
 #### Badges
 
-Sometimes it is necessary to display the availability limits of a feature described by the document. You can do this by adding the ***available*** or ***version*** attributes in the [document header](#header) or, if you need to put this information in a different position on the page, you can use this syntax anywhere in the text:
+Sometimes it is necessary to display the availability limits of a feature described by the document. You can do this by adding the ***available***, ***version*** or ***premium*** attributes in the [document header](#header) or, if you need to put this information in a different position on the page, you can use this syntax anywhere in the text:
 
 <table>
     <tr>
@@ -484,12 +486,20 @@ Sometimes it is necessary to display the availability limits of a feature descri
             <div class="badge availability">Dropdown mode</div>
         </td>
     </tr>
-     <tr>
+    <tr>
         <td>
             <pre>&#123;% include badge v="2.2.1" %&#125;</pre>
         </td>
         <td>
             <div class="badge version lc" title="Available from version 2.2.1">v2.2.1</div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <pre>&#123;% include badge premium="/folder/premium-page.md" %&#125;</pre>
+        </td>
+        <td>
+            <div class="badge premium" title="Available to Premium users only"><a href="#">Premium</a></div>
         </td>
     </tr>
 </table>
