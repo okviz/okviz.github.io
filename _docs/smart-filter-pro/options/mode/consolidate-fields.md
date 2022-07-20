@@ -18,7 +18,7 @@ Thanks to the ***Consolidate fields*** feature, available in Filter mode only, y
 <img src="images/consolidate-fields.png" width="500">
 
 To apply a filter to a specific field, when this option is enabled, enter the field name and a colon in front of the value to search.  
-For example: to search ***Contoso*** in the field ***Brand*** just write `brand:contoso` and hit Enter (field names and value are case insensitive - for more information on the supported syntax see [How to Search in Filter Mode](filter.md#how-to-search)).
+For example: to search ***Contoso*** in the field ***Brand*** just write `brand:contoso` and hit Enter (field names and value are case insensitive - for more information on the supported syntax see [How to Search in Filter Mode](../../features/filter.md#how-to-search)).
 
 > You cannot filter on every field of your dataset without doing anything, **you must first connect every field** you are interested in to the visual.
 

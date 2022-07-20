@@ -24,7 +24,7 @@ Set to 0 to retrieve all the data available to the visual.
 
 <h2>How is performance affected by this setting?</h2>
 
-Retrieving more than **30,000 rows** may slow down the entire report, because the Dropdown mode loads all data in memory. If you have a larger column it is recommended to use the [Filter mode](filter.md). 
+Retrieving more than **30,000 rows** may slow down the entire report, because the Dropdown mode loads all data in memory. If you have a larger column it is recommended to use the [Filter mode](../../features/filter.md). 
 
 See more: 
 - [Incremental Loading in Dropdown mode](../../features/dropdown.md#incremental-loading)

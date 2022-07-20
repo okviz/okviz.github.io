@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2018-06-01
-modified:           2022-07-14
+modified:           2022-07-20
 order:              /smart-filter-pro/{99}
 toc_max:            2
 ---
@@ -81,7 +81,7 @@ Smart Filter Pro uses **Power BI Custom Visuals API v1.13.0** - compatible with 
 - The ability to select multiple values in Observer mode without using CTRL.
 - The ability to paste multiple values mapped to a specific field when you are in Filter mode with Consolidate fields enabled. E.g.: you can write FIELDNAME: and then paste multiple values to automatically apply the filter(s) to your report.
 - The ability to sort by value.
-- The ability to use the [Search mode](options/mode/search.md) with multiple fields. In this case the visual displays a select box you can use to choose the field to use.
+- The ability to use the [Search mode](features/search.md) with multiple fields. In this case the visual displays a select box you can use to choose the field to use.
 - The ability to change the background color in Observer mode.
 
 ## v2.2.2
@@ -144,7 +144,7 @@ If you have experienced the issue before, please update the visual to this versi
 **Released:** 2020-04-11
 
 **Added:**
-- A new working mode, which is faster than the others and easier to use: [Search Mode](options/mode/search.md).  
+- A new working mode, which is faster than the others and easier to use: [Search Mode](features/search.md).  
 With this mode, you can paste and filter long lists of values or search while typing, without sacrificing the overall performance.  
 <img src="images/changelog/v216-search-mode.gif" width="550">
 - Single selection for Observer mode.
