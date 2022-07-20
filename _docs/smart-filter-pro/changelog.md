@@ -257,7 +257,7 @@ With this mode, you can paste and filter long lists of values or search while ty
 
 ### New Hierarchy mode (beta)
 
-Smart Filter Pro now supports four different view modes: [Dropdown](options/mode/dropdown.md), [Observer](options/mode/observer.md), [Filter](options/mode/filter.md) and the new [Hierarchy mode](options/mode/hierarchy).
+Smart Filter Pro now supports four different view modes: [Dropdown](features/dropdown.md), [Observer](features/observer.md), [Filter](features/filter.md) and the new [Hierarchy mode](features/hierarchy).
 
 With the Hierarchy mode your columns are arranged in a tree view, according to their relationship in the underlying model. You can select single or multiple nodes to filter the other charts of your reports.
 

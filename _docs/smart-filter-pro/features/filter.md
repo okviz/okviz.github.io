@@ -168,7 +168,7 @@ The available operators are:
 - **AND**: Use it when you want all the specified conditions to be satisfied.
 - **OR**: Use it when you want at least one of the specified conditions to be satisfied.
 
-You can set the operator with a specific option: [Keywords Operator](keywords-operator.md).
+You can set the operator with a specific option: [Keywords Operator](../options/mode/keywords-operator.md).
 
 
 ## Performance Boost
