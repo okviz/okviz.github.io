@@ -170,7 +170,7 @@
     background-color: @badge-back-color;
     color: @badge-color;
     padding: 8px 12px;
-    .border-radius(8px);
+    .border-radius(3px);
     border: 1px solid darken(@badge-back-color, 10%);
     letter-spacing: .5px;
     cursor: default;
@@ -215,4 +215,17 @@ iframe.embed {
     border: 1px solid @border-color;
 
     .dark & { border-color: @border-color-dark;}
+}
+.color-cell {
+    width: 16px;
+    height: 16px;
+    border: 2px solid @border-color;
+    border-radius: 3px;
+    display: inline-block;
+    vertical-align: middle;
+    margin:0 5px;
+
+    .dark & {
+        border-color: @border-color-dark;
+    }
 }

@@ -13,7 +13,7 @@ available:          Filter | Search mode
 
 This option allows you to choose the logical operator to use in the query performed by Smart Filter Pro in Filter/Search mode.
 
-> To learn how search works and the full syntax you can use, see: [How to Search in Filter/Search Mode](filter.md#how-to-search)
+> To learn how search works and the full syntax you can use, see: [How to Search in Filter/Search Mode](../../features/filter.md#how-to-search)
 
 Let us have a look at each of the available choices:
 - [AND](#and)

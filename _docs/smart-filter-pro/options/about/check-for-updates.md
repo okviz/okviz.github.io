@@ -15,8 +15,8 @@ Power BI frequently receives updates and thus, custom visuals must interact with
 
 <img src="images/check-for-updates-option.png" width="180">
 
-Smart Filter Pro sends out notifications about new versions if the **Check for Updates** setting is enabled. It checks if there is a new version of the visual and displays a message when the report is not in [Reading view](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-reading-view#reading-view). In any case, a notification email about a new version available is sent to the user who registers Smart Filter Pro, including a link for the direct download. Just like [Send telemetry](send-telemetry.md) setting, this setting will also not work in case you do not have a working Internet connection.
+Smart Filter Pro sends out notifications about new versions if this option is enabled. It checks if there is a new version of the visual and displays a message only if the report is not in [Reading view](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-reading-view#reading-view) - **don't worry about your published reports!** Also, a notification email about a new version available is sent to the licensee and billing contact of Smart Filter Pro active subscriptions, including a link for the direct download. 
  
 <img src="images/check-for-updates.png" width="400">
 
-The **Check for updates** setting is beneficial for users who manually download and update the licensed custom visual. While for the users who installed Smart Filter Pro from the Microsoft Store, the updates are automatic. The frequency for the release of updates is no more than 1 per month. 
+> This option is beneficial for users who manually download and update the visual. While for the users who installed Smart Filter Pro from the AppSource, the updates are automatic and invisible. Learn why you could choose the manual approach here: [Installation from AppSource Drawbacks](../../../get-started/installation.md#from-the-appsource)

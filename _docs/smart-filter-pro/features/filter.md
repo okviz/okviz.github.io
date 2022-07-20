@@ -1,13 +1,20 @@
 ---
 layout:             page
 title:              Filter Mode
-menu_title:         Filter
 published:          true
 date:               2021-12-09
-modified:           2022-07-16
-order:              /smart-filter-pro/options/mode/02
+modified:           2022-07-19
+order:              /smart-filter-pro/features/filter-mode
 toc_max:            3
 internal:           filter
+related_title:      Related Options
+related:
+    - /smart-filter-pro/options/mode/consolidate-fields.md
+    - /smart-filter-pro/options/mode/default-text-condition.md
+    - /smart-filter-pro/options/mode/empty-when-no-selection.md
+    - /smart-filter-pro/options/mode/keywords-operator.md
+    - /smart-filter-pro/options/mode/single-selection.md
+    - /smart-filter-pro/options/mode/split-pasted-text.md
 ---
 The Filter mode in Smart Filter Pro allows advanced data queries by defining conditions using wildcards, comparison, and logical operators. The filter conditions – one or more – are written with a simple syntax giving instant results. One can search for specific date intervals, for numbers smaller or greater than others, for strings within a piece of text, and so on. 
 
@@ -31,7 +38,7 @@ The syntax available differs depending on the type of the field to the visual, s
 The syntax for querying text fields includes rules for the most common uses:
            
 - #### Containing Text {#contains}
-    You can perform a search that returns values containing your keyword without using any special characters if the [Default Condition for Text](default-text-condition.md) is set to ***Contains***, otherwise you can use the wildcard characters ***\**** and ***?*** to define the part of the string you don't know along with your keyword. 
+    You can perform a search that returns values containing your keyword without using any special characters if the [Default Condition for Text](../options/mode/default-text-condition.md) is set to ***Contains***, otherwise you can use the wildcard characters ***\**** and ***?*** to define the part of the string you don't know along with your keyword. 
 
     The character ***\**** is used to define an unknown string of any length.   
     The character ***?*** defines a single unknown character.
@@ -47,7 +54,7 @@ The syntax for querying text fields includes rules for the most common uses:
 
     <img src="images/filter-mode-2.png" width="350">
 - #### Exact match {#exact}
-    You can perform an exact match search without using any special characters if the [Default Condition for Text](default-text-condition.md) is set to ***Equal to***, otherwise you need to enclose your keyword in double quotes.
+    You can perform an exact match search without using any special characters if the [Default Condition for Text](../options/mode/default-text-condition.md) is set to ***Equal to***, otherwise you need to enclose your keyword in double quotes.
 
     For example:
     - `audio` returns all values equal to ***audio*** if the default condition for text is ***Equal to***, otherwise returns all values containing ***audio*** (see [Containing Text](#contains)).
@@ -62,7 +69,7 @@ The syntax for querying text fields includes rules for the most common uses:
 
     
    For example: 
-   - `!audio` returns all values except those that include ***audio*** if the [Default Condition for Text](default-text-condition.md) option is ***Contains***, otherwise returns all values except those equal to ***audio***.
+   - `!audio` returns all values except those that include ***audio*** if the [Default Condition for Text](../options/mode/default-text-condition.md) option is ***Contains***, otherwise returns all values except those equal to ***audio***.
    - `!*audio*` returns all values except those that include ***audio***.
    - `!aud*` returns all values except those starting with ***aud***.
    
@@ -161,7 +168,7 @@ The available operators are:
 - **AND**: Use it when you want all the specified conditions to be satisfied.
 - **OR**: Use it when you want at least one of the specified conditions to be satisfied.
 
-You can set the operator with a specific option: [Keywords Operator](keywords-operator.md).
+You can set the operator with a specific option: [Keywords Operator](../options/mode/keywords-operator.md).
 
 
 ## Performance Boost
@@ -181,14 +188,3 @@ Moreover, loading many items in the visual increases the memory consumed, potent
 ## No Data Limits
 
 Another benefit of Filter mode is that there are no limits on the volume of the dataset it can filter. That's because it doesn't load data into memory and, therefore, the common [limits set by Power BI](https://docs.microsoft.com/en-us/power-bi/developer/visuals/fetch-more-data#known-limitations-of-fetchmoredata) don't apply here. The other modes (except Search mode), on the other hand, cannot load more than **1,048,576 rows** and cannot exceed more than **100 MB of memory**.
-
-
-## Options
-
-On selecting the Filter mode, the options available are:
-- [Consolidate Fields](consolidate-fields.md)
-- [Default Condition for Text](default-text-condition.md)
-- [Empty when no Selection](empty-when-no-selection.md)
-- [Keywords Operator](keywords-operator.md)
-- [Single Selection](single-selection.md)
-- [Split Pasted Text by](split-pasted-text.md)

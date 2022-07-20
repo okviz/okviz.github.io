@@ -37,6 +37,7 @@ collections:
 
 exclude:
   - "*.less"
+  - "package.json"
 relative_links:
   enabled:     true
   collections: true

@@ -4,16 +4,18 @@ title:              Labels & Placeholders
 menu_title:         Labels
 published:          true
 date:               2021-11-20
-modified:           2022-01-16  
+modified:           2022-01-20 
 order:              /smart-filter-pro/options/labels-placeholders
+next_reading:       true
+next_reading_title: Options
 ---
 
-The Labels & Placeholders properties group defines the appearance of the input text placeholders (or the area title for the Observer mode) of the visual. 
+The options in this section define the appearance of the placeholders and labels of the visual. 
 
-In each mode, along with the text, you can set the font color of the placeholder. 
+With placeholder we intend the light text that appears inside the filter input in all modes except Observer. Labels, instead, are visible only when you are in Observer mode or Dropdown mode with horizontal orientation. 
 
-<img src="images/labels-placeholders.png" width="550">  
+<img src="images/labels-placeholders.png" width="550"> 
 
-In Observer mode, you can also set the font family and the text size of the labels.
+For each field connected to the visual, you can choose a specific text that will appear in relevant placeholders/labels.
 
-<img src="images/labels-placeholders-observer.png" width="550">  
+<img src="images/labels-placeholders-observer.png" width="550">   

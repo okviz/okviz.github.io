@@ -13,7 +13,7 @@ available:          Search mode
 
 This option allows you to define how the search is performed with the Search mode.
 
-> To learn how search works and the full syntax you can use, see: [How to Search in Search Mode](search.md#how-to-search)
+> To learn how search works and the full syntax you can use, see: [How to Search in Search Mode](../../features/search.md#how-to-search)
 
 You can choose between: 
 - [Exact Match](#exact-match)

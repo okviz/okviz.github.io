@@ -7,4 +7,3 @@ modified:           2022-07-18
 order:              /calendar-pro/options/appearance
 internal:           layout
 ---
-

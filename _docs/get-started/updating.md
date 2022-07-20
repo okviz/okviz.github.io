@@ -29,7 +29,7 @@ The procedure to update a local visual file is identical to the one you follow d
 
 After installing a visual from the AppSource, you don't need to do anything to use the latest version of our visuals. In fact, each new version is automatically downloaded and updated in every report that uses that visual.
 
-This behavior is straightforth and time-saving, but since it doesn't show any notification when a new version has been downloaded in your reports and you have no control over it (you can't downgrade for example), you may run into problems if there is a regression in the visual's code or sudden changes in the report layout.
+This behavior is straightforth and time-saving, but since **it does not show any notification when a new version has been downloaded in your reports and you have no control over it** (you can't downgrade for example), you may run into problems if there is a regression in the visual's code or sudden changes in the report layout.
 
 ## From the Org Store
 

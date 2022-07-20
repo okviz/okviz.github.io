@@ -17,5 +17,5 @@ For ***Filter and Serch modes***, however, there is not need to implement the ab
 
 For more information:
 
-- [Incremental Loading in Dropdown Mode](../options/mode/dropdown.md#incremental-loading)
-- [No Data Limits in Filter Mode](../options/mode/filter.md#no-data-limits)
+- [Incremental Loading in Dropdown Mode](../features/dropdown.md#incremental-loading)
+- [No Data Limits in Filter Mode](../features/filter.md#no-data-limits)

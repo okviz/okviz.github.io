@@ -19,24 +19,26 @@ See the full guide: [Contributing](contributing.md)
 Every file must contain a header in the following format (note that the ***\-\-\-*** lines are required):
 
     ---
-    layout:         page
-    title:          Document title
-    menu_title:     Menu title
-    next_title:     Next reading title
-    published:      true
-    draft:          false
-    date:           2021-11-15
-    modified:   	2021-11-21
-    order:          /01/02/document-title
-    toc:            true
-    version:        2.0
-    available:      Availability note
-    internal:       Internal reference (not displayed)
-    next_reading:   false
+    layout:             page
+    title:              Document title
+    menu_title:         Document title in menu
+    next_title:         Document title in Next Reading section
+    published:          true
+    draft:              false
+    date:               2021-11-15
+    modified:   	    2022-07-20
+    order:              /01/02/document-title
+    toc:                true
+    version:            2.0
+    available:          Availability note
+    internal:           Internal reference (not displayed)
+    next_reading:       false
+    next_reading_title: Next Reading
     related:        
         - page-1.md
         - page-2.md, 
         - /folder/page-3.md
+    related_title:      Related Pages
     ---
 
 Options:
@@ -44,7 +46,7 @@ Options:
 - **layout:** always set the value ***page***.
 - **title:** set the title of the document.
 - **menu_title:** (optional) set a title for the navigation menu, if you want to make it different from the main title.
-- **next_title:** (optional) set a title for the next reading section of the pages, if you want to make it different from the main title.
+- **next_title:** (optional) set a title for the ***Next Reading*** section of the pages, if you want to make it different from the main title.
 - **published:** set ***true*** to display the document on the website 
 - **draft:** (optional) set ***true*** to show a notice that the document is not completed (note that this notice appears automatically if the document is empty or if it contains &lt;todo&gt;&lt;/todo&gt; tag. Set ***"no"*** to never show the notice.
 - **date:** set the creation date of the document.
@@ -55,7 +57,9 @@ Options:
 - **available:** (optional) used only with visual options - set the mode(s) in which the option is available. Setting this attribute will display an indicator under the document title. You can manually place this information in a different location using the [Available Badge](#available-badge).
 - **internal:** (optional) used to define some internal reference, useful for maintenance - not displayed on the website.
 - **next_reading:** (optional) set **true** to show the ***Next Reading*** section at the end of the page. Note there is also a [special template tag](#next-reading) you can use to obtain the same result, useful if you need to place it on a different position.
+- **next_reading_title:** (optional) set a custom title for the ***Next Reading*** section. Default is: "Next Reading".
 - **related:** (optional) define a list of pages related to this one; you can use URLs relative to the _docs root (they must start with a slash) or relative to the same parent path (no slashes at the beginnig). **You cannot use ../**. At the bottom of the page will be displayed a section like ***Next Reading***. If defined, the **next_reading** option will be ignored.
+- **related_title:** (optional) set a custom title for the related section. Default is: "Related Pages"
 
 ### Body
 
@@ -439,6 +443,8 @@ Always create a folder called images in the parent folder of the document you ar
 
 > Set a reasonable number of pixels in the ***width*** attribute of the &lt;img&gt; tag (see the [Best Practices](best-practices.md)).
 
+> You can align text around images by adding `class="fr"` or `class="fl"` to the img tag.
+
 #### Screencast (Video)
 
 <table>
@@ -484,6 +490,25 @@ Sometimes it is necessary to display the availability limits of a feature descri
         </td>
         <td>
             <div class="badge version lc" title="Available from version 2.2.1">v2.2.1</div>
+        </td>
+    </tr>
+</table>
+
+#### Color Cells
+
+You can include simple color cells in your pages.
+
+<table>
+    <tr>
+        <th>Syntax</th>
+        <th>Rendered Output</th>
+    </tr>
+    <tr>
+        <td>
+            <pre>&#123;% include color value="#FF0000" %&#125;</pre>
+        </td>
+        <td>
+            <div class="color-cell" style="background:#FF0000"></div>
         </td>
     </tr>
 </table>
