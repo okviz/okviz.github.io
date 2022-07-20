@@ -17,11 +17,13 @@ When enabled, this section enables displaying of the bullets' states and related
 
 This option allows adding states to the tooltips screentip.
 
-## Opacity {% include  %}
+## Opacity  {% include badge in="Premium" %}
 
 **Default Value:** 100
 
 It allows to define the opacity of the states bars.
+
+
 
 
 

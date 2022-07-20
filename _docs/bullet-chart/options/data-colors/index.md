@@ -21,7 +21,7 @@ This option is only visible when a measure is connected to the **Category** fiel
 
 Enablig this option, all categories names will be displayed within the section, allowing to define the color for each bar.
 
-<img src="images/data-colors-show-all.png" width="700">
+<video src="images/data-colors-show-all.mp4" width="700" autoplay loop muted></video>
 
 If there is no measure linked to the **Category** field, the section will show an option to change color for each measure linked to the **Value** field with the same names as the linked measures.
 
