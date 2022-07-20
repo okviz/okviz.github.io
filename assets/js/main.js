@@ -32,8 +32,28 @@ for (let i = 0; i < treeLinks.length; i++) {
 // TOC
 const tocElement = document.querySelector(".toc");
 if (tocElement) {
-    const observer = new IntersectionObserver(([e]) => e.target.classList.toggle("sticky", e.intersectionRatio < 1), { threshold: [1] });
+    const tocRect = tocElement.getBoundingClientRect();
+    const observer = new IntersectionObserver(([e]) => {
+        if (e.boundingClientRect.top + e.boundingClientRect.height > window.innerHeight)
+            e.target.classList.remove("sticky")
+        else
+            e.target.classList.toggle("sticky", e.intersectionRatio < 1);
+    }, { threshold: [1] });
     observer.observe(tocElement);
+
+    const pinToc = (pinned)=>{
+        if (pinned === undefined) {
+            const rawPinned = localStorage.getItem("toc");
+            pinned = (rawPinned != null ? rawPinned == "true" : true);
+        }
+        if (pinned)
+            tocElement.classList.add("pinned");
+        else
+            tocElement.classList.remove("pinned");
+
+        localStorage.setItem("toc", pinned);
+    };
+    pinToc();
 
     tocElement.querySelector(".expander").addEventListener("click", e => {
         e.preventDefault();
@@ -55,19 +75,6 @@ if (tocElement) {
         pinToc(!pinned);
     });
 
-    const pinToc = (pinned)=>{
-        if (pinned === undefined) {
-            const rawPinned = localStorage.getItem("toc");
-            pinned = (rawPinned != null ? rawPinned == "true" : true);
-        }
-        if (pinned)
-            tocElement.classList.add("pinned");
-        else
-            tocElement.classList.remove("pinned");
-
-        localStorage.setItem("toc", pinned);
-    };
-    pinToc();
 }
 
 // Split
