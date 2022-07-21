@@ -3,8 +3,8 @@ layout:             page
 title:              Security & Privacy
 published:          true
 date:               2022-07-15
-modified:           2022-07-15
-order:              /bullet-chart/{98}
+modified:           2022-07-20
+order:              /bullet-chart/{97}
 ---
 
 Bullet Chart does not send your data over the Internet or collect your use. You're safe!
