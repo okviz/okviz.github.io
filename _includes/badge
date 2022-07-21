@@ -3,9 +3,6 @@
 {% elsif include.v %}
     <!--googleoff: snippet--><span class="badge version lc" title="Available from version {{ include.v }}">v{{ include.v }}</span><!--googleon: snippet-->
 {% elsif include.premium %}
-    {% assign page_dir = "" %}
-    {% if page.collection %}
-        {% assign page_dir = "_" | append: page.collection %}
-    {% endif %}
-    <!--googleoff: snippet--><span class="badge premium" title="Available to Premium users only">{% if include.premium == true %}Premium ✦{% else %}<a href="{{ page_dir | append: include.premium }}">Premium ✦</a>{% endif %}</span><!--googleon: snippet-->
+    {% assign premium_url = page.premium | remove: ".md" %}
+    <!--googleoff: snippet--><span class="badge premium" title="Available to Premium users only">{% if include.premium == true %}Premium ✦{% else %}<a href="{{ premium_url }}">Premium ✦</a>{% endif %}</span><!--googleon: snippet-->
 {% endif %}
