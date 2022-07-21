@@ -39,11 +39,11 @@ Here is an overview of the process required to obtain licenses for Calendar Pro:
 
 If you are using Calendar Pro without a valid license, you will see different notifications based on your environment:
 
-- Power BI Desktop / Power BI service in Edit view 
+- Power BI Desktop / Power BI service in Edit view: 
 
     <img src="images/license-unlock-edit-view.png" width="600">
 
-- Power BI service in [Reading view](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-reading-view#reading-view)
+- Power BI service in:
 
     <img src="images/license-unlock.png" width="600">
 
@@ -55,3 +55,4 @@ If you are using Calendar Pro without a valid license, you will see different no
 #### Related Resources:
 - [Power BI AppSource visual license models](https://docs.microsoft.com/en-us/power-bi/developer/visuals/custom-visual-licenses)
 - [ISV App License Management](https://docs.microsoft.com/en-us/azure/marketplace/isv-app-license-power-bi-visual)
+- [Reading view in Power BI](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-reading-view#reading-view)

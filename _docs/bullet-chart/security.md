@@ -2,13 +2,20 @@
 layout:             page
 title:              Security & Privacy
 published:          true
-date:               2022-07-15
-modified:           2022-07-20
+date:               2022-07-17
+modified:           2022-07-17
 order:              /bullet-chart/{97}
+toc:                false
 ---
+Bullet Chart uses the latest tecnologies available and is updated regularly. It does not contain malicious or unsafe code.
 
-Bullet Chart does not send your data over the Internet or collect your use. You're safe!
+## Certification
 
-Bullet Chart is certified by Microsoft. This means that they have inspected our source code (and continue to do so on any updates) to make sure there is no malware and we are not stealing your data. 
+The [Power BI certification program](../get-started/certification.md) ensures that custom visuals are safe, up-to-date, and reliable.
 
-> Find out more information here: [Certification](../get-started/certification.md)
+**Bullet Chart is certified by Microsoft.**
+
+
+## Data Sent over the Internet
+
+No data is sent over the Internet to external services. The only network communication is between the Power BI core services and the visual, which is required to make it work properly.
