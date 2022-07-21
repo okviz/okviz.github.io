@@ -1,0 +1,86 @@
+---
+layout:         page
+title:          Category Axis
+published:      true
+date:           2022-07-07
+modified:   	2022-07-19
+order:          /bullet-chart/options/category-axis
+---
+
+**Default value:** On
+
+When enabled, this options' section displays category axis labels and allows to edit their appearance.
+
+<img src="images/category-axis-show.png" width="700">
+
+If set to **Off**, this options' section hides the category axis and disables the related display options.
+
+<img src="images/category-axis-show-off.png" width="700">
+
+## Text 
+
+**Default value:** Auto
+
+<img src="images/category-axis-text.png" width="700">
+
+This option is only visible when no measures are connected to the **Category** field and there is only one measure connected to the **Value** field.
+
+<img src="images/category-axis-text-empty-category-one-value.png" width="700">
+
+***Auto*** means that the category name displayed will be the same as the name of the measure connected to the **Value** field.
+
+<img src="images/category-axis-text-auto-demo.png" width="700">
+
+When edited, the text option allow a custom name to be assigned to the axis label.
+
+<img src="images/category-axis-text-demo.png" width="700">
+
+## Show Entire Text
+
+**Default value:** On
+
+If enabled, this option automatically enlarges the category axis to display the entire labels text. Labels will be displayed according to the **Orientation** of the visual:
+
+- **Horizontal**
+
+    <img src="images/category-axis-show-entire-text-horizontal.png" width="700">
+
+- **Vertical**
+
+    <img src="images/category-axis-show-entire-text-vertical.png" width="700">
+
+If it is inactive, labels' size will adapt to the category axis available space, with slightly different behavior depending on the visual's **Orientation**:
+
+- **Horizontal:**  Label text could be truncated with ellipsis, according to the available axis space. Labels' orientation always remains horizontal.
+
+    <img src="images/category-axis-show-entire-text-off-h.png" width="700">   
+
+- **Vertical:** Label text could be truncated with ellipsis, according to the available axis space. Label orientation could be horizontal or at a 35/90-degree angle, depending on the height and width set for the visual.
+
+    <img src="images/category-axis-show-entire-text-off-v-0deg.png" width="700">
+
+    <img src="images/category-axis-show-entire-text-off-v-35deg.png" width="700">
+
+    <img src="images/category-axis-show-entire-text-off-v-90deg.png" width="700">
+
+## Font Family
+
+**Default value:** Segoe UI
+
+This option specifies the font used to display the category labels
+
+<img src="images/category-axis-font-family.png" width="700">
+
+## Text Size
+
+**Default value:** 9px
+
+Defines the size of the font used to display the category labels
+
+<img src="images/category-axis-font-size.png" width="700">
+
+## Color
+
+Specifies the color of the text for the category labels
+
+<img src="images/category-axis-color.png" width="700">
