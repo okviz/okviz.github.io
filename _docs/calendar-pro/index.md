@@ -3,7 +3,7 @@ layout:             page
 title:              Calendar Pro
 published:          true
 date:               2022-07-13
-modified:           2022-07-18
+modified:           2022-07-21
 order:              /calendar-pro
 menu_class:         icon icon-calendar
 next_reading:       true
@@ -13,4 +13,6 @@ next_reading:       true
 
 <img src="images/calendar-pro.png" width="600" class="noborder noround noshadow">
 
-> You can download and try Calendar Pro from this page: [Try Calendar Pro](https://okviz.com/calendar-pro)
+> You can download Calendar Pro from AppSource: [Download Calendar Pro](https://appsource.microsoft.com/en-US/product/power-bi-visuals/okvizcorp1634637213047.calendarprobyokviz)
+
+> You can visit OKVIZ website here: [Calendar Pro Website](https://okviz.com/calendar-pro)

@@ -14,7 +14,7 @@
             {% assign related_page_path = page_dir | append: related_path %}
             {% assign related_page = site.docs | where: "path", related_page_path | first %}
             {% if related_page %}
-                <li><a href="{{ related_page.url }}" title="{{ related_page_path }}">{{ related_page.title }}</a></li>
+                <li><a href="{{ related_page.url }}">{{ related_page.title }}</a></li>
             {% endif %}
         {% endfor %}
     {% endcapture %}

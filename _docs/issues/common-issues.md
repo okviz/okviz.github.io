@@ -15,7 +15,7 @@ Here are some of the most common errors you can run into with Power BI and custo
     <video src="images/generic-error.mp4" width="450" autoplay loop muted></video>
 
 - ### The visual is no longer available. Please contact your administrator for details.
-    This happens when you share a report containing a custom visual stored in the Org Store outside your organization. If you plan to share a report file, include any custom visuals directly from a file. See [Installation](../get-started/installation.md) for more information.  
+    This happens when you share a report containing a custom visual stored in the [Org Store](../get-started/org-store.md) outside your organization. If you plan to share a report file, include any custom visuals directly from a file. See [Installation](../get-started/installation.md) for more information.  
 
     <img src="images/visual-no-longer-available.png" width="450">
 

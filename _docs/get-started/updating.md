@@ -4,15 +4,15 @@ title:              Updating Visuals
 menu_title:         Updating
 published:          true
 date:               2021-12-21
-modified:           2022-07-15
-order:              /01/02
+modified:           2022-07-20
+order:              /01/03
 ---
-Updating our visuals is an essential part of our committment. This is the only way to fix bugs and take advantage of the latest features of Power BI.  
-From a user's perspective, updating a visual to a new version is a simple operation, but it requires different steps based on how our visuals have been installed.
+Keeping code updated is an essential part of our committment. This is the only way to get rid of bugs and take advantage of the latest features of Power BI.  
+From a user's perspective, updating a visual to a new version is a simple operation, but it requires different steps based on how visuals have been installed.
 
 ## From a File
 
-The procedure to update a local visual file is identical to the one you follow during the installation:
+The updating process of a local visual file is almost identical to its installation:
 
 1.	Open a report with Power BI Desktop or from the Power BI service.
 2.	Select the ellipsis from the bottom of the ***Visualizations*** pane and choose ***Import a visual from a file*** from the dropdown menu.
@@ -27,16 +27,16 @@ The procedure to update a local visual file is identical to the one you follow d
 
 ## From the AppSource
 
-After installing a visual from the AppSource, you don't need to do anything to use the latest version of our visuals. In fact, each new version is automatically downloaded and updated in every report that uses that visual.
+If the visual has been installed on AppSource, no additional actions are required to keep it up to date. In fact, every new version of the visual is automatically downloaded in every report that uses a previous version.
 
-This behavior is straightforth and time-saving, but since **it does not show any notification when a new version has been downloaded in your reports and you have no control over it** (you can't downgrade for example), you may run into problems if there is a regression in the visual's code or sudden changes in the report layout.
+This behavior is straightforth and time-saving, but since **it doesn't show any notification when a new version is updated in your reports (and you cannot downgrade it at any time)** you may run into problems if a regression or new default settings cause a sudden change in the report layout. It is our duty to avoid these scenarios, but they actually happen.
 
 ## From the Org Store
 
-When a new version of a custom visual already installed in the Org Store is released, a Power BI admin can automatically **update all the reports using that visual throughout the organization**.
+When a new version of a custom visual installed in the Org Store is released, Power BI admins can automatically **update all the reports using that visual throughout the organization**.
 To update an existing visual in the Org Store:
 
-1.	Log into your Power BI account and navigate to ***Admin portal***.
+1.	Log into your Power BI account and navigate to [Admin portal](https://app.powerbi.com/admin-portal/).
 
     <img src="images/installation-org-1.png" width="500">
 

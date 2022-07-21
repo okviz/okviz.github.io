@@ -1,10 +1,10 @@
 ---
 layout:             page
-title:              Visuals Features
+title:              Common Features
 menu_title:         Features
 published:          true
 date:               2022-07-14
-modified:           2022-07-17
+modified:           2022-07-20
 order:              /02
 next_reading:       true
 ---
