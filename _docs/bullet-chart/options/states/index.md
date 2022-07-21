@@ -17,7 +17,7 @@ When enabled, this section enables displaying of the bullets' states and related
 
 This option allows adding states to the tooltips screentip.
 
-## Opacity {% include  %}
+## Opacity 
 
 **Default Value:** 100
 
