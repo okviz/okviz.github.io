@@ -14,4 +14,4 @@ next_reading:       true
 
 <img src="images/calendar-pro.png" width="600" class="noborder noround noshadow">
 
-> Download and try Calendar Pro from [AppSource](https://appsource.microsoft.com/en-US/product/power-bi-visuals/okvizcorp1634637213047.calendarprobyokviz)
+> [Download and try Calendar Pro](https://appsource.microsoft.com/en-US/product/power-bi-visuals/okvizcorp1634637213047.calendarprobyokviz) from AppSource.

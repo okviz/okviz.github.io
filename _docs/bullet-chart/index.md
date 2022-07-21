@@ -15,4 +15,4 @@ menu_class:         icon icon-bullet-chart
 
 The original bullet chart was created by **Stephen Few**; he designed it to solve common business intelligence problems in a elegant and meaningful way - we just brought these concepts into Power BI, see [Bullet Design](features/bullet-design.md).
 
-> Download and Bullet Chart from [AppSource](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380953)
+> [Download Bullet Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380953) from AppSource.

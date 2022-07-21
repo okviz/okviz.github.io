@@ -32,7 +32,7 @@ If you have questions, write to [support@okviz.com](mailto:support@okviz.com)
 
 Smart Filter Pro **does not send user/report data over the Internet** to external services.
 
-However, it periodically communicate with external services to check the current status of your license and collect anonymous usage data ([Telemetry](#telemetry)). Although you can disable telemetry, you cannot block communication with our license servers, otherwise the visual will stop working properly.
+However, it periodically communicate with external services to check the current status of your license and collect anonymous usage data (Telemetry). Although you can disable telemetry, you cannot block communication with our license servers, otherwise the visual will stop working properly.
 
 If you have a corporate firewall that blocks outbound connections, you need to whitelist this URL:
 

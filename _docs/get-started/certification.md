@@ -50,6 +50,7 @@ These limitations mean that if, for example, you export a report containing an u
 
 <img src="../issues/images/not-support-exporting.png" width="350">
 
+
 ### Enabled Uncertified Visuals
 
 Uncertified visuals may have been disabled in your organization; refer to this page to enable them: [Enable Custom Visuals](../get-started/installation.md#enable-custom-visuals)

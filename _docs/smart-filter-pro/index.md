@@ -14,4 +14,4 @@ next_reading:       true
 
 <img src="images/smart-filter-pro.png" width="440" class="noborder noround noshadow">
 
-> You can download and try Smart Filter Pro from this page: [Try Smart Filter Pro](https://okviz.com/smart-filter-pro)
+> [Download and try Smart Filter Pro](https://okviz.com/smart-filter-pro) from our website.

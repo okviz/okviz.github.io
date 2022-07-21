@@ -8,6 +8,6 @@ order:              /bullet-chart/{99}
 toc_max:            2
 ---
 This page contains a quick summary of versions and notable changes of Bullet Chart.  
-Bullet Chart uses **Power BI Custom Visuals API v4.7.0** - compatible with Power BI July 2022 and later versions.
+Bullet Chart uses **Power BI Custom Visuals API v4.7.0** - compatible with Power BI Desktop July 2022 and later versions.
 
 <todo>Add changelog</todo>
