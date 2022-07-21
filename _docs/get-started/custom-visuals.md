@@ -13,7 +13,7 @@ OKVIZ visuals are custom visuals. Custom visuals are components for Power BI dev
 From a usage point of view, custom visuals are similar to core visuals such as Bar Chart, Treemap, etc...; you can drag them to a report, assign data, interact and so on. As for the underlying features, however, there are some differences between custom and core visuals, as not all Power BI capabilities are available to custom visuals, and some security restrictions affect the overall user experience with them.
 
 
-## Custom Visuals Limitation
+## Custom Visuals Limitations
 
 <todo>Security measures, link to certification</todo>
 
