@@ -11,4 +11,4 @@ Smart Filter Pro allows you to **paste data from other applications such as Micr
 
 Find out how it works and configure it here: [Split Pasted Text](../options/mode/split-pasted-text.md)
 
-<video src="images/copy-paste.mp4" width="400" autoplay loop muted></video>
+<video src="images/copy-paste.mp4" width="600" autoplay loop muted></video>

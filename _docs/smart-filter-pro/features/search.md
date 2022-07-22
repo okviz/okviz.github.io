@@ -22,7 +22,7 @@ Search mode is the simplified version of the [Filter mode](filter.md). This work
 
 The Search mode supports multiple fields, like the other modes, but only allows you to search for one field at a time. In case you connect multiple fields, a drop-down menu appears at the top of the visual from which you can select the field to search for.
 
-<img src="images/search-mode-manycategories.png" width="650">
+<video src="images/search-mode-multiple.mp4" width="750" autoplay loop muted></video>
 
 
 ## How to Search

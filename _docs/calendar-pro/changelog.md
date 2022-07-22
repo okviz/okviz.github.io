@@ -11,7 +11,7 @@ This page contains a quick summary of versions and notable changes of Calendar P
 Smart Filter Pro uses **Power BI Custom Visuals API v4.7.0** - compatible with Power BI Desktop July 2022 and later versions.
 
 ## v1.0.1
-**Released:** 2022-07-17
+**Released:** 2022-07-22
 
 **Added:**
 - A wizard dialog when the visual contains no data.
