@@ -5,7 +5,7 @@ published:          true
 date:               2021-11-20
 modified:           2022-07-19
 order:              /smart-filter-pro/options/appearance/border-color
-available:          all modes except Hierarchy
+available:          All modes except Hierarchy
 internal:           borderFill
 related:            
     - border.md

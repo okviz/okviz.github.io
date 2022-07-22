@@ -5,7 +5,8 @@ published:          true
 date:               2022-07-19
 modified:           2022-07-19
 order:              /smart-filter-pro/options/labels-placeholders/font-color
-internal:           placeholderFill
+internal:           fill
+available:          Dropdown | Observer mode
 related:
     - font-family.md
     - text-size.md
@@ -13,7 +14,7 @@ related:
 
 **Default value:** {% include color value="#A6A6A6" %}
 
-This option defines the font size of the input placeholder or the labels in Observer mode.  
+This option defines the color of labels that appear in Observer mode and Dropdown mode with horizontal orientation.  
 
 <todo>Screenshot</todo>
 

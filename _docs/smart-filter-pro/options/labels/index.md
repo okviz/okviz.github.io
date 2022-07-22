@@ -4,18 +4,25 @@ title:              Labels & Placeholders
 menu_title:         Labels
 published:          true
 date:               2021-11-20
-modified:           2022-01-20 
+modified:           2022-07-22 
 order:              /smart-filter-pro/options/labels-placeholders
+available:          All modes except Hierarchy
+toc:                false
+class:              normal
 next_reading:       true
-next_reading_title: Options
+next_reading_title: Other Options
 ---
 
-The options in this section define the appearance of the placeholders and labels of the visual. 
+The options in this section define the appearance of placeholders and labels of Smart Filter Pro. 
 
-With placeholder we intend the light text that appears inside the filter input in all modes except Observer. Labels, instead, are visible only when you are in Observer mode or Dropdown mode with horizontal orientation. 
+By *placeholder* we mean the clear text that appears within the filter input in all modes except Observer. Labels, on the other hand, are visible only when in Observer mode or Dropdown mode with horizontal orientation. 
 
-<img src="images/labels-placeholders.png" width="550"> 
+<img src="images/placeholders.png" width="400"> 
 
-For each field connected to the visual, you can choose a specific text that will appear in relevant placeholders/labels.
+## Text
 
-<img src="images/labels-placeholders-observer.png" width="550">   
+**Default value:** Field name
+
+For each field connected to the visual, you can choose a specific text that will appear in relevant placeholder/label.
+
+<img src="images/placeholders-text.png" width="200">   

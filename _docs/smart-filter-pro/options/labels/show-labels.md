@@ -13,6 +13,6 @@ related:
 
 **Default value:** On
 
-This option affects only visuals in Dropdown mode in horizontal orientation and if a label must be displayed above every filter field, like it happens with Observer mode.
+This option only affects visuals in Dropdown mode with horizontal orientation. If enabled, a label is displayed above every filter field, like it happens with Observer mode.
 
 <todo>Screenshot</todo>

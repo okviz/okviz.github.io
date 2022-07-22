@@ -32,7 +32,7 @@ for (let i = 0; i < treeLinks.length; i++) {
 // TOC
 const tocElement = document.querySelector(".toc");
 if (tocElement) {
-    const tocRect = tocElement.getBoundingClientRect();
+
     const observer = new IntersectionObserver(([e]) => {
         if (e.boundingClientRect.top + e.boundingClientRect.height > window.innerHeight)
             e.target.classList.remove("sticky")
@@ -55,9 +55,7 @@ if (tocElement) {
     };
     pinToc();
 
-    tocElement.querySelector(".expander").addEventListener("click", e => {
-        e.preventDefault();
-
+    const toggleToc = ()=> {
         const expanded = !(!tocElement.classList.contains("collapsed") && (tocElement.classList.contains("expanded") || !tocElement.classList.contains("sticky")));
         if (expanded) {
             tocElement.classList.add("expanded");
@@ -66,7 +64,12 @@ if (tocElement) {
             tocElement.classList.remove("expanded");
             tocElement.classList.add("collapsed");
         }
-    });
+    };
+
+    tocElement.querySelectorAll(".expander, .toc-title").forEach(el => el.addEventListener("click", e => {
+        e.preventDefault();
+        toggleToc();
+    }));
     tocElement.querySelector(".pin").addEventListener("click", e => {
         e.preventDefault();
 

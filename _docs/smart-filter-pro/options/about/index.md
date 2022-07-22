@@ -31,10 +31,8 @@ Learn more where to get this info here: [Smart Filter Pro Licensing](../../licen
 
 > Note that ***Licensee name*** and ***License key*** may be read-only if you are using Smart Filter Pro from a file - this means that the visual is pre-activated and the license information is hardcoded in the visual itself.
 
-## Send Telemetry 
+## Options
 
-See dedicated page: [Send Telemetry](send-telemetry.md)
-
-## Check for Updates 
-
-See dedicated page: [Check for updates](check-for-updates.md)
+You can also set some options here:
+- [Check for updates](check-for-updates.md)
+- [Send Telemetry](send-telemetry.md)

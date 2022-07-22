@@ -5,7 +5,6 @@ published:          true
 date:               2021-12-16
 modified:           2022-07-19
 order:              /smart-filter-pro/options/mode/search-on-typing
-toc:                false
 internal:           searchOnTyping
 available:          Search mode
 related:    
