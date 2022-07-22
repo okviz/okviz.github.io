@@ -12,6 +12,6 @@ next_reading:       true
 
 **Smart Filter Pro** is a Power BI custom visual that works like an advanced slicer and allows to filter on multiple data columns - it provides several unique features and can be used in different working modes.
 
-<img src="images/smart-filter-pro.png" width="440" class="noborder noround noshadow">
+<img src="images/smart-filter-pro.png" width="440" class="naked">
 
 > [Download and try Smart Filter Pro](https://okviz.com/smart-filter-pro) from our website.

@@ -3,18 +3,22 @@ layout:             page
 title:              About & License
 published:          true
 date:               2021-11-15
-modified:           2022-07-19
+modified:           2022-07-22
 order:              /smart-filter-pro/options/about-license
 internal:           name, version, license, user, key, expiry
 toc:                false
-next_reading:       true
-next_reading_title: Other Options
 ---
 This section contains information about the visual such as the version, licensing details, and options related to telemetry and updates.
 
-<img src="images/about.png" width="180" class="fr">
+## Name
+<img src="images/about.png" width="200" class="fr">
+The name of the visual.
 
-### License
+## Version
+
+The current version of visual.
+
+## License Details
 
 License details include the following fields:
 
@@ -23,6 +27,14 @@ License details include the following fields:
 -	**License status**: Active/Expired *(read-only)*
 -	**Expiration date**: Expiry of the license if not renewed *(read-only)*
 
-Note that licensee name and license key fields may be read-only if you are using Smart Filter Pro from a file - this means that the visual is pre-activated and the license information is hardcoded in the visual itself.
+Learn more where to get this info here: [Smart Filter Pro Licensing](../../licensing.md)
 
-> More information can be found here: [Smart Filter Pro Licensing](../../licensing.md)
+> Note that ***Licensee name*** and ***License key*** may be read-only if you are using Smart Filter Pro from a file - this means that the visual is pre-activated and the license information is hardcoded in the visual itself.
+
+## Send Telemetry 
+
+See dedicated page: [Send Telemetry](send-telemetry.md)
+
+## Check for Updates 
+
+See dedicated page: [Check for updates](check-for-updates.md)

@@ -25,9 +25,9 @@ Here is an overview of the process required to obtain licenses for Bullet Chart:
 
     If you don't get enough licenses, some of your users will see an [invalid license notification](#invalid-license-notifications) or won't be able to use the visual at all.
 
-2. Visit the [Bullet Chart page on AppSource](ttps://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380953) and purchase a plan that best suits your requiriments. 
+2. Visit the [Bullet Chart page on AppSource](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380953) and purchase a plan that best suits your requirements. 
 
-    <todo>Screenshot</tod>
+    <img src="images/license-plans.png" width="750">
 
 3. Assign the license(s) to yourself, your users or Active Directory groups via [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/subscriptions)
 
