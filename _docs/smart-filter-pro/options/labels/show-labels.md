@@ -3,7 +3,7 @@ layout:             page
 title:              Show Labels
 published:          true
 date:               2022-07-20
-modified:           2022-07-20
+modified:           2022-07-22
 order:              /smart-filter-pro/options/labels-placeholders/show-labels
 available:          Dropdown mode
 internal:           showLabels
@@ -15,4 +15,4 @@ related:
 
 This option only affects visuals in Dropdown mode with horizontal orientation. If enabled, a label is displayed above every filter field, like it happens with Observer mode.
 
-<todo>Screenshot</todo>
+<img src="images/show-labels.png" width="600"> 

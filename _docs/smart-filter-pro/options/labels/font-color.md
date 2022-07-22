@@ -3,7 +3,7 @@ layout:             page
 title:              Font Color
 published:          true
 date:               2022-07-19
-modified:           2022-07-19
+modified:           2022-07-22
 order:              /smart-filter-pro/options/labels-placeholders/font-color
 internal:           fill
 available:          Dropdown | Observer mode
@@ -16,6 +16,6 @@ related:
 
 This option defines the color of labels that appear in Observer mode and Dropdown mode with horizontal orientation.  
 
-<todo>Screenshot</todo>
+<img src="images/font-color.png" width="600">   
 
 > This option is not controllable through a [Report Theme](../../features/themes.md).

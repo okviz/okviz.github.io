@@ -13,6 +13,6 @@ available:          Dropdown | Filter | Search mode
 
 This option defines the color of input placeholders.  
 
-<todo>Screenshot</todo>
+<img src="images/placeholders-color.png" width="600"> 
 
 > This option is not controllable through a [Report Theme](../../features/themes.md).
