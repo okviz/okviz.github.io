@@ -5,7 +5,7 @@ published:          true
 date:               2021-11-15
 modified:           2022-07-22
 order:              /smart-filter-pro/options/about-license
-internal:           name, version, license, user, key, expiry
+internal:           about, name, version, license, user, key, expiry
 toc:                false
 ---
 This section contains information about the visual such as the version, licensing details, and options related to telemetry and updates.

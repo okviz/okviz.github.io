@@ -44,6 +44,13 @@ layout: default
             {% endif %}
 
             <footer>
+                {% if page.premium %}
+                    {% assign premium_url = page.premium | remove: ".md" %}
+                    <p>
+                        This is a <strong>Premium feature</strong>. Find more information here: <a href="{{ premium_url }}">Premium</a>
+                    </p>
+                {% endif %}
+
                 {% if page.available %}
                     <p>The content of this page is relevant or only available to: <strong>{{ page.available | replace: " | ", ", " }}</strong></p>
                 {% endif %}

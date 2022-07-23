@@ -3,7 +3,7 @@ layout:             page
 title:              Report Themes
 published:          true
 date:               2022-07-18
-modified:           2022-07-18
+modified:           2022-07-23
 order:              /calendar-pro/features/themes
 ---
 
@@ -13,5 +13,5 @@ Assuming you are setting up a custom JSON theme file ([as described here](https:
 
 | Property | Theme Color |
 | -------- | ----------- |
-| <todo>TODO</todo>     | dataColors (first color) |
+| [Legend color](../options/legend/color.md) | foreground |
 
