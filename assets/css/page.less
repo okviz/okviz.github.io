@@ -68,6 +68,19 @@
             display: inline-block;
             border: 1px solid @border-color;
             .shadow;
+
+            .dark & {
+                border-color: @border-color-dark;
+            }
+
+            &.broken {
+                height: 80px;
+                background: @nav-back-color;
+
+                .dark & {
+                    background: @nav-back-color-dark;
+                }
+            }
     
             &.noborder {
                 border:none;

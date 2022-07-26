@@ -29,7 +29,7 @@ for (let i = 0; i < treeLinks.length; i++) {
     }
 }
 
-// H Collapsing
+// Hs Collapsing
 const toggleH = (toggle, el)=> {
     if (!el) return;
 
@@ -59,7 +59,13 @@ document.querySelectorAll("h2, h3, h4, h5, h6").forEach(h => h.addEventListener(
     toggleH(toggle, el);
 }));
 
-
+// Fix broken images
+document.querySelectorAll("img").forEach(img => {
+    if (!img.complete || img.naturalHeight == 0) {
+        img.classList.add("broken");
+        img.src = "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="; // Blank image
+    }
+});
 
 // TOC
 const tocElement = document.querySelector(".toc");
