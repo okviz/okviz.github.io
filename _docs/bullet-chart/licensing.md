@@ -9,6 +9,7 @@ toc_max:            2
 ---
 
 Bullet Chart is a free visual but [some features](options/premium/index.md) require a valid license to be used. We adhere to the ***ISV app licensing system*** provided by Microsoft to allow users to purchase and manage licenses easily.
+
 > **Power BI Embedded / Report Server**: Bullet Chart cannot be licensed on Power BI Embedded or Report Server using the system described on this page. If you are in one of these environments, please [contact us](mailto:support@okviz.com?title=Bullet+Chart+Unsupported+Env)
 
 ## Purchase Licenses
@@ -49,7 +50,7 @@ Follow these steps to proceed:
 
 1. Sign in to your [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/licenses)
 
-2. On the navigation menu, select Billing > Licenses.
+2. On the navigation menu, select ***Billing*** > ***Licenses***.
 
 3. Click on ***Assign License*** and select the users or groups to assign the license to.
 
