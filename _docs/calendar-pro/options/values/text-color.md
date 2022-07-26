@@ -4,12 +4,12 @@ title:              Text Color
 published:          true
 date:               2022-07-26
 modified:           2022-07-26
-order:              /calendar-pro/options/events-holidays-labels/text-color
+order:              /calendar-pro/options/cell-value/text-color
 internal:           fill
 ---
 **Default value:** Auto
 
-This option defines the text color of events/holidays labels. By default, it takes the background color of the label and assigns a color of a darker/lighter tone, with acceptable contrast. 
+This option defines the text color of cell value labels. By default, it takes the background color of the cell and assigns a color of a darker/lighter tone, with acceptable contrast. 
 
 <todo>Screenshot</todo>
 

@@ -1,0 +1,10 @@
+---
+layout:             page
+title:              Decimal Places
+published:          true
+date:               2022-07-26
+modified:           2022-07-26
+order:              /calendar-pro/options/cell-value/decimal-places
+internal:           precision
+---
+**Default value:** 0
