@@ -28,16 +28,6 @@ for (let i = 0; i < treeLinks.length; i++) {
         break;
     }
 }
-// Store nav position
-const navElement = document.querySelector(".main-nav");
-if (navElement) {
-    const storage = "nav-position";
-    const top = sessionStorage.getItem(storage);
-    if (top !== null)
-        navElement.scrollTop = parseInt(top, 10);
-
-    window.addEventListener("beforeunload", () => sessionStorage.setItem(storage, navElement.scrollTop));
-}
 
 // TOC
 const tocElement = document.querySelector(".toc");
@@ -90,34 +80,62 @@ if (tocElement) {
 
 }
 
-// Split
-let defaultSizes = [20, 80];
-let navSizes = localStorage.getItem("nav");
-navSizes = (navSizes ? JSON.parse(navSizes) : defaultSizes);
-try {
-    let panes = Split([".main-nav", ".main-content"], {
-        sizes: navSizes,
-        minSize: [0, 450],
-        gutterSize: 8,
-        direction: "horizontal",
-        cursor: "ew-resize",
-        onDragEnd: function (sizes) {
-            localStorage.setItem("nav", JSON.stringify(sizes))
-        }
+// Nav position & expanded status
+const navElement = document.querySelector(".main-nav");
+if (navElement) {
+    const storage = "nav-status";
+    let data = JSON.parse(sessionStorage.getItem(storage));
+    if (!data) data = { expanded: [], scroll: 0 };
+        
+    data.expanded.forEach(id => {
+        let el = document.getElementById(id);
+        if (el) el.classList.add("expanded");
     });
+    if (data.scroll)
+        navElement.scrollTop = parseInt(data.scroll, 10);
+    
+    window.addEventListener("beforeunload", () => {
+        let expanded = [];
+        navElement.querySelectorAll(".expanded").forEach(el => expanded.push(el.id));
 
-    document.querySelector(".burger").addEventListener("click", e => {
-        e.preventDefault();
-
-        if (panes) {
-            let currentSizes = panes.getSizes();
-            let sizes = (currentSizes[0] < 10 ? defaultSizes : [0, 100]);
-            panes.setSizes(sizes);
-            localStorage.setItem("nav", JSON.stringify(sizes))
-        }
+        sessionStorage.setItem(storage, JSON.stringify({
+            scroll: navElement.scrollTop,
+            expanded: expanded
+        }));
     });
+}
 
-} catch (e){}
+// Nav Split
+if (navElement) {
+    const storage = "panels-sizes";
+    const defaultSizes = [20, 80];
+    let sizes = JSON.parse(localStorage.getItem(storage));
+    if (!sizes) sizes = defaultSizes;
+
+    try {
+        let panes = Split([".main-nav", ".main-content"], {
+            sizes: sizes,
+            minSize: [0, 450],
+            gutterSize: 8,
+            direction: "horizontal",
+            cursor: "ew-resize",
+            onDragEnd: function (sizes) {
+                localStorage.setItem(storage, JSON.stringify(sizes))
+            }
+        });
+
+        document.querySelector(".burger").addEventListener("click", e => {
+            e.preventDefault();
+
+            if (panes) {
+                let currentSizes = panes.getSizes();
+                let sizes = (currentSizes[0] < 10 ? defaultSizes : [0, 100]);
+                panes.setSizes(sizes);
+                localStorage.setItem(storage, JSON.stringify(sizes));
+            }
+        });
+    } catch (e){}
+}
 
 // TO DO
 let showToDo = (window.location.search == "?todo");
