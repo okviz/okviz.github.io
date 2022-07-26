@@ -23,7 +23,7 @@ Here is an overview of the process required to obtain licenses for Calendar Pro:
     | 10 | 50 | 60|
     | 10 | 10,000 | 10,010 |
 
-    If you don't get enough licenses, some of your users will see an [invalid license notification](#invalid-license-notifications) or won't be able to use the visual at all.
+    If you don't get enough licenses, some of your users will see an [invalid license notification](#unlicensed-notifications) or won't be able to use the visual at all.
 
 2. Visit the [Calendar Pro page on AppSource](https://appsource.microsoft.com/en-US/product/power-bi-visuals/okvizcorp1634637213047.calendarprobyokviz) and purchase a plan that best suits your requirements. 
 

@@ -14,4 +14,5 @@ Assuming you are setting up a custom JSON theme file ([as described here](https:
 | Property | Theme Color |
 | -------- | ----------- |
 | [Legend color](../options/legend/color.md) | foreground |
+| [Events label border color](../options/events-labels/border-color.md) | foregroundNeutralDark |
 

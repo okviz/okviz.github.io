@@ -1,0 +1,13 @@
+---
+layout:             page
+title:              Rows 
+published:          true
+date:               2022-07-26
+modified:           2022-07-26
+order:              /calendar-pro/options/appearance/rows
+internal:           rows
+related:
+    - columns.md
+    - /calendar-pro/options/toolbar/layout.md
+---
+**Default value:** 1
