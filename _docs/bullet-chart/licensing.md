@@ -63,16 +63,16 @@ At this point the users you have selected will be able to use all the features o
 
 ## Unlicensed Notifications
 
-If you are using Bullet Chart without a valid license, its premium features are read-only: this means that you can play with them and try different configurations, but each option will be reset to its original value after a few seconds.
+If you are using Bullet Chart without a valid license, premium features are read-only: this means that you can play with them and try different configurations, but each option will be reset to its original value after a few seconds. Also some notifications will be displayed:
 
 - Upgrade notification: 
 
-    <todo>Screenshot</todo>
+    <img src="images/upgrade-banner.png" width="500">
 
-- Reset notification:
+- Feature reset notification:
 
-    <todo>Screenshot</todo>
+    <img src="images/feature-reset-banner.png" width="600">
 
-- Power BI Embedded / Report Server notification:
+- Power BI Embedded / Report Server environment:
 
-    <todo>Screenshot</todo>
+    <img src="images/unsupported-env-banner.png" width="600">
