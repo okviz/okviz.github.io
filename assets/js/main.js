@@ -28,8 +28,16 @@ for (let i = 0; i < treeLinks.length; i++) {
         break;
     }
 }
-const currentAnchor = document.querySelector(".main-nav .current");
-currentAnchor.scrollIntoView({ block: "nearest" });
+// Store nav position
+const navElement = document.querySelector(".main-nav");
+if (navElement) {
+    const storage = "nav-position";
+    const top = sessionStorage.getItem(storage);
+    if (top !== null)
+        navElement.scrollTop = parseInt(top, 10);
+
+    window.addEventListener("beforeunload", () => sessionStorage.setItem(storage, navElement.scrollTop));
+}
 
 // TOC
 const tocElement = document.querySelector(".toc");
