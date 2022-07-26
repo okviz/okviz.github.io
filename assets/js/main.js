@@ -28,6 +28,8 @@ for (let i = 0; i < treeLinks.length; i++) {
         break;
     }
 }
+const currentAnchor = document.querySelector(".main-nav .current");
+currentAnchor.scrollIntoView({ block: "nearest" });
 
 // TOC
 const tocElement = document.querySelector(".toc");
