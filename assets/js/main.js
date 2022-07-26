@@ -29,6 +29,38 @@ for (let i = 0; i < treeLinks.length; i++) {
     }
 }
 
+// H Collapsing
+const toggleH = (toggle, el)=> {
+    if (!el) return;
+
+    const level = parseInt(el.tagName.substr(1));
+    while (el) {
+        el = el.nextSibling;
+        if (!el || el.nodeType == Node.TEXT_NODE) continue;
+        if (el.classList.contains("next-reading") || el.tagName == "FOOTER") return;
+        if (el.tagName.length == 2 && el.tagName.substr(0, 1) == "H") {
+            const siblingLevel = parseInt(el.tagName.substr(1));
+            if (siblingLevel <= level) return;
+        }
+        if (!toggle) 
+            el.setAttribute("hidden", true);
+        else
+            el.removeAttribute("hidden")
+    }
+};
+document.querySelectorAll("h2, h3, h4, h5, h6").forEach(h => h.addEventListener("click", e => {
+    let el = e.target;
+    const toggle = el.classList.contains("collapsed");
+    if (toggle)
+        el.classList.remove("collapsed");
+    else
+        el.classList.add("collapsed");
+
+    toggleH(toggle, el);
+}));
+
+
+
 // TOC
 const tocElement = document.querySelector(".toc");
 if (tocElement) {

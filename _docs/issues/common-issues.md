@@ -36,7 +36,7 @@ Here are some of the most common errors you can run into with Power BI and custo
 - ### We can't display this visual because a measure is used in cross highlighting. Please remove the measure or cross highlight.
     **Smart Filter Pro**: This happens when you enable [Consolidate Fields](../smart-filter-pro/options/mode/consolidate-fields.md) and change the logical operator to ***OR***. Unfortunately, Power BI doesn't support filtering of different fields in OR.
 
-## Other Issues  
+- ### Other Issues  
 
-More errors are available on the Microsoft website: [Troubleshooting tile errors](https://docs.microsoft.com/en-us/power-bi/connect-data/refresh-troubleshooting-tile-errors)
+    More errors are available on the Microsoft website: [Troubleshooting tile errors](https://docs.microsoft.com/en-us/power-bi/connect-data/refresh-troubleshooting-tile-errors)
 
