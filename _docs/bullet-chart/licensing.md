@@ -23,7 +23,7 @@ Here is an overview of the process required to obtain licenses for Bullet Chart:
     | 10 | 50 | 60|
     | 10 | 10,000 | 10,010 |
 
-    > If you don't get enough licenses, some of your users will see an [invalid license notification](#unlicensed-notifications).
+    > If you don't get enough licenses, some of your users will see an [unlicensed notification](#unlicensed-notifications).
 
 2. Visit the [Bullet Chart page on AppSource](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380953) and press the ***Buy now*** button.
 
@@ -76,8 +76,3 @@ If you are using Bullet Chart without a valid license, its premium features are 
 - Power BI Embedded / Report Server notification:
 
     <todo>Screenshot</todo>
-
-
-#### Related Resources:
-- [Power BI AppSource visual license models](https://docs.microsoft.com/en-us/power-bi/developer/visuals/custom-visual-licenses)
-- [ISV App License Management](https://docs.microsoft.com/en-us/azure/marketplace/isv-app-license-power-bi-visual)
