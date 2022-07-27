@@ -3,14 +3,12 @@ layout:             page
 title:              Position
 published:          true
 date:               2022-07-07
-modified:   	    2022-07-20
+modified:   	    2022-07-27
 order:              /bullet-chart/options/data-labels/position
 premium:            /bullet-chart/licensing.md
 ---
 
 **Default Value:** Auto
-
-> This is a **Premium option**. More information about premium options can be found here: [Premium](../premium/index.md)
 
 Allows to specify the position of data labels relative to the bars. The following positioning options are available:
 

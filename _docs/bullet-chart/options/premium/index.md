@@ -9,7 +9,7 @@ order:          /bullet-chart/options/premium
 
 Bullet Chart is a free visual, but some advanced feature are only available with a **Premium license**.
 
-> More information about premium license can be found here: [Licensing]("../licensing.md")
+> More information about premium license can be found here: [Licensing](../../licensing.md)
 
 <todo> Add link to AppSource </todo>
 
@@ -21,7 +21,7 @@ This option allows you to view all the advanced features of the visual despite n
 
 <todo> Add screenshot for premium option </todo>
 
-Premium options in all sections are marked with the symbol ✦. 
+Premium options in all sections are marked with the symbol **✦**. 
 
 If you do not have a premium license, the effects of the selected premium options are still enabled and will be displayed for 60 seconds, then those options will be reset to their default value. 
 
