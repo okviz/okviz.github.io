@@ -21,6 +21,14 @@ When we find a bug in our visuals we usually fix it as soon as possible, but dep
     - **Uncertified Visuals:** 10 days
     - **Certified Visuals:** up to 3 weeks
 
+    During the deployment period the following message may appear on the visual:
+
+    <img src="images/deployment-notice.png" width="500">
+
+    This message means that the vendor (OKVIZ) has released a new version of the visuals that has been approved, but it will available to you only after the specified number of days.
+
+    <h4>Rollback</h4>
+
     When a regression occurs, we have the option of requesting a rollback to the previous version, but this causes other problems if:
 
     - the regression is discovered after a few days/weeks and users have started using new features introduced by the defective version;
