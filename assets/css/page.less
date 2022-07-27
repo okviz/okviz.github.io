@@ -74,11 +74,12 @@
             }
 
             &.broken {
+                display: none;
                 height: 80px;
-                background: @nav-back-color;
-
-                .dark & {
-                    background: @nav-back-color-dark;
+                background: @warning-color;
+                
+                .show-todo & {
+                    display: initial;
                 }
             }
     
