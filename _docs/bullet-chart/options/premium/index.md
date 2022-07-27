@@ -9,22 +9,24 @@ order:          /bullet-chart/options/premium
 
 Bullet Chart is a free visual, but some advanced feature are only available with a **Premium license**.
 
-> More information about premium license can be found here: [Licensing]("../licensing.md")
-
-<todo> Add link to AppSource </todo>
+> More information about premium license can be found here: [Licensing](../../licensing.md)
 
 ## Show Premium Features
 
-**Default value:** On
+**Default value:** Off
 
-This option allows you to view all the advanced features of the visual despite not having a premium license. 
+Enabling this option opens a wizard that shows some of the main premium Bullet Chart options . 
 
-<todo> Add screenshot for premium option </todo>
+<video src="images/show-premium-features.mp4" width="700" autoplay loop muted></video>
 
 Premium options in all sections are marked with the symbol ✦. 
 
-If you do not have a premium license, the effects of the selected premium options are still enabled and will be displayed for 60 seconds, then those options will be reset to their default value. 
+If a premium option is selected and you don't have a license, a banner in the upper left corner of the visual will show the “Upgrade" button that links to the AppSource to purchase a license. Hovering over the "i" icon will show the enabled premium option that triggers the banner.
 
-After 60 seconds, a banner will show all the selected premium settings that have been reset.
+<video src="images/features-reset-icon.mp4" width="700" autoplay loop muted></video>
 
-<todo> Add banner screenshot </todo>
+Even without a premium license, the effects of the selected premium options are still enabled and will be displayed for 60 seconds, then those options will be reset to their default value. 
+
+After 60 seconds, a banner in the bottom side of the visual will show all the selected premium settings that have been reset.
+
+<img src="images/features-reset-banner.png" width="700">
