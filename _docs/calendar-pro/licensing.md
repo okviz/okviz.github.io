@@ -40,8 +40,6 @@ Here is an overview of the process required to obtain licenses for Calendar Pro:
 
 5. Complete the checkout by providing a valid payment method and confirming the purchase.
 
-<todo>Screenshots</todo>
-
 ## Assign Licenses
 
 After you have purchased one or more licenses, you need to assign them to your users or Active Directory groups.
@@ -63,7 +61,6 @@ Follow these steps to proceed:
 4. Press ***Assign*** and you are done.
 
 At this point the users you have selected will be able to use all the features of Calendar Pro.
-<todo>Screenshots</todo>
 
 ## Unlicensed Notifications
 
