@@ -24,10 +24,10 @@ Allows to specify the position of data labels relative to the bars. The followin
 
     <img src="images/data-labels-position-outside-end.png" width="700">
 
-- **Inside-center:** the label is placed in the middle of the bar. If the bar is not large enough to contain the label it will not be displayed.
+- **Inside center:** the label is placed in the middle of the bar. If the bar is not large enough to contain the label it will not be displayed.
 
     <img src="images/data-labels-position-inside-center.png" width="700">
 
-- **Inside-base:** the label is placed inside, at the base of the bar. If the bar is not large enough to contain the label it will not be displayed.
+- **Inside base:** the label is placed inside, at the base of the bar. If the bar is not large enough to contain the label it will not be displayed.
 
     <img src="images/data-labels-position-inside-base.png" width="700">
