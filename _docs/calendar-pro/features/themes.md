@@ -13,7 +13,10 @@ Assuming you are setting up a custom JSON theme file ([as described here](https:
 
 | Property | Theme Color |
 | -------- | ----------- |
-| [Legend color](../options/legend/color.md) | foreground |
-| [Events label border color](../options/events-labels/border-color.md) | foregroundNeutralDark |
 | [Cells border color](../options/cells/border-color.md) | foregroundNeutralDark |
-
+| [Events label border color](../options/events-labels/border-color.md) | foregroundNeutralDark |
+| [Group title color](../options/gaxis/color.md) | foregroundNeutralSecondaryAlt |
+| [Legend color](../options/legend/color.md) | foreground |
+| [Week axis color](../options/waxis/color.md) | foregroundNeutralSecondaryAlt |
+| [Weekday axis color](../options/wdaxis/color.md) | foregroundNeutralSecondaryAlt |
+| [Year axis color](../options/yaxis/color.md) | foregroundNeutralSecondaryAlt |

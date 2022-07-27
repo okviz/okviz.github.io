@@ -6,5 +6,6 @@ date:               2022-07-22
 modified:           2022-07-22
 order:              /calendar-pro/options/toolbar/prev-next-page
 internal:           prevNextStepPageControls
+available:          Calendar Mode
 ---
 **Default value:** True

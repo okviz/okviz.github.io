@@ -6,6 +6,7 @@ date:               2022-07-26
 modified:           2022-07-26
 order:              /calendar-pro/options/cell-value/font-family
 internal:           fontFamily
+available:          Calendar Mode
 related:
     - font-style.md
     - text-size.md

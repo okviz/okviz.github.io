@@ -5,6 +5,7 @@ date:               2022-07-26
 modified:           2022-07-26
 order:              /calendar-pro/options/holidays/cell-label-color
 internal:           labelFill
+available:          Calendar Mode
 ---
 **Default value:** None
 

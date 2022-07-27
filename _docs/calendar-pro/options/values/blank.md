@@ -6,5 +6,6 @@ date:               2022-07-26
 modified:           2022-07-26
 order:              /calendar-pro/options/cell-value/show-blank
 internal:           showBlank
+available:          Calendar Mode
 ---
 **Default value:** False
