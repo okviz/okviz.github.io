@@ -3,7 +3,7 @@ layout:             page
 title:              Certification
 published:          true
 date:               2021-11-17
-modified:           2022-07-15
+modified:           2022-07-26
 order:              /02/05
 ---
 
@@ -16,6 +16,7 @@ The certification guarantees that the visual meets certain requirements like:
 - Not storing underlying data anywhere
 - Not using **insecure code** and adhering to some coding standards
 - Using the latest SDK API available
+- Be published on the Microsoft marketplace (AppSource)
 
 > You can find all the requirements in the following article, although its target audience is developers and some terms/concepts may be a bit obscure to you: [Get your Power BI visual certified](https://docs.microsoft.com/en-us/power-bi/developer/visuals/power-bi-custom-visuals-certified#certification-requirements)
 
