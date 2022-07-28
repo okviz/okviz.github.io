@@ -45,7 +45,9 @@ interface APIRequest {
 	url: string;
 
 	/** Data to pass */
-	data: any;
+	data: {
+		[key: string]: any
+	};
 }
 
 enum CookieConsent {
@@ -254,9 +256,22 @@ class CookieHelper {
 	 * Check user country
 	 */ 
 	private checkEU() {
-		return fetch(this.options.euCheckService.url, {
+
+		const failed = ()=> {
+			this.showCookieBar();
+		};
+
+		// Build form data
+		const requestData = new FormData();
+		if (this.options.euCheckService.data) {
+			for(let key in this.options.euCheckService.data)
+				requestData.append(key, this.options.euCheckService.data[key]);
+		}
+
+		// Send request
+		fetch(this.options.euCheckService.url, {
 			method: "POST", // *GET, POST, PUT, DELETE, etc.
-			mode: "cors", // no-cors, *cors, same-origin
+			mode: "no-cors", // no-cors, *cors, same-origin
 			cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
 			credentials: "omit", // include, *same-origin, omit
 			headers: {
@@ -265,18 +280,16 @@ class CookieHelper {
 			},
 			redirect: "follow", // manual, *follow, error
 			referrerPolicy: "unsafe-url", // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-			body: JSON.stringify(this.options.euCheckService.data)
+			body: requestData
 		})
-			.then(response => {
-				console.log("Response", response);
-				if (!response || response.body) //TODO Check
-					this.showCookieBar();
-				else
-					this.doConsent(CookieConsent.all, true);
-			})
-			.catch(ignore => {
-				this.showCookieBar();
-			});
+            .then(response => response.json())
+            .then(data => {
+                if (data)
+                    this.doConsent(CookieConsent.all, true);
+                else
+                    failed();
+            })
+            .catch(ignore => failed());
 	}
 
 	/**

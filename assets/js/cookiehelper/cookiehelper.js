@@ -179,9 +179,19 @@ class CookieHelper {
      * Check user country
      */
     checkEU() {
-        return fetch(this.options.euCheckService.url, {
+        const failed = () => {
+            this.showCookieBar();
+        };
+        // Build form data
+        const requestData = new FormData();
+        if (this.options.euCheckService.data) {
+            for (let key in this.options.euCheckService.data)
+                requestData.append(key, this.options.euCheckService.data[key]);
+        }
+        // Send request
+        fetch(this.options.euCheckService.url, {
             method: "POST",
-            mode: "cors",
+            mode: "no-cors",
             cache: "no-cache",
             credentials: "omit",
             headers: {
@@ -190,18 +200,16 @@ class CookieHelper {
             },
             redirect: "follow",
             referrerPolicy: "unsafe-url",
-            body: JSON.stringify(this.options.euCheckService.data)
+            body: requestData
         })
-            .then(response => {
-            console.log("Response", response);
-            if (!response || response.body) //TODO Check
-                this.showCookieBar();
-            else
+            .then(response => response.json())
+            .then(data => {
+            if (data)
                 this.doConsent(CookieConsent.all, true);
+            else
+                failed();
         })
-            .catch(ignore => {
-            this.showCookieBar();
-        });
+            .catch(ignore => failed());
     }
     /**
      * Remove all cookies except for consent one
