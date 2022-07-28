@@ -387,12 +387,7 @@ new Theme();
 const cookieHelper = new CookieHelper({
     consentCookie: "_okviz_consent",
     privacyUrl: "https://okviz.com/privacy/#cookies",
-    euCheckService: {
-        url: "https://sqlbi.localhost/wp-admin/admin-ajax.php",
-        data: { 
-            "action": "sqlbi_helpers_coming_from_eu" 
-        }
-    },
+    euCheckService: "https://www.sqlbi.com/wp-admin/admin-ajax.php",
     requiredCookies: ["okviz-*"],
     onlyEU: true
 });

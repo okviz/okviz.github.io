@@ -182,25 +182,19 @@ class CookieHelper {
         const failed = () => {
             this.showCookieBar();
         };
-        // Build form data
-        const requestData = new FormData();
-        if (this.options.euCheckService.data) {
-            for (let key in this.options.euCheckService.data)
-                requestData.append(key, this.options.euCheckService.data[key]);
-        }
         // Send request
-        fetch(this.options.euCheckService.url, {
+        fetch(this.options.euCheckService, {
             method: "POST",
             mode: "no-cors",
             cache: "no-cache",
             credentials: "omit",
             headers: {
-                "Content-Type": "application/json",
+                "Content-Type": "application/x-www-form-urlencoded",
                 "Access-Control-Allow-Origin": "*"
             },
             redirect: "follow",
             referrerPolicy: "unsafe-url",
-            body: requestData
+            body: "action=sqlbi_helpers_coming_from_eu"
         })
             .then(response => response.json())
             .then(data => {

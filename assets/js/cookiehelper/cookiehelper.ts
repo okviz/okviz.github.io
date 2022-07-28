@@ -17,8 +17,8 @@ interface CookieHelperOptions {
 	/** Show cookie bar only to EU users - it need to geo reverse users country */
 	onlyEU?: boolean;
 
-	/** Service to use to geo reverse users country and detect if they are coming from EU */
-	euCheckService?: APIRequest;
+	/** URL of checking service */
+	euCheckService?: string;
 
 	/** Determine is the cookie bar must be displayed */
 	showCookieBar?: boolean;
@@ -261,26 +261,19 @@ class CookieHelper {
 			this.showCookieBar();
 		};
 
-		// Build form data
-		const requestData = new FormData();
-		if (this.options.euCheckService.data) {
-			for(let key in this.options.euCheckService.data)
-				requestData.append(key, this.options.euCheckService.data[key]);
-		}
-
 		// Send request
-		fetch(this.options.euCheckService.url, {
+		fetch(this.options.euCheckService, {
 			method: "POST", // *GET, POST, PUT, DELETE, etc.
 			mode: "no-cors", // no-cors, *cors, same-origin
 			cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
 			credentials: "omit", // include, *same-origin, omit
 			headers: {
-				"Content-Type": "application/json",
+				"Content-Type": "application/x-www-form-urlencoded",
 				"Access-Control-Allow-Origin": "*"
 			},
 			redirect: "follow", // manual, *follow, error
 			referrerPolicy: "unsafe-url", // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-			body: requestData
+			body: "action=sqlbi_helpers_coming_from_eu"
 		})
             .then(response => response.json())
             .then(data => {
