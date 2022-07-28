@@ -397,6 +397,20 @@ const cookieHelper = new CookieHelper({
     onlyEU: true
 });
 cookieHelper.addDependency("optional", () => {
-    // TODO Google Analytics
-    console.log("Cookies loaded");
+
+    // Google Analytics
+    const gaID = "G-8QMJW1TYV4";
+    const script = document.createElement("script")
+    script.src = `https://www.googletagmanager.com/gtag/js?id=${gaID}`;
+    script.async = true
+    document.head.appendChild(script); 
+    
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag("js", new Date());
+    gtag("config", gaID, { 
+        "allow_display_features": false,
+        "anonymize_ip": true,
+        "cookie_flags": "secure"
+    });
 });
