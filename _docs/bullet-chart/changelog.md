@@ -168,6 +168,6 @@ Bullet Chart uses **Power BI Custom Visuals API v4.7.0** - compatible with Power
 **Fixed:**
 - Blank data issue
 
-## Before v2.1.0
+## Previous Versions
 
 Untracked changes.
