@@ -387,7 +387,7 @@ new Theme();
 const cookieHelper = new CookieHelper({
     consentCookie: "_okviz_consent",
     privacyUrl: "https://okviz.com/privacy/#cookies",
-    euCheckService: "https://www.sqlbi.com/wp-admin/admin-ajax.php",
+    euCheckService: "https://okviz.com/wp-admin/admin-ajax.php",
     requiredCookies: ["okviz-*"],
     onlyEU: true
 });

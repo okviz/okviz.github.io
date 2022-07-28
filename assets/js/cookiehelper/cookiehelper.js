@@ -185,9 +185,9 @@ class CookieHelper {
         // Send request
         fetch(this.options.euCheckService, {
             method: "POST",
-            mode: "no-cors",
+            mode: "cors",
             cache: "no-cache",
-            credentials: "omit",
+            //credentials: "omit", // include, *same-origin, omit
             headers: {
                 "Content-Type": "application/x-www-form-urlencoded",
                 "Access-Control-Allow-Origin": "*"
