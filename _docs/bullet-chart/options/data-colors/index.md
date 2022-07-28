@@ -11,6 +11,8 @@ This section allows to define bullets color. Since the options in this section a
 
 ## Default Color
 
+**Default Value:** First Palette Color
+
 This option is only visible when a measure is connected to the **Category** field. Allows you to define the default color for the bars related to the measure connected in the **Value** field. Bars will be the same color for each category.
 
 <img src="images/data-colors-default-color.png" width="700">

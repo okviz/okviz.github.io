@@ -26,6 +26,8 @@ Bullet Chart uses **Power BI Custom Visuals API v4.7.0** - compatible with Power
 - Null values behavior
 - Hidden targets behavior
 - Border radius option display
+- Tooltips format
+- Extend last state display
 
 **Added:**
 - Premium wizard screen
