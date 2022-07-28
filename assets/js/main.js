@@ -29,7 +29,7 @@ for (let i = 0; i < treeLinks.length; i++) {
     }
 }
 
-// Hs Collapsing
+// Header Collapsing
 const toggleH = (toggle, el)=> {
     if (!el) return;
 
@@ -325,6 +325,7 @@ function highlight(resultItem){
     return result;
 }
 
+// Light/Dark theme
 class Theme{
 
     constructor() {
@@ -381,3 +382,19 @@ class Theme{
     }
 }
 new Theme();
+
+// Cookies (requires cookiehelper.js)
+const cookieHelper = new CookieHelper({
+    consentCookie: "_okviz_consent",
+    privacyUrl: "https://okviz.com/privacy/#cookies",
+    euCheckService: {
+        url: "https://www.sqlbi.com/wp-admin/admin-ajax.php",
+        data: { action: "sqlbi_helpers_coming_from_eu" }
+    },
+    requiredCookies: ["okviz-*"],
+    onlyEU: true
+});
+cookieHelper.addDependency("optional", () => {
+    // TODO Google Analytics
+    console.log("Cookies loaded");
+});
