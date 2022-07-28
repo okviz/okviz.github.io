@@ -185,15 +185,15 @@ class CookieHelper {
         // Send request
         fetch(this.options.euCheckService, {
             method: "POST",
-            mode: "cors",
+            mode: "no-cors",
             cache: "no-cache",
             //credentials: "omit", // include, *same-origin, omit
             headers: {
                 "Content-Type": "application/x-www-form-urlencoded",
                 "Access-Control-Allow-Origin": "*"
             },
-            redirect: "follow",
-            referrerPolicy: "unsafe-url",
+            //redirect: "follow", // manual, *follow, error
+            //referrerPolicy: "unsafe-url", // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
             body: "action=sqlbi_helpers_coming_from_eu"
         })
             .then(response => response.json())
