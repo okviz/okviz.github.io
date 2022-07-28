@@ -9,6 +9,7 @@ available:          Dropdown mode
 internal:           showLabels
 related:
     - /smart-filter-pro/options/appearance/horizontal.md
+    - /smart-filter-pro/options/appearance/show-placeholders.md
 ---
 
 **Default value:** On

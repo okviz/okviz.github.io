@@ -3,12 +3,23 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2018-06-01
-modified:           2022-07-20
+modified:           2022-07-28
 order:              /smart-filter-pro/{99}
 toc_max:            2
 ---
 This page contains a quick summary of versions and notable changes of Smart Filter Pro.  
 Smart Filter Pro uses **Power BI Custom Visuals API v1.13.0** - compatible with Power BI Desktop July 2018 and later versions.
+
+## v2.3.0.0
+**Released:** 2022-07-30
+
+**Added:**
+- [Show Placeholder](options/labels/show-placeholders.md) option
+- [Keep Dropdown Open](options/mode/keep-dropdown.md) option
+
+**Fixed:**
+- Check for updates
+- Update on bookmarks
 
 ## v2.2.9.1
 **Released:** 2022-07-05

@@ -34,6 +34,8 @@ When we find a bug in our visuals we usually fix it as soon as possible, but dep
     - the regression is discovered after a few days/weeks and users have started using new features introduced by the defective version;
     - users have paid for these new features that the rollback will make disapper for another 3 weeks;
     - the regression affects the appearance of the visual and users have manually fixed broken reports by changing size, position or layout of the visual instances.
+
+    **The rollback usually requires 4 days.**
     
 - ### Bug Fix Time for Private Visuals
     Visuals installed from a local file must be updated manually by the user in every report that use them (or just once via [Org Store](../get-started/org-store.md)). In this case, **we are able to provide a corrected version of the visual as soon as we fix the bug**.
