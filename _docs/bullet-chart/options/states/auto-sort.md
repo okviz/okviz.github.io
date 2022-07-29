@@ -3,7 +3,7 @@ layout:         page
 title:          Auto Sort
 published:      true
 date:           2022-07-07
-modified:   	2022-07-26
+modified:   	2022-07-29
 order:          /bullet-chart/options/states/auto-sort
 ---
 

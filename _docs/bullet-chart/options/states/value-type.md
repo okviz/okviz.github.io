@@ -3,7 +3,7 @@ layout:         page
 title:          Value Type
 published:      true
 date:           2022-07-07
-modified:   	2022-07-26
+modified:   	2022-07-29
 order:          /bullet-chart/options/states/value-type
 internal:       calculate
 ---
@@ -14,7 +14,7 @@ This option is only visible when no measures are connected to the **States** fie
 
 - **Absolute Value:** It allows to assign an absolute value for each state.  
 
-    <img src="images/value-type-absolute-value.png" width="700">
+     <img src="images/value-type-absolute-value.png" width="700">
 
 - **Percentage:** By selecting this option, the value typed is the percentage of the maximum value between measures connected to the **Value** field. Let's take a look few example: 
     
@@ -50,8 +50,13 @@ This option is only visible when no measures are connected to the **States** fie
 
         <img src="images/percentage-more-measures-in-comparison.png" width="700">
 
-In both **Percentage** or **Absolute Value** selection, is possible to assign an **Auto** value to states, which is also the default value. **Auto** means that state value is calculated as a percentage on the maximum connected measure value, based on how many states are active. So if all 5 states have "Auto" as selected value, each state will be 20% of the maximum connected measure value plus the value of the previous state. To turn off one state, just assign "0" as state value.
+In both **Percentage** or **Absolute Value** selection, is possible to assign an **Auto** value to states, which is also the default value. **Auto** means that state value is calculated as a percentage on the maximum connected measure value, based on how many states are active. So if all 5 states have "Auto" as selected value, each state will be 20% of the maximum connected measure value plus the value of the previous state. 
 
-<img src="images/more-measures-in-value-and-comparison.png" width="250">
+<img src="images/all-auto.png" width="700">
+
+To turn off one state, just assign "0" as state value. In the example below, since two states are inactive (State2 and State3), the value of the active states (State1, State4 and State5)  is recomputed.
+
+<img src="images/2-states-off.png" width="700">
+
 
 
