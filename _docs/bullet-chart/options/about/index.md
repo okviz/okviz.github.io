@@ -3,12 +3,13 @@ layout:         page
 title:          About
 published:      true
 date:           2022-07-07
-modified:   	2022-07-22
+modified:   	2022-07-29
 order:          /bullet-chart/options/about
 internal:       about, name, version, diagnostics
 toc:            false
 ---
 This section displays basic visual's information.
+
 <img src="images/about.png" width="200" class="fr">
 
 ## Name
