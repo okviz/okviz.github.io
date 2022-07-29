@@ -4,7 +4,7 @@ title:              Text
 published:          true
 date:               2022-07-07
 modified:   	    2022-07-20
-order:              /bullet-chart/options/category-axis-text
+order:              /bullet-chart/options/category-axis/text
 ---
 
 **Default value:** Auto

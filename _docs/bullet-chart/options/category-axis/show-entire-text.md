@@ -4,7 +4,7 @@ title:              Show Entire Text
 published:          true
 date:               2022-07-07
 modified:   	    2022-07-20
-order:              /bullet-chart/options/category-axis-show-entire-text
+order:              /bullet-chart/options/category-axis/show-entire-text
 ---
 
 **Default value:** On
