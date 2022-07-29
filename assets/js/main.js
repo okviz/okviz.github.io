@@ -409,3 +409,27 @@ cookieHelper.addDependency("optional", () => {
         "cookie_flags": "secure"
     });
 });
+
+// Play/pause videos when they are on/offscreen
+function playPauseVideo() {
+    const videos = document.querySelectorAll("video");
+    videos.forEach(video => {
+        video.muted = true;
+        let playPromise = video.play();
+        if (playPromise !== undefined) {
+            playPromise.then(() => {
+                const observer = new IntersectionObserver(entries => {
+                    entries.forEach((entry) => {
+                        if (entry.intersectionRatio !== 1 && !video.paused) {
+                            video.pause();
+                        } else if (video.paused) {
+                            video.play();
+                        }
+                    });
+                }, { threshold: 0.2 });
+                observer.observe(video);
+            });
+        }
+    });
+}
+playPauseVideo();
