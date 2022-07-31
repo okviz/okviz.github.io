@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2022-07-15
-modified:           2022-07-28
+modified:           2022-07-31
 order:              /bullet-chart/{99}
 toc_max:            2
 ---
@@ -14,7 +14,7 @@ Bullet Chart uses **Power BI Custom Visuals API v4.7.0** - compatible with Power
 **Released:** TBD
 
 **Changed:**
-- Support API 4.4.7
+- Support API 4.7.0
 - Remove default tooltips labels
 - Disable extending last state by default
 - Disable premium features on environments unsupported by licensing system
@@ -31,7 +31,8 @@ Bullet Chart uses **Power BI Custom Visuals API v4.7.0** - compatible with Power
 
 **Added:**
 - Premium wizard screen
-- Border opacity option
+- Border opacity option to data labels and bullet shape
+- License info in About
 
 ## v2.2.9.5
 

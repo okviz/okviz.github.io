@@ -16,7 +16,7 @@ Smart Filter Pro uses **Power BI Custom Visuals API v4.7.0** - compatible with P
 **Added:**
 - A wizard dialog when the visual contains no data.
 - [Extenda Today Color](options/cells/extend-today-color.md) option.
-- Support to API 4.7.0
+- Support API 4.7.0
 
 **Changed:**
 - Improve ***Change Layout*** menu.

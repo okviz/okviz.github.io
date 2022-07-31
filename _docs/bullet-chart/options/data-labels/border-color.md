@@ -4,8 +4,9 @@ title:          Border Color
 published:      true
 date:           2022-07-07
 modified:   	2022-07-31
-order:          /bullet-chart/options/bullet-shape/border-color
+order:          /bullet-chart/options/data-labels/border-color
 premium:        /bullet-chart/licensing.md
+internal:       borderFill
 related:            
     - border.md
     - border-opacity.md
@@ -17,6 +18,6 @@ related:
 
 Defines border outline color.
 
-<img src="images/bullet-shape-border-color.png" width="700">
+<img src="images/data-labels-border-color.png" width="700">
 
 > This option is not controllable through a [Report Theme](../../features/themes.md).

@@ -7,8 +7,8 @@ modified:   	        2022-07-20
 order:                  /bullet-chart/options/data-labels/background-opacity
 premium:                /bullet-chart/licensing.md
 related:
- - background.md
- - background-color.md
+    - background.md
+    - background-color.md
 ---
 
 **Default Value:** 50

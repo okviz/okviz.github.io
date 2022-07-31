@@ -1,20 +1,20 @@
 ---
 layout:         page
-title:          Border
+title:          Border Opacity
 published:      true
 date:           2022-07-07
 modified:   	2022-07-31
-order:          /bullet-chart/options/data-labels/border
+order:          /bullet-chart/options/data-labels/border-opacity
 premium:        /bullet-chart/licensing.md
 related:            
+    - border.md
     - border-color.md
-    - border-opacity.md
     - border-stroke.md
     - border-style.md
 ---
 
-**Default Value:** Off
+**Default value:** 100
 
-This options adds a border to data labels.
+Defines border opacity color.
 
-<img src="images/data-labels-border.png" width="700"> 
+<img src="images/data-labels-border-opacity.png" width="700">

@@ -8,6 +8,9 @@ order:          /bullet-chart/options/data-labels/border-stroke
 premium:        /bullet-chart/licensing.md
 related:            
     - border.md
+    - border-color.md
+    - border-opacity.md
+    - border-style.md
 ---
 
 **Default Value:** 1
