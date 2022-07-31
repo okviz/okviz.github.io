@@ -5,7 +5,6 @@ published:          true
 date:               2021-12-16
 modified:           2022-07-17
 order:              /smart-filter-pro/options/mode/empty-list-text
-toc:                false
 internal:           emptyObserverLabel
 available:          Observer mode
 related:

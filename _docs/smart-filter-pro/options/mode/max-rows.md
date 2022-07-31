@@ -3,9 +3,8 @@ layout:             page
 title:              Max Rows to Retrieve
 published:          true
 date:               2021-12-14
-modified:           2021-12-14
+modified:           2022-07-31
 order:              /smart-filter-pro/options/mode/max-rows-to-retrieve
-toc:                false
 internal:           maxIncremental
 available:          Dropdown | Hierarchy mode
 ---
@@ -22,7 +21,7 @@ Set to 0 to retrieve all the data available to the visual.
 - Memory size is limited to **100 MB**.
 
 
-<h2>How is performance affected by this setting?</h2>
+## How is performance affected by this setting?
 
 Retrieving more than **30,000 rows** may slow down the entire report, because the Dropdown mode loads all data in memory. If you have a larger column it is recommended to use the [Filter mode](../../features/filter.md). 
 

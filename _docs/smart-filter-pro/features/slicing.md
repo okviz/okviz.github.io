@@ -5,7 +5,6 @@ published:          true
 date:               2021-11-20
 modified:           2022-07-18
 order:              /smart-filter-pro/features/slicing
-toc:                false
 ---
 
 There are two types of visuals in Power BI: those that highlight data on user interaction, and those that filter out other visuals in reports; these are called ***Slicers***. Put in other words, slicers are visuals than act like the ***Filters*** pane of your report. 

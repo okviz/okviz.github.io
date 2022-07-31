@@ -4,7 +4,6 @@ title:              Show 'Select All'
 date:               2021-12-16
 modified:           2021-12-16
 order:              /smart-filter-pro/options/mode/show-select-all
-toc:                false
 internal:           treeShowSelectAll, treeSelectAllText
 available:          Hierarchy mode
 version:            2.2.1

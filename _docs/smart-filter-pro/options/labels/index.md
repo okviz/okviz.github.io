@@ -7,7 +7,6 @@ date:               2021-11-20
 modified:           2022-07-22 
 order:              /smart-filter-pro/options/labels-placeholders
 available:          All modes except Hierarchy
-toc:                false
 class:              normal
 next_reading:       true
 next_reading_title: Other Options

@@ -5,7 +5,6 @@ published:          true
 date:               2021-12-16
 modified:           2022-07-19
 order:              /smart-filter-pro/options/mode/max-items
-toc:                false
 internal:           maxObserved
 available:          Observer mode
 related:

@@ -4,7 +4,6 @@ title:              Node Click Behavior
 date:               2021-12-16
 modified:           2022-07-16
 order:              /smart-filter-pro/options/mode/node-click-behavior
-toc:                false
 internal:           treeClickMode
 available:          Hierarchy mode
 ---

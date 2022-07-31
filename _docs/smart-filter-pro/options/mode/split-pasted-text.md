@@ -6,7 +6,6 @@ published:          true
 date:               2021-12-15
 modified:           2021-12-15
 order:              /smart-filter-pro/options/mode/split-pasted-text
-toc:                false
 internal:           delimiterForPasting
 available:          Dropdown | Filter mode
 ---

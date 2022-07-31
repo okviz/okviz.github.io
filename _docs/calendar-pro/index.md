@@ -6,7 +6,6 @@ date:               2022-07-13
 modified:           2022-07-21
 order:              /calendar-pro
 menu_class:         icon icon-calendar
-toc:                false
 next_reading:       true
 ---
 
