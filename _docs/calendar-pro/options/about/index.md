@@ -18,6 +18,7 @@ The name of the visual.
 The current version of visual.
 
 ## License
+<p>{% include badge v="1.0.2" %}</p>
 The current status of your license, which can be:
 
 - **Active:**: Your license is valid and you can use Calendar Pro.

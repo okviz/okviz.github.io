@@ -18,7 +18,8 @@ The name of the visual.
 ## Version
 The current version of visual.
 
-## License
+## License 
+<p>{% include badge v="2.3.0" %}</p>
 The current status of your license, which can be:
 
 - **Premium:** Your license is valid and you can use all premium features of Bullet Chart
