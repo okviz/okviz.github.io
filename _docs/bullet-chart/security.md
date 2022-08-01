@@ -15,6 +15,7 @@ The [Power BI certification program](../get-started/certification.md) ensures th
 
 **Bullet Chart is certified by Microsoft.**
 
+<img src="/get-started/images/certified.svg" width="190">
 
 ## Data Sent over the Internet
 

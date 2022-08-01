@@ -3,12 +3,14 @@ layout:             page
 title:              Certification
 published:          true
 date:               2021-11-17
-modified:           2022-07-26
+modified:           2022-08-01
 order:              /02/05
 ---
 
 Custom visuals, like any other software, can contain malware code and steal data.
 To make Power BI users more secure, Microsoft set up a certification program for visuals developed by third-party vendors, such as OKVIZ.   
+
+<img src="images/certified.svg" width="190">
 
 The certification guarantees that the visual meets certain requirements like:
 
