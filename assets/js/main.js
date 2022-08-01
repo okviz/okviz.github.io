@@ -411,7 +411,7 @@ cookieHelper.addDependency("optional", () => {
 });
 
 // Play/pause videos when they are on/offscreen
-function playPauseVideo() {
+/*function playPauseVideo() {
     const videos = document.querySelectorAll("video");
     videos.forEach(video => {
         video.muted = true;
@@ -432,4 +432,4 @@ function playPauseVideo() {
         }
     });
 }
-playPauseVideo();
+playPauseVideo();*/
