@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2022-07-17
-modified:           2022-07-31
+modified:           2022-08-01
 order:              /calendar-pro/{99}
 toc_max:            2
 ---
@@ -14,16 +14,10 @@ Smart Filter Pro uses **Power BI Custom Visuals API v4.7.0** - compatible with P
 **Released:** TBD
 
 **Added:**
-- License info in About
-
-
-## v1.0.1
-**Released:** 2022-07-22
-
-**Added:**
 - A wizard dialog when the visual contains no data.
 - [Extenda Today Color](options/cells/extend-today-color.md) option.
 - Support API 4.7.0
+- License info in About
 
 **Changed:**
 - Improve ***Change Layout*** menu.
