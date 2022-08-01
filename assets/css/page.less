@@ -59,6 +59,7 @@
             width: 80px;
             //border-color: @accent-back-color;
             margin-top: 0;
+            border-width: 5px;
         }
 
         img {
@@ -151,15 +152,16 @@
                 font-size: 14px;
                 line-height: 1.5;
                 .border-radius(4px);
-                background-color: @header-back-color;
+                background-color: @back-color;
                 border: 1px solid @border-color;
+                box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
                 /*
                 border: none;
                 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.14), 0 0 2px rgba(0, 0, 0, 0.12);
                 */
 
                 .dark & {
-                    background-color: @header-back-color-dark;
+                    background-color: @back-color-dark;
                     border-color: @border-color-dark;
                 }
                 .controls { 
@@ -235,9 +237,9 @@
             &.sticky {
                 padding: 20px 0;
                 .toc-content {
-                    background-color: fade(@header-back-color, 95%);
+                    background-color: fade(@back-color, 95%);
                     .dark & {
-                        background-color: fade(@header-back-color-dark, 95%);
+                        background-color: fade(@back-color-dark, 95%);
                     }
                 }
             }

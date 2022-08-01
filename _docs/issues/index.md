@@ -6,7 +6,6 @@ date:               2022-07-14
 modified:           2022-07-27
 order:              /03
 menu_sep:           true
-menu_sep_force:     true
 next_reading:       true
 class:              normal
 ---

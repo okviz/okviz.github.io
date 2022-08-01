@@ -10,12 +10,12 @@
     @back-color-dark:#2c2a2a; 
 @text-color: #222;
     @text-color-dark: #eaeaea;
-@border-color: #e5e5e5;
+@border-color: #dadada;
     @border-color-dark: #1D1D1D;
 @header-back-color: #fafafa;
     @header-back-color-dark: #333;
-@nav-back-color: #fdfdfd;
-    @nav-back-color-dark: #2e2e2e;
+@nav-back-color: @back-color;
+    @nav-back-color-dark: @back-color-dark;
 @footer-back-color: #fafafa;
     @footer-back-color-dark: #333;
 
@@ -41,8 +41,8 @@
 @input-back-color: #fff;
     @input-back-color-dark: #2c2a2a;
 
-@hr-color: @border-color;
-    @hr-color-dark: @border-color-dark;
+@hr-color: lighten(@border-color, 5%);
+    @hr-color-dark: darken(@border-color-dark, 5%);
     
 @gutter-color:#f4f4f4;
     @gutter-color-dark: #232323;

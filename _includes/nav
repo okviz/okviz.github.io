@@ -22,7 +22,7 @@
             {% endif %}
         </li>
         {% if _page.menu_sep %}
-            <li {% if _page.menu_sep_force %}class="block"{% endif %}><hr></li>
+            <li class="block"></li>
         {% endif %}
     {% endif %}
 {% endfor %}

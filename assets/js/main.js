@@ -154,7 +154,7 @@ if (navElement) {
         let panes = Split([".main-nav", ".main-content"], {
             sizes: sizes,
             minSize: [0, 450],
-            gutterSize: 8,
+            gutterSize: 6,
             direction: "horizontal",
             cursor: "ew-resize",
             onDragEnd: function (sizes) {
