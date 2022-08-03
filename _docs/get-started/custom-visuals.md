@@ -4,9 +4,9 @@ title:              Power BI Custom Visuals
 menu_title:         Custom Visuals
 published:          true
 date:               2021-12-14
-modified:           2022-07-21
+modified:           2022-08-03
 order:              /01/01
-toc:                false
+toc_max:            2
 ---
 
 OKVIZ visuals are custom visuals. Custom visuals are components for Power BI developed by third-party vendors (also known as ISV), not Microsoft.
@@ -47,5 +47,7 @@ At that time OKVIZ was born; we fell in love with custom visuals and decided to 
 We published our first two visuals for the contest and both won a prize:
 - **Grand Prize**: first place for our [Synoptic Panel](https://okviz.com/synoptic-panel/) which was chosen by the Microsoft jury ([see the announcement](https://powerbi.microsoft.com/en-us/blog/power-bi-best-visual-contest-announcing-the-contest-winners/))
 - **People's Choice Award**: [Bullet Chart](../bullet-chart/index.md) won the first of the three awards available in this category ([see the announcement](https://powerbi.microsoft.com/en-us/blog/power-bi-best-visual-contest-1st-people-s-choice-award/))
+
+<img src="images/pbi-best-visual-contest.png" width="300" class="naked">
 
 Since then OKVIZ has never stopped creating high-quality custom visuals for Power BI.
