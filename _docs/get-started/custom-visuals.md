@@ -35,3 +35,17 @@ Power BI sets some limitations to ensure user safety and avoid data breaches:
 Custom visuals work like core visuals; to use one you just have to drag and drop them from the ***Visualizations*** panel into your report canvas, connect some data and start using them.
 
 Here is an handy guide from Microsoft: [Add visuals to a Power BI report](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-report-add-visualizations-i)
+
+
+## History of Custom Visuals
+
+Custom visuals were not available from the beginning. In fact, Microsoft first introduced them in 2015 with a contest called **Power BI Best Visual Contest** that rewarded the most interesting and innovative visuals created by third-party developers.   
+
+This was new for Power BI, new challenges for developers who had to use immature technology and APIs with poor documentation. But it was exciting, not so much for the competition, but because everyone had the opportunity to make an already promising Microsoft application even better.
+
+At that time OKVIZ was born; we fell in love with custom visuals and decided to do our best to create useful and beautiful ones.
+We published our first two visuals for the contest and both won a prize:
+- **Grand Prize**: first place for our [Synoptic Panel](https://okviz.com/synoptic-panel/) which was chosen by the Microsoft jury ([see the announcement](https://powerbi.microsoft.com/en-us/blog/power-bi-best-visual-contest-announcing-the-contest-winners/))
+- **People's Choice Award**: [Bullet Chart](../bullet-chart/index.md) won the first of the three awards available in this category ([see the announcement](https://powerbi.microsoft.com/en-us/blog/power-bi-best-visual-contest-1st-people-s-choice-award/))
+
+Since then OKVIZ has never stopped creating high-quality custom visuals for Power BI.
