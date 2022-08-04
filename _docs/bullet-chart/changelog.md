@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2022-07-15
-modified:           2022-07-31
+modified:           2022-08-04
 order:              /bullet-chart/{99}
 toc_max:            2
 ---
@@ -26,7 +26,7 @@ Bullet Chart uses **Power BI Custom Visuals API v4.7.0** - compatible with Power
 - Null values behavior
 - Hidden targets behavior
 - Border radius option display
-- Tooltips format
+- Tooltips & labels format
 - Extend last state display
 
 **Added:**
