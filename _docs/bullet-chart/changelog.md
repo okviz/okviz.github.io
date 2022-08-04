@@ -26,7 +26,7 @@ Bullet Chart uses **Power BI Custom Visuals API v4.7.0** - compatible with Power
 - Null values behavior
 - Hidden targets behavior
 - Border radius option display
-- Tooltips & labels format
+- Tooltips & labels format ([Issue #8](https://github.com/okviz/bullet-chart-issues/issues/8))
 - Extend last state display
 
 **Added:**
@@ -43,7 +43,7 @@ Bullet Chart uses **Power BI Custom Visuals API v4.7.0** - compatible with Power
 **Released:** 2022-08-03
 
 **Fixed:**
-- Bars disappearing with categories and data labels on
+- Bars disappearing with categories and data labels on ([Issue #6](https://github.com/okviz/bullet-chart-issues/issues/6))
 - Axis display unit
 
 ## v2.2.9.2
