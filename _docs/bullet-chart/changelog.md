@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2022-07-15
-modified:           2022-08-04
+modified:           2022-08-08
 order:              /bullet-chart/{99}
 toc_max:            2
 ---
@@ -11,7 +11,7 @@ This page contains a quick summary of versions and notable changes of Bullet Cha
 Bullet Chart uses **Power BI Custom Visuals API v4.7.0** - compatible with Power BI Desktop July 2022 and later versions.
 
 ## v2.3.0.0
-**Released:** TBD
+**Released:** 2022-08-08
 
 **Changed:**
 - Support API 4.7.0
@@ -28,6 +28,7 @@ Bullet Chart uses **Power BI Custom Visuals API v4.7.0** - compatible with Power
 - Border radius option display
 - Tooltips & labels format ([Issue #8](https://github.com/okviz/bullet-chart-issues/issues/8))
 - Extend last state display
+- Labels clipping with position ***Outside end***
 
 **Added:**
 - Premium wizard screen

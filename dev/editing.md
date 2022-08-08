@@ -6,7 +6,6 @@ date:       2021-12-20
 modified:   2022-07-18
 sitemap:    false
 noindex:    true
-draft:      "no"
 ---
 
 Markdown documents (file extension ***.md***) are simple text files with additional special syntax that you can use to style your content, embed images, or create links. 
