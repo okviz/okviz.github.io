@@ -3,12 +3,19 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2022-07-15
-modified:           2022-08-08
+modified:           2022-08-10
 order:              /bullet-chart/{99}
 toc_max:            2
 ---
 This page contains a quick summary of versions and notable changes of Bullet Chart.  
 Bullet Chart uses **Power BI Custom Visuals API v4.7.0** - compatible with Power BI Desktop July 2022 and later versions.
+
+## v2.3.1.0
+**Released:** TBD
+
+**Added:**
+- Bar variances
+- Absolute variance value on data labels
 
 ## v2.3.0.0
 **Released:** 2022-08-08
@@ -36,8 +43,9 @@ Bullet Chart uses **Power BI Custom Visuals API v4.7.0** - compatible with Power
 - License info in About
 
 ## v2.2.9.5
+**Released:** 2022-08-10
 
-**Fixed:** 2022-08-10
+**Fixed:** 
 - Licensing system issue with valid licenses
 
 ## v2.2.9.4

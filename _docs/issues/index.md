@@ -28,7 +28,7 @@ When we find a bug in our visuals we usually fix it as soon as possible, but dep
 
     <h4>Preview Versions</h4>
 
-    In some cases we may provide a preview fixed version of the visual to mitigate the impact on users. This version can be released in a short time frame, but it has some limitations and requires multiple user actions on each report using the visual. See more on [Preview Versions](previews.md).
+    In some cases we may provide a preview fixed version of the visual to mitigate the impact on users. **This version can be released as soon as we fix the bug**, but it has some limitations and requires multiple user actions on each report using the visual. See more on [Preview Versions](previews.md).
 
     <h4>Rollback</h4>
 
