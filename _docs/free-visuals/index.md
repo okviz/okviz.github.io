@@ -29,4 +29,4 @@ None of these visuals send your data over the Internet or collect your use. You'
 
 ## Bug Report
 
-For any issues with these visuals, refer to [Bug Report](../issues/bugs.md).
+For any issues with these visuals, refer to [Support](../issues/support.md).
