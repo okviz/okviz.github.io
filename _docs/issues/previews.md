@@ -6,6 +6,9 @@ date:               2022-08-10
 modified:           2022-08-10
 toc:                false
 order:              /03/01
+related:
+    - /get-started/installation.md
+    - /get-started/updating.md
 ---
 Custom visuals published on AppSource go through a review and approval process by Microsoft that can take up to 3 weeks (depending on several factors - see [Issues](index.md)). For this reason, when a new version of a visual introduces a regression that affects more users, **we may provide fixed preview versions** to our users.
 
@@ -32,4 +35,3 @@ You can identify a preview version by looking at the ***About*** section of the 
 
 <img src="images/preview-icon.png" width="220">   
 <img src="images/preview-expiration.png" width="220">
-
