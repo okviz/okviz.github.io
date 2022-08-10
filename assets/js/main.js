@@ -48,7 +48,7 @@ const toggleH = (toggle, el)=> {
             el.removeAttribute("hidden")
     }
 };
-document.querySelectorAll("h2, h3").forEach(h => h.addEventListener("click", e => {
+document.querySelectorAll("h2:not(.static), h3:not(.static)").forEach(h => h.addEventListener("click", e => {
     let el = e.target;
     const toggle = el.classList.contains("collapsed");
     if (toggle)
