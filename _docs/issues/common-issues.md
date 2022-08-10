@@ -5,7 +5,7 @@ published:          true
 date:               2021-12-17
 modified:           2022-07-14
 toc:                false
-order:              /03/01
+order:              /03/02
 ---
 Here are some of the most common errors you can run into with Power BI and custom visuals:
 

@@ -38,4 +38,4 @@ If selected, this option logs significant information and errors in the script c
 
 <img src="images/about-diagnostics.png">
 
-> This option is especially useful when you need to provide additional information on [bug reports](../../../issues/bugs.md). Before submitting a bug, please enable this option and verify if an error has been logged.
+> This option is especially useful when you need to provide additional information on [bug reports](../../../issues/support.md#diagnostic-data).
