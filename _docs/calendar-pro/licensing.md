@@ -44,6 +44,9 @@ Here is an overview of the process required to obtain licenses for Calendar Pro:
 
 After you have purchased one or more licenses, you need to assign them to your users or Active Directory groups.
 
+> You must be a Global, License, or User admin to assign licenses. To use group-based licensing, see [Assign licenses to users by group membership in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/enterprise-users/licensing-groups-assign)  
+If you purchased the license for yourself and are not an admin, you can still self-assign it with the following procedure.
+
 Follow these steps to proceed:
 
 1. Sign in to your [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/licenses)
