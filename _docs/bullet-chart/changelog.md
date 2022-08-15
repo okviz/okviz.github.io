@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2022-07-15
-modified:           2022-08-10
+modified:           2022-08-15
 order:              /bullet-chart/{99}
 toc_max:            2
 ---
@@ -16,6 +16,7 @@ Bullet Chart uses **Power BI Custom Visuals API v4.7.0** - compatible with Power
 **Added:**
 - Bar variances
 - Absolute variance value on data labels
+- Fix change over labels format ([Issue #13](https://github.com/okviz/bullet-chart-issues/issues/13))
 
 ## v2.3.0.0
 **Released:** 2022-08-08
