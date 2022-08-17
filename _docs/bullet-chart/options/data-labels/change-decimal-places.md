@@ -13,6 +13,8 @@ related:
 ---
 **Default value:** Auto
 
-This option defines the number of decimal places for the change over value of data labels. 
+This option is only visible if **Show Change Over** is not set to **Don't show**. This option defines the number of decimal places for the value of % change in data labels. 
+
+> Use *Auto* to display the most relevant decimal places for each value depending on the total number of decimal places each value has.
 
 <todo>Screenshot</todo>
