@@ -6,6 +6,7 @@ date:               2022-07-07
 modified:   	    2022-08-17
 order:              /bullet-chart/options/general/culture-code
 internal:           locale
+internal:           locale
 ---
 
 **Defaul value:** Auto detected

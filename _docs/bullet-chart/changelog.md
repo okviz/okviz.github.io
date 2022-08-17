@@ -40,12 +40,16 @@ Bullet Chart uses **Power BI Custom Visuals API v4.7.0** - compatible with Power
 - Border radius option display
 - Tooltips & labels format - [Issue #8](https://github.com/okviz/bullet-chart-issues/issues/8)
 - Extend last state display
-- Labels clipping with position ***Outside end***
+- % Change decimal places display
+- Comparison label in legend with category
+- Sorting target for % change over
+- Label outside end position 
 
 **Added:**
 - Premium wizard screen
 - Border opacity option to data labels and bullet shape
 - License info in About
+- Separator option for hierarchy labels
 
 ## v2.2.9.5
 **Released:** 2022-08-10

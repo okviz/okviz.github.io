@@ -3,7 +3,7 @@ layout:             page
 title:              Reverse Labels
 published:          true
 date:               2022-07-07
-modified:   	    2022-07-29
+modified:   	    2022-07-31
 order:              /bullet-chart/options/category-axis/reverse-labels
 internal:           reverseLabels
 related:
@@ -11,7 +11,7 @@ related:
     - separator.md
 ---
 
-**Default value:** On
+**Default Value:** Off
 
 This option is only visible when **Concatenate Labels** is enabled and it allows to reverse the order in which the labels hierarchical path   is displayed.
 
