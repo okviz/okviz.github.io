@@ -6,6 +6,7 @@ date:           2022-07-07
 modified:   	2022-07-20
 order:          /bullet-chart/options/bullet-shape/line-density
 premium:        /bullet-chart/licensing.md
+internal:       lineDensity
 related:            
     - border.md
     - border-style.md

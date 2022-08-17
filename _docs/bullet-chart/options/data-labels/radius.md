@@ -6,12 +6,13 @@ date:           2022-07-07
 modified:   	2022-07-26
 order:          /bullet-chart/options/data-labels/radius
 premium:        /bullet-chart/licensing.md
+internal:       radius
 related:            
     - border.md
     - background.md
 ---
 
-**Default value:** 0px
+**Default value:** 0
 
 This option is only visible if **Border** or **Background** are active. Allows to define the data labels' curve on the corners. 
 

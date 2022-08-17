@@ -7,5 +7,6 @@ modified:           2022-07-23
 order:              /calendar-pro/options/legend
 internal:           legend
 next_reading:       true
+next_reading_title: Options
 ---
 

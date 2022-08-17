@@ -1,11 +1,12 @@
 ---
 layout:         page
-title:          Offset
+title:          Shadow Offset
 published:      true
 date:           2022-07-07
-modified:   	2022-07-20
-order:          /bullet-chart/options/bullet-shape/offset
+modified:   	2022-08-17
+order:          /bullet-chart/options/bullet-shape/shadow-offset
 premium:        /bullet-chart/licensing.md
+internal:       shadowOffset
 related:
     - shadow.md
 ---

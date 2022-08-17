@@ -3,7 +3,7 @@ layout:         page
 title:          Border Color
 published:      true
 date:           2022-07-07
-modified:   	2022-07-31
+modified:   	2022-08-17
 order:          /bullet-chart/options/data-labels/border-color
 premium:        /bullet-chart/licensing.md
 internal:       borderFill
@@ -12,6 +12,7 @@ related:
     - border-opacity.md
     - border-stroke.md
     - border-style.md
+    - line-density.md
 ---
 
 **Default value:** {% include color value="#000000" %}

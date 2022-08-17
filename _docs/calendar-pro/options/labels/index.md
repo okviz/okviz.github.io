@@ -8,5 +8,6 @@ order:              /calendar-pro/options/cell-label
 internal:           labels
 available:          Calendar Mode
 next_reading:       true
+next_reading_title: Options
 ---
 

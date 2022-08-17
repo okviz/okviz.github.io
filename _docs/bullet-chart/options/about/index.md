@@ -5,7 +5,7 @@ published:      true
 date:           2022-07-07
 modified:   	2022-07-29
 order:          /bullet-chart/options/about
-internal:       about, name, version, diagnostics
+internal:       about, name, version, license, diagnostics
 toc:            false
 ---
 This section displays basic visual's information.

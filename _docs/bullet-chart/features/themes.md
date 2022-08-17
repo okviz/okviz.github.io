@@ -3,7 +3,7 @@ layout:             page
 title:              Report Themes
 published:          true
 date:               2022-07-21
-modified:           2022-07-31
+modified:           2022-08-17
 order:              /bullet-chart/features/themes
 ---
 
@@ -13,8 +13,8 @@ Assuming you are setting up a custom JSON theme file ([as described here](https:
 
 | Property | Theme Color |
 | -------- | ----------- |
-| [Category Axis Color](../options/category-axis/color.md)                  | foregroung |
-| [Value Axis Color](../options/value-axis/color.md)                        | foregroung |
-| [Data Defaul Color ](../options/data-colors/index.md#default-color)       | dataColors (first color) |
-| [Legend Color](../options/legend/color.md)                                | foregroung |
-| [Markers Color](../options/target-markers/index.md#color)                 | foregroung |
+| [Category Axis Color](../options/category-axis/color.md)                  | foreground |
+| [Value Axis Color](../options/value-axis/color.md)                        | foreground |
+| [Data Default Color ](../options/data-colors/index.md#default-color)      | dataColors (first color) |
+| [Legend Color](../options/legend/color.md)                                | foreground |
+| [Markers Color](../options/targets/color.md)                              | foreground |

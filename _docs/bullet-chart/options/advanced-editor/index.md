@@ -3,14 +3,14 @@ layout:         page
 title:          Advanced Editor
 published:      true
 date:           2022-07-07
-modified:   	2022-07-22
+modified:   	2022-08-17
 order:          /bullet-chart/options/advanced-editor
 internal:       editor, hide, pin
 ---
 
 This section allows to show/hide the **Advanced Editor** button. Advanced Editor provides access to settings related to [Color Rules](../../../features/color-rules.md) and [Templates](../../../features/templates.md)
 
-<img src="images/advanced-editor.png" width="700">
+<img src="images/advanced-editor.png" width="600">
 
 ## Hide Editor Button
 

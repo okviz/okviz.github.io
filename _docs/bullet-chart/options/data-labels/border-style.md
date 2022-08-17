@@ -3,14 +3,16 @@ layout:         page
 title:          Border Style
 published:      true
 date:           2022-07-07
-modified:   	2022-07-31
+modified:   	2022-08-17
 order:          /bullet-chart/options/data-labels/border-style
 premium:        /bullet-chart/licensing.md
+internal:       borderStyle
 related:            
     - border.md
     - border-color.md
     - border-opacity.md
     - border-stroke.md
+    - line-density.md
 ---
 
 **Default value:** Solid

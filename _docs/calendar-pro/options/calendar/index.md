@@ -7,5 +7,6 @@ modified:           2022-07-26
 order:              /calendar-pro/options/calendar-setup
 internal:           calendar
 next_reading:       true
+next_reading_title: Options
 ---
 

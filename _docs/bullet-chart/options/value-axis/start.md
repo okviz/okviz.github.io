@@ -3,8 +3,11 @@ layout:         page
 title:          Start
 published:      true
 date:           2022-07-07
-modified:   	2022-07-31
+modified:   	2022-08-17
 order:          /bullet-chart/options/value-axis/start
+internal:       start
+related:
+    - end.md
 ---
 
 **Default value:** Auto

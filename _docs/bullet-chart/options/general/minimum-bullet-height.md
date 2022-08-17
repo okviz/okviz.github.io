@@ -3,8 +3,10 @@ layout:             page
 title:              Minimum Bullet Height
 published:          true
 date:               2022-07-07
-modified:   	    2022-07-20
+modified:   	    2022-08-17
 order:              /bullet-chart/options/general/minimum-bullet-height
+available:          Horizontal Mode
+internal:           minHeight
 ---
 
 **Defaul value:** Auto

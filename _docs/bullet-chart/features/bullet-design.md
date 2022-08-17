@@ -7,7 +7,7 @@ modified:           2022-07-21
 order:              /bullet-chart/features/bullet-design
 ---
 
-<todo></todo>
+<todo>Description</todo>
 
 
 #### Related Resources:

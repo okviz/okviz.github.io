@@ -3,8 +3,9 @@ layout:         page
 title:          Premium
 published:      true
 date:           2022-07-07
-modified:   	2022-07-13
+modified:   	2022-08-17
 order:          /bullet-chart/options/premium
+internal:       premium, showDialog
 ---
 
 Bullet Chart is a free visual, but some advanced feature are only available with a **Premium license**.

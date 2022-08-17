@@ -6,6 +6,7 @@ date:           2022-07-07
 modified:   	2022-07-31
 order:          /bullet-chart/options/bullet-shape/border-style
 premium:        /bullet-chart/licensing.md
+internal:       borderStyle
 related:            
     - border.md
     - border-color.md

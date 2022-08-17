@@ -8,5 +8,6 @@ order:              /calendar-pro/options/events-holidays-labels
 internal:           labelsEvents
 available:          Calendar Mode
 next_reading:       true
+next_reading_title: Options
 ---
 

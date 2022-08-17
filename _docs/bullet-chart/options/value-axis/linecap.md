@@ -3,14 +3,20 @@ layout:         page
 title:          Linecap
 published:      true
 date:           2022-07-07
-modified:   	2022-07-31
+modified:   	2022-08-17
 order:          /bullet-chart/options/value-axis/linecap
 premium:        /bullet-chart/licensing.md
+internal:       lineCap
 related:
     - gridlines.md
+    - line-color.md
+    - line-density.md
+    - line-style.md
+    - position.md
+    - stroke-width.md
 ---
 
-**Default Value:** Square
+**Default value:** Square
 
 This option is only visibile if **Gridlines** is enabled and allows to define gridlines linecap. It provides two options:
 

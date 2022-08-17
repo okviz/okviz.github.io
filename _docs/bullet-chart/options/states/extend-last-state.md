@@ -5,9 +5,10 @@ published:      true
 date:           2022-07-07
 modified:   	2022-07-29
 order:          /bullet-chart/options/states/extend-last-state
+internal:       extendLastState
 ---
 
-**Default Value:** Off
+**Default value:** Off
 
 This option allows to expand the bar of the last active state to the end of the axis, regardless of its value.
 

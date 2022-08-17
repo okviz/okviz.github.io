@@ -3,14 +3,21 @@ layout:         page
 title:          Position
 published:      true
 date:           2022-07-07
-modified:   	2022-07-31
+modified:   	2022-08-17
 order:          /bullet-chart/options/value-axis/position
 premium:        /bullet-chart/licensing.md
+internal:       position
 related:
     - gridlines.md
+    - line-color.md
+    - line-density.md
+    - line-style.md
+    - linecap.md
+    - position.md
+    - stroke-width.md
 ---
 
-**Default Value:** Backward
+**Default value:** Backward
 
 This option is only visibile if **Gridlines** is enabled and allows to define gridlines position between:
 

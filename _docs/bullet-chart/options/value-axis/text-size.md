@@ -5,6 +5,7 @@ published:          true
 date:               2022-07-07
 modified:   	    2022-07-31
 order:              /bullet-chart/options/value-axis/text-size
+internal:           fontSize
 related:
     - color.md
     - display-unit.md

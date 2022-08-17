@@ -5,9 +5,10 @@ published:      true
 date:           2022-07-07
 modified:   	2022-07-29
 order:          /bullet-chart/options/states/show-tooltips
+internal:       showTooltips
 ---
 
-**Default Value:** Off
+**Default value:** Off
 
 This option allows adding states to the tooltips screentip.
 

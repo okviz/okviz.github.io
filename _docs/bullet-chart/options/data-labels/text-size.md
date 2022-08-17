@@ -3,8 +3,9 @@ layout:             page
 title:              Text Size
 published:          true
 date:               2022-07-07
-modified:   	    2022-07-20
+modified:   	    2022-08-17
 order:              /bullet-chart/options/data-labels/text-size
+internal:           fontSize
 related:
     - font-family.md
     - color.md

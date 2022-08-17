@@ -8,5 +8,6 @@ order:              /calendar-pro/options/cell-value
 internal:           labelsMeasure
 available:          Calendar Mode
 next_reading:       true
+next_reading_title: Options
 ---
 

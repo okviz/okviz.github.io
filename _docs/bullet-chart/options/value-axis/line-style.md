@@ -3,15 +3,20 @@ layout:         page
 title:          Line Style
 published:      true
 date:           2022-07-07
-modified:   	2022-07-31
+modified:   	2022-08-17
 order:          /bullet-chart/options/value-axis/line-style
 premium:        /bullet-chart/licensing.md
+internal:       styleGridlines
 related:
     - gridlines.md
+    - line-color.md
     - line-density.md
+    - linecap.md
+    - position.md
+    - stroke-width.md
 ---
 
-**Default Value:** Solid
+**Default value:** Solid
 
 This option is only visibile if **Gridlines** is enabled and allows to define gridlines style. It provides three options to choose from:
 

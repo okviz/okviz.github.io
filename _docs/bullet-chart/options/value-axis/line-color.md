@@ -3,14 +3,20 @@ layout:         page
 title:          Line Color
 published:      true
 date:           2022-07-07
-modified:   	2022-07-31
+modified:   	2022-08-17
 order:          /bullet-chart/options/value-axis/line-color
 premium:        /bullet-chart/licensing.md
+internal:       fillGridlines
 related:
     - gridlines.md
+    - line-density.md
+    - line-style.md
+    - linecap.md
+    - position.md
+    - stroke-width.md
 ---
 
-**Default Value:** {% include color value="#e9e9e9" %}
+**Default value:** {% include color value="#e9e9e9" %}
 
 This option is only visibile if **Gridlines** is enabled and allows to change gridlines color.
 

@@ -1,11 +1,12 @@
 ---
 layout:         page
-title:          Position
+title:          Shadow Position
 published:      true
 date:           2022-07-07
-modified:   	2022-07-20
-order:          /bullet-chart/options/bullet-shape/position
+modified:   	2022-08-17
+order:          /bullet-chart/options/bullet-shape/shadow-position
 premium:        /bullet-chart/licensing.md
+internal:       shadowPosition
 related:
     - shadow.md
 ---

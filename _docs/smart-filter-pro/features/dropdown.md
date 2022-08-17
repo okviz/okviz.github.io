@@ -31,7 +31,7 @@ The Dropdown mode populates the drop-down list using a technique called ***Incre
 > You can limit the [number of rows to retrieve](../options/mode/max-rows.md) with a specific option.
 
 > Note that the **Incremental Loading is restarted on each report update** (for example, when changing filters, clicking on any chart/slicer, or changing the active report page), so a large column may slow down the entire report.  
-For this reason, the **Dropdown mode is not recommended with fields greater than 50,000 rows**. For larger datasets, the [Filter mode](filter.md) is better, as it doesn't load values into memory, but just apply filters on demand.
+For this reason, the **Dropdown mode is not recommended with fields greater than 30,000 rows**. For larger datasets, the [Filter mode](filter.md) is better, as it doesn't load values into memory, but just apply filters on demand.
 
 
 ## How to Search

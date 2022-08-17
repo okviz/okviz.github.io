@@ -6,11 +6,12 @@ date:           2022-07-07
 modified:   	2022-07-20
 order:          /bullet-chart/options/bullet-shape/corner-radius
 premium:        /bullet-chart/licensing.md
+internal:       radius
 related:            
     - border.md
 ---
 
-**Default value:** 0px
+**Default value:** 0
 
 Allows to define the bars' curve on the corners. 
 
