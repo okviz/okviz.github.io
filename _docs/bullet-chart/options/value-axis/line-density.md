@@ -16,7 +16,7 @@ related:
     - stroke-width.md
 ---
 
-**Default value:** 20
+**Default value:** 35
 
 This option is only visibile if **Gridlines** is enabled and **Line Style** is set to ***Dashed*** or ***Dotted***. It defines the distance between dashes/dots of the gridlines: the smaller the value, the greater the distance.
 

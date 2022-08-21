@@ -3,24 +3,31 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2022-07-15
-modified:           2022-08-17
+modified:           2022-08-21
 order:              /bullet-chart/{99}
 toc_max:            2
 ---
 This page contains a quick summary of versions and notable changes of Bullet Chart.  
 Bullet Chart uses **Power BI Custom Visuals API v4.7.0** - compatible with Power BI Desktop July 2022 and later versions.
 
-## v2.3.1.0
-**Released:** TBD
+## v2.3.1.1
+**Released:** 2022-08-21
 
 **Added:**
 - [Variances](options/variances/index.md)
+- [Baseline](options/value-axis/baseline.md)
+- [Text Rotation](options/category-axis/rotation.md)
+- [Category Axis Size](options/category-axis/size.md)
 - Absolute change value on data labels
+
+**Changed:**
+- Corner radius are now percentages
 
 **Fixed:**
 - Change over labels format - [Issue #13](https://github.com/okviz/bullet-chart-issues/issues/13)
 - Non-shared targets on multiple measures - [Issue #16](https://github.com/okviz/bullet-chart-issues/issues/16)
-
+- Vertical axis rotation improvements
+- Data labels alignment and overlapping 
 
 ## v2.3.0.0
 **Released:** 2022-08-08 (uncertified preview)
