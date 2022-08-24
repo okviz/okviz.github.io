@@ -6,6 +6,7 @@ date:               2022-08-21
 modified:   	    2022-08-21
 order:              /bullet-chart/options/category-axis/text-rotation
 premium:            /bullet-chart/licensing.md
+version:            2.3.1.1
 internal:           rotation
 ---
 

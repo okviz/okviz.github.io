@@ -9,3 +9,5 @@ next_reading:       true
 next_reading_title: Available Fields
 ---
 Smart Filter Pro accepts multiple columns and a few measures. See the following pages to learn about its capabilities.
+
+<img src="images/fields.png" width="200">

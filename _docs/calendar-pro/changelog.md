@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2022-07-17
-modified:           2022-08-05
+modified:           2022-08-22
 order:              /calendar-pro/{99}
 toc_max:            2
 ---
@@ -11,19 +11,15 @@ This page contains a quick summary of versions and notable changes of Calendar P
 Smart Filter Pro uses **Power BI Custom Visuals API v4.7.0** - compatible with Power BI Desktop July 2022 and later versions.
 
 ## v1.0.3
-**Released:** TBD
-
-**Added:**
-- Support private temporary versions
-
-## v1.0.2
-**Released:** TBD
+**Released:** Aug 22, 2022
 
 **Added:**
 - A wizard dialog when the visual contains no data.
 - [Extenda Today Color](options/cells/extend-today-color.md) option.
 - Support API 4.7.0
 - License info in About
+- Support for preview versions
+- US and CA states holidays
 
 **Changed:**
 - Improve ***Change Layout*** menu.

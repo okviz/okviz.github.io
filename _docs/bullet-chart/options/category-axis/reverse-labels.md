@@ -13,7 +13,7 @@ related:
 
 **Default Value:** Off
 
-This option is only visible when **Concatenate Labels** is enabled and it allows to reverse the order in which the labels hierarchical path   is displayed.
+This option is only visible when **Concatenate Labels** is enabled and it allows to reverse the order in which the labels hierarchical path is displayed.
 
 <img src="images/reverse-labels-off.png" width="700">
 
