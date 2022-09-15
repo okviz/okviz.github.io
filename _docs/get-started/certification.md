@@ -29,6 +29,7 @@ The certification is optional; vendors are not required to apply it to their vis
 Here is a list of OKVIZ visuals that are certified:
 
 - Bullet Chart
+- Calendar Pro
 - Candlestick
 - Card with States
 - Dot Plot
@@ -39,7 +40,6 @@ Here is a list of OKVIZ visuals that are certified:
 ## Uncertified Visuals
 
 These OKVIZ visuals, instead, are not yet certified:
-- Calendar Pro (*Certification ongoing...*)
 - Smart Filter Pro - [Why not?](../smart-filter-pro/security.md#certification)
 
 ### Limitations

@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2022-07-15
-modified:           2022-08-24
+modified:           2022-09-15
 order:              /bullet-chart/{99}
 toc_max:            2
 ---
@@ -17,7 +17,7 @@ Bullet Chart uses **Power BI Custom Visuals API v4.7.0** - compatible with Power
 - Legend font family is ignored - [Issue #19](https://github.com/okviz/bullet-chart-issues/issues/19)
 
 ## v2.3.1.1
-**Released:** 2022-08-21
+**Released:** 2022-09-15 (preview 2022-08-21)
 
 **Added:**
 - [Variances](options/variances/index.md)
@@ -36,7 +36,7 @@ Bullet Chart uses **Power BI Custom Visuals API v4.7.0** - compatible with Power
 - Data labels alignment and overlapping 
 
 ## v2.3.0.0
-**Released:** 2022-08-08 (uncertified preview)
+**Released:** 2022-08-08 (preview)
 
 **Changed:**
 - Support API 4.7.0
