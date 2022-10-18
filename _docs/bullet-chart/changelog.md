@@ -3,15 +3,19 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2022-07-15
-modified:           2022-09-15
+modified:           2022-10-18
 order:              /bullet-chart/{99}
 toc_max:            2
 ---
 This page contains a quick summary of versions and notable changes of Bullet Chart.  
-Bullet Chart uses **Power BI Custom Visuals API v4.7.0** - compatible with Power BI Desktop July 2022 and later versions.
+Bullet Chart uses **Power BI Custom Visuals API v5.1.0** - compatible with Power BI Desktop July 2022 and later versions.
 
 ## v2.3.2.0
-**Released:** TBD
+**Released:** 2022-10-18 (preview)
+
+**Added:**
+- Labels for targets
+- Bullet spacing option
 
 **Fixed:**
 - Legend font family is ignored - [Issue #19](https://github.com/okviz/bullet-chart-issues/issues/19)
