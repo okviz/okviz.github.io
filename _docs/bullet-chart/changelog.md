@@ -20,7 +20,10 @@ Bullet Chart uses **Power BI Custom Visuals API v4.7.0** - compatible with Power
 - Labels overlap option
 - Labels priority option
 - Use marker color option for labels
-- Color rules for single measure
+
+**Changed:**
+- Label overflow option is now in Labels section
+- Color rules can be applied to single measure 
 
 **Fixed:**
 - Legend font family is ignored - [Issue #19](https://github.com/okviz/bullet-chart-issues/issues/19)
