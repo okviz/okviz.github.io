@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2022-07-15
-modified:           2022-10-18
+modified:           2022-10-19
 order:              /bullet-chart/{99}
 toc_max:            2
 ---
@@ -14,11 +14,22 @@ Bullet Chart uses **Power BI Custom Visuals API v4.7.0** - compatible with Power
 **Released:** 2022-10-18 (preview)
 
 **Added:**
+- [Bullet Spacing](options/general/bullet-spacing.md)
 - Labels for targets
-- Bullet spacing option
+- Labels section 
+- Labels overlap option
+- Labels priority option
+- Use marker color option for labels
+- Color rules for single measure
 
 **Fixed:**
 - Legend font family is ignored - [Issue #19](https://github.com/okviz/bullet-chart-issues/issues/19)
+- Show change over value not appearing correctly - [Issue #19](https://github.com/okviz/bullet-chart-issues/issues/19)
+- Tooltip not appearing on dashboard - [Issue #25](https://github.com/okviz/bullet-chart-issues/issues/25)
+- Labels display with category axis off - [Issue #30](https://github.com/okviz/bullet-chart-issues/issues/30)
+- Data labels display with category in vertical orientation - [Issue #31](https://github.com/okviz/bullet-chart-issues/issues/31)
+- Tooltips precision for variance value
+- Labels position with variance
 
 ## v2.3.1.1
 **Released:** 2022-09-15 (preview 2022-08-21)
