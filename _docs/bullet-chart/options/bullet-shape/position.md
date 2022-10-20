@@ -13,7 +13,7 @@ related:
 
 **Default value:** Bottom right
 
-Defines the position of the shadow relative to the bars. 
+This option is only visible when [Shadow](shadow.md) is enabled and it defines the position of the shadow relative to the bars. 
 
 <img src="images/bullet-shape-shadow-position.png" width="700">
 

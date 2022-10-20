@@ -3,7 +3,7 @@ layout:         page
 title:          Border Style
 published:      true
 date:           2022-07-07
-modified:   	2022-07-31
+modified:   	2022-10-20
 order:          /bullet-chart/options/bullet-shape/border-style
 premium:        /bullet-chart/licensing.md
 internal:       borderStyle
@@ -16,7 +16,7 @@ related:
 
 **Default value:** Solid
 
-Defines the style of the border line. It provides three options to choose from:
+This option is only visible when [Border](border.md) is enabled and it defines the style of the border line. It provides three options to choose from:
 
 - **Dashed:**  Line made up of short strokes with breaks in between.
 

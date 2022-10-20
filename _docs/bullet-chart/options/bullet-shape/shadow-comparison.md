@@ -13,7 +13,7 @@ related:
 
 **Default value:** Off
 
-This option is shown only when a comparison value is connected. 
+This option is only visible when [Shadow](shadow.md) is enabled and there is a measure connected to the **Comparison Value** field. 
 
 <img src="images/comparison-value-connected.png" width="250">
 

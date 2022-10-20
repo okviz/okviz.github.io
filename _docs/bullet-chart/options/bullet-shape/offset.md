@@ -13,7 +13,7 @@ related:
 
 **Default value:** Outside
 
-Defines the offset of the shadow relative to the bar. Provides two options to choose from:
+This option is only visible when [Shadow](shadow.md) is enabled and it defines the offset of the shadow relative to the bar. Provides two options to choose from:
 
 - **Outside:** The shadow is placed outer the bar.
 
