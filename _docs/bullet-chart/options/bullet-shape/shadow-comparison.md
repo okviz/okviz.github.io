@@ -3,7 +3,7 @@ layout:         page
 title:          Shadow (Comparison)
 published:      true
 date:           2022-07-07
-modified:   	2022-08-17
+modified:   	2022-10-20
 order:          /bullet-chart/options/bullet-shape/shadow-comparison
 premium:        /bullet-chart/licensing.md
 internal:       shadowComparison
