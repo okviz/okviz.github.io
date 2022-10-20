@@ -7,4 +7,4 @@ modified:           2022-08-18
 order:              /bullet-chart/features/multiple-measures
 ---
 
- Bullet Chart allows you to add different measures when no measure is connected to the **Category** field. A **Target** and a **Comparison Value** can be associated with each measure. The association between measures in the various fields is given by the order in which they are connected (the first measure in the **Value** field will be connected to the first measure connected to the **Target** and/or **Comparison Value** field, and so on).
+Each measure connected to the **Value** field can be associated with a measure connected to the fields: **Comparison Value**, **Target** and **Target for Variance**. The connected measures will be associated according to the order in which they are entered in the respective fields (the first measure in the **Value** field will be connected to the first measure connected to the **Target** and/or **Comparison Value** and/or **Target for Variance** fields, and so on). 
