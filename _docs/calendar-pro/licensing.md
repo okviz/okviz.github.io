@@ -10,7 +10,7 @@ toc_max:            2
 
 Calendar Pro requires a valid per-user license to be used. We adhere to the ***ISV app licensing system*** provided by Microsoft to allow users to purchase and manage licenses easily.
 
-> **Power BI Embedded / Report Server**: Calendar Pro cannot be licensed on Power BI Embedded or Report Server using the system described on this page. If you are in one of these environments, please [contact us](mailto:support@okviz.com?title=Calendar+Pro+Unsupported+Env)
+> **Power BI Embedded / Report Server / [National Clouds](https://powerbi.microsoft.com/en-us/clouds/)**: Calendar Pro cannot be licensed on Power BI Embedded or Report Server using the system described on this page. If you are in one of these environments, please [contact us](mailto:support@okviz.com?title=Calendar+Pro+Unsupported+Env)
 
 ## Purchase Licenses
 
@@ -75,7 +75,7 @@ If you are using Calendar Pro without a valid license, you will see different no
 
     <img src="images/license-unlock.png" width="500">
  
-- Power BI Embedded / Report Server environment:
+- Power BI Embedded / Report Server / National Clouds environment:
 
     <img src="images/licensing-unsupported.png" width="400">
 

@@ -10,7 +10,7 @@ toc_max:            2
 
 Bullet Chart is a free visual but [some features](options/premium/index.md) require a valid license to be used. We adhere to the ***ISV app licensing system*** provided by Microsoft to allow users to purchase and manage licenses easily.
 
-> **Power BI Embedded / Report Server**: Bullet Chart cannot be licensed on Power BI Embedded or Report Server using the system described on this page. If you are in one of these environments, please [contact us](mailto:support@okviz.com?title=Bullet+Chart+Unsupported+Env)
+> **Power BI Embedded / Report Server / [National Clouds](https://powerbi.microsoft.com/en-us/clouds/)**: Bullet Chart cannot be licensed on Power BI Embedded or Report Server using the system described on this page. If you are in one of these environments, please [contact us](mailto:support@okviz.com?title=Bullet+Chart+Unsupported+Env)
 
 ## Purchase Licenses
 
@@ -75,6 +75,6 @@ If you are using Bullet Chart without a valid license, premium features are read
 
     <img src="images/feature-reset-banner.png" width="600">
 
-- Power BI Embedded / Report Server environment:
+- Power BI Embedded / Report Server / National Clouds environment:
 
     <img src="images/unsupported-env-banner.png" width="600">
