@@ -385,11 +385,11 @@ new Theme();
 
 // Cookies (requires cookiehelper.js)
 const cookieHelper = new CookieHelper({
-    consentCookie: "_okviz_consent",
+    prefCookieName: "_okviz_consent",
+    necessaryCookies: ["okviz-*"],
     privacyUrl: "https://okviz.com/privacy/#cookies",
-    euCheckService: "https://okviz.com/wp-admin/admin-ajax.php",
-    requiredCookies: ["okviz-*"],
-    onlyEU: true
+    geoReverseUrl: 'https://ipinfo.io/{ip}/json?token=81e7debefa0ece',
+    targetEU: true
 });
 cookieHelper.addDependency("optional", () => {
 
