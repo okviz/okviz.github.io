@@ -7,6 +7,7 @@ modified:           2022-07-21
 order:              /bullet-chart
 class:              front-section
 menu_class:         icon icon-bullet-chart
+next_reading:       true
 ---
 
 **Bullet Chart** is a custom visual that allows you to show data values, saving precious space on your reports. It can render single or multiple values in a series and show comparison values, different targets, and includes several interesting features - find more on [okviz.com/bullet-chart](https://okviz.com/bullet-chart)

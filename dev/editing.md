@@ -538,7 +538,7 @@ You can add a section containing a list of links to other pages at the same fold
         </td>
         <td>
             <div class="next-reading" style="margin:0; width: 300px">
-                <div class="title">Next Reading:</div>
+                <div class="title">Next Reading</div>
                 <ul>
                     <li>
                         <a href="best-practices">Best Practices</a>
