@@ -3,7 +3,7 @@ layout:             page
 title:              Fields
 published:          true
 date:               2022-08-17
-modified:           2022-08-17
+modified:           2023-02-02
 order:              /bullet-chart/fields
 next_reading:       true
 next_reading_title: Available Fields
