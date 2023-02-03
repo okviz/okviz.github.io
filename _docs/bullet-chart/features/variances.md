@@ -7,7 +7,6 @@ modified:           2023-02-02
 order:              /bullet-chart/features/variances
 version:            2.3.1.0
 ---
-
 Variance bars can be used to monitor progress towards a target or to highlight where results differ from expectations. This helps to better understand the data and identify possible areas for improvement.
 
 To display variance bars, a target value needs to be connected to the ***Target for variance*** field.

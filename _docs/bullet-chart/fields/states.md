@@ -6,7 +6,6 @@ date:               2022-08-17
 modified:           2023-02-03
 order:              /bullet-chart/fields/states
 ---
-
 States can be considered as qualitative performance intervals in which measures can be embedded to enrich data-storytelling. States, are usually shown as different intensities of a single hue, to represent different milestones achievement scenarios.
 
 <img src="images/states.png" width="700">

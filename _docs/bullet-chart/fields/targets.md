@@ -6,8 +6,7 @@ date:               2022-08-17
 modified:           2023-02-02
 order:              /bullet-chart/fields/targets
 ---
-
-Targets, are different measures with relation to the primary and secondary measures, useful to set goals for the metrics. You can connect multiple measures to the **Targets** field.
+Targets are different measures with relation to the primary and secondary measures, useful to set goals for the metrics. You can connect multiple measures to the **Targets** field.
 
 <img src="images/targets.png" width="700">
 

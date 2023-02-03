@@ -5,13 +5,12 @@ published:          true
 date:               2022-08-17
 modified:           2023-02-02
 order:              /bullet-chart/fields/comparison-value
----
 related:
     - category.md
     - value.md
     - targets.md
     - target-variance.md
-
+---
 When a measure or column is connected to this field, a secondary bar is displayed behind the main bar (the one referring to the measure connected to the **Value** field). If a **Category** is connected, the field will only accept one measure, displaying one comparison value bar for each category value.
 
 <img src= "images/comparison-with-category.png" width="700">
