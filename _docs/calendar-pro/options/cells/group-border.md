@@ -13,4 +13,4 @@ related:
     - border-collapse.md
     - border-size.md
 ---
-**Default value:** True
+**Default value:** On

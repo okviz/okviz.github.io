@@ -8,4 +8,4 @@ order:              /calendar-pro/options/toolbar/prev-next-page
 internal:           prevNextStepPageControls
 available:          Calendar Mode
 ---
-**Default value:** True
+**Default value:** On

@@ -7,4 +7,4 @@ modified:           2022-07-26
 order:              /calendar-pro/options/holidays/show-country-flags
 internal:           showLabelFlag
 ---
-**Default value:** False
+**Default value:** Off

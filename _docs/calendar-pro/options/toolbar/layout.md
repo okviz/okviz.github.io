@@ -8,4 +8,4 @@ order:              /calendar-pro/options/toolbar/layout-control
 internal:           tableEditControl
 available:          Calendar Mode
 ---
-**Default value:** True
+**Default value:** On

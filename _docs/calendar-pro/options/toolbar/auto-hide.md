@@ -7,4 +7,4 @@ modified:           2022-07-22
 order:              /calendar-pro/options/toolbar/auto-hide-controls
 internal:           autoHide
 ---
-**Default value:** False
+**Default value:** Off

@@ -8,4 +8,4 @@ order:              /calendar-pro/options/toolbar/focus-on-zoom
 internal:           focusOnZoom
 available:          Calendar Mode
 ---
-**Default value:** False
+**Default value:** Off

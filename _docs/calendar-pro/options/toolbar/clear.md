@@ -7,4 +7,4 @@ modified:           2022-07-22
 order:              /calendar-pro/options/toolbar/clear-selection
 internal:           clear
 ---
-**Default value:** False
+**Default value:** Off

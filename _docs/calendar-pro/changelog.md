@@ -3,12 +3,22 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2022-07-17
-modified:           2022-09-15
+modified:           2023-02-26
 order:              /calendar-pro/{99}
 toc_max:            2
 ---
 This page contains a quick summary of versions and notable changes of Calendar Pro.  
-Smart Filter Pro uses **Power BI Custom Visuals API v4.7.0** - compatible with Power BI Desktop July 2022 and later versions.
+Smart Filter Pro uses **Power BI Custom Visuals API v5.1.0** - compatible with Power BI Desktop Oct 2022 and later versions.
+
+## v1.0.4
+**Released:** 2023-02-26 (preview)
+
+**Added:**
+- [Default to Today](options/calendar/default-today.md) option.
+- Support API 5.1.0
+
+**Fixed:**
+- Missing last week when a single calendar is displayed on the screen and the number of weeks in the first month of the interval is less than 5 weeks.
 
 ## v1.0.3
 **Released:** 2022-09-15

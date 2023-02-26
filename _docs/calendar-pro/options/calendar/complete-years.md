@@ -8,4 +8,4 @@ order:              /calendar-pro/options/calendar-setup/complete-years
 internal:           completeYears
 available:          Calendar Mode
 ---
-**Default value:** True
+**Default value:** On

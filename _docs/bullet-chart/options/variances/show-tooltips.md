@@ -10,7 +10,7 @@ version:            2.3.1.0
 internal:           showTooltips
 ---
 
-**Default value:** True
+**Default value:** On
 
 This option allows adding variance values to the tooltips screentip.
 

@@ -9,7 +9,7 @@ internal:           keepDropdown
 available:          Dropdown mode
 version:            2.3.0
 ---
-**Default value:** False
+**Default value:** Off
 
 This option keeps the dropdown list open after selecting an item.
 

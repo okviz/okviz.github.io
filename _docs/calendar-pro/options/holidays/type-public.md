@@ -13,4 +13,4 @@ related:
     - type-optional.md
     - type-school.md
 ---
-**Default value:** True
+**Default value:** On

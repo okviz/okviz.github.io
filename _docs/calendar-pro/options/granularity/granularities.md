@@ -7,4 +7,4 @@ modified:           2022-07-27
 order:              /calendar-pro/options/calendar-granularity/allow-all-granularities
 internal:           allGranularities
 ---
-**Default value:** True
+**Default value:** On

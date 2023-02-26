@@ -7,4 +7,4 @@ modified:           2022-07-22
 order:              /calendar-pro/options/toolbar/grouping-control
 internal:           groupingControls
 ---
-**Default value:** True
+**Default value:** On

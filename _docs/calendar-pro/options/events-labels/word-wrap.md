@@ -8,4 +8,4 @@ order:              /calendar-pro/options/events-holidays-labels/word-wrap
 internal:           wordWrap
 available:          Calendar Mode
 ---
-**Default value:** False
+**Default value:** Off

@@ -8,4 +8,4 @@ order:              /calendar-pro/options/toolbar/first-last-page
 internal:           firstLastPageControls
 available:          Calendar Mode
 ---
-**Default value:** False
+**Default value:** Off

@@ -9,7 +9,7 @@ internal:           showTitle
 related:
     - title.md
 ---
-**Default value:** False
+**Default value:** Off
 
 <todo>Description</todo>
 

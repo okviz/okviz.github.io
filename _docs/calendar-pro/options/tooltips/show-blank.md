@@ -7,4 +7,4 @@ modified:           2022-07-22
 order:              /calendar-pro/options/tooltips/show-blank-values
 internal:           showBlank
 ---
-**Default value:** False
+**Default value:** Off

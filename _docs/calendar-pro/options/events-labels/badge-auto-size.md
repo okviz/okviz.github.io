@@ -10,4 +10,4 @@ available:          Calendar Mode
 related:
     - badge-size.md
 ---
-**Default value:** True
+**Default value:** On

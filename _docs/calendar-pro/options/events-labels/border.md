@@ -11,4 +11,4 @@ related:
     - border-size.md
     - border-color.md
 ---
-**Default value:** False
+**Default value:** Off

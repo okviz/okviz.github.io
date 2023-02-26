@@ -9,4 +9,4 @@ internal:           showTitle
 related:
     - legend-name.md
 ---
-**Default value:** False
+**Default value:** Off

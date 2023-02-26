@@ -8,4 +8,4 @@ order:              /calendar-pro/options/toolbar/focus-view-control
 internal:           focusViewControl
 available:          Calendar Mode
 ---
-**Default value:** True
+**Default value:** On

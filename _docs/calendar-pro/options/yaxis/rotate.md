@@ -8,4 +8,4 @@ order:              /calendar-pro/options/axis-year/rotate
 internal:           rotate
 available:          Chart Mode
 ---
-**Default value:** True
+**Default value:** On

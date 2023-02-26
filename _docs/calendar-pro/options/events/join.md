@@ -7,4 +7,4 @@ modified:           2022-07-26
 order:              /calendar-pro/options/join-adjacent-events
 internal:           join
 ---
-**Default value:** True
+**Default value:** On

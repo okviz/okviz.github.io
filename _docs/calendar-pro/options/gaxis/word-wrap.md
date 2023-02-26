@@ -7,4 +7,4 @@ modified:           2022-07-26
 order:              /calendar-pro/options/group-title/word-wrap
 internal:           wordWrap
 ---
-**Default value:** False
+**Default value:** Off

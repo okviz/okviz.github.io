@@ -12,4 +12,4 @@ related:
     - border-size.md
     - group-border.md
 ---
-**Default value:** True
+**Default value:** On

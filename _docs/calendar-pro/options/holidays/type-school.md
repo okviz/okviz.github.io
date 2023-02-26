@@ -13,4 +13,4 @@ related:
     - type-optional.md
     - type-public.md
 ---
-**Default value:** True
+**Default value:** On

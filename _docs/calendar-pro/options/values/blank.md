@@ -8,4 +8,4 @@ order:              /calendar-pro/options/cell-value/show-blank
 internal:           showBlank
 available:          Calendar Mode
 ---
-**Default value:** False
+**Default value:** Off

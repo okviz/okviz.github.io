@@ -6,4 +6,4 @@ modified:           2022-07-26
 order:              /calendar-pro/options/holidays/add-to-legend
 internal:           addToLegend
 ---
-**Default value:** True
+**Default value:** On

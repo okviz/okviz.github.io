@@ -9,7 +9,7 @@ internal:           extendTodayFill
 related:
     - today-color.md
 ---
-**Default value:** False
+**Default value:** Off
 
 This option applies the cell color set for current day to any granularity, e.g. current month, current quarter, current year.
 

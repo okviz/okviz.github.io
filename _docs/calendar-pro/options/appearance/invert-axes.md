@@ -8,4 +8,4 @@ order:              /calendar-pro/options/appearance/invert-axes
 internal:           invetAxis
 available:          Chart Mode
 ---
-**Default value:** False
+**Default value:** Off

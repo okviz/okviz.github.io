@@ -8,4 +8,4 @@ order:              /calendar-pro/options/single-color
 internal:           aggregate
 available:          Calendar Mode
 ---
-**Default value:** True
+**Default value:** On

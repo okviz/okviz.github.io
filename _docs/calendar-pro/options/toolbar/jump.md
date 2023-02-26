@@ -8,4 +8,4 @@ order:              /calendar-pro/options/toolbar/jump-to-date
 internal:           jumpControls
 available:          Calendar Mode
 ---
-**Default value:** True
+**Default value:** On

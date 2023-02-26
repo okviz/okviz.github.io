@@ -8,4 +8,4 @@ order:              /calendar-pro/options/appearance/focus-view
 internal:           focusView
 available:          Calendar Mode
 ---
-**Default value:** False
+**Default value:** Off
