@@ -3,10 +3,11 @@ layout:             page
 title:              Overflow
 published:          true
 date:               2022-10-20
-modified:   	    2023-02-01
+modified:   	    2023-03-08
 order:              /bullet-chart/options/labels/overflow
 premium:            /bullet-chart/licensing.md
 internal:           overflow
+version:            2.3.2.1
 ---
 
 **Default value:** On

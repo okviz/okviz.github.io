@@ -3,7 +3,7 @@ layout:             page
 title:              Tooltips
 published:          true
 date:               2022-07-07
-modified:   	    2022-07-29
+modified:   	    2023-03-08
 order:              /bullet-chart/options/tooltips
 internal:           tooltips
 next_reading:       true

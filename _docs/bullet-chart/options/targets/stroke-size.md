@@ -11,4 +11,4 @@ internal:       size
 
 This option allows to define the width of the marker stroke.
 
-<img src="images/stroke-size.png" width="700">
+<video src="images/target-stroke-size.mp4" width="700" autoplay loop muted></video>

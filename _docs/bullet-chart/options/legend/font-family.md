@@ -13,6 +13,6 @@ related:
 
 This option defines the font style of the legend items.  
 
-<todo>Screenshot</todo>
+<img src="images/legend-font-family.png" width="700">
 
 > This option is not controllable through a [Report Theme](../../features/themes.md).

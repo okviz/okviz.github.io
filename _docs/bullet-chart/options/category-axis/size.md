@@ -3,14 +3,18 @@ layout:             page
 title:              Size %
 published:          true
 date:               2022-08-21
-modified:   	    2022-10-20
+modified:   	    2023-02-28
 order:              /bullet-chart/options/category-axis/size
 premium:            /bullet-chart/licensing.md
-internal:           size
+internal:           percentile
 ---
 
 **Default value:** 0 
 
-This option allows you to define a fixed percentage size for category labels, relative to the overall size of the visual. If the [Show Entire Text](show-entire-text.md) option is enabled, the minimum size will be equal to the size of the label that takes up the most space.
+This option allows you to define a fixed percentage size for category labels, relative to the overall size of the visual. 
 
-<todo>Screenshot</todo>
+<img src="images/category-axis-size-perc.png" width="700">
+
+If the [Show Entire Text](show-entire-text.md) option is enabled, the minimum size will be equal to the size of the label that takes up the most space.
+
+<img src="images/category-axis-size-perc-show-entire-text.png" width="700">

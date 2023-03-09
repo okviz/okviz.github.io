@@ -11,6 +11,6 @@ related:
 ---
 **Default value:** (Empty)
 
-<todo>Description</todo>
+This option allows a title to be assigned to the legend and is only visible when the [Show Title](show-title.md) option is active.
 
-<todo>Screenshot</todo>
+<video src="images/legend-title.mp4" width="700" autoplay loop muted></video>

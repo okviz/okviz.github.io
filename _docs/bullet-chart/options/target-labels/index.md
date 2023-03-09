@@ -2,16 +2,19 @@
 layout:             page
 title:              Target Labels
 published:          true
-date:               2022-10-20
-modified:   	    2023-02-01
+date:               2023-03-07
+modified:   	    2023-03-07
 order:              /bullet-chart/options/target-labels
 internal:           targetLabels
 premium:            /bullet-chart/licensing.md
 next_reading:       true
 next_reading_title: Options
 class:              normal
+version:            2.3.2.1
 ---
 
-This section contains options related to the display of target labels.
+**Default value:** Off
 
-<todo>Screenshot</todo>
+Activating this section will display target labels and all related option. it is only visibile when there are at least one measure in the [Targets field](../../fields/targets.md).
+
+<video src="images/target-labels-on.mp4" width="700" autoplay loop muted></video>

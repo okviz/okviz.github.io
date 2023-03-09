@@ -6,10 +6,11 @@ date:               2022-10-19
 modified:   	    2022-10-19
 order:              /bullet-chart/options/general/bullet-spacing
 internal:           bulletSpacing
+version:            2.3.2.1
 ---
 
 **Defaul value:** 1
 
 This option allows you to define the distance between bullets. The higher the value, the greater the distance.
 
-<todo>Add screenshoot</todo>
+<video src="images/bullet-spacing.mp4" width="700" autoplay loop muted></video>

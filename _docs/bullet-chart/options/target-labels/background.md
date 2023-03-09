@@ -1,0 +1,22 @@
+---
+layout:             page
+title:              Background
+published:          true
+date:               2023-03-07
+modified:   	    2023-03-07
+order:              /bullet-chart/options/target-labels/background
+internal:           background
+premium:            /bullet-chart/licensing.md
+class:              normal
+version:            2.3.2.1
+related:
+    - background-color.md
+    - background-opacity.md
+    - use-marker-color.md
+---
+
+**Default value:** Off
+
+When enabled, this option adds a background to the target label. The text colour of the label will automatically match the background colour. It is always possible to change the text colour with the [Color](color.md) option except in some cases where the [Use Marker Color](use-marker-color.md) option is applied.
+
+<video src="images/target-label-on.mp4" width="700" autoplay loop muted></video>

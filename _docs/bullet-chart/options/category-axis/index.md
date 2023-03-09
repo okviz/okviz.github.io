@@ -3,7 +3,7 @@ layout:             page
 title:              Category Axis
 published:          true
 date:               2022-07-07
-modified:   	    2022-07-20
+modified:   	    2023-02-28
 order:              /bullet-chart/options/category-axis
 internal:           label
 next_reading:       true
@@ -14,5 +14,3 @@ class:              normal
 **Default value:** On
 
 This section enables the display of category axis labels and the options to edit their appearance.
-
-<todo>Screenshot</todo>

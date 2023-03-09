@@ -1,0 +1,18 @@
+---
+layout:             page
+title:              Color
+published:          true
+date:               2023-03-07
+modified:   	    2023-03-07
+order:              /bullet-chart/options/target-labels/color
+internal:           fill
+premium:            /bullet-chart/licensing.md
+class:              normal
+version:            2.3.2.1
+related:
+    - use-marker-color.md
+---
+
+**Default Value:** {% include color value="#000" %}
+
+This option allows you to define the text colour for target labels and is only visible if the [Use Marker Colour](use-marker-colour.md) option is not set to **Background**, **Background & Border**, **Border & Text** or **Text**. In these cases the text colour will automatically be assigned according to the colour of the target marker or the best choice of visibility compared to the target labels' background. 
