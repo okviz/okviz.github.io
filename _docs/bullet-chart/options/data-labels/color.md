@@ -9,14 +9,13 @@ internal:           fill
 related:
     - font-family.md
     - text-size.md
+    - use.
 ---
 
 **Default value:** Auto
 
-Specifies the color of the text for the data labels. When this option is ***Auto*** and the label is placed inside the bullet bar through the option [Position](position.md), the color is assigned automatically based on the bar fill color.
+Specifies the color of the text for the data labels. This option is only visible if the [Use data color](use-data-color.md) option is not set to **Background**, **Background & Border**, **Border & Text** or **Text**. In these cases the text color will automatically be assigned according to the color of the related bar or the best choice of visibility compared to the label background.
 
 <img src="images/data-labels-color.png" width="700">
-
-<todo>Screenshot of inside label with auto color</todo>
 
 > This option is not controllable through a [Report Theme](../../features/themes.md).

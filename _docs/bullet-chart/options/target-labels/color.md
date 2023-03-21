@@ -15,4 +15,4 @@ related:
 
 **Default Value:** {% include color value="#000" %}
 
-This option allows you to define the text colour for target labels and is only visible if the [Use Marker Colour](use-marker-colour.md) option is not set to **Background**, **Background & Border**, **Border & Text** or **Text**. In these cases the text colour will automatically be assigned according to the colour of the target marker or the best choice of visibility compared to the target labels' background. 
+This option allows you to define the text colour for target labels and is only visible if the [Use marker color](use-marker-color.md) option is not set to **Background**, **Background & Border**, **Border & Text** or **Text**. In these cases the text colour will automatically be assigned according to the color of the target marker or the best choice of visibility compared to the target labels' background. 

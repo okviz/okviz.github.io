@@ -13,4 +13,5 @@ internal:           background
 
 This option adds a background to data labels.
 
+
 <img src="images/data-labels-background.png" width="700">

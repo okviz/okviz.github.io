@@ -3,7 +3,7 @@ layout:             page
 title:              Position
 published:          true
 date:               2022-07-07
-modified:   	    2022-08-17
+modified:   	    2023-03-21
 order:              /bullet-chart/options/data-labels/position
 premium:            /bullet-chart/licensing.md
 internal:           position
@@ -35,4 +35,4 @@ Allows to specify the position of data labels relative to the bars. The followin
 
 - **Outside end (variance):** works like ***Outside end*** but when the [variance](../variances/index.md) is visible it places the data label after the variance bar.
 
-    <todo>Screenshot</todo>
+    <video src="images/data-labels-position-outside-end-variance.mp4" width="700" autoplay loop muted></video>

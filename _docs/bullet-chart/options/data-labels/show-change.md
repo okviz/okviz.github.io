@@ -3,7 +3,7 @@ layout:             page
 title:              Show Change
 published:          true
 date:               2022-08-17
-modified:   	    2023-02-01
+modified:   	    2023-03-21
 order:              /bullet-chart/options/data-labels/show-change
 internal:           showChange
 related:
@@ -11,19 +11,19 @@ related:
     - change-value-type.md
 ---
 
-**Defaul value:** Don't Show
+**Defaul value:** (Don't Show)
 
-This option is visible only if there is at least one measure connected to the ***Comparison Value*** field or the ***Targets*** field. This option allows to show the value change in the main value (connected to the ***Value*** field) relative to the Comparison Value, a Target or a Target for variance in the data labels. It provides six options:
+This option is only visible if at least one measurement is connected to one of the fields between [Comparison Value](./../../fields/comparison-value.md), [Targets](./../../fields/targets.md) or [Target for Variance](./../../fields/target-variance.md) and allows you to show the difference between the primary value (connected to the [Value field](./../../fields/value.md) and the value for the selection made. 
+
+<img src="images/data-labels-show-change-over.png" width="700">
+
+It provides the following list of options to chose from:
 
 - **Don't Show:** Percent change is not shown.
 
 - **Comparison Value:** Value change calculated relative to the Comparison value.
 
-<img src="images/perc-change-over-comparison.png" width="700">
-
 - **Closest Achieved Target:** Calculated value change compared to the value of the closest target achieved.
-
-<img src="images/perc-change-over-comparison.png" width="700">
 
 - **Next Target:** Calculated value change from the following target value.
 
@@ -33,4 +33,4 @@ This option is visible only if there is at least one measure connected to the **
 
 - **Target for Variance:** Calculated value change from target for variance.
 
-<todo>Screenshot</todo>
+Please note that if you select an option and have not connected any measurement to the related field, the difference between values will not be shown.
