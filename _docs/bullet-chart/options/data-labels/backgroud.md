@@ -11,7 +11,7 @@ internal:           background
 
 **Default value:** Off
 
-This option adds a background to data labels.
+This option adds a background to data labels. If you have not changed the [text color](color.md) manually, it will be assigned automatically to ensure the best visibility
 
 
 <img src="images/data-labels-background.png" width="700">
