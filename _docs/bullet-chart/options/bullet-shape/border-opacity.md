@@ -6,6 +6,7 @@ date:           2022-07-07
 modified:   	2022-10-20
 order:          /bullet-chart/options/bullet-shape/border-opacity
 premium:        /bullet-chart/licensing.md
+version:        2.3.0.0
 internal:       borderOpacity
 related:            
     - border.md

@@ -5,6 +5,7 @@ published:          true
 date:               2022-08-17
 modified:   	    2023-02-01
 order:              /bullet-chart/options/category-axis/labels-separator
+version:            2.3.0.0
 internal:           separator
 related:
     - concatenate-labels.md

@@ -12,7 +12,7 @@ related:
 ---
 **Default value:** *foreground* color of [Report Theme](../../features/themes.md)
 
-This option allows to define the markers color and it is specific for each target field bound to the visual.
+This option allows to define the markers color and it is specific for each target measure bound to the visual.
 
 <img src="images/target-color-shape-fields.png" width="700">
 
