@@ -17,12 +17,12 @@ This option is only available if [Show change over](show-change.md) is set to a 
 
     - **Percentage:** data labels will show the percentage difference between the primary value and the selected value. Looking at the example below, the percentage difference is given by the equation:
 
-        ***(primary measure - target) / target*** 
+    **(primary measure - target) / target** 
 
     which means:
 
-        - primary measure (Sales Amount) = $4.13M; 
-        - target = $2M;
+        primary measure (Sales Amount) = $4.13M; 
+        target = $2M;
         
         (4.13 - 2) / 2 = 1.065 = 106.5%.
 
