@@ -390,7 +390,6 @@ const cookieHelper = new CookieHelper({
     prefCookieName: "_okviz_consent",
     necessaryCookies: ["okviz-*"],
     privacyUrl: "https://okviz.com/privacy/#cookies",
-    geoReverseUrl: 'https://ipinfo.io/{ip}/json?token=81e7debefa0ece',
     geoCookieName: '_sqlbi_iso',
     targetEU: true
 });
