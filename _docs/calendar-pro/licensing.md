@@ -3,7 +3,7 @@ layout:             page
 title:              Licensing
 published:          true
 date:               2022-07-17
-modified:           2022-08-11
+modified:           2023-09-11
 order:              /calendar-pro/{98}
 toc_max:            2
 ---
@@ -62,6 +62,30 @@ Follow these steps to proceed:
 4. Press ***Assign*** and you are done.
 
 At this point the users you have selected will be able to use all the features of Calendar Pro.
+
+## Unassign Licenses
+
+You can unassign licenses in the same way you assigned them:
+
+1. Sign in to your [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/licenses)
+
+2. Click on the product license to manage.
+
+3. Select the users or groups you want to unassign the license from and press ***Unassign licenses***.
+
+## Cancel Subscription
+
+You can cancel the subscription from the Microsoft 365 admin page:
+
+1. Sign in to your [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/subscriptions)
+
+2. On the navigation menu, select ***Billing*** > ***Your products***
+
+3. Find the row related to Calendar Pro by OKVIZ, click on the **ellipsis button**, then choose ***Cancel subscription***.
+
+    <img src="images/cancel-subscription.png" width="600">
+
+> Refund policy is available on the [Refund policies for Microsoft AppSource and Azure Marketplace](https://learn.microsoft.com/en-us/marketplace/refund-policies) page.
 
 ## Unlicensed Notifications
 
