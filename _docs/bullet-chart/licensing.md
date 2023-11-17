@@ -40,6 +40,18 @@ Here is an overview of the process required to obtain licenses for Bullet Chart:
 
 5. Complete the checkout by providing a valid payment method and confirming the purchase.
 
+### Purchase additional licenses
+
+If you need to purchase additional licenses, you can do it from the admin center page:
+
+1. Sign in to your [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/subscriptions).
+
+2. On the navigation menu, select ***Billing*** > ***Your products***.
+
+3. Find the row related to Bullet Chart OKVIZ, click on the ***Buy licenses*** button.
+
+    <img src="images/license-buy-more.png" width="600">
+
 ## Assign Licenses
 
 After you have purchased one or more licenses, you need to assign them to your users or Active Directory groups.
@@ -77,9 +89,9 @@ You can unassign licenses in the same way you assigned them:
 
 You can cancel the subscription from the Microsoft 365 admin page:
 
-1. Sign in to your [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/subscriptions)
+1. Sign in to your [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/subscriptions).
 
-2. On the navigation menu, select ***Billing*** > ***Your products***
+2. On the navigation menu, select ***Billing*** > ***Your products***.
 
 3. Find the row related to Bullet Chart by OKVIZ, click on the **ellipsis button**, then choose ***Cancel subscription***.
 
