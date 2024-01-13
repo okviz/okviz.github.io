@@ -10,6 +10,12 @@ toc_max:            2
 This page contains a quick summary of versions and notable changes of Bullet Chart.  
 Bullet Chart uses **Power BI Custom Visuals API v5.4.0** - compatible with Power BI Desktop May 2023 and later versions.
 
+## v2.3.2.6
+**Released:** 2024-01-15
+
+**Fixed:**
+- Color rule problems with field conditions
+
 ## v2.3.2.5
 **Released:** 2023-12-11
 
