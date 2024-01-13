@@ -3,7 +3,7 @@ layout:             page
 title:              Cross Filtering
 published:          true
 date:               2021-12-14
-modified:           2022-07-17
+modified:           2024-01-13
 order:              /smart-filter-pro/options/mode/cross-filtering
 toc:                false
 internal:           filterMultiple, crossFiltering
@@ -24,6 +24,7 @@ To define how cross-filtering works in detail, you need to select its behavior w
 
 This option allows you to choose how the cross-filtering is applied: 
 - [Every field](#every-field)
+- [Every field and values](#every-field-and-values)
 - [Sequential](#sequential)
 - [Legacy](#legacy)
 
@@ -47,6 +48,11 @@ As you see below, all other product categories that are not sold in Armenia are 
 <img src="images/cross-filtering-every-field-3.png" width="700">
 
 The above example is a simplistic one citing only two fields in Smart Filter Pro.  You can use this feature in multiple fields selection as well.
+
+### Every field and values
+
+Like the `Every field` option, but excluded datapoints values are also filtered out.
+This option has been introduced in [v2.3.1.0](../../changelog.md#v2310).
 
 ### Sequential
     
