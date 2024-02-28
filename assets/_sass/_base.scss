@@ -1132,3 +1132,34 @@ video {
     vertical-align: middle;
     margin:0 5px;
 }
+.badge {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1;
+    text-transform: uppercase;
+    background-color: var(--badge-back-color);
+    color: var(--badge-color);
+    padding: 8px 12px;
+    @include border-radius(5px);
+    border: 1px solid var(--badge-border-color);
+    letter-spacing: .5px;
+    cursor: default;
+
+    &.availability {
+        background-color: var(--badge-availability-back-color);
+        color: var(--badge-availability-color);
+        border-color: var(--badge-availability-border-color);
+    }
+    &.version {
+        text-transform: lowercase;
+        background-color: var(--badge-version-back-color);
+        color: var(--badge-version-color);
+        border-color: var(--badge-version-border-color);
+    }
+    &.premium {
+        background-color: var(--badge-premium-back-color);
+        color: var(--badge-premium-color);
+        border-color: var(--badge-premium-border-color);
+    }
+}

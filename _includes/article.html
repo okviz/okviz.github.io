@@ -6,21 +6,7 @@
                 {% include breadcrumbs.html %}
             {% endunless %}
 
-            
-            <a href="{{ page.url | remove: "index" | remove: ".html" }}">
-                <h1>
-                    {{ page.title }}
-                    {% if page.available %}
-                        {% include badge in=page.available %}
-                    {% endif %}
-                    {% if page.version %}
-                        {% include badge v=page.version %}
-                    {% endif %}
-                    {% if page.premium %}
-                        {% include badge premium=page.premium %}
-                    {% endif %}
-                </h1>
-            </a>
+            <a href="{{ page.url | remove: "index" | remove: ".html" }}"><h1>{{ page.title }}</h1></a>
             <hr>
         </header>
 
