@@ -1,0 +1,25 @@
+// Put your theme colors here
+
+// Light colors
+@mixin my-light-colors {
+
+    --accent-color: #00b8aa;
+    --accent-hover-color: #008e82;
+    --accent-back-color: #e5fcfb;
+    --accent-hover-back-color: #d2f5f3;
+    --accent-border-color: #027b71;
+    --accent-contrast-color: #fff;
+
+}
+
+// Dark colors
+@mixin my-dark-colors {
+
+    --accent-color: #00b8aa;
+    --accent-hover-color: #008e82;
+    --accent-back-color: #d9f6f4;
+    --accent-hover-back-color: #d2f5f3;
+    --accent-border-color: #027b71;
+    --accent-contrast-color: #fff;
+
+}
