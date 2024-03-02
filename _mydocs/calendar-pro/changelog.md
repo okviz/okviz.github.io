@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2022-07-17
-modified:           2024-01-23
+modified:           2024-02-03
 order:              /calendar-pro/{99}
 toc_max:            2
 ---
@@ -11,10 +11,10 @@ This page contains a quick summary of versions and notable changes of Calendar P
 Smart Filter Pro uses **Power BI Custom Visuals API v5.4.0** - compatible with Power BI Desktop May 2023 and later versions.
 
 ## v1.0.5.4
-**Released:** Not yet released
+**Released:** 2024-03-02
 
 **Fixed:**
-- Custom culture code not working
+- Custom culture code for number formatting
 
 ## v1.0.5.3
 **Released:** 2024-01-15
