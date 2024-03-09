@@ -1,0 +1,44 @@
+name: Update Last Modified Dates
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - '_data/last_commits.yml'
+
+jobs:
+
+  update-last-commit:
+    if: ${{ !startsWith(github.event.head_commit.committer.name, 'GitHub Actions') }}
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0 # Required to get full commit history
+    
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.7
+        
+    - name: Install dependencies
+      run: gem install octokit
+      
+    - name: Update last commit dates
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        REPO_NAME: ${{ github.repository }}
+      run: |
+        git checkout ${{ github.sha }}
+        git log --pretty=format:"%ad|%H|%f" --date=iso --name-only --follow | sort -u > last_commits.txt
+
+        ruby -e '
+          last_commits = {}
+          File.readlines("last_commits.txt").each do |line|
+            date, commit, file = line.chomp.split("|")
+            last_commits[file] = date
+          end
+          File.write("_data/last_commits.yml", last_commits.to_yaml)
+        '
