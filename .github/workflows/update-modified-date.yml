@@ -20,8 +20,8 @@ jobs:
     
     - name: Update last commit dates
       run: |
-        git checkout ${{ github.sha }}
-        git log --pretty=format:"%ad|%H|%f" --date=iso --name-only --follow | sort -u > last_commits.txt
+        git checkout ${{ github.ref }}
+        git log --pretty=format:"%ad|%H|%f" --date=iso --name-only | sort -u > last_commits.txt
         
         ruby -e '
           last_commits = {}
