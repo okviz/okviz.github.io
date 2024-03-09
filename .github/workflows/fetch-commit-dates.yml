@@ -41,9 +41,11 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         branch: update-file-dates-${GITHUB_SHA}
+        force: false  # Do not trigger an error if there are no changes to push
         
     - name: Create pull request
-      uses: peter-evans/create-pull-request@v3
+      if: steps.git-status.outputs.stdout != ''
+      uses: peter-evans/create-pull-request@v6
       with:
         commit-message: "Update last file dates"
         title: "Update last file dates"
