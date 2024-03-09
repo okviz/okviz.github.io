@@ -28,7 +28,7 @@ jobs:
         
     - name: Create branch
       run: |
-        git checkout -b update-file-dates-${GITHUB_SHA::8}
+        git checkout -b update-file-dates-${GITHUB_SHA}
         
     - name: Commit changes
       run: |
@@ -40,12 +40,12 @@ jobs:
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
-        branch: update-file-dates-${GITHUB_SHA::8}
+        branch: update-file-dates-${GITHUB_SHA}
         
     - name: Create pull request
       uses: peter-evans/create-pull-request@v3
       with:
         commit-message: "Update last file dates"
         title: "Update last file dates"
-        branch: update-file-dates-${GITHUB_SHA::8}
+        branch: update-file-dates-${GITHUB_SHA}
         base: main
