@@ -1,11 +1,11 @@
-name: update-last-modified-dates
+name: fetch-commit-dates
 
 on:
   push:
     branches:
       - main
     paths-ignore:
-      - '_data/last_commits.json'
+      - '_data/commit_dates.json'
 
 jobs:
 
@@ -25,25 +25,26 @@ jobs:
         
         ruby -e "
           require 'json'
+          require 'fileutils'
+
+          # Create _data folder if it doesn't exist
+          data_folder = '_data'
+          Dir.mkdir(data_folder) unless File.exists?(data_folder)
 
           last_commits = {}
-          `git ls-files '*.md'`.each_line do |file|
+          `git ls-files -- '*.md'`.each_line do |file|
             file.chomp!
-            file = file.gsub('\"', '\\\"') # Escape double quotes
-            file = file.gsub('\'', '\\\'') # Escape single quotes
-            file = file.gsub('/', '\/') # Escape slashes
-            commit_date = `git log -1 --format='%ad' --date=iso -- \"#{file}\"`.chomp
+            commit_date = `git log -1 --format='%ad' --date=iso -- "#{file}"`.chomp
             last_commits[file] = commit_date
           end
 
-          File.write('_data/last_commits.json', JSON.generate(last_commits))
-
+          File.write(File.join(data_folder, 'commit_dates.json'), JSON.generate(last_commits))
         "
         
     - name: Commit last commit data
       run: |
         git config --global user.name 'GitHub Actions'
         git config --global user.email 'actions@github.com'
-        git add _data/last_commits.json
-        git commit -m "Update last commit data"
+        git add _data/commit_dates.json
+        git commit -m "Update last commit dates"
         git push
