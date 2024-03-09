@@ -30,13 +30,13 @@ jobs:
       id: git-status
       run: |
         if git diff --quiet; then
-          echo "::set-output name=changes-detected::false"
+          echo "changes_detected=false" >> $GITHUB_OUTPUT
         else
-          echo "::set-output name=changes-detected::true"
+          echo "changes_detected=true" >> $GITHUB_OUTPUT
         fi
         
     - name: Create branch and commit changes
-      if: steps.git-status.outputs.changes-detected == 'true'
+      if: env.changes_detected == 'true'
       run: |
         git checkout -b "update-file-dates-${GITHUB_SHA}"
         git config --global user.name 'GitHub Actions'
@@ -45,7 +45,7 @@ jobs:
         git commit -m "Update file dates"
         
     - name: Create pull request
-      if: steps.git-status.outputs.changes-detected == 'true'
+      if: env.changes_detected == 'true'
       uses: peter-evans/create-pull-request@v6
       with:
         commit-message: "Update file dates"
