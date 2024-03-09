@@ -25,29 +25,26 @@ jobs:
         
     - name: Run Ruby script
       run: ruby fetch-commit-dates.rb
-        
-    - name: Create branch
+
+    - name: Check for changes
+      id: git-status
       run: |
-        git checkout -b update-file-dates-${GITHUB_SHA}
+        git diff --quiet || echo "Changes detected"
         
-    - name: Commit changes
+    - name: Create branch and commit changes
+      if: steps.git-status.outputs.stdout != ''
       run: |
+        git checkout -b "update-file-dates-${GITHUB_SHA}"
         git config --global user.name 'GitHub Actions'
         git config --global user.email 'actions@github.com'
         git add _data/commit_dates.json
-        git commit -m "Update last file dates"
-        
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        branch: update-file-dates-${GITHUB_SHA}
-        force: false  # Do not trigger an error if there are no changes to push
+        git commit -m "Update file dates"
         
     - name: Create pull request
       if: steps.git-status.outputs.stdout != ''
       uses: peter-evans/create-pull-request@v6
       with:
-        commit-message: "Update last file dates"
-        title: "Update last file dates"
-        branch: update-file-dates-${GITHUB_SHA}
+        commit-message: "Update file dates"
+        title: "Update file dates"
+        branch: "update-file-dates-${GITHUB_SHA}"
         base: main
