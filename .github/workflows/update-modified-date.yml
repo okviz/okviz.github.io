@@ -27,10 +27,10 @@ jobs:
           last_commits = {}
           File.readlines("last_commits.txt").each do |line|
             date, commit, file = line.chomp.split("|")
-            next if commit.nil?
-            last_commits[file] = date unless commit.empty?
+            next if commit.nil? || commit.empty?
+            last_commits[file] = date
           end
-          File.write("_data/last_commits.yml", last_commits.to_yaml)
+          File.write("_data/last_commits.yml", last_commits.to_a.to_yaml)
         '
         
     - name: Commit last commit data
