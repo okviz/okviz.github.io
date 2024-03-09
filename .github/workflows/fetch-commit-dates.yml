@@ -30,9 +30,9 @@ jobs:
       id: git-status
       run: |
         if git diff --quiet; then
-          echo "No changes detected"
-        else
           echo "Changes detected"
+        else
+          echo "No changes detected"
         fi
         
     - name: Create branch and commit changes
