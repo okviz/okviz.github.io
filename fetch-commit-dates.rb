@@ -12,4 +12,4 @@ last_commits = {}
   last_commits[file] = commit_date
 end
 
-File.write(File.join(data_folder, 'commit_dates.json'), JSON.generate(last_commits))
+File.write(File.join(data_folder, 'commit_dates.json'), JSON.pretty_generate(last_commits))
