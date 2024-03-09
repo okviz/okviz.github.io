@@ -38,7 +38,7 @@ jobs:
             last_commits[file] = commit_date
           end
 
-          File.write('_data/last_commits.json', JSON.pretty_generate(last_commits))
+          File.write('_data/last_commits.json', last_commits.to_json)
         "
         
     - name: Commit last commit data
