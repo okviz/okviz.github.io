@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         fetch-depth: 0 # Required to get full commit history
     
@@ -35,31 +35,11 @@ jobs:
           echo "changes_detected=true" >> "$GITHUB_OUTPUT"
         fi
 
-    - name: Create branch
-      if: steps.git-status.outputs.changes_detected == 'true'
-      run: |
-        git checkout -b "actions/update-file-dates-${GITHUB_SHA}"
-        
-    - name: Commit changes
-      if: steps.git-status.outputs.changes_detected == 'true'
-      run: |
-        git config --global user.name 'GitHub Actions'
-        git config --global user.email 'actions@github.com'
-        git add _data/commit_dates.json
-        git commit -m "Update file dates"
-        
-    - name: Push changes
-      if: steps.git-status.outputs.changes_detected == 'true'
-      uses: ad-m/github-push-action@master
-      with:
-        branch: "actions/update-file-dates-${GITHUB_SHA}"
-        force: false  # Do not trigger an error if there are no changes to push
-        
     - name: Create pull request
       if: steps.git-status.outputs.changes_detected == 'true'
       uses: peter-evans/create-pull-request@v6
       with:
         commit-message: "Update file dates"
         title: "Update file dates"
-        branch: "actions/update-file-dates-${GITHUB_SHA}"
+        branch: "actions/update-file-dates"
         base: main
