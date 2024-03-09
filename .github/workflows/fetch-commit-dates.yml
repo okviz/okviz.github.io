@@ -34,15 +34,26 @@ jobs:
         else
           echo "changes_detected=true" >> "$GITHUB_OUTPUT"
         fi
-        
-    - name: Create branch and commit changes
+
+    - name: Create branch
       if: steps.git-status.outputs.changes_detected == 'true'
       run: |
         git checkout -b "update-file-dates-${GITHUB_SHA}"
+        
+    - name: Commit changes
+      if: steps.git-status.outputs.changes_detected == 'true'
+      run: |
         git config --global user.name 'GitHub Actions'
         git config --global user.email 'actions@github.com'
         git add _data/commit_dates.json
         git commit -m "Update file dates"
+        
+    - name: Push changes
+      if: steps.git-status.outputs.changes_detected == 'true'
+      uses: ad-m/github-push-action@master
+      with:
+        branch: update-file-dates-${GITHUB_SHA}
+        force: false  # Do not trigger an error if there are no changes to push
         
     - name: Create pull request
       if: steps.git-status.outputs.changes_detected == 'true'
