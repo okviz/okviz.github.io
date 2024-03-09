@@ -9,7 +9,7 @@ on:
 
 jobs:
 
-  update-last-commit:
+  update-file-dates:
     if: ${{ !startsWith(github.event.head_commit.committer.name, 'GitHub Actions') }}
     runs-on: ubuntu-latest
     
@@ -26,10 +26,26 @@ jobs:
     - name: Run Ruby script
       run: ruby fetch-commit-dates.rb
         
-    - name: Commit last commit data
+    - name: Create branch
+      run: |
+        git checkout -b update-file-dates-${GITHUB_SHA::8}
+        
+    - name: Commit changes
       run: |
         git config --global user.name 'GitHub Actions'
         git config --global user.email 'actions@github.com'
         git add _data/commit_dates.json
-        git commit -m "Update last commit dates"
-        git push
+        git commit -m "Update last file dates"
+        
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        branch: update-file-dates-${GITHUB_SHA::8}
+        
+    - name: Create pull request
+      uses: peter-evans/create-pull-request@v3
+      with:
+        commit-message: "Update last file dates"
+        title: "Update last file dates"
+        branch: update-file-dates-${GITHUB_SHA::8}
+        base: main
