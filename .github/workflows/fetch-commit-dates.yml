@@ -38,7 +38,7 @@ jobs:
     - name: Create branch
       if: steps.git-status.outputs.changes_detected == 'true'
       run: |
-        git checkout -b "update-file-dates-${GITHUB_SHA}"
+        git checkout -b "actions/update-file-dates"
         
     - name: Commit changes
       if: steps.git-status.outputs.changes_detected == 'true'
@@ -52,7 +52,7 @@ jobs:
       if: steps.git-status.outputs.changes_detected == 'true'
       uses: ad-m/github-push-action@master
       with:
-        branch: "update-file-dates-${GITHUB_SHA}"
+        branch: "actions/update-file-dates"
         force: false  # Do not trigger an error if there are no changes to push
         
     - name: Create pull request
@@ -61,5 +61,5 @@ jobs:
       with:
         commit-message: "Update file dates"
         title: "Update file dates"
-        branch: "update-file-dates-${GITHUB_SHA}"
+        branch: "actions/update-file-dates"
         base: main
