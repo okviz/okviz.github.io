@@ -14,29 +14,15 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout
+      uses: actions/checkout@v4
       with:
         fetch-depth: 0 # Required to get full commit history
     
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.0' # Set the Ruby version
-        
     - name: Run Ruby script
       run: ruby fetch-commit-dates.rb
 
-    - name: Check for changes
-      id: git-status
-      run: |
-        if git diff --quiet; then
-          echo "changes_detected=false" >> "$GITHUB_OUTPUT"
-        else
-          echo "changes_detected=true" >> "$GITHUB_OUTPUT"
-        fi
-
     - name: Create pull request
-      #if: steps.git-status.outputs.changes_detected == 'true'
       uses: peter-evans/create-pull-request@v6
       with:
         commit-message: "Update file dates"
