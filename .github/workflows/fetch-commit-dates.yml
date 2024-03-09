@@ -26,7 +26,15 @@ jobs:
       uses: peter-evans/create-pull-request@v6
       with:
         commit-message: "Update file dates"
-        title: "Update file dates"
+        title: "[auto] Update file dates"
         body: "Automated action to update modified file dates to the latest commit date."
         branch: "actions/update-file-dates"
         base: main
+
+    - name: Merge Pull Request
+      uses: juliangruber/merge-pull-request-action@v1
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        number: 1
+        method: squash # merge rebase
+        repo: "actions/update-file-dates"
