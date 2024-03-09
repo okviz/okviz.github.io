@@ -29,7 +29,12 @@ jobs:
           last_commits = {}
           `git ls-tree -r --name-only HEAD`.each_line do |file|
             file.chomp!
-            commit_date = `git log -1 --format='%ad' --date=iso -- \"#{file}\"`.chomp
+            next unless file.end_with?('.md') # Filter only Markdown files
+            
+            # Escape special characters in file paths
+            file = file.gsub('"', '\"') # Escape double quotes
+            
+            commit_date = `git log -1 --format='%ad' --date=iso -- "#{file}"`.chomp
             last_commits[file] = commit_date
           end
 
