@@ -29,7 +29,11 @@ jobs:
     - name: Check for changes
       id: git-status
       run: |
-        git diff --quiet || echo "Changes detected"
+        if git diff --quiet; then
+          echo "No changes detected"
+        else
+          echo "Changes detected"
+        fi
         
     - name: Create branch and commit changes
       if: steps.git-status.outputs.stdout != ''
