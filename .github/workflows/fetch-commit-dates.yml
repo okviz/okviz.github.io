@@ -9,7 +9,7 @@ on:
 
 jobs:
 
-  update-file-dates:
+  fetch-commit-dates:
     if: ${{ !startsWith(github.event.head_commit.committer.name, 'GitHub Actions') }}
     runs-on: ubuntu-latest
     
@@ -38,7 +38,7 @@ jobs:
     - name: Create branch
       if: steps.git-status.outputs.changes_detected == 'true'
       run: |
-        git checkout -b "actions/update-file-dates"
+        git checkout -b "actions/update-file-dates-${GITHUB_SHA}"
         
     - name: Commit changes
       if: steps.git-status.outputs.changes_detected == 'true'
@@ -52,7 +52,7 @@ jobs:
       if: steps.git-status.outputs.changes_detected == 'true'
       uses: ad-m/github-push-action@master
       with:
-        branch: "actions/update-file-dates"
+        branch: "actions/update-file-dates-${GITHUB_SHA}"
         force: false  # Do not trigger an error if there are no changes to push
         
     - name: Create pull request
@@ -61,5 +61,5 @@ jobs:
       with:
         commit-message: "Update file dates"
         title: "Update file dates"
-        branch: "actions/update-file-dates"
+        branch: "actions/update-file-dates-${GITHUB_SHA}"
         base: main
