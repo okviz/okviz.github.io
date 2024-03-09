@@ -52,7 +52,7 @@ jobs:
       if: steps.git-status.outputs.changes_detected == 'true'
       uses: ad-m/github-push-action@master
       with:
-        branch: update-file-dates-${GITHUB_SHA}
+        branch: "update-file-dates-${GITHUB_SHA}"
         force: false  # Do not trigger an error if there are no changes to push
         
     - name: Create pull request
