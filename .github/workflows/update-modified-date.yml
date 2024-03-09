@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths-ignore:
-      - '_data/last_commits.yml'
+      - '_data/last_commits.json'
 
 jobs:
 
@@ -23,23 +23,23 @@ jobs:
         git checkout ${{ github.ref }}
         git log --pretty=format:"%ad|%H|%f" --date=iso --name-only | sort -u > last_commits.txt
         
-        ruby -e '
+        ruby -e "
          require 'json'
 
           last_commits = {}
           `git ls-tree -r --name-only HEAD`.each_line do |file|
             file.chomp!
-            commit_date = `git log -1 --format="%ad" --date=iso -- "#{file}"`.chomp
+            commit_date = `git log -1 --format='%ad' --date=iso -- \"#{file}\"`.chomp
             last_commits[file] = commit_date
           end
 
-          File.write("_data/last_commits.json", JSON.pretty_generate(last_commits))
-        '
+          File.write('_data/last_commits.json', JSON.pretty_generate(last_commits)))
+        "
         
     - name: Commit last commit data
       run: |
         git config --global user.name 'GitHub Actions'
         git config --global user.email 'actions@github.com'
-        git add _data/last_commits.yml
+        git add _data/last_commits.json
         git commit -m "Update last commit data"
         git push
