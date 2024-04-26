@@ -37,6 +37,6 @@ The custom calendar allows you to completely customize your calendar by choosing
 - The last day of the month.
 - The last day of the year.
 
-Manage these options in **Visualizations** > **format your visual** > **Calendar Setup**.
+Manage these options in **Visualizations** > **Format your visual** > **Calendar Setup**.
 
 <img src="images/custom-calendar.png" width="200" alt="The custom calendar in Calendar pro">
