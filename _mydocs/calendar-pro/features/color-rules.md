@@ -57,11 +57,11 @@ You can manage the transition among the colors to associated values by changing 
 
 The **Below** and **Above** options allow you to visualize the transition among values with certain colors. Then, below or above certain values (or percentages) the cells can be colored differently. This will enlighten values in a certain range.
 
-<img src="images/setting-ranges.png" width="500" alt="Setting color ranges in Calendar pro">
+<img src="images/setting-ranges.png" width="700" alt="Setting color ranges in Calendar pro">
 
 This results in:
 
-<img src="images/setting-ranges-result.png" width="500" alt="Setting color ranges in Calendar pro">
+<img src="images/setting-ranges-result.png" width="700" alt="Setting color ranges in Calendar pro">
 
 > **NOTE**: The use of the **Value** or **Percentage** parameters can be mixed togheter at will.
 
