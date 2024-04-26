@@ -8,4 +8,6 @@ order:              /calendar-pro/features
 next_reading:       true
 ---
   
-This section contains a list of features of Calendar Pro. This is not a comprehensive list, but just a reference to the most common ones. Refer to the [Options section](../options) to explore all the capabilities of Calendar Pro.
+This section describes the most common features of Calendar Pro. 
+
+To explore all the capabilities of Calendar Pro, refer to the [Options section](../options).

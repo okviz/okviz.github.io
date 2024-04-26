@@ -9,8 +9,15 @@ order:              /calendar-pro
 next_reading:       true
 ---
 
-**Calendar Pro** is a powerful calendar visual for Power BI. It includes unique features like granularity drilldown and dynamic grouping, different calendar systems such as Gregorian, Weekly, Fiscal, built-in holidays, events support, and advanced color rules - find more on [okviz.com/calendar-pro](https://okviz.com/calendar-pro)
+**Calendar Pro** is a powerful calendar visual for Power BI.
 
-<img src="images/calendar-pro.png" width="600" class="naked">
+It includes unique features like:
+- Granularity drilldown and dynamic grouping.
+- Different calendar systems such as Gregorian, Weekly, Fiscal, built-in holidays, events support
+- Advanced color rules
 
-> [Download and try Calendar Pro](https://appsource.microsoft.com/en-US/product/power-bi-visuals/okvizcorp1634637213047.calendarprobyokviz) from AppSource.
+<img src="images/calendar-pro.png" width="600" class="naked" alt="Calendar pro">
+
+Discover more on [okviz.com/calendar-pro](https://okviz.com/calendar-pro)
+
+> [Download and try Calendar Pro](https://appsource.microsoft.com/en-US/product/power-bi-visuals/okvizcorp1634637213047.calendarprobyokviz) from the Microsoft AppSource.

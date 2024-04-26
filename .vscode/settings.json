@@ -1,5 +1,13 @@
 {
     "markdown.styles": [
         "_vscode.css"
+    ],
+    "iis.configDir": "",
+    "grammarly.selectors": [
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/features/calendar-systems.md"
+        }
     ]
 }
