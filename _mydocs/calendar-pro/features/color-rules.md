@@ -57,6 +57,10 @@ You can manage the transition among the colors to associated values by changing 
 
 The **Below** and **Above** options allow you to visualize the transition among values with certain colors. Then, below or above certain values (or percentages) the cells can be colored differently. This will enlighten values in a certain range.
 
+Every option allows for the possibility to use the transparent: this adds a further possibility for personalization and customization, allowing multiple rules visible.
+
+For example, consider the following rule:
+
 <img src="images/setting-ranges.png" width="700" alt="Setting color ranges in Calendar pro">
 
 This results in:

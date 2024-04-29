@@ -16,14 +16,14 @@ This section describes all the calendar systems available in Calendar Pro.
 
 Here's how Calendar Pro displays the data using the Gregorian calendar:
 
-<img src="images/gregorian-calendar.png" width="700" alt="The Gregorian calendar in Calendar pro">
+<img src="images/gregorian-calendar.png" width="800" alt="The Gregorian calendar in Calendar pro">
 
 ## The weekly (4-4-5, 4-5-4, 5-4-4) and fiscal calendars
 [The 4–4–5 calendar](https://en.wikipedia.org/wiki/4%E2%80%934%E2%80%935_calendar) divides a year into four quarters of 13 weeks, each grouped into two 4-week "months" and one 5-week "month".
 
 The longer "month" may be set as the first (5–4–4), second (4–5–4), or third (4–4–5) unit.
 
-A variation is the 52–53-week calendar that is used by companies that want their fiscal year to always end on the same day of the week.
+A variation is the [fiscal year calendar](https://en.wikipedia.org/wiki/Fiscal_year): a 52–53 weeks calendar that is used by companies that want their fiscal year to always end on the same day of the week.
 
 Here's how Calendar Pro displays the data using one of these calendars:
 
@@ -38,5 +38,3 @@ The custom calendar allows you to completely customize your calendar by choosing
 - The last day of the year.
 
 Manage these options in **Visualizations** > **Format your visual** > **Calendar Setup**.
-
-<img src="images/custom-calendar.png" width="200" alt="The custom calendar in Calendar pro">
