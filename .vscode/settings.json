@@ -18,6 +18,11 @@
             "language": "markdown",
             "scheme": "file",
             "pattern": "_mydocs/calendar-pro/features/chart-mode.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/features/granularities.md"
         }
     ]
 }
