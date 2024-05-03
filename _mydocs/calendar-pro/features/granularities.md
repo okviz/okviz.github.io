@@ -39,6 +39,10 @@ Instead, if each cell represents a day and the data are grouped per month, this 
 
 <img src="images/granularity_day-group_months.png" width="1000" alt="Granularity in Calendar pro">
 
+
+> **NOTE**: The measures are taken with the granularity of the day. So, measures that are not additive (for example, the number of clients in a month) can present issues if you try to change the granularity.
+
+
 ## Managing granularity
 You can manage granularity using two different ways:
 - Directly in the visual.
