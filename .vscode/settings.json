@@ -23,6 +23,11 @@
             "language": "markdown",
             "scheme": "file",
             "pattern": "_mydocs/calendar-pro/features/granularities.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/features/events.md"
         }
     ]
 }
