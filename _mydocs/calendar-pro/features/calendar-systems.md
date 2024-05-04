@@ -37,4 +37,4 @@ The custom calendar allows you to completely customize your calendar by choosing
 - The last day of the month.
 - The last day of the year.
 
-Manage these options in **Visualizations** > **Format your visual** > **Calendar Setup**.
+Manage these options in [Calendar Setup](../options/calendar/index) section.
