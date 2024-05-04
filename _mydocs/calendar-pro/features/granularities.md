@@ -56,4 +56,4 @@ In this particular case:
 - **D** stands for day. This means that each cell represents a day. You can manage this value by clicking on the arrow icons. The up arrow, in this case, will make each cell represent a week.
 - **M** stands for month. This means that the data are grouped per month. To change how the data are grouped, click on that option and select the one that suits your needs.
 
-To change the granularity from the options, go to **Format your visual** > [**Calendar granularity**](../options/granularity/index.md) and select **Granularity** (what each cell represents) and **Group by** (how the data are grouped)
+To change the granularity from the options, go to [Calendar granularity](../options/granularity/index.md) and select **Granularity** (what each cell represents) and **Group by** (how the data are grouped)
