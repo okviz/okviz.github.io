@@ -18,7 +18,7 @@ The idea behind the use of events is that they may be useful to intercept relati
 
 For example, if you would like to investigate if the sales amount of a product is influenced by the number of deliveries, you may consider the delivery dates as events:
 
-<img src="images/events.png" width="800" alt="Events in Calendar pro">
+<img src="images/events.png" width="500" alt="Events in Calendar pro">
 
 Learn more about how events can be managed in the [options section](../options/events/index.md).
 
@@ -29,6 +29,6 @@ Like the events, the idea behind the use of holidays is that they may be useful 
 
 For example, you could investigate if the sales amount of a product is influenced by the holidays in a particular country:
 
-<img src="images/holidays.png" width="800" alt="Holidays in Calendar pro">
+<img src="images/holidays.png" width="500" alt="Holidays in Calendar pro">
 
 Learn more about how holidays can be managed in the [options section](../options/holidays/index.md).

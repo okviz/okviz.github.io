@@ -23,9 +23,9 @@ Here are the options that can be managed:
 
 These examples show an event (the delivary date) with joined (first) and not joined (second) events:
 
-<img src="images/event-joined.png" width="900" alt="A joined event in Calendar pro">
+<img src="images/event-joined.png" width="600" alt="A joined event in Calendar pro">
 
-<img src="images/event-not-joined.png" width="900" alt="A not joined event in Calendar pro">
+<img src="images/event-not-joined.png" width="600" alt="A not joined event in Calendar pro">
 
 
 > **NOTE**: To change the text size, the corner radius, and other parameters to improve how the events are displayed, go to the section **Events/Holidays labels** (in **Format your visual** > **Visual**)

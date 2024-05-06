@@ -11,7 +11,7 @@ This section describes how to manage the color rules in Calendar Pro.
 
 To manage the color rules, click on the editing button in the UI:
 
-<img src="images/editing-color-rules.png" width="750" alt="Editing color rules in Calendar pro">
+<img src="images/editing-color-rules.png" width="500" alt="Editing color rules in Calendar pro">
 
 ## Managing color rules: rules types
 The first applied color rule is partially locked and can not allow you the maximum personalization.
@@ -27,11 +27,11 @@ In the cases you want to display a color for a particular value, you can use the
 
 For example, suppose you want to color the cells that present a sales amount greater than 20k. You can impose a condition like the following:
 
-<img src="images/conditional-rule.png" width="750" alt="A conditional rule in Calendar pro">
+<img src="images/conditional-rule.png" width="550" alt="A conditional rule in Calendar pro">
 
 And the result is:
 
-<img src="images/conditional-rule-result.png" width="750" alt="A conditional rule in Calendar pro">
+<img src="images/conditional-rule-result.png" width="550" alt="A conditional rule in Calendar pro">
 
 ### Color scale rules
 The color scale rule allows for different levels of customization.
@@ -61,11 +61,11 @@ Every option allows for the possibility to use the transparent: this adds a furt
 
 For example, consider the following rule:
 
-<img src="images/setting-ranges.png" width="700" alt="Setting color ranges in Calendar pro">
+<img src="images/setting-ranges.png" width="500" alt="Setting color ranges in Calendar pro">
 
 This results in:
 
-<img src="images/setting-ranges-result.png" width="700" alt="Setting color ranges in Calendar pro">
+<img src="images/setting-ranges-result.png" width="500" alt="Setting color ranges in Calendar pro">
 
 > **NOTE**: The use of the **Value** or **Percentage** parameters can be mixed togheter at will.
 

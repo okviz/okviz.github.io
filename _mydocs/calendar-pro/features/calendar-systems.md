@@ -9,14 +9,14 @@ order:              /calendar-pro/features/calendar-systems
 
 This section describes all the calendar systems available in Calendar Pro.
 
-<img src="images/calendar-systems.png" width="700" alt="Calendar systems in Calendar pro">
+<img src="images/calendar-systems.png" width="500" alt="Calendar systems in Calendar pro">
 
 ## The Gregorian calendar
 [The Gregorian calendar](https://en.wikipedia.org/wiki/Gregorian_calendar) is a solar calendar with 12 months of 28–31 days each. The years consist of 365 days, with a leap day added to February in the leap years.
 
 Here's how Calendar Pro displays the data using the Gregorian calendar:
 
-<img src="images/gregorian-calendar.png" width="800" alt="The Gregorian calendar in Calendar pro">
+<img src="images/gregorian-calendar.png" width="1000" alt="The Gregorian calendar in Calendar pro">
 
 ## The weekly (4-4-5, 4-5-4, 5-4-4) and fiscal calendars
 [The 4–4–5 calendar](https://en.wikipedia.org/wiki/4%E2%80%934%E2%80%935_calendar) divides a year into four quarters of 13 weeks, each grouped into two 4-week "months" and one 5-week "month".

@@ -9,7 +9,7 @@ order:              /calendar-pro/features/granularities
 
 Calendar Pro allows you to visualize the data at different granularities.
 
-<img src="images/granularity.png" width="800" alt="Granularity in Calendar pro">
+<img src="images/granularity.png" width="600" alt="Granularity in Calendar pro">
 
 This section describes how granularity can be managed in Calendar Pro.
 
@@ -50,7 +50,7 @@ You can manage granularity using two different ways:
 
 To change the granularity in the visual, manage the options in the red rectangles:
 
-<img src="images/manage-granularity-graph.png" width="1000" alt="Granularity in Calendar pro">
+<img src="images/manage-granularity-graph.png" width="500" alt="Granularity in Calendar pro">
 
 In this particular case:
 - **D** stands for day. This means that each cell represents a day. You can manage this value by clicking on the arrow icons. The up arrow, in this case, will make each cell represent a week.
