@@ -67,7 +67,7 @@ This results in:
 
 <img src="images/setting-ranges-result.png" width="500" alt="Setting color ranges in Calendar pro">
 
-> **NOTE**: The use of the **Value** or **Percentage** parameters can be mixed togheter at will.
+> **NOTE**: The use of the **Value** or **Percentage** parameters can be mixed together at will.
 
 Finally, by enabling the **Relative Domain** toggle, Calendar Pro considers the first data point of the column as the starting point.
 

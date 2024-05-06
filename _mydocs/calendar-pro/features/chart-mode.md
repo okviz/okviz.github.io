@@ -15,4 +15,4 @@ You can choose between the calendar or chart mode when you start a new project.
 
 <img src="images/chart-calendar.png" width="500" alt="The chart or calendar mode calendar in Calendar pro">
 
-If you have already chosen one mode and want to change it, go to **Visualizations** > **Appearance** > **Display mode**.
+If you have already chosen one mode and want to change it, go to [Display mode](../options/appearance/display-mode.md).
