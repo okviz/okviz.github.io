@@ -17,6 +17,6 @@ The reference field is **Text size calc mode** and allows you to choose between:
 
 Here is an example of how the text responsiveness works:
 
-<video src="images/static-text.mp4" width="700" autoplay loop muted></video>
+<video src="images/static-text.mp4" width="800" autoplay loop muted></video>
 
-<video src="images/dynamic-text.mp4" width="700" autoplay loop muted></video>
+<video src="images/dynamic-text.mp4" width="800" autoplay loop muted></video>
