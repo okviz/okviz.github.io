@@ -13,7 +13,7 @@ next_reading_title: Options
 This section describes the details of how to manage the options for the holidays feature in Calendar Pro.
 
 ## Managing options for the holidays
-The options for the holiday can be managed in **Format your visual** > **Visual** > **Holidays**.
+The options for the holiday can be managed in the visual options.
 
 Here are the options that can be managed:
 - **Countries**. Choose up to three countries to visualize the holidays for.
@@ -33,4 +33,4 @@ This example shows holidays for three countries (United States, Ireland, and Ita
 
 <img src="images/holidays-example.png" width="700" alt="Holidays in Calendar pro">
 
-> **NOTE**: To change the text size, the corner radius, and other parameters to improve how the holidays are displayed, go to the section **Events/Holidays labels** (in **Format your visual** > **Visual**)
+> **NOTE**: To change the text size, the corner radius, and other parameters to improve how the holidays are displayed, go to the section [**Events/Holidays labels**](../events-labels/index.md) of the visual options.
