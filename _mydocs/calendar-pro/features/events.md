@@ -23,7 +23,7 @@ For example, if you would like to investigate if the sales amount of a product i
 Learn more about how events can be managed in the [Events section](../options/events/index.md).
 
 ## Holidays
-By using a library, Calendar Pro retrieves the existing holidays in all the countries of the world.
+By using [this library](https://commenthol.github.io/date-holidays/), Calendar Pro retrieves the existing holidays in all the countries of the world.
 
 Like the events, the idea behind the use of holidays is that they may be useful to intercept relations or correlations.
 

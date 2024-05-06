@@ -34,3 +34,10 @@ This example shows holidays for three countries (United States, Ireland, and Ita
 <img src="images/holidays-example.png" width="700" alt="Holidays in Calendar pro">
 
 > **NOTE**: To change the text size, the corner radius, and other parameters to improve how the holidays are displayed, go to the section [**Events/Holidays labels**](../events-labels/index.md) of the visual options.
+
+## Using the "Holidays Country" field
+To set the holidays, you can also use the **Holidays Country** field by adding proper data to it.
+
+<img src="images/holidays-countries.png" width="500" alt="Holidays in Calendar pro">
+
+If you choose to use this possibility, Calendar Pro will override the countries you have chosen in the **Holidays** visual options.
