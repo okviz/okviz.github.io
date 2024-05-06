@@ -20,7 +20,7 @@ For example, if you would like to investigate if the sales amount of a product i
 
 <img src="images/events.png" width="500" alt="Events in Calendar pro">
 
-Learn more about how events can be managed in the [options section](../options/events/index.md).
+Learn more about how events can be managed in the [Events section](../options/events/index.md).
 
 ## Holidays
 By using a library, Calendar Pro retrieves the existing holidays in all the countries of the world.
@@ -31,4 +31,4 @@ For example, you could investigate if the sales amount of a product is influence
 
 <img src="images/holidays.png" width="500" alt="Holidays in Calendar pro">
 
-Learn more about how holidays can be managed in the [options section](../options/holidays/index.md).
+Learn more about how holidays can be managed in the [Holidays section](../options/holidays/index.md).
