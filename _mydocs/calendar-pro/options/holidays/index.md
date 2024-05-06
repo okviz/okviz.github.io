@@ -31,6 +31,6 @@ Here are the options that can be managed:
 
 This example shows holidays for three countries (United States, Ireland, and Italy) with the **Use native names** and **Show country flags** activated:
 
-<img src="images/holidays-example.png" width="500" alt="Holidays in Calendar pro">
+<img src="images/holidays-example.png" width="700" alt="Holidays in Calendar pro">
 
 > **NOTE**: To change the text size, the corner radius, and other parameters to improve how the holidays are displayed, go to the section [**Events/Holidays labels**](../events-labels/index.md) of the visual options.
