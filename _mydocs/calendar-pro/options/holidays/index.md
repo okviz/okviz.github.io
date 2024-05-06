@@ -36,8 +36,10 @@ This example shows holidays for three countries (United States, Ireland, and Ita
 > **NOTE**: To change the text size, the corner radius, and other parameters to improve how the holidays are displayed, go to the section [**Events/Holidays labels**](../events-labels/index.md) of the visual options.
 
 ## Using the "Holidays Country" field
-To set the holidays, you can also use the **Holidays Country** field by adding proper data to it.
+To set the holidays, you can also use the **Holidays Country** field. 
 
 <img src="images/holidays-countries.png" width="500" alt="Holidays in Calendar pro">
 
-If you choose to use this possibility, Calendar Pro will override the countries you have chosen in the **Holidays** visual options.
+In this field, you can add one or more measures containing the ISO of the countries you want the holidays to be shown.
+
+When you use this possibility, Calendar Pro will override the countries set in the **Holidays** visual options. This happens because this field allows for the possibility to bypass the limit of three countries given by the **Holidays** visual options.
