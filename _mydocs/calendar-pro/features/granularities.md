@@ -9,9 +9,19 @@ order:              /calendar-pro/features/granularities
 
 Calendar Pro allows you to visualize the data at different granularities.
 
-<img src="images/granularity.png" width="800" alt="Granularity in Calendar pro">
+<img src="images/granularity.png" width="600" alt="Granularity in Calendar pro">
 
 This section describes how granularity can be managed in Calendar Pro.
+
+## Displaying the value of a measure
+To display the values of a measure, it must be connected to the field **Value**:
+
+<img src="images/value-field.png" width="500" alt="Granularity in Calendar pro">
+
+Each measure is aggregated on the visual according to the selected [level of granularity and grouping](#managing-granularity).
+
+Since not all the measures present values that are additive, you may need to change the aggregation method in the [**Data**](../options/data/index.md) options.
+
 
 ## Understanding granularity
 In Calendar Pro, the granularity of the data is managed by changing what a cell represents and how the data of the cells are grouped.
@@ -39,6 +49,7 @@ Instead, if each cell represents a day and the data are grouped per month, this 
 
 <img src="images/granularity_day-group_months.png" width="1000" alt="Granularity in Calendar pro">
 
+
 ## Managing granularity
 You can manage granularity using two different ways:
 - Directly in the visual.
@@ -46,10 +57,11 @@ You can manage granularity using two different ways:
 
 To change the granularity in the visual, manage the options in the red rectangles:
 
-<img src="images/manage-granularity-graph.png" width="1000" alt="Granularity in Calendar pro">
+<img src="images/manage-granularity-graph.png" width="500" alt="Granularity in Calendar pro">
 
 In this particular case:
 - **D** stands for day. This means that each cell represents a day. You can manage this value by clicking on the arrow icons. The up arrow, in this case, will make each cell represent a week.
 - **M** stands for month. This means that the data are grouped per month. To change how the data are grouped, click on that option and select the one that suits your needs.
 
-To change the granularity from the options, go to **Format your visual** > [**Calendar granularity**](../options/granularity/index.md) and select **Granularity** (what each cell represents) and **Group by** (how the data are grouped)
+To change the granularity from the options, go to [Calendar granularity](../options/granularity/index.md) and select **Granularity** (what each cell represents) and **Group by** (how the data are grouped).
+

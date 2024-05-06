@@ -23,6 +23,26 @@
             "language": "markdown",
             "scheme": "file",
             "pattern": "_mydocs/calendar-pro/features/granularities.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/features/events.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/options/holidays/index.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/features/responsive-font.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/options/events/index.md"
         }
     ]
 }
