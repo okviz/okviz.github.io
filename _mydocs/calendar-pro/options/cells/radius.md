@@ -7,7 +7,7 @@ modified:           2022-07-27
 order:              /calendar-pro/options/cell-appearance/corner-radius
 internal:           radius
 ---
-The **Radius** parameter allows to modify the radius of a cell when all the cells are collapsed.
+The **Radius** option allows to modify the radius of a cell when all the cells are collapsed.
 
 The **Default value** is 2px.
 

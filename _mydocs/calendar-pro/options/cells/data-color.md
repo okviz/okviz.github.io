@@ -7,7 +7,7 @@ modified:           2022-07-26
 order:              /calendar-pro/options/cell-appearance/data-color
 internal:           fill
 ---
-The **Data color** parameter defines the background color of cells containing data. 
+The **Data color** option defines the background color of cells containing data. 
 
 The **Default value** is **Empty**.
 
