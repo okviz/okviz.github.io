@@ -10,7 +10,6 @@ available:          Calendar Mode
 related:
     - columns.md
     - /calendar-pro/options/toolbar/layout.md
-draft:              true
 ---
 
 The **Rows** parameter manages the number of the rows displayed by the visual.
