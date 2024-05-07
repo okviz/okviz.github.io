@@ -8,7 +8,7 @@ order:              /calendar-pro/options/appearance/focus-view
 internal:           focusView
 available:          Calendar Mode
 ---
-When the **Focus view** toggle is enabled, the visual displays only one calendar.
+When the **Focus view** toggle is on, the visual displays only one calendar.
 
 The **Default value** is **Off**.
 

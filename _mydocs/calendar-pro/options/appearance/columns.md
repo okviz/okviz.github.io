@@ -11,7 +11,7 @@ related:
     - rows.md
     - /calendar-pro/options/toolbar/layout.md
 ---
-The **Columns** parameter manages the number of the columns displayed by the visual.
+The **Columns** option defines the number of the columns displayed by the visual.
 
 The **Default value** is 2.
 

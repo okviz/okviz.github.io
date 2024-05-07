@@ -11,6 +11,7 @@ related:
     - border-collapse.md
     - border-size.md
     - group-border.md
-draft:              true
 ---
-**Default value:** *foregroundNeutralDark* color of [Report Theme](../../features/themes.md)
+The **Border color** option changes how the visual displays the color border of the cells.
+
+The **Default value** is the *foregroundNeutralDark* color of the [Report Theme](../../features/themes.md)

@@ -12,7 +12,7 @@ related:
     - /calendar-pro/options/toolbar/layout.md
 ---
 
-The **Rows** parameter manages the number of the rows displayed by the visual.
+The **Rows** option defines the number of the rows displayed by the visual.
 
 The **Default value** is 1.
 

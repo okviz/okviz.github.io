@@ -7,7 +7,7 @@ modified:           2022-07-26
 order:              /calendar-pro/options/appearance/display-mode
 internal:           displayMode
 ---
-The **Display mode** parameter manages how the calendar is displayed. You can choose between:
+The **Display mode** option manages how the calendar is displayed. You can choose between:
 - **Calendar**.
 - **Chart**.
 

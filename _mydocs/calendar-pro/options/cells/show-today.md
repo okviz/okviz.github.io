@@ -10,6 +10,6 @@ related:
     - today-color.md
     - extend-today-color.md
 ---
-**Default value:** On
+When the **Show today** toggle is on (chich is the default value), is it possible to define a custom color for the cell of the current day.
 
-This option defines if a custom color should be applied to the today cell.
+You can change the color of the cell for the current day by managing the [today color](./today-color.md) option.

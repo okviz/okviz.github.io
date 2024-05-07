@@ -8,4 +8,9 @@ order:              /calendar-pro/options/cell-appearance/cell-spacing
 internal:           cellSpacing
 draft:              true
 ---
-**Default value:** 1px
+The **Cell spacing** option manages the distance among cells when they are collapsed.
+
+The **Default value** is 1px.
+
+
+Learn more about the [border collapse](./border-collapse.md) option.

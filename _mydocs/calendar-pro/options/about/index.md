@@ -10,14 +10,14 @@ internal:           about, name, version, diagnostics
 This section describes the the **About** option which provides information about Calendar Pro.
 
 ## Name
-The field **Name** displays the name of the visual.
+The option **Name** displays the name of the visual.
 
 ## Version
-The field **Version** diaplays the current version of the visual.
+The option **Version** diaplays the current version of the visual.
 
 ## License
 <p>{% include badge v="1.0.2" %}</p>
-The field **License** displays the current status of your license, which can be:
+The option **License** displays the current status of your license, which can be:
 
 - **Active:**: Your license is valid and you can use Calendar Pro.
 - **Active (Grace Period):** There is a problem with your last payment. The license is still active but in a week's time it will no longer be valid.

@@ -10,12 +10,10 @@ related:
     - show-today.md
     - extend-today-color.md
 ---
-**Default value:** {% include color value="#D64550" %}
+The **Today color** option defines the color of the cell of the current day- 
 
-This option defines the background color of cells in current day.
+The **Default value** is {% include color value="#D64550" %}
 
-<todo>Screenshot</todo>
+> **NOTE**: This option overrides [Color Rules](../../features/color-rules.md).
 
-> This option overrides [Color Rules](../../features/color-rules.md).
-
-> This option is not controllable through a [Report Theme](../../features/themes.md).
+> **NOTE**: This option is not controllable through a [Report Theme](../../features/themes.md).
