@@ -9,4 +9,10 @@ internal:           focusView
 available:          Calendar Mode
 draft:              true
 ---
-**Default value:** Off
+When the **Focus view** toggle is enabled, the visual displays only one calendar.
+
+The **Default value** is **Off**.
+
+This option can also be managed in the visual:
+
+<img src="images/focus.png" width="700" alt="Focus view in Calendar pro">
