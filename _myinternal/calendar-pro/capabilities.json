@@ -1,8 +1,3 @@
-/*
-    This file contains the definitions of the options used in Calendar Pro, together with the text fo tooltips displayed in the visual.
-    There is a lot of noise, unrelated to the purpose of the documentation; use this resource only for the properties 'displayName' and 'description'. 
-*/
-
 {
     "dataRoles": [
         {
@@ -42,48 +37,7 @@
             "kind": "Measure"
         }
     ],
-    "dataViewMappings": [
-        {
-            "conditions": [
-                { 
-                    "date": { "max": 1 },
-                    "value": { "max": 1 },
-                    "events": { "kind": "Grouping" }
-                },
-                { 
-                    "date": { "max": 1 },
-                    "value": { "max": 1 },
-                    "events": { "kind": "Measure" }
-                }
-            ],
-            "categorical": {
-                "categories": {
-                    "select": [
-                        { "for": { "in": "date" } },
-                        { "for": { "in": "events" } }
-                    ],
-                    "dataReductionAlgorithm": {
-                        "window": { 
-                            "count": 30000
-                        } 
-                    }
-                },
-                "values": {
-                    "select": [
-                        { "bind": { "to": "value" } },
-                        { "bind": { "to": "colorRuleValues" } },
-                        { "bind": { "to": "holidaysCountries" } },
-                        { "bind": { "to": "tooltips" } }
-                    ],
-                    "dataReductionAlgorithm": {
-                        "window": { 
-                            "count": 30000
-                        } 
-                    }
-                }
-            }
-        }
-    ],
+
     "objects": {
         "general": {
             "properties": {
@@ -3109,32 +3063,6 @@
                 }
             }
         }
-    },
-    "tooltips": {
-        "properties": {
-            "supportedTypes": {
-                "default": true,
-                "canvas": false
-            },
-            "roles": [
-                "tooltips"
-            ]
-        }
-    },
-    "sorting": {
-        "default": {}
-    },
-    "suppressDefaultTitle": true,
-    "supportsSynchronizingFilterState": true,
-    "supportsHighlight": true,
-    "supportsLandingPage": true,
-    "supportsEmptyDataView": true,
-    "supportsKeyboardFocus": true,
-    "supportsMultiVisualSelection": true,
-    "advancedEditModeSupport": 2,
-    "privileges": [
-        {
-            "name": "ExportContent"
-        }
-    ] 
+    }
+    
 }

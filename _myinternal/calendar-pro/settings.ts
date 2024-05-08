@@ -12,44 +12,6 @@
 
 //...stripped code...
 
-// Enumerations as types
-type FiscalEndYearMethod = "last"|"nearest";
-type LeapRule = ""|"symmetry454"|"custom";
-type MonthNumber = "0"|"1"|"2"|"3"|"4"|"5"|"6"|"7"|"8"|"9"|"10"|"11"; // Ugly but can't use Array.from(Array(12).keys()) in a type
-type Alignment = "left"|"center"|"right";
-type VerticalAlignment = "top"|"middle"|"bottom";
-type FontSizeCalc = "%"|"pt";
-type FontStyle = ""|"bold"|"italic"|"bold+italic";
-type TimeFormat = "h11"|"h23";
-type GroupBy = ""|"auto"|Granularity;
-type CalendarFilter = ""|"lastYear"|"firstYear"|"lastQuarter"|"firstQuarter"|"last24Months"|"last12Months"|"last6Months"|"lastMonth"|"firstMonth"|"last4Weeks"|"lastWeek"|"firstWeek"|"last30Days"|"lastDay"|"firstDay";
-type ChartFilter = ""|"lastYear"|"firstYear";
-
-export class VisualSettings {
-    layout = new VisualSettingsLayout();
-    gAxis = new VisualSettingsGAxis();
-    hAxis = new VisualSettingsHAxis();
-    wAxis = new VisualSettingsWAxis();
-    wdAxis = new VisualSettingsWDAxis();
-    yAxis = new VisualSettingsYAxis();
-    calendar = new VisualSettingsCalendar();
-    granularity = new VisualSettingsGranularity();
-    cells = new VisualSettingsCells();
-    labels = new VisualSettingsLabels();
-    labelsMeasure = new VisualSettingsLabelsMeasure();
-    events = new VisualSettingsEvents();
-    holidays = new VisualSettingsHolidays();
-    labelsEvents = new VisualSettingsLabelsEvents();
-    legend = new VisualSettingsLegend();
-    localization = new VisualSettingsLocalization();
-    controls = new VisualSettingsControls();
-    tooltips = new VisualSettingsTooltips();
-    editor = new VisualSettingsEditor();
-    data = new VisualSettingsData();
-    about = new VisualSettingsAbout();
-    internal = new VisualSettingsInternal();
-}
-
 // Appearance
 export class VisualSettingsLayout {
     displayMode: CalendarMode = "calendar"; 
@@ -835,60 +797,6 @@ export class VisualSettingsAbout {
             ]
         };
     }
-}
-
-// Internal
-export class VisualSettingsInternal {
-    lastIntervals: Interval[] = null;
-    zoomedInterval: Interval = null;
-    //templates = null;
-    colorRules: Rule[] = [{
-        id: "default",
-        displayName: "{field}",
-        automatic: true,
-        locked: {
-            delete: true,
-            mode: true, 
-            displayName: true,
-            property: true, 
-            colorScale: {
-                field: true
-            }
-        },
-        enabled: true,
-        stop: false,
-        legend: false,
-        property: "cellFill",
-        mode: "colorScale",
-        conditions: null,
-        colorScales: {
-            field: { role: "value" },
-            blank: "ignore",
-            blankColor: "#e6e6e6",
-            type: ColorScaleType.Linear,
-            advanced: false,
-            scalesByLevel: {
-                default: {
-                    max: {
-                        mode: ConditionMode.Percentage,
-                        color: "#3EB449"
-                    },
-                    min: {
-                        mode: ConditionMode.Percentage,
-                        color: "#E5F3E6"
-                    },
-                    center: {
-                        mode: ConditionMode.Percentage,
-                        color: null
-                    },
-                    topColor: null,
-                    bottomColor: null
-                }   
-            }
-        }
-    }];
-
-    // No enumeration!
 }
 
 //...stripped code...
