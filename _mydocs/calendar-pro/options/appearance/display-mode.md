@@ -8,9 +8,8 @@ order:              /calendar-pro/options/appearance/display-mode
 internal:           displayMode
 ---
 The **Display mode** option manages how the calendar is displayed. You can choose between:
-- **Calendar**.
-- **Chart**.
+- **Calendar**. In this case, Calendar Pro will ask you to manage the options [columns](./columns.md), [rows](./rows.md), [cell height](./cell-height.md), and [focus view](./focus-view.md).
+- **Chart**. In this case, Calendar Pro will ask you to manage the options [fit mode](./fit-mode.md), and [invert axes](./invert-axes.md).
 
-The **Default value** is **Calendar**.
 
 Learn more about the display mode by reading the [Calendar systems](../../features/calendar-systems.md) section or the [Chart mode](../../features/chart-mode.md) section.

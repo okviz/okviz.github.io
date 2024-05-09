@@ -11,11 +11,11 @@ related:
     - rows.md
     - /calendar-pro/options/toolbar/layout.md
 ---
-The **Columns** option defines the number of the columns displayed by the visual.
+The **Columns** option defines the number of the columns displayed by the visual in the **Calendar** [display mode](./display-mode.md).
 
 The **Default value** is 2.
 
-This parameter can also be managed into the visual by using the **Change Layout** button:
+This option can also be managed into the visual by using the **Change Layout** button:
 
 <img src="images/columns.png" width="700" alt="Columns changing in Calendar pro">
 
