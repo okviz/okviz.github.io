@@ -12,6 +12,7 @@ related:
     - border-color.md
     - border-collapse.md
     - border-size.md
-draft:              true
 ---
-**Default value:** On
+When the **Group border** is on in the **Chart** [display mode](../../options/appearance/display-mode.md) this options displays the external border of the chart.
+
+The **Default value** is **On**.

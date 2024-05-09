@@ -6,7 +6,6 @@ date:               2022-07-27
 modified:           2022-07-27
 order:              /calendar-pro/options/cell-appearance/cell-spacing
 internal:           cellSpacing
-draft:              true
 ---
 The **Cell spacing** option manages the distance among cells when they are collapsed.
 
