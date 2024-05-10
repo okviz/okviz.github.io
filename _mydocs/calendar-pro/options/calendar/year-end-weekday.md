@@ -6,6 +6,7 @@ date:               2022-07-27
 modified:           2022-07-27
 order:              /calendar-pro/options/calendar-setup/last-weekday-of-the-year
 internal:           yearEndWeekday, yearEndWeekdayMethod
-draft:              true
 ---
+The **Last weekday of the year** option allows you to set the last week day of the year in the **Fiscal** [calendar system](./system.md).
+
 **Default value:** Last of the year

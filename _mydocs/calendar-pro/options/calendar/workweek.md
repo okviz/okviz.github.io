@@ -8,4 +8,6 @@ order:              /calendar-pro/options/calendar-setup/workweek
 internal:           workDays
 draft:              true
 ---
+The **Workweek** option allows you to decide how to visualize the workweek in the visual.
+
 **Default value:** Auto (based on current [localization](../localization/index.md))

@@ -48,6 +48,16 @@
             "language": "markdown",
             "scheme": "file",
             "pattern": "_mydocs/calendar-pro/options/appearance/invert-axes.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/options/calendar/workweek.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/options/calendar/default-today.md"
         }
     ]
 }
