@@ -7,19 +7,17 @@ modified:           2022-07-31
 order:              /calendar-pro/options/about
 internal:           about, name, version, diagnostics
 ---
-This section displays basic visual's information.
-
-<todo>Screenshot</todo>
+This section describes the the **About** option which provides information about Calendar Pro.
 
 ## Name
-The name of the visual.
+The option **Name** displays the name of the visual.
 
 ## Version
-The current version of visual.
+The option **Version** diaplays the current version of the visual.
 
 ## License
 <p>{% include badge v="1.0.2" %}</p>
-The current status of your license, which can be:
+The option **License** displays the current status of your license, which can be:
 
 - **Active:**: Your license is valid and you can use Calendar Pro.
 - **Active (Grace Period):** There is a problem with your last payment. The license is still active but in a week's time it will no longer be valid.
@@ -29,8 +27,8 @@ The current status of your license, which can be:
 
 See more on [Licensing](../../licensing.md).
 
-## Diagnostics
+## Diagnostic
+If enabled, the **Diagnostic** toggle allows Calendar Pro to log significant information and errors in the script soncole of the browser.
+>**NOTE**: This could affect the performance of your report.
 
-**Default value:** Off
-
-<todo>Description</todo>
+**Default value:** Off.

@@ -11,6 +11,7 @@ related:
     - border-collapse.md
     - border-size.md
     - group-border.md
-draft:              true
 ---
-**Default value:** On
+The **Border size** option changes the size of the border of each cell in the visual.
+
+**Default value:** 1.

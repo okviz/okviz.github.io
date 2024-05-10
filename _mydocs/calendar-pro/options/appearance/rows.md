@@ -10,6 +10,14 @@ available:          Calendar Mode
 related:
     - columns.md
     - /calendar-pro/options/toolbar/layout.md
-draft:              true
 ---
-**Default value:** 1
+
+The **Rows** option defines the number of the rows displayed by the visual.
+
+**Default value:** 1.
+
+This parameter can also be managed into the visual by using the **Change Layout** button:
+
+<img src="images/rows.png" width="700" alt="Columns changing in Calendar pro">
+
+In this case, two rows have been selected so the visual displays two months in two different rows.

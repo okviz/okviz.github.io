@@ -11,6 +11,9 @@ related:
     - border-color.md
     - border-size.md
     - group-border.md
-draft:              true
 ---
-**Default value:** On
+When the **Collapse borders** is off, the cells are separated in a visual. This gives you the possibility to manage:
+- The **Cell spacing**. This allow to modify the distance among cells.
+- The **Corner radius***. This allow to modify the radious of each cell.
+
+**Default value:** On.
