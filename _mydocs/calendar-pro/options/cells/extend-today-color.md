@@ -12,7 +12,7 @@ related:
 ---
 When the **Extend today color** toggle is on, the cell color set for the current day is applied to any granularity.
 
-The **Default value** is **Off**.
+**Default value:** Off.
 
 > **NOTE**: This option overrides [Color Rules](../../features/color-rules.md).
 

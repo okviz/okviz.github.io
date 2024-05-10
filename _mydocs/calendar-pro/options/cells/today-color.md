@@ -12,7 +12,7 @@ related:
 ---
 The **Today color** option defines the color of the cell of the current day- 
 
-The **Default value** is {% include color value="#D64550" %}
+**Default value:** {% include color value="#D64550" %}
 
 > **NOTE**: This option overrides [Color Rules](../../features/color-rules.md).
 

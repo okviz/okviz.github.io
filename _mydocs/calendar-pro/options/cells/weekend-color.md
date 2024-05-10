@@ -9,7 +9,7 @@ internal:           weekendFill
 ---
 The **Non-working day color** option defines the background color of the cells for weekend days.
 
-The **Default value** is **Empty**.
+**Default value:** Empty.
 
 > **NOTE**: This option overrides [Color Rules](../../features/color-rules.md).
 

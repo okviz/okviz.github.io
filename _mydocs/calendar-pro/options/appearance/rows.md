@@ -14,7 +14,7 @@ related:
 
 The **Rows** option defines the number of the rows displayed by the visual.
 
-The **Default value** is 1.
+**Default value:** 1.
 
 This parameter can also be managed into the visual by using the **Change Layout** button:
 

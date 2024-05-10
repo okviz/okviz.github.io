@@ -9,6 +9,6 @@ internal:           radius
 ---
 The **Radius** option allows to modify the radius of a cell when all the cells are collapsed.
 
-The **Default value** is 2px.
+**Default value:** 2px.
 
 Learn more about the [border collapse](./border-collapse.md) option.

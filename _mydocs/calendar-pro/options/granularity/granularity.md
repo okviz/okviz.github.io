@@ -9,6 +9,6 @@ internal:           granularity
 ---
 The **Granularity** parameter manages the granularity of the visual.
 
-The **Default value** is **Day**.
+**Default value:** Day.
 
 Learn more about how this works in the [Granularities](../../features/granularities.md) section

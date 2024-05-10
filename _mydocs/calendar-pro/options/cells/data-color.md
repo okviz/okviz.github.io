@@ -9,7 +9,7 @@ internal:           fill
 ---
 The **Data color** option defines the background color of cells containing data. 
 
-The **Default value** is **Empty**.
+**Default value:** Empty.
 
 > **NOTE**: This option can be overridden by [Color Rules](../../features/color-rules.md).
 

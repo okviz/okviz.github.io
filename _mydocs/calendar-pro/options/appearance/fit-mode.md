@@ -15,4 +15,4 @@ You can choose among:
 - **Fit to width**. This will make the calendar fit to the whole available witdh.
 - **Fixed size**. This will make the calendar fit to a predefined size.
 
-The **Default value** is **Fit to canvas**.
+**Default value:** Fit to canvas.

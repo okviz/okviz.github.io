@@ -10,7 +10,7 @@ available:          Calendar Mode
 ---
 When the **Focus view** toggle is on, the visual displays only one calendar in the **Calendar** [display mode](./display-mode.md).
 
-The **Default value** is **Off**.
+**Default value:** Off.
 
 This option can also be managed in the visual:
 

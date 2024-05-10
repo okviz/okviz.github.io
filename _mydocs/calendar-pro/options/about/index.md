@@ -31,4 +31,4 @@ See more on [Licensing](../../licensing.md).
 If enabled, the **Diagnostic** toggle allows Calendar Pro to log significant information and errors in the script soncole of the browser.
 >**NOTE**: This could affect the performance of your report.
 
-The **Default value** is **Off**.
+**Default value:** Off.

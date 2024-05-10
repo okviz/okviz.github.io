@@ -12,4 +12,4 @@ When the **Invert axes** toggle is on, the visual inverts the axis in the **Cale
 
 The axis inversion option is limited to Hours by Day/Month/Quarter, and Months By Quarter.
 
-The **Default value** is **Off**.
+**Default value:** Off.

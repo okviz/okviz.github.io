@@ -9,7 +9,6 @@ internal:           cellSpacing
 ---
 The **Cell spacing** option manages the distance among cells when they are collapsed.
 
-The **Default value** is 1px.
-
+**Default value:** 1px.
 
 Learn more about the [border collapse](./border-collapse.md) option.

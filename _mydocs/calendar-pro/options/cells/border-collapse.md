@@ -16,4 +16,4 @@ When the **Collapse borders** is off, the cells are separated in a visual. This 
 - The **Cell spacing**. This allow to modify the distance among cells.
 - The **Corner radius***. This allow to modify the radious of each cell.
 
-The **Default value** of this parameter is **On**.
+**Default value:** On.

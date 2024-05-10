@@ -9,5 +9,5 @@ internal:           cellHeight
 ---
 The **Cell height** option defines the height of each cell in the **Calendar** [display mode](./display-mode.md).
 
-The default **Default value** is **Auto**.
+**Default value:** Auto.
 

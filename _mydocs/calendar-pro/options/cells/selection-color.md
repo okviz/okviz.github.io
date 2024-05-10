@@ -9,7 +9,7 @@ internal:           selectedFill
 ---
 The **Selection color** option defines the background color of selected cells.
 
-The **Default value** is {% include color value="#FAE99F" %}
+**Default value:** {% include color value="#FAE99F" %}
 
 > **NOTE**: This option overrides any other color rule.
 

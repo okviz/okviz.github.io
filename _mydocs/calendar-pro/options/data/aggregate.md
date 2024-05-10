@@ -18,6 +18,6 @@ Since not all the measures are additive, you can choose to aggregate the data by
 - **Mimimum**. This calculates the minimum of the values witin a cell ad aggregate the data based on it.
 - **Count**. This counts the total number of istances that generate the measure.
 
-The **Default value** is **Sum**.
+**Default value:** Sum.
 
 Data aggregation influences the granularity of the data. Learn more about it in the [granularity](../../features/granularities.md) section.

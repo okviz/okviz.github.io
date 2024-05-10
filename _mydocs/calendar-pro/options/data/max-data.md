@@ -9,7 +9,7 @@ internal:           maxData
 ---
 The **Max rows to retrieve** option defines the maximum number that Calendar Pro can retrieve from the measures.
 
-The **Default value** is **Auto**.
+**Default value:** Auto.
 
 > **NOTE**: Retrieving more than 30k rows may slow down the entire report.
 

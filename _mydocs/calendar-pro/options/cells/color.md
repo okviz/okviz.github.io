@@ -9,7 +9,7 @@ internal:           blankFill
 ---
 The **Color** option defines the background color of cells without data.
 
-The **Default value** is **Empty**.
+**Default value:** Empty.
 
 <img src="images/color-parameter.png" width="800" alt="Columns changing in Calendar pro">
 

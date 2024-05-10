@@ -9,6 +9,6 @@ internal:           group
 ---
 The **Group** parameter manages how data are grouped in the visual.
 
-The **Default value** is **Auto**.
+**Default value:** Auto.
 
 Learn more about how this works in the [Granularities](../../features/granularities.md) section

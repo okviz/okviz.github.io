@@ -13,7 +13,7 @@ related:
 ---
 The **Columns** option defines the number of the columns displayed by the visual in the **Calendar** [display mode](./display-mode.md).
 
-The **Default value** is 2.
+**Default value:** 2.
 
 This option can also be managed into the visual by using the **Change Layout** button:
 

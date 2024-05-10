@@ -14,4 +14,4 @@ related:
 ---
 When the **Border** toggle is on, the visual displays the border of each cell.
 
-The **Default value** is **On**.
+**Default value:** On.

@@ -14,4 +14,4 @@ related:
 ---
 The **Border color** option changes how the visual displays the color border of the cells.
 
-The **Default value** is the *foregroundNeutralDark* color of the [Report Theme](../../features/themes.md)
+**Default value:** *foregroundNeutralDark* of the [Report Theme](../../features/themes.md)

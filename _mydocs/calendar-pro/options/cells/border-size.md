@@ -14,4 +14,4 @@ related:
 ---
 The **Border size** option changes the size of the border of each cell in the visual.
 
-The **Default value** is 1.
+**Default value:** 1.
