@@ -1428,7 +1428,7 @@
                 },
                 "defaultToday": {
                     "displayName": "Default to Today (?)",
-                    "description": "This option sets the initial period displayed by the calendar. When the toggle is on, the initial period includes the current date. When the toggle is off, the initial period is the last selected ont. NOTE: This option works only if the calendar interval includes the current date.",
+                    "description": "This option sets the initial period displayed by the calendar. When the toggle is on, the initial period includes the current date. When the toggle is off, the initial period is the last selected ont. NOTE: This option works only if the calendar interval includes the currentdate.",
                     "type": { 
                         "bool": true 
                     }
@@ -2272,7 +2272,7 @@
                 }, 
                 "aggregate": {
                     "displayName": "Single color (?)",
-                    "description": "Assign a single to every event. Turn off to assign different colors according to the source event field.",
+                    "description": "When turned on, it assigns a single color to every event. When turned off, it gives the possibilty to assign different colors to different events, according to the source event field.",
                     "type": {
                         "bool": true
                     }

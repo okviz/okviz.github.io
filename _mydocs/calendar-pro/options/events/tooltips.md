@@ -5,6 +5,7 @@ date:               2022-07-26
 modified:           2022-07-26
 order:              /calendar-pro/options/events/add-to-tooltips
 internal:           addToTooltips
-draft:              true
 ---
+When the **Add to tooltips** toggle is **On**, the events are added into the [**Tooltips** option](../../options/tooltips/index.md).
+
 **Default value:** On

@@ -58,6 +58,16 @@
             "language": "markdown",
             "scheme": "file",
             "pattern": "_mydocs/calendar-pro/options/calendar/default-today.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/options/events/color.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/options/events/join.md"
         }
     ]
 }
