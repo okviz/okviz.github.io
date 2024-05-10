@@ -10,14 +10,10 @@ related:
     - show-today.md
     - today-color.md
 ---
-**Default value:** Off
+When the **Extend today color** toggle is on, the cell color set for the current day is applied to any granularity.
 
-This option applies the cell color set for current day to any granularity, e.g. current month, current quarter, current year.
+**Default value:** Off.
 
-<todo>Explain better</todo>
+> **NOTE**: This option overrides [Color Rules](../../features/color-rules.md).
 
-<todo>Screenshot</todo>
-
-> This option overrides [Color Rules](../../features/color-rules.md).
-
-> This option is not controllable through a [Report Theme](../../features/themes.md).
+> **NOTE**: This option is not controllable through a [Report Theme](../../features/themes.md).

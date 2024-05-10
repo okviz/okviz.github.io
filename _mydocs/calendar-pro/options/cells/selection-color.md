@@ -7,12 +7,10 @@ modified:           2022-07-26
 order:              /calendar-pro/options/cell-appearance/selection-color
 internal:           selectedFill
 ---
+The **Selection color** option defines the background color of selected cells.
+
 **Default value:** {% include color value="#FAE99F" %}
 
-This option defines the background color of selected cells.
+> **NOTE**: This option overrides any other color rule.
 
-<todo>Screenshot</todo>
-
-> This option overrides any other color rule.
-
-> This option is not controllable through a [Report Theme](../../features/themes.md).
+> **NOTE**: This option is not controllable through a [Report Theme](../../features/themes.md).

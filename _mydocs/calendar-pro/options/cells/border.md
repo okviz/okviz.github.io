@@ -11,6 +11,7 @@ related:
     - border-collapse.md
     - border-size.md
     - group-border.md
-draft:              true
 ---
-**Default value:** On
+When the **Border** toggle is on, the visual displays the border of each cell.
+
+**Default value:** On.
