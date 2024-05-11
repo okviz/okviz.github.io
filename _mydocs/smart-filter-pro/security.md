@@ -36,7 +36,7 @@ However, it periodically communicate with external services to check the current
 
 If you have a corporate firewall that blocks outbound connections, you need to whitelist this URL:
 
-- **https://okvizviews.table.core.windows.net/***
+- `https://okvizviews.table.core.windows.net/`
 
 ### Telemetry
 

@@ -1,0 +1,11 @@
+---
+layout:             page
+title:              Options
+published:          true
+date:               2024-05-10
+modified:           2024-05-10
+order:              /synoptic-panel-pro/04
+next_reading:       true
+---
+
+This section contains a reference to all the options available in Synoptic Panel Pro.
