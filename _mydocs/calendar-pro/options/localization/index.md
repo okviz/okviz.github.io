@@ -8,3 +8,6 @@ order:              /calendar-pro/options/localization
 internal:           localization
 next_reading:       true
 ---
+This section describes the **Localization** option. This option retrieves the dates in Calendar Pro.
+
+Learn how to modify its fields by reading the subsections.
