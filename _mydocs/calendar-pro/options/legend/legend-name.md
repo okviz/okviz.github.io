@@ -8,6 +8,7 @@ order:              /calendar-pro/options/legend/legend-name
 internal:           titleText
 related:
     - show-title.md
-draft:              true
 ---
+The **Legend name** option allows you to set a personalized name to the legend.
+
 **Default value:** (Empty)

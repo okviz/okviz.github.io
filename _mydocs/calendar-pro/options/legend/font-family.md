@@ -9,10 +9,8 @@ internal:           fontFamily
 related:
     - text-size.md
 ---
+The **Font family** option manages the font family of the text of the legend.
+
 **Default value:** Segoe UI
 
-This option defines the font style of the legend items.  
-
-<todo>Screenshot</todo>
-
-> This option is not controllable through a [Report Theme](../../features/themes.md).
+> **NOTE**: This option is not controllable through a [Report Theme](../../features/themes.md).

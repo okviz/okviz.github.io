@@ -9,10 +9,8 @@ internal:           fontSize
 related:
     - font-family.md
 ---
+The **Text size** option manages the size of the text of the legend.
+
 **Default value:** 8pt
 
-This option defines the font size of the legend items.  
-
-<todo>Screenshot</todo>
-
-> This option is not controllable through a [Report Theme](../../features/themes.md).
+> **NOTE**: This option is not controllable through a [Report Theme](../../features/themes.md).
