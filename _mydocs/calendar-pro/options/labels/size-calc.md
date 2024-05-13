@@ -9,6 +9,9 @@ internal:           fontSizeCalc
 available:          Calendar Mode
 related:
     - /calendar-pro/features/responsive-font.md
-draft:              true
 ---
-**Default value:** Percentage
+The **Text size calc mode** option allows you to display the text as a sifex value or as a percentage.
+
+Learn more about how responsive text works in Calendar Pro in the [responsive font](../../features/responsive-font.md) section.
+
+**Default value:** Percentage.

@@ -9,6 +9,7 @@ internal:           maxFontSize
 available:          Calendar Mode
 related:
     - /calendar-pro/features/responsive-font.md
-draft:              true
 ---
-**Default value:** 18pt
+The **Max text size** defines the maximum value that the text can reach when you have chosen **Percentage** in the [text size calc mod](./size-calc.md) option.
+
+**Default value:** 18pt.

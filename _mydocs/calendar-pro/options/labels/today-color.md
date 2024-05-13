@@ -8,10 +8,8 @@ order:              /calendar-pro/options/cell-label/today-color
 internal:           todayFill
 available:          Calendar Mode
 ---
-**Default value:** None
+The **Today color** manages the color of the cell for the current day.
 
-This option defines the text color of cell labels in current day.
+**Default value:** None.
 
-<todo>Screenshot</todo>
-
-> This option is not controllable through a [Report Theme](../../features/themes.md).
+> **NONE**: This option is not controllable through a [Report Theme](../../features/themes.md).

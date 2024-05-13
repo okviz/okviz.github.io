@@ -8,10 +8,8 @@ order:              /calendar-pro/options/cell-label/non-working-day-color
 internal:           weekendFill
 available:          Calendar Mode
 ---
-**Default value:** None
+The **Non-working day color** manages the color of the cell in non-working days.
 
-This option defines the text color of cell labels in non-working days.
+**Default value:** None.
 
-<todo>Screenshot</todo>
-
-> This option is not controllable through a [Report Theme](../../features/themes.md).
+> **NOTE**: This option is not controllable through a [Report Theme](../../features/themes.md).

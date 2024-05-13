@@ -12,10 +12,8 @@ related:
     - font-family.md
     - font-style.md
 ---
+The **Text size** option allows you to manage the size of the text. 
+
 **Default value:** 8pt or 45%
 
-This option defines the font size of cell labels.  
-
-<todo>Screenshot</todo>
-
-> This option is not controllable through a [Report Theme](../../features/themes.md).
+> **NOTE**: This option is not controllable through a [Report Theme](../../features/themes.md).

@@ -11,10 +11,9 @@ related:
     - font-style.md
     - text-size.md
 ---
-**Default value:** DIN
+The **Font family** option defines the font family of the text of the cells' labels.
 
-This option defines the font family of cell labels.  
+**Default value:** DIN.
 
-<todo>Screenshot</todo>
 
-> This option is not controllable through a [Report Theme](../../features/themes.md).
+> **NOTE**: This option is not controllable through a [Report Theme](../../features/themes.md).

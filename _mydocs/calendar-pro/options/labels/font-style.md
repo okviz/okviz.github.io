@@ -11,8 +11,6 @@ related:
     - font-family.md
     - text-size.md
 ---
-**Default value:** Normal
+The **Font style** option defines the style of the font of the text of the cells' labels.
 
-This option defines the font style of cell labels.  
-
-<todo>Screenshot</todo>
+**Default value:** Normal.
