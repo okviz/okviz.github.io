@@ -7,6 +7,7 @@ modified:           2022-07-22
 order:              /calendar-pro/options/toolbar/focus-view-control
 internal:           focusViewControl
 available:          Calendar Mode
-draft:              true
 ---
-**Default value:** On
+When the **Focus view control** toggle is **On**, you can control the focus of the view on the tool bar, as proper a button becomes available.
+
+**Default value:** On.

@@ -128,6 +128,10 @@
             "language": "markdown",
             "scheme": "file",
             "pattern": "_mydocs/calendar-pro/options/localization/date-locale.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file"
         }
     ]
 }

@@ -6,6 +6,7 @@ date:               2022-07-22
 modified:           2022-07-22
 order:              /calendar-pro/options/toolbar/alignment
 internal:           autoHide
-draft:              true
 ---
+The **Alignment** option defines the position of the toolbar in the visual.
+
 **Default value:** Center

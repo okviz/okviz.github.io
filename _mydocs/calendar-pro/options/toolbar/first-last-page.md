@@ -7,6 +7,7 @@ modified:           2022-07-22
 order:              /calendar-pro/options/toolbar/first-last-page
 internal:           firstLastPageControls
 available:          Calendar Mode
-draft:              true
 ---
-**Default value:** Off
+When the **First/Last page** toggle is **On**, the toolbar gives you the possibility to jump to the first and last page of the visual, as proper buttons become available.
+
+**Default value:** Off.
