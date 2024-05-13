@@ -7,6 +7,7 @@ modified:           2022-07-26
 order:              /calendar-pro/options/events-holidays-labels/alignment
 internal:           alignment
 available:          Calendar Mode
-draft:              true
 ---
+The **Alignment** option defines the position of the box that shows the event in the cells.
+
 **Default value:** Left

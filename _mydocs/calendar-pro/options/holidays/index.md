@@ -12,6 +12,12 @@ next_reading_title: Options
 
 This section describes the details of how to manage the options for the holidays feature in Calendar Pro.
 
+Learn how to modify its fields by reading the subsections.
+
+> **NOTE**: To improve how holidays are shown in the visual, read the [Events/Holidays labels](../../options/events-labels/index.md) section.
+
+<TO DO>MOVE THE DESCRIPTIONS TO THE DEDICATED SUBSECTIONS</TO DO>
+
 ## Managing options for the holidays
 The options for the holiday can be managed in the visual options.
 

@@ -9,6 +9,7 @@ internal:           badgeAutoSize
 available:          Calendar Mode
 related:
     - badge-size.md
-draft:              true
 ---
+When the **Badge auto size** toggle is **On**, if you have chosen the **Badge** [type](./type.md), then Calendar Pro shows badges in a fixed size.
+
 **Default value:** On

@@ -11,8 +11,6 @@ related:
     - font-family.md
     - text-size.md
 ---
+The **Font style** option defines the font style of the events or holidays labels.  
+
 **Default value:** Normal
-
-This option defines the font style of events/holidays labels.  
-
-<todo>Screenshot</todo>

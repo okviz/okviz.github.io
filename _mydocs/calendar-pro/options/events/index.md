@@ -12,3 +12,5 @@ next_reading_title: Options
 This section describes the **Events** option which allows you to manage how events are displayed in Calendar Pro.
 
 Learn how to modify its fields by reading the subsections.
+
+> **NOTE**: To improve how events are shown in the visual, read the [Events/Holidays labels](../../options/events-labels/index.md) section.

@@ -8,10 +8,10 @@ order:              /calendar-pro/options/events-holidays-labels/text-color
 internal:           fill
 available:          Calendar Mode
 ---
-**Default value:** Auto
+The **Text color** option defines the color of the text of the events or holidays.
 
-This option defines the text color of events/holidays labels. By default, it takes the background color of the label and assigns a color of a darker/lighter tone, with acceptable contrast. 
+**Default value:** Auto.
 
-<todo>Screenshot</todo>
+By default, it takes the background color of the label and assigns a darker or lighter color tone, with an acceptable contrast. 
 
-> This option is not controllable through a [Report Theme](../../features/themes.md).
+> **NOTE**: This option is not controllable through a [Report Theme](../../features/themes.md).

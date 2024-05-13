@@ -11,10 +11,8 @@ related:
     - font-style.md
     - text-size.md
 ---
+The **Font family** option defines the font family of the events or holidays labels.  
+
 **Default value:** DIN
 
-This option defines the font family of events/holidays labels.  
-
-<todo>Screenshot</todo>
-
-> This option is not controllable through a [Report Theme](../../features/themes.md).
+> **NOTE**: This option is not controllable through a [Report Theme](../../features/themes.md).

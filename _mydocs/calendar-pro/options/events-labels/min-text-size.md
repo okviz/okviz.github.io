@@ -9,6 +9,7 @@ internal:           minFontSize
 available:          Calendar Mode
 related:
     - /calendar-pro/features/responsive-font.md
-draft:              true
 ---
+The **Min text size** defines the minimum value that the text can reach when you have chosen **Percentage** in the [text size calc mod](./size-calc.md) option.
+
 **Default value:** 8pt
