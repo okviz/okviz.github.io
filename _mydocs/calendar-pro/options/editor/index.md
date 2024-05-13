@@ -7,21 +7,19 @@ modified:           2022-07-22
 order:              /calendar-pro/options/advanced-editor
 internal:           editor, hide, pin
 ---
+This section describes the **Advanced Editor** option which manages the advanced editor button in the visuals in Calendar Pro.
 
-This section allows to show/hide the **Advanced Editor** button. 
+<img src="images/advanced-editor-button.png" width="700" alt="The advanced editor in Calendar pro">
 
-<todo>What is Advanced Editor, links to Color Rules and Templates</todo>
-
-<todo>Screenshot</todo>
 
 ## Hide Editor Button
+When the **Hide editor button** toggle is **On**, the advanced editor button is not visible in the visual.
 
 **Default value:** Off
-
-If enabled, this option allow to hide the advanced editor button.
 
 ## Pin Editor Button
+When the **Pin editor button** is **On**, the advanced editor is pinned in the visual. When it is **Off**, the advanced editor button is visible only when the mouse is on the visual.
 
 **Default value:** Off
 
-This option is only visible if the **Hide Editor Button** option is set to ***Off***. It allows the advanced editor button to be always visible.
+> **NOTE**: This option is visible only if the **Hide editor button** option is set to **Off**. 
