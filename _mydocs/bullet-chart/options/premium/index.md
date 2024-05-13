@@ -22,7 +22,7 @@ Enabling this option opens a wizard that shows some of the main premium Bullet C
 
 **Premium options are marked with the symbol ✦**. 
 
-If a premium option is selected and you don't have a license, a banner in the upper left corner of the visual will show the “Upgrade" button that links to the AppSource to purchase a license. Hovering over the "i" icon will show the enabled premium option that triggers the banner.
+If a premium option is selected and you don't have a license, a banner in the upper left corner of the visual will show the “Upgrade" button that links to AppSource to purchase a license. Hovering over the "i" icon will show the enabled premium option that triggers the banner.
 
 <video src="images/features-reset-icon.mp4" width="700" autoplay loop muted></video>
 

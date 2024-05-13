@@ -17,6 +17,6 @@ Synoptic Panel Pro sends out notifications about new versions if this option is 
  
 <todo src="images/new-update.png" width="420"></todo>
 
-> This option is beneficial for users who manually download and update the visual. While for the users who installed Synoptic Panel Pro from the AppSource, the updates are automatic and invisible. Learn why you could choose the manual approach here: [Installation from AppSource Drawbacks](../../../get-started/installation.md#from-the-appsource
+> This option is beneficial for users who manually download and update the visual. While for the users who installed Synoptic Panel Pro from AppSource, the updates are automatic and invisible. Learn why you could choose the manual approach here: [Installation from AppSource Drawbacks](../../../get-started/installation.md#from-appsource)
 
 > See how to update a visual here: [Updating Visuals](../../../get-started/updating.md)

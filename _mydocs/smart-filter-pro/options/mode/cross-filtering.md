@@ -51,7 +51,7 @@ The above example is a simplistic one citing only two fields in Smart Filter Pro
 
 ### Every field and values
 
-Like the `Every field` option, but excluded datapoints values are also filtered out.
+Like the `Every field` option, but excluded data points values are also filtered out.
 This option has been introduced in [v2.3.1.2](../../changelog.md#v2312).
 
 ### Sequential

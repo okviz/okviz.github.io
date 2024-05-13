@@ -4,7 +4,7 @@ title:              Options
 published:          true
 date:               2024-05-10
 modified:           2024-05-10
-order:              /synoptic-panel-pro/04
+order:              /synoptic-panel-pro/05
 next_reading:       true
 ---
 

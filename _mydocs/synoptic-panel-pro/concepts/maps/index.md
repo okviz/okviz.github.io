@@ -44,7 +44,7 @@ You can use other image formats as a base for your maps, but you will need to co
 
 - **CAD drawings (DXF, DWG, etc.)**  
     You need a CAD software to convert them to SVG, such as *AutoCAD* or *DraftSight*.
-    > Note that due to the complexity of CAD drawings, the conversion process may require manual adjustments to ensure the resulting SVG file is suitable for use in Synoptic Panel Pro. OKVIZ does not provide support for this conversion process.
+    >> Note that due to the complexity of CAD drawings, the conversion process may require manual adjustments to ensure the resulting SVG file is suitable for use in Synoptic Panel Pro. **OKVIZ does not provide support** for this conversion process.
 
 - **Visio diagrams (VSD, VSDX, etc.)**  
     You need *Microsoft Visio* to convert them to SVG. See [Visio Docs](https://support.microsoft.com/en-us/office/save-a-visio-diagram-as-a-graphic-or-image-file-94c892d1-523c-4073-882d-c8ee2ff65d18).

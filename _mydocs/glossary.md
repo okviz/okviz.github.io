@@ -1,0 +1,37 @@
+---
+layout:             page
+title:              Glossary
+published:          true
+date:               2024-05-12
+modified:           2024-05-12
+order:              /{99}
+---
+
+This glossary contains definitions of uncommon terms used in this documentation or Power BI in general.
+
+## AppSource
+
+AppSource is Microsoft's marketplace for business applications, including Power BI visuals. You can find and install custom visuals from AppSource directly into your Power BI reports.
+
+## Binding (or Bind)
+
+Binding is the process of connecting a column of data or a measure from your dataset to a visual with a specific role. For example, you can bind a column of sales data to a visual's "Values" role to declare that the visual should display the sales data. A synomym for binding is "connecting" or "linking".
+
+## Certification
+
+Microsoft's certification program for Power BI visuals guarantees that custom visuals do not contain malware code, do not call external services, do not store underlying data, and adheres to coding standards. See also [Certification](./get-started/certification.md).
+
+
+## Data Point
+
+In Power BI, a "data point" refers to an individual value or item of data extracted from your dataset, represented in various forms across reports and visualizations. These data points are integral to visuals, where each point might represent a specific metric like daily sales or customer counts.
+
+## Map
+
+In the context of Synoptic Panel Pro, a map is an image that can be used to visualize and represent data dynamically. These are not limited to geographical maps but can include a variety of other visual representations such as floor plans, city layouts, machine schematics, or anatomical diagrams of the human body. See also [What are Maps?](./synoptic-panel-pro/concepts/maps/index.md)
+
+## Visual and Custom Visual
+
+A visual is a graphical representation of data. In Power BI, visuals are the building blocks of reports and dashboards. They can be charts, tables, maps, or custom visuals.
+
+A custom visual is a visual that is not included in the default set of visuals provided by Power BI. Custom visuals can be created by third-party developers or by the Power BI community. OKVIZ visuals are examples of custom visuals. See also [Custom Visuals](./get-started/custom-visuals.md).

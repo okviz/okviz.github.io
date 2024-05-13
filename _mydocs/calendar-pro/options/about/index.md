@@ -27,8 +27,8 @@ The option **License** displays the current status of your license, which can be
 
 See more on [Licensing](../../licensing.md).
 
-## Diagnostic
-If enabled, the **Diagnostic** toggle allows Calendar Pro to log significant information and errors in the script soncole of the browser.
+## Diagnostics
+If enabled, the **Diagnostics** toggle allows Calendar Pro to log significant information and errors in the script soncole of the browser.
 >**NOTE**: This could affect the performance of your report.
 
 **Default value:** Off.

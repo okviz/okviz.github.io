@@ -9,4 +9,4 @@ order:              /bullet-chart/features/orientations
 
 Bullet Chart allows you to choose the orientation of the data bars, simply by switching the [Orientation](./../options/general/orientation.md) property, so that you can tailor the visual to your report. You can change visual orientation at any time, bearing in mind that some options may not be available for the selected orientation type. 
 
-<img src="images/features-orientations.png" width="700" class="fr">
+<img src="images/features-orientations.png" width="700">

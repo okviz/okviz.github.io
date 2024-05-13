@@ -21,7 +21,7 @@ The Smart Filter Pro licensing works in different ways depending on how you load
 
     > Also if the license is hard-coded, the visual needs to periodically check your subscription status with our servers. If you are having trouble verifying your license, check if there is a firewall blocking outbound connections. See more on [Data Sent over the Internet](security.md#data-sent-over-the-internet).
 
-- ### From the AppSource
+- ### From AppSource
 
     If you use Smart Filter Pro from AppSource, you must activate each instance of the visual in your reports by entering the licensee name and license key in the dedicated fields.  
     Therefore, **sharing the visual within your organization also requires sharing license information.**

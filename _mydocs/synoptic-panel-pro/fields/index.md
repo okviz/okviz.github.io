@@ -1,0 +1,11 @@
+---
+layout:             page
+title:              Fields
+published:          true
+date:               2024-05-11
+modified:           2024-05-11
+order:              /synoptic-panel-pro/05
+draft:              true
+next_reading:       true
+---
+Synoptic Panel Pro accepts multiple columns and measures and behaves differently depending on the combination of bound fields.

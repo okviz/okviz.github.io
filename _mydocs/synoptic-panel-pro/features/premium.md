@@ -1,10 +1,15 @@
 ---
 layout:             page
-title:              Premium
+title:              Premium Features
+menu_title:         Premium
 published:          true
 date:               2024-05-10
-modified:           2024-05-10
+modified:           2024-05-12
 order:              /synoptic-panel-pro/features/01
 draft:              true
 ---
-<todo>Use this page to describe the premium features of Synoptic Panel Pro.</todo>
+<todo visible>
+    This page will describe the premium features of Synoptic Panel Pro, including the maps limitation based on the license, the access to My Storage service, and the available support.
+
+    We are still evaluating the bussiness model, so this page will be updated in the coming weeks.
+</todo>

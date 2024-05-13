@@ -43,6 +43,6 @@ When we find a bug in our visuals we usually fix it as soon as possible, but dep
 - ### Resolution Time for Private Visuals
     Visuals installed from a local file must be updated manually by the user in every report that use them (or just once via [Org Store](../get-started/org-store.md)). In this case, **we are able to provide a corrected version of the visual as soon as we fix the bug**.
 
-    Currently, only [Smart Filter Pro](../smart-filter-pro/index.md) is released both in the AppSource and as a private visual, so it's the only one that can benefit from this support.
+    Currently, only [Smart Filter Pro](../smart-filter-pro/index.md) and [Synoptic Panel Pro](../synoptic-panel-pro/index.md) are released both in AppSource and as a private visual, so it's the only one that can benefit from this support.
 
     > Private visuals are not and cannot be certified. See more on [Certification](../get-started/certification.md).
