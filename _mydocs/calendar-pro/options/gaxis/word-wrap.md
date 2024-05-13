@@ -6,6 +6,8 @@ date:               2022-07-18
 modified:           2022-07-26
 order:              /calendar-pro/options/group-title/word-wrap
 internal:           wordWrap
-draft:              true
 ---
-**Default value:** Off
+When the **Word wrap** toggle is **On**, the text is wrapped when it is too big with respect to the groups it represents.
+
+
+**Default value:** Off.

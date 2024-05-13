@@ -10,10 +10,8 @@ related:
     - font-style.md
     - text-size.md
 ---
-**Default value:** DIN
+The **Font family** option defines the font family of the text of the group's title.
 
-This option defines the font family of group title labels.  
+**Default value:** DIN.
 
-<todo>Screenshot</todo>
-
-> This option is not controllable through a [Report Theme](../../features/themes.md).
+> **NOTE**: This option is not controllable through a [Report Theme](../../features/themes.md).

@@ -11,10 +11,8 @@ related:
     - font-family.md
     - font-style.md
 ---
-**Default value:** 8pt or 15%
+The **Text size** option allows you to manage the size of the text. 
 
-This option defines the font size of group title labels.  
+**Default value:** 8pt or 15%.
 
-<todo>Screenshot</todo>
-
-> This option is not controllable through a [Report Theme](../../features/themes.md).
+> **NOTE**: This option is not controllable through a [Report Theme](../../features/themes.md).

@@ -103,6 +103,16 @@
             "language": "markdown",
             "scheme": "file",
             "pattern": "_mydocs/calendar-pro/options/legend/legend-name.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/options/gaxis/alignment.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/options/gaxis/word-wrap.md"
         }
     ]
 }

@@ -14,4 +14,4 @@ The **Text sice calc mode** option allows you to display the text as a sifex val
 
 Learn more about how responsive text works in Calendar Pro in the [responsive font](../../features/responsive-font.md) section.
 
-**Default value:** Percentage
+**Default value:** Percentage.
