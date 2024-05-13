@@ -12,6 +12,7 @@ related:
     - type-optional.md
     - type-public.md
     - type-school.md
-draft:              true
 ---
+Observance holidays are a [type](./type-all.md) of holidays taken by the majority of people in a country. These are public federal holidays celebrated on dates that are not the actual events' anniversary dates.
+
 **Default value:** On

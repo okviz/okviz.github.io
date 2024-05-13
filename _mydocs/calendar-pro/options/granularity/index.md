@@ -10,6 +10,6 @@ next_reading:       true
 next_reading_title: Options
 ---
 
-This section describes the the **Calendar Granularity** option which provides information about how to manage the granularity in a visual in Calendar Pro.
+This section describes the **Calendar Granularity** option which provides information about how to manage the granularity in a visual in Calendar Pro.
 
 Learn how to modify its fields by reading the subsections.

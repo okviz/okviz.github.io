@@ -12,6 +12,7 @@ related:
     - type-observance.md
     - type-public.md
     - type-school.md
-draft:              true
 ---
+Optional holidays are a [type](./type-all.md) of days off that employees take optionally for their personal reasons.
+
 **Default value:** On

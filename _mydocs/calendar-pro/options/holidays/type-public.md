@@ -12,6 +12,7 @@ related:
     - type-observance.md
     - type-optional.md
     - type-school.md
-draft:              true
 ---
+Public holidays [type](./type-all.md) are non-working days, generally established by national laws.
+
 **Default value:** On

@@ -12,6 +12,7 @@ related:
     - type-observance.md
     - type-optional.md
     - type-public.md
-draft:              true
 ---
+Shools holidays are holidays [types](./type-all.md) referred to when schools are closed.
+
 **Default value:** On

@@ -12,6 +12,7 @@ related:
     - type-optional.md    
     - type-public.md
     - type-school.md
-draft:              true
 ---
+Bank or office holidays are holidays [types](./type-all.md) referred to when banks and offices are closed.
+
 **Default value:** On

@@ -7,8 +7,9 @@ order:              /calendar-pro/options/holidays/cell-label-color
 internal:           labelFill
 available:          Calendar Mode
 ---
+The **Cell label color** manages the color of the text displayed in cells where there are holidays.
+
 **Default value:** None
 
-<todo></todo>
 
 > This option is not controllable through a [Report Theme](../../features/themes.md).

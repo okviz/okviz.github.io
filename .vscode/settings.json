@@ -83,6 +83,21 @@
             "language": "markdown",
             "scheme": "file",
             "pattern": "_mydocs/calendar-pro/options/events-labels/border.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/options/holidays/countries.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/options/holidays/native.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/options/holidays/type-all.md"
         }
     ]
 }
