@@ -7,7 +7,6 @@ modified:           2024-05-15
 order:              /calendar-pro/options/calendar-setup/complete-years
 internal:           completeYears
 available:          Calendar Mode
-related:
 ---
 **Default value:** On
 

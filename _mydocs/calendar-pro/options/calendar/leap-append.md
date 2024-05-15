@@ -11,4 +11,4 @@ related:
 ---
 **Default value:** December
 
-The **Append a week to** option allows you to choose the month to which to append the leap week in the leap rule. 
+This option allows you to choose the month to which to add the leap week in the leap rule. 
