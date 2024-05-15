@@ -3,11 +3,15 @@ layout:             page
 title:              Focus on Zoom
 published:          true
 date:               2022-07-22
-modified:           2022-07-22
+modified:           2024-05-15
 order:              /calendar-pro/options/toolbar/focus-on-zoom
 internal:           focusOnZoom
 available:          Calendar Mode
+related:
+    - focus.md
 ---
-When the **Focus on zoom** toggle is **On**, you can switch to focus when zooming on a cell.
+**Default value:** Off
 
-**Default value:** Off.
+When the **Focus on zoom** toggle is enabled, you activate the *Focus mode* when zooming on a cell.
+
+

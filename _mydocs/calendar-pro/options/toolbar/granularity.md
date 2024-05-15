@@ -7,8 +7,8 @@ modified:           2022-07-22
 order:              /calendar-pro/options/toolbar/granularity-controls
 internal:           granularityControls
 ---
-When the **Granularity controls** option is **On**, you can manage granularity in the toolbar.
+**Default value:** On
 
-**Default value:** On.
+When the **Granularity controls** option is enable, you can manage granularity in the toolbar.
 
-Learn more about the [granularity](../../options/granularity/index.md) section.
+Learn more about the [granularity](../../features/granularities.md) section.

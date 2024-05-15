@@ -3,12 +3,12 @@ layout:             page
 title:              Default to Today
 published:          true
 date:               2023-02-26
-modified:           2023-02-26
+modified:           2024-05-15
 order:              /calendar-pro/options/calendar-setup/default-today
 internal:           defaultToday
 ---
-When the **Default to today** toggle is on, the initial period of the calendar starts from the current date. When the toggle is off, the initial period is the latest selected one.
-
 **Default value:** Off
 
-> **NOTE**: This option works only if the calendar contains the current day as a date.
+When this option is enabled, the initial period displayed by the visual is forced to contain the current date. For example, if the granularity is *Day* and grouping *Month*, the initial day will be today. When the option is turned off, the initial period is the latest selected one.
+
+> This option works only if the calendar contains the current date.

@@ -3,10 +3,11 @@ layout:             page
 title:              Auto Hide Controls
 published:          true
 date:               2022-07-22
-modified:           2022-07-22
+modified:           2024-05-15
 order:              /calendar-pro/options/toolbar/auto-hide-controls
 internal:           autoHide
 ---
-When the **Auto hide** toggle is **Off**, the toolbar is always visible. When is **On**, the toolbar is visible only when the mouse is on the visual.
+**Default value:** Off
 
-**Default value:** Off.
+When the **Auto hide** toggle is enabled, the toolbar is visible only when the mouse is on the visual, otherwise it is always visible.
+

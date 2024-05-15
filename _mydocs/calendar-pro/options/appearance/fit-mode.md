@@ -3,16 +3,17 @@ layout:             page
 title:              Fit Mode 
 published:          true
 date:               2022-07-26
-modified:           2022-07-27
+modified:           2024-05-15
 order:              /calendar-pro/options/appearance/fit-mode
 internal:           fitMode
 available:          Chart Mode
 ---
-The **Fit mode** option defines how the visual fits to the display window in the **Chart** [display mode](./display-mode.md).
+**Default value:** Fit to canvas
+
+This option defines how the visual fits its container.
 
 You can choose among:
-- **Fit to canvas**. This will make the calendar fit to the whole canvas.
-- **Fit to width**. This will make the calendar fit to the whole available witdh.
-- **Fixed size**. This will make the calendar fit to a predefined size.
 
-**Default value:** Fit to canvas.
+- **Fit to canvas** - This will make the calendar fit to the whole canvas.
+- **Fit to width** - This will make the calendar fit to the whole available witdh.
+- **Fixed size** - This will make the calendar fit to a predefined size.

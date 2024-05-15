@@ -9,6 +9,4 @@ internal:           data
 next_reading:       true
 next_reading_title: Options
 ---
-This section describes the **Data** option which provides information about the data are retrieved and aggregated in Calendar Pro.
-
-Learn how to modify its fields by reading the subsections.
+This section describes the options about data retrieval and aggregation in Calendar Pro.

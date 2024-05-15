@@ -7,6 +7,7 @@ modified:           2022-07-26
 order:              /calendar-pro/options/add-to-legend
 internal:           addToLegend
 ---
+**Default value:** On
+
 When the **Add to legend** toggle is **On**, the events are shown in a [legend](../../options/legend/index.md).
 
-**Default value:** On

@@ -1428,7 +1428,7 @@
                 },
                 "defaultToday": {
                     "displayName": "Default to Today (?)",
-                    "description": "This option sets the initial period displayed by the calendar. When the toggle is on, the initial period includes the current date. When the toggle is off, the initial period is the last selected ont. NOTE: This option works only if the calendar interval includes the currentdate.",
+                    "description": "Sets the initial period displayed by the calendar. When the toggle is on, the initial period includes the current date. When the toggle is off, the initial period is the last selected ont. NOTE: This option works only if the calendar interval includes the current date.",
                     "type": { 
                         "bool": true 
                     }
@@ -3031,7 +3031,7 @@
                     }
                 },
                 "diagnostics": {
-                    "displayName": "Diagnostic (?)",
+                    "displayName": "Diagnostics (?)",
                     "description": "Log significant information and errors in the script console of the browser. This could affect the performance of your report.",
                     "type": {
                         "bool": true

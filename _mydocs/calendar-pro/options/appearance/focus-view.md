@@ -3,15 +3,15 @@ layout:             page
 title:              Focus View 
 published:          true
 date:               2022-07-26
-modified:           2022-07-27
+modified:           2024-05-15
 order:              /calendar-pro/options/appearance/focus-view
 internal:           focusView
 available:          Calendar Mode
 ---
-When the **Focus view** toggle is on, the visual displays only one calendar in the **Calendar** [display mode](./display-mode.md).
+**Default value:** Off
 
-**Default value:** Off.
+When the **Focus view** option is enabled, the visual displays only one calendar to fit the available space, overriding the default layout.
 
-This option can also be managed in the visual:
+This option can also be managed directly from the visual:
 
 <img src="images/focus.png" width="700" alt="Focus view in Calendar pro">
