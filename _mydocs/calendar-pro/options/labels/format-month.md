@@ -3,13 +3,28 @@ layout:             page
 title:              Format for Months
 published:          true
 date:               2022-07-26
-modified:           2022-07-26
+modified:           2024-05-16
 order:              /calendar-pro/options/cell-label/format-for-months
 internal:           formatMonth
 available:          Calendar Mode
 ---
-The **Format for months** manages the standards to apply to display the months in the visual.
+**Default value:** (Auto)
 
-**Default value:** Auto.
+This option manages the format to apply for months labels.
 
-> **NOTE**: To use this option, the [granularity](../../features/granularities.md) must be the correct one.
+Available options are:
+
+- **(Auto)**: The format is automatically selected based on the best format for months.
+- **Numeric (1)**: The month will be displayed as a number.
+- **2-digit (01)**: The month will be displayed as a 2-digit number.
+- **Narrow (J)**: The month will be displayed as a narrow name.
+- **Short (Jan)**: The month will be displayed as a short name.
+- **Long (January)**: The month will be displayed as a long name.
+- **Short + year (Jan 2021)**: The month will be displayed as a short name followed by the year.
+- **Long + year (January 2021)**: The month will be displayed as a long name followed by the year.
+- **SQL date (2021-01)**: The month will be displayed as a SQL date.
+- **Short Range (Jan 1-31)**: The month will be displayed as a short name followed by the range of days.
+- **Range (Jan 1-31 2021)**: The month will be displayed as a short name followed by the range of days and the year.
+- **(None)**: The labels will not be displayed.
+
+> This option is applied when the [granularity](../../features/granularities.md) is **Month**.

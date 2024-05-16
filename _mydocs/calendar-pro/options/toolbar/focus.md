@@ -3,13 +3,15 @@ layout:             page
 title:              Focus View Control
 published:          true
 date:               2022-07-22
-modified:           2024-05-15
+modified:           2024-05-16
 order:              /calendar-pro/options/toolbar/focus-view-control
 internal:           focusViewControl
 available:          Calendar Mode
+related:
+    - focus.md
 ---
 **Default value:** On
 
-The **Focus view control** is a button that allows to switch to *Focus mode*, that it a way to temporary display a single calendar in the visual, regardless of the current layout.
+This option enables a toolbar button to control the ***Focus mode***. When this mode is active, only a single calendar is displayed in the visual, regardless of the selected layout.
 
-<todo>Icon screenshot</todo>
+<todo>Screenshot</todo>

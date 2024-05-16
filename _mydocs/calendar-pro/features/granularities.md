@@ -3,7 +3,7 @@ layout:             page
 title:              Granularities
 published:          true
 date:               2022-07-17
-modified:           2024-05-15
+modified:           2024-05-16
 order:              /calendar-pro/features/granularities
 ---
 
@@ -24,8 +24,8 @@ In particular, each cell can represent a:
 - **Year**
 
 The cells can be grouped as follows:
-- **(Auto)** - In this case, Calendar Pro automatically chooses the best grouping based on the granularity.
-- **(Don't group)** - This option does not group the data.
+- **(Auto)**: In this case, Calendar Pro automatically chooses the best grouping based on the granularity.
+- **(Don't group)**: This option does not group the data.
 - **Weeks**
 - **Months**
 - **Quarters**

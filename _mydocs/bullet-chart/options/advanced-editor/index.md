@@ -3,12 +3,12 @@ layout:         page
 title:          Advanced Editor
 published:      true
 date:           2022-07-07
-modified:   	2022-08-17
+modified:   	2024-05-16
 order:          /bullet-chart/options/advanced-editor
 internal:       editor, hide, pin
 ---
 
-This section allows to show/hide the **Advanced Editor** button. Advanced Editor provides access to settings related to [Color Rules](../../../features/color-rules.md) and [Templates](../../../features/templates.md)
+This section allows to show/hide the **Advanced Editor** button. The advanced editor provides access to settings related to [Color Rules](../../../features/color-rules.md) and [Templates](../../../features/templates.md)
 
 <img src="images/advanced-editor.png" width="600">
 
@@ -16,7 +16,7 @@ This section allows to show/hide the **Advanced Editor** button. Advanced Editor
 
 **Default value:** Off
 
-To show the a Advanced Editor Button, simply hover the mouse anywhere in the visual. If enabled, this option allow to hide the button.
+When this option is enabled, the advanced editor button is hidden. Otherwise, the button is displayed when the mouse is hovered over the visual.
 
 <video src="images/hide-editor-button.mp4" width="700" autoplay loop muted></video>
 

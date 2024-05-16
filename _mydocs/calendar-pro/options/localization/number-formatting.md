@@ -3,13 +3,13 @@ layout:             page
 title:              Number Formatting
 published:          true
 date:               2022-07-07
-modified:   	    2024-03-02
+modified:   	    2024-05-16
 order:              /calendar-pro/options/localization/number-formatting
 internal:           numberLocale
 ---
-The **Number formatting** option allows you to manage how numbers have to be formatted on the side of separators.
-
 **Defaul value:** 123,456.789
+
+This option allows you to manage how numbers have to be formatted for what concerns thousands separators and decimal separators.
 
 Supported values are:
 

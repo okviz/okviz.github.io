@@ -9,5 +9,5 @@ internal:           autoHide
 ---
 **Default value:** Off
 
-When the **Auto hide** toggle is enabled, the toolbar is visible only when the mouse is on the visual, otherwise it is always visible.
+When this option is enabled, the toolbar is visible only when the mouse is on the visual, otherwise it is always visible.
 

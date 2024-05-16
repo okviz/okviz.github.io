@@ -3,7 +3,7 @@ layout:             page
 title:              Text Size
 published:          true
 date:               2022-07-26
-modified:           2022-07-26
+modified:           2024-05-16
 order:              /calendar-pro/options/cell-label/text-size
 internal:           percentile, fontSize
 available:          Calendar Mode
@@ -12,8 +12,8 @@ related:
     - font-family.md
     - font-style.md
 ---
-The **Text size** option allows you to manage the size of the text. 
-
 **Default value:** 8pt or 45%
+
+This option allows you to manage the size of the text. 
 
 > **NOTE**: This option is not controllable through a [Report Theme](../../features/themes.md).

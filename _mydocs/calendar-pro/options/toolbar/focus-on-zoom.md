@@ -12,6 +12,6 @@ related:
 ---
 **Default value:** Off
 
-When the **Focus on zoom** toggle is enabled, you activate the *Focus mode* when zooming on a cell.
+When this option is enabled, you activate the ***Focus mode*** when zooming on a cell.
 
 

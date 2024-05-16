@@ -10,6 +10,6 @@ available:          Calendar Mode
 ---
 **Default value:** Off
 
-When the **First/Last page** toggle is enabled, the toolbar gives you the possibility to jump to the first and last page of the visual, as proper buttons become available.
+When this option is enabled, the visual toolbar gives you the possibility to jump to the first and last page of the visual, as proper buttons become available.
 
 <todo>Icons screenshot</todo>

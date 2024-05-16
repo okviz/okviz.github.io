@@ -9,6 +9,6 @@ internal:           groupingControls
 ---
 **Default value:** On
 
-When the **Grouping controls** option is enabled, you can change the grouping in the toolbar.
+This option enables a toolbar button to control how the calendar cells are grouped.
 
-Learn more about grouping in the [granularity](../../features/granularities.md) section.
+Learn more about grouping in the [Granularity](../../features/granularities.md) section.

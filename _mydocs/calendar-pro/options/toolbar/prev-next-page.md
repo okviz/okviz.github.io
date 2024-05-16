@@ -3,13 +3,15 @@ layout:             page
 title:              Prev/Next Page
 published:          true
 date:               2022-07-22
-modified:           2022-07-22
+modified:           2024-05-16
 order:              /calendar-pro/options/toolbar/prev-next-page
 internal:           prevNextStepPageControls
 available:          Calendar Mode
 ---
-When the **Prev/Next page** toggle is **On**, you can move to the next page of the visual, as proper a button becomes available.
+**Default value:** On
 
-This option allows you to move "in pairs" with the [columns](../../options/appearance/columns.md) of the [layout](./layout.md). For example, if your layout has two columns, by clicking on **Next page** in the toolbar, the visual will move by two columns.
+When this option is enabled, you can move to the next page of the visual, as proper a button becomes available.
 
-**Default value:** On.
+We consider a page to be the current layout of the visual. If, for example, the visual cover a 12-month period and the current layout shows only 2 months at the same time, we know that there are 6 different pages. The buttons allow you to go to the next page and the previous page.
+
+<todo>Screencast</todo>

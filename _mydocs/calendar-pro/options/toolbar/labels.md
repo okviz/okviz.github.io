@@ -7,6 +7,6 @@ modified:           2022-07-22
 order:              /calendar-pro/options/toolbar/labels
 internal:           labels
 ---
-When the **Label** toggle is **On**, there is a visual indication of the current granularity and grouping settings.
+**Default value:** On
 
-**Default value:** On.
+When this option is enabled, a visual indication of the current granularity and grouping is diplayed in the toolbar.

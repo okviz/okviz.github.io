@@ -9,5 +9,5 @@ internal:           autoHide
 ---
 **Default value:** Center
 
-The **Alignment** option defines the position of the toolbar in the visual.
+This option defines the position of the toolbar in the visual.
 
