@@ -3,7 +3,7 @@ layout:             page
 title:              Border Color
 published:          true
 date:               2022-07-27
-modified:           2022-07-27
+modified:           2024-05-15
 order:              /calendar-pro/options/cell-appearance/border-color
 internal:           borderFill
 related:
@@ -12,6 +12,7 @@ related:
     - border-size.md
     - group-border.md
 ---
-The **Border color** option changes how the visual displays the color border of the cells.
-
 **Default value:** *foregroundNeutralDark* of the [Report Theme](../../features/themes.md)
+
+This option changes the color border of the calendar cells.
+

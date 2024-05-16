@@ -7,6 +7,7 @@ modified:           2022-07-22
 order:              /calendar-pro/options/advanced-editor
 internal:           editor, hide, pin
 ---
+
 This section describes the **Advanced Editor** option which manages the advanced editor button in the visuals in Calendar Pro.
 
 <img src="images/advanced-editor-button.png" width="700" alt="The advanced editor in Calendar pro">
@@ -23,3 +24,5 @@ When the **Pin editor button** is **On**, the advanced editor is pinned in the v
 **Default value:** Off
 
 > **NOTE**: This option is visible only if the **Hide editor button** option is set to **Off**. 
+
+<todo>Do screencasts and screenshots as in the same section of Bullet Chart</todo>

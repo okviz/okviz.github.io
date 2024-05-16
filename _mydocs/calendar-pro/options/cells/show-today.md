@@ -3,15 +3,13 @@ layout:             page
 title:              Show Today
 published:          true
 date:               2024-01-15
-modified:           2024-01-15
+modified:           2024-05-16
 order:              /calendar-pro/options/cell-appearance/show-today
 internal:           showToday
 related:
     - today-color.md
     - extend-today-color.md
 ---
-When the **Show today** toggle is on, is it possible to define a custom color for the cell of the current day.
+**Default value:** On
 
-You can change the color of the cell for the current day by managing the [today color](./today-color.md) option.
-
-**Default value:** On.
+When the **Show today** opion is available, the current day (or the period including the current day) is highlighted in the calendar.

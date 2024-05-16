@@ -3,7 +3,7 @@ layout:             page
 title:              Border Size
 published:          true
 date:               2022-07-27
-modified:           2022-07-27
+modified:           2024-05-15
 order:              /calendar-pro/options/cell-appearance/border-size
 internal:           borderSize
 related:
@@ -12,6 +12,7 @@ related:
     - border-size.md
     - group-border.md
 ---
-The **Border size** option changes the size of the border of each cell in the visual.
+**Default value:** 1
 
-**Default value:** 1.
+This option changes the size of the border of each cell in the visual.
+

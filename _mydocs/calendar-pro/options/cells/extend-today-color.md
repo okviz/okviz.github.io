@@ -10,10 +10,10 @@ related:
     - show-today.md
     - today-color.md
 ---
-When the **Extend today color** toggle is on, the cell color set for the current day is applied to any granularity.
+**Default value:** Off
 
-**Default value:** Off.
+When this option is enabled, the cell color set for the current day is applied to any granularity, not just the day. For example, if the current day is set to red, the entire week containing the current day is also red.
 
-> **NOTE**: This option overrides [Color Rules](../../features/color-rules.md).
+This option overrides [Color Rules](../../features/color-rules.md).
 
 > **NOTE**: This option is not controllable through a [Report Theme](../../features/themes.md).
