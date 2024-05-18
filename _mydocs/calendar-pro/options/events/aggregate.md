@@ -4,7 +4,7 @@ title:              Single Color
 published:          true
 date:               2022-07-18
 modified:           2024-05-16
-order:              /calendar-pro/options/single-color
+order:              /calendar-pro/options/events/single-color
 internal:           aggregate
 available:          Calendar Mode
 draft:              true

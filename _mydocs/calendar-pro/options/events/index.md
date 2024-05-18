@@ -11,4 +11,4 @@ next_reading_title: Options
 ---
 This section describes the options related to the events displayed in Calendar Pro.
 
-> **NOTE**: To improve how events are shown in the visual, read the [Events/Holidays labels](../../options/events-labels/index.md) section.
+> To improve how events are shown in the visual, read the [Events/Holidays labels](../../options/events-labels/index.md) section.

@@ -7,10 +7,10 @@ modified:           2024-05-16
 order:              /calendar-pro/options/cell-appearance/non-working-day-color
 internal:           weekendFill
 ---
-**Default value:** Empty
+**Default value:** *None*
 
 This option defines the background color of the cells for weekend days.
 
 This option overrides [Color Rules](../../features/color-rules.md).
 
-> **NOTE**: This option is not controllable through a [Report Theme](../../features/themes.md).
+> This option is not controllable through a [Report Theme](../../features/themes.md).

@@ -9,6 +9,6 @@ internal:           endYear
 related:
   - start-year.md
 ---
-**Default value:** Auto
+**Default value:** (Auto)
 
 The **End year** option allows you to define the end year of the calendar, regardless of the interval defined by the bound data. By settings the end year, you can ensure that the calendar displays the years you want.

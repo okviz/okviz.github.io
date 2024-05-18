@@ -14,4 +14,4 @@ related:
 
 This option defines the font family of the group title.
 
-> **NOTE**: This option is not controllable through a [Report Theme](../../features/themes.md).
+> This option is not controllable through a [Report Theme](../../features/themes.md).

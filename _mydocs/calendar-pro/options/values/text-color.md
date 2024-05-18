@@ -8,7 +8,7 @@ order:              /calendar-pro/options/cell-value/text-color
 internal:           fill
 available:          Calendar Mode
 ---
-**Default value:** Auto
+**Default value:** *Automatic*
 
 This option defines the text color of cell value labels. By default, it takes the background color of the cell and assigns a color of a darker/lighter tone, with acceptable contrast. 
 

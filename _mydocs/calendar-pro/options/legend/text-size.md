@@ -13,4 +13,4 @@ related:
 
 This option manages the size of the text of the legend.
 
-> **NOTE**: This option is not controllable through a [Report Theme](../../features/themes.md).
+> This option is not controllable through a [Report Theme](../../features/themes.md).

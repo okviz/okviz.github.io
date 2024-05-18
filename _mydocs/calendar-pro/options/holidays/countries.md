@@ -3,20 +3,22 @@ layout:             page
 title:              Countries
 published:          true
 date:               2022-07-26
-modified:           2022-07-26
+modified:           2024-05-18
 order:              /calendar-pro/options/holidays/countries
 internal:           country1, country2, country3
 ---
-The **Countries** option allows you to choose holidays related to the countries of your choice. You can choose up to three different countries.
+**Default value:** *Automatic* (based on current [localization](../localization/index.md))
 
-**Default value:** Auto (based on current [localization](../localization/index.md)).
+This option allows you to choose up to three countries to show holidays for.
 
+<todo>Screenshot</todo>
 
 ## Using the "Holidays Country" field
-To set the countries, you can also use the **Holidays Country** field. 
+To set the countries, you can also bind one or more measures to the [Holidays Country](../../fields/holidays-countries.md) data role. 
 
-<img src="images/holidays-countries.png" width="500" alt="Holidays in Calendar pro">
+<todo>Retake screenshot - we need to show where is located</todo>
+<img src="images/holidays-countries.png" width="500">
 
-In this field, you can add one or more measures containing the ISO of the countries you want the holidays to be shown.
+The measure bound there must contain the ISO of the countries you want the holidays to be shown.
 
-When you use this field, Calendar Pro will override the countries set in the **Holidays** visual options. This happens because this field allows for the possibility to bypass the limit of three countries given by the **Holidays** visual options.
+When you use this method, the countries set in the **Countries** options are ignored.

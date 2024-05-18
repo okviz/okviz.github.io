@@ -6,9 +6,9 @@ date:               2022-07-27
 modified:           2022-07-27
 order:              /calendar-pro/options/calendar-granularity/granularity
 internal:           granularity
+related:
+    - /calendar-pro/features/granularities.md
 ---
-The **Granularity** parameter manages the granularity of the visual.
+**Default value:** Day
 
-**Default value:** Day.
-
-Learn more about how this works in the [Granularities](../../features/granularities.md) section
+This option defines the granularity of the visual.

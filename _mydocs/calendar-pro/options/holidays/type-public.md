@@ -3,7 +3,7 @@ layout:             page
 title:              Public Holidays
 published:          true
 date:               2022-07-26
-modified:           2022-07-26
+modified:           2024-05-18
 order:              /calendar-pro/options/holidays/public-holidays
 internal:           showPublic
 related:
@@ -13,6 +13,6 @@ related:
     - type-optional.md
     - type-school.md
 ---
-Public holidays [type](./type-all.md) are non-working days, generally established by national laws.
-
 **Default value:** On
+
+Public holidays are holidays that are recognized by the government as official holidays. They are usually established by law and are observed by the general population. Public holidays are often non-working days, and they are usually marked by special events or celebrations.

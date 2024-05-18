@@ -16,4 +16,4 @@ related:
 
 This option allows you to manage the size of the text. 
 
-> **NOTE**: This option is not controllable through a [Report Theme](../../features/themes.md).
+> This option is not controllable through a [Report Theme](../../features/themes.md).

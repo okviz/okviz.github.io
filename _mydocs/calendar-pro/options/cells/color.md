@@ -7,7 +7,7 @@ modified:           2024-05-15
 order:              /calendar-pro/options/cell-appearance/color
 internal:           blankFill
 ---
-**Default value:** Empty
+**Default value:** *None*
 
 This option defines the background color of cells without data.
 
@@ -16,4 +16,4 @@ This option defines the background color of cells without data.
 
 This option can be overridden by [Data color](data-color.md) and [Color Rules](../../../features/color-rules.md).
 
-> **NOTE**: This option is not controllable through a [Report Theme](../../features/themes.md).
+> This option is not controllable through a [Report Theme](../../features/themes.md).

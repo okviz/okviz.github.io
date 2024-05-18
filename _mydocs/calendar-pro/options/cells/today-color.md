@@ -16,4 +16,4 @@ This option defines the color of the cell of the current day.
 
 This option overrides [Color Rules](../../features/color-rules.md).
 
-> **NOTE**: This option is not controllable through a [Report Theme](../../features/themes.md).
+> This option is not controllable through a [Report Theme](../../features/themes.md).

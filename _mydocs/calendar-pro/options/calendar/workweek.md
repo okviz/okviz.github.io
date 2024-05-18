@@ -7,7 +7,7 @@ modified:           2024-05-15
 order:              /calendar-pro/options/calendar-setup/workweek
 internal:           workDays
 ---
-**Default value:** Automatic (based on current [localization](../localization/index.md))
+**Default value:** *Automatic* (based on current [localization](../localization/index.md))
 
 This option allows you to decide how to visualize the workweek in the visual.
 

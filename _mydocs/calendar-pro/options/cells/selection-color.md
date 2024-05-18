@@ -13,4 +13,4 @@ This option defines the background color of selected cells.
 
 This option overrides any other color rule.
 
-> **NOTE**: This option is not controllable through a [Report Theme](../../features/themes.md).
+> This option is not controllable through a [Report Theme](../../features/themes.md).

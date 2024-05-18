@@ -4,7 +4,7 @@ title:              Add To Legend
 published:          true
 date:               2022-07-18
 modified:           2024-05-16
-order:              /calendar-pro/options/add-to-legend
+order:              /calendar-pro/options/events/add-to-legend
 internal:           addToLegend
 related:
   - /calendar-pro/options/legend

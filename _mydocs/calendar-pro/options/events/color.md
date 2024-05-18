@@ -12,4 +12,4 @@ related:
 
 This option allows you to assign different colors to different events in the case you have set **Off** the **Single color** option.
 
-> **NOTE**: This option is not controllable through a [Report Theme](../../features/themes.md).
+> This option is not controllable through a [Report Theme](../../features/themes.md).

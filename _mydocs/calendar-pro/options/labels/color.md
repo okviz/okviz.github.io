@@ -8,8 +8,8 @@ order:              /calendar-pro/options/cell-label/color
 internal:           fill
 available:          Calendar Mode
 ---
-**Default value:** Auto
+**Default value:** *Automatic*
 
 This option defines the color of the text of the cells labels.
 
-> **NOTE**: This option is not controllable through a [Report Theme](../../features/themes.md).
+> This option is not controllable through a [Report Theme](../../features/themes.md).

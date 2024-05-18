@@ -36,3 +36,4 @@ Calendar Pro is able to display holidays from different countries at the same ti
 
 Learn more about how holidays can be managed in the [Holidays section](../options/holidays/index.md).
 
+> If you find a holiday missing or incorrect, you can contribute to the **date-holiday** library by [submitting a pull request](https://github.com/commenthol/date-holidays/blob/master/CONTRIBUTING.md).
