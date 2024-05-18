@@ -10,7 +10,7 @@ available:          Calendar Mode
 ---
 **Default value:** (Auto)
 
-This option manages the format to apply for years labels.
+This option manages the format to be applied to year labels.
 
 Available options are:
 
@@ -19,6 +19,6 @@ Available options are:
 - **2-digit (21)**: The year is displayed as a 2-digit number (21).
 - **Short Range (Jan 1 - Dec 31)**: The year is displayed as a short range (Jan 1 - Dec 31).
 - **Range (Jan 1 - Dec 31 2021)**: The year is displayed as a range followed by the year (Jan 1 - Dec 31 2021).
-- **(None)**: The labels will not be displayed.
+- **(None)**: No format will be applied to the label. 
 
 > This option is applied when the [granularity](../../features/granularities.md) is **Year**.

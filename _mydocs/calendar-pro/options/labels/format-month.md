@@ -10,7 +10,7 @@ available:          Calendar Mode
 ---
 **Default value:** (Auto)
 
-This option manages the format to apply for months labels.
+This option manages the format to be applied to month labels.
 
 Available options are:
 
@@ -25,6 +25,6 @@ Available options are:
 - **SQL date (2021-01)**: The month will be displayed as a SQL date.
 - **Short Range (Jan 1-31)**: The month will be displayed as a short name followed by the range of days.
 - **Range (Jan 1-31 2021)**: The month will be displayed as a short name followed by the range of days and the year.
-- **(None)**: The labels will not be displayed.
+- **(None)**: No format will be applied to the label. 
 
 > This option is applied when the [granularity](../../features/granularities.md) is **Month**.

@@ -10,7 +10,7 @@ available:          Calendar Mode
 ---
 **Default value:** (Auto)
 
-This option manages the format to apply for days labels.
+This option manages the format to be applied to day labels.
 
 Available options are:
 
@@ -24,6 +24,6 @@ Available options are:
 - **Long date (January 1, 2021)**: The day will be displayed as a long date.
 - **Numeric date (1/1/2021)**: The day will be displayed as a numeric date.
 - **SQL date (2021-01-01)**: The day will be displayed as a SQL date.
-- **(None)**: The labels will not be displayed.
+- **(None)**: No format will be applied to the label. 
 
 > This option is applied when the [granularity](../../features/granularities.md) is **Day**.

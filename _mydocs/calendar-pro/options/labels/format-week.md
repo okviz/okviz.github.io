@@ -10,7 +10,7 @@ available:          Calendar Mode
 ---
 **Default value:** (Auto)
 
-This option manages the format to apply for weeks labels.
+This option manages the format to be applied to week labels.
 
 Available options are:
 
@@ -23,6 +23,6 @@ Available options are:
 - **Days (1-7)**: The week is displayed as a range of days.
 - **Short Range (Jan 1-7)**: The week is displayed as a short range.
 - **Range (Jan 1-7 2021)**: The week is displayed as a range followed by the year.
-- **(None)**: The labels will not be displayed.
+- **(None)**: No format will be applied to the label. 
 
 > This option is applied when the [granularity](../../features/granularities.md) is **Week**.

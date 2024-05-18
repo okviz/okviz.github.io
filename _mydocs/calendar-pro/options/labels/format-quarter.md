@@ -10,7 +10,7 @@ available:          Calendar Mode
 ---
 **Default value:** (Auto)
 
-This option manages the format to apply for quarters labels.
+This option manages the format to be applied to quarter labels.
 
 Available options are:
 
@@ -19,6 +19,6 @@ Available options are:
 - **Numeric + year (Q1 2021)**: The quarter is displayed as a number followed by the year (Q1 2021).
 - **Short Range (Jan 1 - Mar 31)**: The quarter is displayed as a short range (Jan 1 - Mar 31).
 - **Range (Jan 1 - Mar 31 2021)**: The quarter is displayed as a range followed by the year (Jan 1 - Mar 31 2021).
-- **(None)**: The labels will not be displayed.
+- **(None)**: No format will be applied to the label. 
 
 > This option is applied when the [granularity](../../features/granularities.md) is **Quarter**.

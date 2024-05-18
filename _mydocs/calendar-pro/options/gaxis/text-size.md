@@ -3,16 +3,17 @@ layout:             page
 title:              Text Size
 published:          true
 date:               2022-07-27
-modified:           2022-07-27
+modified:           2024-05-18
 order:              /calendar-pro/options/group-title/text-size
 internal:           percentile, fontSize
 related:
     - /calendar-pro/features/responsive-font.md
-    - font-family.md
-    - font-style.md
+    - size-calc.md
+    - min-text-size.md
+    - max-text-size.md
 ---
-The **Text size** option allows you to manage the size of the text. 
+**Default value:** 8pt or 15%
 
-**Default value:** 8pt or 15%.
+This option allows you to manage the size of the group title text. 
 
 > **NOTE**: This option is not controllable through a [Report Theme](../../features/themes.md).
