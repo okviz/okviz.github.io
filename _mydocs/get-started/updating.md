@@ -25,7 +25,7 @@ The updating process of a local visual file is almost identical to its installat
     <img src="images/visual-version.png" width="400">
 
 
-## From the AppSource
+## From AppSource
 
 If the visual has been installed on AppSource, no additional actions are required to keep it up to date. In fact, every new version of the visual is automatically downloaded in every report that uses a previous version.
 

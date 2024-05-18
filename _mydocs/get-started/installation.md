@@ -9,7 +9,7 @@ toc_max:            2
 ---
 OKVIZ visuals (like any other custom visuals for Power BI) are wrapped as files with the ***.pbiviz*** extension. You cannot directly open .pbiviz files with Power BI. Instead, you must import them into your reports or install them in your organizational store by following one of the methods described below.
 
-> Custom visuals may be disabled in your organization, [check your tenant settings](#enable-custom-visuals) to be sure you can use them.
+>> Custom visuals may be disabled in your organization, [check your tenant settings](#enable-custom-visuals) to be sure you can use them.
 
 
 ## From a File
@@ -28,9 +28,9 @@ To install a visual from a pbiviz file, follow these steps:
 5.	Click on the new icon and start using the visual.
 
 
-## From the AppSource
+## From AppSource
 
-An easier way to load a custom visual into your reports is through the AppSource. AppSource is the marketplace provided by Microsoft that includes all public visuals from different vendors and is embedded directly in Power BI.
+An easier way to load a custom visual into your reports is through AppSource. AppSource is the marketplace provided by Microsoft that includes all public visuals from different vendors and is embedded directly in Power BI.
 To use it, follow these steps:
 
 1.	Open a report with Power BI Desktop or from the Power BI service.
@@ -112,7 +112,7 @@ After installing the visual, you need to check if custom visuals can be run in y
 
 - ***Add and use certified visuals only (block uncertified)*** is disabled.
 
-> **Smart Filter Pro**: The latter option is required by Smart Filter Pro as it is uncertified.   
-Find out why we did not apply for certification here: [Smart Filter Pro Certification](../smart-filter-pro/security.md#certification)
+> The latter option is required by **Smart Filter Pro** and **Synoptic Panel Pro** as they are uncertified. 
+Find out why we did not apply for certification here: [Smart Filter Pro Certification](../smart-filter-pro/security.md#certification), [Synoptic Panel Pro Certification](../synoptic-panel-pro/security.md#certification)
 
 <img src="images/admin-portal-cv.png" width="650">

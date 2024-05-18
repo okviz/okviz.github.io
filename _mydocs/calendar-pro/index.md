@@ -1,7 +1,7 @@
 ---
 layout:             page
 title:              Calendar Pro
-menu_title:         ✦ Calendar Pro
+menu_title:         – Calendar Pro
 published:          true
 date:               2022-07-13
 modified:           2022-07-21

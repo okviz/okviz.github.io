@@ -3,8 +3,8 @@ layout:             page
 title:              Certification
 published:          true
 date:               2021-11-17
-modified:           2022-08-01
-order:              /02/05
+modified:           2024-05-10
+order:              /01/05
 ---
 
 Custom visuals, like any other software, can contain malware code and steal data.
@@ -35,12 +35,13 @@ Here is a list of OKVIZ visuals that are certified:
 - Dot Plot
 - Smart Filter (Free)
 - Sparkline
-- Synoptic Panel
+- Synoptic Panel (Free - Legacy version)
 
 ## Uncertified Visuals
 
 These OKVIZ visuals, instead, are not yet certified:
 - Smart Filter Pro - [Why not?](../smart-filter-pro/security.md#certification)
+- Synoptic Panel Pro - [Why not?](../synoptic-panel-pro/security.md#certification)
 
 ### Limitations
 

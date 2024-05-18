@@ -30,11 +30,11 @@ Custom visuals are pieces of software, and like any other software they need upd
 
 By storing custom visuals in the Org Store, you can import custom visuals from there when you design a report to make sure any future update will be automated. **Every new release only requires a single update of the custom visual in the Org Store**. Every report will be automatically updated, including both reports published on Power BI services and local reports.
 
-The Org Store can also be used with visuals from the AppSource. In this case, the benefits are less obvious, as every visual from the AppSource is already automatically updated in every report. Actually, the Org Store gives Power BI administrators the ability to decide when to update and test new versions before deployment.
+The Org Store can also be used with visuals from AppSource. In this case, the benefits are less obvious, as every visual from AppSource is already automatically updated in every report. Actually, the Org Store gives Power BI administrators the ability to decide when to update and test new versions before deployment.
 
 ## Timely Support for Private Visuals
 
-Releasing custom visuals to the AppSource requires a Microsoft review process that typically takes up to 3 weeks. This is good for checking regressions, but not so good for existing bug fixes that may be urgent for a specific report.
+Releasing custom visuals to AppSource requires a Microsoft review process that typically takes up to 3 weeks. This is good for checking regressions, but not so good for existing bug fixes that may be urgent for a specific report.
 
 By using the Org Store, you are in control of any update. Indeed, if there is a critical bug in one of the visuals you are using, you can quickly apply a patch to every report on the very day the update is available. This way, you are not dependent on Microsoft’s timeline for releasing the custom visual on to the marketplace.
 

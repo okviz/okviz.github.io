@@ -3,7 +3,7 @@ layout:             page
 title:              Support
 published:          true
 date:               2021-12-03
-modified:           2022-08-10
+modified:           2024-05-12
 order:              /03/03
 ---
 OKVIZ offers direct support to users who have problems with premium visuals and provides a dedicated forum for assistance with free visuals.
@@ -23,7 +23,7 @@ To report a bug with OKVIZ visuals, please follow the directions below:
 ### Issues Pages
 
 For issues with **free visuals**, use this repository on Github:
-- Dot Plot, Candlestick, Card with States, Smart Filter (Free), Sparkline, and Synoptic Panel:  
+- Dot Plot, Candlestick, Card with States, Smart Filter (Free), and Sparkline:  
 [github.com/okviz/free-visuals/issues](https://github.com/okviz/free-visuals/issues)
 
 
@@ -31,6 +31,7 @@ For issues with **premium visuals**, use a dedicated repository on Github:
 - Bullet Chart: [github.com/okviz/bullet-chart-issues](https://github.com/okviz/bullet-chart-issues)
 - Calendar Pro: [github.com/okviz/calendar-pro-issues](https://github.com/okviz/calendar-pro-issues)
 - Smart Filter Pro: [github.com/okviz/smart-filter-pro-issues](https://github.com/okviz/smart-filter-pro-issues)
+- Synoptic Panel Pro: [github.com/okviz/synoptic-panel-issues](https://github.com/okviz/synoptic-panel-issues)
 
 ### Diagnostic Data
 

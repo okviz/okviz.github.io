@@ -4,7 +4,7 @@ title:              Power BI Custom Visuals
 menu_title:         Custom Visuals
 published:          true
 date:               2021-12-14
-modified:           2022-08-03
+modified:           2024-05-11
 order:              /01/01
 toc_max:            2
 ---
@@ -45,7 +45,7 @@ This was new for Power BI, new challenges for developers who had to use immature
 
 At that time OKVIZ was born; we fell in love with custom visuals and decided to do our best to create useful and beautiful ones.
 We published our first two visuals for the contest and both won a prize:
-- **Grand Prize**: first place for our [Synoptic Panel](https://okviz.com/synoptic-panel/) which was chosen by the Microsoft jury ([see the announcement](https://powerbi.microsoft.com/en-us/blog/power-bi-best-visual-contest-announcing-the-contest-winners/))
+- **Grand Prize**: first place for our [Synoptic Panel](../synoptic-panel-pro/index) which was chosen by the Microsoft jury ([see the announcement](https://powerbi.microsoft.com/en-us/blog/power-bi-best-visual-contest-announcing-the-contest-winners/))
 - **People's Choice Award**: [Bullet Chart](../bullet-chart/index.md) won the first of the three awards available in this category ([see the announcement](https://powerbi.microsoft.com/en-us/blog/power-bi-best-visual-contest-1st-people-s-choice-award/))
 
 <img src="images/pbi-best-visual-contest.png" width="300" class="naked">

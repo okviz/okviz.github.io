@@ -27,8 +27,11 @@ The option **License** displays the current status of your license, which can be
 See more on [Licensing](../../licensing.md).
 
 ## Diagnostics
+<<<<<<< HEAD
+=======
 **Default value:** Off.
 
+>>>>>>> beaac0a4887a6a6509b288d44a7bdb350f0cd0a9
 If enabled, the **Diagnostics** toggle allows Calendar Pro to log significant information and errors in the script soncole of the browser.
 >**NOTE**: This could affect the performance of your report.
 

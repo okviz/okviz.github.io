@@ -1,7 +1,7 @@
 ---
 layout:             page
 title:              Bullet Chart
-menu_title:         ✦ Bullet Chart
+menu_title:         – Bullet Chart
 published:          true
 date:               2022-07-14
 modified:           2022-07-21
