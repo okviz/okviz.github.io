@@ -7,7 +7,6 @@ modified:           2024-05-16
 order:              /calendar-pro/options/events/single-color
 internal:           aggregate
 available:          Calendar Mode
-draft:              true
 ---
 **Default value:** On
 

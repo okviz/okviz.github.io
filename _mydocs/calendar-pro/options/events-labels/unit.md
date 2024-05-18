@@ -7,7 +7,6 @@ modified:           2024-05-17
 order:              /calendar-pro/options/events-holidays-labels/display-unit
 internal:           unit
 available:          Calendar Mode
-draft:              True
 ---
 **Default value:** Auto
 

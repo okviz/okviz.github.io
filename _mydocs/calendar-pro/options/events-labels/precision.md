@@ -7,7 +7,6 @@ modified:           2024-05-17
 order:              /calendar-pro/options/events-holidays-labels/decimal-places
 internal:           precision
 available:          Calendar Mode
-draft:              true
 ---
 **Default value:** 0
 
