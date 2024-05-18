@@ -3,9 +3,10 @@ layout:             page
 title:              Last Weekday Of The Year
 published:          true
 date:               2022-07-27
-modified:           2022-07-27
+modified:           2024-05-15
 order:              /calendar-pro/options/calendar-setup/last-weekday-of-the-year
 internal:           yearEndWeekday, yearEndWeekdayMethod
-draft:              true
 ---
 **Default value:** Last of the year
+
+This option allows you to set the last week day of the year in [Fiscal calendars](../../features/calendar-systems.md#fiscal-calendar).

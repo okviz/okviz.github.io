@@ -3,7 +3,7 @@ layout:             page
 title:              Group Border
 published:          true
 date:               2022-07-27
-modified:           2022-07-27
+modified:           2024-05-15
 order:              /calendar-pro/options/cell-appearance/group-border
 internal:           groupBorder
 available:          Chart Mode
@@ -13,6 +13,8 @@ related:
     - border-collapse.md
     - border-size.md
 ---
-When the **Group border** is on in the **Chart** [display mode](../../options/appearance/display-mode.md) this options displays the external border of the chart.
+**Default value:** On
 
-**Default value:** On.
+When this option is enabled, an external border is displayed around each group of cells.
+
+<todo>Screenshot</todo>

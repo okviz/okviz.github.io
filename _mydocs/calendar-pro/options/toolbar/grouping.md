@@ -6,6 +6,9 @@ date:               2022-07-22
 modified:           2022-07-22
 order:              /calendar-pro/options/toolbar/grouping-control
 internal:           groupingControls
-draft:              true
 ---
 **Default value:** On
+
+This option enables a toolbar button to control how the calendar cells are grouped.
+
+Learn more about grouping in the [Granularity](../../features/granularities.md) section.

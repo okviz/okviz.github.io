@@ -3,29 +3,12 @@ layout:             page
 title:              Events
 published:          true
 date:               2022-07-18
-modified:           2022-07-26
+modified:           2024-05-16
 order:              /calendar-pro/options/events
 internal:           events
 next_reading:       true
 next_reading_title: Options
 ---
+This section describes the options related to the events displayed in Calendar Pro.
 
-This section describes the details of how to manage the options for the events feature in Calendar Pro.
-
-## Managing options for the events
-The options for the events can be managed in the visual options.
-
-Here are the options that can be managed:
-- [**Single color**](./color.md). When enabled, all the events have the same color. When disabled, events coming from different sources can have different colors.
-- [**Join adiacent events**](./join.md). When enabled, if the same event spans across different days, it will be displayed as a single event. This can be applied only to events when the start or end times are not defined.
-- [**Show label**](./labels.md). When enabled, this displays the events on the calendar.
-- [**Add to tooltips**](./tooltips.md) and [**Add to legend**](./legend.md). When enabled, the data of the holidays will be displayed also in the options **Tooltips** and **Legend**.
-
-These examples show an event (the delivery date) with joined (first) and not joined (second) events:
-
-<img src="images/event-joined.png" width="600" alt="A joined event in Calendar pro">
-
-<img src="images/event-not-joined.png" width="600" alt="A not joined event in Calendar pro">
-
-
-> **NOTE**: To change the text size, the corner radius, and other parameters to improve how the events are displayed, go to the section [**Events/Holidays labels**](../events-labels/index.md) of the visual options.
+> To improve how events are shown in the visual, read the [Events/Holidays labels](../../options/events-labels/index.md) section.

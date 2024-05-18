@@ -3,13 +3,15 @@ layout:             page
 title:              Invert Axes 
 published:          true
 date:               2022-07-26
-modified:           2022-07-27
+modified:           2024-05-15
 order:              /calendar-pro/options/appearance/invert-axes
 internal:           invetAxis
 available:          Chart Mode
 ---
-When the **Invert axes** toggle is on, the visual inverts the axis in the **Calendar** [display mode](./display-mode.md).
+**Default value:** Off
 
-The axis inversion option is limited to Hours by Day/Month/Quarter, and Months By Quarter.
+When the **Invert axes** option is enabled, the visual inverts the axis of the chart.
 
-**Default value:** Off.
+The axis inversion option is limited to *Hours by Day / Month / Quarter*, and *Months By Quarter*.
+
+<todo>Screenshots</todo> 

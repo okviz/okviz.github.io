@@ -1,19 +1,23 @@
 ---
 layout:             page
-title:              Border Collapse
+title:              Collapse Borders
 published:          true
 date:               2022-07-27
-modified:           2022-07-27
+modified:           2024-05-15
 order:              /calendar-pro/options/cell-appearance/border-collapse
 internal:           borderCollapse
 related:
+    - cell-spacing.md
+    - radius.md
     - border.md
-    - border-color.md
+    - border-collapse.md
     - border-size.md
     - group-border.md
 ---
-When the **Collapse borders** is off, the cells are separated in a visual. This gives you the possibility to manage:
-- The **Cell spacing**. This allow to modify the distance among cells.
-- The **Corner radius***. This allow to modify the radious of each cell.
+**Default value:** On
 
-**Default value:** On.
+When this option is enabled, the calendar cells are "joined" together, and the borders between them are collapsed. This creates a seamless look between the cells.
+
+When this option is disabled, the borders between the cells are visible, and you can set the cell spacing.
+
+<todo>Screnshot</todo>

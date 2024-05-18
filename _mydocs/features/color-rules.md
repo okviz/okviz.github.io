@@ -3,13 +3,16 @@ layout:             page
 title:              Color Rules
 published:          true
 date:               2022-07-14
-modified:           2022-07-14
+modified:           2024-05-15
 order:              /02/color-rules        
 ---
 This section describes how to manage the color rules.
 
+<todo>What are color rules? How they override the visual colors?</todo>
+
 To manage the color rules, click on the editing button in the UI:
 
+<todo>Retake the screenshot</todo>
 <img src="images/editing-color-rules.png" width="500" alt="Editing color rules in Calendar pro">
 
 ## Managing color rules: rules types
@@ -51,7 +54,7 @@ If the toggle is not enabled, Calendar Pro will apply the same rule to all the g
 You can manage the transition among the colors to associated values by changing the options for **Minimum**, **Center**, and **Maximum** as follows:
 - **Percentage**. The transition among colors can be at a certain percentage. This can be set by inserting a value in the dedicated box or by moving the percentage bar at the bottom.
 - **Value**. In this case, the transition can be set at precise values, instead of on a percentage base.
-- **Field**. If you need to display different fields, any field, in this case, will be colored with different colors.
+- **Field**. If you need to display different fields, any field, in this case, will be colored with different colors.<todo>Check this</todo>
 - **Calculation**. In this case, you can set the transition of color based on calculation, using different mathematical operators.
 
 The **Below** and **Above** options allow you to visualize the transition among values with certain colors. Then, below or above certain values (or percentages) the cells can be colored differently. This will enlighten values in a certain range.
@@ -64,10 +67,14 @@ For example, consider the following rule:
 
 This results in:
 
+<todo>Retake the screenshot - the trasparent rule is not clear - show multiple rules</todo>
 <img src="images/setting-ranges-result.png" width="600" alt="Setting color ranges">
 
 > **NOTE**: The use of the **Value** or **Percentage** parameters can be mixed together at will.
+<todo>We need to clarify that the value can be affected by the current filters</todo>
 
 Finally, by enabling the **Relative Domain** toggle, Calendar Pro considers the first data point of the column as the starting point.
 
 If not enabled, Calendar Pro considers 0 as the starting point in case of positive numbers. In the case of negative numbers, 0 is the highest value.
+
+<todo>Color rules fields</todo>

@@ -48,6 +48,90 @@
             "language": "markdown",
             "scheme": "file",
             "pattern": "_mydocs/calendar-pro/options/appearance/invert-axes.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/options/calendar/workweek.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/options/calendar/default-today.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/options/events/color.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/options/events/join.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/options/events-labels/badge-auto-size.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/options/events-labels/border-color.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/options/events-labels/border.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/options/holidays/countries.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/options/holidays/native.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/options/holidays/type-all.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/options/legend/legend-name.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/options/gaxis/alignment.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/options/gaxis/word-wrap.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/options/labels/alignment.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/options/labels/font-family.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_mydocs/calendar-pro/options/localization/date-locale.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file"
         }
     ]
 }

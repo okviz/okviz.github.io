@@ -3,9 +3,10 @@ layout:             page
 title:              Last Day Of The Month
 published:          true
 date:               2022-07-27
-modified:           2022-07-27
+modified:           2024-05-15
 order:              /calendar-pro/options/calendar-setup/last-day-of-the-month
 internal:           monthEndDay
-draft:              true
 ---
 **Default value:** Auto
+
+This option allows you to set the last day of the month in [Custom calendars](../../features/calendar-systems.md#custom-calendar).

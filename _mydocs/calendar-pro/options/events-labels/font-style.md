@@ -3,7 +3,7 @@ layout:             page
 title:              Font Style
 published:          true
 date:               2022-07-26
-modified:           2022-07-26
+modified:           2024-05-17
 order:              /calendar-pro/options/events-holidays-labels/font-style
 internal:           fontStyle
 available:          Calendar Mode
@@ -13,6 +13,4 @@ related:
 ---
 **Default value:** Normal
 
-This option defines the font style of events/holidays labels.  
-
-<todo>Screenshot</todo>
+This option defines the text style of the events/holidays labels.  

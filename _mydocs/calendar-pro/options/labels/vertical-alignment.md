@@ -7,6 +7,8 @@ modified:           2022-07-26
 order:              /calendar-pro/options/cell-label/vertical-alignment
 internal:           verticalAlignment
 available:          Calendar Mode
-draft:              true
 ---
 **Default value:** Top
+
+This option defines the position of the text of the cells labels in the vertical direction.
+

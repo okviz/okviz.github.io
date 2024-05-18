@@ -3,13 +3,11 @@ layout:             page
 title:              Appearance 
 published:          true
 date:               2022-07-18
-modified:           2022-07-18
+modified:           2024-05-15
 order:              /calendar-pro/options/appearance
 internal:           layout
 next_reading:       true
 next_reading_title: Options
 ---
 
-This section describes the **Appearance** option which provides information about how a visual is displayed in Calendar Pro.
-
-Learn how to modify its fields by reading the subsections.
+This section describes the **Appearance** options which can be used to customize Calendar Pro.
