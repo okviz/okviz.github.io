@@ -3,25 +3,24 @@ layout:             page
 title:              Advanced Editor
 published:          true
 date:               2022-07-18
-modified:           2022-07-22
+modified:           2024-05-16
 order:              /calendar-pro/options/advanced-editor
 internal:           editor, hide, pin
 ---
+This section allows to show/hide the **Advanced Editor** button. The advanced editor provides access to the [Color Rules](../../../features/color-rules.md).
 
-This section allows to show/hide the **Advanced Editor** button. 
-
-<todo>What is Advanced Editor, links to Color Rules and Templates</todo>
-
-<todo>Screenshot</todo>
+<img src="images/advanced-editor-button.png" width="700" alt="The advanced editor in Calendar pro">
 
 ## Hide Editor Button
 
 **Default value:** Off
 
-If enabled, this option allow to hide the advanced editor button.
+When this option is enabled, the advanced editor button is hidden. Otherwise, the button is displayed when the mouse is hovered over the visual.
 
 ## Pin Editor Button
 
 **Default value:** Off
 
 This option is only visible if the **Hide Editor Button** option is set to ***Off***. It allows the advanced editor button to be always visible.
+
+<todo>Do screencasts and screenshots as we did in the same section of Bullet Chart</todo>

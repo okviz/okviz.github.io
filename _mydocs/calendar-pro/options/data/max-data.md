@@ -3,14 +3,14 @@ layout:             page
 title:              Max Rows to Retrieve
 published:          true
 date:               2022-07-18
-modified:           2022-07-22
+modified:           2024-05-15
 order:              /calendar-pro/options/data/max-rows-to-retrieve
 internal:           maxData
 ---
-The **Max rows to retrieve** option defines the maximum number that Calendar Pro can retrieve from the measures.
+**Default value:** Auto
 
-**Default value:** Auto.
+The **Max rows to retrieve** option defines the maximum number of rows that Calendar Pro can retrieve from Power BI.
 
-> **NOTE**: Retrieving more than 30k rows may slow down the entire report.
+To retrieve all the rows, set its value to 0 or leave it blank.
 
-> **NOTE**: To retrieve all the rows, set its value to 0 or leave it blank.
+>> Note that retrieving more than 30,000 rows may slow down the entire report.

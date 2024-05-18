@@ -3,18 +3,16 @@ layout:             page
 title:              Rows 
 published:          true
 date:               2022-07-26
-modified:           2022-07-27
+modified:           2024-05-15
 order:              /calendar-pro/options/appearance/rows
 internal:           rows
 available:          Calendar Mode
 related:
     - columns.md
-    - /calendar-pro/options/toolbar/layout.md
 ---
+**Default value:** 1
 
-The **Rows** option defines the number of the rows displayed by the visual.
-
-**Default value:** 1.
+This option defines the number of groups per row displayed by the visual.
 
 This parameter can also be managed into the visual by using the **Change Layout** button:
 

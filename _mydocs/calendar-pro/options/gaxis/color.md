@@ -9,6 +9,4 @@ internal:           fill
 ---
 **Default value:** *foregroundNeutralSecondaryAlt* color of [Report Theme](../../features/themes.md)
 
-This option defines the text color of group title labels.
-
-<todo>Screenshot</todo>
+This option defines the color of the group title.

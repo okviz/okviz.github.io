@@ -3,11 +3,11 @@ layout:             page
 title:              Cell Height 
 published:          true
 date:               2022-07-26
-modified:           2022-07-26
+modified:           2024-05-15
 order:              /calendar-pro/options/appearance/cell-height
+available:          Calendar Mode
 internal:           cellHeight
 ---
-The **Cell height** option defines the height of each cell in the **Calendar** [display mode](./display-mode.md).
+**Default value:** Auto
 
-**Default value:** Auto.
-
+This option defines the height of each cell in the calendar.

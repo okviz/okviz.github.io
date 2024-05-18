@@ -3,9 +3,13 @@ layout:             page
 title:              Add To Legend
 published:          true
 date:               2022-07-18
-modified:           2022-07-26
-order:              /calendar-pro/options/add-to-legend
+modified:           2024-05-16
+order:              /calendar-pro/options/events/add-to-legend
 internal:           addToLegend
-draft:              true
+related:
+  - /calendar-pro/options/legend
 ---
 **Default value:** On
+
+When this option is enabled, the events are shown in the legend (if the legend is enabled).
+

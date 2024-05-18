@@ -3,65 +3,53 @@ layout:             page
 title:              Granularities
 published:          true
 date:               2022-07-17
-modified:           2022-07-17
+modified:           2024-05-16
 order:              /calendar-pro/features/granularities
 ---
 
-Calendar Pro allows you to visualize the data at different granularities.
+Calendar Pro is a visual that allows you to visualize data in a calendar format. Each cell in the calendar represents a period of time. The granularity is the period of time that each cell represents.
 
 <img src="images/granularity.png" width="600" alt="Granularity in Calendar pro">
+<todo>Retake the screenshot - Change the group to a value different from (Auto)</todo>
 
-This section describes how granularity can be managed in Calendar Pro.
+## Granularity and Grouping
 
-## Displaying the value of a measure
-To display the values of a measure, it must be connected to the field **Value**:
-
-<img src="images/value-field.png" width="500" alt="Granularity in Calendar pro">
-
-Each measure is aggregated on the visual according to the selected [level of granularity and grouping](#managing-granularity).
-
-Since not all the measures present values that are additive, you may need to change the aggregation method in the [**Data**](../options/data/index.md) options.
-
-
-## Understanding granularity
-In Calendar Pro, the granularity of the data is managed by changing what a cell represents and how the data of the cells are grouped.
+Calendar Pro is an unconventional visual calendar in the sense that it allows you to choose the granularity of the minimum period you want to display (e.g. a day, a week, a quarter, etc.) and the way these periods are grouped.
 
 In particular, each cell can represent a:
-- **Day**.
-- **Week**.
-- **Month**.
-- **Quarter**.
-- **Year**.
+- **Day**
+- **Week**
+- **Month**
+- **Quarter**
+- **Year**
 
-The data can be grouped as follows:
-- **(Auto)**. In this case, Calendar Pro chooses the logic to use to group the data.
-- **(Don't group)**. This option does not group the data.
-- **Weeks**.
-- **Months**.
-- **Quarters**.
-- **Years**. 
+The cells can be grouped as follows:
+- **(Auto)**: In this case, Calendar Pro automatically chooses the best grouping based on the granularity.
+- **(Don't group)**: This option does not group the data.
+- **Weeks**
+- **Months**
+- **Quarters**
+- **Years**
 
-An example to understand how granularity works is to consider each cell as a day and group the data per week. This is what Calendar Pro shows in this case:
+A classic month calendar could be represented by setting the granularity as **Day** and the grouping as **Months**. In this case, each cell represents a day, and the cells are grouped per month. But Calendar Pro allows you to choose different combinations, like having monts grouped by quarter, or days per year, and so on.
 
+> Note that when you change the granularity, the underlying data (the [values](../fields/value.md) that you could have bound to the visual) are aggregated accordingly by the client (not in Power BI). This could lead to different results than the ones you would obtain by changing the granularity in the Power BI model and it does not work well when you an aggregation that is not sum. To mitigate this, you can use the [Granularity](../options/granularity/index.md) option.
+
+Here are some examples:
+
+<todo>Retake the screenshot - less calendars</todo>
 <img src="images/granularity_day-group_weeks.png" width="1000" alt="Granularity in Calendar pro">
 
 Instead, if each cell represents a day and the data are grouped per month, this is the result:
 
+<todo>Retake the screenshot - less calendars, no week axis</todo>
 <img src="images/granularity_day-group_months.png" width="1000" alt="Granularity in Calendar pro">
 
+<todo>More examples</todo>
 
-## Managing granularity
-You can manage granularity using two different ways:
-- Directly in the visual.
-- From the format visual.
 
-To change the granularity in the visual, manage the options in the red rectangles:
+## Navigation
 
-<img src="images/manage-granularity-graph.png" width="500" alt="Granularity in Calendar pro">
+Although you can set granularity and grouping in the options ([Granularity options](../options/granularity/index)), Calendar Pro allows you to navigate through the data and change the granularity/grouping directly in the visual. This is useful when you want to dynamically display data in different ways without changing the options, or when you are in the Power BI service in *Reading view*.
 
-In this particular case:
-- **D** stands for day. This means that each cell represents a day. You can manage this value by clicking on the arrow icons. The up arrow, in this case, will make each cell represent a week.
-- **M** stands for month. This means that the data are grouped per month. To change how the data are grouped, click on that option and select the one that suits your needs.
-
-To change the granularity from the options, go to [Calendar granularity](../options/granularity/index.md) and select **Granularity** (what each cell represents) and **Group by** (how the data are grouped).
-
+<todo>Screencast of navigating through the data</todo>

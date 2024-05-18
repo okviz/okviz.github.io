@@ -3,7 +3,7 @@ layout:             page
 title:              Font Family
 published:          true
 date:               2022-07-26
-modified:           2022-07-26
+modified:           2024-05-16
 order:              /calendar-pro/options/cell-label/font-family
 internal:           fontFamily
 available:          Calendar Mode
@@ -13,8 +13,6 @@ related:
 ---
 **Default value:** DIN
 
-This option defines the font family of cell labels.  
-
-<todo>Screenshot</todo>
+This option defines the font family of the text of the cells labels.
 
 > This option is not controllable through a [Report Theme](../../features/themes.md).

@@ -7,6 +7,12 @@ modified:           2022-07-22
 order:              /calendar-pro/options/toolbar/layout-control
 internal:           tableEditControl
 available:          Calendar Mode
-draft:              true
+related:
+    - /calendar-pro/options/appearance/rows.md
+    - /calendar-pro/options/appearance/columns.md
 ---
 **Default value:** On
+
+When this option is enabled, the toolbar gives you the possibility to manage the layout of the visual, as proper a button becomes available.
+
+

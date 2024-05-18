@@ -3,17 +3,16 @@ layout:             page
 title:              Columns 
 published:          true
 date:               2022-07-26
-modified:           2022-07-27
+modified:           2024-05-15
 order:              /calendar-pro/options/appearance/columns
 internal:           columns
 available:          Calendar Mode
 related:
     - rows.md
-    - /calendar-pro/options/toolbar/layout.md
 ---
-The **Columns** option defines the number of the columns displayed by the visual in the **Calendar** [display mode](./display-mode.md).
+**Default value:** 2
 
-**Default value:** 2.
+This option defines the number of groups per column displayed by the visual.
 
 This option can also be managed into the visual by using the **Change Layout** button:
 

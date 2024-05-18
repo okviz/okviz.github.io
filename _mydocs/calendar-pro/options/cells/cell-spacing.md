@@ -3,12 +3,12 @@ layout:             page
 title:              Cell Spacing
 published:          true
 date:               2022-07-27
-modified:           2022-07-27
+modified:           2024-05-15
 order:              /calendar-pro/options/cell-appearance/cell-spacing
 internal:           cellSpacing
+related:
+    - border-collapse.md
 ---
-The **Cell spacing** option manages the distance among cells when they are collapsed.
+**Default value:** 1px
 
-**Default value:** 1px.
-
-Learn more about the [border collapse](./border-collapse.md) option.
+This option manages the distance among cells when they are collapsed.

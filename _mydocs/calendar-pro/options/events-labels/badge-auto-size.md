@@ -3,12 +3,14 @@ layout:             page
 title:              Badge Auto Size
 published:          true
 date:               2022-07-26
-modified:           2022-07-26
+modified:           2024-05-17
 order:              /calendar-pro/options/events-holidays-labels/badge-auto-size
 internal:           badgeAutoSize
 available:          Calendar Mode
 related:
     - badge-size.md
-draft:              true
 ---
 **Default value:** On
+
+When this option is enabled, if you have chosen the [Badge label type](type.md), then Calendar Pro shows events and holidays badges in a fixed size.
+
