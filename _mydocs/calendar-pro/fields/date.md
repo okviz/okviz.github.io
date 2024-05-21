@@ -8,7 +8,7 @@ order:              /calendar-pro/fields/date
 ---
 Calendar Pro displays data using dates, this is the most important field.
 
-Add a column containing date values: these will be used by Calendar Pro to display the values depending on the date.
+Add a measure containing date values: these will be used by Calendar Pro to display the values depending on the date.
 
 <img src="images/dates.png" width="500" alt="Focus view in Calendar pro">
 

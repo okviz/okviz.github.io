@@ -5,6 +5,8 @@ date:               2022-07-26
 modified:           2024-05-16
 order:              /calendar-pro/options/events/add-to-tooltips
 internal:           addToTooltips
+related:
+    - /calendar-pro/fields/tooltips.md
 ---
 **Default value:** On
 
