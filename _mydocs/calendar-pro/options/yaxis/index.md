@@ -3,11 +3,14 @@ layout:             page
 title:              "Axis: Year"
 published:          true
 date:               2022-07-18
-modified:           2022-07-26
+modified:           2024-05-17
 order:              /calendar-pro/options/axis-year
 internal:           yAxis
 next_reading:       true
 next_reading_title: Options
 available:          Chart Mode
 ---
+This section describes how to manage the options to customize how years are displayed in Calendar Pro.
+
+<img src="images/axis-years.png" width="1000" alt="The week axis in Calendar pro">
 

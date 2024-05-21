@@ -3,10 +3,13 @@ layout:             page
 title:              Decimal Places
 published:          true
 date:               2022-07-26
-modified:           2022-07-26
+modified:           2024-05-17
 order:              /calendar-pro/options/cell-value/decimal-places
 internal:           precision
 available:          Calendar Mode
-draft:              true
+related:
+    - unit.md
 ---
 **Default value:** 0
+
+This option manages the precision of the numbers displayed in the tooltips, as it allows you to increase or decrease the decimals.

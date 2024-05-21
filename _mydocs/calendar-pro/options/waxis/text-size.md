@@ -14,8 +14,6 @@ related:
 ---
 **Default value:** 7pt or 50%
 
-This option defines the font size of week axis labels.  
-
-<todo>Screenshot</todo>
+This option defines the font size of the week's axis labels.  
 
 > This option is not controllable through a [Report Theme](../../features/themes.md).
