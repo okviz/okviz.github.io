@@ -3,7 +3,7 @@ layout:             page
 title:              Data Binding
 published:          true
 date:               2024-05-10
-modified:           2024-05-12
+modified:           2024-05-22
 order:              /synoptic-panel-pro/concepts/03
 next_reading:       true
 ---
@@ -39,7 +39,7 @@ Each area of a map can be linked to a specific data point ([what is a data point
 
 ### Automatic Binding 
 
-Automatic binding takes place when the `id` of a map area matches one of the values of the ***Categories*** column. If the match is successful, the area status is set to **"Matched"**, is internally linked to the matched data point, and becomes interactive and customizable by the user. If the match is not successful, the area status is set as **"Umatched"**.
+Automatic binding takes place when the `id` of a map area matches one of the values of the ***Categories*** column. If the match is successful, the area status is set to **"Matched"**, is internally linked to the matched data point, and becomes interactive and customizable by the user. If the match is not successful, the area status is set as **"Unmatched"**.
 
 #### Matching Rules
 

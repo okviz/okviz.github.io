@@ -3,7 +3,7 @@ layout:         page
 title:          About
 published:      true
 date:           2022-07-07
-modified:   	2022-07-29
+modified:   	2024-05-22
 order:          /bullet-chart/options/about
 internal:       about, name, version, license, diagnostics
 toc:            false
@@ -25,8 +25,8 @@ The current status of your license, which can be:
 - **Premium:** Your license is valid and you can use all premium features of Bullet Chart
 - **Premium (Grace Period):** There is a problem with your last payment. The license is still active but in a week's time it will no longer be valid.
 - **Free (Premium Suspended):**: The license has been deactivated. You can continue to use Bullet Chart, but all premium features will be reset and deactivated.
-- **Free:** You don't have a valid license, you cannnot use any premium features.
-- **Not Available:** A problem has occured in checking the license status. The visual will continue to check it until it is resolved. After a few minutes, if the licensing system is unavailable, the license will be considered invalid and all premium features will be deactivated.
+- **Free:** You don't have a valid license, you cannot use any premium features.
+- **Not Available:** A problem has occurred in checking the license status. The visual will continue to check it until it is resolved. After a few minutes, if the licensing system is unavailable, the license will be considered invalid and all premium features will be deactivated.
 
 See more on [Licensing](../../licensing.md).
 

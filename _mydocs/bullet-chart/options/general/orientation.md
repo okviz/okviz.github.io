@@ -3,12 +3,12 @@ layout:             page
 title:              Orientation
 published:          true
 date:               2022-07-07
-modified:   	    2022-07-20
+modified:   	    2024-05-22
 order:              /bullet-chart/options/general/orientation
 internal:           orientation
 ---
 
-**Defaul value:** Horizontal
+**Default value:** Horizontal
 
 This option allows you to define visual's orientation. It can be:
 

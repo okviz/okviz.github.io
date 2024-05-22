@@ -16,4 +16,4 @@ related:
 
 This option is only visible when the [Concatenate Labels](concatenate-labels.md) option is enabled and allows you to type the separator between labels in the hierarchy.  
 
-<img src="images/category-axis-labels-separetor.png" width="700">
+<img src="images/category-axis-labels-separator.png" width="700">

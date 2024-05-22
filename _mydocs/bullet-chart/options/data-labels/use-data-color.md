@@ -3,7 +3,7 @@ layout:             page
 title:              Use Data Color
 published:          true
 date:               2022-10-20
-modified:   	    2023-03-21
+modified:   	    2024-05-22
 order:              /bullet-chart/options/data-labels/use-data-color
 premium:            /bullet-chart/licensing.md
 internal:           useMarkerColor
@@ -17,7 +17,7 @@ related:
 
 Allows the formatting of some data label elements to use the same color used for the primary [value](./../../fields/value.md) bar. It provides six options to chose from:
 
-- **(Don't use):** bars' color is not used for label elements. In this case, the [Color](color.md) of the text, the [Background Colour](background-colour.md) and the [Border Colour](border-color.md) can be chosen manually.
+- **(Don't use):** bars' color is not used for label elements. In this case, the [Color](color.md) of the text, the [Background Color](background-color.md) and the [Border Color](border-color.md) can be chosen manually.
 
 - **Background:** the background color of data labels will be the same as the bars. In this case it will be necessary to activate it via the [Background](background.md) option. Text color will be assigned automatically to ensure the best visibility.
 

@@ -3,11 +3,11 @@ layout:             page
 title:              Security & Privacy
 published:          true
 date:               2022-07-17
-modified:           2022-07-17
+modified:           2024-05-22
 order:              /bullet-chart/{97}
 toc:                false
 ---
-Bullet Chart uses the latest tecnologies available and is updated regularly. It does not contain malicious or unsafe code.
+Bullet Chart uses the latest technologies available and is updated regularly. It does not contain malicious or unsafe code.
 
 ## Certification
 

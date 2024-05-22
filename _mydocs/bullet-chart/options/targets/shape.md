@@ -3,7 +3,7 @@ layout:         page
 title:          Shape
 published:      true
 date:           2022-08-17
-modified:   	2022-08-17
+modified:   	2024-05-22
 order:          /bullet-chart/options/targets/shape
 internal:       shape
 ---
@@ -16,7 +16,7 @@ This option allows you to choose a different marker shape for each target bound 
 - Square
 - Cross
 
-It is also possibile to select ***(Hidden)*** to hide the related marker.
+It is also possible to select ***(Hidden)*** to hide the related marker.
 
 <img src="images/target-color-shape-fields.png" width="700">
 

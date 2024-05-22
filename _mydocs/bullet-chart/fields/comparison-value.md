@@ -3,7 +3,7 @@ layout:             page
 title:              Comparison Value
 published:          true
 date:               2022-08-17
-modified:           2023-02-02
+modified:           2024-05-22
 order:              /bullet-chart/fields/comparison-value
 related:
     - category.md
@@ -19,4 +19,4 @@ Or, it can accept more than one connected measure when the **Category** field is
 
 <img src= "images/comparison-no-category.png" width="700">
 
-Read how the visual works with more **Comparion Value** measure at [Multiple Measures](./../features/multiple-measures.md).
+Read how the visual works with more **Comparison Value** measure at [Multiple Measures](./../features/multiple-measures.md).

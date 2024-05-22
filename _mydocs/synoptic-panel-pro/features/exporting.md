@@ -3,7 +3,7 @@ layout:             page
 title:              Exporting
 published:          true
 date:               2024-05-10
-modified:           2024-05-11
+modified:           2024-05-22
 order:              /synoptic-panel-pro/features/exporting
 ---
 
@@ -16,7 +16,7 @@ This is a feature of Power BI that allows you to export your report to a PDF or 
 <img src="../../issues/images/not-support-exporting.png" width="350">
 
 This happens because Synoptic Panel Pro is not certified by Microsoft.  
-You can find out what it meand and why we didn't apply for certification here: [Synoptic Panel Pro Certification](../security.md#certification)
+You can find out what it means and why we didn't apply for certification here: [Synoptic Panel Pro Certification](../security.md#certification)
 
 ### Exporting Maps to SVG, SVGS or CSV
 

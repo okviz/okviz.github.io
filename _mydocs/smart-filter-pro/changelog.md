@@ -206,7 +206,7 @@ With this mode, you can paste and filter long lists of values or search while ty
 
 **Changed:**
 - Revert logo back to the previous one.
-- Change version number for publishing in AppSouce.
+- Change version number for publishing in AppSource.
 
 ## v2.1.2
 **Released:** 2020-02-19

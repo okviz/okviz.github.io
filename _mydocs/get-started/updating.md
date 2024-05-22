@@ -4,10 +4,10 @@ title:              Updating Visuals
 menu_title:         Updating
 published:          true
 date:               2021-12-21
-modified:           2022-07-20
+modified:           2024-05-22
 order:              /01/03
 ---
-Keeping code updated is an essential part of our committment. This is the only way to get rid of bugs and take advantage of the latest features of Power BI.  
+Keeping code updated is an essential part of our commitment. This is the only way to get rid of bugs and take advantage of the latest features of Power BI.  
 From a user's perspective, updating a visual to a new version is a simple operation, but it requires different steps based on how visuals have been installed.
 
 ## From a File

@@ -3,17 +3,17 @@ layout:             page
 title:              Security & Privacy
 published:          true
 date:               2024-05-10
-modified:           2024-05-10
+modified:           2024-05-22
 order:              /synoptic-panel-pro/{97}
 toc:                false
 ---
-Synoptic Panel Pro uses the latest tecnologies available and is updated regularly. It does not contain malicious or unsafe code.
+Synoptic Panel Pro uses the latest technologies available and is updated regularly. It does not contain malicious or unsafe code.
 
 ## Certification
 
 The [Power BI certification program](../get-started/certification.md) guarantees that custom visuals are safe.
 
-**Most of OKVIZ visuals are certified, but not Synoptic Panel Pro Pro.**
+**Most of OKVIZ visuals are certified, but not Synoptic Panel Pro.**
 
 How come? Does it mean that Synoptic Panel Pro is not safe or we want to keep our source code private due to the use of malicious functions? Absolutely no. Synoptic Panel Pro is not certified for just a couple of reasons:
 

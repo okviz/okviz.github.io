@@ -3,11 +3,11 @@ layout:             page
 title:              Security & Privacy
 published:          true
 date:               2022-07-17
-modified:           2022-09-15
+modified:           2024-05-22
 order:              /calendar-pro/{97}
 toc:                false
 ---
-Calendar Pro uses the latest tecnologies available and is updated regularly. It does not contain malicious or unsafe code.
+Calendar Pro uses the latest technologies available and is updated regularly. It does not contain malicious or unsafe code.
 
 ## Certification
 

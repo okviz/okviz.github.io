@@ -87,7 +87,7 @@ Bullet Chart uses **Power BI Custom Visuals API v5.9.0**.
 - Disable premium features on environments unsupported by licensing system
 
 **Fixed:**
-- Gridline options disappering
+- Gridline options disappearing
 - Default target markers
 - (Blank) category values
 - Null values behavior

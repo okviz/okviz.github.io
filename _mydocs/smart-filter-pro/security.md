@@ -3,7 +3,7 @@ layout:             page
 title:              Security & Privacy
 published:          true
 date:               2022-07-13
-modified:           2022-07-15
+modified:           2024-05-22
 order:              /smart-filter-pro/{97}
 toc_max:            2
 ---
@@ -47,7 +47,7 @@ The collected data are:
 - **License status** (licensed or unlicensed)
 - **Number of rows** loaded by the visual (not the content)
 - **Report mode** (Editing or Reading mode)
-- **Working mode** (Dropdown, Observer, Filter, Serch, or Hierarchy modes)
+- **Working mode** (Dropdown, Observer, Filter, Search, or Hierarchy modes)
 - **Check for updates** option status
 
 You can disable telemetry in the [About & License](options/about/send-telemetry.md) options pane.

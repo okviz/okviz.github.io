@@ -3,7 +3,7 @@ layout:             page
 title:              What are Maps?
 published:          true
 date:               2024-05-10
-modified:           2024-05-11
+modified:           2024-05-22
 order:              /synoptic-panel-pro/concepts/01
 ---
 
@@ -27,7 +27,7 @@ For more technical details on this format and the custom attributes supported by
 
 ### JSVG Format
 
-By using Synoptic Panel Pro's [My Storage](../../features/maps-location/my-storage.md) feature, you may notice that the maps are stored on our servers in a custom format called JSVG (JSON SVG). This format is a JSON representation of the SVG file, which incapsulate the original SVG file and includes the data binding configuration for each area.
+By using Synoptic Panel Pro's [My Storage](../../features/maps-location/my-storage.md) feature, you may notice that the maps are stored on our servers in a custom format called JSVG (JSON SVG). This format is a JSON representation of the SVG file, which encapsulate the original SVG file and includes the data binding configuration for each area.
 
 > The JSVG format is used internally by Synoptic Panel Pro. It is not intended to be edited manually, but it can be exported and imported for backup or sharing purposes.
 

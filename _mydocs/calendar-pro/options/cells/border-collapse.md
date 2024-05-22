@@ -20,4 +20,4 @@ When this option is enabled, the calendar cells are "joined" together, and the b
 
 When this option is disabled, the borders between the cells are visible, and you can set the cell spacing.
 
-<todo>Screnshot</todo>
+<todo>Screenshot</todo>

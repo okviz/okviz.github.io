@@ -3,7 +3,7 @@ layout:             page
 title:              Autocomplete
 published:          true
 date:               2021-12-15
-modified:           2022-07-16
+modified:           2024-05-22
 order:              /smart-filter-pro/options/mode/autocomplete
 internal:           autocomplete
 available:          Dropdown mode
@@ -12,7 +12,7 @@ related:
 ---
 **Default value:** On
 
-This feature works like the address bar of a modern browser: as soon as you start typing a few characters in the input box, it autocompletes your input with the first result from the underlying data. When enabled, only the most relevant value starting with the input string is suggested in the input box. 
+This feature works like the address bar of a modern browser: as soon as you start typing a few characters in the input box, it auto completes your input with the first result from the underlying data. When enabled, only the most relevant value starting with the input string is suggested in the input box. 
 
 <img src="images/autocomplete-1.png" width="700">
 

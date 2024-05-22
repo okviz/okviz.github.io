@@ -3,7 +3,7 @@ layout:             page
 title:              Installation
 published:          true
 date:               2021-11-17
-modified:           2022-07-20
+modified:           2024-05-22
 order:              /01/02
 toc_max:            2
 ---
@@ -65,7 +65,7 @@ These steps are described in detail in the following sections.
 
 ### 1. Installing a visual in the Org Store
 
-Power BI admins can deploy custom visuals throughout their organization. This way, any user creating a report can easily discover and use them. To install a new custom visual in the Org Store:
+Power BI admins can deploy custom visuals throughout their organization. In this way, any user creating a report can easily discover and use them. To install a new custom visual in the Org Store:
 
 1.	Log into Power BI service and navigate to the [Admin portal](https://app.powerbi.com/admin-portal/).
 
@@ -102,7 +102,7 @@ To use a custom visual stored in the Org Store:
 
     <img src="images/installation-done.png" width="250">
 
-> Visuals stored in the Org Store are only available within your organization. If you plan to share a report with a visual from your Org Store externally, you need to replace it with a local file, othwerwise [your recipients will see an error](../issues/common-issues.md#the-visual-is-no-longer-available-please-contact-your-administrator-for-details).
+> Visuals stored in the Org Store are only available within your organization. If you plan to share a report with a visual from your Org Store externally, you need to replace it with a local file, otherwise [your recipients will see an error](../issues/common-issues.md#the-visual-is-no-longer-available-please-contact-your-administrator-for-details).
 
 ## Enable Custom Visuals
 

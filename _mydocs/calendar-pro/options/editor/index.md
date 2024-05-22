@@ -23,4 +23,4 @@ When this option is enabled, the advanced editor button is hidden. Otherwise, th
 
 This option is only visible if the **Hide Editor Button** option is set to ***Off***. It allows the advanced editor button to be always visible.
 
-<todo>Do screencasts and screenshots as we did in the same section of Bullet Chart</todo>
+<todo>Record screencast and screenshots as we did in the same section of Bullet Chart</todo>

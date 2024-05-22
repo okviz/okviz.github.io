@@ -3,7 +3,7 @@ layout:             page
 title:              Granularities
 published:          true
 date:               2022-07-17
-modified:           2024-05-16
+modified:           2024-05-22
 order:              /calendar-pro/features/granularities
 ---
 
@@ -31,7 +31,7 @@ The cells can be grouped as follows:
 - **Quarters**
 - **Years**
 
-A classic month calendar could be represented by setting the granularity as **Day** and the grouping as **Months**. In this case, each cell represents a day, and the cells are grouped per month. But Calendar Pro allows you to choose different combinations, like having monts grouped by quarter, or days per year, and so on.
+A classic month calendar could be represented by setting the granularity as **Day** and the grouping as **Months**. In this case, each cell represents a day, and the cells are grouped per month. But Calendar Pro allows you to choose different combinations, like having months grouped by quarter, or days per year, and so on.
 
 > Note that when you change the granularity, the underlying data (the [values](../fields/value.md) that you could have bound to the visual) are aggregated accordingly by the client (not in Power BI). This could lead to different results than the ones you would obtain by changing the granularity in the Power BI model and it does not work well when you an aggregation that is not sum. To mitigate this, you can use the [Granularity](../options/granularity/index.md) option.
 

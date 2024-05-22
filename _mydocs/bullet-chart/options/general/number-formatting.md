@@ -3,12 +3,12 @@ layout:             page
 title:              Number Formatting
 published:          true
 date:               2022-07-07
-modified:   	    2024-05-16
+modified:   	    2024-05-22
 order:              /bullet-chart/options/general/number-formatting
 internal:           locale
 ---
 
-**Defaul value:** 123,456.789
+**Default value:** 123,456.789
 
 This option allows you to manage how numbers have to be formatted for what concerns thousands separators and decimal separators.
 

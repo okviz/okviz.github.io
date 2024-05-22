@@ -4,5 +4,26 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"cSpell.words": [
+			"autoplay",
+			"browsable",
+			"drilldown",
+			"granularities",
+			"grayscale",
+			"Gridline",
+			"gridlines",
+			"OKVIZ",
+			"pbiviz",
+			"screencast",
+			"Segoe",
+			"Sparkline",
+			"Treemap"
+		]
+	},
+	"extensions": {
+		"recommendations": [
+			"streetsidesoftware.code-spell-checker"
+		]
+	}
 }

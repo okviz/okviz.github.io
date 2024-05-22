@@ -13,4 +13,4 @@ If you try to do any of the above with a report containing Smart Filter Pro, you
 <img src="../../issues/images/not-support-exporting.png" width="350">
 
 This happens because Smart Filter Pro is not certified by Microsoft.  
-You can find out what it meand and why we didn't apply for certification here: [Smart Filter Pro Certification](../security.md#certification)
+You can find out what it means and why we didn't apply for certification here: [Smart Filter Pro Certification](../security.md#certification)

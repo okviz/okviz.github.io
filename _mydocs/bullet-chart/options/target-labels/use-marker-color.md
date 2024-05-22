@@ -3,7 +3,7 @@ layout:             page
 title:              Use Marker Color
 published:          true
 date:               2023-03-07
-modified:   	    2023-03-07
+modified:   	    2024-05-22
 order:              /bullet-chart/options/target-labels/use-marker-color
 internal:           useMarkerColor
 premium:            /bullet-chart/licensing.md
@@ -19,7 +19,7 @@ related:
 This option allows you to use the color assigned to target markers (read here how to change colors for [Targets](/_docs/bullet-chart/options/targets/color.md) markers) for target label elements.
 Here are six possible options to choose from:
 
-- **(Don'use):** markers' color is not used for label elements. In this case, the [Color](color.md) of the text, the [Background Colour](background-colour.md) and the [Border Colour](border-color.md) can be chosen manually.
+- **(Don'use):** markers' color is not used for label elements. In this case, the [Color](color.md) of the text, the [Background Color](background-colour.md) and the [Border Color](border-color.md) can be chosen manually.
 
 - **Background:** the background color of the target labels will be the same as the marker. In this case it will be necessary to activate it via the [Background](background.md) option. Text color will be assigned automatically to ensure the best visibility.
 
