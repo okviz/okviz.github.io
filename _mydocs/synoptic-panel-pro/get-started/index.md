@@ -43,12 +43,7 @@ In this section, you will learn how to install and use Synoptic Panel Pro in a P
 
     <todo>Screenshot</todo>
 
-    > Don't have a map yet? You can download a free one from [mapsvg.com](https://mapsvg.com/maps).
-
-        {% comment %}
-        Link to [Sample Maps on Github](https://github.com/okviz/synoptic-panel-maps).
-        {% endcomment %}
-
+    > Don't have a map yet? Download a sample one from our [maps repo on Github](https://github.com/okviz/synoptic-panel-maps).
 
 7. Once you have selected a map, click the ***Done*** button to close the dialog and see the map in the visual.
 

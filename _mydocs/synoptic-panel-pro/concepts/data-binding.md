@@ -3,7 +3,7 @@ layout:             page
 title:              Data Binding
 published:          true
 date:               2024-05-10
-modified:           2024-05-22
+modified:           2024-05-26
 order:              /synoptic-panel-pro/concepts/03
 next_reading:       true
 ---
@@ -28,9 +28,9 @@ To understand how data binding works, it is important to understand the concept 
 
 The example above shows the source code of an SVG image: in fact, Synoptic Panel only accepts maps in SVG format, which is a text-based format similar to HTML and can be edited with any text editor. Thus, it is easy to add or change the identifier of any element in a map. 
 
-> There are some rules and conventions that govern the assignment of the identifier and which are the elements that can be promoted as areas. For more information, see [SVG Format](./maps/svg-format#identifier-id).
+> There are some rules and conventions that govern the assignment of the identifier and which are the elements that can be promoted as areas. For more information, see [SVG Format](./maps/svg-format#id-attribute).
 
-However, it is not recommended to make this editing manually, as it can lead to errors. Instead, you can use graphical editors such as *Adobe Illustrator* or *Inkscape* to do this job. It's also possible to use Synoptic Panel Pro's Map Editor ([see below](#manual-binding)) to bind elements to data points, bypassing the need to assign identifiers.
+However, it is not recommended to make this editing manually, as it can lead to errors. Instead, you can use graphics editors such as *Adobe Illustrator* or *Inkscape* to do this job. It's also possible to use Synoptic Panel Pro's Map Editor ([see below](#manual-binding)) to bind elements to data points, bypassing the need to assign identifiers.
 
 
 ## Linking Areas to Data 
@@ -41,13 +41,9 @@ Each area of a map can be linked to a specific data point ([what is a data point
 
 Automatic binding takes place when the `id` of a map area matches one of the values of the ***Categories*** column. If the match is successful, the area status is set to **"Matched"**, is internally linked to the matched data point, and becomes interactive and customizable by the user. If the match is not successful, the area status is set as **"Unmatched"**.
 
-#### Matching Rules
+**Matching is case-insensitive and ignores leading/trailing spaces and the first character, if it's an underscore and is followed by a number.**
 
-The way the matching process works can be customized by the user through a specific option ([Data Binding Mode](../../options/advanced-settings/data-binding-mode.md)); thus, with proper configuration, the `id` does not have to match the column values exactly, but it must be close enough to be considered a match. 
-
-**By default, matching is case-insensitive and ignores leading/trailing spaces and accents.**
-
-For example: if you have a column with the values *"Area1"*, *"Area2 "*, and *"Area3"*, and the map has areas with the identifiers `area1`, `Area2`, and `areà3`, the automatic binding will be successful for all of them.
+For example: if you have a column with the values *"Area1"*, *"Area2 "*, and *"3area"*, and the map has areas with the identifiers `area1`, `Area2`, and `_3area`, the automatic binding will be successful for all of them.
 
 <todo>Diagram of column values and svg image and interior code</todo>
 
@@ -60,7 +56,7 @@ When automatic binding is not possible or not desired, you can manually bind are
 
 > Keep in mind that in the Map Editor you can select the data point to be associated with an area **from those available at the time of editing**. This means that if a filter is applied, you may not see all the data points available in the dataset. Remember to remove any filters before opening the Map Editor.
 
-Another way to manually bind areas is to edit the SVG file directly. This is useful, for example, when the column values contain invalid characters as XML ID (see more on [SVG Format](./maps/svg-format#identifier-id)). In such cases, a `data-okviz-strong` attribute can be added to the SVG element; the value of the attribute must match the data point value according to the same rules as for automatic binding.
+Another way to manually bind areas is to edit the SVG file directly. This is useful, for example, when the column values contain invalid characters as XML ID. In such cases, a `data-okviz-strong` attribute can be added to the SVG element (see more on [SVG Format](./maps/svg-format#custom-attributes)); the value of the attribute must match the data point value according to the same rules as for automatic binding.
 
 <todo>Code and screenshot</todo>
 

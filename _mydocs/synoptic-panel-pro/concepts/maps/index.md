@@ -3,17 +3,17 @@ layout:             page
 title:              What are Maps?
 published:          true
 date:               2024-05-10
-modified:           2024-05-22
+modified:           2024-05-26
 order:              /synoptic-panel-pro/concepts/01
 ---
 
-In the context of Synoptic Panel Pro, the term "map" extends beyond traditional geographical boundaries. Here, a map is any image that can be utilized to visualize and represent data dynamically. These are not limited to standard maps of regions or countries; they can include a variety of other visual representations such as floor plans, city layouts, machine schematics, or anatomical diagrams of the human body.
+In the context of Synoptic Panel Pro, the term "map" extends beyond traditional geographical boundaries. Here, **a map is any image that can be utilized to visualize and represent data dynamically**. These are not limited to standard maps of regions or countries; they can include a variety of other visual representations such as floor plans, city layouts, machine schematics, anatomical diagrams of the human body, and so on.
 
 <todo>Screenshot of plane layout or human body</todo>
 
-Each map is comprised of distinct areas, each of which can be linked to specific data points. This allows for dynamic data representation within the map, where each element (or shape) can be highlighted, colored, or labeled in response to the underlying data. 
+Each map consists of distinct shapes or group of elements, each of which can be linked to specific data points. This allows for dynamic data representation within the map, where each area can be highlighted, colored, or labeled in response to the underlying data. 
 
-See more about the [data binding process](../data-binding.md) here.
+See more about the [data binding process](../data-binding.md).
 
 ## Supported Map Formats
 
@@ -27,7 +27,47 @@ For more technical details on this format and the custom attributes supported by
 
 ### JSVG Format
 
-By using Synoptic Panel Pro's [My Storage](../../features/maps-location/my-storage.md) feature, you may notice that the maps are stored on our servers in a custom format called JSVG (JSON SVG). This format is a JSON representation of the SVG file, which encapsulate the original SVG file and includes the data binding configuration for each area.
+By using Synoptic Panel Pro's [My Storage](../../features/maps-location/my-storage.md) feature, you may notice that the maps are stored on our servers in a custom format called JSVG (JSON SVG). This format is a JSON representation of the map, which encapsulate the original SVG file and includes the data binding configuration for each area along with additional rendering information.
+
+```json
+{
+    "id": "_00f561ad-cdca-d2ca-d796-3ade27e72362",
+    "name": "map-1",
+    "source": "map-1.svg",
+    // Metadata
+    "meta": {
+        "created": "2024-05-24T10:04:28.607Z",
+        "updated": "2024-05-24T10:04:28.607Z",
+        "size": 13220
+    },
+    // Data binding configuration
+    "dataMapping": {
+        "areas": {
+            "matched": {},
+            "unmatched": {
+                "202": {
+                    "id": "202",
+                    "label": "Sector 202",
+                    ...
+                },
+                ... // More areas
+            }
+        }
+    },
+    // Main SVG image
+    "map": "<svg xmlns=\"http://www.w3.org/2000/svg\">...</svg>", 
+    // Elements coordinates
+    "mapRects": {
+        "sphere": {
+            "x": 1325.68994140625,
+            "y": 1069.68994140625,
+            "width": 5539.6201171875,
+            "height": 5539.6201171875
+        },
+        ... // More rects
+    }
+}
+```
 
 > The JSVG format is used internally by Synoptic Panel Pro. It is not intended to be edited manually, but it can be exported and imported for backup or sharing purposes.
 
@@ -38,9 +78,11 @@ You can use other image formats as a base for your maps, but you will need to co
 - **Bitmap images (PNG, JPG, etc.)**  
     You can convert bitmap images by tracing them into vector images through professional design software like *Adobe Illustrator* or *Inkscape*. Note that since this process does not always produce perfect results, it's recommended to use high-quality images with clear boundaries.
 
+    >> It is essential to choose the correct export settings from these tools to ensure the resulting SVG file is suitable for use in Synoptic Panel Pro. See [Export SVG Files](editing-svg.md#exporting) for more details.
+
     We also provide a free online tool called [Synoptic Designer](https://synoptic.design/) specifically designed for this use, but please note that it is more of a proof of concept than a full-featured tool.
 
-    > In the future, we plan to provide a more advanced tool for converting bitmaps to SVG directly within Power BI. If you are interested in this feature, please let us know by [contacting us](mailto:info@oviz.com?subject=Synoptic Panel Pro Integrated Bitmap Editor).
+    > In the future, we plan to provide a more advanced tool for converting bitmaps to SVG. If you are interested in this, please let us know by [contacting us](mailto:info@oviz.com?subject=Synoptic Panel Pro Advanced Bitmap Editor).
 
 - **CAD drawings (DXF, DWG, etc.)**  
     You need a CAD software to convert them to SVG, such as *AutoCAD* or *DraftSight*.
@@ -54,4 +96,3 @@ You can use other image formats as a base for your maps, but you will need to co
 
 - **Other vector formats (PDF, EPS, AI, etc.)**  
     You need a vector design software to convert them to SVG, such as *Adobe Illustrator*.
-
