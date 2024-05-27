@@ -112,7 +112,7 @@ After installing the visual, you need to check if custom visuals can be run in y
 
 - ***Add and use certified visuals only (block uncertified)*** is disabled.
 
-> The latter option is required by **Smart Filter Pro** and **Synoptic Panel Pro** as they are uncertified. 
-Find out why we did not apply for certification here: [Smart Filter Pro Certification](../smart-filter-pro/security.md#certification), [Synoptic Panel Pro Certification](../synoptic-panel-pro/security.md#certification)
+> The latter option is required by **Smart Filter Pro** and **Synoptic Panel** as they are uncertified. 
+Find out why we did not apply for certification here: [Smart Filter Pro Certification](../smart-filter-pro/security.md#certification), [Synoptic Panel Certification](../synoptic-panel/security.md#certification)
 
 <img src="images/admin-portal-cv.png" width="650">
