@@ -78,7 +78,7 @@ You can use other image formats as a base for your maps, but you will need to co
 - **Bitmap images (PNG, JPG, etc.)**  
     You can convert bitmap images by tracing them into vector images through professional design software like *Adobe Illustrator* or *Inkscape*. Note that since this process does not always produce perfect results, it's recommended to use high-quality images with clear boundaries.
 
-    >> It is essential to choose the correct export settings from these tools to ensure the resulting SVG file is suitable for use in Synoptic Panel Pro. See [Export SVG Files](editing-svg.md#exporting) for more details.
+    >> It is essential to choose the correct export settings from these tools to ensure the resulting SVG file is suitable for use in Synoptic Panel Pro. See [Editing SVG with a Graphics Editor](editing-svg.md#editing-with-a-graphics-editor) for more details.
 
     We also provide a free online tool called [Synoptic Designer](https://synoptic.design/) specifically designed for this use, but please note that it is more of a proof of concept than a full-featured tool.
 

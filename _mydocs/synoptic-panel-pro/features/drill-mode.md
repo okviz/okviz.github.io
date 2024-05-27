@@ -51,4 +51,8 @@ Learn more on the [official documentation](https://learn.microsoft.com/en-us/pow
 
 When you enable Drill Mode, you can bind different columns to the ***Categories*** data role to display different maps at different levels. This way, you can create a hierarchy of maps that represent different aspects of the same data.
 
-<todo></todo>
+<todo visible>This section will explain how setup different maps on different drill levels.</todo>
+
+## The Drill Path
+
+<todo visible>This section will describe the drill path toolbar and its usefulness.</todo>

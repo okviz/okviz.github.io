@@ -45,7 +45,7 @@ Automatic binding takes place when the `id` of a map area matches one of the val
 
 For example: if you have a column with the values *"Area1"*, *"Area2 "*, and *"3area"*, and the map has areas with the identifiers `area1`, `Area2`, and `_3area`, the automatic binding will be successful for all of them.
 
-<todo>Diagram of column values and svg image and interior code</todo>
+<img src="images/auto-binding.png" class="naked">
 
 
 ### Manual Binding
