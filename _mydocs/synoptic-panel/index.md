@@ -13,6 +13,8 @@ next_reading:       true
 
 <img src="images/synoptic-panel.png" width="550" class="naked">
 
-The first version of Synoptic Panel was released in 2015 as part of the **Power BI Best Visual Contest**, where it won first prize. The Pro version is the latest and most advanced version of the visual, which replace the previous legacy version. This version has been rewritten starting from scratch in 2024 to take advantage of the latest Power BI APIs and to provide a more robust and flexible solution, including new features and improvements.
+The first version of Synoptic Panel was released in 2015 as part of the *Power BI Best Visual Contest*, where it won first prize. 
+
+**The v2.0 is the latest and most advanced version of the visual**, which replace the previous legacy version. This version has been rewritten starting from scratch in 2024 to take advantage of the latest Power BI APIs and to provide a more robust and flexible solution, including new features and improvements.
 
 > Do you know what a Power BI custom visual is? Here is a [quick introduction](../get-started/custom-visuals.md) to help you understand the concept.
