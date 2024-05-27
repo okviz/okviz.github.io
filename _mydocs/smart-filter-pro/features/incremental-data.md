@@ -1,11 +1,10 @@
 ---
 layout:             page
-title:              (Almost) Unlimited Data
-menu_title:         Unlimited Data
+title:              Incremental Data
 published:          true
 date:               2022-07-16
-modified:           2024-05-22
-order:              /smart-filter-pro/features/unlimited-data
+modified:           2024-05-27
+order:              /smart-filter-pro/features/incremental-data
 ---
 
 Power BI custom visuals are limited in several ways compared to core visuals. One of these limitations affects the amount of data that visuals can receive from the underlying dataset. Custom visuals can retrieve max 30,000 rows by default, but with an incremental load technique, up to 1,000,000 rows can be downloaded.  
