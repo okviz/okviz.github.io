@@ -3,7 +3,7 @@ layout:             page
 title:              Data Binding
 published:          true
 date:               2024-05-10
-modified:           2024-05-26
+modified:           2024-05-28
 order:              /synoptic-panel/concepts/03
 next_reading:       true
 ---
@@ -41,12 +41,19 @@ Each area of a map can be linked to a specific data point ([what is a data point
 
 Automatic binding takes place when the `id` of a map area matches one of the values of the ***Categories*** column. If the match is successful, the area status is set to **"Matched"**, is internally linked to the matched data point, and becomes interactive and customizable by the user. If the match is not successful, the area status is set as **"Unmatched"**.
 
-**Matching is case-insensitive and ignores leading/trailing spaces and the first character, if it's an underscore and is followed by a number.**
+Matching is done according to the following rules:
+- Characters are compared case-insensitively.
+- Leading and trailing spaces are ignored.
+- Internal spaces are replaced with underscores (`_`).
+- The first character is ignored if it is an underscore (`_`) followed by a number.
+- Special characters escaped with `_xHH_` are decoded. (e.g., *"_x24_"* is decoded as **$**).
 
-For example: if you have a column with the values *"Area1"*, *"Area2 "*, and *"3area"*, and the map has areas with the identifiers `area1`, `Area2`, and `_3area`, the automatic binding will be successful for all of them.
-
-<img src="images/auto-binding.png" class="naked">
-
+<figure>
+    <img src="images/auto-binding.png" class="naked">
+    <figcaption>
+        In this example, the paths with the id "s202", "sec_203", and "_304" match the data points "s202", "sec 203", and "304", respectively, while the path with "sec210" does not match any data point.
+    </figcaption>
+</figure>
 
 ### Manual Binding
 

@@ -3,7 +3,7 @@ layout:             page
 title:              SVG Format
 published:          true
 date:               2024-05-10
-modified:           2024-05-26
+modified:           2024-05-28
 order:              /synoptic-panel/concepts/maps/01
 next_reading:       true
 ---
@@ -75,7 +75,7 @@ table th:nth-of-type(2) { /* Target */
 |`data-okviz-svg-author`    |`<svg>`                |*(String)* It is used to show the map author name in the visual.|
 |`data-okviz-svg-copyright` |`<svg>`                |*(String)* It is used to show the map copyright in the visual.|
 |`data-okviz-autofetch`     |`<svg>`                |*(Boolean)* Enables the [Autofetch mode](../../features/drill-mode.md#autofetch).|
-|`data-okviz-no-labels`     |`<svg>`                |*(Boolean)* Turn off all map labels.|   
+|`data-okviz-no-labels`     |`<svg>` or any area    |*(Boolean)* Turn off all map labels or the labels on the target area.|   
 
 
 Example:

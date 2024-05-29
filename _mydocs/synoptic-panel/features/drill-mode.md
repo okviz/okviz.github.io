@@ -3,7 +3,7 @@ layout:             page
 title:              Drill Mode
 published:          true
 date:               2024-05-10
-modified:           2024-05-27
+modified:           2024-05-29
 order:              /synoptic-panel/features/drill-mode
 next_reading:       true
 ---
@@ -61,12 +61,42 @@ The current Drill Path is visible in the visual header (if not disabled), and kn
 
 Here is how the Drill Path is built:
 
-- **The first element** of the path is the top-level column name, as defined in the dataset - note that renaming the column in the visual won't affect the path.
+- **The first element** of the path is the top-level column name, as defined in the dataset.
 - **The next elements** are:
     - In case of **drilling down**: the value of the selected data point for each level of the hierarchy, except the last one, which is not displayed.
     - In case of **expanding fields**: the name of the columns that has been expanded, as defined in the dataset, including the last level.
     - In case of **filtering**:
-        - If it is a single selection, it works like drilling down.
-        - If it is a multiple selection, it works like expanding fields.
+        - If it is a single selection, it's like when you drill down.
+        - If it is a multiple selection, it's like when you expand fields.
        
-Examples:
+> Note that renaming the columns in the visual data buckets won’t affect the path.
+
+### Examples
+
+Consider the following dataset:
+
+|Category|Sector|Seats      |
+|--------|------|-----------|
+|Economy |210   |SPH00847   |
+|Economy |210   |SPH00843   |
+|Regular |404   |SPH05186   |
+|Regular |304   |SPH04540   |
+|Best    |306   |SPH09053   |
+|...     |...   |...        |
+
+The Drill Path will be different depending on the actions you perform:
+
+|Action                                             |Drill Path                                 |
+|---------------------------------------------------|-------------------------------------------|
+|Drill down on the **Economy** category             |`Category > Economy`                       |
+| &nbsp; - Then, drill down on the **210** sector   |`Category > Economy > 210`                 |
+| &nbsp; - Or expand the fields                     |`Category > Economy > Sector > Seats`      |
+|    &nbsp; &nbsp; &nbsp; - Then, apply a single filter on **210**|`Category > Economy > 210`   |
+|   &nbsp; &nbsp; &nbsp; - Or apply multiple filters<sup>(1)</sup>|`Category > Economy > Sector > Seats`     |
+|Expand fields for a single level                   |`Category > Sector`                        |
+| &nbsp; - Then, drill down on the **404** sector   |`Category > Regular > 404`                 |
+|Expand all fields from the top                     |`Category > Sector > Seats`                |
+
+**Note:**
+
+1) For multiple filters, only valid filter values are considered. If only one valid value exists among several invalid ones, the path will be constructed using the valid value.
