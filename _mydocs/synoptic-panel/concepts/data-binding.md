@@ -42,11 +42,13 @@ Each area of a map can be linked to a specific data point ([what is a data point
 Automatic binding takes place when the `id` of a map area matches one of the values of the ***Categories*** column. If the match is successful, the area status is set to **"Matched"**, is internally linked to the matched data point, and becomes interactive and customizable by the user. If the match is not successful, the area status is set as **"Unmatched"**.
 
 Matching is done according to the following rules:
+{% comment %}- Internal spaces are replaced with underscores (`_`). {% endcomment %}
+
 - Characters are compared case-insensitively.
 - Leading and trailing spaces are ignored.
-- Internal spaces are replaced with underscores (`_`).
 - The first character is ignored if it is an underscore (`_`) followed by a number.
-- Special characters escaped with `_xHH_` are decoded. (e.g., *"_x24_"* is decoded as **$**).
+- Special characters escaped with `_xHH_` are decoded, where *HH* is the hexadecimal representation of the character code
+(e.g., *"_x24_"* is decoded as **$**).
 
 <figure>
     <img src="images/auto-binding.png" class="naked">
