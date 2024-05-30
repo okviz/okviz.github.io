@@ -3,14 +3,14 @@ layout:             page
 title:              Data Binding
 published:          true
 date:               2024-05-10
-modified:           2024-05-28
+modified:           2024-05-30
 order:              /synoptic-panel/concepts/03
 next_reading:       true
 ---
 
 In Synoptic Panel, data binding is the process of linking Power BI data to the visual elements (shapes or groups of shapes) of an SVG image, called a map ([what is a map?](./maps/index)). This allows any image to be transformed into a dynamic, interactive visualization.
 
-<todo>Screencast of dynamic map</todo>
+<todo>Screencast of map interactivity</todo>
 
 ## Map Areas
 
@@ -42,7 +42,6 @@ Each area of a map can be linked to a specific data point ([what is a data point
 Automatic binding takes place when the `id` of a map area matches one of the values of the ***Categories*** column. If the match is successful, the area status is set to **"Matched"**, is internally linked to the matched data point, and becomes interactive and customizable by the user. If the match is not successful, the area status is set as **"Unmatched"**.
 
 Matching is done according to the following rules:
-{% comment %}- Internal spaces are replaced with underscores (`_`). {% endcomment %}
 
 - Characters are compared case-insensitively.
 - Leading and trailing spaces are ignored.
@@ -67,7 +66,7 @@ When automatic binding is not possible or not desired, you can manually bind are
 
 Another way to manually bind areas is to edit the SVG file directly. This is useful, for example, when the column values contain invalid characters as XML ID. In such cases, a `data-okviz-strong` attribute can be added to the SVG element (see more on [SVG Format](./maps/svg-format#custom-attributes)); the value of the attribute must match the data point value according to the same rules as for automatic binding.
 
-<todo>Code and screenshot</todo>
+<todo>Example of code and screenshot</todo>
 
 #### Linking Multiple Areas to the Same Data Point
 
@@ -77,14 +76,14 @@ It is also possible to link multiple areas to the same data point.
 
 Since assigning the same `id` to multiple elements is not allowed by the SVG specification, you can use the `data-okviz-strong` attribute to force the binding of multiple areas to the same data point.
 
-<todo>Code and screenshot</todo>
+<todo>Example of code and screenshot</todo>
 
 
 #### Unbinding Areas
 
 If you wish to exclude an area from the data binding process, you can do so directly from the Map Editor or you can add a `data-okviz-unbound` attribute to the SVG element. This will prevent the area from being considered for automatic binding and will be assigned to the status **"Unbound"**.
 
-<todo>Do not bind screenshot</todo>
+<todo>Screenshot of unbound areas with a different color</todo>
 
 ## Areas Status
 

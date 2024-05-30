@@ -11,6 +11,7 @@
 			"browsable",
 			"CONCATENATEX",
 			"drilldown",
+			"endcomment",
 			"granularities",
 			"grayscale",
 			"Gridline",

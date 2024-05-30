@@ -9,7 +9,7 @@ order:              /synoptic-panel/concepts/01
 
 In the context of Synoptic Panel, the term "map" extends beyond traditional geographical boundaries. Here, **a map is any image that can be utilized to visualize and represent data dynamically**. These are not limited to standard maps of regions or countries; they can include a variety of other visual representations such as floor plans, city layouts, machine schematics, anatomical diagrams of the human body, and so on.
 
-<todo>Screenshot of plane layout or human body</todo>
+<todo>Screenshot of airplane layout, human body, or any other different shape.</todo>
 
 Each map consists of distinct shapes or group of elements, each of which can be linked to specific data points. This allows for dynamic data representation within the map, where each area can be highlighted, colored, or labeled in response to the underlying data. 
 

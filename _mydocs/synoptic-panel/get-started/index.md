@@ -3,7 +3,7 @@ layout:             page
 title:              Get Started
 published:          true
 date:               2024-05-10
-modified:           2024-05-10
+modified:           2024-05-30
 order:              /synoptic-panel/01
 
 ---
@@ -27,21 +27,19 @@ In this section, you will learn how to install and use Synoptic Panel in a Power
 
 3. Drag and drop the visual on the report canvas.
 
-    <todo>Icon screenshot</todo>
+    <img src="images/visual-icon.png" width="200">
 
 ## Load a Map
 
 4. Before you can use the visual, you need to bind at least a column to the ***Categories*** data role.
 
-    <todo>Binding screencast</todo>
+    <video src="images/drag-category.mp4" autoplay loop muted></video>
 
 5. After you doing so, you will see a simple grid containing a few records from the column you have just bound. This is a non-fully functional placeholder that will be replaced by the actual map once you have configured it ([what are maps?](../concepts/maps/index)). To proceed, click on the ***+ Add Map*** button.
 
-    <todo>Screenshot</todo>
+    <img src="images/big-add-maps.png" width="280">
 
-6. You can choose the map from [different locations](../features/maps-location/index.md). For this time, click on ***Browse*** to select an SVG image from your local computer.
-
-    <todo>Screenshot</todo>
+6. You can choose the map from [different locations](../features/maps-location/index.md). For this time, click on ***Local Map(s)*** to select an SVG image from your local computer.
 
     > Don't have a map yet? Download a sample one from our [maps repo on Github](https://github.com/okviz/synoptic-panel-maps).
 
@@ -51,13 +49,13 @@ In this section, you will learn how to install and use Synoptic Panel in a Power
 
     See more in the [Data Binding](../concepts/data-binding.md) section.
 
-    <todo>Screenshot</todo>
+    <img src="images/just-added.png" width="500">
 
 ## Adjust the Binding
 
 If the automatic binding is not working as expected, you can adjust it manually. To do so, click on the pencil button in the visual toolbar to open the **Map Editor**.
 
-<todo>Screenshot</todo>
+<img src="images/pencil.png" width="250">
 
 Through the Map Editor, you can change the automatic binding settings of every shape of the map, choosing to force the binding to a specific value or to disable it. Also, you can add additional data to the map, such as area titles and map metadata.
 
@@ -69,13 +67,11 @@ The main purpose of Synoptic Panel is to visualize data on the map. To do so, yo
 
 - Bind a measure to the ***Value*** data role to color the areas of the map based on that measure or to display its values as labels over the areas.
 
-    <todo>Screenshot</todo>
-
 - Bind one or more measures to the ***Tooltips*** data role to display them as tooltips when hovering over the map areas.
 
-    <todo>Screenshot</todo>
-
 - Bind additional measures to the ***Color Rules*** data role to define a different field for advanced map coloring. See more in the [Color Rules](../features/color-rules.md) section.
+
+    <img src="images/map-values.png" width="500">
 
 ## Next Steps
 

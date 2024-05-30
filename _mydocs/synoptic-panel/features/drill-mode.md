@@ -12,7 +12,7 @@ The Drill Mode is a feature of Power BI that allows you to navigate through the 
 
 In Synoptic Panel, Drill Mode offers a unique capability to interact with different maps at once. This feature allows users to start from an overarching map and drill down to more intricate details or switch between various map layers to display different aspects of the bound data. This feature is particularly useful when you have complex data structures or when you want to provide different perspectives on the same map. 
 
-<video src="images/drill-mode.mp4" width="500" autoplay loop muted style="margin-top:-20px"></video>
+<video src="images/drill-mode.mp4" width="600" autoplay loop muted style="margin-top:-20px"></video>
 
 > Drill Mode also allows you to circumvent the **30,000 rows limit** of Power BI custom visuals, as you can display different maps at different levels of the data hierarchy, each with a subset of the data.
 
@@ -55,7 +55,7 @@ Unfortunately, due to the way Power BI works, there is no other way to assign ma
 
 The Drill Path is a representation of the current level in the data hierarchy of the visual. It is used to determine which map to display when you navigate to a specific level.
 
-**Each Drill Path equals a map**.
+**Each map can only be associated with one Drill Path.**
 
 <img src="images/drill-path-toolbar.png" width="200">
 
@@ -63,24 +63,26 @@ The current Drill Path is visible in the visual header (if not disabled), and kn
 
 Here is how the Drill Path is built:
 - **For each level of the hierarchy, except the last one:**
-    - If there are **multiple values** in the dataset at that level, the name of the column, as defined in the dataset, is included.
-    - If there is **only one value**, the value of the data point is included. For example, if you drill down on a single data point, the path will include its value.
+    - If there are **multiple values** in the dataset at that level, the name of the column, as defined in the dataset, is taken.
+    - If there is **only one value**, the value of the data point is taken. For example, if you drill down on a single data point, the path will take its value.
 
 - **For the last level of the hierarchy:**
     - If the **Last-Single** rule (see below) is enabled, the behavior is the same as above.
-    - Otherwise, the name of the column, as defined in the dataset, is included.
+    - Otherwise, the name of the column, as defined in the dataset, is taken.
 
-> Note that renaming the columns in the visual data bucket won’t affect the path.
+> Note that renaming the columns in the visual data bucket won't affect the path.
 
 ### The "Last-Single" Rule
 
 Synoptic Panel offers an advanced option called [Last-Single Rule](../options/advanced-settings/last-single.md).
 
-When enabled, if the dataset at the last level contains only one value, the last element of the Drill Path will be that value. Since maps are assigned on a single Drill Path, you can use this option to associate specific maps to individual values and switch between them by applying single-value filters to the visual. When the option is disabled, the last level of the path is always the name of the column, regardless of the filters applied.
+When enabled, if the dataset at the last level of the hierarchy contains only one value, the last element of the Drill Path will be that value. Since maps are assigned on a single Drill Path, you can use this option to associate specific maps to individual values and switch between them by applying single-value filters to the visual. When the option is disabled, the last level of the path is always the name of the column, regardless of the filters applied.
 
-<todo>Example</todo>
+<todo>Screencast to explain the concept</todo>
 
->> Be aware that changing the Last-Single setting could make some maps not reachable anymore, as the Drill Path will be different. In this case, you can always manage the assigned maps through the [Maps Manager](../features/maps-manager.md).
+> In the scenario where there is only a single category in the dataset (a single level in the hierarchy), you can use this option to associate a map to each value of the category, and switch between them by applying a single filter on the category.
+
+>> Be aware that changing the Last-Single setting after maps have been associated may make some maps no longer reachable, as the Drill Path will be different. In this case, you can always manage the assigned maps through the [Maps Manager](../features/maps-manager.md).
 
 ### Examples
 

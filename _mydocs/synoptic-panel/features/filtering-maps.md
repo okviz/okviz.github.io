@@ -10,7 +10,7 @@ next_reading:       true
 
 Synoptic Panel allows you to change maps using a report filter or a custom selection. This feature is useful when you want to control the rendered map from a slicer or any other visual in your report.
 
-<todo>Screencast</todo>
+<todo>Screencast of map filtering</todo>
 
 ## How Filtering Maps Works
 
@@ -92,3 +92,10 @@ To assign a reference to a map, follow these steps:
 Repeat these steps for each map you want to associate with a reference.
 
 After assigning the references, the visual will display the corresponding map when the map selector measure returns a matching reference.
+
+
+## Other Ways to Filter Maps
+
+Using the drill mode is another way to filter maps. When you enable the drill mode, you can assign different maps to each level in the hierarchy. See more in the [Drill Mode](drill-mode.md) section.
+
+If you don't have multiple levels in your data hierarchy, you can use the ["Last-Single" rule](drill-mode.md#the-last-single-rule) to assign different maps to individual values.
