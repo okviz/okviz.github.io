@@ -16,3 +16,5 @@ related:
 This option defines the font family of the text of the cells labels.
 
 > This option is not controllable through a [Report Theme](../../features/themes.md).
+
+<todo>Screenshot</todo>

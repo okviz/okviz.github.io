@@ -12,4 +12,4 @@ available:          Calendar Mode
 
 When the **Complete years** option is enabled, the visual shows complete years even if the period defined by the data (or custom interval) does not cover the entire year. In the case of an interval with multiple years, this option is applied to the first year of the interval and the last year.
 
-<todo>Screenshot how appear the calendar if option is off.</todo>
+<todo>Screenshot</todo>

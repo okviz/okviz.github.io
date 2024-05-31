@@ -19,3 +19,5 @@ The available options are:
 - **Millions**: The display unit is shown in millions. E.g., 1M, 2M, 3M, etc.
 - **Billions**: The display unit is shown in billions. E.g., 1B, 2B, 3B, etc.
 - **Trillions**: The display unit is shown in trillions. E.g., 1T, 2T, 3T, etc.
+
+<todo>Screenshot</todo>

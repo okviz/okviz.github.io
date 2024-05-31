@@ -20,3 +20,5 @@ Since Calendar Pro provides the ability to [change the granularity](../../featur
 - **Maximum**: This calculates the maximum of the values within the selected granularity.
 - **Minimum**: This calculates the minimum of the values within the selected granularity.
 - **Count**: This counts the total number of values in the selected granularity.
+
+<todo>Screenshot</todo>

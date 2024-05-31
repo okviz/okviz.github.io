@@ -9,3 +9,5 @@ internal:           addToLegend
 **Default value:** On
 
 When this option is enabled, the holidays are shown in the [legend](../../options/legend/index.md).
+
+<todo>Screenshot</todo>

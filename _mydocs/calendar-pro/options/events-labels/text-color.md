@@ -15,3 +15,5 @@ This option defines the text color of the events/holidays labels.
 By default, it takes the background color of the label and assigns a darker or lighter color tone, with an automatic contrast. 
 
 > This option is not controllable through a [Report Theme](../../features/themes.md).
+
+<todo>Screenshot</todo>

@@ -17,3 +17,5 @@ This option allows you to display events and holidays labels in different ways:
 - **Counter**: By selecting this option, events or holidays will be displayed as a counter each day. In other words, the visual will display the total number of events or holidays in the displayed period (according to the underlying [granularity](../../features/granularities.md).
 
 - **Badge**: By selecting this option, holidays or events will be displayed as a badge per each period, regardless of the number of events or holidays.
+
+<todo>Screenshot</todo>

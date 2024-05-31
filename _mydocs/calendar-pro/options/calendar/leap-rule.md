@@ -22,4 +22,4 @@ You can choose between:
 - **Custom rule**: You can choose your custom rule by setting additional options.
 
 
-<todo>Screenshot of available options in custom rule</todo> 
+<todo>Screenshot</todo> 

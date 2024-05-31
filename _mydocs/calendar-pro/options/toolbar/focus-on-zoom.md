@@ -14,4 +14,4 @@ related:
 
 When this option is enabled, you activate the ***Focus mode*** when zooming on a cell.
 
-
+<todo>Screenshot</todo>

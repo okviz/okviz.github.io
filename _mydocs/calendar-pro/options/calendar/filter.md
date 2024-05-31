@@ -32,3 +32,5 @@ Available options are:
 For example, if you select the **Last year** option, the calendar will display the data for the last year. If you select the **Last month** option, the calendar will display the data for the last month, and so on. 
 
 Although the same result can be obtained by setting the date range in the data, this option allows you to do it dynamically easily.
+
+<todo>Screenshot</todo>

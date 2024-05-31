@@ -11,3 +11,5 @@ available:          Calendar Mode
 **Default value:** {% include color value="#FAE99F" %}
 
 This* option defines the color of the events/holidays labels when they are selected.
+
+<todo>Screenshot</todo>

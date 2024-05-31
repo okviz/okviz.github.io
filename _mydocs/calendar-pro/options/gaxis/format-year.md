@@ -20,3 +20,5 @@ Available options are:
 - **Short Range (Jan 1 - Dec 31)**: The year will be displayed as a short range.
 - **Range (Jan 1 - Dec 31 2021)**: The year will be displayed as a range followed by the year.
 - **(None)**: No format will be applied to the group title.
+
+<todo>Screenshot</todo>

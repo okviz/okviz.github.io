@@ -10,3 +10,5 @@ internal:           monthStartDay
 **Default value:** 1
 
 This option allows you to set the first day of the month in [Custom calendars](../../features/calendar-systems.md#custom-calendar).
+
+<todo>Screenshot</todo>

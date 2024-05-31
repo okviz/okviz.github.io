@@ -12,3 +12,4 @@ available:          Calendar Mode
 
 This option defines the position of the text of the cells labels in the vertical direction.
 
+<todo>Screenshot</todo>

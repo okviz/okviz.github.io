@@ -14,3 +14,5 @@ The **Max rows to retrieve** option defines the maximum number of rows that Cale
 To retrieve all the rows, set its value to 0 or leave it blank.
 
 >> Note that retrieving more than 30,000 rows may slow down the entire report.
+
+<todo>Screenshot</todo>

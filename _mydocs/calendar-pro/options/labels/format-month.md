@@ -28,3 +28,5 @@ Available options are:
 - **(None)**: No format will be applied to the label. 
 
 > This option is applied when the [granularity](../../features/granularities.md) is **Month**.
+
+<todo>Screenshot</todo>

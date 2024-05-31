@@ -12,4 +12,4 @@ available:          Calendar Mode
 
 When this option is enabled, the visual toolbar gives you the possibility to jump to the first and last page of the visual, as proper buttons become available.
 
-<todo>Icons screenshot</todo>
+<todo>Screenshot</todo>

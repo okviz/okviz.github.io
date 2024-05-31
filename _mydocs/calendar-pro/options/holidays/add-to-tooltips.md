@@ -9,3 +9,5 @@ internal:           addToTooltips
 **Default value:** On
 
 When this option is enabled, the holidays are added to the tooltips of the visual.
+
+<todo>Screenshot</todo>

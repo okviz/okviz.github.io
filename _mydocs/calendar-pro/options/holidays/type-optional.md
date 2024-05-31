@@ -16,3 +16,5 @@ related:
 **Default value:** On
 
 Optional holidays are holidays that are not officially recognized by the government, but they are observed by a particular group or community.
+
+<todo>Screenshot</todo>

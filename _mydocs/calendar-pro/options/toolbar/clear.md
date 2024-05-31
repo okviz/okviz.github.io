@@ -11,5 +11,4 @@ internal:           clear
 
 When this option is enabled, a ***Clear*** button is available in the toolbar. By clicking it, the filters applied to the visual are removed.
 
-<todo>Icon screenshot</todo>
-
+<todo>Screenshot</todo>

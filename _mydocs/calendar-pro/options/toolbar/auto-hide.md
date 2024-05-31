@@ -11,3 +11,4 @@ internal:           autoHide
 
 When this option is enabled, the toolbar is visible only when the mouse is on the visual, otherwise it is always visible.
 
+<todo>Screenshot</todo>

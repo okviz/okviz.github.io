@@ -11,4 +11,6 @@ related:
 ---
 **Default value:** *None*
 
-This option manages the units to display the numbers.
+This option manages the units to display the numbers in the tooltips.
+
+<todo>Screenshot</todo>

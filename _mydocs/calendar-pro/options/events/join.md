@@ -16,3 +16,5 @@ These examples show an event (the delivery date) with joined (first) and not joi
 <img src="images/event-joined.png" width="600">
 
 <img src="images/event-not-joined.png" width="600">
+
+<todo>Retake screenshots</todo>

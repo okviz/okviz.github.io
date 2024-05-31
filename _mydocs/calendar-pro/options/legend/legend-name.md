@@ -12,3 +12,5 @@ related:
 **Default value:** (Empty)
 
 This option allows you to set a personalized name to the legend.
+
+<todo>Screenshot</todo>

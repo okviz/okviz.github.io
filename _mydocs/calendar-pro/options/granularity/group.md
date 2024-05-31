@@ -12,3 +12,5 @@ related:
 **Default value:** (Auto)
 
 This option defines how data are grouped in the visual.
+
+<todo>Screenshot</todo>

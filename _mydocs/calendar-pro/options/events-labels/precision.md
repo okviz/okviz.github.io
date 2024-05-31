@@ -11,3 +11,5 @@ available:          Calendar Mode
 **Default value:** 0
 
 This option defines the number of decimal places to display in the events/holidays labels.
+
+<todo>Screenshot</todo>

@@ -16,3 +16,5 @@ related:
 **Default value:** Percentage
 
 This option allows you to display the group title text as a fixed value or as a percentage.
+
+<todo>Screenshot</todo>

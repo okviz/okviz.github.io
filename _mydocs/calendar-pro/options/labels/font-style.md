@@ -14,3 +14,5 @@ related:
 **Default value:** Normal
 
 This option defines the style of the text of the cells labels.
+
+<todo>Screenshot</todo>

@@ -17,3 +17,5 @@ When this option is enabled, the cell color set for the current day is applied t
 This option overrides [Color Rules](../../features/color-rules.md).
 
 > This option is not controllable through a [Report Theme](../../features/themes.md).
+
+<todo>Screenshot</todo>

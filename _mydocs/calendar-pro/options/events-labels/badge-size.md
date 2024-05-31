@@ -17,3 +17,5 @@ This option defines the size of the badge that represents events and holidays.
 <img src="images/badges.png" width="600">
 
 This option is visible only if the [label type](type.md) is set to **Badge** and the auto size option is disabled.
+
+<todo>Screenshot</todo>

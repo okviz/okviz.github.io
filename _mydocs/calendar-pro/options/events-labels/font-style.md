@@ -14,3 +14,5 @@ related:
 **Default value:** Normal
 
 This option defines the text style of the events/holidays labels.  
+
+<todo>Screenshot</todo>

@@ -16,3 +16,5 @@ related:
 When this option is enabled, you can display a border around the events/holidays labels.
 
 This option is available only if the [label type](type.md) is **Label** or **Counter**.
+
+<todo>Screenshot</todo>

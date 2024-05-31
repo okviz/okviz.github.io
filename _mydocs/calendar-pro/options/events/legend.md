@@ -13,3 +13,4 @@ related:
 
 When this option is enabled, the events are shown in the legend (if the legend is enabled).
 
+<todo>Screenshot</todo>

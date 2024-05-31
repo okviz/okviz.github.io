@@ -17,3 +17,4 @@ This option defines the size of the border of the events/holidays labels.
 
 This option is available only if the [label type](type.md) is **Label** or **Counter** and if the border is enabled.
 
+<todo>Screenshot</todo>

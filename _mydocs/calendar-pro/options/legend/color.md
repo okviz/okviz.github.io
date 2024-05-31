@@ -11,3 +11,4 @@ internal:           labelColor
 
 This option manages the color of the text of the legend.
 
+<todo>Screenshot</todo>

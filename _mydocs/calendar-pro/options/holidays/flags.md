@@ -13,3 +13,4 @@ When this option is enabled, the a flag of the country will be displayed next to
 
 <img src="images/holidays-example.png" width="600">
 
+<todo>Screenshot</todo>

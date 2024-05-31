@@ -14,3 +14,5 @@ This option defines the background color of the cells for weekend days.
 This option overrides [Color Rules](../../features/color-rules.md).
 
 > This option is not controllable through a [Report Theme](../../features/themes.md).
+
+<todo>Screenshot</todo>

@@ -11,3 +11,5 @@ available:          Calendar Mode
 **Default value:** Off
 
 When this option is disabled, the blank values are not displayed in the cells.
+
+<todo>Screenshot</todo>

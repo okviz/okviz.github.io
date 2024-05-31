@@ -27,3 +27,5 @@ Available options are:
 - **Short Range (Jan 1-31)**: The month will be displayed as a short name followed by the range of days.
 - **Range (Jan 1-31 2021)**: The month will be displayed as a short name followed by the range of days and the year.
 - **(None)**: No format will be applied to the group title.
+
+<todo>Screenshot</todo>

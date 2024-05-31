@@ -18,3 +18,5 @@ When the toggle is **Off**, you can choose among the following types:
 - [**School holidays**](type-school.md)
 - [**Observance holidays**](type-observance.md)
 - [**Optional holidays**](type-optional.md)
+
+<todo>Screenshot</todo>

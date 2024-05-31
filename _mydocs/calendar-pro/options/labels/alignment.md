@@ -11,3 +11,5 @@ available:          Calendar Mode
 **Default value:** Left
 
 This option defines the position of the text of the cell labels in the horizontal direction.
+
+<todo>Screenshot</todo>

@@ -16,3 +16,4 @@ related:
 
 This option changes the size of the border of each cell in the visual.
 
+<todo>Screenshot</todo>

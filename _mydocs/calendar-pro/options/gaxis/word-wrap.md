@@ -12,3 +12,5 @@ internal:           wordWrap
 When this option is enabled, the text in the group titles will wrap to the next line if it exceeds the width of the group. 
 
 When this option is disabled, the text will be truncated if it exceeds the width of the group.
+
+<todo>Screenshot</todo>

@@ -13,3 +13,5 @@ available:          Calendar Mode
 This option manages the color of the cell for the current day.
 
 > This option is not controllable through a [Report Theme](../../features/themes.md).
+
+<todo>Screenshot</todo>

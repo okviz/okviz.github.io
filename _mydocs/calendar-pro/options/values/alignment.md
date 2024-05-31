@@ -11,3 +11,5 @@ available:          Calendar Mode
 **Default value:** Center
 
 This option defines the position of the cells values in the horizontal direction.
+
+<todo>Screenshot</todo>

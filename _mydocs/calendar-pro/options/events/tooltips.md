@@ -9,3 +9,5 @@ internal:           addToTooltips
 **Default value:** On
 
 When this option is enabled, the events are visible in the tooltips.
+
+<todo>Screenshot</todo>

@@ -13,3 +13,4 @@ related:
 
 When this option is enabled, Calendar Pro will display the holidays labels.
 
+<todo>Screenshot</todo>

@@ -10,3 +10,5 @@ internal:           labels
 **Default value:** On
 
 When this option is enabled, a visual indication of the current granularity and grouping is displayed in the toolbar.
+
+<todo>Screenshot</todo>

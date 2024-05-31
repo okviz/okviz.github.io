@@ -17,3 +17,5 @@ related:
 This option allows you to manage the size of the group title text. 
 
 > This option is not controllable through a [Report Theme](../../features/themes.md).
+
+<todo>Screenshot</todo>

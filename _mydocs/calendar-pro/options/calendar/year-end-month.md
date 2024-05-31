@@ -10,3 +10,5 @@ internal:           yearEndMonth
 **Default value:** December
 
 This option allows you to set the last month of the year in [Custom calendars](../../features/calendar-systems.md#custom-calendar).
+
+<todo>Screenshot</todo>

@@ -10,3 +10,5 @@ internal:           monthEndDay
 **Default value:** Auto
 
 This option allows you to set the last day of the month in [Custom calendars](../../features/calendar-systems.md#custom-calendar).
+
+<todo>Screenshot</todo>

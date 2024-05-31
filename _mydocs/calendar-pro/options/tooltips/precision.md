@@ -12,3 +12,5 @@ related:
 **Default value:** Auto
 
 This option manages the precision of the numbers displayed in the tooltips, as it allows you to increase or decrease the decimals.
+
+<todo>Screenshot</todo>

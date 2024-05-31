@@ -19,3 +19,5 @@ Available options:
 - **Saturday - Thursday**
 - **Sunday - Thursday**
 - **Sunday - Friday**
+
+<todo>Screenshot</todo>

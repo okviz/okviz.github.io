@@ -12,3 +12,5 @@ internal:           granularityControls
 This option enables a toolbar button to control the granularity of the calendar.
 
 Learn more about the [granularity](../../features/granularities.md).
+
+<todo>Screenshot</todo>

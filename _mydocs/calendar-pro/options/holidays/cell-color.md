@@ -11,3 +11,5 @@ internal:           cellFill
 This option defines the color of the cells that contain a holiday.
 
 > This option is not controllable through a [Report Theme](../../features/themes.md).
+
+<todo>Screenshot</todo>

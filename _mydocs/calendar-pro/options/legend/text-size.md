@@ -14,3 +14,5 @@ related:
 This option manages the size of the text of the legend.
 
 > This option is not controllable through a [Report Theme](../../features/themes.md).
+
+<todo>Screenshot</todo>

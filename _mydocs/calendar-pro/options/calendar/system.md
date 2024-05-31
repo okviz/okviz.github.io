@@ -13,4 +13,4 @@ This option defines the calendar system that Calendar Pro will use.
 
 Learn more about [calendar systems ](../../features/calendar-systems.md) in the features section.
 
-<todo>Screenshot of the system option</todo>
+<todo>Screenshot</todo>

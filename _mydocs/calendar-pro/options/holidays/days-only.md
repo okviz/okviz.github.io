@@ -10,3 +10,5 @@ internal:           showOnDaysOnly
 **Default value:** Off
 
 When this option is enabled, the holidays will be displayed only if the data is grouped per day. 
+
+<todo>Screenshot</todo>

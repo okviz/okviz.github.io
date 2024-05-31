@@ -12,3 +12,5 @@ related:
 **Default value:** Off
 
 When this option is enabled, the legend title is displayed.
+
+<todo>Screenshot</todo>

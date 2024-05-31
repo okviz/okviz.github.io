@@ -11,3 +11,4 @@ internal:           alignment
 
 This option defines the position of the group title.
 
+<todo>Screenshot</todo>

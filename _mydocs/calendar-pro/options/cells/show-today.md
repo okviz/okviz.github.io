@@ -13,3 +13,5 @@ related:
 **Default value:** On
 
 When the **Show today** option is available, the current day (or the period including the current day) is highlighted in the calendar.
+
+<todo>Screenshot</todo>

@@ -12,3 +12,5 @@ internal:           groupingControls
 This option enables a toolbar button to control how the calendar cells are grouped.
 
 Learn more about grouping in the [Granularity](../../features/granularities.md) section.
+
+<todo>Screenshot</todo>

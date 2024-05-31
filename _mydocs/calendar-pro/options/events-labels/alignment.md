@@ -11,3 +11,5 @@ available:          Calendar Mode
 **Default value:** Left
 
 This option defines the horizontal position of the events/holidays labels in the calendar cells. 
+
+<todo>Screenshot</todo>

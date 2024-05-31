@@ -15,3 +15,5 @@ related:
 **Default value:** On
 
 When the **Border** option is enable, the visual displays the border of each calendar cell.
+
+<todo>Screenshot</todo>

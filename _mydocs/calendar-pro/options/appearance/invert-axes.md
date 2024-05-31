@@ -14,4 +14,4 @@ When the **Invert axes** option is enabled, the visual inverts the axis of the c
 
 The axis inversion option is limited to *Hours by Day / Month / Quarter*, and *Months By Quarter*.
 
-<todo>Screenshots</todo> 
+<todo>Screenshot</todo> 

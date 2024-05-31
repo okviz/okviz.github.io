@@ -13,3 +13,5 @@ available:          Calendar Mode
 This option defines the radius dimension of the badge that represents holidays or events. 
 
 > This option is available only if the [label type](type.md) is **Label** or **Counter**.
+
+<todo>Screenshot</todo>

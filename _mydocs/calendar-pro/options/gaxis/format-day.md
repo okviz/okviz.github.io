@@ -26,3 +26,5 @@ Available options are:
 - **Numeric date (1/1/2021)**: The day will be displayed as a numeric date.
 - **SQL date (2021-01-01)**: The day will be displayed as a SQL date.
 - **(None)**: No format will be applied to the group title.
+
+<todo>Screenshot</todo>

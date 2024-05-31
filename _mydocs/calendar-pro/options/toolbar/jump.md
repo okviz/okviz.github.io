@@ -12,3 +12,4 @@ available:          Calendar Mode
 
 When this option is enabled, the toolbar gives you the possibility to jump to a specific date, as proper a button becomes available.
 
+<todo>Screenshot</todo>

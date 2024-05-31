@@ -16,3 +16,5 @@ This option defines the color of the border of the events/holidays labels.
 This option is available only if the [label type](type.md) is **Label** or **Counter** and if the border option is enabled.
 
 **Default value:** *foregroundNeutralDark* color of [Report Theme](../../features/themes.md)
+
+<todo>Screenshot</todo>

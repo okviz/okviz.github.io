@@ -12,3 +12,5 @@ related:
 **Default value:** On
 
 When this option is enabled, the visual granularity can also be managed directly from the visual, otherwise the granularity can only be managed from the settings.
+
+<todo>Screenshot</todo>

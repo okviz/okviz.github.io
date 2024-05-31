@@ -11,3 +11,4 @@ internal:           position
 
 This option allows you to change the position of the legend.
 
+<todo>Screenshot</todo>

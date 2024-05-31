@@ -12,5 +12,6 @@ related:
 ---
 **Default value:** 18pt
 
-This option defines the maximum value that the text can reach when you have chosen **Percentage** in the [text size calc mod](./size-calc.md) option.
+This option defines the maximum value that the text can reach when you have chosen **Percentage** in the [Text Size Calc Mode](size-calc.md) option.
 
+<todo>Screenshot</todo>

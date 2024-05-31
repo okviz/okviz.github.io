@@ -14,3 +14,4 @@ related:
 
 When this option is enabled, if you have chosen the [Badge label type](type.md), then Calendar Pro shows events and holidays badges in a fixed size.
 
+<todo>Screenshot</todo>

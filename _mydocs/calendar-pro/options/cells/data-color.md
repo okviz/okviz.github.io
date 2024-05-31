@@ -14,3 +14,5 @@ This option defines the background color of cells containing data.
 This option can be overridden by [Color Rules](../../features/color-rules.md).
 
 > This option is not controllable through a [Report Theme](../../features/themes.md).
+
+<todo>Screenshot</todo>

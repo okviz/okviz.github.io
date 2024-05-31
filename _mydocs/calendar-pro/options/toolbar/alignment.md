@@ -11,3 +11,4 @@ internal:           autoHide
 
 This option defines the position of the toolbar in the visual.
 
+<todo>Screenshot</todo> 

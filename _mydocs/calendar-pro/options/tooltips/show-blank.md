@@ -10,3 +10,5 @@ internal:           showBlank
 **Default value:** Off
 
 When this option is disabled, the blank values are not displayed in the tooltips.
+
+<todo>Screenshot</todo>

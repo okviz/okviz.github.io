@@ -10,3 +10,5 @@ internal:           yearStartMonth
 **Default value:** January
 
 This option allows you to set the first month of the year in [Custom calendars](../../features/calendar-systems.md#custom-calendar).
+
+<todo>Screenshot</todo>

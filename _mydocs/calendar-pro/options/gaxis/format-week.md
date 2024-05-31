@@ -24,3 +24,5 @@ Available options are:
 - **Short Range (Jan 1-7)**: The week will be displayed as a short range.
 - **Range (Jan 1-7 2021)**: The week will be displayed as a range.
 - **(None)**: No format will be applied to the group title. 
+
+<todo>Screenshot</todo>

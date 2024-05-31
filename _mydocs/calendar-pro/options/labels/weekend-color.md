@@ -13,3 +13,5 @@ available:          Calendar Mode
 This option defines the color of the cell in non-working days.
 
 > This option is not controllable through a [Report Theme](../../features/themes.md).
+
+<todo>Screenshot</todo>

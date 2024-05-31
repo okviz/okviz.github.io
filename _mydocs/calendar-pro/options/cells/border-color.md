@@ -16,3 +16,4 @@ related:
 
 This option changes the color border of the calendar cells.
 
+<todo>Screenshot</todo>

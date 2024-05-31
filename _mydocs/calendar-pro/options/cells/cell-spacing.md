@@ -12,3 +12,5 @@ related:
 **Default value:** 1px
 
 This option manages the distance among cells when they are collapsed.
+
+<todo>Screenshot</todo>

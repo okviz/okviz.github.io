@@ -10,3 +10,5 @@ internal:           yearEndWeekday, yearEndWeekdayMethod
 **Default value:** Last of the year
 
 This option allows you to set the last week day of the year in [Fiscal calendars](../../features/calendar-systems.md#fiscal-calendar).
+
+<todo>Screenshot</todo>

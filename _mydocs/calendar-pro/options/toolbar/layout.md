@@ -15,4 +15,4 @@ related:
 
 When this option is enabled, the toolbar gives you the possibility to manage the layout of the visual, as proper a button becomes available.
 
-
+<todo>Screenshot</todo>

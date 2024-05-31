@@ -11,3 +11,5 @@ available:          Calendar Mode
 **Default value:** On
 
 When this option is enabled, the events are shown in the same background color, otherwise, you can choose a different color for each event.
+
+<todo>Screenshot</todo>

@@ -9,6 +9,8 @@ internal:           fill
 **Default value:** {% include color value="#A66999" %}
 
 This option defines the background color of the box that displays a holiday.
-<todo>Check if this is correct</todo>
+<todo>Verify</todo>
 
 > This option is not controllable through a [Report Theme](../../features/themes.md).
+
+<todo>Screenshot</todo>

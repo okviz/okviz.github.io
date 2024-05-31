@@ -7,6 +7,8 @@ modified:           2022-07-22
 order:              /calendar-pro/options/toolbar/zoom-control
 internal:           granularityZoom
 ---
-When the **Zoom control** toggle is **On**, you can control the zoom of the visual on the toolbar, as a proper button becomes available.
-
 **Default value:** On
+
+When this option is enabled, you can control the zoom of the visual on the toolbar, as a proper button becomes available.
+
+<todo>Screenshot</todo>

@@ -12,3 +12,5 @@ related:
 **Default value:** Day
 
 This option defines the granularity of the visual.
+
+<todo>Screenshot</todo>

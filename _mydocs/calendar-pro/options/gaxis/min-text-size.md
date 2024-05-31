@@ -16,3 +16,5 @@ related:
 **Default value:** 8pt
 
 This option defines the minimum value that the text can reach when you have chosen to show dynamic text size.
+
+<todo>Screenshot</todo>
