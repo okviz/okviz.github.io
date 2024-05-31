@@ -13,6 +13,8 @@ related:
 ---
 **Default value:** DIN
 
-This option defines the font family of the text of the cells' values.
+This option defines the font family of cell value text.  
+
+<todo>Screenshot</todo>
 
 > This option is not controllable through a [Report Theme](../../features/themes.md).

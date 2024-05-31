@@ -3,7 +3,7 @@ layout:             page
 title:              Text Size
 published:          true
 date:               2022-07-27
-modified:           2022-07-27
+modified:           2024-05-31
 order:              /calendar-pro/options/axis-week/text-size
 internal:           percentile, fontSize
 available:          Calendar Mode
@@ -14,6 +14,8 @@ related:
 ---
 **Default value:** 7pt or 50%
 
-This option defines the font size of the week's axis labels.  
+This option defines the font size of the week axis labels. 
+
+<todo>Screenshot</todo>
 
 > This option is not controllable through a [Report Theme](../../features/themes.md).

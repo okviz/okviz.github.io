@@ -13,4 +13,6 @@ related:
 ---
 **Default value:** Normal
 
-This option defines the font style of the week's axis labels.  
+This option defines the font style of the week axis labels.  
+
+<todo>Screenshot</todo>

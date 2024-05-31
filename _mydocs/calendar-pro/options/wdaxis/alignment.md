@@ -9,4 +9,6 @@ internal:           alignment
 ---
 **Default value:** Left
 
-This option defines the position of the days of the week in the horizontal direction.
+This option defines the position of the days of the week in the horizontal direction of the axis.
+
+<todo>Screenshot</todo>

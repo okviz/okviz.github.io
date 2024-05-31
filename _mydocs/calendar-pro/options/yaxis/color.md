@@ -10,4 +10,6 @@ available:          Chart Mode
 ---
 **Default value:** *foregroundNeutralSecondaryAlt* color of [Report Theme](../../features/themes.md)
 
-This option defines the text color of years' axis labels.
+This option defines the text color of year axis labels.
+
+<todo>Screenshot</todo>

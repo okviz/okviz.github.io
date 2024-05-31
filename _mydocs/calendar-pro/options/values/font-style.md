@@ -13,4 +13,6 @@ related:
 ---
 **Default value:** Normal
 
-This option defines the style of the font of the text of cells' values.
+This option defines the font style of cell value text.  
+
+<todo>Screenshot</todo>

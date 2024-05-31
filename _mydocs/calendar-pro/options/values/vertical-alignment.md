@@ -10,4 +10,6 @@ available:          Calendar Mode
 ---
 **Default value:** Middle
 
-This option defines the position of the cells' values in the vertical direction.
+This option defines the position of the cells values in the vertical direction.
+
+<todo>Screenshot</todo>

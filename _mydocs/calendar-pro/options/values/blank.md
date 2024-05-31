@@ -10,5 +10,4 @@ available:          Calendar Mode
 ---
 **Default value:** Off
 
-When the **Show blank** option is enabled, the blank values are displayed in the cells.
-
+When this option is disabled, the blank values are not displayed in the cells.

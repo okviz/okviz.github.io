@@ -11,3 +11,5 @@ internal:           cellHeight
 **Default value:** Auto
 
 This option defines the height of each cell in the calendar.
+
+<todo>Screenshot</todo>

@@ -9,4 +9,4 @@ internal:           showBlank
 ---
 **Default value:** Off
 
-When this option is enabled, also the blank values are displayed in the tooltips. Otherwise, they are hidden.
+When this option is disabled, the blank values are not displayed in the tooltips.
