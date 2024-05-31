@@ -3,12 +3,14 @@ layout:             page
 title:              Holiday Countries
 published:          true
 date:               2024-05-15
-modified:           2024-05-21
+modified:           2024-05-30
 order:              /calendar-pro/fields/holidays-countries
 related:
     - /calendar-pro/features/events.md
     - /calendar-pro/options/holidays/index.md
 ---
-By adding a measure containing the ISO of the holidays in this field, holidays will be displayed in Calendar Pro.
+The ***Holiday Countries*** data role is used to bind one or more measures containing a country ISO to the visual. Calendar Pro will display the holidays of the selected countries on the calendar. 
 
-Holidays can be displayed in Calendar Pro also by using the options panel, but you can add a measure in this field to overcome the limit of three countries present in the options panel.
+<img src="images/holidays-countries-field.png" width="230">
+
+> If you don't provide any country field, Calendar Pro will display up to three countries, based on the [Countries option](../options/holidays/countries.md) in the Holidays section.
