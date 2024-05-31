@@ -98,4 +98,4 @@ After assigning the references, the visual will display the corresponding map wh
 
 Using the drill mode is another way to filter maps. When you enable the drill mode, you can assign different maps to each level in the hierarchy. See more in the [Drill Mode](drill-mode.md) section.
 
-If you don't have multiple levels in your data hierarchy, you can use the ["Last-Single" rule](drill-mode.md#the-last-single-rule) to assign different maps to individual values.
+If you don't have multiple levels in your data hierarchy, you can use the ["Last-Single" option](drill-mode.md#the-last-single-option) to assign different maps to individual values.

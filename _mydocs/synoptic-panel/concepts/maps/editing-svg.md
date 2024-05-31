@@ -45,6 +45,6 @@ Textual editing is **necessary** when you want to:
 
 - Forcing the binding of an element of your map to a specific data point, regardless of its id. See more on [Data Binding](../data-binding.md).
 - Link an area to a remote map, so to enable users to switch between different maps with drill-down actions. [Drill Mode](../../features/drill-mode.md) is required.
-- Enable the [Autofetch mode](../../features/drill-mode.md#autofetch).
+- Enable the [Autofetch mode](../../features/drill-mode.md#autofetch-mode).
 - Define the [data labels placeholders](../../features/data-labels.md).
 - Add a custom style to an element (font family, size, etc.), bypassing the visual settings, and other advanced features. See more on [Custom Attributes](svg-format.md#custom-attributes).

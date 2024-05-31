@@ -67,14 +67,14 @@ Here is how the Drill Path is built:
     - If there is **only one value**, the value of the data point is taken. For example, if you drill down on a single data point, the path will take its value.
 
 - **For the last level of the hierarchy:**
-    - If the **Last-Single** rule (see below) is enabled, the behavior is the same as above.
+    - If the **Last-Single** option (see below) is enabled, the behavior is the same as above.
     - Otherwise, the name of the column, as defined in the dataset, is taken.
 
 > Note that renaming the columns in the visual data bucket won't affect the path.
 
-### The "Last-Single" Rule
+### The "Last-Single" Option
 
-Synoptic Panel offers an advanced option called [Last-Single Rule](../options/advanced-settings/last-single.md).
+Synoptic Panel offers an advanced option called [Last-Single](../options/advanced-settings/last-single.md).
 
 When enabled, if the dataset at the last level of the hierarchy contains only one value, the last element of the Drill Path will be that value. Since maps are assigned on a single Drill Path, you can use this option to associate specific maps to individual values and switch between them by applying single-value filters to the visual. When the option is disabled, the last level of the path is always the name of the column, regardless of the filters applied.
 
@@ -83,6 +83,10 @@ When enabled, if the dataset at the last level of the hierarchy contains only on
 > In the scenario where there is only a single category in the dataset (a single level in the hierarchy), you can use this option to associate a map to each value of the category, and switch between them by applying a single filter on the category.
 
 >> Be aware that changing the Last-Single setting after maps have been associated may make some maps no longer reachable, as the Drill Path will be different. In this case, you can always manage the assigned maps through the [Maps Manager](../features/maps-manager.md).
+
+### The "No-Values" Option
+
+<todo visible>This option simplifies the drill path including only column names. This limit the ability to assign specific maps to single data points.</todo>
 
 ### Examples
 
@@ -111,3 +115,8 @@ The Drill Path will be different depending on the actions you perform:
 | &nbsp; &nbsp; then drill down on the **404** sector.|`Regular > 404 > Seat`                   |
 |Expand all fields from the top.                    |`Category > Sector > Seat`                 |
 
+## Auto-fetch Mode
+
+<todo visible>The Autofetch mode is a feature that allows you to automatically fetch maps for each level of the hierarchy. This feature is particularly useful when you have a large number of maps to import and you want to avoid the manual process of importing them one by one. 
+
+When this mode is enabled, Synoptic Panel will automatically fetch the maps for each level of the hierarchy based on the data in the dataset. The visual will display the maps as you navigate through the data hierarchy, without the need to import them manually.</todo>   
