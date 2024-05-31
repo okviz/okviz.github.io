@@ -4,5 +4,30 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"cSpell.words": [
+			"ALLSELECTED",
+			"autoplay",
+			"browsable",
+			"CONCATENATEX",
+			"drilldown",
+			"endcomment",
+			"granularities",
+			"grayscale",
+			"Gridline",
+			"gridlines",
+			"JSVG",
+			"OKVIZ",
+			"pbiviz",
+			"screencast",
+			"Segoe",
+			"Sparkline",
+			"Treemap"
+		]
+	},
+	"extensions": {
+		"recommendations": [
+			"streetsidesoftware.code-spell-checker"
+		]
+	}
 }

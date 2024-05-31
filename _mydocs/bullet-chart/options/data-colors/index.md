@@ -3,7 +3,7 @@ layout:         page
 title:          Data Colors
 published:      true
 date:           2022-07-07
-modified:   	2022-08-17
+modified:   	2024-05-22
 order:          /bullet-chart/options/data-colors
 internal:       dataPoint
 ---
@@ -22,7 +22,7 @@ This option is only visible when a measure is connected to the ***Category*** fi
 
 **Default value:** Off
 
-Enablig this option, all categories names will be displayed within the section, allowing to define the color for each bar.
+Enabling this option, all categories names will be displayed within the section, allowing to define the color for each bar.
 
 <video src="images/data-colors-show-all.mp4" width="700" autoplay loop muted></video>
 

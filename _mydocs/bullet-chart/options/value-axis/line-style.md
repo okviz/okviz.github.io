@@ -3,7 +3,7 @@ layout:         page
 title:          Line Style
 published:      true
 date:           2022-07-07
-modified:   	2022-08-17
+modified:   	2024-05-22
 order:          /bullet-chart/options/value-axis/line-style
 premium:        /bullet-chart/licensing.md
 internal:       styleGridlines
@@ -18,7 +18,7 @@ related:
 
 **Default value:** Solid
 
-This option is only visibile if **Gridlines** is enabled and allows to define gridlines style. It provides three options to choose from:
+This option is only visible if **Gridlines** is enabled and allows to define gridlines style. It provides three options to choose from:
 
 - **Dashed:**  Line made up of short strokes with breaks in between.
 

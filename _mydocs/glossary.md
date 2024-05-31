@@ -15,7 +15,7 @@ AppSource is Microsoft's marketplace for business applications, including Power 
 
 ## Binding (or Bind)
 
-Binding is the process of connecting a column of data or a measure from your dataset to a visual with a specific role. For example, you can bind a column of sales data to a visual's "Values" role to declare that the visual should display the sales data. A synomym for binding is "connecting" or "linking".
+Binding is the process of connecting a column of data or a measure from your dataset to a visual with a specific role. For example, you can bind a column of sales data to a visual's "Values" role to declare that the visual should display the sales data. A synonym for binding is "connecting" or "linking".
 
 ## Certification
 
@@ -28,7 +28,7 @@ In Power BI, a "data point" refers to an individual value or item of data extrac
 
 ## Map
 
-In the context of Synoptic Panel Pro, a map is an image that can be used to visualize and represent data dynamically. These are not limited to geographical maps but can include a variety of other visual representations such as floor plans, city layouts, machine schematics, or anatomical diagrams of the human body. See also [What are Maps?](./synoptic-panel-pro/concepts/maps/index.md)
+In the context of Synoptic Panel, a map is an image that can be used to visualize and represent data dynamically. These are not limited to geographical maps but can include a variety of other visual representations such as floor plans, city layouts, machine schematics, or anatomical diagrams of the human body. See also [What are Maps?](./synoptic-panel/concepts/maps/index.md)
 
 ## Visual and Custom Visual
 

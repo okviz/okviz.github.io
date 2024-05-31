@@ -31,7 +31,7 @@ For issues with **premium visuals**, use a dedicated repository on Github:
 - Bullet Chart: [github.com/okviz/bullet-chart-issues](https://github.com/okviz/bullet-chart-issues)
 - Calendar Pro: [github.com/okviz/calendar-pro-issues](https://github.com/okviz/calendar-pro-issues)
 - Smart Filter Pro: [github.com/okviz/smart-filter-pro-issues](https://github.com/okviz/smart-filter-pro-issues)
-- Synoptic Panel Pro: [github.com/okviz/synoptic-panel-issues](https://github.com/okviz/synoptic-panel-issues)
+- Synoptic Panel: [github.com/okviz/synoptic-panel-issues](https://github.com/okviz/synoptic-panel-issues)
 
 ### Diagnostic Data
 

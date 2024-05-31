@@ -3,7 +3,7 @@ layout:             page
 title:              Issues
 published:          true
 date:               2022-07-14
-modified:           2022-07-27
+modified:           2024-05-22
 order:              /03
 menu_sep:           true
 next_reading:       true
@@ -35,7 +35,7 @@ When we find a bug in our visuals we usually fix it as soon as possible, but dep
     When a regression occurs, we have the option of requesting a rollback to the previous version, but this causes other problems if:
 
     - the regression is discovered after a few days/weeks and users have started using new features introduced by the defective version;
-    - users have paid for these new features that the rollback will make disapper for another 3 weeks;
+    - users have paid for these new features that the rollback will make disappear for another 3 weeks;
     - the regression affects the appearance of the visual and users have manually fixed broken reports by changing size, position or layout of the visual instances.
 
     **The rollback usually requires 4 days.**
@@ -43,6 +43,6 @@ When we find a bug in our visuals we usually fix it as soon as possible, but dep
 - ### Resolution Time for Private Visuals
     Visuals installed from a local file must be updated manually by the user in every report that use them (or just once via [Org Store](../get-started/org-store.md)). In this case, **we are able to provide a corrected version of the visual as soon as we fix the bug**.
 
-    Currently, only [Smart Filter Pro](../smart-filter-pro/index.md) and [Synoptic Panel Pro](../synoptic-panel-pro/index.md) are released both in AppSource and as a private visual, so it's the only one that can benefit from this support.
+    Currently, only [Smart Filter Pro](../smart-filter-pro/index.md) and [Synoptic Panel](../synoptic-panel/index.md) are released both in AppSource and as a private visual, so it's the only one that can benefit from this support.
 
     > Private visuals are not and cannot be certified. See more on [Certification](../get-started/certification.md).

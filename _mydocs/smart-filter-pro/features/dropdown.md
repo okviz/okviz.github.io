@@ -3,12 +3,12 @@ layout:             page
 title:              Dropdown Mode
 published:          true
 date:               2021-12-09
-modified:           2022-07-16
+modified:           2024-05-22
 order:              /smart-filter-pro/features/dropdown-mode
 internal:           dropdown
 related_title:      Related Options
 related:
-    - /smart-filter-pro/options/mode/auto-show-dropwdown.md
+    - /smart-filter-pro/options/mode/auto-show-dropdown.md
     - /smart-filter-pro/options/mode/autocomplete.md
     - /smart-filter-pro/options/mode/compress-multiple.md
     - /smart-filter-pro/options/mode/cross-filtering.md

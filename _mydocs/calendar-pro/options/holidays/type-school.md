@@ -3,7 +3,7 @@ layout:             page
 title:              School Holidays
 published:          true
 date:               2022-07-26
-modified:           2024-05-18
+modified:           2024-05-22
 order:              /calendar-pro/options/holidays/school-holidays
 internal:           showSchool
 related:
@@ -15,5 +15,5 @@ related:
 ---
 **Default value:** On
 
-Shools holidays are holidays that are observed by schools and educational institutions.
+Schools holidays are holidays that are observed by schools and educational institutions.
 

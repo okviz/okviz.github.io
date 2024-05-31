@@ -5,7 +5,7 @@ published:          true
 date:               2022-07-26
 modified:           2024-05-15
 order:              /calendar-pro/options/appearance/invert-axes
-internal:           invetAxis
+internal:           invertAxis
 available:          Chart Mode
 ---
 **Default value:** Off

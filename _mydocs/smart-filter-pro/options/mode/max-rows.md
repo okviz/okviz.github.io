@@ -3,7 +3,7 @@ layout:             page
 title:              Max Rows to Retrieve
 published:          true
 date:               2021-12-14
-modified:           2022-07-31
+modified:           2024-05-22
 order:              /smart-filter-pro/options/mode/max-rows-to-retrieve
 internal:           maxIncremental
 available:          Dropdown | Hierarchy mode
@@ -17,7 +17,7 @@ This option allows you to set the number of rows that the visual can retrieve fr
 Set to 0 to retrieve all the data available to the visual.
 
 > Note that it is not guaranteed to retrieve all the data available in the underlying dataset - in fact, there are some [limits set by Power BI](https://docs.microsoft.com/en-us/power-bi/developer/visuals/fetch-more-data#known-limitations-of-fetchmoredata) that cannot be exceeded: 
-- Dataview total row count is limited to **1,048,576 rows**.
+- Dataset total row count is limited to **1,048,576 rows**.
 - Memory size is limited to **100 MB**.
 
 

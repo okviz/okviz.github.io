@@ -3,8 +3,8 @@ layout:             page
 title:              Free Visuals
 published:          true
 date:               2022-07-13
-modified:           2024-05-10
-order:              /04
+modified:           2024-05-27
+order:              /{50}
 ---
 
 OKVIZ has released and maintains several custom visuals for Power BI available for free. There is no complete documentation for these visuals yet, but you can find some helpful resources below:
@@ -14,7 +14,6 @@ OKVIZ has released and maintains several custom visuals for Power BI available f
 - Dot Plot: [YouTube](https://www.youtube.com/watch?v=By16pX9KT40)
 - Smart Filter (Free): [Website](https://okviz.com/smart-filter/) 
 - Sparkline: [YouTube](https://www.youtube.com/watch?v=0m3Vnvso9tY)
-- Synoptic Panel (Free - Legacy version): [YouTube](https://www.youtube.com/watch?v=MYwNVCyZug0)
 
 ## Security & Privacy
 

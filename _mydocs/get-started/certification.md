@@ -3,7 +3,7 @@ layout:             page
 title:              Certification
 published:          true
 date:               2021-11-17
-modified:           2024-05-10
+modified:           2024-05-27
 order:              /01/05
 ---
 
@@ -35,13 +35,13 @@ Here is a list of OKVIZ visuals that are certified:
 - Dot Plot
 - Smart Filter (Free)
 - Sparkline
-- Synoptic Panel (Free - Legacy version)
+- Synoptic Panel Lite
 
 ## Uncertified Visuals
 
-These OKVIZ visuals, instead, are not yet certified:
+These OKVIZ visuals, instead, are not certified:
 - Smart Filter Pro - [Why not?](../smart-filter-pro/security.md#certification)
-- Synoptic Panel Pro - [Why not?](../synoptic-panel-pro/security.md#certification)
+- Synoptic Panel - [Why not?](../synoptic-panel/security.md#certification)
 
 ### Limitations
 

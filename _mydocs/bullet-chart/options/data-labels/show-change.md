@@ -3,7 +3,7 @@ layout:             page
 title:              Show Change
 published:          true
 date:               2022-08-17
-modified:   	    2023-03-21
+modified:   	    2024-05-22
 order:              /bullet-chart/options/data-labels/show-change
 internal:           showChange
 related:
@@ -11,7 +11,7 @@ related:
     - change-value-type.md
 ---
 
-**Defaul value:** (Don't Show)
+**Default value:** (Don't Show)
 
 This option is only visible if at least one measurement is connected to one of the fields between [Comparison Value](./../../fields/comparison-value.md), [Targets](./../../fields/targets.md) or [Target for Variance](./../../fields/target-variance.md) and allows you to show the difference between the primary value (connected to the [Value field](./../../fields/value.md) and the value for the selection made. 
 

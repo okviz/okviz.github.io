@@ -3,7 +3,7 @@ layout:             page
 title:              Tooltips
 published:          true
 date:               2021-11-20
-modified:           2022-07-19
+modified:           2024-05-22
 order:              /smart-filter-pro/options/appearance/tooltips
 available:          All modes except Search
 internal:           showTooltips
@@ -14,7 +14,7 @@ Enable this option to display additional information in the tooltips of each fil
 
 <img src="images/appearance-tooltips.png" width="550">    
 
-You can enrich the content of the toolips by connecting different measures to the ***Tooltips*** field of the visual.
+You can enrich the content of the tooltips by connecting different measures to the ***Tooltips*** field of the visual.
 
 <img src="images/appearance-tooltips2.png" width="550"> 
 

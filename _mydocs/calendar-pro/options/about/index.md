@@ -3,7 +3,7 @@ layout:             page
 title:              About 
 published:          true
 date:               2022-07-17
-modified:           2024-05-15
+modified:           2024-05-22
 order:              /calendar-pro/options/about
 internal:           about, name, version, diagnostics
 ---
@@ -13,7 +13,7 @@ This page describes the **About** option section which include several informati
 The option **Name** displays the name of the visual.
 
 ## Version
-The option **Version** diaplays the current version of the visual.
+The option **Version** displays the current version of the visual.
 
 ## License
 The option **License** displays the current status of your license, which can be:
@@ -27,11 +27,8 @@ The option **License** displays the current status of your license, which can be
 See more on [Licensing](../../licensing.md).
 
 ## Diagnostics
-<<<<<<< HEAD
-=======
 **Default value:** Off.
 
->>>>>>> beaac0a4887a6a6509b288d44a7bdb350f0cd0a9
-If enabled, the **Diagnostics** toggle allows Calendar Pro to log significant information and errors in the script soncole of the browser.
+If enabled, the **Diagnostics** toggle allows Calendar Pro to log significant information and errors in the script console of the browser.
 >**NOTE**: This could affect the performance of your report.
 

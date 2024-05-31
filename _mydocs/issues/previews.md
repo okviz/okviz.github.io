@@ -3,7 +3,7 @@ layout:             page
 title:              Preview Versions
 published:          true
 date:               2022-08-10
-modified:           2022-08-10
+modified:           2024-05-22
 toc:                false
 order:              /03/01
 related:
@@ -22,7 +22,7 @@ These types of versions are almost identical to published versions, but with som
 
 * ### Expiration
 
-    Preview versions have an expiration date, usually 5 weeks from their ditribution. After the expiration date they will stop working showing a warning message like this:
+    Preview versions have an expiration date, usually 5 weeks from their distribution. After the expiration date they will stop working showing a warning message like this:
 
     <img src="images/preview-expired.png" width="450">
 
