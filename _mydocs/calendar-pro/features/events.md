@@ -5,9 +5,6 @@ published:          true
 date:               2022-07-17
 modified:           2024-05-15
 order:              /calendar-pro/features/events-holidays
-related:
-    - /calendar-pro/fields/events.md
-    - /calendar-pro/options/events.md
 ---
 
 Calendar Pro supports events and holidays.

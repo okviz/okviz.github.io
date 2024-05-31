@@ -11,4 +11,4 @@ related:
 ---
 **Default value:** Auto
 
-The **Decimal places** option manages the precision of the numbers displayed in the tooltips, as it allows you to increase or decrease the decimals.
+This option manages the precision of the numbers displayed in the tooltips, as it allows you to increase or decrease the decimals.

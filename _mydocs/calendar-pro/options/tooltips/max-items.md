@@ -11,7 +11,7 @@ internal:           maxTooltipsItems
 
 This option manages the maximum number of items that the tooltips will display in the visual.
 
-For example, if you set it to 1, and you have one measure in the **Value** field role and one in the **Tooltips** field role, it will display only the **Value** measure.
+For example, if you set it to 1, and you have one measure in the **Value** data role and one in the **Tooltips** data role, it will display only the **Value** measure.
 
 Set it to 0 or leave it blank to make it display everything.
 

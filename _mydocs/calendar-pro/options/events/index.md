@@ -8,9 +8,6 @@ order:              /calendar-pro/options/events
 internal:           events
 next_reading:       true
 next_reading_title: Options
-related:
-    - /calendar-pro/fields/events.md
-    - /calendar-pro/features/events.md
 ---
 This section describes the options related to the events displayed in Calendar Pro.
 
