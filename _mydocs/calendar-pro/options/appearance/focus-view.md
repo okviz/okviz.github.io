@@ -3,7 +3,7 @@ layout:             page
 title:              Focus View 
 published:          true
 date:               2022-07-26
-modified:           2024-05-15
+modified:           2024-05-31
 order:              /calendar-pro/options/appearance/focus-view
 internal:           focusView
 available:          Calendar Mode
@@ -14,4 +14,4 @@ When the **Focus view** option is enabled, the visual displays only one calendar
 
 This option can also be managed directly from the visual:
 
-<img src="images/focus.png" width="700" alt="Focus view in Calendar pro">
+<img src="images/focus.png" width="700">

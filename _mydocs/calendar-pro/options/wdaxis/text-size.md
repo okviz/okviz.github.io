@@ -3,7 +3,7 @@ layout:             page
 title:              Text Size
 published:          true
 date:               2022-07-27
-modified:           2022-07-27
+modified:           2024-05-31
 order:              /calendar-pro/options/axis-weekday/text-size
 internal:           percentile, fontSize
 related:
@@ -13,7 +13,7 @@ related:
 ---
 **Default value:** 8pt or 40%
 
-This option defines the font size of weekday axis labels.  
+This option defines the font size of the weekday axis labels.  
 
 <todo>Screenshot</todo>
 

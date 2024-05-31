@@ -17,3 +17,5 @@ You can choose among:
 - **Fit to canvas**: This will make the calendar fit to the whole canvas.
 - **Fit to width**: This will make the calendar fit to the whole available width.
 - **Fixed size**: This will make the calendar fit to a predefined size.
+
+<todo>Screenshot</todo>

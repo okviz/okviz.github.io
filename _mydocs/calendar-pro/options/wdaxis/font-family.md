@@ -3,7 +3,7 @@ layout:             page
 title:              Font Family
 published:          true
 date:               2022-07-27
-modified:           2022-07-27
+modified:           2024-05-31
 order:              /calendar-pro/options/axis-weekday/font-family
 internal:           fontFamily
 related:
@@ -12,7 +12,7 @@ related:
 ---
 **Default value:** DIN
 
-This option defines the font family of weekday axis labels.  
+This option defines the font family of the weekday axis labels.  
 
 <todo>Screenshot</todo>
 
