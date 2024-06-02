@@ -3,12 +3,21 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2022-07-17
-modified:           2024-05-10
+modified:           2024-06-02
 order:              /calendar-pro/{99}
 toc_max:            2
 ---
 This page contains a quick summary of versions and notable changes of Calendar Pro.  
 Smart Filter Pro uses **Power BI Custom Visuals API v5.9.0**.
+
+## v1.0.5.5
+**Released:** 2024-06-02
+
+**Fixed:**
+- Quarters year in labels
+- Fix data color when no color rule is applied ([#14](https://github.com/okviz/calendar-pro-issues/issues/14))
+- Fix events labels formatting ([#17](https://github.com/okviz/calendar-pro-issues/issues/17))
+- Fix year axis alignment ([#18](https://github.com/okviz/calendar-pro-issues/issues/18))
 
 ## v1.0.5.4
 **Released:** 2024-03-02
