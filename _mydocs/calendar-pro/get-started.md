@@ -38,6 +38,8 @@ After that, add data to the fields to display them in the visual. The mandatory 
 - The [date](../calendar-pro/fields/date.md) data role.
 - The [value](../calendar-pro/fields/value.md) data role.
 
+<img src="images/fields.png" width="300" class="naked" alt="Setting up Calendar pro">
+
 ## Managing and improving visuals
 After the first setup, the visual may look like this:
 
