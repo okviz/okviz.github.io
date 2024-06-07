@@ -82,7 +82,7 @@ When enabled, if the dataset at the last level of the hierarchy contains only on
 
 > In the scenario where there is only a single category in the dataset (a single level in the hierarchy), you can use this option to associate a map to each value of the category, and switch between them by applying a single filter on the category.
 
->> Be aware that changing the Last-Single setting after maps have been associated may make some maps no longer reachable, as the Drill Path will be different. In this case, you can always manage the assigned maps through the [Maps Manager](../features/maps-manager.md).
+>> Be aware that changing the Last-Single setting after maps have been associated may make some maps no longer reachable, as the Drill Path will be different. In this case, you can always manage the assigned maps through the [Map Manager](../features/map-manager.md).
 
 ### The "No-Values" Option
 
