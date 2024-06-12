@@ -3,7 +3,7 @@ layout:             page
 title:              SVG Format
 published:          true
 date:               2024-05-10
-modified:           2024-05-28
+modified:           2024-06-12
 order:              /synoptic-panel/concepts/maps/01
 next_reading:       true
 ---
@@ -50,7 +50,7 @@ Note that:
 
 Here is a list of custom SVG attributes supported by Synoptic Panel. 
 
-Note that most of these attributes have an equivalent setting in the visual interface, but using the custom attribute can save time and avoid errors, especially when using [remote maps](../../features/maps-location/remote.md) or generating maps programmatically. Also, custom attributes have precedence over the visual settings.
+Note that most of these attributes have an equivalent setting in the visual interface, but using the custom attribute can save time and avoid errors, especially when using [remote maps](../../features/maps-location/remote.md) or generating maps programmatically. Also, **custom attributes have precedence over the visual settings**.
 
 <style>
 table td:first-of-type code { /* Attribute */
@@ -71,7 +71,6 @@ table th:nth-of-type(2) { /* Target */
 |`data-okviz-font-style`    |Any shape              |*(String)* The font style of the labels of the element. It could be `italic`, `normal`.|
 |`data-okviz-font-family`   |Any shape              |*(String)* The font family of the labels of the element.|
 |`data-okviz-target-url`    |Any area               |*(String)* It must contain the URL of a remote SVG map. With this attribute you can automatically load a different remote map when drilling down on the area. More on the [Drill Mode](../../features/drill-mode.md) section.|
-|`data-okviz-svg-title`     |`<svg>`                |*(String)* It is used to define the title of the map as it will appear in Synoptic Panel.|
 |`data-okviz-svg-author`    |`<svg>`                |*(String)* It is used to show the map author name in the visual.|
 |`data-okviz-svg-copyright` |`<svg>`                |*(String)* It is used to show the map copyright in the visual.|
 |`data-okviz-autofetch`     |`<svg>`                |*(Boolean)* Enables the [Autofetch mode](../../features/drill-mode.md#autofetch-mode).|
@@ -82,11 +81,11 @@ Example:
 
 ```svg
 <!-- A sample SVG with a custom attribute -->
-<svg data-okviz-svg-title="My Awesome Circle">
+<svg data-okviz-svg-copyright="Copyright OKVIZ">
   <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
 </svg>
 ```
-
+<todo>FIX screenshot as it reports the old "Title" attribute</todo>
 <img src="images/svg-title-attribute.png" width="600">
 
 ## Unsupported Elements and Attributes
