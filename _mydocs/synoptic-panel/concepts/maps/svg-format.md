@@ -73,7 +73,7 @@ table th:nth-of-type(2) { /* Target */
 |`data-okviz-target-url`    |Any area               |*(String)* It must contain the URL of a remote SVG map. With this attribute you can automatically load a different remote map when drilling down on the area. More on the [Drill Mode](../../features/drill-mode.md) section.|
 |`data-okviz-svg-author`    |`<svg>`                |*(String)* It is used to show the map author name in the visual.|
 |`data-okviz-svg-copyright` |`<svg>`                |*(String)* It is used to show the map copyright in the visual.|
-|`data-okviz-autofetch`     |`<svg>`                |*(Boolean)* Enables the [Autofetch mode](../../features/drill-mode.md#autofetch-mode).|
+|`data-okviz-autofetch`     |`<svg>`                |*(String or Boolean)* Enables the [Autofetch mode](../../features/drill-mode.md#autofetch-mode) on the specified attribute. When it is `true`, it means that the `id` will be used.|
 |`data-okviz-no-labels`     |`<svg>` or any area    |*(Boolean)* Turn off all map labels or the labels on the target area.|   
 
 

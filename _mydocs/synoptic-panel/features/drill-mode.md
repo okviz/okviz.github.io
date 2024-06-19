@@ -3,7 +3,7 @@ layout:             page
 title:              Drill Mode
 published:          true
 date:               2024-05-10
-modified:           2024-05-30
+modified:           2024-06-19
 order:              /synoptic-panel/features/drill-mode
 next_reading:       true
 ---
@@ -55,7 +55,7 @@ Unfortunately, due to the way Power BI works, there is no other way to assign ma
 
 The Drill Path is a representation of the current level in the data hierarchy of the visual. It is used to determine which map to display when you navigate to a specific level.
 
-**Each map can only be associated with one Drill Path.**
+**Each map can only be associated with one Drill Path.** 
 
 <img src="images/drill-path-toolbar.png" width="200">
 
@@ -63,30 +63,36 @@ The current Drill Path is visible in the visual header (if not disabled), and kn
 
 Here is how the Drill Path is built:
 - **For each level of the hierarchy, except the last one:**
-    - If there are **multiple values** in the dataset at that level, the name of the column, as defined in the dataset, is taken.
+    - If there are **multiple values** in the dataset at that level or the **Single Map Per Category** option (see below) is enabled, the name of the column, as defined in the dataset, is taken.
     - If there is **only one value**, the value of the data point is taken. For example, if you drill down on a single data point, the path will take its value.
 
 - **For the last level of the hierarchy:**
-    - If the **Last-Single** option (see below) is enabled, the behavior is the same as above.
+    - If the **Full Hierarchy Mapping** option (see below) is enabled, the behavior is the same as above.
     - Otherwise, the name of the column, as defined in the dataset, is taken.
 
 > Note that renaming the columns in the visual data bucket won't affect the path.
 
-### The "Last-Single" Option
+### The "Full Hierarchy Mapping" Option
 
-Synoptic Panel offers an advanced option called [Last-Single](../options/advanced-settings/last-single.md).
+Synoptic Panel offers an advanced option called [Full Hierarchy Mapping](../options/advanced-settings/full-hierachy-mapping.md).
 
-When enabled, if the dataset at the last level of the hierarchy contains only one value, the last element of the Drill Path will be that value. Since maps are assigned on a single Drill Path, you can use this option to associate specific maps to individual values and switch between them by applying single-value filters to the visual. When the option is disabled, the last level of the path is always the name of the column, regardless of the filters applied.
+You can associate a map with each value in every category within the hierarchy, except for the values at the last level, unless you select this option. If you select this option, you can also associate a map with the values at the last level. This allows you to view a map for specific values by applying a single filter to them.
+
+<todo>When enabled, if the dataset at the last level of the hierarchy contains only one value, the last element of the Drill Path will be that value. Since maps are assigned on a single Drill Path, you can use this option to associate specific maps to individual values and switch between them by applying single-value filters to the visual. When the option is disabled, the last level of the path is always the name of the column, regardless of the filters applied.</todo>
 
 <todo>Screencast to explain the concept</todo>
 
 > In the scenario where there is only a single category in the dataset (a single level in the hierarchy), you can use this option to associate a map to each value of the category, and switch between them by applying a single filter on the category.
 
->> Be aware that changing the Last-Single setting after maps have been associated may make some maps no longer reachable, as the Drill Path will be different. In this case, you can always manage the assigned maps through the [Map Manager](../features/map-manager.md).
+>> Be aware that changing the *Full Hierarchy Mapping* setting after maps have been associated may make some maps no longer reachable, as the Drill Path will be different. In this case, you can always manage the assigned maps through the [Map Manager](../features/map-manager.md).
 
-### The "No-Values" Option
+### The "Single Map Per Category" Option
 
-<todo visible>This option simplifies the drill path including only column names. This limit the ability to assign specific maps to single data points.</todo>
+Synoptic Panel offers an advanced option called [Single Map Per Category](../options/advanced-settings/single-map-per-category.md).
+
+When this option is active, you can't link maps to individual category values; instead, you can only have one map per category in the hierarchy. This is beneficial if you prefer to highlight selected data points within the category's map, rather than having a separate map for each data point, which is the default behavior when drilling down or applying a single filter to any level other than the first.
+
+<todo>Screencast to explain the concept</todo>
 
 ### Examples
 
@@ -110,7 +116,8 @@ The Drill Path will be different depending on the actions you perform:
 | &nbsp; &nbsp; or expand the fields;               |`Economy > Sector > Seat`                  |
 | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; then apply a single filter on **210**;|`Economy > 210 > Seat`|
 | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; then apply a filter on **SPH00847**,|`Economy > 210 > Seat`|
-| &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; or apply a filter on **SPH00847** with **Last-Single**.|`Economy > 210 > SPH00847`|
+| &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; or apply a filter on **SPH00847**
+<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; with **Full Hierarchy Mapping**.|`Economy > 210 > SPH00847`|
 |Expand fields for a single level;                  |`Category > Sector`                        |
 | &nbsp; &nbsp; then drill down on the **404** sector.|`Regular > 404 > Seat`                   |
 |Expand all fields from the top.                    |`Category > Sector > Seat`                 |
