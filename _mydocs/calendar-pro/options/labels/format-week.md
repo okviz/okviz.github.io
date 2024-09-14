@@ -12,7 +12,7 @@ available:          Calendar Mode
 
 This option manages the format to be applied to week labels.
 
-Available options are:
+Available options:
 
 - **(Auto)**: The format is automatically determined based on the best format for weeks.
 - **Week of month (1)**: The week is displayed as a number.

@@ -24,7 +24,7 @@ With this option you can choose the sorting behavior of the visual:
     <img src="images/sorting-default.png" width="850">   
 
 
-    > The default sorting method is described in detail here: [Change how a chart is sorted in a Power BI report](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-change-sort)
+    > The default sorting method is described in detail here: [Change how a chart is sorted in a Power BI report](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-change-sort)
 
 
 - ### Custom

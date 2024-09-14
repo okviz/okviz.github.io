@@ -27,6 +27,6 @@ In case ***Carriage return*** is chosen, each line in the search box is treated 
 
 > Note the ***Carriage return*** is the option to choose if you need to paste text into the search box from Excel. More info on this features are available in [Split pasted text for Dropdown/Filter mode](split-pasted-text.md#pasting-from-excel).
 
-If you choose ***Interactive***, a toggle is displayed in the search box to switch from one separator to another even in [Reading view](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-reading-view#reading-view). This means that not only the report designer can change the separator but also the end users.
+If you choose ***Interactive***, a toggle is displayed in the search box to switch from one separator to another even in [Reading View](../../../glossary.md#reading-and-editing-view). This means that not only the report designer can change the separator but also the end users.
 
 <img src="images/split-text-2.png" width="250">

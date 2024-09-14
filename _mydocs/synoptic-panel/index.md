@@ -13,8 +13,14 @@ next_reading:       true
 
 <img src="images/synoptic-panel.png" width="550" class="naked">
 
-The first version of Synoptic Panel was released in 2015 as part of the *Power BI Best Visual Contest*, where it won first prize. 
+Synoptic Panel is available in three different versions:
 
-**The v2.0 is the latest and most advanced version of the visual**, which replace the previous legacy version. This version has been rewritten starting from scratch in 2024 to take advantage of the latest Power BI APIs and to provide a more robust and flexible solution, including new features and improvements.
+- **Synoptic Panel v1**: The original version of the visual which is now deprecated.
 
-> Do you know what a Power BI custom visual is? Here is a [quick introduction](../get-started/custom-visuals.md) to help you understand the concept.
+- **Synoptic Panel v2**: The latest and most advanced version of the visual.
+
+- **Synoptic Panel Lite**: A simplified, limited version of the v2 which is certified by Microsoft.
+
+For more information about the different versions, see the [Versions page](versions.md).
+
+>> **IMPORTANT**: The documentation on this site refers to the latest version of Synoptic Panel (v2) unless otherwise specified. If you are still using the original version (v1), we recommend upgrading to the latest version to take advantage of the new features and improvements.

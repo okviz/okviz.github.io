@@ -8,7 +8,7 @@ order:          /bullet-chart/options/tooltips/label-for-comparison
 internal:       labelComparison
 ---
 
-**Default value:** Empty
+**Default value:** (Empty)
 
 This option allow to the define a custom label in the tooltips for measures connected to the ***Comparison Value*** field. Note that custom label will also be reflected in the related legend data points.
 

@@ -50,6 +50,6 @@ Instead, if each cell represents a day and the data are grouped per month, this 
 
 ## Navigation
 
-Although you can set granularity and grouping in the options ([Granularity options](../options/granularity/index)), Calendar Pro allows you to navigate through the data and change the granularity/grouping directly in the visual. This is useful when you want to dynamically display data in different ways without changing the options, or when you are in the Power BI service in *Reading view*.
+Although you can set granularity and grouping in the options ([Granularity options](../options/granularity/index)), Calendar Pro allows you to navigate through the data and change the granularity/grouping directly in the visual. This is useful when you want to dynamically display data in different ways without changing the options, or when you are in the Power BI service in [Reading View](../../glossary.md#reading-and-editing-view).
 
 <todo>Screencast of navigating through the data</todo>

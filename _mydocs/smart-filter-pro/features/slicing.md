@@ -39,4 +39,4 @@ For instance, suppose that you have a report with three pages; one page contains
 
 <img src="images/sync-slicers-2.png" width="180">   
 
-> Find out more information here: [Sync and use slicers on other pages](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-slicers#sync-and-use-slicers-on-other-pages)
+> Find out more information here: [Sync and use slicers on other pages](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-slicers#sync-and-use-slicers-on-other-pages)

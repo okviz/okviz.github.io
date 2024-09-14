@@ -12,7 +12,7 @@ available:          Calendar Mode
 
 This option manages the format to be applied to day labels.
 
-Available options are:
+Available options:
 
 - **(Auto)**: The visual will automatically choose the best format for days.
 - **Numeric (1)**: The day will be displayed as a number.

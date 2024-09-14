@@ -56,7 +56,7 @@ If you need to purchase additional licenses, you can do it from the admin center
 
 After you have purchased one or more licenses, you need to assign them to your users or Active Directory groups.
 
-> Anyone purchasing gets permissions to assign purchased licenses. If you are not the purchaser, you must be a Global, License, or User admin to assign licenses. To use group-based licensing, see [Assign licenses to users by group membership in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/enterprise-users/licensing-groups-assign)  
+> Anyone purchasing gets permissions to assign purchased licenses. If you are not the purchaser, you must be a Global, License, or User admin to assign licenses. To use group-based licensing, see [Assign licenses to users by group membership in Azure Active Directory](https://learn.microsoft.com/en-us/entra/identity/users/licensing-groups-assign)  
 If you purchased the license for yourself or other users, you can still assign it with the following procedure.
 
 Follow these steps to proceed:
@@ -103,11 +103,11 @@ You can cancel the subscription from the Microsoft 365 admin page:
 
 If you are using Calendar Pro without a valid license, you will see different notifications based on your environment:
 
-- Power BI Desktop / Power BI service in ***Edit view***: 
+- Power BI Desktop / Power BI service in [Editing View](../glossary.md#reading-and-editing-view):
 
     <img src="images/license-unlock-edit-view.png" width="600">
 
-- Power BI service in [Reading view](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-reading-view#reading-view):
+- Power BI service in [Reading View](../glossary.md#reading-and-editing-view):
 
     <img src="images/license-unlock.png" width="500">
  

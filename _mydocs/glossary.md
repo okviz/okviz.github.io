@@ -35,3 +35,11 @@ In the context of Synoptic Panel, a map is an image that can be used to visualiz
 A visual is a graphical representation of data. In Power BI, visuals are the building blocks of reports and dashboards. They can be charts, tables, maps, or custom visuals.
 
 A custom visual is a visual that is not included in the default set of visuals provided by Power BI. Custom visuals can be created by third-party developers or by the Power BI community. OKVIZ visuals are examples of custom visuals. See also [Custom Visuals](./get-started/custom-visuals.md).
+
+## Reading and Editing View
+
+Reading View is a Power BI feature that allows you to view and interact with reports without making changes. In this view, you can interact with visuals, apply filters, and drill down into data. Editing view is where you can modify the report, add visuals, and change the layout. 
+
+You are in Reading View when you open a report in Power BI Service. When you click on "Edit", you switch to Editing View. Power BI Desktop has only one view, which is the Editing View.
+
+See also [Reading View](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-reading-view#reading-view) docs.

@@ -13,7 +13,7 @@ related:
 
 This option manages the format to be applied to group title when the granularity is set to *week*.
 
-Available options are:
+Available options:
 - **(Auto)**: The visual will automatically choose the best format for weeks.
 - **Week of month (1)**: The week will be displayed as a number.
 - **Week of quarter (1)**: The week will be displayed as a number.

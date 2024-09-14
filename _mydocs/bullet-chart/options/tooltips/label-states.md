@@ -8,7 +8,7 @@ order:          /bullet-chart/options/tooltips/label-for-states
 internal:       labelStates
 ---
 
-**Default value:** Empty
+**Default value:** (Empty)
 
 This option allow to the define a custom label in the tooltips for measures connected to the ***States*** field or when manual state are set.
 

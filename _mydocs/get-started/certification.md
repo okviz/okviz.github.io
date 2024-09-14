@@ -20,7 +20,7 @@ The certification guarantees that the visual meets certain requirements like:
 - Using the latest SDK API available
 - Be published on the Microsoft marketplace (AppSource)
 
-> You can find all the requirements in the following article, although its target audience is developers and some terms/concepts may be a bit obscure to you: [Get your Power BI visual certified](https://docs.microsoft.com/en-us/power-bi/developer/visuals/power-bi-custom-visuals-certified#certification-requirements)
+> You can find all the requirements in the following article, although its target audience is developers and some terms/concepts may be a bit obscure to you: [Get your Power BI visual certified](https://learn.microsoft.com/en-us/power-bi/developer/visuals/power-bi-custom-visuals-certified#certification-requirements)
 
 The certification is optional; vendors are not required to apply it to their visuals in order to be published in the marketplace (AppSource). **Power BI visuals that aren't certified, aren't necessarily unsafe.**
 
@@ -41,7 +41,7 @@ Here is a list of OKVIZ visuals that are certified:
 
 These OKVIZ visuals, instead, are not certified:
 - Smart Filter Pro - [Why not?](../smart-filter-pro/security.md#certification)
-- Synoptic Panel - [Why not?](../synoptic-panel/security.md#certification)
+- Synoptic Panel - [Why not?](../synoptic-panel/security/index.md)
 
 ### Limitations
 

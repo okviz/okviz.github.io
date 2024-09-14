@@ -20,7 +20,7 @@ The SVG (Scalable Vector Graphics) format is a widely used format for vector gra
 <img src="images/sample-svg.svg" width="200" class="naked">
 
 If you are new to SVG, here are some useful resources:
-- [How to create, edit and export SVG files](editing-svg.md)
+- [How to create, edit and export SVG files](creating-svg.md)
 - [SVG tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial) on MDN Web Docs
 
 Below is a reference guide to the SVG format and the custom attributes supported by Synoptic Panel.
@@ -43,7 +43,7 @@ You can "transform" an SVG element into an area by setting the element `id`, set
 The `id` attribute is used to uniquely identify an element in the SVG file. This attribute can be used to [automatically bind the element to a data point](../data-binding.md).
 
 Note that:
-  - The `id` must be a valid XML ID, which means it must start with a letter or underscore, followed by letters, digits, hyphens, underscores, colons, and periods. Spaces are also allowed, but not recommended. If the id starts with a digit, it must be escaped with an underscore (`1` should become `_1`).
+  - The `id` must be a valid XML ID, which means it must start with a letter or underscore, followed by letters, digits, hyphens, underscores, colons, and periods. Spaces are also allowed, but not recommended. If the id starts with a digit, it should be escaped with an underscore (`1` should become `_1`).
   - The value of each `id` must be unique within the map, as defined by the SVG specification. If you have multiple elements with the same identifier, all of these elements will be linked to the same data point (in the case of successfully automatic binding). If this is the desired behavior, it is generally recommended to use unique `id` values for each element and to use the `data-okviz-strong` attribute (see below) or the [Map Editor](../../features/map-editor.md) to bind multiple areas to the same data point.
 
 ## Custom Attributes
@@ -64,18 +64,17 @@ table th:nth-of-type(2) { /* Target */
 |---                        |---                    |---|
 |`data-okviz-unbound`       |Any shape or group     |*(Boolean)* Excludes the element from the [Data Binding](../data-binding.md).|
 |`data-okviz-strong`        |Any shape or group     |*(String)* Forces the element to bind to a specific data point, regardless of its id. See [Data Binding](../data-binding.md).|
-|`data-okviz-category-label`|Any shape or group     |*(String)* It is used to designate the element to display the data point name when [category labels](../../features/data-labels.md) are enabled. The value of the attribute must match the data point following the same rules as the `id`. |
-|`data-okviz-value-label`   |Any shape or group     |*(String)* It is used to designate the element to display the data point value when [data labels](../../features/data-labels.md) are enabled. The value of the attribute must match the data point following the same rules as the `id`.|
-|`data-okviz-font-size`     |Any shape              |*(Number)* The text size of the labels of the element.|
-|`data-okviz-font-weight`   |Any shape              |*(String)* The font weight of the labels of the element. It could be `bold`, `normal` or numeric.|
-|`data-okviz-font-style`    |Any shape              |*(String)* The font style of the labels of the element. It could be `italic`, `normal`.|
-|`data-okviz-font-family`   |Any shape              |*(String)* The font family of the labels of the element.|
-|`data-okviz-target-url`    |Any area               |*(String)* It must contain the URL of a remote SVG map. With this attribute you can automatically load a different remote map when drilling down on the area. More on the [Drill Mode](../../features/drill-mode.md) section.|
+|`data-okviz-cat-label`     |Any shape or group     |*(String)* It is used to designate the element to display the data point name when [category labels](../../features/data-labels.md) are enabled. The value of the attribute must match the data point following the same rules as the `id`. |
+|`data-okviz-data-label`    |Any shape or group     |*(String)* It is used to designate the element to display the data point value when [data labels](../../features/data-labels.md) are enabled. The value of the attribute must match the data point following the same rules as the `id`.|
+|`data-okviz-drill-url`     |Any area               |*(String)* It must contain the URL of a remote SVG map. With this attribute you can automatically load a different remote map when drilling down on the area. More on the [Drill Mode](../../features/drill-mode.md) section.|
+|`data-okviz-link-url`      |Any shape              |*(String)* It must contain a remote URL. By clicking a shape with this attribute, you navigate to the URL defined there. |
 |`data-okviz-svg-author`    |`<svg>`                |*(String)* It is used to show the map author name in the visual.|
-|`data-okviz-svg-copyright` |`<svg>`                |*(String)* It is used to show the map copyright in the visual.|
-|`data-okviz-autofetch`     |`<svg>`                |*(String or Boolean)* Enables the [Autofetch mode](../../features/drill-mode.md#autofetch-mode) on the specified attribute. When it is `true`, it means that the `id` will be used.|
+|`data-okviz-svg-attribution`|`<svg>`               |*(String)* It is used to show the map attribution in the visual.|
+|`data-okviz-autofetch`     |`<svg>`                |*(String or Boolean)* Enables the [Auto-Fetch mode](../../features/drill-mode.md#auto-fetch-mode) on the specified attribute. When it is `true`, it means that the `id` will be used.|
 |`data-okviz-no-labels`     |`<svg>` or any area    |*(Boolean)* Turn off all map labels or the labels on the target area.|   
 
+<todo>Area type</todo>
+<todo>Specific format attributes</todo>
 
 Example:
 

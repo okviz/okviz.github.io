@@ -13,7 +13,7 @@ related:
 
 This option manages the format to be applied to group title when the granularity is set to *day*.
 
-Available options are:
+Available options:
 
 - **(Auto)**: The visual will automatically choose the best format for days.
 - **Numeric (1)**: The day will be displayed as a number.

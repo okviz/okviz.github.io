@@ -19,13 +19,16 @@ See more about the [data binding process](../data-binding.md).
 
 Here are the supported map formats for Synoptic Panel:
 
-### SVG Format
+### SVG
 
 Synoptic Panel supports and **can only render maps in SVG format**. SVG is a vector image format that provides a flexible and scalable way to represent images. SVG files can be created using various design tools, such as *Adobe Illustrator*, *Inkscape*, or online graphic editors.
 
+<img src="images/svg-logo.svg" width="200" class="naked">
+
+
 For more technical details on this format and the custom attributes supported by Synoptic Panel, see [SVG Format](svg-format.md).
 
-### JSVG Format
+### JSVG
 
 By using Synoptic Panel's [My Storage](../../features/maps-location/my-storage.md) feature, you may notice that the maps are stored on our servers in a custom format called JSVG (JSON SVG). This format is a JSON representation of the map, which encapsulate the original SVG file and includes the data binding configuration for each area along with additional rendering information.
 
@@ -54,7 +57,7 @@ By using Synoptic Panel's [My Storage](../../features/maps-location/my-storage.m
             }
         }
     },
-    // Main SVG image
+    // Map SVG
     "map": "<svg xmlns=\"http://www.w3.org/2000/svg\">...</svg>", 
     // Elements coordinates
     "mapRects": {
@@ -78,11 +81,9 @@ You can use other image formats as a base for your maps, but you will need to co
 - **Bitmap images (PNG, JPG, etc.)**  
     You can convert bitmap images by tracing them into vector images through professional design software like *Adobe Illustrator* or *Inkscape*. Note that since this process does not always produce perfect results, it's recommended to use high-quality images with clear boundaries.
 
-    >> It is essential to choose the correct export settings from these tools to ensure the resulting SVG file is suitable for use in Synoptic Panel. See [Editing SVG with a Graphics Editor](editing-svg.md#editing-with-a-graphics-editor) for more details.
+    >> It is essential to choose the correct export settings from these tools to ensure the resulting SVG file is suitable for use in Synoptic Panel. See [Creating SVG with a Graphic Editor](creating-svg.md) for more details.
 
     We also provide a free online tool called [Synoptic Designer](https://synoptic.design/) specifically designed for this use, but please note that it is more of a proof of concept than a full-featured tool.
-
-    > In the future, we plan to provide a more advanced tool for converting bitmaps to SVG. If you are interested in this, please let us know by [contacting us](mailto:info@oviz.com?subject=Synoptic Panel Advanced Bitmap Editor).
 
 - **CAD drawings (DXF, DWG, etc.)**  
     You need a CAD software to convert them to SVG, such as *AutoCAD* or *DraftSight*.

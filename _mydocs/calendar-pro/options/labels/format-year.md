@@ -12,7 +12,7 @@ available:          Calendar Mode
 
 This option manages the format to be applied to year labels.
 
-Available options are:
+Available options:
 
 - **(Auto)**: The format is automatically determined based on the best format for years.
 - **Numeric (2021)**: The year is displayed as a number (2021).

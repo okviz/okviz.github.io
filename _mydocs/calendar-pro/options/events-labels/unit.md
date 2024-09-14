@@ -12,7 +12,7 @@ available:          Calendar Mode
 
 This option allows you to manage the display unit for the events/holidays labels when they are measures.
 
-The available options are:
+Available options:
 - **Auto**: The display unit is automatically calculated based on the data.
 - **None**: The display unit is not shown.
 - **Thousands**: The display unit is shown in thousands. E.g., 1K, 2K, 3K, etc.

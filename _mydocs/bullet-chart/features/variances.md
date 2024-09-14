@@ -6,7 +6,6 @@ date:               2022-08-17
 modified:           2023-02-02
 order:              /bullet-chart/features/variances
 version:            2.3.1.0
-draft:              true
 ---
 Variance bars can be used to monitor progress towards a target or to highlight where results differ from expectations. This helps to better understand the data and identify possible areas for improvement.
 

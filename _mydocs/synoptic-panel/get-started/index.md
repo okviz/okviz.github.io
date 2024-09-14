@@ -37,7 +37,7 @@ In this section, you will learn how to install and use Synoptic Panel in a Power
 
 5. After you doing so, you will see a simple grid containing a few records from the column you have just bound. This is a non-fully functional placeholder that will be replaced by the actual map once you have configured it ([what are maps?](../concepts/maps/index)). To proceed, click on the ***+ Add Map*** button.
 
-    <img src="images/big-add-maps.png" width="280">
+    <img src="images/big-add-maps.png" width="265">
 
 6. You can choose the map from [different locations](../features/maps-location/index.md). For this time, click on ***Local Map(s)*** to select an SVG image from your local computer.
 
@@ -65,22 +65,27 @@ See more in the [Map Editor](../features/map-editor.md) section.
 
 The main purpose of Synoptic Panel is to visualize data on the map. To do so, you need to bind one or more measures to the visual:
 
-- Bind a measure to the ***Value*** data role to color the areas of the map based on that measure or to display its values as labels over the areas.
+- Bind a measure to the ***Value*** data role to connect it to the map areas. The values of this measure could be displayed in labels or used to color the areas of the map.
 
 - Bind one or more measures to the ***Tooltips*** data role to display them as tooltips when hovering over the map areas.
 
-- Bind additional measures to the ***Color Rules*** data role to define a different field for advanced map coloring. See more in the [Color Rules](../features/color-rules.md) section.
 
-    <img src="images/map-values.png" width="500">
+## Add Conditional Formatting
+
+You can customize the color of your map areas according to the value of the measure you have bound to the ***Value*** data role or any other measure you have in your dataset. To do so, you need to define the conditional formatting as you usually do in built-in Power BI visuals.
+
+<img src="images/fx.png" width="180">  
+<img src="images/conditional-formatting.png" width="500">  
+<img src="images/map-values.png" width="500">
 
 ## Next Steps
 
 Now that you have a working visual you can start customizing it and exploring the advanced features of Synoptic Panel. For example, you can:
 
-- Customize the visual appearance by changing the colors, the fonts, or the position and visibility of labels. See more in the [Options](../options/index) section.
+- Customize the visual appearance by changing the color, font, and position of labels. See more in the [Options](../options/index) section.
 
 - Add multiple levels to your visual to create a browsable hierarchy of maps. See more in the [Drill Mode](../features/drill-mode.md) section.
 
-- Connect the maps to a specific measure to create a dynamic map that changes based on the actual report filter. See more in the [Filtering Maps](../features/filtering-maps.md) section.
+- Connect the maps to a specific measure to create a dynamic visualization that changes based on the actual report filter. See more in the [Filtering Maps](../features/filtering-maps.md) section.
 
 - And much more!

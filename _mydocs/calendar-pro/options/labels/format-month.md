@@ -12,7 +12,7 @@ available:          Calendar Mode
 
 This option manages the format to be applied to month labels.
 
-Available options are:
+Available options:
 
 - **(Auto)**: The format is automatically selected based on the best format for months.
 - **Numeric (1)**: The month will be displayed as a number.

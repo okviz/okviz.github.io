@@ -9,5 +9,5 @@ toc_max:            2
 ---
 
 <todo visible>
-This page will describe a new dual licensing system we are working on. This system will allow users to use the <b>Microsoft ISV app licensing</b> or our <b>proprietary licensing</b>, which will be the preferred method for large organization or for embedded scenarios where the ISV app licensing is not available.
+This page will describe a new dual licensing system we are working on. This system will allow users to use the <b>Microsoft AppSource licensing</b> or our <b>proprietary licensing</b>, which will be the preferred method for large organization or for embedded scenarios where the Microsoft licensing is not available.
 </todo>

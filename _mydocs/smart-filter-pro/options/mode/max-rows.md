@@ -16,7 +16,7 @@ This option allows you to set the number of rows that the visual can retrieve fr
 
 Set to 0 to retrieve all the data available to the visual.
 
-> Note that it is not guaranteed to retrieve all the data available in the underlying dataset - in fact, there are some [limits set by Power BI](https://docs.microsoft.com/en-us/power-bi/developer/visuals/fetch-more-data#known-limitations-of-fetchmoredata) that cannot be exceeded: 
+> Note that it is not guaranteed to retrieve all the data available in the underlying dataset - in fact, there are some [limits set by Power BI](https://learn.microsoft.com/en-us/power-bi/developer/visuals/fetch-more-data#considerations-and-limitations) that cannot be exceeded: 
 - Dataset total row count is limited to **1,048,576 rows**.
 - Memory size is limited to **100 MB**.
 

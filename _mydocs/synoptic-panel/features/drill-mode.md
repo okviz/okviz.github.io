@@ -63,18 +63,18 @@ The current Drill Path is visible in the visual header (if not disabled), and kn
 
 Here is how the Drill Path is built:
 - **For each level of the hierarchy, except the last one:**
-    - If there are **multiple values** in the dataset at that level or the **Single Map Per Category** option (see below) is enabled, the name of the column, as defined in the dataset, is taken.
+    - If there are **multiple values** in the dataset at that level or the **Category Level Maps** option (see below) is enabled, the name of the column, as defined in the dataset, is taken.
     - If there is **only one value**, the value of the data point is taken. For example, if you drill down on a single data point, the path will take its value.
 
 - **For the last level of the hierarchy:**
-    - If the **Full Hierarchy Mapping** option (see below) is enabled, the behavior is the same as above.
+    - If the **Last Level Maps** option (see below) is enabled, the behavior is the same as above.
     - Otherwise, the name of the column, as defined in the dataset, is taken.
 
 > Note that renaming the columns in the visual data bucket won't affect the path.
 
-### The "Full Hierarchy Mapping" Option
+### "Last Level Maps" Option
 
-Synoptic Panel offers an advanced option called [Full Hierarchy Mapping](../options/advanced-settings/full-hierachy-mapping.md).
+Synoptic Panel offers an advanced option called [Last Level Maps](../options/drill-behavior/last-level-maps.md).
 
 You can associate a map with each value in every category within the hierarchy, except for the values at the last level, unless you select this option. If you select this option, you can also associate a map with the values at the last level. This allows you to view a map for specific values by applying a single filter to them.
 
@@ -84,15 +84,25 @@ You can associate a map with each value in every category within the hierarchy, 
 
 > In the scenario where there is only a single category in the dataset (a single level in the hierarchy), you can use this option to associate a map to each value of the category, and switch between them by applying a single filter on the category.
 
->> Be aware that changing the *Full Hierarchy Mapping* setting after maps have been associated may make some maps no longer reachable, as the Drill Path will be different. In this case, you can always manage the assigned maps through the [Map Manager](../features/map-manager.md).
+>> Be aware that changing the *Last Level Maps* setting after maps have been associated may make some maps no longer reachable, as the Drill Path will be different. In this case, you can always manage the assigned maps through the [Map Manager](../features/map-manager.md).
 
-### The "Single Map Per Category" Option
+### "Category Level Maps" Option
 
-Synoptic Panel offers an advanced option called [Single Map Per Category](../options/advanced-settings/single-map-per-category.md).
+Synoptic Panel offers an advanced option called [Category Level Maps](../options/drill-behavior/category-level.maps.md).
 
 When this option is active, you can't link maps to individual category values; instead, you can only have one map per category in the hierarchy. This is beneficial if you prefer to highlight selected data points within the category's map, rather than having a separate map for each data point, which is the default behavior when drilling down or applying a single filter to any level other than the first.
 
 <todo>Screencast to explain the concept</todo>
+
+
+### "Aggregate on Expand" Option
+
+Synoptic Panel offers an advanced option called [Aggregate on Expand](../options/drill-behavior/aggregate-on-expand.md).
+
+When this option is active (the default behavior), and you click on *Expand all down one level in the hierarchy*, the data points are aggregated. This significantly impacts data binding and could make Power BI conditional formatting not working. 
+
+If the option is disabled, the visual will display the data points as they are in the dataset, without aggregation. But this requires a hierarchical structure of the areas in the map to make the auto binding works. For more information, see [Data Binding](../concepts/data-binding.md#automatic-binding-when-hierarchy-is-expanded).
+
 
 ### Examples
 
@@ -116,14 +126,13 @@ The Drill Path will be different depending on the actions you perform:
 | &nbsp; &nbsp; or expand the fields;               |`Economy > Sector > Seat`                  |
 | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; then apply a single filter on **210**;|`Economy > 210 > Seat`|
 | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; then apply a filter on **SPH00847**,|`Economy > 210 > Seat`|
-| &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; or apply a filter on **SPH00847**
-<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; with **Full Hierarchy Mapping**.|`Economy > 210 > SPH00847`|
+| &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; or apply the same filter with **Last Level Maps**.|`Economy > 210 > SPH00847`|
 |Expand fields for a single level;                  |`Category > Sector`                        |
 | &nbsp; &nbsp; then drill down on the **404** sector.|`Regular > 404 > Seat`                   |
 |Expand all fields from the top.                    |`Category > Sector > Seat`                 |
 
-## Auto-fetch Mode
+## Auto-Fetch Mode
 
-<todo visible>The Autofetch mode is a feature that allows you to automatically fetch maps for each level of the hierarchy. This feature is particularly useful when you have a large number of maps to import and you want to avoid the manual process of importing them one by one. 
+<todo visible>The Auto-Fetch mode is a feature that allows you to automatically fetch maps for each level of the hierarchy. This feature is particularly useful when you have a large number of maps to import and you want to avoid the manual process of importing them one by one. 
 
 When this mode is enabled, Synoptic Panel will automatically fetch the maps for each level of the hierarchy based on the data in the dataset. The visual will display the maps as you navigate through the data hierarchy, without the need to import them manually.</todo>   

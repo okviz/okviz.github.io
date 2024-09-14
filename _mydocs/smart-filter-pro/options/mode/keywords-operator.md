@@ -45,6 +45,6 @@ You see that the logical operator OR satisfies either of the specified filter co
 ## Interactive
 
 The ***Interactive*** option lets you switch between the AND and OR operators in the visual interactively.
-If you choose ***Interactive***, in fact, a special toggle is displayed in the input box to choose and switch from one operator to another even in [Reading view](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-reading-view#reading-view). This means that not only the report designer can change the operator but also the end-users.
+If you choose ***Interactive***, in fact, a special toggle is displayed in the input box to choose and switch from one operator to another even in [Reading View](../../../glossary.md#reading-and-editing-view). This means that not only the report designer can change the operator but also the end-users.
 
 <img src="images/keywords-op-4.png" width="700">

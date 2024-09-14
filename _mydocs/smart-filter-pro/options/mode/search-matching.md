@@ -40,7 +40,7 @@ For instance, in the above example where the keyword `audio` is specified in the
 
 ## Interactive
 
-If you choose ***Interactive*** as matching method, a toggle is displayed in the search box to switch from one mode to another even in [Reading view](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-reading-view#reading-view). This means that not only the report designer can change the matching but also the end users.  
+If you choose ***Interactive*** as matching method, a toggle is displayed in the search box to switch from one mode to another even in [Reading View](../../../glossary.md#reading-and-editing-view). This means that not only the report designer can change the matching but also the end users.  
 Moreover, the toggle shows a hover tooltip with a summary of the syntax you can use in both modes.
 
 <img src="images/matching-3.png" width="600">

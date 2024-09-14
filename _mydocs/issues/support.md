@@ -18,7 +18,7 @@ To report a bug with OKVIZ visuals, please follow the directions below:
 
 3. Include a sample report file that reproduces the issue. If your report contains private data or you cannot share it publicly for any reason, please **recreate it with dummy data**.
 
-> **IMPORTANT**: We cannot guarantee bug fixes without a sample file!
+>> **IMPORTANT**: We cannot guarantee bug fixes without a sample file!
 
 ### Issues Pages
 

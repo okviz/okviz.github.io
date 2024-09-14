@@ -13,7 +13,7 @@ related:
 
 This option manages the format to be applied to group title when the granularity is set to *year*.
 
-Available options are:
+Available options:
 - **(Auto)**: The visual will automatically choose the best format for years.
 - **Numeric (2021)**: The year will be displayed as a number.
 - **2-digit (21)**: The year will be displayed as a 2-digit number.

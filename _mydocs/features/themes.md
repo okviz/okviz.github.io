@@ -9,7 +9,7 @@ modified:           2022-07-16
 order:              /02/report-themes
 ---
 
-Power BI offers a system that you can use to easily share and apply a theme to multiple reports. This feature is fully documented here: [Use report themes in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-report-themes)
+Power BI offers a system that you can use to easily share and apply a theme to multiple reports. This feature is fully documented here: [Use report themes in Power BI Desktop](https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-report-themes#report-theme-json-file-format)
 
 <img src="images/report-themes.png" width="350" class="fr">
 

@@ -187,4 +187,4 @@ Moreover, loading many items in the visual increases the memory consumed, potent
 
 ## No Data Limits
 
-Another benefit of Filter mode is that there are no limits on the volume of the dataset it can filter. That's because it doesn't load data into memory and, therefore, the common [limits set by Power BI](https://docs.microsoft.com/en-us/power-bi/developer/visuals/fetch-more-data#known-limitations-of-fetchmoredata) don't apply here. The other modes (except Search mode), on the other hand, cannot load more than **1,048,576 rows** and cannot exceed more than **100 MB of memory**.
+Another benefit of Filter mode is that there are no limits on the volume of the dataset it can filter. That's because it doesn't load data into memory and, therefore, the common [limits set by Power BI](https://learn.microsoft.com/en-us/power-bi/developer/visuals/fetch-more-data#considerations-and-limitations) don't apply here. The other modes (except Search mode), on the other hand, cannot load more than **1,048,576 rows** and cannot exceed more than **100 MB of memory**.

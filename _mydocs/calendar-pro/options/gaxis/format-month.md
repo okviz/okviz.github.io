@@ -13,7 +13,7 @@ related:
 
 This option manages the format to be applied to group title when the granularity is set to *month*.
 
-Available options are:
+Available options:
 
 - **(Auto)**: The visual will automatically choose the best format for months.
 - **Numeric (1)**: The month will be displayed as a number.

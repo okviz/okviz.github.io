@@ -34,7 +34,7 @@ Power BI sets some limitations to ensure user safety and avoid data breaches:
 
 Custom visuals work like core visuals; to use one you just have to drag and drop them from the ***Visualizations*** panel into your report canvas, connect some data and start using them.
 
-Here is an handy guide from Microsoft: [Add visuals to a Power BI report](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-report-add-visualizations-i)
+Here is an handy guide from Microsoft: [Add visuals to a Power BI report](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-report-add-visualizations-i)
 
 
 ## History of Custom Visuals

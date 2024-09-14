@@ -30,7 +30,7 @@ The example above shows the source code of an SVG image: in fact, Synoptic Panel
 
 > There are some rules and conventions that govern the assignment of the identifier and which are the elements that can be promoted as areas. For more information, see [SVG Format](./maps/svg-format#id-attribute).
 
-However, it is not recommended to make this editing manually, as it can lead to errors. Instead, you can use graphics editors such as *Adobe Illustrator* or *Inkscape* to do this job. It's also possible to use Synoptic Panel's Map Editor ([see below](#manual-binding)) to bind elements to data points, bypassing the need to assign identifiers.
+However, it is not recommended to make this editing manually, as it can lead to errors. Instead, you can use graphic editors such as *Adobe Illustrator* or *Inkscape* to do this job. It's also possible to use Synoptic Panel's Map Editor ([see below](#manual-binding)) to bind elements to data points, bypassing the need to assign identifiers.
 
 
 ## Linking Areas to Data 
@@ -56,6 +56,10 @@ Matching is done according to the following rules:
     </figcaption>
 </figure>
 
+#### Automatic Binding when Hierarchy is Expanded
+
+<todo visible>How automatic binding works when the hierarchy is expanded explanation.</todo>
+
 ### Manual Binding
 
 When automatic binding is not possible or not desired, you can manually bind areas to data points. This can be done through Synoptic Panel's Map Editor, which allows you to select each map element and link it to a specific value of the ***Categories*** column. When this is done, the status of the target area is set to **"Strong Matched"**, and it takes precedence over automatic binding.
@@ -67,6 +71,7 @@ When automatic binding is not possible or not desired, you can manually bind are
 Another way to manually bind areas is to edit the SVG file directly. This is useful, for example, when the column values contain invalid characters as XML ID. In such cases, a `data-okviz-strong` attribute can be added to the SVG element (see more on [SVG Format](./maps/svg-format#custom-attributes)); the value of the attribute must match the data point value according to the same rules as for automatic binding.
 
 <todo>Example of code and screenshot</todo>
+
 
 #### Linking Multiple Areas to the Same Data Point
 

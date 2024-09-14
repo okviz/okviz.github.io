@@ -13,7 +13,7 @@ related:
 
 This option manages the format to be applied to group title when the granularity is set to *quarter*.
 
-Available options are:
+Available options:
 - **(Auto)**: The visual will automatically choose the best format for quarters.
 - **Numeric (Q1)**: The quarter will be displayed as a number.
 - **Numeric + year (Q1 2021)**: The quarter will be displayed as a number followed by the year.

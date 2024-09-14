@@ -18,4 +18,4 @@ You can enrich the content of the tooltips by connecting different measures to t
 
 <img src="images/appearance-tooltips2.png" width="550"> 
 
-> For more information, see this article: [Customize tooltips in Power BI](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-custom-tooltips)
+> For more information, see this article: [Customize tooltips in Power BI](https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-custom-tooltips)

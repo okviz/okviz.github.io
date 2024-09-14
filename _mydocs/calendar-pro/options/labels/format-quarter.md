@@ -12,7 +12,7 @@ available:          Calendar Mode
 
 This option manages the format to be applied to quarter labels.
 
-Available options are:
+Available options:
 
 - **(Auto)**: The format is automatically determined based on the best format for quarters.
 - **Numeric (Q1)**: The quarter is displayed as a number (Q1).

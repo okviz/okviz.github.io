@@ -11,7 +11,7 @@ internal:           filter, filterChart
 
 This option allows you to filter the calendar according dynamic criteria. 
 
-Available options are:
+Available options:
 - **(Don't filter)**
 - **Last year**
 - **First year**

@@ -13,7 +13,7 @@ The Power BI Organizational Store is the best way to share custom visuals within
 
 <img src="images/org-store.png">
 
-> To manage the Org Store you need to be a Power BI administrator, but everyone in your organization can use visuals stored there without special rights. Find out more here: [Using organization custom visuals in Power BI](https://docs.microsoft.com/en-us/power-bi/developer/visuals/power-bi-custom-visuals-organization)
+> To manage the Org Store you need to be a Power BI administrator, but everyone in your organization can use visuals stored there without special rights. Find out more here: [Using organization custom visuals in Power BI](https://learn.microsoft.com/en-us/power-bi/developer/visuals/power-bi-custom-visuals-organization)
 
 There are two main benefits in using the Org Store:
 
