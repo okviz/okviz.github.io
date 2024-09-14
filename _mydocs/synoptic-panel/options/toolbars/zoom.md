@@ -6,7 +6,7 @@ date:               2024-09-14
 modified:           2024-09-14
 order:              /synoptic-panel/options/toolbars/zoom
 ---
-**Default value:** #On
+**Default value:** On
 
 This section provides options for configuring the zoom controls.
 
