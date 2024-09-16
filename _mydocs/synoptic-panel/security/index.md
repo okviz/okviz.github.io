@@ -50,9 +50,12 @@ During this communication, the visual sends and logs the following data:
 To ensure that Synoptic Panel works correctly, if you have a corporate firewall that blocks outbound connections, you need to whitelist these URLs:
 
 - `https://api.okviz.com`
-- `https://us.synopticpanel-api.okviz.com` *(for users in the US)*
-- `https://eu.synopticpanel-api.okviz.com` *(for users in Europe)*
-- `https://au.synopticpanel-api.okviz.com` *(for users in Australia)*
+
+According to the region where you activated the license, one of the following URLs is also required:
+
+- `https://us.synopticpanel-api.okviz.com`
+- `https://eu.synopticpanel-api.okviz.com`
+- `https://au.synopticpanel-api.okviz.com`
 
 
 ### My Storage
