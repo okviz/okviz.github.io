@@ -31,7 +31,7 @@ Available options:
 
 - **Element Id**: The visual will display the element id of the matched element as defined in the SVG file.
 
-## Custom Value
+## Custom Value
 
 **Default value**: (Empty)
 

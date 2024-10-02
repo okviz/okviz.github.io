@@ -29,7 +29,7 @@ Show a dropdown to select the map to display. This option only affects [Reading 
 
 When this option is disabled, the map may display the map title as defined in the [Map Title](../appearance/map-title.md) option.
 
-## Top Margin
+## Top Margin
 
 **Default value:** 0px
 

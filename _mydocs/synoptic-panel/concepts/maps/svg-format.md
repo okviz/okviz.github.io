@@ -3,7 +3,7 @@ layout:             page
 title:              SVG Format
 published:          true
 date:               2024-05-10
-modified:           2024-06-12
+modified:           2024-10-02
 order:              /synoptic-panel/concepts/maps/01
 next_reading:       true
 ---
@@ -64,8 +64,6 @@ table th:nth-of-type(2) { /* Target */
 |---                        |---                    |---|
 |`data-okviz-unbound`       |Any shape or group     |*(Boolean)* Excludes the element from the [Data Binding](../data-binding.md).|
 |`data-okviz-strong`        |Any shape or group     |*(String)* Forces the element to bind to a specific data point, regardless of its id. See [Data Binding](../data-binding.md).|
-|`data-okviz-cat-label`     |Any shape or group     |*(String)* It is used to designate the element to display the data point name when [category labels](../../features/data-labels.md) are enabled. The value of the attribute must match the data point following the same rules as the `id`. |
-|`data-okviz-data-label`    |Any shape or group     |*(String)* It is used to designate the element to display the data point value when [data labels](../../features/data-labels.md) are enabled. The value of the attribute must match the data point following the same rules as the `id`.|
 |`data-okviz-drill-url`     |Any area               |*(String)* It must contain the URL of a remote SVG map. With this attribute you can automatically load a different remote map when drilling down on the area. More on the [Drill Mode](../../features/drill-mode.md) section.|
 |`data-okviz-link-url`      |Any shape              |*(String)* It must contain a remote URL. By clicking a shape with this attribute, you navigate to the URL defined there. |
 |`data-okviz-svg-author`    |`<svg>`                |*(String)* It is used to show the map author name in the visual.|
@@ -73,18 +71,14 @@ table th:nth-of-type(2) { /* Target */
 |`data-okviz-autofetch`     |`<svg>`                |*(String or Boolean)* Enables the [Auto-Fetch mode](../../features/drill-mode.md#auto-fetch-mode) on the specified attribute. When it is `true`, it means that the `id` will be used.|
 |`data-okviz-no-labels`     |`<svg>` or any area    |*(Boolean)* Turn off all map labels or the labels on the target area.|   
 
-<todo>Area type</todo>
-<todo>Specific format attributes</todo>
-
 Example:
 
 ```svg
 <!-- A sample SVG with a custom attribute -->
-<svg data-okviz-svg-copyright="Copyright OKVIZ">
+<svg data-okviz-svg-attribution="Copyright OKVIZ">
   <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
 </svg>
 ```
-<todo>FIX screenshot as it reports the old "Title" attribute</todo>
 <img src="images/svg-title-attribute.png" width="600">
 
 ## Unsupported Elements and Attributes

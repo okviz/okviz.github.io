@@ -88,7 +88,7 @@ You can associate a map with each value in every category within the hierarchy, 
 
 ### "Category Level Maps" Option
 
-Synoptic Panel offers an advanced option called [Category Level Maps](../options/drill-behavior/category-level.maps.md).
+Synoptic Panel offers an advanced option called [Category Level Maps](../options/drill-behavior/category-level-maps.md).
 
 When this option is active, you can't link maps to individual category values; instead, you can only have one map per category in the hierarchy. This is beneficial if you prefer to highlight selected data points within the category's map, rather than having a separate map for each data point, which is the default behavior when drilling down or applying a single filter to any level other than the first.
 

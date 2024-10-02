@@ -1,34 +1,44 @@
 ---
 layout:             page
-title:              Importing Multiple Maps
-menu_title:         Importing Maps
+title:              Importing Maps
 published:          true
 date:               2024-05-26
-modified:           2024-05-29
+modified:           2024-10-02
 order:              /synoptic-panel/features/importing
 ---
 
-Synoptic Panel allows you to import multiple maps at once. This feature is particularly useful when you have hundreds or thousands of maps to import and you want to save time.
+Synoptic Panel allows you to import multiple maps at once. 
 
-> Note that this feature is intended to be used with remote maps only; to import multiple local maps at once you can simply select multiple files in the file picker dialog.
 
-<todo>Add notice regarding the Lite version</todo>
+## How to Import Local Maps
 
-## How to Import Multiple Maps
+<todo>Explains how to import multiple local maps</todo>
 
-To import multiple maps into Synoptic Panel, follow these steps:
+## How to Import a Remote Map
+
+<todo>Explains how to import a map</todo>
+
+
+## How to Import Multiple Remote Maps with a JSON File
+
+<todo>Restructure</todo>
+
+>> Synoptic Panel Lite does not support this feature. To use it, you need to upgrade to the [full version](../versions/index.md).
+
+To import multiple remote maps into Synoptic Panel, follow these steps:
 
 1. Add the visual to your report as specified in the [Getting Started](../get-started/index.md) section.
 
 2. Click ***+ Add Map*** and select the ***Import URLs*** element.
 
+    <todo>Update the image to include</todo>
     <img src="images/import-urls.png" width="200">
 
     If you have already loaded a map, you can click the ***+ Add*** button in the Map Editor dialog.
 
 3. Select the JSON file containing the list of maps you want to import (see below).
 
-## Import File Specifications
+### Import File Specifications
 
 To automatically import multiple maps in Synoptic Panel, you need to provide a JSON file containing a list of map URLs, plus some additional information for each file. The JSON must have the following structure:
 
@@ -60,3 +70,9 @@ Here is a description of the fields:
 
     > Note the Drill Path is displayed as a breadcrumb in the visual header. To define the `drillPath` value for the import file, you need to concatenate the single elements of the breadcrumb in the same order as they appear in the visual.  
     E.g. `Category > Sector` becomes `["Category", "Sector"]`.
+
+<todo>Provide a sample JSON file with links to our Github repo base on Synoptic Panel tour</todo>
+
+##  How to Import My Storage Maps
+
+<todo>Explains how to import a map + link to  My Storage page</todo>
