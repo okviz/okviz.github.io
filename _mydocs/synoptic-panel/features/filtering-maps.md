@@ -26,7 +26,7 @@ Synoptic Panel accepts a DAX measure in the **Map Selector** data role.
 
 <img src="images/map-selector-role.png" width="200">
 
-This measure should return a string consisting in the concatenation of reference values that will be associated to the maps you want to display. Internally, this string is split into individual references, using a [separator character](../options/advanced-options/map-selector-separator.md) as defined in the visual settings.
+This measure should return a string consisting in the concatenation of reference values that will be associated to the maps you want to display. Internally, this string is split into individual references, using a [separator character](../options/advanced-options/map-selector.md#separator) as defined in the visual settings.
 
 For each map imported into Synoptic Panel, you can assign one of the references from the map selector using the [Map Editor](map-editor.md), or directly in the JSON file when [importing multiple remote maps](importing.md). 
 
@@ -78,7 +78,7 @@ SelectedOffices =
 In this example, the map selector measure returns a string with the names of the offices currently selected, separated by the character <span style="font-size:20px">✄</span>. 
 
 Change the table and column names according to your dataset.
->> **Important**: The separator character must be the same as the one defined in the visual setting [Map Selector Separator](../options/advanced-options/map-selector-separator.md). 
+>> **Important**: The separator character must be the same as the one defined in the visual setting [Map Selector Separator](../options/advanced-options/map-selector.md#separator). 
 
 ### Assigning References to Maps
 
@@ -109,7 +109,7 @@ Another way to change maps based on a filter is to using the **Map URLs** data r
 
 <todo>Screencast of map URLs</todo>
 
->> **Important**: The URLs must be publicly accessible, as the visual will load the maps directly from the web using the client browser. See the [Maps Location \ Remote Maps](maps-location/remote.md) section for more information.
+>> **Important**: The URLs must be publicly accessible, as the visual will load the maps directly from the web using the client browser. See the [Importing Maps](importing.md) section for more information.
 
 Unfortunately, since the Map URLs feature causes a data aggregation on the client side, some limitations apply:
 - Drill mode is disabled

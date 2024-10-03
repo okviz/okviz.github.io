@@ -8,13 +8,13 @@ order:              /synoptic-panel/{97}
 ---
 Synoptic Panel uses the latest technologies available and is updated regularly. It does not contain malicious or unsafe code.
 
-According to the version of the visual you are using, there are some differences in the security and privacy aspects. For more information on the available versions, see [Versions](versions/index.md).
+According to the version of the visual you are using, there are some differences in the security and privacy aspects. For more information on the available versions, see [Versions](../versions/index.md).
 
 ## Synoptic Panel v2
 
 ### Certification
 
-The [Power BI certification program](../get-started/certification.md) guarantees that custom visuals are safe.
+The [Power BI certification program](../../get-started/certification.md) guarantees that custom visuals are safe.
 
 **Most of OKVIZ visuals are certified, but not Synoptic Panel.**
 
@@ -24,7 +24,7 @@ How come? Does it mean that Synoptic Panel is not safe or we want to keep our so
 
 2. **We allow users to use remote maps** (either from the Internet, from their private hosting or from our provided storage); unfortunately, this is not allowed by the certification requirements. 
 
->> Note that Synoptic Panel can also display maps stored locally, but since this option [can cause performance issues](./concepts/data-limitations.md) depending on the size of the maps, we do not recommend it for large maps. As a result, we are committed to providing the best possible experience for our users, which is why we have chosen to allow remote maps.
+>> Note that Synoptic Panel can also display maps stored locally, but since this option can cause performance issues depending on the size of the maps, [we do not recommend it](../concepts/best-practices.md) for large maps. As a result, we are committed to providing the best possible experience for our users, which is why we have chosen to allow remote maps.
 
 ### Data Sent over the Internet
 
@@ -71,7 +71,7 @@ Synoptic Panel Lite is available from the AppSource marketplace only and it does
 
 ### Certification
 
-Synoptic Panel Lite is [certified by Microsoft](../get-started/certification.md).
+Synoptic Panel Lite is [certified by Microsoft](../../get-started/certification.md).
 
 
 ### Data Sent over the Internet

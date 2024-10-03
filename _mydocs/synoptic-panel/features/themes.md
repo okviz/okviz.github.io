@@ -12,9 +12,9 @@ Assuming you are setting up a custom JSON theme file ([as described here](https:
 
 | Property | Theme Color |
 | -------- | ----------- |
-| [Category Labels Color](../options/category-labels/color.md)| foreground |
-| [Data Labels Color](../options/data-labels/color.md)        | foreground |
-| [Data Colors - Matched color](../options/areas/index)       | dataColors (first color) |
-| [Data Colors - Unmatched color](../options/areas/index)     | dataColors (second color) |
-| [Data Colors - Unbound color](../options/areas/index)       | dataColors (third color) |
-| [Legend Color](../options/legend/color.md)                  | foreground |
+| [Category Labels Color](../options/category-labels/matched.md#color)| foreground |
+| [Data Labels Color](../options/data-labels/color.md#color)        | foreground |
+| [Data Colors - Matched color](../options/areas/matched.md#color)       | dataColors (first color) |
+| [Data Colors - Unmatched color](../options/areas/unmatched.md#color)     | dataColors (second color) |
+| [Data Colors - Unbound color](../options/areas/unbound.md#color)       | dataColors (third color) |
+| [Legend Color](../options/legend/text.md#color)                  | foreground |

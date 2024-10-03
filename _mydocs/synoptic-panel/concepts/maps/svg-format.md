@@ -50,7 +50,7 @@ Note that:
 
 Here is a list of custom SVG attributes supported by Synoptic Panel. 
 
-Note that most of these attributes have an equivalent setting in the visual interface, but using the custom attribute can save time and avoid errors, especially when using [remote maps](../../features/maps-location/remote.md) or generating maps programmatically. Also, **custom attributes have precedence over the visual settings**.
+Note that most of these attributes have an equivalent setting in the visual interface, but using the custom attribute can save time and avoid errors, especially when using remote maps or generating maps programmatically. Also, **custom attributes have precedence over the visual settings**.
 
 <style>
 table td:first-of-type code { /* Attribute */

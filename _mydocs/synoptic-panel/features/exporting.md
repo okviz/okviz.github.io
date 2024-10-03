@@ -15,7 +15,7 @@ This is a feature of Power BI that allows you to export your report to a PDF or 
 
 <img src="../../issues/images/not-support-exporting.png" width="350">
 
-You can find out what it means here: [Synoptic Panel Certification](../security.md#certification)
+You can find out what it means here: [Synoptic Panel Certification](../security/index.md#certification)
 
 ### Exporting Maps to SVG, JSVG or CSV
 

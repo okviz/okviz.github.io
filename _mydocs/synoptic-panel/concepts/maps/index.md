@@ -30,7 +30,7 @@ For more technical details on this format and the custom attributes supported by
 
 ### JSVG
 
-By using Synoptic Panel's [My Storage](../../features/maps-location/my-storage.md) feature, you may notice that the maps are stored on our servers in a custom format called JSVG (JSON SVG). This format is a JSON representation of the map, which encapsulate the original SVG file and includes the data binding configuration for each area along with additional rendering information.
+By using Synoptic Panel's [My Storage](../../features/my-storage.md) feature, you may notice that the maps are stored on our servers in a custom format called JSVG (JSON SVG). This format is a JSON representation of the map, which encapsulate the original SVG file and includes the data binding configuration for each area along with additional rendering information.
 
 ```json
 {

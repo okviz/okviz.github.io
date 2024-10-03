@@ -21,6 +21,6 @@ Synoptic Panel is available in three different versions:
 
 - **Synoptic Panel Lite**: A simplified, limited version of the v2 which is certified by Microsoft.
 
-For more information about the different versions, see the [Versions page](versions.md).
+For more information about the different versions, see the [Versions page](versions/index.md).
 
 >> **IMPORTANT**: The documentation on this site refers to the latest version of Synoptic Panel (v2) unless otherwise specified. If you are still using the original version (v1), we recommend upgrading to the latest version to take advantage of the new features and improvements.
