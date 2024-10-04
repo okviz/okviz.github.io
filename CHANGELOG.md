@@ -1,5 +1,10 @@
 # Docs0 Changelog
 
+## 1.1.0 (2024-10-04)
+- Change icons
+- Reduce search index size
+- Allow site-wide pdf generation
+
 ## 1.0.9 (2024-09-24)
 - Allow to generate PDFs from pages
 - Fix search index with special characters

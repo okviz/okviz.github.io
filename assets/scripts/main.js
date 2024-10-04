@@ -172,7 +172,8 @@ if (navElement) {
             snapOffset: 70,
             cursor: "ew-resize",
             onDragEnd: function (sizes) {
-                localStorage.setItem(storage, JSON.stringify(sizes))
+                localStorage.setItem(storage, JSON.stringify(sizes));
+                menuElement.classList.toggle("collapsed", sizes[0] < 10);
             }
         });
 
