@@ -1,6 +1,7 @@
 ---
 layout:             page
 title:              Free Visuals
+menu_title:         – Free Visuals
 published:          true
 date:               2022-07-13
 modified:           2024-05-27

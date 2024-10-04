@@ -47,8 +47,6 @@ In some cases, when, for example, you cannot share reports with us and cannot re
 
 4. Be sure to clear all filters from the console by clicking the drop-down menu next to the filter input box.
 
-    <img src="images/filter-console.png" width="300">
-
 5. Right-click on the empty space of the console panel and choose **Save as...**
 
     <img src="images/save-console.png" width="650">
