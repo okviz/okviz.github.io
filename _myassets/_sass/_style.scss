@@ -1,4 +1,10 @@
 // Put your custom styles here
+
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@500..900&display=swap');
+* {
+    --title-font: "Albert Sans", system-ui;
+}
+
 table {
     code {
         white-space: nowrap !important;
