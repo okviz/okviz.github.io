@@ -3,7 +3,7 @@ layout:             page
 title:              Glossary
 published:          true
 date:               2024-05-12
-modified:           2024-05-12
+modified:           2024-10-05
 order:              /{99}
 ---
 
@@ -13,7 +13,7 @@ This glossary contains definitions of uncommon terms used in this documentation 
 
 AppSource is Microsoft's marketplace for business applications, including Power BI visuals. You can find and install custom visuals from AppSource directly into your Power BI reports.
 
-## Binding (or Bind)
+## Binding, Bind
 
 Binding is the process of connecting a column of data or a measure from your dataset to a visual with a specific role. For example, you can bind a column of sales data to a visual's "Values" role to declare that the visual should display the sales data. A synonym for binding is "connecting" or "linking".
 
@@ -30,11 +30,9 @@ In Power BI, a "data point" refers to an individual value or item of data extrac
 
 In the context of Synoptic Panel, a map is an image that can be used to visualize and represent data dynamically. These are not limited to geographical maps but can include a variety of other visual representations such as floor plans, city layouts, machine schematics, or anatomical diagrams of the human body. See also [What are Maps?](./synoptic-panel/concepts/maps/index.md)
 
-## Visual and Custom Visual
+## Organizational Store, Org Store, OCV
 
-A visual is a graphical representation of data. In Power BI, visuals are the building blocks of reports and dashboards. They can be charts, tables, maps, or custom visuals.
-
-A custom visual is a visual that is not included in the default set of visuals provided by Power BI. Custom visuals can be created by third-party developers or by the Power BI community. OKVIZ visuals are examples of custom visuals. See also [Custom Visuals](./get-started/custom-visuals.md).
+The Organizational Store is a feature of Power BI that allows organizations to distribute custom visuals to their users. This is a private repository where organizations can upload and share custom visuals with their users. See  [Power BI Organizational Store](./get-started/org-store.md) for more information.
 
 ## Reading and Editing View
 
@@ -43,3 +41,9 @@ Reading View is a Power BI feature that allows you to view and interact with rep
 You are in Reading View when you open a report in Power BI Service. When you click on "Edit", you switch to Editing View. Power BI Desktop has only one view, which is the Editing View.
 
 See also [Reading View](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-reading-view#reading-view) docs.
+
+## Visual and Custom Visual
+
+A visual is a graphical representation of data. In Power BI, visuals are the building blocks of reports and dashboards. They can be charts, tables, maps, or custom visuals.
+
+A custom visual is a visual that is not included in the default set of visuals provided by Power BI. Custom visuals can be created by third-party developers or by the Power BI community. OKVIZ visuals are examples of custom visuals. See also [Custom Visuals](./get-started/custom-visuals.md).

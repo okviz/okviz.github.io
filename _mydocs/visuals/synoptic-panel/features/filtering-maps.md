@@ -113,7 +113,7 @@ Another way to change maps based on a filter is to using the **Map URLs** data r
 
 Unfortunately, since the Map URLs feature causes a data aggregation on the client side, some limitations apply:
 - Drill mode is disabled
-- Conditional formatting is disabled. Instead, you can use the [OKVIZ color rules](color-rules.md), but these are limited compared to the built-in Power BI conditional formatting.
+- Conditional formatting is disabled. Instead, you can use the OKVIZ color rules, but these are limited compared to the built-in Power BI conditional formatting. For more information, see the [Dynamic Areas Colors](dynamic-colors.md) section.
 - Auto-fetching is disabled
 - The map selector is disabled
 
