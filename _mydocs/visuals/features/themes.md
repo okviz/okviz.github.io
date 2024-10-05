@@ -5,7 +5,7 @@ menu_title:         Report Themes
 next_title:         Report Themes
 published:          true
 date:               2022-07-14
-modified:           2022-07-16
+modified:           2024-10-05
 order:              /02/report-themes
 ---
 
@@ -24,4 +24,5 @@ The following OKVIZ visuals support report theme colors - click the links below 
 - [Report Themes with Bullet Chart](../bullet-chart/features/themes.md)
 - [Report Themes with Calendar Pro](../calendar-pro/features/themes.md)
 - [Report Themes with Smart Filter Pro](../smart-filter-pro/features/themes.md)
+- [Report Themes with Synoptic Panel](../synoptic-panel/features/themes.md)
 
