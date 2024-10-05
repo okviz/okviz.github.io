@@ -2,7 +2,7 @@
 layout:         page
 title:          OKVIZ Website
 menu_title:     Website
-published:      true
+published:      false
 date:           2024-10-04
 modified:       2024-10-04
 order:          /website

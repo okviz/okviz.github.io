@@ -3,27 +3,30 @@ layout:             page
 title:              Importing Maps
 published:          true
 date:               2024-05-26
-modified:           2024-10-02
+modified:           2024-10-04
 order:              /synoptic-panel/features/importing
 ---
 
 Synoptic Panel allows you to import multiple maps at once. 
 
 
-## How to Import Local Maps
+## Import Local Maps
 
 <todo>Explains how to import multiple local maps</todo>
 
-## How to Import a Remote Map
+>> Note that [Synoptic Panel with free license](../versions/index.md) has a limit of 1 local map per visual.
+
+## Import a Remote Map
 
 <todo>Explains how to import a map</todo>
 
+>> Note that [Synoptic Panel Lite](../versions/index.md) does not support this feature.
 
-## How to Import Multiple Remote Maps with a JSON File
+## Import Remote Maps from a JSON File
 
 <todo>Restructure</todo>
 
->> Synoptic Panel Lite does not support this feature. To use it, you need to upgrade to the [full version](../versions/index.md).
+>> Note that [Synoptic Panel Lite](../versions/index.md) does not support this feature.
 
 To import multiple remote maps into Synoptic Panel, follow these steps:
 
@@ -73,6 +76,8 @@ Here is a description of the fields:
 
 <todo>Provide a sample JSON file with links to our Github repo base on Synoptic Panel tour</todo>
 
-##  How to Import My Storage Maps
+##  Import My Storage Maps
 
 <todo>Explains how to import a map + link to  My Storage page</todo>
+
+>> Note that only [Synoptic Panel with OKVIZ license](../versions/index.md) supports this feature.
