@@ -1,30 +1,25 @@
 ---
 layout:             page
-title:              Color Rules
+title:              OKVIZ Color Rules
+menu_title:         Color Rules
 published:          true
 date:               2022-07-14
-modified:           2024-05-15
+modified:           2024-10-05
 order:              /02/color-rules        
 ---
-This section describes how to manage the color rules.
+OKVIZ visuals allow you to change the color of the visual elements dynamically based on the data values. This feature is useful when you want to highlight specific elements based on the data values.
 
-<todo>What are color rules? How they override the visual colors?</todo>
+When the Power BI conditional formatting cannot be used, for example because a data aggregation is made by the visual itself, OKVIZ visuals provide advanced color rules to change the color of the visual elements based on the data values.
 
-To manage the color rules, click on the editing button in the UI:
+When the color rules are available, you can find a dedicated button in the visual canvas, usually in the lower part of the visual:
 
-<todo>Retake the screenshot</todo>
 <img src="images/editing-color-rules.png" width="500" alt="Editing color rules in Calendar pro">
 
-## Managing color rules: rules types
-The first applied color rule is partially locked and can not allow you the maximum personalization.
+You can define two types of color rules: 
+- Conditional Rules
+- Color Scale Rules
 
-So, to manage color rules, you need to add a new rule by clicking on **Add rule**.
-
-Calendar Pro allows you to select among two different types of rules:
-- One based on conditions.
-- One based on the color scale.
-
-### Conditional rules
+## Conditional Rules
 In the cases you want to display a color for a particular value, you can use the conditional rule.
 
 For example, suppose you want to color the cells that present a sales amount greater than 20k. You can impose a condition like the following:
@@ -35,7 +30,7 @@ And the result is:
 
 <img src="images/conditional-rule-result.png" width="600" alt="A conditional rule">
 
-### Color scale rules
+## Color Scale Rules
 The color scale rule allows for different levels of customization.
 
 <img src="images/color-scale-rule.png" width="500" alt="The color scale rule">
@@ -67,7 +62,7 @@ For example, consider the following rule:
 
 This results in:
 
-<todo>Retake the screenshot - the trasparent rule is not clear - show multiple rules</todo>
+<todo>Retake the screenshot - the transparent rule is not clear - show multiple rules</todo>
 <img src="images/setting-ranges-result.png" width="600" alt="Setting color ranges">
 
 > **NOTE**: The use of the **Value** or **Percentage** parameters can be mixed together at will.

@@ -1,7 +1,6 @@
 ---
 layout:             page
-title:              Power BI Custom Visuals
-menu_title:         Custom Visuals
+title:              Custom Visuals
 published:          true
 date:               2021-12-14
 modified:           2024-05-11
