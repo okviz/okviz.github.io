@@ -62,10 +62,10 @@ By using Synoptic Panel's [My Storage](../../features/my-storage.md) feature, yo
     // Elements coordinates
     "mapRects": {
         "sphere": {
-            "x": 1325.68994140625,
-            "y": 1069.68994140625,
-            "width": 5539.6201171875,
-            "height": 5539.6201171875
+            "x": 1325.68,
+            "y": 1069.68,
+            "width": 5539.62,
+            "height": 5539.62
         },
         ... // More rects
     }
