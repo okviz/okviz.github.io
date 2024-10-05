@@ -3,7 +3,7 @@ layout:             page
 title:              Security & Privacy
 published:          true
 date:               2024-05-10
-modified:           2024-09-12
+modified:           2024-10-05
 order:              /synoptic-panel/{97}
 ---
 Synoptic Panel uses the latest technologies available and is updated regularly. It does not contain malicious or unsafe code.
@@ -35,6 +35,7 @@ However, it periodically communicate with external services to check the current
 During this communication, the visual sends and logs the following data:
 
 - **Timestamp**: The date and time when the visual is used.
+- **Visual Version**: The version of the visual that is used.
 
 (In case you activated the visual through AppSource)
 - **Entra Tenant ID**: The ID of the tenant where the visual is used.
