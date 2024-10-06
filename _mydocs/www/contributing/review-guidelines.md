@@ -195,7 +195,7 @@ Use this checklist to verify that all guidelines have been followed:
 - [ ] **Core Features:** Discuss the unique features of the visual.
 - [ ] **Pros and Cons:** Include a clear, schematic list of pros and cons.
 - [ ] **Final Consideration:** Offer a short summary of the visual’s performance and rating.
-- [ ] **Rating:** Define a rating, not influenced by pricing or licensing. [See the Rating System](rating-system).
+- [ ] **Rating:** Define a rating, not influenced by pricing or licensing. [See the Rating System](rating-system.md).
 - [ ] **Screenshots:** Provide at least 2 high-quality, optimized screenshots.
 - [ ] **Video (Optional):** Provide a screencast without audio, including captions if applicable.
 - [ ] **SEO:** Use relevant terms and avoid external links.
