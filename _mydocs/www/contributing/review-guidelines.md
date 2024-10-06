@@ -44,19 +44,19 @@ Each review must be structured into the following sections:
    Present the pros and cons in a highly schematic format. Be concise and clear.
 
    Example:
-   ```markdown
-   **Pros:**
+   ```
+   Pros:
    - Easy to use
    - Customizable colors
    - Supports advanced data filtering
 
-   **Cons:**
+   Cons:
    - Poor performance with large datasets
    - Bad UI/UX design
    - Steep learning curve
    ```
 
-   > **Important:** Avoid discussing bugs unless the visual is highly bugged. Bugs are typically fixed over time and may not represent the long-term quality of the visual.
+   > **IMPORTANT**: Avoid discussing bugs unless the visual is highly bugged. Bugs are typically fixed over time and may not represent the long-term quality of the visual.
 
 5. **Final Consideration:**  
    Summarize the overall performance of the visual. Discuss the rating ([see below](#rating-system)) and provide a detailed explanation of why the visual received that score based on its features and usability.
@@ -66,14 +66,14 @@ Each review must be structured into the following sections:
 
 - **Screenshots:**  
    Include at least 2 screenshots. Ensure images are high-quality, suitable for 4K screens, and saved in PNG (recommended for UI) or JPEG format (recommended for pictures including photos). If you use tools like Snagit, avoid using shadow effects. If you need to mark specific areas, use a simple red rectangle or arrow.
-   > **Important:** Optimize images using tools like [tinypng.com](https://tinypng.com/) before sending them.
+   > **IMPORTANT**: Optimize images using tools like [tinypng.com](https://tinypng.com/) before sending them.
 
 - **Screencasts (Optional):**  
    If you need to record a quick demonstration of a feature, provide a small MP4 video (no longer than 10 seconds) without audio. Do not use GIFs.
 
 - **Video (Optional):**  
    If necessary, include a screencast MP4 video (no longer than 5 minutes) without audio, demonstrating key aspects of the visual. Ensure the screencast shows cursor movements and keystrokes. Optional captions may be provided for conversion to text-to-speech narration.
-   > **Important:** Do not include any personal footage, such as your face, in the videos. The screencast should solely focus on the visual and its usage within Power BI.
+   > **IMPORTANT**: Do not include any personal footage, such as your face, in the videos. The screencast should solely focus on the visual and its usage within Power BI.
 
 
 ## Rating System
@@ -90,7 +90,7 @@ Define the visual rating based on the following three core values, assigning a s
    Consider the quality of documentation, user guides, help resources, and vendor responsiveness. A higher score should indicate strong support, well-structured documentation, and easy access to help if needed.
 
 The final rating will be automatically calculated as the average of the three individual scores.
-> See [Rating System](rating-system) for a detailed breakdown of the rating system.
+> See [Rating System](rating-system.md) for a detailed breakdown of the rating system.
 
 ## Comparison Policy
 
@@ -138,16 +138,42 @@ AI tools can be used to assist in drafting, editing, or optimizing the review. H
     - Always refer to custom visuals as "visual" or "custom visual." Avoid using terms like "plugin", "component" or "view".
     - Use the terms as they are defined in the [glossary](../../visuals/glossary.md).
 
-- **Metadata:**
-    - Each review must include the following additional metadata:
-        - Short Title
-        - Full Title
-        - Single Sentence Description
-        - Small Description (1-2 sentences)
-    - The review title and the descriptions must be engaging and appealing (e.g., "A visual that will change your life" instead of "Visual review").
-
 - **Highlights:**
     - Mark 2 to 5 sentences that can be highlighted on the webpage.
+
+- **Metadata:**   
+   Include the following additional metadata (with examples):
+
+   - **Short Title**
+      ```
+      Smoother Trend Analysis with [Visual Name]
+      ```
+
+   - **Full Title**
+      ```
+      Achieving Smoother Trend Analysis with [Visual Name] in Power BI
+      ```
+
+   - **Single Sentence Description**
+      ```
+      [Visual Name] offers customizable options for improved 
+      trend analysis and data precision in Power BI.
+      ```
+
+   - **Small Description**
+      ```
+      In this review, we dive into how [Visual Name] enhances trend 
+      analysis in Power BI through its advanced customization options, 
+      including flexible axis scaling, dynamic styling, and rich 
+      interactivity. Whether you are visualizing complex data patterns or 
+      fine-tuning your report’s aesthetics, this visual provides the tools 
+      you need to create polished and highly informative line charts 
+      tailored to your analytical needs.
+      ```
+   
+   
+   **The review title and descriptions must be meaningful and informative**, reflecting key insights or findings from the review. The title should highlight a significant aspect of the visual, such as its standout feature or primary use case.
+ 
 
 ## Legal and Ethical Considerations
 
@@ -155,7 +181,7 @@ Ensure any sponsorship or affiliation is disclosed. Avoid biased language or unf
 
 ## Maintenance
 
-Reviews should be periodically updated if significant changes are made to the visual that affect its performance or functionality.
+Reviews may be periodically updated to reflect significant changes in the visual, such as new features, design improvements, or enhancements to documentation and support. However, any updates must be agreed upon and carried out by the original author of the review. The author is responsible for revisiting the visual, reassessing it based on the updated criteria, and making any necessary changes to the review.
 
 &nbsp; 
 
@@ -173,9 +199,9 @@ Use this checklist to verify that all guidelines have been followed:
 - [ ] **Screenshots:** Provide at least 2 high-quality, optimized screenshots.
 - [ ] **Video (Optional):** Provide a screencast without audio, including captions if applicable.
 - [ ] **SEO:** Use relevant terms and avoid external links.
+- [ ] **Highlights:** Mark 2 to 5 sentences for highlighting on the webpage.
 - [ ] Provide additional metadata: 
     - [ ] **Short Title**
     - [ ] **Full Title**
     - [ ] **Single Sentence Description**
     - [ ] **Small Description**
-- [ ] **Highlights:** Mark 2 to 5 sentences for highlighting on the webpage.
