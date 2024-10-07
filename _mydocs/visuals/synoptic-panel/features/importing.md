@@ -12,19 +12,24 @@ Synoptic Panel allows you to import multiple maps at once.
 
 ## Import Local Maps
 
+<img src="images/import-local.png" width="250">
+
 <todo>Explains how to import multiple local maps</todo>
 
 >> Note that [Synoptic Panel with free license](../versions/index.md) has a limit of 1 local map per visual.
 
 ## Import a Remote Map
 
+<img src="images/import-remote.png" width="250">
+
 <todo>Explains how to import a map</todo>
+
+<todo>Explain that Dropbox, Google Drive and other similar provider are not allowed, mention CORS setting and that the URL must be reachable by the audience</todo>
 
 >> Note that [Synoptic Panel Lite](../versions/index.md) does not support this feature.
 
 ## Import Remote Maps from a JSON File
 
-<todo>Restructure</todo>
 
 >> Note that [Synoptic Panel Lite](../versions/index.md) does not support this feature.
 
@@ -34,8 +39,7 @@ To import multiple remote maps into Synoptic Panel, follow these steps:
 
 2. Click ***+ Add Map*** and select the ***Import URLs*** element.
 
-    <todo>Update the image to include</todo>
-    <img src="images/import-urls.png" width="200">
+    <img src="images/import-from-json.png" width="250">
 
     If you have already loaded a map, you can click the ***+ Add*** button in the Map Editor dialog.
 
@@ -77,6 +81,8 @@ Here is a description of the fields:
 <todo>Provide a sample JSON file with links to our Github repo base on Synoptic Panel tour</todo>
 
 ##  Import My Storage Maps
+
+<img src="images/import-my-storage.png" width="250">
 
 <todo>Explains how to import a map + link to  My Storage page</todo>
 
