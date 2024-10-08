@@ -1,9 +1,9 @@
 ---
 layout:         page
-title:          Editorial Guidelines for Custom Visual Comparisons
-menu_title:     Comparisons Guidelines
+title:          Guidelines for Visual Comparisons
+menu_title:     Comparison Guidelines
 published:      true
 date:           2024-10-04
 modified:       2024-10-04
-order:          /website/contributing/03
+order:          /website/contributing/comparison-guidelines
 ---

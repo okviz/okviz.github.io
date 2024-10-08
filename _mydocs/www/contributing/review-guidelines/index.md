@@ -1,15 +1,16 @@
 ---
 layout:         page
-title:          Editorial Guidelines for Custom Visual Reviews
+title:          Guidelines for Visual Reviews
 menu_title:     Reviews Guidelines
 published:      true
 date:           2024-10-04
-modified:       2024-10-06
-order:          /website/contributing/01
+modified:       2024-10-08
+version:        1.1
+order:          /website/contributing/review-guidelines
 pdf:            true
 ---
 
-These guidelines ensure that reviews of Power BI visuals we publish on OKVIZ are consistent, high-quality, and provide unbiased information to help both end-users and developers make informed decisions.
+These editorial guidelines ensure that reviews of Power BI visuals we publish on OKVIZ are consistent, high-quality, and provide unbiased information to help both end-users and developers make informed decisions.
 
 [Jump to the Checklist](#review-checklist)
 
@@ -31,7 +32,7 @@ The primary audience includes Power BI end-users, developers, data professionals
 Each review must be structured into the following sections:
 
 1. **Introduction:**  
-   Provide an overview of the custom visual and its general purpose within Power BI.
+   Provide an overview of the custom visual and its general purpose within Power BI. This section could include a brief history of the visual, its developer, and any notable achievements or awards. Also it could include part of final consideration.
 
 2. **Adherence to Chart Type Features (If Applicable):**  
    Assess how well the custom visual adheres to the standard features of its chart type (e.g., a line chart or pie chart).
@@ -41,7 +42,7 @@ Each review must be structured into the following sections:
    Provide a free-form discussion of the specific features that make the visual unique. Highlight any standout functionality or customization options that set it apart.
 
 4. **Pros and Cons:**  
-   Present the pros and cons in a highly schematic format. Be concise and clear.
+   Present the pros and cons in a highly schematic format. Be concise and clear. Find more details in the [Pros and Cons page](pros-cons.md).
 
    Example:
    ```
@@ -65,11 +66,18 @@ Each review must be structured into the following sections:
 ## Media Content
 
 - **Screenshots:**  
-   Include at least 2 screenshots. Ensure images are high-quality, suitable for 4K screens, and saved in PNG (recommended for UI) or JPEG format (recommended for pictures including photos). If you use tools like Snagit, avoid using shadow effects. If you need to mark specific areas, use a simple red rectangle or arrow.
+   Include at least 2 screenshots. Ensure images are high-quality, suitable for 4K screens, and saved in PNG (recommended for UI) or JPEG format (recommended for pictures including photos). If you use tools like Snagit, avoid using shadow effects. 
+   
+   If you need to mark specific areas, use a simple red rectangle or arrow.
+   <todo visible>We will provide an example of good and bad screenshots.</todo>
    > **IMPORTANT**: Optimize images using tools like [tinypng.com](https://tinypng.com/) before sending them.
+
 
 - **Screencasts (Optional):**  
    If you need to record a quick demonstration of a feature, provide a small MP4 video (no longer than 10 seconds) without audio. Do not use GIFs.
+
+- **Additional Images (Optional):**  
+   You can include additional images (e.g., diagrams or visual enhancements), including AI-generated images, as long as you hold the rights to these images. However, we reserve the right to remove or reject any images that do not align with our website’s style or for any other reason at our discretion.
 
 - **Video (Optional):**  
    If necessary, include a screencast MP4 video (no longer than 5 minutes) without audio, demonstrating key aspects of the visual. Ensure the screencast shows cursor movements and keystrokes. Optional captions may be provided for conversion to text-to-speech narration.
@@ -78,7 +86,7 @@ Each review must be structured into the following sections:
 
 ## Rating System
 
-Define the visual rating based on the following three core values, assigning a score from 1 to 10 for each:
+Assign a score from 1 to 10 for each of the following core values:
 
 1. **Features:**  
    Assess the range and functionality of the visual. A higher score should reflect more comprehensive features that significantly enhance Power BI capabilities.
@@ -89,8 +97,7 @@ Define the visual rating based on the following three core values, assigning a s
 3. **Support:**  
    Consider the quality of documentation, user guides, help resources, and vendor responsiveness. A higher score should indicate strong support, well-structured documentation, and easy access to help if needed.
 
-The final rating will be automatically calculated as the average of the three individual scores.
-> See [Rating System](rating-system.md) for a detailed breakdown of the rating system.
+The final rating is calculated using a weighted average of the three scores. See [Rating System](rating-system.md) for a detailed breakdown.
 
 ## Comparison Policy
 
@@ -131,8 +138,8 @@ AI tools can be used to assist in drafting, editing, or optimizing the review. H
 
 - **Best Practices:**
     - Use the term “Power BI”, "Semantic Model", and "Fabric" throughout the content.
-    - Include links to relevant Power BI documentation or OKVIZ webpages where applicable.
-    - Do not provide direct links to other external websites.
+    - Include links to relevant Power BI documentation or OKVIZ webpages where applicable. Links to comparisons or related articles are automatically added.
+    - **Do not provide direct links to other external websites**. Links to vendor website or documentation are automatically added, so avoid including them in the content.
 
 - **Terminology:**
     - Always refer to custom visuals as "visual" or "custom visual." Avoid using terms like "plugin", "component" or "view".

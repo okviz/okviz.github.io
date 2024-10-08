@@ -25,7 +25,7 @@ We will review your request and get back to you as soon as possible.
 - All contributions must be original and not published elsewhere. 
 - We reserve the right to reject any content that does not meet our quality standards or does not align with our editorial guidelines:
 
-    - [Review Guidelines](review-guidelines.md)
+    - [Review Guidelines](review-guidelines/index.md)
     - [Comparison Guidelines](comparison-guidelines.md)
 
 
