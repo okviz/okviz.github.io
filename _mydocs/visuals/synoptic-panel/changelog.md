@@ -11,7 +11,7 @@ This page contains a quick summary of versions and notable changes of Synoptic P
 Synoptic Panel uses **Power BI Custom Visuals API v5.9.1**.
 
 ## v2.1.1 - Beta
-**Released:** 2024-10-06
+**Released:** 2024-10-08
 
 ### New Features
 - Allow labels to be dragged
