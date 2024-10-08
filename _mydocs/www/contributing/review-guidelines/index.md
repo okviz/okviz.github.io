@@ -36,7 +36,7 @@ Each review must be structured into the following sections:
 
 2. **Adherence to Chart Type/Category (If Applicable):**  
    Assess how well the visual adheres to the standard features of its chart type or category. See a list of chart types and categories in the [Classification page](classification.md).
-   > If the visual does not fit into any category, you can skip this section.
+   > If the visual does not fit into any classification, you can skip this section.
 
 3. **Core Features:**  
    Provide a free-form discussion of the specific features that make the visual unique. Highlight any standout functionality or customization options that set it apart.
