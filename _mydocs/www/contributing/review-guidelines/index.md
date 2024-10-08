@@ -26,17 +26,17 @@ Your core values are:
 
 ## Target Audience
 
-The primary audience includes Power BI end-users, developers, data professionals, and business intelligence experts seeking custom visuals to enhance their reports. The reviews aim to provide valuable insights to help users make informed decisions about the visuals they choose to integrate into their Power BI projects.
+The primary audience includes Power BI end-users, developers, data professionals, and business intelligence experts seeking visuals to enhance their reports. The reviews aim to provide valuable insights to help users make informed decisions about the visuals they choose to integrate into their Power BI projects.
 
 ## Review Structure
 Each review must be structured into the following sections:
 
 1. **Introduction:**  
-   Provide an overview of the custom visual and its general purpose within Power BI. This section could include a brief history of the visual, its developer, and any notable achievements or awards. Also it could include part of final consideration.
+   Provide an overview of the visual and its general purpose within Power BI. This section could include a brief history of the visual, its developer, and any notable achievements or awards. Also it could include part of final consideration.
 
-2. **Adherence to Chart Type Features (If Applicable):**  
-   Assess how well the custom visual adheres to the standard features of its chart type (e.g., a line chart or pie chart).
-   > This section is only necessary if the visual belongs to an existing chart category. UI controls or unique visuals that do not fit a standard category can skip this section.
+2. **Adherence to Chart Type/Category (If Applicable):**  
+   Assess how well the visual adheres to the standard features of its chart type or category. See a list of chart types and categories in the [Classification page](classification.md).
+   > If the visual does not fit into any category, you can skip this section.
 
 3. **Core Features:**  
    Provide a free-form discussion of the specific features that make the visual unique. Highlight any standout functionality or customization options that set it apart.
