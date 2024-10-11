@@ -4,8 +4,8 @@ title:          Guidelines for Visual Reviews
 menu_title:     Reviews Guidelines
 published:      true
 date:           2024-10-04
-modified:       2024-10-08
-version:        1.1
+modified:       2024-10-11
+version:        1.2
 order:          /website/contributing/review-guidelines
 pdf:            true
 ---
@@ -36,42 +36,31 @@ Each review must be structured into the following sections:
 
 2. **Adherence to Chart Type/Category (If Applicable):**  
    Assess how well the visual adheres to the standard features of its chart type or category. See a list of chart types and categories in the [Classification page](classification.md).
-   > If the visual does not fit into any classification, you can skip this section.
+   >> If the visual does not fit into any classification, please [contact us](mailto:contribute@okviz.com) for guidance or to suggest a new classification.
 
 3. **Core Features:**  
    Provide a free-form discussion of the specific features that make the visual unique. Highlight any standout functionality or customization options that set it apart.
 
-4. **Pros and Cons:**  
-   Present the pros and cons in a highly schematic format. Be concise and clear. Find more details in the [Pros and Cons page](pros-cons.md).
-
-   Example:
-   ```
-   Pros:
-   - Easy to use
-   - Customizable colors
-   - Supports advanced data filtering
-
-   Cons:
-   - Poor performance with large datasets
-   - Bad UI/UX design
-   - Steep learning curve
-   ```
-
-   > **IMPORTANT**: Avoid discussing bugs unless the visual is highly bugged. Bugs are typically fixed over time and may not represent the long-term quality of the visual.
+4. **Performance:**  
+   Evaluate the visual’s performance in terms of speed, responsiveness, and stability. 
+   
+   To evaluate performance, use a Contoso dataset with 10M rows, available for download here: [Contoso 10M.7z (420 MB)](https://github.com/sql-bi/Contoso-Data-Generator-V2-Data/releases/download/ready-to-use-data/pbix-10M.7z)
 
 5. **Final Consideration:**  
    Summarize the overall performance of the visual. Discuss the rating ([see below](#rating-system)) and provide a detailed explanation of why the visual received that score based on its features and usability.
 
+6. **Pros and Cons:**  
+   A pros and cons section is automatically generated based on the assigned rating, so **do not include it in the content.**
+
+## Bugs
+Avoid discussing bugs unless the visual is highly bugged. Bugs are typically fixed over time and may not represent the long-term quality of the visual.
 
 ## Media Content
 
 - **Screenshots:**  
-   Include at least 2 screenshots. Ensure images are high-quality, suitable for 4K screens, and saved in PNG (recommended for UI) or JPEG format (recommended for pictures including photos). If you use tools like Snagit, avoid using shadow effects. 
-   
-   If you need to mark specific areas, use a simple red rectangle or arrow.
-   <todo visible>We will provide an example of good and bad screenshots.</todo>
-   > **IMPORTANT**: Optimize images using tools like [tinypng.com](https://tinypng.com/) before sending them.
+   Include at least 2 screenshots. Ensure images are high-quality, suitable for 4K screens, and saved in PNG (recommended for UI) or JPEG format (recommended for pictures including photos). Optimize images using tools like [tinypng.com](https://tinypng.com/).
 
+   More info on [Guidelines for Screenshots](screenshots.md).
 
 - **Screencasts (Optional):**  
    If you need to record a quick demonstration of a feature, provide a small MP4 video (no longer than 10 seconds) without audio. Do not use GIFs.
@@ -151,14 +140,14 @@ AI tools can be used to assist in drafting, editing, or optimizing the review. H
 - **Metadata:**   
    Include the following additional metadata (with examples):
 
+   - **Title**
+      ```
+      Achieving Smoother Trend Analysis with [Visual Name] in Power BI
+      ```
+
    - **Short Title**
       ```
       Smoother Trend Analysis with [Visual Name]
-      ```
-
-   - **Full Title**
-      ```
-      Achieving Smoother Trend Analysis with [Visual Name] in Power BI
       ```
 
    - **Single Sentence Description**
@@ -167,7 +156,7 @@ AI tools can be used to assist in drafting, editing, or optimizing the review. H
       trend analysis and data precision in Power BI.
       ```
 
-   - **Small Description**
+   - **Short Description**
       ```
       In this review, we dive into how [Visual Name] enhances trend 
       analysis in Power BI through its advanced customization options, 
@@ -182,9 +171,11 @@ AI tools can be used to assist in drafting, editing, or optimizing the review. H
    **The review title and descriptions must be meaningful and informative**, reflecting key insights or findings from the review. The title should highlight a significant aspect of the visual, such as its standout feature or primary use case.
  
 
-## Legal and Ethical Considerations
+## Sponsored Content
 
-Ensure any sponsorship or affiliation is disclosed. Avoid biased language or unfounded claims, maintaining full integrity.
+Even if the review is sponsored, you must provide an honest and unbiased assessment of the visual. Sponsorship does not influence the evaluation process or the final rating.
+
+> There is no need to explicitly state in the review that the content is sponsored, as the website will automatically include this information. You should focus on delivering a fair and accurate review, regardless of sponsorship.
 
 ## Maintenance
 
@@ -200,7 +191,7 @@ Use this checklist to verify that all guidelines have been followed:
 - [ ] **Introduction:** Describe the visual and its purpose.
 - [ ] **Chart Type Features:** Evaluate how well the visual meets the features of its category.
 - [ ] **Core Features:** Discuss the unique features of the visual.
-- [ ] **Pros and Cons:** Include a clear, schematic list of pros and cons.
+- [ ] **Performance:** Evaluate the visual’s responsiveness and stability with large datasets.
 - [ ] **Final Consideration:** Offer a short summary of the visual’s performance and rating.
 - [ ] **Rating:** Define a rating, not influenced by pricing or licensing. [See the Rating System](rating-system.md).
 - [ ] **Screenshots:** Provide at least 2 high-quality, optimized screenshots.
@@ -211,4 +202,4 @@ Use this checklist to verify that all guidelines have been followed:
     - [ ] **Short Title**
     - [ ] **Full Title**
     - [ ] **Single Sentence Description**
-    - [ ] **Small Description**
+    - [ ] **Short Description**

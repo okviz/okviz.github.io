@@ -45,4 +45,4 @@ When we find a bug in our visuals we usually fix it as soon as possible, but dep
 
     Currently, only [Smart Filter Pro](../smart-filter-pro/index.md) and [Synoptic Panel](../synoptic-panel/index.md) are released both in AppSource and as a private visual, so it's the only one that can benefit from this support.
 
-    > Private visuals are not and cannot be certified. See more on [Certification](../get-started/certification.md).
+    >> Private visuals are not and cannot be certified. See more on [Certification](../get-started/certification.md).

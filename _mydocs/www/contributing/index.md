@@ -27,7 +27,7 @@ We will review your request and get back to you as soon as possible.
 
     - [Review Guidelines](review-guidelines/index.md)
     - [Comparison Guidelines](comparison-guidelines.md)
-
+    - [Use Case Guidelines](use-case-guidelines.md)
 
 ## Authorship
 

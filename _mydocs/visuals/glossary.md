@@ -3,12 +3,15 @@ layout:             page
 title:              Glossary
 published:          true
 date:               2024-05-12
-modified:           2024-10-05
+modified:           2024-10-10
 order:              /{99}
 ---
 
 This glossary contains definitions of uncommon terms used in this documentation or Power BI in general.
-
+<todo>
+Add these entries:
+    - Drilldown
+</todo>
 ## AppSource
 
 AppSource is Microsoft's marketplace for business applications, including Power BI visuals. You can find and install custom visuals from AppSource directly into your Power BI reports.
