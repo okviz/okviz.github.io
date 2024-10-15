@@ -37,6 +37,23 @@ Available options:
 
 The custom value to display for the matched elements. This field is only available when the 'Display Value' option is set to '(Custom)'.
 
+## Include Data Label
+
+**Default value**: Off
+
+When enabled, data value is included in the category label.
+
+## Display Unit
+
+**Default value:** Auto
+
+The unit of the value to display. This option is only visible when the 'Include Data Label' option is On. 
+
+## Decimal Places
+
+**Default value:** 0
+
+The number of decimal places to display. This option is only visible when the 'Include Data Label' option is On. 
 
 ## Color
 

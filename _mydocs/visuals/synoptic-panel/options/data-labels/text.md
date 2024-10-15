@@ -35,7 +35,7 @@ The maximum font size of the data labels text when the *Auto Font Size* option i
 
 ## Clip Text
 
-**Default value**: On
+**Default value**: Off
 
 When enabled, the data labels text is clipped to the parent element. This option is only available when the [placement](position.md) of the data labels is set to *Inside Element*.
 

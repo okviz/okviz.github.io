@@ -35,7 +35,7 @@ The maximum font size of the category labels text when the *Auto Font Size* opti
 
 ## Clip Text
 
-**Default value**: On
+**Default value**: Off
 
 When enabled, the category labels text is clipped to the parent element. This option is only available when the [placement](position.md) of the category labels is set to *Inside Element*.
 

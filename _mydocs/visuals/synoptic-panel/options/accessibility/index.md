@@ -22,6 +22,12 @@ When enabled, the map highlights the hovered element.
 
 Defines the transparency of the elements that are not selected when at least one is selected.
 
+## Greyscale Unselected
+
+**Default value**: Off
+
+When enabled, the unselected areas are displayed in greyscale.
+
 ## Color Blindness
 
 **Default value**: Normal
