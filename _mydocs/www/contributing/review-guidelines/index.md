@@ -4,8 +4,7 @@ title:          Guidelines for Visual Reviews
 menu_title:     Reviews Guidelines
 published:      true
 date:           2024-10-04
-modified:       2024-10-11
-version:        1.2
+modified:       2024-10-15
 order:          /website/contributing/review-guidelines
 pdf:            true
 ---
@@ -34,17 +33,14 @@ Each review must be structured into the following sections:
 1. **Introduction:**  
    Provide an overview of the visual and its general purpose within Power BI. This section could include a brief history of the visual, its developer, and any notable achievements or awards. Also it could include part of final consideration.
 
-2. **Adherence to Chart Type/Category (If Applicable):**  
-   Assess how well the visual adheres to the standard features of its chart type or category. See a list of chart types and categories in the [Classification page](classification.md).
-   >> If the visual does not fit into any classification, please [contact us](mailto:contribute@okviz.com) for guidance or to suggest a new classification.
+2. **Adherence to Chart Type(s):**  
+   Assess how well the visual adheres to the standard features of its chart types. See a list of chart types in the [Classification page](classification.md).
 
 3. **Core Features:**  
    Provide a free-form discussion of the specific features that make the visual unique. Highlight any standout functionality or customization options that set it apart.
 
 4. **Performance:**  
-   Evaluate the visual’s performance in terms of speed, responsiveness, and stability. 
-   
-   To evaluate performance, use a Contoso dataset with 10M rows, available for download here: [Contoso 10M.7z (420 MB)](https://github.com/sql-bi/Contoso-Data-Generator-V2-Data/releases/download/ready-to-use-data/pbix-10M.7z)
+   Evaluate the visual’s performance in terms of speed, responsiveness, and stability. See the performance section in the [Rating System](rating-system.md#design) for more details.
 
 5. **Final Consideration:**  
    Summarize the overall performance of the visual. Discuss the rating ([see below](#rating-system)) and provide a detailed explanation of why the visual received that score based on its features and usability.
@@ -60,7 +56,7 @@ Avoid discussing bugs unless the visual is highly bugged. Bugs are typically fix
 - **Screenshots:**  
    Include at least 2 screenshots. Ensure images are high-quality, suitable for 4K screens, and saved in PNG (recommended for UI) or JPEG format (recommended for pictures including photos). Optimize images using tools like [tinypng.com](https://tinypng.com/).
 
-   More info on [Guidelines for Screenshots](screenshots.md).
+   More info on [Guidelines for Screenshots](../screenshots.md).
 
 - **Screencasts (Optional):**  
    If you need to record a quick demonstration of a feature, provide a small MP4 video (no longer than 10 seconds) without audio. Do not use GIFs.
@@ -75,18 +71,17 @@ Avoid discussing bugs unless the visual is highly bugged. Bugs are typically fix
 
 ## Rating System
 
-Assign a score from 1 to 10 for each of the following core values:
+Each review must include a rating based on the following criteria:
 
-1. **Features:**  
-   Assess the range and functionality of the visual. A higher score should reflect more comprehensive features that significantly enhance Power BI capabilities.
+1. **Features:** Assesses the range and functionality of the visual.
 
-2. **Design:**  
-   Evaluate the visual’s overall design, including its appearance, usability, and how seamlessly it integrates into Power BI dashboards and reports.
+2. **Design:** Evaluates the visual’s overall design, including its appearance, usability, and how seamlessly it integrates into Power BI. This includes the performance of the visual with large datasets.
 
-3. **Support:**  
-   Consider the quality of documentation, user guides, help resources, and vendor responsiveness. A higher score should indicate strong support, well-structured documentation, and easy access to help if needed.
+3. **Support:** Considers the quality of documentation, user guides, help resources, and vendor responsiveness.
 
-The final rating is calculated using a weighted average of the three scores. See [Rating System](rating-system.md) for a detailed breakdown.
+**You do not need to provide the rating**, but you must complete a checklist that will be used to automatically calculate it.
+
+Go to [Rating System](rating-system.md) for more information.
 
 ## Comparison Policy
 
@@ -193,7 +188,7 @@ Use this checklist to verify that all guidelines have been followed:
 - [ ] **Core Features:** Discuss the unique features of the visual.
 - [ ] **Performance:** Evaluate the visual’s responsiveness and stability with large datasets.
 - [ ] **Final Consideration:** Offer a short summary of the visual’s performance and rating.
-- [ ] **Rating:** Define a rating, not influenced by pricing or licensing. [See the Rating System](rating-system.md).
+- [ ] **Rating:** Complete the [Rating Checklist](rating-system.md#reviewer-checklist).
 - [ ] **Screenshots:** Provide at least 2 high-quality, optimized screenshots.
 - [ ] **Video (Optional):** Provide a screencast without audio, including captions if applicable.
 - [ ] **SEO:** Use relevant terms and avoid external links.
