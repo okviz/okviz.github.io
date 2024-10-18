@@ -125,7 +125,7 @@ Chart types are the primary classification for visuals. Each chart type has spec
 - Point & Figure Chart
 - Renko Chart
 
-### Decorative and Infographic Charts
+### Decorative and Infographic Charts
 - Brainstorm
 - Decorative Element
 - Illustration Diagram
