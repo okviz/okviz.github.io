@@ -70,14 +70,14 @@ Our system will automatically generate **Pros** and **Cons** based on your evalu
 
 ## Reviewer Checklist
 
-Please use the following checklist to evaluate each visual. For each feature, select the appropriate option based on your assessment.
+Please use our latest checklist to evaluate each visual. For each feature, select the appropriate option based on your assessment.
 
-**Version**: 1.1  
-**Date**: Oct 15, 2024
+**Version**: 1.4  
+**Date**: Oct 18, 2024
 
-<a href="files/rating.xlsx" class="icon-download">Download Rating Checklist (.xlsx)</a>
+[>> Request for Checklist (.xlsx)](mailto:contribute@okviz.com?subject=OKVIZ Rating Checklist&body=Please send me the latest version of the OKVIZ Rating Checklist.)
 
-> **NOTE**:   
-- For features with **Yes/No** options, select **Yes** if the feature is present and functions well, or **No** if it is absent or poorly implemented.
+> **COMPILATION NOTE**:   
+- For features with **No / Yes** options, select **Yes** if the feature is present and functions well, or **No** if it is absent or poorly implemented.
 - For features with multiple options (e.g., **Poor / Good / Excellent**), choose the option that best describes the quality or availability of that feature.
 - **For multi-purpose visuals**, ensure that you evaluate each chart type's features separately to provide a comprehensive assessment.
