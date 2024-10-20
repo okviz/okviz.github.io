@@ -3,21 +3,17 @@ layout:         page
 title:          Rating System
 published:      true
 date:           2024-10-04
-modified:       2024-10-15
+modified:       2024-10-19
 order:          /website/contributing/review-guidelines/rating-system
 ---
 
-Welcome to the rating system guidelines for reviewing Power BI custom visuals. 
-
-This system is designed to ensure consistent and objective evaluations by assessing key aspects of each visual. Reviewers will evaluate visuals based on specific criteria categorized into three main areas: **Features**, **Design**, and **Support**.
-
-[Jump to the Reviewer Checklist](#reviewer-checklist)
+The OKVIZ rating system for Power BI visuals is designed to ensure consistent and objective evaluations in reviews by assessing key aspects of each visual. The evaluation is based on specific criteria categorized into three main areas: **Features**, **Design**, and **Support**.
 
 ## Areas of Evaluation
 
 ### Features
 
-The **Features** category assesses the core functionality of the visual, considering both common and chart-specific features. Some features are essential must-haves, while others enhance usability and interactivity.
+This area assesses the core functionality of the visual, considering both common and chart-specific features. Some features are essential must-haves, while others enhance usability and interactivity.
 
 - **Common Features:**
 
@@ -37,7 +33,7 @@ The **Features** category assesses the core functionality of the visual, conside
 
 ### Design
 
-This category focuses on the visual's appearance, user experience, and performance. It evaluates how well the visual integrates into Power BI dashboards, its aesthetic appeal, consistency, ease of use, and how efficiently it performs.
+This area focuses on the visual's appearance, user experience, and performance. It evaluates how well the visual integrates into Power BI dashboards, its aesthetic appeal, consistency, ease of use, and how efficiently it performs.
 
 - **Visual Design:**
 
@@ -51,12 +47,11 @@ This category focuses on the visual's appearance, user experience, and performan
 
     Performance aspects are critical components of the user experience and are included within this category. This includes loading times, responsiveness, and rendering performance. 
 
-    The suggested approach to evaluate performance, is to 
-    use a dataset with at lease 10M rows, which is a good representation of a large dataset. Such a dataset is available for download here: [Contoso 10M.7z (420 MB)](https://github.com/sql-bi/Contoso-Data-Generator-V2-Data/releases/download/ready-to-use-data/pbix-10M.7z)
+    It is important to evaluate performance using a **dataset with at lease 10M rows**, which represents a large dataset well. An example of such a dataset is available for download here: [Contoso 10M.7z (420 MB)](https://github.com/sql-bi/Contoso-Data-Generator-V2-Data/releases/download/ready-to-use-data/pbix-10M.7z)
 
 ### Support
 
-This category examines the quality of documentation, tutorials, user guides, and vendor responsiveness. Good support ensures that users have the resources they need to use the visual effectively and resolve any issues that may arise.
+This area examines the quality of documentation, tutorials, user guides, and vendor responsiveness. Good support ensures that users have the resources they need to use the visual effectively and resolve any issues that may arise.
 
 ## Other Considerations
 
@@ -66,18 +61,17 @@ While you won't need to consider weights in your evaluation directly, please be 
 
 ### Pros and Cons
 
-Our system will automatically generate **Pros** and **Cons** based on your evaluations. Exceptionally good or poor results for significant features will be highlighted to provide insights into the visual's strengths and weaknesses. This helps in creating a balanced review that highlights key points for potential users.
+Our system will automatically generate a "Pros and Cons" section in the associated review based on your evaluations. Exceptionally good or poor results for significant features will be highlighted to provide insights into the visual's strengths and weaknesses. This helps in creating a balanced review that highlights key points for potential users.
 
-## Reviewer Checklist
+## Rating Checklist
 
-Please use our latest checklist to evaluate each visual. For each feature, select the appropriate option based on your assessment.
+Please use our latest checklist to evaluate a visual. For each feature, select the appropriate option based on your assessment.
 
 **Version**: 1.4  
-**Date**: Oct 18, 2024
+**Date**: 2024-10-20
 
-[>> Request for Checklist (.xlsx)](mailto:contribute@okviz.com?subject=OKVIZ Rating Checklist&body=Please send me the latest version of the OKVIZ Rating Checklist.)
+<a href="files/rating-1.4.xlsm" class="icon-download">Download Rating Checklist (.xlsm)</a>
 
-> **COMPILATION NOTE**:   
-- For features with **No / Yes** options, select **Yes** if the feature is present and functions well, or **No** if it is absent or poorly implemented.
-- For features with multiple options (e.g., **Poor / Good / Excellent**), choose the option that best describes the quality or availability of that feature.
-- **For multi-purpose visuals**, ensure that you evaluate each chart type's features separately to provide a comprehensive assessment.
+> **INSTRUCTIONS**:   
+- **The rating file contains a macro** that automatically show the features specific to the chart type you select. Enable macros to use this feature. Otherwise, you have to select only the features that are relevant to chart type(s) you are evaluating.
+- The checklist asks you to provide a visual id. This id is a unique identifier for each visual in the [OKVIZ index](https://okviz.com/index).

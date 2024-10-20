@@ -89,6 +89,7 @@ Chart types are the primary classification for visuals. Each chart type has spec
 - Bowtie Chart
 - Bullet Chart
 - Card
+- Dumbbell Chart
 - Funnel Chart
 - Gauge
 - KPI
