@@ -19,15 +19,15 @@ This area assesses the core functionality of the visual, considering both common
 
   Common features are functionalities that are present in most visuals and are essential for effective data visualization. These features include basic interactions, formatting options, and Power BI integration capabilities.
 
-- **Chart-Specific Features:**
+- **Type-Specific Features:**
 
-  Chart-specific features are functionalities that are unique to a particular chart type. These features enhance the visual's ability to represent data effectively and provide additional value to users. In the checklist, you will find features specific to various chart types, such as bar charts, line charts, pie charts, etc.
+  Type-specific features are functionalities that are unique to a particular visual type. These features enhance the visual's ability to represent data effectively and provide additional value to users. In the checklist, you will find features specific to various visual types, such as bar charts, line charts, pie charts, etc.
 
-  > **For multi-purpose visuals** (visuals that can represent multiple chart types), you must evaluate the visual against the feature checklists for **all applicable chart types**. This ensures a comprehensive assessment of the visual's capabilities across its various functionalities.
+  > **For multi-purpose visuals** (visuals that can represent multiple visual types), you must evaluate the visual against the feature checklists for **all applicable types**. This ensures a comprehensive assessment of the visual's capabilities across its various functionalities.
 
 - **Unique Features:**
 
-  Unique features are innovative functionalities that set a visual apart from others. If you encounter a feature that is not listed in the standard checklist and is unique to the visual, you can include it as a *Unique Feature* in your evaluation. These features are given significant weight in the overall rating and **will be automatically highlighted as Pros** in the review.
+  Unique features are innovative functionalities that set a visual apart from others. If you encounter a feature that is not listed in the standard checklist and is unique to the visual, you can include it as a *Unique Feature* in your evaluation.
 
   >> **IMPORTANT**: If the unique feature becomes common (i.e., it appears in other visuals of the same type in the future), it will be added to the standard checklist with a lower weight. Since updating the checklist frequently is challenging, **please be selective and thoughtful about adding unique features.**
 
@@ -47,7 +47,7 @@ This area focuses on the visual's appearance, user experience, and performance. 
 
     Performance aspects are critical components of the user experience and are included within this category. This includes loading times, responsiveness, and rendering performance. 
 
-    It is important to evaluate performance using a **dataset with at lease 10M rows**, which represents a large dataset well. An example of such a dataset is available for download here: [Contoso 10M.7z (420 MB)](https://github.com/sql-bi/Contoso-Data-Generator-V2-Data/releases/download/ready-to-use-data/pbix-10M.7z)
+    It is important to evaluate performance using a **dataset with at least 10M rows**, which represents a large dataset well. An example of such a dataset is available for download here: [Contoso 10M.7z (420 MB)](https://github.com/sql-bi/Contoso-Data-Generator-V2-Data/releases/download/ready-to-use-data/pbix-10M.7z)
 
 ### Support
 
@@ -67,11 +67,11 @@ Our system will automatically generate a "Pros and Cons" section in the associat
 
 Please use our latest checklist to evaluate a visual. For each feature, select the appropriate option based on your assessment.
 
-**Version**: 1.4  
+**Version**: 1.5   
 **Date**: 2024-10-20
 
 <a href="files/rating-1.4.xlsm" class="icon-download">Download Rating Checklist (.xlsm)</a>
 
 > **INSTRUCTIONS**:   
-- **The rating file contains a macro** that automatically show the features specific to the chart type you select. Enable macros to use this feature. Otherwise, you have to select only the features that are relevant to chart type(s) you are evaluating.
+- **The rating file contains a macro** that automatically show the features specific to the visual type you select. Enable macros to use this feature. Otherwise, you have to select only the features that are relevant to visual type(s) you are evaluating.
 - The checklist asks you to provide a visual id. This id is a unique identifier for each visual in the [OKVIZ index](https://okviz.com/index).

@@ -24,33 +24,39 @@ Your core values are:
 ## Review Structure
 Each review must be structured into the following sections:
 
-1. **Overview:**  
+1. **Overview**  
+
    Provide an overview of the visual and its general purpose within Power BI. This section could include a brief history of the visual, its developer, and any notable achievements or awards. Also it could include part of final consideration.
 
-2. **Adherence to Chart Type(s):**  
-   Assess how well the visual adheres to the standard features of its chart types. See a list of chart types in the [Classification page](classification.md).
+2. **Adherence to Visual Type(s)**  
 
-3. **Core Features:**  
+   Assess how well the visual adheres to the standard features of its visual types. See a list of visual types in the [Classification page](classification.md).
+
+3. **Core Features**  
+
    Provide a free-form discussion of the specific features that make the visual unique. Highlight any standout functionality or customization options that set it apart.
 
-4. **Performance:**  
+4. **Performance**  
+
    Evaluate the visual’s performance in terms of speed, responsiveness, and stability. See the performance section in the [Rating System](rating-system.md#design) for more details.
 
-5. **Final Consideration:**  
+5. **Final Consideration**  
+
    Summarize the overall performance of the visual. Discuss the rating (see below) and provide a detailed explanation of why the visual received that score based on its features and usability.
 
-6. **Pros and Cons:**  
+6. **Pros and Cons**  
+
    A "Pros and Cons" section is automatically generated based on your rating (see below), so **do not include it in the content.**
 
 ## Rating
 
 Each review must include a rating based on the following criteria:
 
-1. **Features:** Assesses the range and functionality of the visual.
+- **Features:** Assesses the range and functionality of the visual.
 
-2. **Design:** Evaluates the visual’s overall design, including its appearance, usability, and how seamlessly it integrates into Power BI. This also includes the performance of the visual with large datasets.
+- **Design:** Evaluates the visual’s overall design, including its appearance, usability, and how seamlessly it integrates into Power BI. This also includes the performance of the visual with large datasets.
 
-3. **Support:** Considers the quality of documentation, user guides, help resources, and vendor responsiveness.
+- **Support:** Considers the quality of documentation, user guides, help resources, and vendor responsiveness.
 
 **You do not need to provide the rating**, but you must complete a checklist that will be used to automatically calculate it.
 
@@ -80,23 +86,26 @@ Also, follow these additional guidelines:
  
    Include the following additional metadata for the review:
 
-   - **Review Title**
+   - **Review Title**  
+
+      Provide a title that reflects the key aspect of the visual being reviewed. The title should be informative and engaging, highlighting a significant feature or use case of the visual. E.g.:
+
       ```
       Achieving Smoother Trend Analysis with [Visual Name] in Power BI
       ```
 
-   - **Short Review Title**
+   - **Short Review Title**  
+
+      Provide a shorter version of the review title that captures the essence of the review in a concise manner.E.g.:
+
       ```
       Smoother Trend Analysis with [Visual Name]
       ```
 
-   - **One-Sentence Review Description**
-      ```
-      [Visual Name] offers customizable options for improved 
-      trend analysis and data precision in Power BI.
-      ```
+   - **Review Description**  
 
-   - **Short Review Description**
+      Provide a brief description of the review content, summarizing the key insights and findings from the review. E.g.:
+
       ```
       In this review, we dive into how [Visual Name] enhances trend 
       analysis in Power BI through its advanced customization options, 
@@ -106,8 +115,16 @@ Also, follow these additional guidelines:
       you need to create polished and highly informative line charts 
       tailored to your analytical needs.
       ```
-   
-   **The review title and descriptions must be meaningful and informative**, reflecting key insights or findings from the review. The title should highlight a significant aspect of the visual, such as its standout feature or primary use case.
+
+   - **One-Sentence Review Description**
+
+      Provide a concise one-sentence description of the review content, highlighting the primary focus or benefit of the visual. E.g.:
+
+      ```
+      [Visual Name] offers customizable options for improved 
+      trend analysis and data precision in Power BI.
+      ```
+
 
 &nbsp; 
 
@@ -117,7 +134,7 @@ Also, follow these additional guidelines:
 Use this checklist to verify that all guidelines have been followed:
 
 - [ ] **Overview:** Describe the visual and its purpose.
-- [ ] **Chart Type Features:** Evaluate how well the visual meets the features of its category.
+- [ ] **Visual Type(s) Features:** Evaluate how well the visual meets the features of its category.
 - [ ] **Core Features:** Discuss the unique features of the visual.
 - [ ] **Performance:** Evaluate the visual’s responsiveness and stability with large datasets.
 - [ ] **Final Consideration:** Offer a short summary of the visual’s performance and rating.
@@ -126,7 +143,7 @@ Use this checklist to verify that all guidelines have been followed:
 - [ ] **Screenshots:** Provide at least 2 high-quality screenshots.
 - [ ] **Comparisons:** Ensure the visual is not compared to other custom visuals.
 - [ ] Provide additional metadata: 
-    - [ ] **Short Review Title**
     - [ ] **Review Title**
-    - [ ] **One-Sentence Review Description**
+    - [ ] **Short Review Title**
     - [ ] **Review Description**
+    - [ ] **One-Sentence Review Description**

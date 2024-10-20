@@ -4,15 +4,15 @@ title:          Visual Classification
 menu_title:     Classification
 published:      true
 date:           2024-10-08
-modified:       2024-10-15
+modified:       2024-10-20
 order:          /website/contributing/review-guidelines/classification
 ---
 
-Here is a list of chart types and categories used by OKVIZ to classify Power BI visuals. These classifications should help you determine the appropriate features and design elements to evaluate when reviewing a visual. 
+Here is a list of visual types and categories used by OKVIZ to classify Power BI visuals. These classifications should help you determine the appropriate features and design elements to evaluate when reviewing a visual. 
 
-## Chart Types
+## Visual Types
 
-Chart types are the primary classification for visuals. Each chart type has specific features and design elements that should be considered during the review process.
+Types are the primary classification for visuals. Each visual type has specific features and design elements that should be considered during the review process.
 
 ### Basic Charts
 - Area Chart
@@ -141,7 +141,6 @@ Chart types are the primary classification for visuals. Each chart type has spec
 ### Miscellaneous
 - Filter
 - Visual Builder
-
 
 
 ## Categories

@@ -4,7 +4,7 @@ title:          Guidelines for Visual Comparisons
 menu_title:     Comparison Guidelines
 published:      true
 date:           2024-10-04
-modified:       2024-10-19
+modified:       2024-10-20
 order:          /website/contributing/comparison-guidelines
 ---
 
@@ -12,7 +12,7 @@ These editorial guidelines ensure that comparisons of Power BI custom visuals pu
 
 ## Mission and Values
 
-Your goal is to provide honest, objective, and detailed comparisons of Power BI visuals, considering different parameters that matter to end-users and developers, and **identifying the best visual for specific scenarios**. While pricing and other external factors can be considered, they should not overshadow the quality and functionality of the visuals themselves. 
+Your goal is to provide honest, objective, and detailed comparisons of Power BI visuals, considering different parameters that matter to end-users and developers, and **identify the best visual for specific scenarios**. While pricing and other external factors can be considered, they should not overshadow the quality and functionality of the visuals themselves. 
 
 The core values are:
 
@@ -25,7 +25,7 @@ The core values are:
 There are three main types of comparisons:
 - **Single Visual Comparison:** Compare a custom visual with a built-in Power BI visual or another custom visual.
 - **Multiple Visuals Comparison:** Compare two or more custom visuals to identify the best option for specific scenarios.
-- **Chart Type Comparison:** Compare visuals within a specific chart type, such as bar charts or maps, to determine the best visual for that category.
+- **Visual Type Comparison:** Compare visuals within a specific visual type, such as bar charts or maps, to determine the best visual for that category.
 
 ## Parameters for Comparison
 
@@ -37,28 +37,34 @@ When comparing visuals, consider the following parameters:
 - **Price:** Discuss the cost of each visual, including free options if available.
 - **Special Factors:** This section can include factors such as the developer's reputation, roadmap expectations, or other distinctive features that may impact the user's choice.
 
-> Note that the comparison rating may differ from the individual visual ratings since additional factors like price or special factors can influence the overall recommendation.
+> Note that the comparison rating may differ from the individual visual ratings since additional factors and price can influence the overall recommendation.
 
 ## Comparison Structure
 Each comparison must be structured as follows:
 
-1. **Overview:**  
+1. **Overview**  
+
    Provide a brief overview of the visuals being compared and the reason for the comparison. Mention if there are built-in alternatives in Power BI.
 
-2. **Detailed Comparison:**  
+2. **Detailed Comparison**  
+
    Present a side-by-side comparison for each parameter, highlighting which visual is best for each category. Include the rationale behind the decision.
 
-3. **Built-in Visual Comparison** (if applicable): 
-   If the visuals belong to a chart type with a built-in Power BI alternative, discuss how each custom visual compares to the built-in option.
+3. **Built-in Visual Comparison** (if applicable)
 
-4. **Best Visual**:  
+   If the visuals belong to a visual type with a built-in Power BI alternative, discuss how each custom visual compares to the built-in option.
+
+4. **Best Visual**
+
    Summarize the comparison by identifying the best visual for most users based on the parameters evaluated.
 
-5. **Best Free Alternative** (if available):
+5. **Best Free Alternative** (if available)
+
     If a free alternative is available, highlight it as the best choice for users seeking a no-cost solution.
     > Include this section only if the comparison involves more than two visuals.
 
-6. **Conclusion:**  
+6. **Conclusion**  
+
    Summarize the comparison and provide a final recommendation based on the parameters evaluated.
 
 ## Content Guidelines

@@ -17,9 +17,8 @@ The OKVIZ content is intended for Power BI end-users, developers, data professio
 The following types of content are accepted:
 
 - **Reviews:** Detailed evaluations of individual Power BI visuals. [Guidelines for Reviews](./review-guidelines/index.md).
-- **Comparisons:** Side-by-side assessments of two or more visuals to help users choose the best option. [Guidelines for Comparisons](./comparison-guidelines.md).
+- **Comparisons:** Side-by-side assessments of two or more visuals to help users’ choice [Guidelines for Comparisons](./comparison-guidelines.md).
 - **Use Cases:** Practical examples of how to use a visual to solve a problem in a specific scenario. [Guidelines for Use Cases](./use-case-guidelines.md).
-- **Documentation:** Detailed guides on how to use a visual, including setup, configuration, and best practices.
 
 ### Media
 
@@ -30,8 +29,8 @@ Content could include a variety of media to enhance the user experience and prov
 
     See [Screenshots Best Practices](./screenshots.md) for more information.
 
-- **Screencasts:**  
-   If you need to record a quick demonstration of a feature, provide a small MP4 video (no longer than 10 seconds) without audio. Do not use GIFs.
+- **Animated Images:**  
+    If you need demonstrate the visual's interactivity or a quick feature, provide a small MP4 video (no longer than 10 seconds) without audio. **Do not use Animated GIFs**.
    
 - **Other Images:**  
    Other images such as diagrams, AI-generated images, can be included as long as you hold the rights to these images. However, we reserve the right to remove or reject any images that do not align with our website’s style or for any other reason at our discretion.

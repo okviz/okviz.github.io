@@ -14,19 +14,23 @@ These guidelines ensure that use cases for Power BI custom visuals published on 
 
 Each use case should be structured as follows:
 
-1. **Introduction:**  
+1. **Introduction**  
+
    Clearly state the problem or business scenario that the use case addresses. The problem should be specific and relevant to a particular audience or industry (e.g., "How to visualize dental health issues in a population for dental clinics?"). Avoid generic descriptions.
 
-2. **Proposed Solution:**  
+2. **Proposed Solution**  
+
    Describe how a specific custom visual can be used to solve the identified problem. Explain why this visual is a suitable choice and outline the general approach for implementing the solution.
 
-3. **Implementation:**  
+3. **Implementation**  
    Show how the visual is applied in practice. This section should provide a high-level overview of the steps taken, including setting up the data and configuring the visual to achieve the desired outcome. Include any important considerations or limitations.
 
-4. **Conclusion:**  
+4. **Conclusion**  
+
    Summarize the results and benefits of using the visual for the specified use case. Discuss how it addresses the original problem and any key takeaways for the reader.
 
-5. **In-Depth (Optional):**  
+5. **In-Depth (Optional)**  
+
    For those interested in the technical details, include an "In-Depth" section. This should cover more specific aspects, such as how the data model was prepared, advanced configurations, and any customizations applied to the visual.
 
 ## Content Guidelines
