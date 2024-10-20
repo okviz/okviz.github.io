@@ -2,7 +2,8 @@
 layout:         page
 title:          OKVIZ Website
 menu_title:     Website
-published:      false
+published:      true
+unlisted:       true
 date:           2024-10-04
 modified:       2024-10-04
 order:          /website
