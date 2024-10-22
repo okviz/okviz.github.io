@@ -4,7 +4,7 @@ title:          Visual Classification
 menu_title:     Classification
 published:      true
 date:           2024-10-08
-modified:       2024-10-20
+modified:       2024-10-22
 order:          /website/contributing/review-guidelines/classification
 ---
 
@@ -18,7 +18,6 @@ Types are the primary classification for visuals. Each visual type has specific 
 - Area Chart
 - Bar Chart
 - Clustered Bar Chart
-- Column Chart
 - Combo Chart
 - Donut Chart
 - Histogram
@@ -31,8 +30,8 @@ Types are the primary classification for visuals. Each visual type has specific 
 ### Distribution and Relationship Charts
 - Beeswarm Chart
 - Box & Whisker Plot
-- Box Plot
 - Bubble Chart
+- Bump Chart
 - Density Plot
 - Dot Matrix Chart
 - Dot Plot
@@ -40,8 +39,8 @@ Types are the primary classification for visuals. Each visual type has specific 
 - Frequency Polygon
 - Scatter Plot
 - Spiral Plot
-- Stem-and-Leaf Plot
 - Violin Plot
+- Voronoi Diagram
 
 ### Hierarchical Charts
 - Circle Packing
@@ -53,9 +52,9 @@ Types are the primary classification for visuals. Each visual type has specific 
 - Treemap
 
 ### Geospatial Charts and Maps
-- Bar Chart Map
 - Bubble Map
 - Cartogram
+- Chart on Map
 - Choropleth Map
 - Connection Map
 - Dot Map
@@ -92,6 +91,7 @@ Types are the primary classification for visuals. Each visual type has specific 
 - Dumbbell Chart
 - Funnel Chart
 - Gauge
+- Infographic
 - KPI
 - Likert Scale Chart
 - Lollipop Chart
@@ -104,7 +104,6 @@ Types are the primary classification for visuals. Each visual type has specific 
 - Pyramid Chart
 - Radar Chart
 - Radial Bar Chart
-- Radial Column Chart
 - Ribbon Chart
 - Sparklines
 - Tornado Diagram
@@ -116,12 +115,10 @@ Types are the primary classification for visuals. Each visual type has specific 
 ### Matrix, Grid, and Tables
 - Correlation Matrix
 - Matrix
-- Pivot Chart
 - Table
 
 ### Financial Charts
 - Candlestick Chart
-- Heikin-Ashi Chart
 - OHLC Chart
 - Point & Figure Chart
 - Renko Chart
@@ -141,6 +138,7 @@ Types are the primary classification for visuals. Each visual type has specific 
 ### Miscellaneous
 - Filter
 - Visual Builder
+- Other
 
 
 ## Categories
