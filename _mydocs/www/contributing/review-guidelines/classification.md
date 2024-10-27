@@ -21,42 +21,42 @@ Types are the primary classification for visuals. Each visual type has specific 
 Utilize X and Y axes to plot data points. Components often include axes, gridlines, data points, lines, or bars.
 
 - 3D Bar Chart
-- 3D Scatter Plot
+- 3D Bubble/Scatter Chart
 - Area Chart
 - Bar Chart
 - Beeswarm Chart
 - Box & Whisker Plot
-- Bubble Chart
+- Bubble/Scatter Chart
 - Bullet Chart
 - Bump Chart
 - Candlestick Chart
-- Clustered Bar Chart
 - Combo Chart
 - Density Plot
 - Dot Plot
 - Dumbbell Chart
 - Fan Chart
 - Histogram
-- Kagi Chart
 - Likert Scale Chart
 - Line Chart
 - Lollipop Chart
 - Marimekko Chart
-- OHLC Chart
 - Pareto Chart
 - Pictogram Chart
 - Point & Figure Chart
 - Population Pyramid
-- Renko Chart
 - Ribbon Chart
-- Scatter Plot
-- Stacked Area Chart
-- Stacked Bar Chart
 - Stream Chart
 - Tornado Diagram
 - Violin Plot
 - Voronoi Diagram
 - Waterfall Chart
+
+### Cartesian Charts (Axis-Free)
+
+Plot data points without traditional X and Y axes.
+
+- Joy Plot
+- Sparklines
 
 ### Polar Charts
 
@@ -124,7 +124,6 @@ Emphasize temporal data with a focus on time axes, events, and durations.
 
 - Calendar
 - Gantt Chart
-- Sparklines
 - Timeline
 - Timetable
 
@@ -134,7 +133,7 @@ Incorporate three-dimensional visuals. Components include depth (Z-axis) and 3D 
 
 - 3D Bar Chart (also in Cartesian Charts)
 - 3D Pie Chart (also in Polar Charts)
-- 3D Scatter Plot (also in Cartesian Charts)
+- 3D Bubble/Scatter Chart (also in Cartesian Charts)
 - 3D Surface Plot
 
 ### Single-Value Charts and Indicators
@@ -149,10 +148,10 @@ Display single data values or key performance indicators. Components focus on nu
 
 Use the area of shapes to represent data values. Components include proportionally sized shapes like circles or squares.
 
-- Bubble Chart (also in Cartesian Charts)
+- Bubble/Scatter Chart (also in Cartesian Charts)
 - Circle Packing
 - Dot Matrix Chart
-- Pictogram Chart (also in Cartesian Charts)
+- Pictogram Chart
 - Proportional Area Chart
 - Pyramid Chart
 - Treemap
@@ -171,6 +170,7 @@ Enhance visual storytelling and presentation. May not follow standard chart comp
 
 ### Other
 - Filter
+- Risk Matrix
 - Visual Builder
 - Other
 

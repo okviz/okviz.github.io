@@ -27,7 +27,7 @@ This area assesses the core functionality of the visual, considering both common
 
 - **Unique Features:**
 
-  Unique features are innovative functionalities that set a visual apart from others. If you encounter a feature that is not listed in the standard checklist and is unique to the visual, you can include it in the ***More*** section of your evaluation checklist.
+  Unique features are innovative functionalities that set a visual apart from others. If you encounter a feature that is not listed in the standard checklist and is unique to the visual, you can include it in the ***Extra Features*** section of the checklist.
 
   >> **IMPORTANT**: If the unique feature becomes common (i.e., it appears in other visuals of the same type in the future), it will be added to the standard checklist with a lower weight. Since updating the checklist frequently is challenging, **please be selective and thoughtful about adding unique features.**
 
@@ -67,8 +67,8 @@ Our system will automatically generate a "Pros and Cons" section in the associat
 
 Please use our latest checklist to evaluate a visual. For each feature, select the appropriate option based on your assessment.
 
-**Version**: 1.6   
-**Date**: 2024-10-25
+**Version**: 1.8    
+**Date**: 2024-10-26
 
 <a href="files/okviz-rating-checklist.xlsm" class="icon-download">Download Rating Checklist (.xlsm)</a>
 
