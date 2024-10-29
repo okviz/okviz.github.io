@@ -17,7 +17,6 @@ Types are the primary classification for visuals. Each visual type has specific 
 > The visual types **are grouped based on their inherent structural components**, rather than their intended purposes.
 
 ### Cartesian Charts
-
 Utilize X and Y axes to plot data points. Components often include axes, gridlines, data points, lines, or bars.
 
 - 3D Bar Chart
@@ -52,14 +51,12 @@ Utilize X and Y axes to plot data points. Components often include axes, gridlin
 - Waterfall Chart
 
 ### Cartesian Charts (Axis-Free)
-
 Plot data points without traditional X and Y axes.
 
 - Joy Plot
 - Sparklines
 
 ### Polar Charts
-
 Display data in a circular format, using radial and angular axes.
 
 - 3D Pie Chart
@@ -71,7 +68,6 @@ Display data in a circular format, using radial and angular axes.
 - Spiral Plot
 
 ### Network Charts
-
 Consist of nodes (data points) connected by links (relationships). Components include nodes, edges, and labels.
 
 - Arc Diagram
@@ -81,7 +77,6 @@ Consist of nodes (data points) connected by links (relationships). Components in
 - Sankey Diagram
 
 ### Process and Flow Charts
-
 Illustrate steps or stages in a process. Components include flow lines, stages, and decision points.
 
 - Bowtie Chart
@@ -89,7 +84,6 @@ Illustrate steps or stages in a process. Components include flow lines, stages, 
 - Funnel Chart
 
 ### Hierarchical Charts
-
 Represent data with parent-child relationships. Components include nodes, branches, and hierarchical levels.
 
 - Dendrogram
@@ -99,7 +93,6 @@ Represent data with parent-child relationships. Components include nodes, branch
 - Tree Diagram
 
 ### Geospatial Charts
-
 Plot data on geographic maps. Components include map projections, markers, and geographic boundaries.
 
 - Bubble Map
@@ -111,7 +104,6 @@ Plot data on geographic maps. Components include map projections, markers, and g
 - Isopleth Map
 
 ### Tables and Matrices
-
 Display data in a grid format. Components include rows, columns, and cells.
 
 - Matrix
@@ -128,7 +120,6 @@ Emphasize temporal data with a focus on time axes, events, and durations.
 - Timetable
 
 ### 3D Charts
-
 Incorporate three-dimensional visuals. Components include depth (Z-axis) and 3D rendering.
 
 - 3D Bar Chart (also in Cartesian Charts)
@@ -137,7 +128,6 @@ Incorporate three-dimensional visuals. Components include depth (Z-axis) and 3D 
 - 3D Surface Plot
 
 ### Single-Value Charts and Indicators
-
 Display single data values or key performance indicators. Components focus on numeric displays without axes.
 
 - Card
@@ -145,7 +135,6 @@ Display single data values or key performance indicators. Components focus on nu
 - KPI
 
 ### Proportional Areas Charts
-
 Use the area of shapes to represent data values. Components include proportionally sized shapes like circles or squares.
 
 - Bubble/Scatter Chart (also in Cartesian Charts)
@@ -158,7 +147,6 @@ Use the area of shapes to represent data values. Components include proportional
 - Waffle Chart
 
 ### Decorative and Infographic Elements
-
 Enhance visual storytelling and presentation. May not follow standard chart components.
 
 - Decorative Element
@@ -168,8 +156,16 @@ Enhance visual storytelling and presentation. May not follow standard chart comp
 - Venn Diagram
 - Word Cloud
 
+### Filters
+Provide interactive filtering capabilities for other visuals. Components include slicers, dropdowns, and buttons.
+
+- Control Filter
+- Date Filter
+- List Filter
+- Text Filter
+
 ### Other
-- Filter
+
 - Risk Matrix
 - Visual Builder
 - Other

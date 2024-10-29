@@ -67,8 +67,8 @@ Our system will automatically generate a "Pros and Cons" section in the associat
 
 Please use our latest checklist to evaluate a visual. For each feature, select the appropriate option based on your assessment.
 
-**Version**: 1.9    
-**Date**: 2024-10-28
+**Version**: 2.0   
+**Date**: 2024-10-29
 
 <a href="files/okviz-rating-checklist.xlsm" class="icon-download">Download Rating Checklist (.xlsm)</a>
 
