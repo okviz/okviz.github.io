@@ -25,12 +25,6 @@ This area assesses the core functionality of the visual, considering both common
 
   > **For multi-purpose visuals** (visuals that can represent multiple visual types), you must evaluate the visual against the feature checklists for **all applicable types**. This ensures a comprehensive assessment of the visual's capabilities across its various functionalities.
 
-- **Unique Features:**
-
-  Unique features are innovative functionalities that set a visual apart from others. If you encounter a feature that is not listed in the standard checklist and is unique to the visual, you can include it in the ***Extra Features*** section of the checklist.
-
-  >> **IMPORTANT**: If the unique feature becomes common (i.e., it appears in other visuals of the same type in the future), it will be added to the standard checklist with a lower weight. Since updating the checklist frequently is challenging, **please be selective and thoughtful about adding unique features.**
-
 ### Design
 
 This area focuses on the visual's appearance, user experience, and performance. It evaluates how well the visual integrates into Power BI dashboards, its aesthetic appeal, consistency, ease of use, and how efficiently it performs.
