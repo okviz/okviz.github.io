@@ -1,10 +1,10 @@
 ---
 layout:         page
-title:          Guidelines for Visual Comparisons
+title:          Guidelines for Comparisons
 menu_title:     Comparison Guidelines
 published:      true
 date:           2024-10-04
-modified:       2024-10-20
+modified:       2024-11-01
 order:          /website/contributing/comparison-guidelines
 ---
 
@@ -42,30 +42,63 @@ When comparing visuals, consider the following parameters:
 ## Comparison Structure
 Each comparison must be structured as follows:
 
-1. **Overview**  
+1. **Summary**
 
-   Provide a brief overview of the visuals being compared and the reason for the comparison. Mention if there are built-in alternatives in Power BI.
+   Provide a brief executive summary that highlights the key findings and recommendations. This section should be concise and provide immediate value to readers.
 
-2. **Detailed Comparison**  
+   Example:
 
-   Present a side-by-side comparison for each parameter, highlighting which visual is best for each category. Include the rationale behind the decision.
+   `This report evaluates six custom calendar visuals available on Power BI AppSource. Calendar PRO by OKVIZ emerges as the best overall option due to its rich features and advanced customization. For users seeking a free alternative focused on event management, Calendar by MAQ Software is recommended.`
 
-3. **Built-in Visual Comparison** (if applicable)
+2. **Introduction**  
+
+   Introduce the purpose of the comparison, the importance of choosing the right visual, and briefly mention the visuals being compared. List the visuals in alphabetical order.
+
+3. **Quick Comparison**  
+
+   Present a side-by-side comparison table for each parameter. Put the visuals on the x-axis and the parameters on the y-axis.
+
+4. **Evaluation Criteria**  
+
+   Clearly outline the criteria used for evaluation. This section may include a brief explanation of each parameter, if not common knowledge.
+
+5. **Individual Visual Analyses** 
+   
+   Provide a brief analysis of each visual using the following structure:
+   - Name of the visual
+   - A brief description of the visual
+   - A screenshot of the visual
+   - **Key Features**: A summary of the key features
+   - **Pros**: A list of the visual's strengths
+   - **Cons**: A list of the visual's weaknesses
+
+6. **Built-in Visual Comparison** (if applicable)
 
    If the visuals belong to a visual type with a built-in Power BI alternative, discuss how each custom visual compares to the built-in option.
 
-4. **Best Visual**
+7. **Recommendations**  
 
-   Summarize the comparison by identifying the best visual for most users based on the parameters evaluated.
+   Summarize the comparison and provide final recommendations based on the parameters evaluated:
 
-5. **Best Free Alternative** (if available)
+   - **Best Visual**
 
-    If a free alternative is available, highlight it as the best choice for users seeking a no-cost solution.
-    > Include this section only if the comparison involves more than two visuals.
+      Identify the best visual for most users based on the parameters evaluated.
 
-6. **Conclusion**  
+   - **Best Free Alternative** (if available)
 
-   Summarize the comparison and provide a final recommendation based on the parameters evaluated.
+      If a free alternative is available, highlight it as the best choice for users seeking a no-cost solution.
+
+   - **Other Options** (if applicable)
+
+      If there are other notable visuals that did not win the top spot, mention them here and explain why they were not selected.  
+      
+   - **Not Recommended** (if applicable)
+
+      If there are visuals that performed poorly in the comparison, mention them here and explain why they were not recommended.
+
+8. **Resources**
+
+   Provide links to reports created for the comparison or any other relevant resources. You could include links to other OKVIZ content, but avoid external links unless necessary.
 
 ## Content Guidelines
 
@@ -81,10 +114,6 @@ Please refer to the **OKVIZ Content Guidelines** for shared principles, includin
 - [Editorial Process](content-guidelines.md#editorial-process)
 - [Maintenance](content-guidelines.md#maintenance)
 
-Also, follow these additional guidelines:
-
-- **Screenshots:** Include side-by-side high-quality screenshots of the visuals in use to provide a visual representation of their differences. 
-
 &nbsp; 
 
 ---
@@ -93,11 +122,12 @@ Also, follow these additional guidelines:
 
 Use this checklist to verify that all guidelines have been followed:
 
-- [ ] **Overview:** Provide a brief introduction to the comparison.
-- [ ] **Detailed Comparison:** Present a side-by-side comparison for each parameter.
+- [ ] **Summary:** Provide a brief executive summary that highlights the key findings and recommendations.
+- [ ] **Introduction:** Provide a brief introduction to the comparison.
+- [ ] **Quick Comparison:** Present a side-by-side comparison table for each parameter.
+- [ ] **Evaluation Criteria:** Clearly outline the criteria used for evaluation.
+- [ ] **Individual Visual Analyses:** Provide a brief analysis of each visual.
 - [ ] **Built-in Visual Comparison:** Discuss how each custom visual compares to the built-in Power BI alternative (if applicable).
-- [ ] **Best Visual:** Summarize the comparison and identify the best visual for most users.
-- [ ] **Best Free Alternative:** Highlight the best free alternative (if available).
-- [ ] **Conclusion:** Summarize the comparison and provide a final recommendation.
-- [ ] **Screenshots:** Include high-quality side-by-side screenshots of the visuals.
-- [ ] **Content Guidelines:** Follow the OKVIZ Content Guidelines for consistency and quality.
+- [ ] **Recommendations:** Summarize the comparison and provide final recommendations.
+- [ ] **Resources:** Provide links to reports to relevant resources.
+- [ ] Follow the [OKVIZ Content Guidelines](content-guidelines.md) for media, links, bugs, style, and grammar.

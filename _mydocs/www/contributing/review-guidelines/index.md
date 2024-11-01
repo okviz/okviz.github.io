@@ -1,10 +1,10 @@
 ---
 layout:         page
-title:          Guidelines for Visual Reviews
+title:          Guidelines for Reviews
 menu_title:     Reviews Guidelines
 published:      true
 date:           2024-10-04
-modified:       2024-10-15
+modified:       2024-11-01
 order:          /website/contributing/review-guidelines
 pdf:            true
 ---
@@ -134,14 +134,14 @@ Also, follow these additional guidelines:
 Use this checklist to verify that all guidelines have been followed:
 
 - [ ] **Overview:** Describe the visual and its purpose.
-- [ ] **Visual Type(s) Features:** Evaluate how well the visual meets the features of its category.
+- [ ] **Adherence to Visual Type(s):** Evaluate how well the visual meets the features of its visual type.
 - [ ] **Core Features:** Discuss the unique features of the visual.
 - [ ] **Performance:** Evaluate the visual’s responsiveness and stability with large datasets.
 - [ ] **Final Consideration:** Offer a short summary of the visual’s performance and rating.
 - [ ] **Rating:** Complete the [Rating Checklist](rating-system.md#rating-checklist).
-- [ ] **Content Guidelines:** Follow the [content guidelines](../content-guidelines.md) for media, links, bugs, style, and grammar.
-- [ ] **Screenshots:** Provide at least 2 high-quality screenshots.
-- [ ] **Comparisons:** Ensure the visual is not compared to other custom visuals.
+- [ ] Follow the [OKVIZ Content Guidelines](../content-guidelines.md) for media, links, bugs, style, and grammar.
+   - [ ] **Screenshots:** Provide at least 2 high-quality screenshots.
+   - [ ] **Comparisons:** Ensure the visual is not compared to other custom visuals.
 - [ ] Provide additional metadata: 
     - [ ] **Review Title**
     - [ ] **Short Review Title**
