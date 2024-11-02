@@ -11,13 +11,15 @@ This page contains a quick summary of versions and notable changes of Calendar P
 Smart Filter Pro uses **Power BI Custom Visuals API v5.9.1**.
 
 ## v1.0.6.0
-**Released:** 2024-10-27
+**Released:** 2024-11-02
 
 **Added:**
+- Add [Time Zone option](options/calendar/timezone.md) to deal with Power BI automation that run at UTC time zone.
 - New license management system - ready to support OKVIZ licensing.
 
 **Fixed:**
 - Fix holidays time zone issue.
+- Fixed "Today/Current *PERIOD*" not showing in the "Jump" menu in some cases.
 
 ## v1.0.5.5
 **Released:** 2024-06-02
