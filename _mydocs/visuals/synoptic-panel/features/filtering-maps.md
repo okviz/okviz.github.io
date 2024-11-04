@@ -64,7 +64,7 @@ Assuming you have a table with the following columns and values:
     </tr>
 </table>
 
-The map selector measure must be defined as follows:
+The map selector measure could be defined as follows:
 
 ```dax
 SelectedOffices = 
@@ -75,9 +75,9 @@ SelectedOffices =
    )
 ```
 
-In this example, the map selector measure returns a string with the names of the offices currently selected, separated by the character <span style="font-size:20px">✄</span>. 
+In this example, the measure returns a string with the names of the offices currently selected, separated by the character <span style="font-size:20px">✄</span>. Depending on your needs, you can replace the `ALLSELECTED` function with others, such as `VALUES`, to adjust how the map selector measure interacts with the context.
 
-Change the table and column names according to your dataset.
+Remember to modify the table and column names according to your dataset.
 >> **IMPORTANT**: The separator character must be the same as the one defined in the visual setting [Map Selector Separator](../options/advanced-options/map-selector.md#separator). 
 
 ### Assigning References to Maps
