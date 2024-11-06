@@ -4,7 +4,7 @@ title:          Guidelines for Reviews
 menu_title:     Reviews Guidelines
 published:      true
 date:           2024-10-04
-modified:       2024-11-01
+modified:       2024-11-06
 order:          /website/contributing/review-guidelines
 pdf:            true
 ---
@@ -36,17 +36,17 @@ Each review must be structured into the following sections:
 
    Provide a free-form discussion of the specific features that make the visual unique. Highlight any standout functionality or customization options that set it apart.
 
-4. **Performance**  
+4. **Design and Performance**  
 
-   Evaluate the visual’s performance in terms of speed, responsiveness, and stability. See the performance section in the [Rating System](rating-system.md#design) for more details.
+   Evaluate the visual’s design, including its appearance, usability, and how seamlessly it integrates into Power BI. Also, evaluate the visual’s performance in terms of speed, responsiveness, and stability. See the performance section in the [Rating System](rating-system.md#design) for more details on how to evaluate performance.
+
+6. **Pros and Cons**  
+
+   Provide a balanced list of the visual’s **strengths and weaknesses**. Avoid generic statements and instead focus on specific features or aspects that set the visual apart or could be improved. The format should be a table with two columns: *Pros* and *Cons*. Do not include more than 5 items in each column.
 
 5. **Final Consideration**  
 
    Summarize the overall performance of the visual. Discuss the rating (see below) and provide a detailed explanation of why the visual received that score based on its features and usability.
-
-6. **Pros and Cons**  
-
-   A "Pros and Cons" section is automatically generated based on your rating (see below), so **do not include it in the content.**
 
 ## Rating
 
@@ -136,7 +136,8 @@ Use this checklist to verify that all guidelines have been followed:
 - [ ] **Overview:** Describe the visual and its purpose.
 - [ ] **Adherence to Visual Type(s):** Evaluate how well the visual meets the features of its visual type.
 - [ ] **Core Features:** Discuss the unique features of the visual.
-- [ ] **Performance:** Evaluate the visual’s responsiveness and stability with large datasets.
+- [ ] **Design and Performance:** Evaluate the visual’s design and performance.
+- [ ] **Pros and Cons:** Provide a balanced list of strengths and weaknesses.
 - [ ] **Final Consideration:** Offer a short summary of the visual’s performance and rating.
 - [ ] **Rating:** Complete the [Rating Checklist](rating-system.md#rating-checklist).
 - [ ] Follow the [OKVIZ Content Guidelines](../content-guidelines.md) for media, links, bugs, style, and grammar.

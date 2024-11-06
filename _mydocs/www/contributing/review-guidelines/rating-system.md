@@ -53,16 +53,13 @@ This area examines the quality of documentation, tutorials, user guides, and ven
 
 While you won't need to consider weights in your evaluation directly, please be aware that some features are more significant than others. The final rating considers the importance of each feature to provide a fair and balanced score. Essential features will have a greater impact on the overall rating than nice-to-have features.
 
-### Pros and Cons
-
-Our system will automatically generate a "Pros and Cons" section in the associated review based on your evaluations. Exceptionally good or poor results for significant features will be highlighted to provide insights into the visual's strengths and weaknesses. This helps in creating a balanced review that highlights key points for potential users.
 
 ## Rating Checklist
 
 Please use our latest checklist to evaluate a visual. For each feature, select the appropriate option based on your assessment.
 
-**Version**: 2.0   
-**Date**: 2024-10-29
+**Version**: 2.1   
+**Date**: 2024-11-06
 
 <a href="files/okviz-rating-checklist.xlsm" class="icon-download">Download Rating Checklist (.xlsm)</a>
 
