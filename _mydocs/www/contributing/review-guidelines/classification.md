@@ -59,9 +59,8 @@ Plot data points without traditional X and Y axes.
 ### Polar Charts
 Display data in a circular format, using radial and angular axes.
 
-- 3D Pie Chart
-- Donut Chart
-- Pie Chart
+- 3D Pie/Donut Chart
+- Pie/Donut Chart
 - Polar Area Chart
 - Radar Chart
 - Radial Bar Chart
@@ -123,7 +122,7 @@ Emphasize temporal data with a focus on time axes, events, and durations.
 Incorporate three-dimensional visuals. Components include depth (Z-axis) and 3D rendering.
 
 - 3D Bar Chart (also in Cartesian Charts)
-- 3D Pie Chart (also in Polar Charts)
+- 3D Pie/Donut Chart (also in Polar Charts)
 - 3D Bubble/Scatter Chart (also in Cartesian Charts)
 - 3D Surface Plot
 
