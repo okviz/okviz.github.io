@@ -8,8 +8,8 @@ order:              /calendar-pro/fields/value-color-rules
 related:
     - /calendar-pro/features/color-rules.md
 ---
-The ***Values for Color Rules*** data role is used to bind one or more measures that can be used with color rules, to enhance the visualization.
+The ***Values for Color Rules*** field well is used to bind one or more measures that can be used with color rules, to enhance the visualization.
 
 <img src="images/color-rules-field.png" width="230">
 
-<todo>Screenshot of Color Rules editor where you can select the fields added to this data role</todo>
+<todo>Screenshot of Color Rules editor where you can select the fields added to this well</todo>

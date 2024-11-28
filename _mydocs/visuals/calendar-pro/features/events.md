@@ -13,7 +13,7 @@ Calendar Pro supports events and holidays.
 
 The idea behind the use of events is that they may be useful to intercept relations or correlations with the data you are analyzing.
 
-To display events in the visual, you need to bind one or more columns containing the event names to the [Events](../fields/events.md) data role. Calendar Pro doesn't have the concept of a start and end date for events, so they are displayed as a single day in the calendar. However, there is [dedicated option](../options/events/join.md) to join multiple adjacent events.
+To display events in the visual, you need to bind one or more columns containing the event names to the [Events](../fields/events.md) field well. Calendar Pro doesn't have the concept of a start and end date for events, so they are displayed as a single day in the calendar. However, there is [dedicated option](../options/events/join.md) to join multiple adjacent events.
 
 This way, you can display any kind of data as events, not just the typical events like meetings or appointments. 
 
@@ -32,7 +32,7 @@ Like the events, the idea behind the use of holidays is that they may be useful 
 
 Calendar Pro is able to display holidays from different countries at the same time. You have two ways to manage this: 
 - From the options (see below), you can select up to 3 countries whose holidays you want to display.
-- By binding a column containing the country codes you want to display to the [Holidays Countries](../fields/holidays-countries.md) data role of the visual.
+- By binding a column containing the country codes you want to display to the [Holidays Countries](../fields/holidays-countries.md) field well of the visual.
 
 Learn more about how holidays can be managed in the [Holidays section](../options/holidays/index.md).
 

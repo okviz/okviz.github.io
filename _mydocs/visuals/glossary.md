@@ -3,7 +3,7 @@ layout:             page
 title:              Glossary
 published:          true
 date:               2024-05-12
-modified:           2024-10-10
+modified:           2024-11-28
 order:              /{99}
 ---
 
@@ -28,6 +28,12 @@ Microsoft's certification program for Power BI visuals guarantees that custom vi
 ## Data Point
 
 In Power BI, a "data point" refers to an individual value or item of data extracted from your dataset, represented in various forms across reports and visualizations. These data points are integral to visuals, where each point might represent a specific metric like daily sales or customer counts.
+
+## Field Well
+
+Field wells are the areas in the Power BI report canvas where you can drag and drop fields from your dataset to bind them to visuals. There are different field wells for different roles, such as "Axis", "Values", "Legend", and "Tooltips". 
+
+<img src="images/field-well.png" width="200">
 
 ## Map
 

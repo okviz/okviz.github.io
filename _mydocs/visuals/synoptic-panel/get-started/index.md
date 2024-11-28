@@ -31,7 +31,7 @@ In this section, you will learn how to install and use Synoptic Panel in a Power
 
 ## Load a Map
 
-4. Before you can use the visual, you need to bind at least a column to the ***Categories*** data role.
+4. Before you can use the visual, you need to bind at least a column to the ***Categories*** field well.
 
     <video src="images/drag-category.mp4" autoplay loop muted></video>
 
@@ -45,7 +45,7 @@ In this section, you will learn how to install and use Synoptic Panel in a Power
 
 7. Once you have selected a map, click the ***Done*** button to close the dialog and see the map in the visual.
 
-8. At this point, some areas of the map may be highlighted in different colors. This happens when  automatic binding is applied. **Automatic binding** is a feature that tries to match the `id` of the map elements with the values of the column you have bound to the ***Categories*** data role. If the matching is successful, the areas become interactive, can be colored, and can display labels and tooltips. If the match is not successful, the areas are colored by default with a grayscale color (but you can choose to use the original color if you wish).
+8. At this point, some areas of the map may be highlighted in different colors. This happens when  automatic binding is applied. **Automatic binding** is a feature that tries to match the `id` of the map elements with the values of the column you have bound to the ***Categories*** field well. If the matching is successful, the areas become interactive, can be colored, and can display labels and tooltips. If the match is not successful, the areas are colored by default with a grayscale color (but you can choose to use the original color if you wish).
 
     See more in the [Data Binding](../concepts/data-binding.md) section.
 
@@ -65,14 +65,14 @@ See more in the [Map Editor](../features/map-editor.md) section.
 
 The main purpose of Synoptic Panel is to visualize data on the map. To do so, you need to bind one or more measures to the visual:
 
-- Bind a measure to the ***Value*** data role to connect it to the map areas. The values of this measure could be displayed in labels or used to color the areas of the map.
+- Bind a measure to the ***Value*** field well to connect it to the map areas. The values of this measure could be displayed in labels or used to color the areas of the map.
 
-- Bind one or more measures to the ***Tooltips*** data role to display them as tooltips when hovering over the map areas.
+- Bind one or more measures to the ***Tooltips*** field well to display them as tooltips when hovering over the map areas.
 
 
 ## Add Conditional Formatting
 
-You can customize the color of your map areas according to the value of the measure you have bound to the ***Value*** data role or any other measure you have in your dataset. To do so, you need to define the conditional formatting as you usually do in built-in Power BI visuals.
+You can customize the color of your map areas according to the value of the measure you have bound to the ***Value*** field well or any other measure you have in your dataset. To do so, you need to define the conditional formatting as you usually do in built-in Power BI visuals.
 
 <img src="images/fx.png" width="180">  
 <img src="images/conditional-formatting.png" width="500">  

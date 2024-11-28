@@ -9,7 +9,7 @@ related:
     - /calendar-pro/features/events.md
     - /calendar-pro/options/holidays/index.md
 ---
-The ***Holiday Countries*** data role is used to bind one or more measures containing a country ISO to the visual. Calendar Pro will display the holidays of the selected countries on the calendar. 
+The ***Holiday Countries*** field well is used to bind one or more measures containing a country ISO to the visual. Calendar Pro will display the holidays of the selected countries on the calendar. 
 
 <img src="images/holidays-countries-field.png" width="230">
 

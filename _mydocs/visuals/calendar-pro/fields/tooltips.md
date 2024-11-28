@@ -8,7 +8,7 @@ order:              /calendar-pro/fields/tooltips
 related:
     - /calendar-pro/options/tooltips/index.md
 ---
-The ***Tooltips*** data role is used to bind one or more measures containing additional information to the visual.
+The ***Tooltips*** field well is used to bind one or more measures containing additional information to the visual.
 
 <img src="images/tooltips-field.png" width="230">
 

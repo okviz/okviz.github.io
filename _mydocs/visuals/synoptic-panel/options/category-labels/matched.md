@@ -3,7 +3,7 @@ layout:             page
 title:              Matched
 published:          true
 date:               2024-09-14
-modified:           2024-09-14
+modified:           2024-11-12
 order:              /synoptic-panel/options/category-labels/matched
 ---
 
@@ -25,7 +25,8 @@ Available options:
 
 - **Category Value**: The visual will display the category value.
 
-- **Category Value (Full)**: The visual will display the full category value, which includes the full hierarchy path of the category. See [Automatic Binding when Hierarchy is Expanded](../../concepts/data-binding.md#automatic-binding-when-hierarchy-is-expanded) for more information. Note that if the hierarchy is not expanded, the visual will display the category value.
+- **Category Value (Path)**: In case you have expanded the hierarchy level through the specific drill control and have disabled the [Aggregate on Expand](../drill-behavior/aggregate-on-expand.md) option, the visual will display the full hierarchy path of the category, otherwise the category value (as above).  
+See [Automatic Binding when Hierarchy is Expanded](../../concepts/data-binding.md#automatic-binding-when-hierarchy-is-expanded) for more information.
 
 - **Title**: The visual will display the title of the matched element as defined in the SVG file.
 
@@ -35,13 +36,27 @@ Available options:
 
 **Default value**: (Empty)
 
-The custom value to display for the matched elements. This field is only available when the 'Display Value' option is set to '(Custom)'.
+The custom value to display for the matched elements. This field is only available when the 'Display Value' option is set to '(Custom)'. 
 
-## Include Data Label
+You can use different placeholders to include specific fields from the data model or map: 
+
+- `{category}` - the category value
+- `{value}` - the data point value
+- `{title}` - the title of the matched map area
+- `{id}` - the element id of the matched map area
+- `{path}` - the full hierarchy path of the category when the hierarchy is expanded, otherwise the category value
+
+E.g.: `{category}\n({value})` will be rendered as:
+```
+Computers 
+($123,456)
+```
+
+## Append Data Value
 
 **Default value**: Off
 
-When enabled, data value is included in the category label.
+When enabled, data point value is appended to the category label.
 
 ## Display Unit
 

@@ -15,7 +15,7 @@ This option allows you to choose up to three countries to show holidays for.
 
 ## Using a column as the countries
 
-If you want to show holidays for more than three countries or you want to set the countries dynamically, you can use the [Holidays Countries](../../fields/holidays-countries.md) data role.
+If you want to show holidays for more than three countries or you want to set the countries dynamically, you can use the [Holidays Countries](../../fields/holidays-countries.md) field well.
 
 <img src="images/holidays-countries.png" width="230">
 

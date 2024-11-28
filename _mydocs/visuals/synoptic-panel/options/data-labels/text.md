@@ -3,7 +3,7 @@ layout:             page
 title:              Text
 published:          true
 date:               2024-09-14
-modified:           2024-09-14
+modified:           2024-11-12
 order:              /synoptic-panel/options/data-labels/text
 ---
 This section provides options for configuring the data labels text.
@@ -20,6 +20,11 @@ The font and style of the data labels text.
 
 When enabled, the font size of the data labels text is automatically adjusted to fit the parent element.
 
+## Font Size Scale
+
+**Default value**: 100%
+
+The scale of the font size of the data labels text when the *Auto Font Size* option is enabled.
 
 ## Min Font Size
 

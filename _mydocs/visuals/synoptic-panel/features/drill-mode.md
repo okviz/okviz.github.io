@@ -19,7 +19,7 @@ In Synoptic Panel, Drill Mode offers a unique capability to interact with differ
 
 ## How to Enable Drill Mode
 
-Drill Mode can be enabled in Synoptic Panel by adding more than a column to the ***Categories*** data role. In this case, the visual will display only a column at a time, and you can switch between them using the drill controls.
+Drill Mode can be enabled in Synoptic Panel by adding more than a column to the ***Categories*** field well. In this case, the visual will display only a column at a time, and you can switch between them using the drill controls.
 
 <img src="images/enable-drill-mode.png" width="200">
 
@@ -32,7 +32,7 @@ When the Drill Mode is enabled, you will see a set of controls in the visual hea
 
 <img src="images/drill-toolbar.png" width="300">
 
-- **Drill up**: Click on the first button to move to the previous level of the data hierarchy. This action will display the previous column in the ***Categories*** data role. If you are already at the top level, this button will be disabled.
+- **Drill up**: Click on the first button to move to the previous level of the data hierarchy. This action will display the previous column in the ***Categories*** field well. If you are already at the top level, this button will be disabled.
 
 - **Drill down one field**: Click on the second button activate the drill down mode. You can then click on a map area to move to the next level of the data hierarchy, but limited to the data point bound to the clicked area. 
 

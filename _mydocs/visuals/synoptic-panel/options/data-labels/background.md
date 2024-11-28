@@ -3,7 +3,7 @@ layout:             page
 title:              Background
 published:          true
 date:               2024-09-14
-modified:           2024-09-14
+modified:           2024-11-12
 order:              /synoptic-panel/options/data-labels/background
 ---
 **Default value**: Off
@@ -28,6 +28,12 @@ The transparency of the background of the data labels. The value ranges from 0% 
 
 The radius of the corners of the background of the data labels. The value ranges from 0 to 20.
 
+## Padding
+
+**Default value**: 0
+
+The padding of the background of the data labels. The value ranges from 0 to 40.
+
 ## Outline
 
 **Default value**: Off
@@ -51,3 +57,14 @@ The transparency of the outline of the data labels background. The value ranges 
 **Default value**: 2
 
 The width of the outline of the data labels background. The value ranges from 1 to 20.
+
+## Outline Style
+
+**Default value**: Solid
+
+The style of the outline of the data labels background. Available options are:
+
+- **Solid**
+- **Dashed**
+- **Dotted**
+- **Double**

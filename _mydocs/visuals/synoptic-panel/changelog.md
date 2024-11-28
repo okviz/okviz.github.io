@@ -3,12 +3,22 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2024-05-10
-modified:           2024-10-06
+modified:           2024-11-28
 order:              /synoptic-panel/{99}
 toc_max:            2
 ---
 This page contains a quick summary of versions and notable changes of Synoptic Panel.  
 Synoptic Panel uses **Power BI Custom Visuals API v5.9.1**.
+
+# v2.2.0 - RC
+**Released:** 2024-12-01
+
+### New Features
+- Add integration with MyStorage
+- Add Label Designer
+
+### Improvements
+- Several improvements in labels including custom text syntax, word wrap, and more
 
 ## v2.1.1 - Beta
 **Released:** 2024-10-08

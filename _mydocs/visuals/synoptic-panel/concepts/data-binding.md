@@ -35,7 +35,7 @@ However, it is not recommended to make this editing manually, as it can lead to 
 
 ## Linking Areas to Data 
 
-Each area of a map can be linked to a specific data point ([what is a data point?](../../glossary.md#data-point)) of the columns bound to the ***Categories*** data role. This can be done automatically or manually.
+Each area of a map can be linked to a specific data point ([what is a data point?](../../glossary.md#data-point)) of the columns bound to the ***Categories*** field well. This can be done automatically or manually.
 
 ### Automatic Binding 
 

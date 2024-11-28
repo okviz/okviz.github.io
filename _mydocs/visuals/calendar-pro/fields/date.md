@@ -6,7 +6,7 @@ date:               2024-05-15
 modified:           2024-05-30
 order:              /calendar-pro/fields/date
 ---
-The ***Date*** data role is used to bind a date column to the visual. The visual will create a calendar based on the dates in the column.
+The ***Date*** field well is used to bind a date column to the visual. The visual will create a calendar based on the dates in the column.
 
 <img src="images/date-field.png" width="230">
 

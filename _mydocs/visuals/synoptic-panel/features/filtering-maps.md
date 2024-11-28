@@ -22,7 +22,7 @@ It worth mentioning that you can also use the drill mode to programmatically cha
 
 ## Map Selector
 
-Synoptic Panel accepts a DAX measure in the **Map Selector** data role.
+Synoptic Panel accepts a DAX measure in the **Map Selector** field well.
 
 <img src="images/map-selector-role.png" width="200">
 
@@ -86,7 +86,7 @@ To assign a reference to a map, follow these steps:
 
 1. Create the map selector measure as described above.
 
-2. Bind the measure to the **Map Selector** data role.
+2. Bind the measure to the **Map Selector** field well.
 
     <img src="images/map-selector-field.png" width="200">
 
@@ -105,7 +105,7 @@ After assigning the references, the visual will display the corresponding map wh
 
 ## Map URLs
 
-Another way to change maps based on a filter is to using the **Map URLs** data role. This role allows you to bind a column containing map URLs to the visual. When the column is bound, the visual will display the map associated with the URL in the column according to the current filter.
+Another way to change maps based on a filter is to using the **Map URLs** field well. This role allows you to bind a column containing map URLs to the visual. When the column is bound, the visual will display the map associated with the URL in the column according to the current filter.
 
 <todo>Screencast of map URLs</todo>
 

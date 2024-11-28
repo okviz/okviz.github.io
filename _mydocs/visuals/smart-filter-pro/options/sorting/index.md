@@ -35,6 +35,6 @@ With this option you can choose the sorting behavior of the visual:
 
     <img src="images/sorting-custom.png" width="850">   
 
-    Also, if you connect a field to the [Values](../values/index.md) data role, you can choose to sort by that field.
+    Also, if you connect a measure to the [Values](../values/index.md) field well, you can choose to sort by that field.
 
     <img src="images/sorting-custom-by-value.png" width="850">  

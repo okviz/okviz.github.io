@@ -3,7 +3,7 @@ layout:             page
 title:              Unmatched Background
 published:          true
 date:               2024-09-14
-modified:           2024-09-14
+modified:           2024-11-12
 order:              /synoptic-panel/options/category-labels/unmatched-background
 ---
 **Default value**: Off
@@ -30,6 +30,12 @@ The transparency of the background of the category labels. The value ranges from
 
 The radius of the corners of the background of the category labels. The value ranges from 0 to 20.
 
+## Padding
+
+**Default value**: 0
+
+The padding of the background of the category labels. The value ranges from 0 to 40.
+
 ## Outline
 
 **Default value**: Off
@@ -53,3 +59,14 @@ The transparency of the outline of the category labels background. The value ran
 **Default value**: 2
 
 The width of the outline of the category labels background. The value ranges from 1 to 20.
+
+## Outline Style
+
+**Default value**: Solid
+
+The style of the outline of the category labels background. Available options are:
+
+- **Solid**
+- **Dashed**
+- **Dotted**
+- **Double**

@@ -3,7 +3,7 @@ layout:             page
 title:              Pan & Zoom
 published:          true
 date:               2024-09-14
-modified:           2024-09-14
+modified:           2024-11-17
 order:              /synoptic-panel/options/advanced-options/pan-zoom
 ---
 
@@ -27,11 +27,17 @@ When enabled, the zoom is locked and cannot be changed by the user.
 
 The sensitivity of the zoom. A higher value will make the zoom faster, while a lower value will make it slower.
 
-## Base Map Zoom
+## Min Zoom
 
 **Default**: 100%
 
-Defines the base zoom for the area of the map. Increasing the value will make the map larger and could hide some areas, decreasing it will make the map smaller.
+The minimum zoom level allowed. The value is expressed as a percentage of the base map zoom.
+
+## Max Zoom
+
+**Default**: 1000%
+
+The maximum zoom level allowed. The value is expressed as a percentage of the base map zoom.
 
 ## Zoom On Element Fit
 
