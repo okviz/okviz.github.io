@@ -14,7 +14,7 @@ Smart Filter Pro uses **Power BI Custom Visuals API v5.9.1**.
 **Released:** 2024-11-27
 
 **Fixed:**
-- Use the new time zone option when determining the holidays.
+- Fix holidays time zone issue.
 
 ## v1.0.6.0
 **Released:** 2024-11-02
