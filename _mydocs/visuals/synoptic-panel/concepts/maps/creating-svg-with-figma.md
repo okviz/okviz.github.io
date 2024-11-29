@@ -30,11 +30,11 @@ A common use case is to import an image and overlay shapes, which can then be us
 
 To start, import the image by clicking the square icon at the top and selecting ***Place image/video...***.
 
-<img src="images/figma-place-image.png" width="300">
+<img src="images/figma-place-image.png" width="350">
 
 Once the image is imported, you can begin drawing overlaying shapes on top of it.
 
-<img src="images/figma-shapes.png">
+<img src="images/figma-shapes.png" width="350">
 
 > Ensure the order of the elements in the layers is correct. Overlapping elements are displayed from top to bottom in the list, with the topmost element appearing in front. Ensure that the drawn shapes are above the image.
 
@@ -52,7 +52,7 @@ SVG files use vectors, and Figma can group these vectors into a frame, which can
 
 <img src="images/figma-frame-selection.png" width="300">
 
-<img src="images/figma-frame-fill.png" class="naked">
+<img src="images/figma-frame-fill.png">
 
 Assign the correct name to the newly created frame. Upon exporting, the SVG file will contain the ID that Synoptic Panel uses, just like with shapes.
 
@@ -80,6 +80,6 @@ To export all your shapes (and the background image in case you started from a b
 
 Before exporting, select the option ***Include “id” attribute***. This ensures that the generated SVG file uses the given names of the shapes as IDs.
 
-<img src="images/figma-export.png" width="500" class="naked">
+<img src="images/figma-export.png" width="450">
 
 Congratulations, now you have an SVG file ready to be used in Synoptic Panel.

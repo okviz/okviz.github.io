@@ -4,7 +4,7 @@ title:          Screenshots Best Practices
 menu_title:     Screenshots
 published:      true
 date:           2024-10-11
-modified:       2024-10-20
+modified:       2024-11-29
 order:          /website/contributing/{99}
 ---
 Follow these guidelines to ensure all screenshots included in OKVIZ content are high-quality, relevant, clear, and consistent.
@@ -51,6 +51,9 @@ These are some general guidelines to follow when capturing and editing screensho
 
    <img src="images/counters.png">
    <img src="images/no-text.png">
+
+- **Do Not Add Borders:**  
+   Avoid adding borders around the screenshot. The image should blend seamlessly with the content on the page.
 
 ## Suggested Tools for Taking Screenshots
 
