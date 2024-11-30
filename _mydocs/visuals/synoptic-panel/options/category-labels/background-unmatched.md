@@ -1,22 +1,28 @@
 ---
 layout:             page
-title:              Matched Background
+title:              Background (Unmatched)
 published:          true
 date:               2024-09-14
-modified:           2024-11-12
-order:              /synoptic-panel/options/category-labels/matched-background
+modified:           2024-11-30
+order:              /synoptic-panel/options/category-labels/background-unmatched
 ---
 **Default value**: Off
 
-This section provides options for configuring the category labels background for matched areas.
+This section provides options for configuring the category labels background for unmatched elements.
 
-> Note that matched areas are the areas that are associated with a data point in the dataset. See [Data Binding](../../concepts/data-binding.md) for more information.
+> Note that unmatched elements are the elements that are not associated with a data point in the dataset. See [Data Binding](../../concepts/data-binding.md) for more information.
+
+## Auto Color
+
+**Default value**: On
+
+When enabled, the background color of the category labels is automatically calculated based on the color of the text.
 
 ## Background Color
 
 **Default value**: None
 
-The color of the background of the category labels. When set to None, the background color is automatically calculated based on the color of the text.
+The color of the background of the category labels.
 
 ## Background Transparency
 

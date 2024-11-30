@@ -1,13 +1,13 @@
 ---
 layout:             page
-title:              Matched
+title:              Value (Matched)
 published:          true
 date:               2024-09-14
-modified:           2024-11-12
-order:              /synoptic-panel/options/category-labels/matched
+modified:           2024-11-30
+order:              /synoptic-panel/options/category-labels/value-matched
 ---
 
-This section provides options for configuring the category labels for matched areas. 
+This section provides options for configuring the category labels value for matched areas. 
 
 > Note that matched areas are the areas that are associated with a data point in the dataset. See [Data Binding](../../concepts/data-binding.md) for more information.
 
@@ -69,33 +69,3 @@ The unit of the value to display. This option is only visible when the 'Include 
 **Default value:** 0
 
 The number of decimal places to display. This option is only visible when the 'Include Data Label' option is On. 
-
-## Color
-
-**Default value**: #000000
-
-The color of the category labels text.
-
-## Outline
-
-**Default value**: Off
-
-When enabled, the category labels text is outlined.
-
-## Outline Color
-
-**Default value**: None
-
-The color of the outline of the category labels text. When set to None, the outline color is automatically calculated based on the color of the text.
-
-## Outline Transparency
-
-**Default value**: 50%
-
-The transparency of the outline of the category labels text. The value ranges from 0% (completely opaque) to 100% (completely transparent).
-
-## Outline Width
-
-**Default value**: 2
-
-The width of the outline of the category labels text. The value ranges from 1 to 20.

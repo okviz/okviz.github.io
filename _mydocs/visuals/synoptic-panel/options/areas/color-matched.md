@@ -1,13 +1,15 @@
 ---
 layout:             page
-title:              Matched
+title:              Color (Matched)
 published:          true
 date:               2024-09-14
-modified:           2024-09-14
-order:              /synoptic-panel/options/areas/matched
+modified:           2024-11-30
+order:              /synoptic-panel/options/areas/color-matched
 ---
 
-Define the appearance of the matched areas in the visual. Matched areas are the areas that are associated with a data point in the dataset. See [Data Binding](../../concepts/data-binding.md) for more information.
+Define the appearance of the matched areas in the visual. 
+
+> Note that matched areas are the areas that are associated with a data point in the dataset. See [Data Binding](../../concepts/data-binding.md) for more information.
 
 ## Show All Colors
 

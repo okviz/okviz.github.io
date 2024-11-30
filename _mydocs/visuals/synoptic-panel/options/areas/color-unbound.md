@@ -1,13 +1,15 @@
 ---
 layout:             page
-title:              Unbound
+title:              Color (Unbound)
 published:          true
 date:               2024-09-14
-modified:           2024-09-14
-order:              /synoptic-panel/options/areas/unbound
+modified:           2024-11-30
+order:              /synoptic-panel/options/areas/color-unbound
 ---
 
-Define the appearance of the unbound elements in the visual. Unbound elements are elements that were deliberately excluded from the data binding process through a custom attribute in the SVG file or through the data binding configuration. See [Data Binding](../../concepts/data-binding.md#unbinding-areas) for more information.
+Define the appearance of the unbound elements in the visual. 
+
+> Note that unbound elements are elements that were deliberately excluded from the data binding process through a custom attribute in the SVG file or through the data binding configuration. See [Data Binding](../../concepts/data-binding.md#unbinding-areas) for more information.
 
 ## Color
 

@@ -10,11 +10,11 @@ Power BI Report Themes is a feature that allows you to apply multiple settings t
 
 Assuming you are setting up a custom JSON theme file ([as described here](https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-report-themes#report-theme-json-file-format)), the customizable properties of Synoptic Panel are:
 
-| Property | Theme Color |
+| Property | Theme Color | 
 | -------- | ----------- |
-| [Category Labels Color](../options/category-labels/matched.md#color)| foreground |
-| [Data Labels Color](../options/data-labels/color.md#color)        | foreground |
-| [Data Colors - Matched color](../options/areas/matched.md#color)       | dataColors (first color) |
-| [Data Colors - Unmatched color](../options/areas/unmatched.md#color)     | dataColors (second color) |
-| [Data Colors - Unbound color](../options/areas/unbound.md#color)       | dataColors (third color) |
-| [Legend Color](../options/legend/text.md#color)                  | foreground |
+| [Category Labels Color](../options/category-labels/color-matched.md)  | foreground |
+| [Data Labels Color](../options/data-labels/color.md)                  | foreground |
+| [Data Colors - Matched color](../options/areas/color-matched.md)      | dataColors (first color) |
+| [Data Colors - Unmatched color](../options/areas/color-unmatched.md)  | dataColors (second color) |
+| [Data Colors - Unbound color](../options/areas/color-unbound.md)      | dataColors (third color) |
+| [Legend Color](../options/legend/text.md#color)                       | foreground |

@@ -3,20 +3,26 @@ layout:             page
 title:              Background
 published:          true
 date:               2024-09-14
-modified:           2024-11-12
+modified:           2024-11-30
 order:              /synoptic-panel/options/data-labels/background
 ---
 **Default value**: Off
 
 This section provides options for configuring the data labels background.
 
+## Auto Color
+
+**Default value**: On
+
+When enabled, the background of the data labels is automatically calculated based on the color of the text.
+
 ## Background Color
 
 **Default value**: None
 
-The color of the background of the data labels. When set to None, the background color is automatically calculated based on the color of the text.
+The color of the background of the data labels.
 
-## Background Transparency
+## Transparency
 
 **Default value**: 0%
 

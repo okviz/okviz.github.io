@@ -1,13 +1,15 @@
 ---
 layout:             page
-title:              Unmatched
+title:              Color (Unmatched)
 published:          true
 date:               2024-09-14
-modified:           2024-09-14
-order:              /synoptic-panel/options/areas/unmatched
+modified:           2024-11-30
+order:              /synoptic-panel/options/areas/color-unmatched
 ---
 
-Define the appearance of the unmatched elements in the visual. Unmatched elements are the elements that are not associated with a data point in the dataset. See [Data Binding](../../concepts/data-binding.md) for more information.
+Define the appearance of the unmatched elements in the visual. 
+
+> Note that unmatched elements are the elements that are not associated with a data point in the dataset. See [Data Binding](../../concepts/data-binding.md) for more information.
 
 ## Color
 
