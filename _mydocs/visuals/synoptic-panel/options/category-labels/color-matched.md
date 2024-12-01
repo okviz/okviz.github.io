@@ -1,10 +1,10 @@
 ---
 layout:             page
-title:              Color (Matched)
+title:              Color
 published:          true
 date:               2024-09-14
 modified:           2024-11-30
-order:              /synoptic-panel/options/category-labels/color-matched
+order:              /synoptic-panel/options/category-labels/color
 ---
 
 This section provides options for configuring the category labels color for matched areas.

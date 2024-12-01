@@ -1,10 +1,10 @@
 ---
 layout:             page
-title:              Value (Matched)
+title:              Value
 published:          true
 date:               2024-09-14
 modified:           2024-11-30
-order:              /synoptic-panel/options/category-labels/value-matched
+order:              /synoptic-panel/options/category-labels/value
 ---
 
 This section provides options for configuring the category labels value for matched areas. 

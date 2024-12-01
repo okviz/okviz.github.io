@@ -1,10 +1,10 @@
 ---
 layout:             page
-title:              Background (Matched)
+title:              Background
 published:          true
 date:               2024-09-14
 modified:           2024-11-30
-order:              /synoptic-panel/options/category-labels/background-matched
+order:              /synoptic-panel/options/category-labels/background
 ---
 **Default value**: Off
 

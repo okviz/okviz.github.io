@@ -1,10 +1,10 @@
 ---
 layout:             page
-title:              Color (Matched)
+title:              Color
 published:          true
 date:               2024-09-14
 modified:           2024-11-30
-order:              /synoptic-panel/options/areas/color-matched
+order:              /synoptic-panel/options/areas/color
 ---
 
 Define the appearance of the matched areas in the visual. 
