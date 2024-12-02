@@ -3,7 +3,7 @@ layout:             page
 title:              Value
 published:          true
 date:               2024-09-14
-modified:           2024-11-30
+modified:           2024-12-01
 order:              /synoptic-panel/options/category-labels/value
 ---
 
@@ -69,3 +69,13 @@ The unit of the value to display. This option is only visible when the 'Include 
 **Default value:** 0
 
 The number of decimal places to display. This option is only visible when the 'Include Data Label' option is On. 
+
+## Aggregation
+
+**Default value**: (Auto Detect)
+
+The aggregation method for the data point values. It must be exactly the same as the one used by the value column. This setting is required when you connect a column to 'Legend' or 'Map URLs' field wells, since the aggregation is made by the visual and not from Power BI. 
+
+This option is only visible when the 'Include Data Label' option is On.
+
+> If you select `(Auto Detect)` the visual will try to detect the aggregation method automatically. This doesn't work for all cases, so it is recommended to verify the aggregation method and set it manually if necessary.
