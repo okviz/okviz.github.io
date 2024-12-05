@@ -3,7 +3,7 @@ layout:             page
 title:              Bullet Design
 published:          true
 date:               2022-07-21
-modified:           2024-05-12
+modified:           2024-12-05
 order:              /bullet-chart/features/bullet-design
 ---
 Bullet Chart by OKViz, allows you to show and compare different metrics, in a single powerful visual, saving precious space on your reports. 
@@ -18,4 +18,3 @@ Bullet Chart also allows you to show data labels for all measures and it is high
 
 - [Original Bullet Graph Design Specification](https://www.perceptualedge.com/articles/misc/Bullet_Graph_Design_Spec.pdf)
 - [Perceptual Edge](https://www.perceptualedge.com/)
-- [Stephen Few](https://www.stephen-few.com/)
