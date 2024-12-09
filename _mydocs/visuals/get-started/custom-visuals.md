@@ -5,7 +5,7 @@ published:          true
 date:               2021-12-14
 modified:           2024-05-11
 order:              /01/01
-toc_max:            2
+toc_h_max:            2
 ---
 
 OKVIZ visuals are custom visuals. Custom visuals are components for Power BI developed by third-party vendors (also known as ISV), not Microsoft.

@@ -8,6 +8,7 @@ order:              /synoptic-panel/options/legend
 next_reading:       true
 next_reading_title: Options
 ---
+
 **Default value:** Off
 
-This section contains the settings of the legend in Synoptic Panel.
+This section contains the settings of the legend in Synoptic Panel. See more about the legend in the [Legend](../../features/legend.md) section. 

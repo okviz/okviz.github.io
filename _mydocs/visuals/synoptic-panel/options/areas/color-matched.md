@@ -11,12 +11,6 @@ Define the appearance of the matched areas in the visual.
 
 > Note that matched areas are the areas that are associated with a data point in the dataset. See [Data Binding](../../concepts/data-binding.md) for more information.
 
-## Show All Colors
-
-**Default value**: Off
-
-Allow to assign a color to each matched area in the visual. If disabled, the visual will use the a single color for all matched areas.
-
 ## Color
 
 **Default value**: Custom
@@ -30,6 +24,7 @@ Available options:
 - **Custom**: Use the color defined below.
 - **(Hidden)**: Hide the areas.
 
+> Note that this option is only available when if there is no 'Legend' field in the field well.
 
 ## Custom Color
 

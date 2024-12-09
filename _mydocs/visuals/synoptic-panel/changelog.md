@@ -3,20 +3,21 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2024-05-10
-modified:           2024-12-01
+modified:           2024-12-09
 order:              /synoptic-panel/{99}
-toc_max:            2
+toc_h_max:            2
 ---
 This page contains a quick summary of versions and notable changes of Synoptic Panel.  
-Synoptic Panel uses **Power BI Custom Visuals API v5.9.1**.
+Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 
-# v2.2.0 - RC
-**Released:** 2024-12-06
+## v2.2.0 - RC
+**Released:** 2024-12-09
 
 ### New Features
 - Add integration with MyStorage
+- Add Legend Manager
 
-# v2.1.3 - Beta
+## v2.1.3 - Beta
 **Released:** 2024-12-01
 
 ### New Features
@@ -48,7 +49,7 @@ Synoptic Panel uses **Power BI Custom Visuals API v5.9.1**.
 
 ### New Features
 - Add Maps Manager
-- Add Map URLs role
+- Add Map URLs field well
 - Add legend
 - Add drill behavior
 

@@ -6,7 +6,7 @@ date:               2022-07-21
 modified:           2024-12-05
 order:              /bullet-chart/features/bullet-design
 ---
-Bullet Chart by OKViz, allows you to show and compare different metrics, in a single powerful visual, saving precious space on your reports. 
+Bullet Chart by OKVIZ, allows you to show and compare different metrics, in a single powerful visual, saving precious space on your reports. 
 It can render a single primary measure ([Value](./../fields/value.md)) and compares it to a secondary measure ([Comparison Value](./../fields/comparison-value.md)) and/or multiple other measures ([Targets](./../fields/targets.md)).
 
 To enrich your data-storytelling, measures can be embedded in qualitative performance intervals ([States](./../fields/states.md)), usually shown as different intensities of a single hue. 

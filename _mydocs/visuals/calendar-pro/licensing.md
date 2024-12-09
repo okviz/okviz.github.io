@@ -4,8 +4,8 @@ title:              Licensing
 published:          true
 date:               2022-07-17
 modified:           2023-09-11
-order:              /calendar-pro/{98}
-toc_max:            2
+order:              /calendar-pro/{97}
+toc_h_max:            2
 ---
 
 Calendar Pro requires a valid per-user license to be used. We adhere to the ***ISV app licensing system*** provided by Microsoft to allow users to purchase and manage licenses easily.

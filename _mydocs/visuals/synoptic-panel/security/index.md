@@ -4,7 +4,7 @@ title:              Security & Privacy
 published:          true
 date:               2024-05-10
 modified:           2024-10-05
-order:              /synoptic-panel/{97}
+order:              /synoptic-panel/{96}
 ---
 Synoptic Panel uses the latest technologies available and is updated regularly. It does not contain malicious or unsafe code.
 

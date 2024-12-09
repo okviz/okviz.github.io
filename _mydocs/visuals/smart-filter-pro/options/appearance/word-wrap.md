@@ -5,7 +5,7 @@ published:          true
 date:               2021-11-20
 modified:           2022-07-19
 order:              /smart-filter-pro/options/appearance/word-wrap
-toc_max:            2
+toc_h_max:            2
 available:          All modes except Search
 internal:           wordWrap
 ---

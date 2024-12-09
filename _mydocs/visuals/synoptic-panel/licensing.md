@@ -4,8 +4,8 @@ title:              Licensing
 published:          true
 date:               2024-05-10
 modified:           2024-05-10
-order:              /synoptic-panel/{98}
-toc_max:            2
+order:              /synoptic-panel/{97}
+toc_h_max:            2
 ---
 
 <todo visible>

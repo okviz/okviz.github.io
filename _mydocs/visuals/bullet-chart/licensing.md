@@ -4,8 +4,8 @@ title:              Licensing
 published:          true
 date:               2022-07-21
 modified:           2023-09-11
-order:              /bullet-chart/{98}
-toc_max:            2
+order:              /bullet-chart/{97}
+toc_h_max:            2
 ---
 
 Bullet Chart is a free visual but [some features](options/premium/index.md) require a valid license to be used. We adhere to the ***ISV app licensing system*** provided by Microsoft to allow users to purchase and manage licenses easily.

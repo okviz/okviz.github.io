@@ -5,7 +5,7 @@ published:          true
 date:               2021-12-09
 modified:           2022-07-19
 order:              /smart-filter-pro/features/filter-mode
-toc_max:            3
+toc_h_max:            3
 internal:           filter
 related_title:      Related Options
 related:

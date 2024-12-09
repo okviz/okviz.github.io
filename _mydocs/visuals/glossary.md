@@ -18,7 +18,7 @@ AppSource is Microsoft's marketplace for business applications, including Power 
 
 ## Binding, Bind
 
-Binding is the process of connecting a column of data or a measure from your dataset to a visual with a specific role. For example, you can bind a column of sales data to a visual's "Values" role to declare that the visual should display the sales data. A synonym for binding is "connecting" or "linking".
+Binding is the process of connecting a column of data or a measure from your dataset to a visual on a specific field well. For example, you can bind a column of sales data to a visual's "Values" field to declare that the visual should display the sales data. A synonym for binding is "connecting" or "linking".
 
 ## Certification
 

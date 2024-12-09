@@ -4,8 +4,8 @@ title:              Security & Privacy
 published:          true
 date:               2022-07-13
 modified:           2024-05-22
-order:              /smart-filter-pro/{97}
-toc_max:            2
+order:              /smart-filter-pro/{96}
+toc_h_max:            2
 ---
 
 At OKVIZ we care about the security of your data and strive to use the best technologies to keep you safe. Smart Filter Pro, like any other visuals we made, was developed with this philosophy.

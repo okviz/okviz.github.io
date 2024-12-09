@@ -21,7 +21,7 @@ This can be done in two ways:
 
     <todo>Screenshot of color rules button option</todo>
 
-    >> This feature is available only when the Power BI conditional formatting cannot be used because when the visual is forced to perform some data aggregation on the client, like when the [Map URLs](filtering-maps.md#map-urls) role is used.
+    >> This feature is available only when the Power BI conditional formatting cannot be used because when the visual is forced to perform some data aggregation on the client, like when the [Map URLs](filtering-maps.md#map-urls) or a Legend field is set.
     
     Learn more: [OKVIZ Color Rules](../../features/color-rules.md)
 
