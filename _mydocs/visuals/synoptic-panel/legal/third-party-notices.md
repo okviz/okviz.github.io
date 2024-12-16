@@ -3,7 +3,7 @@ layout:             page
 title:              Third-Party Notices
 published:          true
 date:               2024-12-09
-modified:           2024-12-09
+modified:           2024-12-16
 order:              /synoptic-panel/legal/third-party-notices
 ---
 Synoptic Panel incorporates third-party components from the projects listed below. The original copyright notices and the licenses under which OKVIZ Corp. received such third-party components are set forth below for informational purposes. OKVIZ Corp. licenses these third-party components to you under the [OKVIZ Visuals Terms and Conditions](../../legal/eula.md); however, any third-party components received under open-source licenses that require such components to remain under their original license are provided to you by Tabular Tools Corp under their original license. OKVIZ Corp. reserves all other rights not expressly granted herein, whether by implication, estoppel, or otherwise.
@@ -34,6 +34,7 @@ For third-party components licensed under open-source licenses with source code 
 - [pako](https://www.npmjs.com/package/pako)
 - [selecto](https://www.npmjs.com/package/selecto)
 - [Split Grid](https://www.npmjs.com/package/split-grid)
+- [js-beautify](https://www.npmjs.com/package/js-beautify)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
