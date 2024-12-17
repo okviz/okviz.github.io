@@ -11,5 +11,6 @@ toc:                false
 <style>
     header, footer, .anchor-link, h2:before { display: none !important; }
     h2 { pointer-events: none !important; }
+    .page-content { font-size: 14px; }
     .page-content h2:first-child { margin-top:0 !important; }
 </style>
