@@ -13,7 +13,7 @@ This section provides options for configuring the category labels value for matc
 
 ## Display Value
 
-**Default value**: (Auto)
+**Default value:** (Auto)
 
 Defines what value to display for the matched elements. By selecting '(Custom)', it is possible to enter a custom value that can be subject to Power BI conditional formatting.
 
@@ -34,7 +34,7 @@ See [Automatic Binding when Hierarchy is Expanded](../../concepts/data-binding.m
 
 ## Custom Value
 
-**Default value**: (Empty)
+**Default value:** (Empty)
 
 The custom value to display for the matched elements. This field is only available when the 'Display Value' option is set to '(Custom)'. 
 
@@ -54,7 +54,7 @@ Computers
 
 ## Append Data Value
 
-**Default value**: Off
+**Default value:** Off
 
 When enabled, data point value is appended to the category label.
 
@@ -72,7 +72,7 @@ The number of decimal places to display. This option is only visible when the 'I
 
 ## Summarization
 
-**Default value**: (Auto Detect)
+**Default value:** (Auto Detect)
 
 The summarization method for the data point values. It must be exactly the same as the one used by the value column. This setting is required when you connect a column to 'Legend' or 'Map URLs' field wells, since the aggregation is made by the visual and not from Power BI. 
 

@@ -13,12 +13,12 @@ This field enables switching between different maps by bounding a DAX measure, w
 
 ## Show Maps without Selector
 
-**Default value**: Off
+**Default value:** Off
 
 When enabled and there is a map selector field, maps without a selector are shown. If disabled, only maps with a selector are shown.
 
 ## Separator
 
-**Default value**: ✄
+**Default value:** ✄
 
 Defines the character used to separate the elements in the map selector measure.

@@ -13,7 +13,7 @@ Define the appearance of the unbound elements in the visual.
 
 ## Color
 
-**Default value**: Original
+**Default value:** Original
 
 Select a single color to use for unbound elements background. 
 
@@ -26,12 +26,12 @@ Available options:
 
 ## Custom Color
 
-**Default value**: third color of *dataColors* of [Report Theme](../../features/themes.md)
+**Default value:** third color of *dataColors* of [Report Theme](../../features/themes.md)
 
 Select the color to use for unbound elements background when the *Color* option is set to *Custom*.
 
 ## Transparency
 
-**Default value**: 0%
+**Default value:** 0%
 
 The transparency of the unbound elements. The value ranges from 0% (completely opaque) to 100% (completely transparent).

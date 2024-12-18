@@ -3,14 +3,32 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2024-05-10
-modified:           2024-12-09
+modified:           2024-12-18
 order:              /synoptic-panel/{99}
-toc_h_max:            2
+toc_h_max:          2
 ---
 This page contains a quick summary of versions and notable changes of Synoptic Panel.  
 Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 
-## v2.2.0 - RC
+## v2.2.1
+**Released:** 2024-12-18
+
+### New Features
+- Allow to replace files in MyStorage
+- Automatically optimize images embedded in SVGs
+- Add [placeholder customizations](./options/appearance/map-placeholder.md)
+
+### Bug Fixes
+- Fix maps sorting with Map URLs field
+- Fix frozen labels 
+- Fix hidden labels not being hidden in some cases
+
+### Improvements
+- Improve SVG editor
+- Improve memory usage
+- Rename `Limits` to `Performance` in [settings](./options/advanced-options/performance.md)
+
+## v2.2.0
 **Released:** 2024-12-09
 
 ### New Features

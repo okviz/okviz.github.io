@@ -13,6 +13,6 @@ This feature allows remote maps to be loaded from a column or measure and contro
 
 ## Show Full URLs
 
-**Default value**: Off
+**Default value:** Off
 
 If enabled, the full map URL is used as map title, otherwise only the last part of the path is shown.

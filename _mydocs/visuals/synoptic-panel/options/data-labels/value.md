@@ -24,7 +24,7 @@ The number of decimal places to display.
 
 ## Summarization
 
-**Default value**: (Auto Detect)
+**Default value:** (Auto Detect)
 
 The summarization method for the data point values. It must be exactly the same as the one used by the value column. This setting is required when you connect a column to 'Legend' or 'Map URLs' field wells, since the aggregation is made by the visual and not from Power BI.
 

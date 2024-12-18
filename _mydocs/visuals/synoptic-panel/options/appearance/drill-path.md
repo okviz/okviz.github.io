@@ -6,7 +6,7 @@ date:               2024-09-14
 modified:           2024-09-14
 order:              /synoptic-panel/options/appearance/drill-path
 ---
-**Default value**: On
+**Default value:** On
 
 
 This option allows you to configure the drill path label. The drill path label shows the path of the drill-down hierarchy in the visual. See the [Drill Mode](../../features/drill-mode.md#the-drill-path) section for more information.
@@ -14,6 +14,6 @@ This option allows you to configure the drill path label. The drill path label s
 
 ## Show on First Level
 
-**Default value**: Off
+**Default value:** Off
 
 Show the drill path label even on the first level. If disabled, the label will only show when drilling down.

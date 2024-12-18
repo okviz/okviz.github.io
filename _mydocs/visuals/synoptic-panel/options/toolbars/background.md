@@ -11,7 +11,7 @@ This section provides options for configuring the toolbars background.
 
 ## Color
 
-**Default value:** #F0F0F0
+**Default value:** {% include color value="#F0F0F0" %}
 
 The color of the background.
 

@@ -6,7 +6,7 @@ date:               2024-09-14
 modified:           2024-11-30
 order:              /synoptic-panel/options/category-labels/value-unmatched
 ---
-**Default value**: Off
+**Default value:** Off
 
 This section provides options for configuring the category labels value for unmatched elements.
 
@@ -14,7 +14,7 @@ This section provides options for configuring the category labels value for unma
 
 ## Display Value
 
-**Default value**: (Auto)
+**Default value:** (Auto)
  
 Defines what value to display in the category labels.
 

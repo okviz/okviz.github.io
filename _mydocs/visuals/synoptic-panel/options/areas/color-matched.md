@@ -13,7 +13,7 @@ Define the appearance of the matched areas in the visual.
 
 ## Color
 
-**Default value**: Custom
+**Default value:** Custom
 
 Select a single color to use for matched areas background. 
 
@@ -28,12 +28,12 @@ Available options:
 
 ## Custom Color
 
-**Default value**: first color of *dataColors* of [Report Theme](../../features/themes.md)
+**Default value:** first color of *dataColors* of [Report Theme](../../features/themes.md)
 
 Select the color to use for matched areas background when the *Color* option is set to *Custom*.
 
 ## Transparency
 
-**Default value**: 0%
+**Default value:** 0%
 
 The transparency of the matched areas. The value ranges from 0% (completely opaque) to 100% (completely transparent).

@@ -11,7 +11,7 @@ This option allows you to configure the geometrics of the maps.
 
 ## Keep Aspect Ratio
 
-**Default value**: On
+**Default value:** On
 
 When enabled, the aspect ratio of the map images is preserved. This means that the map images will not be stretched or squashed to fit the available space.
 

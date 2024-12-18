@@ -10,7 +10,7 @@ This section provides options for configuring the data labels position.
 
 ## Anchored Placement
 
-**Default value**: Inside Element
+**Default value:** Inside Element
 
 The placement for anchored data labels relative to the map area. 
 
@@ -18,12 +18,12 @@ The placement for anchored data labels relative to the map area.
 
 ## Vertical Alignment
 
-**Default value**: Middle
+**Default value:** Middle
 
 The vertical alignment of data labels relative to the map area (in the case of anchored labels) or its bounding box (in the case of custom placed labels).
 
 ## Horizontal Alignment
 
-**Default value**: Center
+**Default value:** Center
 
 The horizontal alignment of data labels relative to the map area (in the case of anchored labels) or its bounding box (in the case of custom placed labels).
