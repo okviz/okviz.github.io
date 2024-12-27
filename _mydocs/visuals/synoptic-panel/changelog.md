@@ -31,7 +31,6 @@ Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 - Improve memory usage
 - Rename `Limits` to `Performance` in [settings](./options/advanced-options/performance.md)
 - Add limits of 100 items in the maps dropdown
-- Allow to control the color of SVG lines too
 
 ## v2.2.0
 **Released:** 2024-12-09
