@@ -73,6 +73,7 @@ Consist of nodes (data points) connected by links (relationships). Components in
 - Chord Diagram
 - Network Diagram
 - Parallel Coordinates Plot
+- Parallel Sets
 - Sankey Diagram
 
 ### Process and Flow Charts
