@@ -7,6 +7,7 @@ toc_h_max:          2
 date:               2024-12-09
 modified:           2024-12-09
 order:              /legal/privacy-policy
+pdf:                true
 ---
 
 This document explains how OKVIZ Corp. and its affiliates (“Company,” “we,” “us,” or “our”) use the data you provide through our Custom Visuals for Microsoft Power BI (“Custom Visual”) distributed via Microsoft AppSource or provided privately. Please note that this Privacy Policy only applies to our Custom Visuals. Our website and other online services may be subject to a separate privacy policy. By using the Custom Visual or submitting information through it (directly or indirectly), you agree that we may process the data you provide in accordance with this Privacy Policy.

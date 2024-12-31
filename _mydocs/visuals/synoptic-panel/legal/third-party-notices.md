@@ -3,10 +3,10 @@ layout:             page
 title:              Third-Party Notices
 published:          true
 date:               2024-12-09
-modified:           2024-12-16
+modified:           2024-12-31
 order:              /synoptic-panel/legal/third-party-notices
 ---
-Synoptic Panel incorporates third-party components from the projects listed below. The original copyright notices and the licenses under which OKVIZ Corp. received such third-party components are set forth below for informational purposes. OKVIZ Corp. licenses these third-party components to you under the [OKVIZ Visuals Terms and Conditions](../../legal/eula.md); however, any third-party components received under open-source licenses that require such components to remain under their original license are provided to you by Tabular Tools Corp under their original license. OKVIZ Corp. reserves all other rights not expressly granted herein, whether by implication, estoppel, or otherwise.
+Synoptic Panel incorporates third-party components from the projects listed below. The original copyright notices and the licenses under which OKVIZ Corp. received such third-party components are set forth below for informational purposes. OKVIZ Corp. licenses these third-party components to you under the [OKVIZ Visuals Terms and Conditions](../../legal/eula.md); however, any third-party components received under open-source licenses that require such components to remain under their original license are provided to you by OKVIZ Corp under their original license. OKVIZ Corp. reserves all other rights not expressly granted herein, whether by implication, estoppel, or otherwise.
 
 For third-party components licensed under open-source licenses with source code availability obligations, you may obtain the source code from us, if and as required under the relevant open-source licenses, by sending an e-mail to [support@okviz.com](mailto:support@okviz.com). Please write “Third-party open source code” in the subject line.
 
