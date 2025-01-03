@@ -4,7 +4,7 @@ title:          Guidelines for Comparisons
 menu_title:     Comparison Guidelines
 published:      true
 date:           2024-10-04
-modified:       2024-11-01
+modified:       2025-01-03
 order:          /website/contributing/comparison-guidelines
 ---
 
@@ -96,9 +96,33 @@ Each comparison must be structured as follows:
 
       If there are visuals that performed poorly in the comparison, mention them here and explain why they were not recommended.
 
-8. **Resources**
+8. **Not Classified** (optional)
+
+   This section is reserved for visuals that are not included in the main comparison due to specific reasons, such as limited feature sets or exceptionally poor performance. Clearly state why these visuals were excluded to maintain transparency. For example:
+
+      - Visuals that lack the necessary functionality to meet the evaluation criteria or are too basic for the comparison.
+      
+         `Visual A focuses on 3D charting, which was outside the scope of this bar chart comparison.`
+
+      - Visuals that perform significantly below acceptable standards. While we aim to provide constructive insights, visuals that do not meet a minimum quality threshold may not warrant detailed comparisons.
+      
+         `Visual B was excluded from this comparison due to critical bugs and lack of vendor support, which make it unsuitable for most users.`
+
+9. **Resources**
 
    Provide links to reports created for the comparison or any other relevant resources. You could include links to other OKVIZ content, but avoid external links unless necessary.
+
+10. **Visual Versions**  
+
+      Include the version of each visual used in the comparison. 
+      
+      Example:
+
+      `- Visual A: v1.2.3`  
+      `- Visual B: v4.5.6`  
+      `- Visual C: v7.8.9`
+      
+   
 
 ## Content Guidelines
 
@@ -128,6 +152,8 @@ Use this checklist to verify that all guidelines have been followed:
 - [ ] **Evaluation Criteria:** Clearly outline the criteria used for evaluation.
 - [ ] **Individual Visual Analyses:** Provide a brief analysis of each visual.
 - [ ] **Built-in Visual Comparison:** Discuss how each custom visual compares to the built-in Power BI alternative (if applicable).
+- [ ] **Not Classified:** Include a section for visuals that are not classified or excluded from the main comparison (optional).
 - [ ] **Recommendations:** Summarize the comparison and provide final recommendations.
 - [ ] **Resources:** Provide links to reports to relevant resources.
+- [ ] **Visual Versions:** Include the version of each visual used in the comparison.
 - [ ] Follow the [OKVIZ Content Guidelines](content-guidelines.md) for media, links, bugs, style, and grammar.
