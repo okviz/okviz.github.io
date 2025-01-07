@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2024-05-10
-modified:           2025-01-05
+modified:           2025-01-07
 order:              /synoptic-panel/{99}
 toc_h_max:          2
 ---
@@ -11,10 +11,14 @@ This page contains a quick summary of versions and notable changes of Synoptic P
 Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 
 ## v2.3.0
-**Released:** 2025-01-05
+**Released:** 2025-01-07
+
+### Bug Fixes
+- Fix uploading new maps to My Storage
 
 ### Improvements
 - Minor changes
+- Allow color filling for SVG unclosed paths
 
 ## v2.2.2
 **Released:** 2024-12-30

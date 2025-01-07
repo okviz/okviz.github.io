@@ -3,7 +3,7 @@ layout:             page
 title:              Exclude
 published:          true
 date:               2024-12-22
-modified:           2024-12-22
+modified:           2025-01-07
 order:              /synoptic-panel/options/areas/exclude
 ---
 
@@ -23,7 +23,7 @@ Exclude SVG elements with this tag: `symbol`.
 
 ## Unclosed Paths
 
-**Default value:** On
+**Default value:** Off
 
 Exclude SVG elements that **are not closed** with this tag: `path`.
 
