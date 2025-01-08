@@ -3,14 +3,20 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2024-05-10
-modified:           2025-01-07
+modified:           2025-01-08
 order:              /synoptic-panel/{99}
 toc_h_max:          2
 ---
 This page contains a quick summary of versions and notable changes of Synoptic Panel.  
 Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 
-## v2.3.0
+## v2.2.4
+**Released:** 2025-01-08
+
+### Bug Fixes
+- Fix flashing maps with Map URLs field
+
+## v2.2.3
 **Released:** 2025-01-07
 
 ### Bug Fixes
