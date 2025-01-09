@@ -58,8 +58,8 @@ While you won't need to consider weights in your evaluation directly, please be 
 
 Please use our latest checklist to evaluate a visual. For each feature, select the appropriate option based on your assessment.
 
-**Version**: 2.1.1   
-**Date**: 2024-11-07
+**Version**: 2.1.2   
+**Date**: 2025-01-09
 
 <a href="files/okviz-rating-checklist.xlsm" class="icon-download">Download Rating Checklist (.xlsm)</a>
 

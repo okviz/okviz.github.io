@@ -163,6 +163,7 @@ Provide interactive filtering capabilities for other visuals. Components include
 - Date Filter
 - List Filter
 - Text Filter
+- Tile Filter
 
 ### Other
 
