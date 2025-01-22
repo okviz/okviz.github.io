@@ -3,7 +3,7 @@ layout:             page
 title:              Data Binding
 published:          true
 date:               2024-05-10
-modified:           2024-05-30
+modified:           2025-01-22
 order:              /synoptic-panel/concepts/03
 next_reading:       true
 ---
@@ -32,6 +32,9 @@ The example above shows the source code of an SVG image: in fact, Synoptic Panel
 
 However, it is not recommended to make this editing manually, as it can lead to errors. Instead, you can use graphic editors such as *Adobe Illustrator* or *Inkscape* to do this job. It's also possible to use Synoptic Panel's Map Editor ([see below](#manual-binding)) to bind elements to data points, bypassing the need to assign identifiers.
 
+## Auto Ids
+
+In some cases, the SVG file may not have unique identifiers for each area. In this case, Synoptic Panel will automatically assign unique identifiers to each area. See more on [Auto Id Assignment](./../features/auto-id-assignement.md).
 
 ## Linking Areas to Data 
 
@@ -62,7 +65,7 @@ Matching is done according to the following rules:
 
 ### Manual Binding
 
-When automatic binding is not possible or not desired, you can manually bind areas to data points. This can be done through Synoptic Panel's Map Editor, which allows you to select each map element and link it to a specific value of the ***Categories*** column. When this is done, the status of the target area is set to **"Strong Matched"**, and it takes precedence over automatic binding.
+When automatic binding is not possible or not desired, you can manually bind areas to data points. This can be done through Synoptic Panel's [Map Editor](./../features/map-editor.md), which allows you to select each map element and link it to a specific value of the ***Categories*** column. When this is done, the status of the target area is set to **"Strong Matched"**, and it takes precedence over automatic binding.
 
 <todo>Screenshot of the Map Editor</todo>
 
@@ -79,7 +82,7 @@ It is also possible to link multiple areas to the same data point.
 
 > Note that an SVG group (tag `g`, which is a group of shapes) is considered a single area and is treated as such by Synoptic Panel. This section refers to the case where you have multiple areas that you want to link to the same data point.
 
-Since assigning the same `id` to multiple elements is not allowed by the SVG specification, you can use the `data-okviz-strong` attribute to force the binding of multiple areas to the same data point.
+Since assigning the same `id` to multiple elements is not allowed by the SVG specification, you can use the `data-okviz-strong` attribute to force the binding of multiple areas to the same data point or [Edit Map](./../features/edit-map.md#interaction-pane) with the editing tool.
 
 <todo>Example of code and screenshot</todo>
 
@@ -102,5 +105,3 @@ Here is a summary of the possible statuses of an area (higher priority has prece
 |Unmatched       |0        |The area is not bound to any data point.|
 
 If an area is a child of a group (`g` tag), it has the same status as the group, unless it is manually set with custom attributes such as `data-okviz-strong` or `data-okviz-unbound`; in this case, the status of the child has precedence.
-
-Elements that are not manually bound and without an `id` attribute or a custom binding attribute are not considered areas and are not interactive.

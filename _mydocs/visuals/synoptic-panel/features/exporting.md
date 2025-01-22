@@ -3,7 +3,7 @@ layout:             page
 title:              Exporting Data
 published:          true
 date:               2024-05-10
-modified:           2024-09-12
+modified:           2025-01-22
 order:              /synoptic-panel/features/exporting
 ---
 
@@ -17,8 +17,10 @@ This is a feature of Power BI that allows you to export your report to a PDF or 
 
 You can find out what it means here: [Synoptic Panel Certification](../security/index.md#certification)
 
-### Exporting Maps to SVG, JSVG or CSV
+### Exporting Maps to SVG or JSON
+
+You can export maps from Synoptic Panel to SVG or JSON files via the [Map Editor](../map-editor/index.md), by clicking the **Export** button in the [Header](../map-editor/index.md#header) section. 
 
 <todo visible>
-    This section will describe how to export maps (with the ability to include data binding) from Synoptic Panel.
+    Add screencast of the Export button in the Map Editor.
 </todo>
