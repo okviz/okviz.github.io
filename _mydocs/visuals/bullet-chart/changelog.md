@@ -3,47 +3,48 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2022-07-15
-modified:           2025-01-05
+modified:           2025-01-22
 order:              /bullet-chart/{99}
 toc_h_max:            2
 ---
 This page contains a quick summary of versions and notable changes of Bullet Chart.  
-Bullet Chart uses **Power BI Custom Visuals API v5.9.1**.
+Bullet Chart uses **Power BI Custom Visuals API v5.11.0**.
 
-## v2.3.3
-**Released:** 2025-01-05
+## v2.3.4
+**Released:** 2025-01-22
 
-**Added:**
+### Improvements
+- Support API v5.11.0
 - Support new OKVIZ licensing system
 
 ## v2.3.2.7
 **Released:** 2024-03-02
 
-**Fixed:**
+### Bug Fixes
 - Custom culture code for number formatting
 
 ## v2.3.2.6
 **Released:** 2024-01-15
 
-**Fixed:**
+### Bug Fixes
 - Color rule problems with field conditions
 
 ## v2.3.2.5
 **Released:** 2023-12-11
 
-**Changed:**
+### Improvements
 - Support API 5.4.0
 
-**Added:**
+### New Features
 - Accessibility features - [Issue #42](https://github.com/okviz/bullet-chart-issues/issues/42)
 
-**Fixed:**
+### Bug Fixes
 - License validation when a previous license was not valid.
 
 ## v2.3.2.1
 **Released:** 2022-11-17
 
-**Added:**
+### New Features
 - [Bullet Spacing](options/general/bullet-spacing.md)
 - Labels for targets
 - Labels section 
@@ -51,11 +52,11 @@ Bullet Chart uses **Power BI Custom Visuals API v5.9.1**.
 - Labels priority option
 - Use marker color option for labels
 
-**Changed:**
+### Improvements
 - Label overflow option is now in Labels section
 - Color rules can be applied to single measure 
 
-**Fixed:**
+### Bug Fixes
 - Legend font family is ignored - [Issue #19](https://github.com/okviz/bullet-chart-issues/issues/19)
 - Show change over value not appearing correctly - [Issue #19](https://github.com/okviz/bullet-chart-issues/issues/19)
 - Tooltip not appearing on dashboard - [Issue #25](https://github.com/okviz/bullet-chart-issues/issues/25)
@@ -67,17 +68,17 @@ Bullet Chart uses **Power BI Custom Visuals API v5.9.1**.
 ## v2.3.1.1
 **Released:** 2022-09-15 (preview 2022-08-21)
 
-**Added:**
+### New Features
 - [Variances](options/variances/index.md)
 - [Baseline](options/value-axis/baseline.md)
 - [Text Rotation](options/category-axis/rotation.md)
 - [Category Axis Size](options/category-axis/size.md)
 - Absolute change value on data labels
 
-**Changed:**
+### Improvements
 - Corner radius are now percentages
 
-**Fixed:**
+### Bug Fixes
 - Change over labels format - [Issue #13](https://github.com/okviz/bullet-chart-issues/issues/13)
 - Non-shared targets on multiple measures - [Issue #16](https://github.com/okviz/bullet-chart-issues/issues/16)
 - Vertical axis rotation improvements
@@ -86,13 +87,13 @@ Bullet Chart uses **Power BI Custom Visuals API v5.9.1**.
 ## v2.3.0.0
 **Released:** 2022-08-08 (preview)
 
-**Changed:**
+### Improvements
 - Support API 4.7.0
 - Remove default tooltips labels
 - Disable extending last state by default
 - Disable premium features on environments unsupported by licensing system
 
-**Fixed:**
+### Bug Fixes
 - Gridline options disappearing
 - Default target markers
 - (Blank) category values
@@ -106,7 +107,7 @@ Bullet Chart uses **Power BI Custom Visuals API v5.9.1**.
 - Sorting target for % change over
 - Label outside end position 
 
-**Added:**
+### New Features
 - Premium wizard screen
 - Border opacity option to data labels and bullet shape
 - License info in About
@@ -115,36 +116,36 @@ Bullet Chart uses **Power BI Custom Visuals API v5.9.1**.
 ## v2.2.9.5
 **Released:** 2022-08-10
 
-**Fixed:** 
+### Bug Fixes 
 - Licensing system issue with valid licenses
 
 ## v2.2.9.4
 **Released:** 2022-08-03
 
-**Fixed:**
+### Bug Fixes
 - Bars disappearing with categories and data labels on - [Issue #6](https://github.com/okviz/bullet-chart-issues/issues/6)
 - Axis display unit
 
 ## v2.2.9.2
 **Released:** 2022-07-20
 
-**Changed:**
+### Improvements
 - Complete refactor
 - Support AS licensing system
 
 ## v2.2.8
 **Released:** 2020-05-23
 
-**Fixed:**
+### Bug Fixes
 - Manage NaN values
 
-**Changed:**
+### Improvements
 - Increase the max data to 30K
 
 ## v2.2.7
 **Released:** 2020-05-09
 
-**Fixed:**
+### Bug Fixes
 - Bug #124 - Wrong target assignment when the same fields are assigned to different roles
 - Console errors when the visual is too small
 - Hide change over target label when there is a division by 0
@@ -152,27 +153,27 @@ Bullet Chart uses **Power BI Custom Visuals API v5.9.1**.
 ## v2.2.6
 **Released:** 2020-04-01
 
-**Fixed:**
+### Bug Fixes
 - Wrong states when the first is 0
 - Accessibility module
 
 ## v2.2.5
 **Released:** 2020-03-05
 
-**Fixed:**
+### Bug Fixes
 - Label vertical alignment on IE/Edge (legacy)
 - Tooltips culture
 
 ## v2.2.4
 **Released:** 2020-02-18
 
-**Changed:**
+### Improvements
 - Icon
 
 ## v2.2.3
 **Released:** 2019-08-19
 
-**Fixed:**
+### Bug Fixes
 - Axis height
 - Legend for main value
 - IE11 rendering issue
@@ -180,12 +181,12 @@ Bullet Chart uses **Power BI Custom Visuals API v5.9.1**.
 ## v2.2.0
 **Released:** 2019-08-19
 
-**Fixed:**
+### Bug Fixes
 - Removed targets from tooltips when the marker is hidden
 - Issue in states
 - Better label positioning in vertical mode
 
-**Added:**
+### New Features
 - Support for Drillthrough
 - Support for Power BI Themes
 - Support for Report Tooltips
@@ -201,7 +202,7 @@ Bullet Chart uses **Power BI Custom Visuals API v5.9.1**.
 ## v2.1.6
 **Released:** 2018-03-23
 
-**Fixed:**
+### Bug Fixes
 - Negative axis truncation
 - Legend issue
 
@@ -211,34 +212,34 @@ Bullet Chart uses **Power BI Custom Visuals API v5.9.1**.
 ## v2.1.5
 **Released:** 2017-12-09
 
-**Added:**
+### New Features
 - Target markers can be hidden
 - Multiple tooltips support
 - Labels formatting options
 
-**Fixed:**
+### Bug Fixes
 - Highlight interaction with target
 - Vertical orientation issues with labels
 
 ## v2.1.4
 **Released:** 2017-06-20
 
-**Fixed:**
+### Bug Fixes
 - Security issue
 
 ## v2.1.3
 **Released:** 2017-04-03
 
-**Fixed:**
+### Bug Fixes
 - iOS rendering issue
 
 ## v2.1.2
 **Released:** 2017-03-28
 
-**Added:**
+### New Features
 - Legend
 
-**Fixed:**
+### Bug Fixes
 - Missing highlight value in tooltips and other small issues
 - Wrong labels when drilling down
 - Wrong data labels placement
@@ -247,7 +248,7 @@ Bullet Chart uses **Power BI Custom Visuals API v5.9.1**.
 ## v2.1.1 
 **Released:** 2016-12-24
 
-**Fixed:**
+### Bug Fixes
 - Blank data issue
 
 ## Previous Versions

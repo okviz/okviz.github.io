@@ -3,40 +3,46 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2022-07-17
-modified:           2025-01-05
+modified:           2025-01-22
 order:              /calendar-pro/{99}
 toc_h_max:            2
 ---
 This page contains a quick summary of versions and notable changes of Calendar Pro.  
-Smart Filter Pro uses **Power BI Custom Visuals API v5.9.1**.
+Smart Filter Pro uses **Power BI Custom Visuals API v5.11.0**.
+
+## v1.0.9
+**Released:** 2025-01-22
+
+### Bug Fixes
+- Fix missing date picker when granularity is set to "Day" and grouping to "None".
 
 ## v1.0.8
 **Released:** 2025-01-05
 
-**Fixed:**
+### Bug Fixes
 - Fix wrong initial interval in certain cases.
 
 ## v1.0.7
 **Released:** 2024-11-27
 
-**Fixed:**
+### Bug Fixes
 - Fix holidays time zone issue.
 
 ## v1.0.6
 **Released:** 2024-11-02
 
-**Added:**
+### New Features
 - Add [Time Zone option](options/calendar/timezone.md) to deal with Power BI automation that run at UTC time zone.
 - New license management system - ready to support OKVIZ licensing.
 
-**Fixed:**
+### Bug Fixes
 - Fix holidays time zone issue.
 - Fixed "Today/Current *PERIOD*" not showing in the "Jump" menu in some cases.
 
 ## v1.0.5.5
 **Released:** 2024-06-02
 
-**Fixed:**
+### Bug Fixes
 - Quarters year in labels
 - Fix data color when no color rule is applied ([#14](https://github.com/okviz/calendar-pro-issues/issues/14))
 - Fix events labels formatting ([#17](https://github.com/okviz/calendar-pro-issues/issues/17))
@@ -45,49 +51,49 @@ Smart Filter Pro uses **Power BI Custom Visuals API v5.9.1**.
 ## v1.0.5.4
 **Released:** 2024-03-02
 
-**Fixed:**
+### Bug Fixes
 - Custom culture code for number formatting
 
 ## v1.0.5.3
 **Released:** 2024-01-15
 
-**Added:**
+### New Features
 - Option to hide today cell color
 
-**Fixed:**
+### Bug Fixes
 - Color rule problems with field conditions
 
 ## v1.0.5.2
 **Released:** 2023-12-30
 
-**Fixed:**
+### Bug Fixes
 - Weird layout on Power BI mobile app. - [Issue #12](https://github.com/okviz/calendar-pro-issues/issues/12)
 
 ## v1.0.5.1
 **Released:** 2023-12-11
 
-**Fixed:**
+### Bug Fixes
 - License validation when a previous license was not valid.
 
-**Changed:**
+### Improvements
 - Support API 5.4.0
 
 ## v1.0.4
 **Released:** 2023-03-22
 
-**Changed:**
+### Improvements
 - Support API 5.1.0
 
-**Added:**
+### New Features
 - [Default to Today](options/calendar/default-today.md) option.
 
-**Fixed:**
+### Bug Fixes
 - Missing last week when a single calendar is displayed on the screen and the number of weeks in the first month of the interval is less than 5 weeks.
 
 ## v1.0.3
 **Released:** 2022-09-15
 
-**Added:**
+### New Features
 - A wizard dialog when the visual contains no data.
 - [Extend Today Color](options/cells/extend-today-color.md) option.
 - Support API 4.7.0
@@ -95,11 +101,11 @@ Smart Filter Pro uses **Power BI Custom Visuals API v5.9.1**.
 - Support for preview versions
 - US and CA states holidays
 
-**Changed:**
+### Improvements
 - Improve ***Change Layout*** menu.
 - Improve current period in ***Jump*** menu.
 
-**Fixed:**
+### Bug Fixes
 - Holidays position when no events visible.
 - User font sizes ignoring.
 - Layout overlapping with small sizes.
