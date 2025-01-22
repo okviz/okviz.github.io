@@ -19,7 +19,7 @@ If you already have a map loaded in the visual, you can open the Map Editor by c
 
 <todo>Add pencil icon screenshot</todo>
 
->> **IMPORTANT** Map Editor is available only in the ***Edit Mode***. If you are in ***View Mode***, you need to switch to **Edit Mode*** to access the Map Editor. Moreover, it is not available if you are using the [Map URLs](./fields/map-urls.md) field well.
+> Map Editor is available only in the ***Edit Mode***. If you are in ***View Mode***, you need to switch to **Edit Mode*** to access the Map Editor. Moreover, it is not available if you are using the [Map URLs](./fields/map-urls.md) field well.
 
 The interface is designed for intuitive navigation and interaction, with two main sections: the ***Map List*** on the left and the ***Map Preview*** on the right.
 
