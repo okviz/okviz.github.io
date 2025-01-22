@@ -12,14 +12,14 @@ Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 
 > **NOTE:** Synoptic Panel Lite is a subset of Synoptic Panel with limited features. Both versions share the same codebase and changelog.
 
-## 2.2.6 - Release Candidate
+## v2.2.6 - RC
 **Released:** 2025-01-22
 
 ### Improvements
 - Bump version
 - Minor changes
 
-## 2.2.5
+## v2.2.5
 **Released:** 2025-01-16
 
 ### Bug Fixes
