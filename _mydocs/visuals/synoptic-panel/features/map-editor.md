@@ -11,9 +11,9 @@ next_reading:       true
 The built-in Map Editor is a powerful feature of Synoptic Panel visual that allow you to manage, preview and edit maps interactively, without leaving the visual. Each section is described in detail below.
 
 To start using Map Editor, it is essential to have at least one map loaded into visual.
-When [Importing Maps](./importing.md) directly from visual by click on the **Add Map** button, the Map Editor will be automatically opened and the first map loaded previewed.
+When [Importing Maps](./importing.md) directly from visual by click on the <img src="images/add-map-btn.png" width="50">, the Map Editor will be automatically opened and the first map loaded previewed.
 
-<todo>Add Map button screenshot</todo>
+
 
 If you already have a map loaded in the visual, you can open the Map Editor by clicking on the **pencil icon** in the visual [Toolbar](./toolbar.md).
 

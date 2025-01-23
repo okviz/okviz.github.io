@@ -135,9 +135,7 @@ To import map from [My Storage](./../features/my-storage.md) into Synoptic Panel
 
 >> Note that only [Synoptic Panel with OKVIZ license](../versions/index.md) supports this feature.
 
-## Replace Map(s)
-
-<todo> </todo>
+<todo> ## Replace Map(s) </todo>
 
 ## Size Limitations
 
