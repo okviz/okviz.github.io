@@ -67,7 +67,7 @@ My Storage window is divided into tree main sections:
 
 1.	**Map List** (Left Pane):
 
-    This section displays the list of all maps stored. You can browse through the list and select one or more maps to associate with the current [Drill Path](./drill-mode.md#the-drill-path) Each map can be previewed, renamed, replaced, protected or deleted directly from the list. 
+    This section displays the list of all maps stored. You can browse through the list and select one or more maps to be associated with the current [Drill Path](./drill-mode.md#the-drill-path). Each map can be previewed, renamed, replaced, protected or deleted directly from the list. 
 
     <img src="./images/my-storage-map-menu.png" width="400" class="naked">
 

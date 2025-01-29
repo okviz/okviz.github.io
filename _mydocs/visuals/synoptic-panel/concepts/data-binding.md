@@ -67,19 +67,7 @@ Matching is done according to the following rules:
 
 When automatic binding is not possible or not desired, you can manually bind areas to data points. This can be done through Synoptic Panel's [Map Editor](./../features/map-editor.md), which allows you to select each map element and link it to a specific value of the ***Categories*** column. When this is done, the status of the target area is set to **"Strong Matched"**, and it takes precedence over automatic binding.
 
-
-```svg
-<svg>
-    <!-- This is an "area" -->
-    <path id="area1" d="M10 10"/>
-
-    <!-- This is a decorative element -->
-    <circle cx="10" cy="10" r="2"/>
-</svg>
-```
-
-
-<todo>Screenshot of the Map Editor</todo>
+<todo>Map code structure and screenshot of the Map Editor</todo>
 
 > Keep in mind that in the Map Editor you can select the data point to be associated with an area **from those available at the time of editing**. This means that if a filter is applied, you may not see all the data points available in the dataset. Remember to remove any filters before opening the Map Editor.
 
