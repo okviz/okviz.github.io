@@ -3,7 +3,7 @@ layout:             page
 title:              Label Designer
 published:          true
 date:               2024-05-12
-modified:           2025-01-22
+modified:           2025-01-29
 order:              /synoptic-panel/features/label-designer
 ---
 
@@ -15,7 +15,9 @@ Label customizations are map-specific. Therefore, any settings applied within th
 
 ## Entering Label Designer
 
-To access the Label Designer, click on its dedicated icon located within the [Organizational Toolbar] at the top-left of the visual and the system transitions into Power Bi Focus Mode.
+To access the Label Designer, click on its icon <img src="images/label-designer-icon.png" width="25" class="nomargin"> located within the [Top Toolbar](toolbars.md#top-toolbar) at the top-left of the visual and the system transitions into Power Bi Focus Mode.
+
+<video src="./images/label-designer-overview.mp4" autoplay loop muted></video>
 
 Label Designer offers drag-and-drop functionality, allowing you to easily position labels on the map. You can also adjust the size of a label by dragging one of its corners, and rotate it by dragging the small circle located above the label. Alignment guides are also provided, enabling you to align labels quickly and intuitively for a polished and organized layout.
 

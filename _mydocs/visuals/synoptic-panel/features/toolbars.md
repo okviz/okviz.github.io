@@ -3,43 +3,46 @@ layout:             page
 title:              Toolbars
 published:          true
 date:               2025-01-21
-modified:           2025-01-22
+modified:           2025-01-29
 order:              /synoptic-panel/features/toolbars
 next_reading:       true
 ---
 
 In Synoptic Panel, two distinct ***Toolbars*** are available to enhance the usability and customization of the visual:
 
-1. **Organizational Toolbar**: positioned in the top-left corner of the visual, visible only in ***Edit View***.
+<img src="./images/toolbars.png" width="600" class="naked">
 
-2. **Interactive Toolbar**: located at the bottom of the visual, accessible to all users for managing graphical and interactive aspects of the map.
+1. **Top Toolbar**: positioned in the top-left corner of the visual, visible only in ***Edit View***.
 
-## Organizational Toolbar
+2. **Bottom Toolbar**: located at the bottom of the visual, accessible to all users for managing graphical and interactive aspects of the map.
 
-The ***Organizational Toolbar*** allows users to manage and configure the visual’s structure. This toolbar is only displayed in Edit Mode and contains the following elements:
+## Top Toolbar
 
-- **Map Dropdown**: displays a list of all maps within the current drill path. You can use this dropdown to quickly switch between maps.
+The **Top Toolbar** allows users to manage and configure the visual’s structure. This toolbar is only displayed in Edit Mode and contains the following elements:
 
-<todo> Add screenshot of the Org toolbar </todo>
+<img src="./images/top-toolbar.png" class="naked">
 
-- **Edit Icon** (1): opens the [Map Editor](map-editor.md), where you can manage and edit maps.
-- **Maps Manager Icon** (2): launches the [Maps Manager](map-manager.md), which provides an overview of all connected maps and drill paths.
-- **Label Designer Icon** (3): Opens the [Label Designer](label-designer.md) , where you can configure the appearance and behavior of labels on your maps.
+- ***Map Dropdown***(1): displays a list of all maps within the current drill path. You can use this dropdown to quickly switch between maps.
+- ***Edit Icon*** (2): opens the [Map Editor](map-editor.md), where you can manage and edit maps.
+- ***Maps Manager Icon*** (3): launches the [Maps Manager](map-manager.md), which provides an overview of all connected maps and drill paths.
+- ***Label Designer Icon*** (4): Opens the [Label Designer](label-designer.md) , where you can configure the appearance and behavior of labels on your maps.
 
-## Interactive Toolbar
+## Bottom Toolbar
 
-The ***Interactive Toolbar*** focuses on user interaction with the visual, enabling dynamic adjustments to the map’s appearance and behavior. It is located at the bottom of the visual and includes the following controls:
+The ***Bottom Toolbar*** focuses on user interaction with the visual, enabling dynamic adjustments to the map’s appearance and behavior. It is located at the bottom of the visual and includes the following controls:
+
+<img src="./images/bottom-toolbar.png" class="naked">
 
 **Zoom Controls**
-- Zoom In: Magnifies the map for a closer view.
-- Zoom Out: Reduces the map size for a broader perspective.
-- Reset Zoom: Resets the zoom level to the default view.
-- Zoom Percentage: Displays the current zoom level.
+- ***Zoom In***(1): Magnifies the map for a closer view.
+- ***Zoom Percentage***(2): Displays the current zoom level.
+- ***Zoom Out***(3): Reduces the map size for a broader perspective.
+- ***Reset Zoom***(4): Resets the zoom level to the default view.
 
 **Selection Tools**
-- Select Elements: Enables selection of specific areas or elements within the map.
-- Focus on Area: Centers the view on a selected area of the map.
-- Clear Selection: Deselects any previously selected elements.
+- ***Select Elements***(5): Enables selection of specific areas or elements within the map.
+- ***Focus on Area***(6): Centers and zoom the view on a selected area of the map.
+- ***Clear Selection***(7): Deselects any previously selected elements.
 
 ## Configurability
 

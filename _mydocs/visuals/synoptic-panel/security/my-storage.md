@@ -4,7 +4,7 @@ title:              My Storage Security
 menu_title:         My Storage
 published:          true
 date:               2024-09-12
-modified:           2024-12-09
+modified:           2025-01-29
 order:              /synoptic-panel/security/my-storage
 ---
 
@@ -24,7 +24,7 @@ To access a particular map, a user or the Synoptic Panel visual needs:
 
 1. **Resource URL:**  
    Each map is hosted at a unique URL, for example:  
-   `https://okviv_server_url_on_region/v1/my/ff78a3b6-640a-40e8-942d-e9d7a2d0fc18/map/a4eb6922-c599-4fa8-b5fd-d789867b92f7`
+   `https://okviz_server_url_on_region/v1/my/ff78a3b6-640a-40e8-942d-e9d7a2d0fc18/map/a4eb6922-c599-4fa8-b5fd-d789867b92f7`
    
    This URL is not guessable and is not based on the map name, but on a GUID-like structure, making it extremely difficult to discover by brute force.
 

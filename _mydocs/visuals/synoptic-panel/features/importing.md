@@ -3,7 +3,7 @@ layout:             page
 title:              Importing Maps
 published:          true
 date:               2024-05-26
-modified:           2025-01-22
+modified:           2025-01-29
 order:              /synoptic-panel/features/importing
 ---
 
@@ -17,9 +17,17 @@ First of all, connect the visual to the report if you have not done so already. 
 There are different ways to load maps into the Synoptic Panel visual, depending on the current condition of the visual:
 
 - **The visual has no maps connected or there are no maps connected to the current drill path**. You can directly click the ***Add Map*** button within the visual and choose the type of map you want to import. 
-When **no maps are connected**, the ***Add Map*** button is located at the center of the visual. However, if **no maps are connected to the current drill path**, the button is positioned in the top-left corner. Once the maps are loaded, the [Map Editor](../features/map-editor.md) will open automatically.
+When **no maps are connected**, the ***Add Map*** button is located at the center of the visual. 
 
-- **The current drill path already has a map connected**. You need to click on ***pencil icon*** in the visual [Toolbar](./toolbar.md), which will open the [Map Editor](../features/map-editor.md) In the Map Editor, you can click the ***+ Add*** button and choose the type of map you want to import. 
+<img src="images/add-map-no-maps.png" width="400" class="naked">
+
+However, if **no maps are connected to the current drill path**, the button is positioned in the top-left corner. Once the maps are loaded, the [Map Editor](./map-editor/index.md) will open automatically.
+
+<img src="images/add-map-no-current-drill-path-maps.png" width="400" class="naked">
+
+- **The current drill path already has a map connected**. You need to click on ***Edit icon*** <img src="images/pencil-icon.png" width="25" class="nomargin"> in the visual [Toolbar](./toolbar.md), which will open the [Map Editor](./map-editor/index.md) In the [Map Editor](./map-editor/index.md), you can click the ***+ Add*** button and choose the type of map you want to import. 
+
+<img src="images/add-map-map-editor-icon.png" width="400" class="naked">
 
 ## Import Local Maps
 
@@ -31,11 +39,11 @@ To import local map(s) into Synoptic Panel, follow these steps:
 
     <img src="images/import-local.png" width="250">
 
-    If you have already loaded a map, you can click the ***+ Add*** button in the Map Editor dialog or drag and drop the files directly into the [Map List](../features/map-editor.md#map-list).
+    If you have already loaded a map, you can click the ***+ Add*** button in the [Map Editor](./map-editor/index.md) dialog or drag and drop the files directly into the [Map List](../features/map-editor.md#map-list).
+
+    <img src="images/map-editor-add-local-map-btn.png">
 
 2. Select one or more files from your local machine.
-
-<todo>Screen cast of adding local maps from map editor in both way</todo>
 
 Always keep in mind that **Local maps** are stored within the Power BI report file, meaning they are only accessible in the report where they were imported. Additionally, they are subject to [Size Limitations](#size-limitations).
 
@@ -51,22 +59,26 @@ To import a remote map into Synoptic Panel, follow these steps:
 
     <img src="images/import-remote.png" width="250">
 
-    If you have already loaded a map, you can click the ***+ Add*** button in the Map Editor dialog.
+    If you have already loaded a map, you can click the ***+ Add*** button in the [Map Editor](./map-editor/index.md) dialog.
+
+    <img src="images/map-editor-add-remote-map-btn.png">
 
 2. Enter the URL of the map and click ***Ok***.
 
 For adding multiple URLs, refer to the next [Import Remote Maps from a JSON File](#import-remote-maps-from-a-json-file) section.
 
+It is important to note that the URL must point directly to the SVG file and be **publicly accessible from the client**. This means the file should be hosted on a server that allows direct access without authentication or other restrictions. Additionally, popular cloud storage services cannot be used due to Cross-Origin Resource Sharing (CORS) restrictions, which prevent the visual from accessing files hosted on external platforms. Here is a list of some popular cloud services and their availability:
 
-<todo>Screen cast of adding remote maps from map editor in both way</todo>
-
-It is important to note that the URL must point directly to the SVG file and be **publicly accessible from the client**. This means the file should be hosted on a server that allows direct access without authentication or other restrictions. Additionally, popular cloud storage services like Google Drive, Dropbox, and OneDrive cannot be used due to Cross-Origin Resource Sharing (CORS) restrictions, which prevent the visual from accessing files hosted on external platforms.
+| Cloud Service | Availability  |
+|---------------|---------------|
+| Github        |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🟢|
+| OneDrive      |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔴|
+| Google Drive  |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔴|
+| Dropbox       |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔴|
 
 >> Note that [Synoptic Panel Lite](../versions/index.md) does not support this feature.
 
 ## Import Remote Maps from a JSON File
-
->> Note that [Synoptic Panel Lite](../versions/index.md) does not support this feature.
 
 If you have not yet connected the visual to your report, you can read how to start [Before Importing](./importing.md#before-importing).
 
@@ -76,11 +88,11 @@ To import multiple remote maps into Synoptic Panel, follow these steps:
 
     <img src="images/import-from-json.png" width="250">
 
-    If you have already loaded a map, you can click the ***+ Add*** button in the Map Editor dialog.
+    If you have already loaded a map, you can click the ***+ Add*** button in the [Map Editor](./map-editor/index.md) dialog.
+
+    <img src="images/map-editor-add-json-btn.png">
 
 3. Select the JSON file containing the list of maps you want to import (see below).
-
-<todo>Screen cast of adding remote maps from map editor in both way</todo>
 
 ### Import File Specifications
 
@@ -117,6 +129,8 @@ Here is a description of the fields:
 
 <todo>Provide a sample JSON file with links to our Github repo base on Synoptic Panel tour</todo>
 
+>> Note that [Synoptic Panel Lite](../versions/index.md) does not support this feature.
+
 ##  Import My Storage Maps
 
 If you have not yet connected the visual to your report, you can read how to start [Before Importing](./importing.md#before-importing).
@@ -127,15 +141,37 @@ To import map from [My Storage](./../features/my-storage.md) into Synoptic Panel
 
     <img src="images/import-my-storage.png" width="250">    
 
-    If you have already loaded a map, you can click the ***+ Add*** button in the Map Editor dialog.
+    If you have already loaded a map, you can click the ***+ Add*** button in the [Map Editor](./map-editor/index.md) dialog.
 
-2. Select one or more maps available from your storage map list.
+    <img src="images/map-editor-add-my-storage-map-btn.png">
 
-3. Click ***Add Selected*** to import the map(s) into the visual.
+2. [Connect Map(s) to Visual](./../features/my-storage.md#connecting-maps-to-the-visual) from My Storage.
 
 >> Note that only [Synoptic Panel with OKVIZ license](../versions/index.md) supports this feature.
 
-<todo> ## Replace Map(s) </todo>
+## Replace Map(s) ##
+
+<img src="images/replace-map.png" width="400" class="naked">
+
+In Synoptic Panel, the ***Replace*** feature allows you to update an SVG map file while preserving the [data binding](../concepts/data-binding.md) already established. This can be useful when modifying a design, adding elements, or updating shapes. However, there are important considerations regarding the handling of IDs that could affect your setup during the replace process.
+
+**ID Management and Data Binding**
+
+Synoptic Panel relies on its [Auto Id Assignment](../concepts/auto-id-assignment.md) system to ensure unique IDs to areas of the map that lack predefined '<id>' attributes. If you replace the map with an updated SVG, issues may arise only when the following conditions occur:
+
+1.	**Original SVG without predefined Ids**: If the previous map had areas without predefined '<id>' attributes, Synoptic Panel generated IDs automatically for those areas.
+
+2.	**New SVG without redefined Ids**: If the updated SVG also has areas without predefined '<id>' attributes, the Auto Id Assignment process may assign new IDs in a different order, especially if areas are added, removed, or reordered in the new file.
+
+This could result in a mismatch between the existing data binding and the updated map because the assigned Ids in the new SVG may no longer align with the original ones.
+
+**How to Avoid Issues**
+
+To ensure smooth replacements and maintain data bindings:
+
+1.	**Assign Ids in the SVG**: whenever possible, define '<id>' attributes for all areas in the SVG before uploading it to Synoptic Panel. This prevents the Auto Id Assignment process from running and ensures that Ids remain consistent across updates.
+2.	**Avoid Auto Id Dependency**: If your original map relied on Auto Ids, be cautious when updating the SVG. Removing or reordering shapes can disrupt the Id sequence and cause bindings to break.
+3.	**Incremental Changes**: When modifying an SVG, avoid introducing or removing shapes that could shift the order of automatically generated Ids. Instead, preserve the structure and sequence of the original map.
 
 ## Size Limitations
 

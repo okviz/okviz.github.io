@@ -3,24 +3,24 @@ layout:             page
 title:              My Storage
 published:          true
 date:               2024-05-10
-modified:           2025-01-22
+modified:           2025-01-29
 order:              /synoptic-panel/features/my-storage
 next_reading:       true
 ---
 
-<todo> Add a screencast showing the My Storage feature. </todo>
-
-My Storage provides an online storage space hosted on third-party servers (e.g., Microsoft Azure) that allows you to upload, store, and manage SVG maps for use within Synoptic Panel. Make sure to read the entire [terms and conditions](./../legal/my-storage-tos.md) before using this feature.
+My Storage provides an online storage space hosted on third-party servers (e.g., Microsoft Azure) that allows you to upload, store, and manage SVG maps for use within Synoptic Panel. Make sure to read the entire [terms and conditions](./../legal/my-storage-tos.md) and the [Security section](./../security/my-storage.md) before using this feature.
 
 >> Note that [Synoptic Panel Lite](../versions/index.md) does not support this feature.
 
 ## Setup
 
+<img src="./images/setup-my-storage.png" width="600" class="naked">
+
 When accessing MyStorage for the first time, you will be prompted to:
 
-1.	Set a Name. Choose a unique name for your My Storage instance, which will identify your storage within the organization.
+1.	***Set a Name***. Choose a unique name for your My Storage instance, which will identify your storage within the organization.
 
-2.	Define an [Encryption Key](#encryption-and-encryption-key) (Optional). This is used to secure your maps.
+2.	***Define an [Encryption Key](#encryption-and-encryption-key)*** (Optional). This is used to secure your maps.
 
 ## Edit Key
 
@@ -30,11 +30,13 @@ To use My Storage, you must have [Synoptic Panel with OKVIZ license](../versions
 
 When accessing My Storage, you will be prompted to enter the Edit Key. You can choose one of the following options for convenience:
 
-- ***Save within the report***:
-Stores the Edit Key directly in the report. This ensures it is available whenever the report is opened, but it is tied to that specific report.
+<img src="./images/add-edit-key.png" width="300" class="naked">
 
-- ***Save in Local Storage***:
-Temporarily saves the Edit Key in your browser’s local storage, allowing you to reuse it for future sessions. This option is useful if you frequently access My Storage from the same device and browser.
+- ***Remember key for 29 days***(1):
+Temporarily saves the Edit Key in your browser’s local storage, allowing you to reuse it for future sessions for 29 days. This option is useful if you frequently access My Storage from the same device and browser.
+
+- ***Make key available for all users of this report***(2):
+Stores the Edit Key directly in the report. This ensures it is available whenever the report is opened, but it is tied to that specific report.
 
 If you choose not to save the Edit Key, you will need to re-enter it each time you access My Storage. If you selected one of the save options, you can change it at any time by toggling the [Save Edit Key](./../options/my-storage/keys.md#save-edit-key) setting in the visual properties, removing the saved key from the report and/or local storage.
 
@@ -42,7 +44,7 @@ If you choose not to save the Edit Key, you will need to re-enter it each time y
 
 You can specify an ***Encryption Key*** to secure your maps. This key encrypts all the maps stored in My Storage, ensuring they are saved on the server in an encrypted format. Only authorized users with the correct encryption key can access and decrypt these maps.
 
-If you enable encryption, it is essential to safeguard your encryption key. The key is not stored or accessible by Okviz, and if it is lost, there is no way to restore or decrypt the encrypted maps.
+If you enable encryption, it is essential to safeguard your encryption key. The key is not stored or accessible by OKVIZ, and if it is lost, there is no way to restore or decrypt the encrypted maps.
 
 **Important Notes on Encryption**:
 
@@ -59,18 +61,33 @@ When [Importing My Storage Maps](./../features/importing.md#import-my-storage-ma
 
 My Storage window is divided into tree main sections:
 
+<div style="overflow: hidden;">
+    <video src="./images/my-storage-layout.mp4" style="margin-top: -5%; margin-bottom: -6%" autoplay loop muted></video>
+</div>
+
 1.	**Map List** (Left Pane):
 
-    This section displays the list of all maps stored. You can browse through the list and select one or more maps to associate with the current Drill Path. Each map can be previewed, edited, replaced or deleted directly from the list. 
-    
+    This section displays the list of all maps stored. You can browse through the list and select one or more maps to associate with the current [Drill Path](./drill-mode.md#the-drill-path) Each map can be previewed, renamed, replaced, protected or deleted directly from the list. 
 
-2.	**Preview** (Right Pane):
+    <img src="./images/my-storage-map-menu.png" width="400" class="naked">
 
-    The right panel shows a preview of the map selected from the list, allowing you to verify its content before adding it to the visual. You can also view the map’s metadata, such as the author, source (the id of the map in My Storage), protection status, date and size of the last update.
+2.	**Map Preview** (Right Pane):
 
-3. **Top Bar**:
+    The right panel shows a preview of the map selected from the list, allowing you to verify its content before adding it to the visual. The map is displayed in the center of the pane while in the corners you can find some useful information.
 
-    In the top bar of the window, you will find the current ***Region*** and ***Storage Available Quota***. The region indicates the location where your storage is hosted (which is defined when purchasing the license), while the quota shows the remaining space available in your storage out of the total space.
+    <img src="./images/my-storage-map-preview.png" width="600" class="naked">
+
+    - ***Map Title***(1): the name of the map currently in preview.
+    - ***Map Id***(2): unique ID in the storage system.
+    - ***Map Author***(3) - if available: the author of the map.
+    - ***Protected Marker***(4): indicates if the map is protected with a password.
+    - ***Last Modified Date***(5): the date and time the map was last updated.
+    - ***File Size***(6): the size of the map file on the server.
+    - ***Refresh Icon***(7): allows you to reload the map to ensure it is up to date.
+
+3. **Header**:
+
+    In the header you will find the current ***Region*** and ***Storage Available Quota***. The region indicates the location where your storage is hosted (which is defined when purchasing the license), while the quota shows the remaining space available in your storage out of the total space.
 
 ### Upload Maps
 
@@ -78,27 +95,36 @@ Uploading maps means selecting one or more local files from your machine and sav
 
 How to Upload:
 1.  If My Storage is empty(i.e., no maps have been uploaded yet), click the ***Upload*** button in the center of the screen.
-2.	If maps are already present, the ***Upload*** button is located at the bottom of the ***Map List*** pane.
-3.	Select the local files you want to upload.
 
-Upload Limitations:
-- File Size Limit: Each file must not exceed 10 MB.
-- Total Upload Limit: A maximum of 20 MB can be uploaded in a single operation.
-- Image Optimization: Embedded images in SVG maps will be compressed based on the [Image Quality](./../options/advanced-options/performance.md#image-quality) setting.
+<img src="./images/my-storage-upload-btn-empty.png" width="300" class="naked">
+
+2.	If maps are already present, the ***Upload*** button is located at the bottom of the ***Map List*** pane.
+
+<img src="./images/my-storage-upload-btn-list.png" width="600" class="naked">
+
+3.	Select the local files you want to upload from your machine.
+
+#### **Upload Limitations** ###
+
+- **File Size Limit**: Each file must not exceed 10 MB.
+- **Total Upload Limit**: A maximum of 20 MB can be uploaded in a single operation.
+- **Image Optimization**: Embedded bitmap images in SVG maps will be compressed based on the [Image Quality](./../options/advanced-options/performance.md#image-quality) setting.
 
 ### Connecting Map(s) to the Visual
 
-To connect a map to the current Drill Path within the visual:
+To connect a map to the current [Drill Path](./drill-mode.md#the-drill-path) within the visual:
 
-1.  **Upload the Map**: the map must first be uploaded to My Storage.
+1.  **Upload the Map**: the map must first be [uploaded to My Storage](#upload-maps).
 
 2.	**Select the Map**: use the checkbox next to the map name in the list to select the map you want to connect.
     - Multiple maps can be selected by checking multiple checkboxes.
-    - To select all maps in the list, use the Select All button at the top of the list.
+    - To select all maps in the list, use the ***Select All*** element at the top of the list.
 
-3.	**Add the Selected Maps**: click the ***Add Selected*** button to connect the selected maps to the current [Drill Path](./../concepts/drill-paths.md). 
+3.	**Add the Selected Maps**: click the ***Add Selected*** button to connect the selected maps to the current [Drill Path](./drill-mode.md#the-drill-path) in the visual.
 
 Maps that are already connected to the current Drill Path will appear grayed out and cannot be selected again.
+
+<video src="./images/my-storage-connect-maps.mp4" autoplay loop muted></video>
 
 ### Map Protection
 
@@ -122,6 +148,8 @@ Each map in My Storage can be protected with a password. This feature ensures th
 1.	Open the My Storage window and select the map you wish to protect.
 2.	Click the ***Protect*** option from the map’s contextual menu (accessible via the three-dot menu).
 3.	Enter and confirm the desired password.
+
+<video src="./images/my-storage-add-protection.mp4" autoplay loop muted></video>
 
 > If the password is lost, editing or deleting the map will no longer be possible. Make sure to keep the password secure.
 

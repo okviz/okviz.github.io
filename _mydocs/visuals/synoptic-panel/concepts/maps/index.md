@@ -3,13 +3,20 @@ layout:             page
 title:              What are Maps?
 published:          true
 date:               2024-05-10
-modified:           2024-05-26
+modified:           2025-01-29
 order:              /synoptic-panel/concepts/01
 ---
 
 In the context of Synoptic Panel, the term "map" extends beyond traditional geographical boundaries. Here, **a map is any image that can be utilized to visualize and represent data dynamically**. These are not limited to standard maps of regions or countries; they can include a variety of other visual representations such as floor plans, city layouts, machine schematics, anatomical diagrams of the human body, and so on.
 
-<todo>Screenshot of airplane layout, human body, or any other different shape.</todo>
+<img src="images/body-sample.png" width="600" class="naked">
+
+<img src="images/airplane-sample.png" width="600" class="naked">
+
+<img src="images/office-sample.png" width="600" class="naked">
+
+<img src="images/sphere-sample.png" width="600" class="naked">
+
 
 Each map consists of distinct shapes or group of elements, each of which can be linked to specific data points. This allows for dynamic data representation within the map, where each area can be highlighted, colored, or labeled in response to the underlying data. 
 

@@ -3,8 +3,8 @@ layout:             page
 title:              Auto Id Assignment
 published:          true
 date:               2025-01-13
-modified:           2025-01-22
-order:              /synoptic-panel/features/auto-id-assignment
+modified:           2025-01-29
+order:              /synoptic-panel/concepts/auto-id-assignment
 ---
 
 <todo> Add a screencast showing the auto-id assignment process. </todo>

@@ -3,7 +3,7 @@ layout:             page
 title:              Best Practices
 published:          true
 date:               2024-10-02
-modified:           2025-01-22
+modified:           2025-01-29
 order:              /synoptic-panel/concepts/best-practices
 next_reading:       true
 draft:              true
@@ -78,3 +78,4 @@ When organizing your maps, it is essential to consider their impact on report pe
 
 That is why generally recommended to avoid using too many Local Maps as this can significantly slow down the report and affect its overall responsiveness. Instead, you should leverage [Remote Maps](./../features/importing.md#import-a-remote-map) or [My Storage Maps](./../features/importing.md#import-my-storage-maps) to reduce the memory load on the report file.
 
+If you are using [My Storage](./../features/my-storage.md), always follow the best practices for [Security](./../security/my-storage.md) to ensure that your maps are stored and accessed securely.

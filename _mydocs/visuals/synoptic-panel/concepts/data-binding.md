@@ -3,14 +3,14 @@ layout:             page
 title:              Data Binding
 published:          true
 date:               2024-05-10
-modified:           2025-01-22
+modified:           2025-01-29
 order:              /synoptic-panel/concepts/03
 next_reading:       true
 ---
 
 In Synoptic Panel, data binding is the process of linking Power BI data to the visual elements (shapes or groups of shapes) of an SVG image, called a map ([what is a map?](./maps/index)). This allows any image to be transformed into a dynamic, interactive visualization.
 
-<todo>Screencast of map interactivity</todo>
+<video src="images/interactive-map.mp4" width="600" autoplay loop muted></video>
 
 ## Map Areas
 
@@ -66,6 +66,18 @@ Matching is done according to the following rules:
 ### Manual Binding
 
 When automatic binding is not possible or not desired, you can manually bind areas to data points. This can be done through Synoptic Panel's [Map Editor](./../features/map-editor.md), which allows you to select each map element and link it to a specific value of the ***Categories*** column. When this is done, the status of the target area is set to **"Strong Matched"**, and it takes precedence over automatic binding.
+
+
+```svg
+<svg>
+    <!-- This is an "area" -->
+    <path id="area1" d="M10 10"/>
+
+    <!-- This is a decorative element -->
+    <circle cx="10" cy="10" r="2"/>
+</svg>
+```
+
 
 <todo>Screenshot of the Map Editor</todo>
 

@@ -3,8 +3,8 @@ layout:             page
 title:              Child Maps
 published:          false
 date:               2025-01-21
-modified:           2025-01-22
-order:              /synoptic-panel/features/child-maps
+modified:           2025-01-29
+order:              /synoptic-panel/concepts/maps/child-maps
 ---
 
 <todo>
