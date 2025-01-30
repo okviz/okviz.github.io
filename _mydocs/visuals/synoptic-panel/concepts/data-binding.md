@@ -67,6 +67,34 @@ Matching is done according to the following rules:
 
 When automatic binding is not possible or not desired, you can manually bind areas to data points. This can be done through Synoptic Panel's [Map Editor](./../features/map-editor.md), which allows you to select each map element and link it to a specific value of the ***Categories*** column. When this is done, the status of the target area is set to **"Strong Matched"**, and it takes precedence over automatic binding.
 
+ 
+
+```svg
+<svg id="Layer_1" >
+        <g id="back">
+            <path id="sphere" d="M6865.81 ..."/>
+            <path d="M1730.68,384 ..."/>
+        </g>
+        <g id="sectors">
+            <g id="Economy">
+                <path d="M4343.6,234 ..."/>
+                <path d="M4343.64,2423 ..."/>
+                <path d="M5871.33,5741 ..."/>
+                <path d="M5150.71,1459 ..."/>
+            </g>
+            <g id="Regular">
+                <path d="M5497.68,283 ..."/>
+                <path d="M5497.61,4840 ...."/>
+                <path d="M4622.16,3595 ..."/>
+            </g>
+            <path id="Premium" d="M6673.54 ..."/>
+            <g id="Best">
+                <path id="_306" d="M5601.18,415 ..."/>
+            </g>
+        </g>
+</svg>
+```
+
 <todo>Map code structure and screenshot of the Map Editor</todo>
 
 > Keep in mind that in the Map Editor you can select the data point to be associated with an area **from those available at the time of editing**. This means that if a filter is applied, you may not see all the data points available in the dataset. Remember to remove any filters before opening the Map Editor.
@@ -105,3 +133,24 @@ Here is a summary of the possible statuses of an area (higher priority has prece
 |Unmatched       |0        |The area is not bound to any data point.|
 
 If an area is a child of a group (`g` tag), it has the same status as the group, unless it is manually set with custom attributes such as `data-okviz-strong` or `data-okviz-unbound`; in this case, the status of the child has precedence.
+
+<figure>
+    <img src="images/data-binding-group.png" class="naked">
+    <figcaption>
+        In this example, the `g` with the id "Economy" is Auto Matched and all child `path` inherit the same status.
+    </figcaption>
+</figure>
+
+<figure>
+    <img src="images/data-binding-strong.png" class="naked">
+    <figcaption>
+        In this example, the `g` with the id "Economy" is Auto Matched and all child `path` inherit the same status, except for the `path` that has the `data-okviz-strong` attribute, which is "Strong Matched" to the data point "Best" and takes precedence over the Auto Matched status.
+    </figcaption>
+</figure>
+
+<figure>
+    <img src="images/data-binding-unbound.png" class="naked">
+    <figcaption>
+        In this example, the `g` with the id "Economy" is Auto Matched and all child `path` inherit the same status, except for the `path` that has the `data-okviz-unbound` attribute, which is "Unbound" and takes precedence over the Auto Matched status.
+    </figcaption>
+</figure>

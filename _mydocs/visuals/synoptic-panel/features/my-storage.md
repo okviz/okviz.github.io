@@ -140,8 +140,8 @@ Each map in My Storage can be protected with a password. This feature ensures th
 
 **Map Editor Access**:
 - Users can open the map in the Map Editor even without the password.
-- However, they cannot save changes directly to the original map.
-- Users can save a copy of the map, which is not password-protected unless explicitly protected again after copying.
+- However, they cannot save changes directly to the original My Storage map.
+- Users can save a local copy of the map and eventually upload it to My Storage as a new map.
 
 **Setting a Password for a Map**:
 

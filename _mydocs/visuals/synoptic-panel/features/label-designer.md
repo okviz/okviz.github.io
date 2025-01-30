@@ -3,7 +3,7 @@ layout:             page
 title:              Label Designer
 published:          true
 date:               2024-05-12
-modified:           2025-01-29
+modified:           2025-01-30
 order:              /synoptic-panel/features/label-designer
 ---
 
@@ -15,7 +15,7 @@ Label customizations are map-specific. Therefore, any settings applied within th
 
 ## Entering Label Designer
 
-To access the Label Designer, click on its icon <img src="images/label-designer-icon.png" width="25" class="nomargin"> located within the [Top Toolbar](toolbars.md#top-toolbar) at the top-left of the visual and the system transitions into Power Bi Focus Mode.
+To access the Label Designer, click on its icon <img src="images/label-designer-icon.png" width="25" class="nomargin"> located within the [Top Toolbar](toolbars.md#top-toolbar) at the top-left of the visual and the system transitions into Power BI Focus Mode.
 
 <video src="./images/label-designer-overview.mp4" autoplay loop muted></video>
 
