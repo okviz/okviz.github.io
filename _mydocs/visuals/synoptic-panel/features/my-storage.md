@@ -61,9 +61,9 @@ When [Importing My Storage Maps](./../features/importing.md#import-my-storage-ma
 
 My Storage window is divided into tree main sections:
 
-<div style="overflow: hidden;">
-    <video src="./images/my-storage-layout.mp4" style="margin-top: -5%; margin-bottom: -6%" autoplay loop muted></video>
-</div>
+
+<video src="./images/my-storage-layout.mp4" autoplay loop muted></video>
+
 
 1.	**Map List** (Left Pane):
 
@@ -96,11 +96,11 @@ Uploading maps means selecting one or more local files from your machine and sav
 How to Upload:
 1.  If My Storage is empty(i.e., no maps have been uploaded yet), click the ***Upload*** button in the center of the screen.
 
-<img src="./images/my-storage-upload-btn-empty.png" width="300" class="naked">
+    <img src="./images/my-storage-upload-btn-empty.png" width="300" class="naked">
 
 2.	If maps are already present, the ***Upload*** button is located at the bottom of the ***Map List*** pane.
 
-<img src="./images/my-storage-upload-btn-list.png" width="600" class="naked">
+    <img src="./images/my-storage-upload-btn-list.png" width="600" class="naked">
 
 3.	Select the local files you want to upload from your machine.
 
