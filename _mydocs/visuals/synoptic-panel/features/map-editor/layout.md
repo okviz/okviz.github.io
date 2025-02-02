@@ -20,10 +20,10 @@ This pane displays a list of maps currently loaded in the visual and connected t
 <img src="./images/map-list-element.png" width="400"  class="naked">
 
 Each element in the list includes:
-- **Drag Icon**(1): allows you to reorder the maps by dragging and dropping them.
-- **Map Location Icon**(2): indicates the location (**Local**, **Remote** or **MyStorage**) of the map file.
-- **Map Title**(3): displays the name of the map.
-- **Map Menu Icon**(4): allows to open the map context menu to perform action for the selected map.
+- **Drag Icon**(1): Allows you to reorder the maps by dragging and dropping them.
+- **Map Location Icon**(2): Indicates the location (**Local**, **Remote** or **MyStorage**) of the map file.
+- **Map Title**(3): Displays the name of the map.
+- **Map Menu Icon**(4): Allows to open the map context menu to perform action for the selected map.
 
 **Additional Features**
 
@@ -45,8 +45,8 @@ The map is displayed in the center of the pane while in the corners you can find
 **Main Detail** - Top-Left
 
 Here are displayed the following key details:
-- ***Map Title***(1): the name of the map currently in preview.
-- ***Map Source***(2): the source of the selected map, which varies depending on the type of map:
+- ***Map Title***(1): The name of the map currently in preview.
+- ***Map Source***(2): The source of the selected map, which varies depending on the type of map:
 	- For local maps, the source displays the file name that originated the map (e.g. my-file.svg).
 	- For remote maps, the source shows the URL where the map is hosted.
 	- For MyStorage maps, the source displays the map’s unique ID in the storage system.
@@ -55,8 +55,8 @@ Here are displayed the following key details:
 **Additional Information** - Bottom-Left
 
 Below the preview, the following information is displayed:
-- ***Last Modified Date***(4): the date and time the map was last updated.
-- ***File Size***(5): the size of the map file (only for **Local** maps).
+- ***Last Modified Date***(4): The date and time the map was last updated.
+- ***File Size***(5): The size of the map file (only for **Local** maps).
 
 **Refresh Icon**(6) - Bottom-Right, if available
 
