@@ -17,7 +17,7 @@ The SVG (Scalable Vector Graphics) format is a widely used format for vector gra
     <path id="layer3" d="M14.62,..." style="fill:#c8c6c4" />
 </svg>
 ```
-<img src="images/sample-svg.svg" width="200" class="naked">
+<img src="images/sample-svg.svg" width="200" class="naked nozoom">
 
 If you are new to SVG, here are some useful resources:
 - [How to create, edit and export SVG files](creating-svg.md)

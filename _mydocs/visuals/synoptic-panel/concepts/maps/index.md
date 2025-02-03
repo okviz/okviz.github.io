@@ -30,7 +30,7 @@ Here are the supported map formats for Synoptic Panel:
 
 Synoptic Panel supports and **can only render maps in SVG format**. SVG is a vector image format that provides a flexible and scalable way to represent images. SVG files can be created using various design tools, such as *Adobe Illustrator*, *Inkscape*, or online graphic editors.
 
-<img src="images/svg-logo.svg" width="200" class="naked">
+<img src="images/svg-logo.svg" width="200" class="naked nozoom">
 
 
 For more technical details on this format and the custom attributes supported by Synoptic Panel, see [SVG Format](svg-format.md).
