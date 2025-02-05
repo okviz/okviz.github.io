@@ -65,7 +65,7 @@ When the [Aggregate on Expand](../options/drill-behavior/aggregate-on-expand.md)
 
 <img src="images/svg-structure-compared.png" class="naked">
 
-In the image above, you can see the same Map design with different SVG structures. The "Sphere-Sector" has a flat structure, while the "Sphere-Sector-Grouped" has a hierarchical structure of "Sector" and "Category". "Sphere-Sector-Grouped" has the correct structure to automatically bind the areas to the data points when the hierarchy is expanded and the ***Aggregate on Expand*** option is disabled.
+In the image above, you can see the same Map design with different SVG structures. The `Sphere-Sector` (left) has a flat structure, while the `Sphere-Sector-Grouped`(right) has a hierarchical structure of "Sector" and "Category". `Sphere-Sector-Grouped` has the correct structure to automatically bind the areas to the data points when the hierarchy is expanded and the ***Aggregate on Expand*** option is disabled.
 
 <video src="images/auto-binding-on-hierarchy.mp4" autoplay loop muted></video>
 

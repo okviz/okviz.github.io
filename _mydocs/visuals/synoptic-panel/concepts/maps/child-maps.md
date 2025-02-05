@@ -13,7 +13,7 @@ order:              /synoptic-panel/concepts/maps/child-maps
 
 **Child Maps** are maps linked to specific areas within a parent map. This feature enables dynamic and hierarchical navigation within the visual, allowing maps to appear based on the area of the parent map being drilled into.
 
-## Linking Child Maps to Parent Areas**
+## Linking Child Maps to Parent Areas
 
 Each area of a parent map can have a [custom attribute](../../concepts/maps/svg-format.md#custom-attributes) that specifies the URL of a linked child map. Child maps can be linked using the following methods:
 
@@ -31,12 +31,12 @@ If a user drills down into an area with a linked child map, that map will be dis
 
 ## Managing Child Maps
 
-1.	Visibility in the Map Editor
+1.	**Visibility in the [Map Editor](../../features/map-editor/index.md)**
 
-    - While child maps are not displayed in the Maps Manager, they are visible when accessing the Map Editor in a Drill Path level where the child map is linked.
+    - While child maps are not displayed in the Maps Manager, they are visible when accessing the Map Editor in a drill path level where the child map is linked.
     - Child maps cannot be deleted individually. To remove a child map, you must delete its parent map or manually remove the attribute linking it to the parent map, either using the Map Editor or by editing the SVG code.
 
-2.	Deleting Parent Maps
+2.	**Deleting Parent Maps**
 
     - When a parent map with linked child maps is deleted, all links to its child maps are also removed.
     - Even though child maps are not directly tied to a specific drill path, they will no longer appear in the visual or the editor once their parent map is deleted.

@@ -86,7 +86,7 @@ To assign a reference to a map, follow these steps:
 
 1. Create the map selector measure as described above.
 
-2. Bind the measure to the **Map Selector** field well.
+2. Bind the measure to the [Map Selector field well](../fields/map-selector.md).
 
     <img src="images/map-selector-field.png" width="200">
 

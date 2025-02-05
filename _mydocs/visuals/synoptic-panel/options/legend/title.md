@@ -24,13 +24,13 @@ The title of the legend.
 
 The font and style of the legend title.
 
-## Color
+## Color
 
 **Default value:** {% include color value="#000" %}
 
 The color of the legend title.
 
-## Show Title Inline
+## Show Title Inline
 
 **Default value:** On
 
