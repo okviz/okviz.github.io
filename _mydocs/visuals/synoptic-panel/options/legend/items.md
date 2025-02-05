@@ -10,13 +10,13 @@ draft:              true
 
 This section contains options for configuring the text of the legend items.
 
-## Font
+## Font
 
 **Default value:** Segoe UI, 8pt
 
 The font and style of the legend items.
 
-## Color
+## Color
 
 **Default value:** {% include color value="#000" %}
 

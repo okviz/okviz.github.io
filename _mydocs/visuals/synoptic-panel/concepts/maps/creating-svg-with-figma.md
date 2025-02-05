@@ -40,7 +40,7 @@ Once the image is imported, you can begin drawing overlaying shapes on top of it
 
 It is crucial that the names of the shapes match the corresponding values in your Power BI dataset. These names will serve as IDs within the SVG file, allowing Synoptic Panel to bind these IDs to the selected Categories field. See more in the [Data Binding](../data-binding) section.
 
-If the shapes require different names, you can manually bind the data points later using the [Map Editor](../../features/map-editor.md).
+If the shapes require different names, you can manually bind the data points later using the [Map Editor](../../features/map-editor/index.md).
 
 
 ### Adjusting an SVG
@@ -70,7 +70,7 @@ You can also group shapes directly from the map editor by assigning the same dat
 
 <img src="images/editor-grouping.png" class="naked">
 
->> Note that Figma does not allow exported SVG files to have repeating ID names, since it follows to XML specifications. Repeating IDs are automatically renamed to ensure the file is valid. This can be a problem when you want to bind multiple areas to the same data point. In this case, you can use a [custom attribute](svg-format.md#custom-attributes) or the [Map Editor](../../features/map-editor.md) to bind multiple areas to the same data point.
+>> Note that Figma does not allow exported SVG files to have repeating ID names, since it follows to XML specifications. Repeating IDs are automatically renamed to ensure the file is valid. This can be a problem when you want to bind multiple areas to the same data point. In this case, you can use a [custom attribute](svg-format.md#custom-attributes) or the [Map Editor](../../features/map-editor/index.md) to bind multiple areas to the same data point.
     
 
 ## Exporting

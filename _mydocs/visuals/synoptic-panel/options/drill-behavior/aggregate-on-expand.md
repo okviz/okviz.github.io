@@ -53,7 +53,7 @@ Consider the following dataset with a hierarchy of ***Category → Sector***:
         <td colspan="2" style="text-align:center;" >......</td>
     </tr>
 </table>
- <img src="./images/categories-field-2-levels.png" style="width:300px; align-self:center;" >
+ <img src="./images/catergories-field-2-levels.png" style="width:300px; align-self:center;" >
 </div>
 
 When the option is ***Enabled***, data points are aggregated, meaning only the values corresponding to the deepest level of the hierarchy navigated are received and displayed. This allows for a simplified representation where only the relevant category at the current level is shown. So if you expand the hierarchy to the ***Sector*** level, only the values for the sectors are displayed.

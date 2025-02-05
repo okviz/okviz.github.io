@@ -36,7 +36,7 @@ Groups are used to group multiple shapes together. They can be used to define **
 
 In Synoptic Panel, **an area is a shape or group of shapes that has been linked to a specific data point**. 
 
-You can "transform" an SVG element into an area by setting the element `id`, set the `data-okviz-strong` attribute (see below), or assign the element to a data point through the [Map Editor](../../features/map-editor.md). Areas can be highlighted, colored, or labeled based on the underlying data, allowing interactivity and drill-down capabilities.
+You can "transform" an SVG element into an area by setting the element `id`, set the `data-okviz-strong` attribute (see below), or assign the element to a data point through the [Map Editor](../../features/map-editor/index.md). Areas can be highlighted, colored, or labeled based on the underlying data, allowing interactivity and drill-down capabilities.
 
 ## Id Attribute
 
@@ -44,7 +44,7 @@ The `id` attribute is used to uniquely identify an element in the SVG file. This
 
 Note that:
   - The `id` must be a valid XML ID, which means it must start with a letter or underscore, followed by letters, digits, hyphens, underscores, colons, and periods. Spaces are also allowed, but not recommended. If the id starts with a digit, it should be escaped with an underscore (`1` should become `_1`).
-  - The value of each `id` must be unique within the map, as defined by the SVG specification. If you have multiple elements with the same identifier, all of these elements will be linked to the same data point (in the case of successfully automatic binding). If this is the desired behavior, it is generally recommended to use unique `id` values for each element and to use the `data-okviz-strong` attribute (see below) or the [Map Editor](../../features/map-editor.md) to bind multiple areas to the same data point.
+  - The value of each `id` must be unique within the map, as defined by the SVG specification. If you have multiple elements with the same identifier, all of these elements will be linked to the same data point (in the case of successfully automatic binding). If this is the desired behavior, it is generally recommended to use unique `id` values for each element and to use the `data-okviz-strong` attribute (see below) or the [Map Editor](../../features/map-editor/index.md) to bind multiple areas to the same data point.
 
 ## Custom Attributes
 

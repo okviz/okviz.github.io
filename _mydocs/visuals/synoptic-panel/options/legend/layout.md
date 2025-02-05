@@ -22,13 +22,13 @@ The position of the legend.
 
 The alignment of the legend. When the position is set to `Top` or `Bottom`, the alignment can be set to `Left`, `Center`, or `Right`. When the position is set to `Left` or `Right`, the alignment can be set to `Top`, `Middle`, or `Bottom`.
 
-## Max Items
+## Max Items
 
 **Default value:** 30
 
 The maximum number of items to show in the legend. Set `0` to display all items.
 
-## Item Size
+## Item Size
 
 **Default value:** Auto
 
@@ -42,7 +42,7 @@ Available options:
 
 When the size is not `Auto`, the default fixed/max size is `40px`; it will be used for the width or height, depending on the orientation of the legend.
 
-## Legend Size
+## Legend Size
 
 **Default value:** Auto
 
@@ -56,7 +56,7 @@ Available options:
 
 When the size is not `Auto`, the default fixed/max size is `200px`; it will be used for the width or height, depending on the orientation of the legend.
 
-## Show Scrollbar
+## Show Scrollbar
 
 **Default value:** Off
 

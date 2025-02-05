@@ -23,7 +23,7 @@ The **Top Toolbar** allows users to manage and configure the visual’s structur
 <img src="./images/top-toolbar.png" class="naked">
 
 - ***Map Dropdown***(1): displays a list of all maps within the current drill path. You can use this dropdown to quickly switch between maps.
-- ***Edit Icon*** (2): opens the [Map Editor](map-editor.md), where you can manage and edit maps.
+- ***Edit Icon*** (2): opens the [Map Editor](./map-editor/index.md) , where you can manage and edit maps.
 - ***Maps Manager Icon*** (3): launches the [Maps Manager](map-manager.md), which provides an overview of all connected maps and drill paths.
 - ***Label Designer Icon*** (4): Opens the [Label Designer](label-designer.md) , where you can configure the appearance and behavior of labels on your maps.
 

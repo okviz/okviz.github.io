@@ -34,7 +34,7 @@ However, it is not recommended to make this editing manually, as it can lead to 
 
 ## Auto Ids
 
-In some cases, the SVG file may not have unique identifiers for each area. In this case, Synoptic Panel will automatically assign unique identifiers to each area. See more on [Auto Id Assignment](./../features/auto-id-assignement.md).
+In some cases, the SVG file may not have unique identifiers for each area. In this case, Synoptic Panel will automatically assign unique identifiers to each area. See more on [Auto Id Assignment](../concepts/auto-id-assignment.md).
 
 ## Linking Areas to Data 
 
@@ -71,7 +71,7 @@ In the image above, you can see the same Map design with different SVG structure
 
 ### Manual Binding
 
-When automatic binding is not possible or not desired, you can manually bind areas to data points. This can be done through Synoptic Panel's [Map Editor](./../features/map-editor.md), which allows you to select each map element and link it to a specific value of the ***Categories*** column. When this is done, the status of the target area is set to **"Strong Matched"**, and it takes precedence over automatic binding.
+When automatic binding is not possible or not desired, you can manually bind areas to data points. This can be done through Synoptic Panel's [Map Editor](../features/map-editor/index.md), which allows you to select each map element and link it to a specific value of the ***Categories*** column. When this is done, the status of the target area is set to **"Strong Matched"**, and it takes precedence over automatic binding.
 
  <video src="images/manual-strong-binding.mp4" autoplay loop muted></video>
 
@@ -130,7 +130,7 @@ Since assigning the same `id` to multiple elements is not allowed by the SVG spe
 </svg>
 ```
 
-Or you can [Edit Map](./../features/edit-map.md#interaction-pane) and manually bind areas with the editing tool.
+Or you can [Edit Map](../features/map-editor/edit-map.md#interaction-pane) and manually bind areas with the editing tool.
  
  <video src="images/same-data-point-binding.mp4" autoplay loop muted></video>
 

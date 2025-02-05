@@ -9,7 +9,7 @@ next_reading:       true
 ---
 
 
-Editing a map in the [Map Editor](./map-editor.md) context does not mean changing the shapes, style or layout of the graphic elements, but rather it means mainly configuring the data and interactions of specific areas of the map in the visual, and some of the information on the map itself.
+Editing a map in the [Map Editor](../map-editor/index.md) context does not mean changing the shapes, style or layout of the graphic elements, but rather it means mainly configuring the data and interactions of specific areas of the map in the visual, and some of the information on the map itself.
 
 <video src="./images/edit-interface.mp4" autoplay loop muted></video>
 
@@ -19,13 +19,16 @@ This section displays the selected SVG interactive map. You can click on specifi
 
 <img src="./images/edit-interactive-map.png" class="naked">
 
-Matched areas are displayed in green when the "Map Colors" is set to “Matching,” which can be toggled using the ***Map Colors Icon***(3) at the bottom of the preview.
+***SVG button***(1) on the top right corner will open a code editor with the SVG raw content of the map, which can be useful for advanced users who want to make manual changes to the SVG code.
 
 You can zoom in and out of the map, pan around the map, and reset the view to the default zoom level by click the ***Reset Zoom Icon***(2) in the zoom toolbar.
 
-In the bottom right corner, you could find the dropdown list(4) to assign a [Map Selector](./filtering-maps.md#map-selector) reference to the current map.
+Matched areas are displayed in green when the "Map Colors" is set to “Matching,” which can be toggled using the ***Map Colors Icon***(3) at the bottom of the preview.
 
-***SVG button***(1) on the top right corner will open a code editor with the SVG raw content of the map, which can be useful for advanced users who want to make manual changes to the SVG code.
+### Assign Map Selector
+
+In the bottom right corner, you could find the dropdown list(4) to assign a [Map Selector](../filtering-maps.md#map-selector) reference to the current map.
+
 	
 ## Selection Tree
 
@@ -33,7 +36,7 @@ To ensure easy identification and selection of each area , the Selection Tree on
 
 > All areas will be identified with an id. Read more on [Auto Id Assignment](./../../concepts/auto-id-assignment.md).
 
-Nodes will be styled according to the [Data Binding](./../concepts/data-binding.md#linking-areas-to-data) status of the corresponding area:
+Nodes will be styled according to the [Data Binding](../../concepts/data-binding.md#areas-status) status of the corresponding area:
 
 <img src="./images/edit-tree.png" class="naked">
 
@@ -48,7 +51,7 @@ You can also filter nodes by their binding status, search nodes by name, hide ma
 
 Once you select an area in the map or a node in the Selection Tree, the Interaction Pane will display its properties.
 
-Area name is preceded by an icon that indicates the [Shape](./../concepts/maps/svg-format.md#shapes) of the selected area. You can hover the icon to see the shape type.
+Area name is preceded by an icon that indicates the [Shape](../../concepts/maps/svg-format.md#shapes) of the selected area. You can hover the icon to see the shape type.
 
 In the top right dropdown, you can choose the type of **Interaction** to apply to the selected element.
 
@@ -61,13 +64,13 @@ This is the default value. Selecting this option means that selected area will k
 - **General**: here you can configure the data binding and the display name of the selected area. It consists of two key elements:
 
     - ***Data Point*** Dropdown
-    This dropdown enables you to link the selected area to a specific data point in your dataset. By default, the option is set to **(Auto Bind)**, which applies the [Automatic Binding](./../concepts/data-binding.md#automatic-binding.md) rules.
+    This dropdown enables you to link the selected area to a specific data point in your dataset. By default, the option is set to **(Auto Bind)**, which applies the [Automatic Binding](../../concepts/data-binding.md#automatic-binding) rules.
 
-        - You can also [manually assign a specific data point](./../concepts/data-binding.md#manual-binding) by selecting a value from the dropdown.
+        - You can also [manually assign a specific data point](../../concepts/data-binding.md#manual-binding) by selecting a value from the dropdown.
         - To remove the binding, select the ”(Do Not Bind)” option, leaving the area unbound.
 
     - ***Title Input*** Field
-    This allows you to customize the name of the area as it appears in category labels when the the relative [Display Value](./../options/category-labels/value-matched.md#display-value) is set to "Title" in the visual settings.
+    This allows you to customize the name of the area as it appears in category labels when the the relative [Display Value](../../options/category-labels/value-matched.md#display-value) is set to "Title" in the visual settings.
         - By default, the field is set to ”(Auto)”, meaning that if the corresponding SVG element contains a `<title>` tag, its content will automatically be used as the label.
 	    - If no `<title>` tag is present, you can manually input a custom value to serve as the label for the area.
 
@@ -81,7 +84,7 @@ If this option is selected, the selected area will be treated as a hyperlink and
 
 - **Switch to Map:** clicking on this area will bring the user to the map selected in the dropdown list.
 
-    > Note that you can only select maps that has been added on the same [Drill Path](./../concepts/drill-paths.md) of the current map.
+    > Note that you can only select maps that has been added on the same [Drill Path](../../features/drill-mode.md#the-drill-path) of the current map.
 
 - **Go to URL**: clicking on this area will open the external URL provided in the text box.
 

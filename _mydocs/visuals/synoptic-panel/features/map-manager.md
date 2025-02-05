@@ -12,13 +12,13 @@ The Maps Manager provides an overview of **all the maps connected to the visual*
 
 <video src="./images/map-manager.mp4" autoplay loop muted></video>
 
-The Maps Manager interface is visually similar to the [Map Editor](./map-editor.md) and is divided into two main sections:
+The Maps Manager interface is visually similar to the [Map Editor](./map-editor/layout.md) and is divided into two main sections:
 
 **Drill Paths Tree** (Left pane)
 
 This pane displays a hierarchical view of all Drill Paths to which maps are connected. Each drill path is represented as a node in the tree, and each node can contain one or more maps.
 
-> [Child Maps](child-maps.md), that are children of specific areas in a parent map, are not displayed in the Maps Manager.
+> [Child Maps](../concepts/maps/child-maps.md), that are children of specific areas in a parent map, are not displayed in the Maps Manager.
 
 - The tree structure is expandable, and each drill path and map is associated with a checkbox.
 - Checkboxes allow users to delete multiple maps.

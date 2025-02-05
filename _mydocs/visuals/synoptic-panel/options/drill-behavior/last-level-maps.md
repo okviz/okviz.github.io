@@ -12,7 +12,7 @@ By default, you can associate a map with each data point at every level of the h
 
 > Note that [Category Level Maps](./category-level-maps.md) option must be disabled to use this feature.
 
->> Be aware that changing the *Last Level Maps* setting after maps have been associated may make some maps no longer reachable, as the Drill Path will be different. In this case, you can always manage the assigned maps through the [Map Manager](../features/map-manager.md).
+>> Be aware that changing the *Last Level Maps* setting after maps have been associated may make some maps no longer reachable, as the Drill Path will be different. In this case, you can always manage the assigned maps through the [Map Manager](../../features/map-manager.md).
 
 ## **Example**
 
@@ -57,7 +57,7 @@ Consider the following dataset with a hierarchy of ***Category → Sector***:
             <td colspan="2" style="text-align:center;" >......</td>
         </tr>
     </table>
- <img src="./images/categories-field-2-levels.png" style="width:300px; align-self:center;" >
+ <img src="./images/catergories-field-2-levels.png" style="width:300px; align-self:center;" >
 </div>
 
 You are currently at the ***Category-Sector*** level, which means that you cannot drill down further since you are on the last level, with no filter applied. The visual displays the map associated with the current drill path. 

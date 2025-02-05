@@ -59,7 +59,7 @@ If the automatic binding is not working as expected, you can adjust it manually.
 
 Through the Map Editor, you can change the automatic binding settings of every shape of the map, choosing to force the binding to a specific value or to disable it. Also, you can add additional data to the map, such as area titles and map metadata.
 
-See more in the [Map Editor](../features/map-editor.md) section.
+See more in the [Map Editor](../features/map-editor/index.md) section.
 
 ## Add Values
 

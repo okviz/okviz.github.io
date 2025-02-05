@@ -19,6 +19,6 @@ You can find out what it means here: [Synoptic Panel Certification](../security/
 
 ### Exporting Maps to SVG or JSON
 
-You can export maps from Synoptic Panel to SVG or JSON files via the [Map Editor](../map-editor/index.md), by clicking the **Export** button in the [Header](../map-editor/index.md#header) section. 
+You can export maps from Synoptic Panel to SVG or JSON files via the [Map Editor](../features/map-editor/index.md), by clicking the **Export** button in the [Header](../features/map-editor/edit-map.md#header) section. 
 
 <video src="images/export-map.mp4" width="600" autoplay loop muted></video>

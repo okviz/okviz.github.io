@@ -25,7 +25,7 @@ However, if **no maps are connected to the current drill path**, the button is p
 
 <img src="images/add-map-no-current-drill-path-maps.png" width="400" class="naked">
 
-- **The current drill path already has a map connected**. You need to click on ***Edit icon*** <img src="images/pencil-icon.png" width="25" class="nomargin"> in the visual [Toolbar](./toolbar.md), which will open the [Map Editor](./map-editor/index.md) In the [Map Editor](./map-editor/index.md), you can click the ***+ Add*** button and choose the type of map you want to import. 
+- **The current drill path already has a map connected**. You need to click on ***Edit icon*** <img src="images/pencil-icon.png" width="25" class="nomargin"> in the visual [Toolbar](../features/toolbars.md#top-toolbar), which will open the [Map Editor](./map-editor/index.md) In the [Map Editor](./map-editor/index.md), you can click the ***+ Add*** button and choose the type of map you want to import. 
 
 <img src="images/add-map-map-editor-icon.png" width="400" class="naked">
 
@@ -39,7 +39,7 @@ To import local map(s) into Synoptic Panel, follow these steps:
 
     <img src="images/import-local.png" width="250">
 
-    If you have already loaded a map, you can click the ***+ Add*** button in the [Map Editor](./map-editor/index.md) dialog or drag and drop the files directly into the [Map List](../features/map-editor.md#map-list).
+    If you have already loaded a map, you can click the ***+ Add*** button in the [Map Editor](./map-editor/index.md) dialog or drag and drop the files directly into the [Map List](../features/map-editor/layout.md#map-list).
 
     <img src="images/map-editor-add-local-map-btn.png">
 

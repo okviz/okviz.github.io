@@ -15,17 +15,17 @@ order:              /synoptic-panel/concepts/maps/child-maps
 
 ## Linking Child Maps to Parent Areas**
 
-Each area of a parent map can have a custom attribute that specifies the URL of a linked child map. Child maps can be linked using the following methods:
+Each area of a parent map can have a [custom attribute](../../concepts/maps/svg-format.md#custom-attributes) that specifies the URL of a linked child map. Child maps can be linked using the following methods:
 
-- Manually: by setting the [custom attribute](./../concepts/maps/svg-format.md#custom-attributes) `data-okviz-drill-url` directly in the SVG map file.
-- Using the Map Editor: by selecting in the [Area](./edit-map.md#area) section the **Drill To** tab, providing an URL for the child map.
-- Using AutoFetch: automatically fetches and links child maps based on specific settings. (Refer to the [AutoFetch](./drill-mode.md#auto-fetch-mode) for more details.)
+- Manually: by setting the custom attribute `data-okviz-drill-url` directly in the SVG map file.
+- Using the Map Editor: by selecting in the [Area](../../features/map-editor/edit-map.md#area) section the **Drill To** tab, providing an URL for the child map.
+- Using AutoFetch: automatically fetches and links child maps based on specific settings. (Refer to the [AutoFetch](../../features/drill-mode.md#auto-fetch-mode) for more details.)
 
 ## Relationship Between Drill Paths and Child Maps
 
 Child maps allow for flexible and dynamic hierarchies. The displayed map depends on user interaction with the parent map, enabling responsive navigation.
 
-Child maps are also associated with a [Drill Path](./drill-mode.md#the-drill-path) to organize and manage them. However, their visibility is controlled by their link to a parent map area rather than by their drill path association.
+Child maps are also associated with a [Drill Path](../../features/drill-mode.md#the-drill-path) to organize and manage them. However, their visibility is controlled by their link to a parent map area rather than by their drill path association.
 
 If a user drills down into an area with a linked child map, that map will be displayed, regardless of the last drill path level.
 

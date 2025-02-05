@@ -17,4 +17,4 @@ Assuming you are setting up a custom JSON theme file ([as described here](https:
 | [Data Colors - Matched color](../options/areas/color-matched.md)      | dataColors (first color) |
 | [Data Colors - Unmatched color](../options/areas/color-unmatched.md)  | dataColors (second color) |
 | [Data Colors - Unbound color](../options/areas/color-unbound.md)      | dataColors (third color) |
-| [Legend Color](../options/legend/text.md#color)                       | foreground |
+| [Legend Color](../options/legend/items.md#color)                      | foreground |

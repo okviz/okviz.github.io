@@ -13,7 +13,7 @@ The Map Editor interface is designed for intuitive navigation and interaction, w
 <video src="./images/map-editor-interface.mp4" autoplay loop muted></video>
 ## Map List
 
-This pane displays a list of maps currently loaded in the visual and connected to the current [Drill Path](./../concepts/drill-paths.md) shown at the top of the panel (e.g., ***Category > Sector*** in the provided example). To see and manage all maps connected to the visual in other Drill Paths you can use the [Map Manager](./map-manager.md).
+This pane displays a list of maps currently loaded in the visual and connected to the current [Drill Path](../../features/drill-mode.md#the-drill-path) shown at the top of the panel (e.g., ***Category > Sector*** in the provided example). To see and manage all maps connected to the visual in other Drill Paths you can use the [Map Manager](../map-manager.md).
 
 **Map**
 

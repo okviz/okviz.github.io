@@ -28,7 +28,7 @@ Synoptic Panel accepts a DAX measure in the **Map Selector** field well.
 
 This measure should return a string consisting in the concatenation of reference values that will be associated to the maps you want to display. Internally, this string is split into individual references, using a [separator character](../options/advanced-options/map-selector.md#separator) as defined in the visual settings.
 
-For each map imported into Synoptic Panel, you can assign one of the references from the map selector using the [Map Editor](map-editor.md), or directly in the JSON file when [importing multiple remote maps](importing.md). 
+For each map imported into Synoptic Panel, you can assign one of the references from the map selector using the [Map Editor](../features/map-editor/edit-map.md#map), or directly in the JSON file when [importing multiple remote maps](importing.md). 
 
 When the map selector measure returns a reference that matches one of the references assigned to the maps, the visual will display the corresponding map. If the measure returns a reference that doesn't match any of the maps, the visual will display a warning message.
 

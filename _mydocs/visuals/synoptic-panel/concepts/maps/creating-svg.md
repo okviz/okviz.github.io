@@ -23,7 +23,7 @@ When creating an SVG file for use in Synoptic Panel, it is important to follow s
         <figcaption>Adobe Illustrator layers panel</figcaption>
     </figure>
     
-    > If you are using the same name because you want to link multiple areas to the same data point, you can use the `data-okviz-strong` attribute or the [Map Editor](../../features/map-editor.md). Otherwise, you can group the elements and assign the desired name to the group.
+    > If you are using the same name because you want to link multiple areas to the same data point, you can use the `data-okviz-strong` attribute or the [Map Editor](../../features/map-editor/index.md). Otherwise, you can group the elements and assign the desired name to the group.
 
 - **Keep layer names**: When you save the SVG file, make sure that the layer names are kept. This recommendation is relevant when you export optimized SVG files from tools like *Adobe Illustrator*, which may remove the layer names or rename them to reduce the file size.
 
