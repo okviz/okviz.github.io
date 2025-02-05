@@ -23,5 +23,5 @@ This can be done in two ways:
 
     >> This feature is available only when the Power BI conditional formatting cannot be used because when the visual is forced to perform some data aggregation on the client, like when the [Map URLs](filtering-maps.md#map-urls) or a [Legend Field](../fields/legend.md] is set.
     
-    Learn more: [OKVIZ Color Rules](../../features/color-rules.md)
+    Learn more: [OKVIZ Color Rules](../../../visuals/features/color-rules.md)
 
