@@ -3,71 +3,57 @@ layout:             page
 title:              Aggregate on Expand
 published:          true
 date:               2024-09-14
-modified:           2025-02-02
+modified:           2025-02-05
 order:              /synoptic-panel/options/drill-behavior/aggregate-on-expand
 ---
 **Default value:** On
 
 The ***Aggregate on Expand*** option controls how hierarchical data is aggregated when you ***Expand all down one level in the hierarchy***.
 
-> Read more on how different data aggregation impacts [Automatic Binding](./../../concepts/data-binding.md#automatic-binding-when-hierarchy-is-expanded).
+> Read more on how different data aggregation impacts [Automatic Binding](./../../concepts/data-binding.md#automatic-binding-when-hierarchy-is-expanded) when ***Expand all down one level in the hierarchy***
 
-Consider the following dataset with a hierarchical structure:
+Consider the following dataset with a hierarchy of ***Category → Sector***:
 
 <div style="display:flex;">
-    <table>
+    <table width="50%">
     <tr><th colspan="3">Hierarchy</th></tr>
     <tr>
         <th>Category</th>
         <th>Sector</th>
-        <th>Value</th>
-    </tr>
-    <tr>
-        <td>Best</td>
-        <td>306</td>
-        <td>...</td>
     </tr>
     <tr>
         <td>Economy</td>
         <td>202</td>
-        <td>...</td>
     </tr>
     <tr>
         <td>Economy</td>
         <td>203</td>
-        <td>...</td>
-    </tr>
-    <tr>
-        <td colspan="3" style="text-align:center;" >......</td>
     </tr>
     <tr>
         <td>Premium</td>
         <td>305</td>
-        <td>...</td>
     </tr>
     <tr>
         <td>Premium</td>
         <td>307</td>
-        <td>...</td>
-    </tr>
-    <tr>
-        <td colspan="3" style="text-align:center;" >......</td>
     </tr>
     <tr>
         <td>Regular</td>
         <td>204</td>
-        <td>...</td>
     </tr>
     <tr>
         <td>Regular</td>
         <td>205</td>
-        <td>...</td>
+    </tr>
+        <tr>
+        <td>Best</td>
+        <td>306</td>
     </tr>
     <tr>
-        <td colspan="3" style="text-align:center;" >......</td>
+        <td colspan="2" style="text-align:center;" >......</td>
     </tr>
 </table>
- <img src="./images/catergories-field.png" style="width:300px; align-self:center;" >
+ <img src="./images/categories-field-2-levels.png" style="width:300px; align-self:center;" >
 </div>
 
 When the option is ***Enabled***, data points are aggregated, meaning only the values corresponding to the deepest level of the hierarchy navigated are received and displayed. This allows for a simplified representation where only the relevant category at the current level is shown. So if you expand the hierarchy to the ***Sector*** level, only the values for the sectors are displayed.

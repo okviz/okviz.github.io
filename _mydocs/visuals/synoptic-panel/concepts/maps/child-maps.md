@@ -1,9 +1,9 @@
 ---
 layout:             page
 title:              Child Maps
-published:          false
+published:          true
 date:               2025-01-21
-modified:           2025-01-29
+modified:           2025-02-05
 order:              /synoptic-panel/concepts/maps/child-maps
 ---
 

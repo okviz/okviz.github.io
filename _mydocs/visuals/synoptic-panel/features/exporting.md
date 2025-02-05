@@ -3,7 +3,7 @@ layout:             page
 title:              Exporting Data
 published:          true
 date:               2024-05-10
-modified:           2025-01-22
+modified:           2025-02-05
 order:              /synoptic-panel/features/exporting
 ---
 
@@ -21,6 +21,4 @@ You can find out what it means here: [Synoptic Panel Certification](../security/
 
 You can export maps from Synoptic Panel to SVG or JSON files via the [Map Editor](../map-editor/index.md), by clicking the **Export** button in the [Header](../map-editor/index.md#header) section. 
 
-<todo visible>
-    Add screencast of the Export button in the Map Editor.
-</todo>
+<video src="images/export-map.mp4" width="600" autoplay loop muted></video>

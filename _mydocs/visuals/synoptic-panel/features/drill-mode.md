@@ -3,7 +3,7 @@ layout:             page
 title:              Drill Mode
 published:          true
 date:               2024-05-10
-modified:           2024-06-19
+modified:           2025-02-05
 order:              /synoptic-panel/features/drill-mode
 next_reading:       true
 ---
@@ -63,46 +63,14 @@ The current Drill Path is visible in the visual header (if not disabled), and kn
 
 Here is how the Drill Path is built:
 - **For each level of the hierarchy, except the last one:**
-    - If there are **multiple values** in the dataset at that level or the **Category Level Maps** option (see below) is enabled, the name of the column, as defined in the dataset, is taken.
+    - If there are **multiple values** in the dataset at that level or the [Category Level Maps](../options/drill-behavior/category-level-maps.md) option is enabled, the name of the column, as defined in the dataset, is taken.
     - If there is **only one value**, the value of the data point is taken. For example, if you drill down on a single data point, the path will take its value.
 
 - **For the last level of the hierarchy:**
-    - If the **Last Level Maps** option (see below) is enabled, the behavior is the same as above.
+    - If the [Last Level Maps](../options/drill-behavior/last-level-maps.md) option is enabled, the behavior is the same as above.
     - Otherwise, the name of the column, as defined in the dataset, is taken.
 
 > Note that renaming the columns in the visual data bucket won't affect the path.
-
-### "Last Level Maps" Option
-
-Synoptic Panel offers an advanced option called [Last Level Maps](../options/drill-behavior/last-level-maps.md).
-
-You can associate a map with each value in every category within the hierarchy, except for the values at the last level, unless you select this option. If you select this option, you can also associate a map with the values at the last level. This allows you to view a map for specific values by applying a single filter to them.
-
-<todo>When enabled, if the dataset at the last level of the hierarchy contains only one value, the last element of the Drill Path will be that value. Since maps are assigned on a single Drill Path, you can use this option to associate specific maps to individual values and switch between them by applying single-value filters to the visual. When the option is disabled, the last level of the path is always the name of the column, regardless of the filters applied.</todo>
-
-<todo>Screencast to explain the concept</todo>
-
-> In the scenario where there is only a single category in the dataset (a single level in the hierarchy), you can use this option to associate a map to each value of the category, and switch between them by applying a single filter on the category.
-
->> Be aware that changing the *Last Level Maps* setting after maps have been associated may make some maps no longer reachable, as the Drill Path will be different. In this case, you can always manage the assigned maps through the [Map Manager](../features/map-manager.md).
-
-### "Category Level Maps" Option
-
-Synoptic Panel offers an advanced option called [Category Level Maps](../options/drill-behavior/category-level-maps.md).
-
-When this option is active, you can't link maps to individual category values; instead, you can only have one map per category in the hierarchy. This is beneficial if you prefer to highlight selected data points within the category's map, rather than having a separate map for each data point, which is the default behavior when drilling down or applying a single filter to any level other than the first.
-
-<todo>Screencast to explain the concept</todo>
-
-
-### "Aggregate on Expand" Option
-
-Synoptic Panel offers an advanced option called [Aggregate on Expand](../options/drill-behavior/aggregate-on-expand.md).
-
-When this option is active (the default behavior), and you click on *Expand all down one level in the hierarchy*, the data points are aggregated. This significantly impacts data binding and could make Power BI conditional formatting not working. 
-
-If the option is disabled, the visual will display the data points as they are in the dataset, without aggregation. But this requires a hierarchical structure of the areas in the map to make the auto binding works. For more information, see [Data Binding](../concepts/data-binding.md#automatic-binding-when-hierarchy-is-expanded).
-
 
 ### Examples
 
@@ -126,13 +94,35 @@ The Drill Path will be different depending on the actions you perform:
 | &nbsp; &nbsp; or expand the fields;               |`Economy > Sector > Seat`                  |
 | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; then apply a single filter on **210**;|`Economy > 210 > Seat`|
 | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; then apply a filter on **SPH00847**,|`Economy > 210 > Seat`|
-| &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; or apply the same filter with **Last Level Maps**.|`Economy > 210 > SPH00847`|
 |Expand fields for a single level;                  |`Category > Sector`                        |
 | &nbsp; &nbsp; then drill down on the **404** sector.|`Regular > 404 > Seat`                   |
 |Expand all fields from the top.                    |`Category > Sector > Seat`                 |
 
+## Advanced Options
+
+Synoptic Panel offers some advanced options to control the behavior of the Drill Mode. These options are available in the visual settings under the [Drill Behavior](./../options/drill-behavior/index.md).
+
 ## Auto-Fetch Mode
 
-<todo visible>The Auto-Fetch mode is a feature that allows you to automatically fetch maps for each level of the hierarchy. This feature is particularly useful when you have a large number of maps to import and you want to avoid the manual process of importing them one by one. 
+The Auto-Fetch mode is an advanced feature that enables Synoptic Panel to automatically retrieve [Child Maps](./../concepts/maps/child-maps.md) based on ***Matched*** areas in a remote map. This functionality streamlines the process of handling hierarchical maps by dynamically loading child maps without manual import.
 
-When this mode is enabled, Synoptic Panel will automatically fetch the maps for each level of the hierarchy based on the data in the dataset. The visual will display the maps as you navigate through the data hierarchy, without the need to import them manually.</todo>   
+When a remote map is loaded, Synoptic Panel checks each matched area (i.e., areas that successfully bind to a data point) and attempts to fetch a corresponding child map. The expected file name for each child map is the same as the matched area’s data point id, and it is assumed to be located at the same base URL as the parent map.
+
+For example, if a remote map is loaded from: 
+
+`https://example.com/maps/main.svg` 
+
+and a matched area has a data point id of `sector1`, Synoptic Panel will attempt to fetch the child map from: 
+
+`https://example.com/maps/sector1.svg`.
+
+If the file exists and is a valid SVG map, it will be automatically used as the child map for that area. If no such file is found, no additional map will be loaded.
+
+> 
+
+**Key Benefits**
+- ***Automated Map Hierarchy Handling***: No need to manually import each level of the hierarchy.
+- ***Efficient Navigation***: Seamless transitions between different levels of the dataset.
+- ***Dynamic Map Loading***: Only necessary maps are fetched, optimizing performance.
+
+This feature is particularly useful when working with large datasets where multiple maps need to be managed dynamically.

@@ -3,13 +3,11 @@ layout:             page
 title:              Best Practices
 published:          true
 date:               2024-10-02
-modified:           2025-01-29
+modified:           2025-02-05
 order:              /synoptic-panel/concepts/best-practices
 next_reading:       true
 draft:              true
 ---
-
-<todo> Add screenshot </todo>
 
 By adhering to these best practices, you will improve both the functionality and performance of your maps within Synoptic Panel, leading to a better user experience and easier data management.
 

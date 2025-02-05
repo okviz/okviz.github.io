@@ -3,7 +3,7 @@ layout:             page
 title:              Filtering Maps
 published:          true
 date:               2024-05-10
-modified:           2024-05-30
+modified:           2025-02-05
 order:              /synoptic-panel/features/filtering-maps
 next_reading:       true
 ---
@@ -107,7 +107,7 @@ After assigning the references, the visual will display the corresponding map wh
 
 Another way to change maps based on a filter is to using the **Map URLs** field well. This role allows you to bind a column containing map URLs to the visual. When the column is bound, the visual will display the map associated with the URL in the column according to the current filter.
 
-<todo>Screencast of map URLs</todo>
+<video src="images/map-url-filtering.mp4" autoplay loop muted ></video>
 
 >> **IMPORTANT**: The URLs must be publicly accessible, as the visual will load the maps directly from the web using the client browser. See the [Importing Maps](importing.md) section for more information.
 
