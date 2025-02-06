@@ -124,7 +124,7 @@ To connect a map to the current [Drill Path](./drill-mode.md#the-drill-path) wit
 
 Maps that are already connected to the current Drill Path will appear grayed out and cannot be selected again.
 
-<video src="./images/my-storage-connect-maps.mp4" autoplay loop muted></video>
+<video src="./images/my-storage-connect-maps.mp4" style="clip-path:inset(0 0 2px 0)" autoplay loop muted></video>
 
 ### Map Protection
 

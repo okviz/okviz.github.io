@@ -132,13 +132,13 @@ Since assigning the same `id` to multiple elements is not allowed by the SVG spe
 
 Or you can [Edit Map](../features/map-editor/edit-map.md#interaction-pane) and manually bind areas with the editing tool.
  
- <video src="images/same-data-point-binding.mp4" autoplay loop muted></video>
+ <video src="images/same-data-point-binding.mp4" style="clip-path:inset(0 2px 0 0)" autoplay loop muted></video>
 
 #### Unbinding Areas
 
 If you wish to exclude an area from the data binding process, you can do so directly from the Map Editor or you can add a `data-okviz-unbound` attribute to the SVG element. This will prevent the area from being considered for automatic binding and will be assigned to the status **"Unbound"**.
 
- <video src="images/manual-unbound.mp4" autoplay loop muted></video>
+ <video src="images/manual-unbound.mp4" style="clip-path:inset(0 0 0 2px)" autoplay loop muted></video>
 
  ```svg
 <svg>
