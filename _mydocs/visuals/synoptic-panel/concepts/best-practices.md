@@ -41,7 +41,7 @@ To ensure your [SVG](./../concepts/maps/svg-format.md) maps work seamlessly with
     - Always assign valid [`id`](./../concepts/maps/svg-format.md#id-attribute) to each area in your SVG map before importing it. This is crucial for proper data binding and interaction in Synoptic Panel.
 
     - Avoid Duplicate Ids: ensure that each `id` is unique within the SVG file to prevent conflicts and unexpected behavior. If you have multiple elements that should be linked to the same data point, see 
-    how to [bind multiple areas to the same data point](./../concepts/data-binding.md#linking-multiple-areas-to-the-same-data-point]
+    how to [bind multiple areas to the same data point](./../concepts/data-binding.md#linking-multiple-areas-to-the-same-data-point)
 
 	- Maintain Consistent Ids: when updating or replacing an SVG map, ensure that the `id` attributes of existing areas remain consistent to preserve the data binding. Note that the [Auto Id Assignment](../concepts/auto-id-assignment.md) process could affect both the uniqueness and consistency of IDs, potentially resulting in unexpected behavior if the map is replaced or modified.
 
