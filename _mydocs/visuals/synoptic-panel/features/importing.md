@@ -157,11 +157,11 @@ In Synoptic Panel, the ***Replace*** feature allows you to update an SVG map fil
 
 **ID Management and Data Binding**
 
-Synoptic Panel relies on its [Auto Id Assignment](../concepts/auto-id-assignment.md) system to ensure unique IDs to areas of the map that lack predefined '<id>' attributes. If you replace the map with an updated SVG, issues may arise only when the following conditions occur:
+Synoptic Panel relies on its [Auto Id Assignment](../concepts/auto-id-assignment.md) system to ensure unique IDs to areas of the map that lack predefined `<id>` attributes. If you replace the map with an updated SVG, issues may arise only when the following conditions occur:
 
-1.	**Original SVG without predefined Ids**: If the previous map had areas without predefined '<id>' attributes, Synoptic Panel generated IDs automatically for those areas.
+1.	**Original SVG without predefined Ids**: If the previous map had areas without predefined `<id>` attributes, Synoptic Panel generated IDs automatically for those areas.
 
-2.	**New SVG without redefined Ids**: If the updated SVG also has areas without predefined '<id>' attributes, the Auto Id Assignment process may assign new IDs in a different order, especially if areas are added, removed, or reordered in the new file.
+2.	**New SVG without redefined Ids**: If the updated SVG also has areas without predefined `<id>`  attributes, the Auto Id Assignment process may assign new IDs in a different order, especially if areas are added, removed, or reordered in the new file.
 
 This could result in a mismatch between the existing data binding and the updated map because the assigned Ids in the new SVG may no longer align with the original ones.
 
@@ -169,7 +169,7 @@ This could result in a mismatch between the existing data binding and the update
 
 To ensure smooth replacements and maintain data bindings:
 
-1.	**Assign Ids in the SVG**: whenever possible, define '<id>' attributes for all areas in the SVG before uploading it to Synoptic Panel. This prevents the Auto Id Assignment process from running and ensures that Ids remain consistent across updates.
+1.	**Assign Ids in the SVG**: Whenever possible, define `<id>` attributes for all areas in the SVG before uploading it to Synoptic Panel. This prevents the Auto Id Assignment process from running and ensures that Ids remain consistent across updates.
 2.	**Avoid Auto Id Dependency**: If your original map relied on Auto Ids, be cautious when updating the SVG. Removing or reordering shapes can disrupt the Id sequence and cause bindings to break.
 3.	**Incremental Changes**: When modifying an SVG, avoid introducing or removing shapes that could shift the order of automatically generated Ids. Instead, preserve the structure and sequence of the original map.
 

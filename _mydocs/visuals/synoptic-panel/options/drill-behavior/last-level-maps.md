@@ -79,13 +79,13 @@ Then, you apply a filter using external slicer, selecting only one data point:
 
 You will have the following result:
 
-1. ***Last Level Map Disabled*** (Default): 
+1. ***Last Level Maps Disabled*** (Default): 
 
     The visual displays the map associated with the current drill path, ***Economy-Sector***. Maps are filtered by ***Economy*** category, on the ***Sector*** level.
 
     <img src="./images/last-level-maps-disabled-single-filter.png" class="naked" >
 
-2. ***Last Level Map Enabled***:
+2. ***Last Level Maps Enabled***:
 
     The visual displays the map associated with the current drill path, ***Economy-310***. Maps are filtered by ***Economy*** category, on the the single sector selected ***310***.
 

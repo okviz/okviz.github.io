@@ -22,7 +22,7 @@ To ensure your [SVG](./../concepts/maps/svg-format.md) maps work seamlessly with
 
 2. **Reduce Complexity and Size**
 
-	- Element Count: large and complex SVGs, especially those containing thousands of elements, can negatively affect rendering speed and performance in Synoptic Panel.
+	- Element Count: Large and complex SVGs, especially those containing thousands of elements, can negatively affect rendering speed and performance in Synoptic Panel.
 
 	- Simplify Shapes: To reduce complexity, simplify paths and remove unnecessary elements like extra nodes or detailed gradients.
 
@@ -30,20 +30,20 @@ To ensure your [SVG](./../concepts/maps/svg-format.md) maps work seamlessly with
 
 3. **Simplify Grouping and Avoid Overlapping Areas**
 
-	- Minimize Nested Levels: if your SVG contains elements nested across multiple levels, aim to reduce the number of levels as much as possible. Simplifying the structure helps improve performance and reduces potential issues with data binding and interaction.
+	- Minimize Nested Levels: If your SVG contains elements nested across multiple levels, aim to reduce the number of levels as much as possible. Simplifying the structure helps improve performance and reduces potential issues with data binding and interaction.
 
-	- Avoid Overlapping Areas: overlapping elements should be avoided, since may hinder user interaction, making it difficult to select and work with specific areas.
+	- Avoid Overlapping Areas: Overlapping elements should be avoided, since may hinder user interaction, making it difficult to select and work with specific areas.
 
-    - Group Data Binding Considerations: when a group of elements is bound to a data point all child elements of that group will inherit the same data binding value. For further details on how group bindings work, refer to the Data Binding Section.
+    - Group Data Binding Considerations: When a group of elements is bound to a data point all child elements of that group will inherit the same data binding value. For further details on how group bindings work, refer to the Data Binding Section.
 
 4. **Ids Assignment**
 
     - Always assign valid [`id`](./../concepts/maps/svg-format.md#id-attribute) to each area in your SVG map before importing it. This is crucial for proper data binding and interaction in Synoptic Panel.
 
-    - Avoid Duplicate Ids: ensure that each `id` is unique within the SVG file to prevent conflicts and unexpected behavior. If you have multiple elements that should be linked to the same data point, see 
+    - Avoid Duplicate Ids: Ensure that each `id` is unique within the SVG file to prevent conflicts and unexpected behavior. If you have multiple elements that should be linked to the same data point, see 
     how to [bind multiple areas to the same data point](./../concepts/data-binding.md#linking-multiple-areas-to-the-same-data-point)
 
-	- Maintain Consistent Ids: when updating or replacing an SVG map, ensure that the `id` attributes of existing areas remain consistent to preserve the data binding. Note that the [Auto Id Assignment](../concepts/auto-id-assignment.md) process could affect both the uniqueness and consistency of IDs, potentially resulting in unexpected behavior if the map is replaced or modified.
+	- Maintain Consistent Ids: When updating or replacing an SVG map, ensure that the `id` attributes of existing areas remain consistent to preserve the data binding. Note that the [Auto Id Assignment](../concepts/auto-id-assignment.md) process could affect both the uniqueness and consistency of IDs, potentially resulting in unexpected behavior if the map is replaced or modified.
 
 ## Performance & Limits
 

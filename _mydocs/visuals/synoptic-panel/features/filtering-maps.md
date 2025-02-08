@@ -105,7 +105,7 @@ After assigning the references, the visual will display the corresponding map wh
 
 ## Map URLs
 
-Another way to change maps based on a filter is to using the **Map URLs** field well. This role allows you to bind a column containing map URLs to the visual. When the column is bound, the visual will display the map associated with the URL in the column according to the current filter.
+Another way to change maps based on a filter is using the **Map URLs** field well. This role allows you to bind a column containing map URLs to the visual. When the column is bound, the visual will display the map associated with the URL in the column according to the current filter.
 
 <video src="images/map-url-filtering.mp4" autoplay loop muted ></video>
 
@@ -119,7 +119,7 @@ Unfortunately, since the Map URLs feature causes a data aggregation on the clien
 
 ## Single Data Point Maps
 
-Synoptic Design allows you to assign a map to each data point in the dataset. Since this behavior is strictly connected to the [Drill Mode](drill-mode.md), the options to control it are placed in the **Drill Behavior** section of the visual.
+Synoptic Panel allows you to assign a map to each data point in the dataset. Since this behavior is strictly connected to the [Drill Mode](drill-mode.md), the options to control it are placed in the **Drill Behavior** section of the visual.
 
 There are two options that you need to consider:
 
@@ -127,4 +127,4 @@ There are two options that you need to consider:
 
 - [Last Level Maps](drill-mode.md#last-level-maps-option): this option must be *enabled*, otherwise you won't be able to assign a map to the last level of the hierarchy, or the first one if the hierarchy has only one level (the initial state).
 
-When these options are set correctly, you can assign a map to each data point in the dataset, but **note that is only visible there is a single data point in the visual**. If there are multiple data points, the visual will follow the default behavior and display the map assigned to the category.
+When these options are set correctly, you can assign a map to each data point in the dataset, but **note that is only visible if there is a single data point in the visual**. If there are multiple data points, the visual will follow the default behavior and display the map assigned to the category.

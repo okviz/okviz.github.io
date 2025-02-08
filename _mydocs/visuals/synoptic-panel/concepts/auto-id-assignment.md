@@ -19,7 +19,7 @@ In Synoptic Panel, each area within an [SVG](./../concepts/maps/svg-format.md) m
 
 2.	Missing `id`
 
-    For SVG elements without an `id` attribute, Synoptic Panel automatically assigns one and the `data-okviz-auto-id` attribute is also added to the element. The assigned `ìd` follows a specific convention based on the shape of the element, such as `rect`, `path`, `circle`, etc., combined with a sequential number (e.g., `rect1`, `circle2`). This ensures every area is uniquely identifiable within the map. Elements without and `id` will be considered as decorations and will not be interactive in the visual, unless [manually bound to a data point](./../concepts/data-binding.md#manual-binding).
+    For SVG elements without an `id` attribute, Synoptic Panel automatically assigns one and the `data-okviz-auto-id` attribute is also added to the element. The assigned `id` follows a specific convention based on the shape of the element, such as `rect`, `path`, `circle`, etc., combined with a sequential number (e.g., `rect1`, `circle2`). This ensures every area is uniquely identifiable within the map. Elements without and `id` will be considered as decorations and will not be interactive in the visual, unless [manually bound to a data point](./../concepts/data-binding.md#manual-binding).
 
 
 Below is an example of an SVG source code and the auto-assignment process applied to it:

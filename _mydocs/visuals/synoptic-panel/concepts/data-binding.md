@@ -121,7 +121,7 @@ Since assigning the same `id` to multiple elements is not allowed by the SVG spe
                 <path d="M5871.33,5741 ..."/>
 
                 <!-- This path is also manually bound to "Regular" -->
-                <path d="M5150.71,1459 ..." ata-okviz-strong="Regular"/>
+                <path d="M5150.71,1459 ..." data-okviz-strong="Regular"/>
 
             </g>
 
@@ -202,6 +202,6 @@ When a group is "Unbound", all child areas are considered as such, regardless of
 <figure>
     <img src="images/data-binding-all-unbound.png" class="naked">
     <figcaption>
-        In this example, the `g` with the id "Economy" has the `data-okviz-unbound` attribute. This means that this group is not matched, even if the id matches the data point value. All child `path` are considered "Unbound", regardless of their individual status.
+        In this example, the `g` with the id "Economy" has the `data-okviz-unbound` attribute. This means that this group is not matched, even if the id matches a data point value. All child `path` are considered "Unbound", regardless of their individual status.
     </figcaption>
 </figure>

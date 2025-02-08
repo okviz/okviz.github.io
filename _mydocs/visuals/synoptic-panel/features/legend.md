@@ -22,7 +22,7 @@ Once enabled, the legend will appear within the visual, and you can begin custom
 
 ## Customizing Legend
 
-In Synoptic Panel, each elements of the legend can be customized extensively to match your data visualization needs through a **Legend Editor**. You can open it in two ways:
+In Synoptic Panel, each element of the legend can be customized extensively to match your data visualization needs through a **Legend Editor**. You can open it in two ways:
 
 1. **Using the Edit Icon**: within the visual, you can click on the ***Edit icon*** <img src="images/pencil-icon.png" width="25" class="nomargin"> directly on the legend.
 2. **Using the Customize Toggle**: In the [Legend](./../options/legend/index.md) section of the visual options, you can toggle the ***Customize*** switch to open the Legend Editor.

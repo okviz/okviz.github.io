@@ -21,7 +21,7 @@ This can be done in two ways:
 
     <video src="./images/color-rules.mp4" width="600" autoplay loop muted></video>
 
-    >> This feature is available only when the Power BI conditional formatting cannot be used because when the visual is forced to perform some data aggregation on the client, like when the [Map URLs](filtering-maps.md#map-urls) or a [Legend Field](../fields/legend.md) is set.
+    >> This feature is available only when Power BI conditional formatting cannot be used—for example, when the visual must perform client-side data aggregation, such as when either [Map URLs](filtering-maps.md#map-urls) or [Legend Field](../fields/legend.md) wells are used.
     
     Learn more: [OKVIZ Color Rules](../../../visuals/features/color-rules.md)
 
