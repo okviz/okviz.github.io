@@ -17,7 +17,7 @@ This pane displays a list of maps currently loaded in the visual and connected t
 
 **Map**
 
-<img src="./images/map-list-element.png" width="400"  class="naked">
+<img src="./images/map-list-element.png" width="400">
 
 Each element in the list includes:
 - **Drag Icon**(1): Allows you to reorder the maps by dragging and dropping them.
@@ -40,7 +40,7 @@ Each element in the list includes:
 This section provides useful information and a visual preview of the currently selected map.
 The map is displayed in the center of the pane while in the corners you can find some useful information and tools.
 
-<img src="./images/map-preview.png" class="naked">
+<img src="./images/map-preview.png">
 
 **Main Detail** - Top-Left
 

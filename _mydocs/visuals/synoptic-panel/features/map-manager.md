@@ -31,7 +31,7 @@ This pane displays a hierarchical view of all Drill Paths to which maps are conn
 This section provides useful information and a visual preview of the currently selected map.
 The map is displayed in the center of the pane while in the corners you can find some useful information and tools.
 
-<img src="./images/map-manager-map-preview.png" width="600" class="naked">
+<img src="./images/map-manager-map-preview.png" width="600">
 
 **Main Detail** (Top-Left)
 

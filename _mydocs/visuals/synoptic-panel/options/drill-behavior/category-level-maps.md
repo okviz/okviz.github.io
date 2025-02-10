@@ -71,7 +71,7 @@ Consider the following dataset with a hierarchy of ***Category → Sector → Se
 
 You are currently at the ***Category*** level. You click on an area of the map corresponding to ***Economy***.
 
- <img src="./images/category-level-maps-drill-on-economy.png" class="naked" >
+ <img src="./images/category-level-maps-drill-on-economy.png">
 
 The drill-down is performed with the following scenarios:
 
@@ -83,7 +83,7 @@ The drill-down is performed with the following scenarios:
 
     This is the default behavior, which allows you have ***separate maps for each data point***.
 
-    <img src="./images/category-level-maps-off.png" class="naked" >
+    <img src="./images/category-level-maps-off.png">
 
 1. **Category Level Maps Enabled**
 
@@ -93,4 +93,4 @@ The drill-down is performed with the following scenarios:
 
     This is beneficial if you prefer to highlight selected data points within the ***category level map***.
 
-    <img src="./images/category-level-maps-on.png" class="naked" >
+    <img src="./images/category-level-maps-on.png">

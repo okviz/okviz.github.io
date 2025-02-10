@@ -53,7 +53,7 @@ Matching is done according to the following rules:
 (e.g., *"_x24_"* is decoded as **$**).
 
 <figure>
-    <img src="images/auto-binding.png" class="naked">
+    <img src="images/auto-binding.png">
     <figcaption>
         In this example, the paths with the id "s202", "sec_203", and "_304" match the data points "s202", "sec 203", and "304", respectively, while the path with "sec210" does not match any data point.
     </figcaption>
@@ -63,7 +63,7 @@ Matching is done according to the following rules:
 
 When the [Aggregate on Expand](../options/drill-behavior/aggregate-on-expand.md) option is disabled, in order to automatically bind areas to data points, the SVG structure must match the data hierarchy. This means that the SVG elements must be organized in group elements (`g` tag) that represent the hierarchy paths of the data.
 
-<img src="images/svg-structure-compared.png" class="naked">
+<img src="images/svg-structure-compared.png">
 
 In the image above, you can see the same Map design with different SVG structures. The `Sphere-Sector` (left) has a flat structure, while the `Sphere-Sector-Grouped`(right) has a hierarchical structure of "Sector" and "Category". `Sphere-Sector-Grouped` has the correct structure to automatically bind the areas to the data points when the hierarchy is expanded and the ***Aggregate on Expand*** option is disabled.
 
@@ -177,21 +177,21 @@ Here is a summary of the possible statuses of an area (higher priority has prece
 If an area is a child of a group (`g` tag) that is "Matched" (automatically bound to a data point), it has the same status as the group, unless it is manually set with custom attributes such as `data-okviz-strong` or `data-okviz-unbound`; in this case, the status of the child has precedence.
 
 <figure>
-    <img src="images/data-binding-group.png" class="naked">
+    <img src="images/data-binding-group.png">
     <figcaption>
         In this example, the `g` with the id "Economy" is Auto Matched and all child `path` inherit the same status.
     </figcaption>
 </figure>
 
 <figure>
-    <img src="images/data-binding-group-strong.png" class="naked">
+    <img src="images/data-binding-group-strong.png">
     <figcaption>
         In this example, the `g` with the id "Economy" is Auto Matched and all child `path` inherit the same status, except for the `path` that has the `data-okviz-strong` attribute, which is "Strong Matched" to the data point "Best" and takes precedence over the "Auto Matched" parent status.
     </figcaption>
 </figure>
 
 <figure>
-    <img src="images/data-binding-group-unbound.png" class="naked">
+    <img src="images/data-binding-group-unbound.png">
     <figcaption>
         In this example, the `g` with the id "Economy" is Auto Matched and all child `path` inherit the same status, except for the `path` that has the `data-okviz-unbound` attribute, which is "Unbound" and takes precedence over the "Auto Matched" parent status.
     </figcaption>
@@ -200,7 +200,7 @@ If an area is a child of a group (`g` tag) that is "Matched" (automatically boun
 When a group is "Unbound", all child areas are considered as such, regardless of their individual status.
 
 <figure>
-    <img src="images/data-binding-all-unbound.png" class="naked">
+    <img src="images/data-binding-all-unbound.png">
     <figcaption>
         In this example, the `g` with the id "Economy" has the `data-okviz-unbound` attribute. This means that this group is not matched, even if the id matches a data point value. All child `path` are considered "Unbound", regardless of their individual status.
     </figcaption>

@@ -19,15 +19,15 @@ There are different ways to load maps into the Synoptic Panel visual, depending 
 - **The visual has no maps connected or there are no maps connected to the current drill path**. You can directly click the ***Add Map*** button within the visual and choose the type of map you want to import. 
 When **no maps are connected**, the ***Add Map*** button is located at the center of the visual. 
 
-<img src="images/add-map-no-maps.png" width="400" class="naked">
+<img src="images/add-map-no-maps.png" width="400">
 
 However, if **no maps are connected to the current drill path**, the button is positioned in the top-left corner. Once the maps are loaded, the [Map Editor](./map-editor/index.md) will open automatically.
 
-<img src="images/add-map-no-current-drill-path-maps.png" width="400" class="naked">
+<img src="images/add-map-no-current-drill-path-maps.png" width="400">
 
 - **The current drill path already has a map connected**. You need to click on ***Edit icon*** <img src="images/pencil-icon.png" width="25" class="nomargin"> in the visual [Toolbar](../features/toolbars.md#top-toolbar), which will open the [Map Editor](./map-editor/index.md) In the [Map Editor](./map-editor/index.md), you can click the ***+ Add*** button and choose the type of map you want to import. 
 
-<img src="images/add-map-map-editor-icon.png" width="400" class="naked">
+<img src="images/add-map-map-editor-icon.png" width="400">
 
 ## Import Local Maps
 
@@ -151,7 +151,7 @@ To import map from [My Storage](./../features/my-storage.md) into Synoptic Panel
 
 ## Replace Map(s) ##
 
-<img src="images/replace-map.png" width="400" class="naked">
+<img src="images/replace-map.png" width="400">
 
 In Synoptic Panel, the ***Replace*** feature allows you to update an SVG map file while preserving the [data binding](../concepts/data-binding.md) already established. This can be useful when modifying a design, adding elements, or updating shapes. However, there are important considerations regarding the handling of IDs that could affect your setup during the replace process.
 

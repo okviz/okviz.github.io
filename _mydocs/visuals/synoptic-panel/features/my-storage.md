@@ -14,7 +14,7 @@ My Storage provides an online storage space hosted on third-party servers (e.g.,
 
 ## Setup
 
-<img src="./images/setup-my-storage.png" width="600" class="naked">
+<img src="./images/setup-my-storage.png" width="600">
 
 When accessing MyStorage for the first time, you will be prompted to:
 
@@ -30,7 +30,7 @@ To use My Storage, you must have [Synoptic Panel with OKVIZ license](../versions
 
 When accessing My Storage, you will be prompted to enter the Edit Key. You can choose one of the following options for convenience:
 
-<img src="./images/add-edit-key.png" width="300" class="naked">
+<img src="./images/add-edit-key.png" width="300">
 
 - ***Remember key for 29 days***(1):
 Temporarily saves the Edit Key in your browser’s local storage, allowing you to reuse it for future sessions for 29 days. This option is useful if you frequently access My Storage from the same device and browser.
@@ -69,13 +69,13 @@ My Storage window is divided into tree main sections:
 
     This section displays the list of all maps stored. You can browse through the list and select one or more maps to be associated with the current [Drill Path](./drill-mode.md#the-drill-path). Each map can be previewed, renamed, replaced, protected or deleted directly from the list. 
 
-    <img src="./images/my-storage-map-menu.png" width="400" class="naked">
+    <img src="./images/my-storage-map-menu.png" width="400">
 
 2.	**Map Preview** (Right Pane):
 
     The right panel shows a preview of the map selected from the list, allowing you to verify its content before adding it to the visual. The map is displayed in the center of the pane while in the corners you can find some useful information.
 
-    <img src="./images/my-storage-map-preview.png" width="600" class="naked">
+    <img src="./images/my-storage-map-preview.png" width="600">
 
     - ***Map Title***(1): the name of the map currently in preview.
     - ***Map Id***(2): unique ID in the storage system.
@@ -96,11 +96,11 @@ Uploading maps means selecting one or more local files from your machine and sav
 How to Upload:
 1.  If My Storage is empty(i.e., no maps have been uploaded yet), click the ***Upload*** button in the center of the screen.
 
-    <img src="./images/my-storage-upload-btn-empty.png" width="300" class="naked">
+    <img src="./images/my-storage-upload-btn-empty.png" width="300">
 
 2.	If maps are already present, the ***Upload*** button is located at the bottom of the ***Map List*** pane.
 
-    <img src="./images/my-storage-upload-btn-list.png" width="600" class="naked">
+    <img src="./images/my-storage-upload-btn-list.png" width="600">
 
 3.	Select the local files you want to upload from your machine.
 

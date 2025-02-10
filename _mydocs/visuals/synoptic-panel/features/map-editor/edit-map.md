@@ -17,7 +17,7 @@ Editing a map in the [Map Editor](../map-editor/index.md) context does not mean 
 
 This section displays the selected SVG interactive map. You can click on specific area, highlighting it and automatically selecting the corresponding node in the Selection Tree. Similarly, selecting a node in the Selection Tree highlights the corresponding area in the map. 
 
-<img src="./images/edit-interactive-map.png" width="500" class="naked">
+<img src="./images/edit-interactive-map.png" width="500">
 
 ***SVG button***(1) on the top right corner will open a code editor with the SVG raw content of the map, which can be useful for advanced users who want to make manual changes to the SVG code.
 
@@ -38,7 +38,7 @@ To ensure easy identification and selection of each area , the Selection Tree on
 
 Nodes will be styled according to the [Data Binding](../../concepts/data-binding.md#areas-status) status of the corresponding area:
 
-<img src="./images/edit-tree.png" width="400" class="naked">
+<img src="./images/edit-tree.png" width="400">
 
 - **Matched** will have green text.
 - **Strong Matched** are displayed with green text and an additional green dot on the right end of the tree element. For ***Inherited*** areas (areas that are children of a <g> element with this status), both the dot and the text will appear slightly lighter green.
@@ -76,7 +76,7 @@ This is the default value. Selecting this option means that selected area will k
 
 - **Drill To**: here you can insert the URL of a map that must be loaded when the user drill down on this area. This means basically that you are adding a [Child Map](./../../concepts/maps/child-maps.md) to the current map, and the user will be able to navigate to it by clicking on the area.
     
-    <img src="./images/edit-drill-to.png" width="400" class="naked">
+    <img src="./images/edit-drill-to.png" width="400">
 
 #### Link
 
@@ -92,7 +92,7 @@ If this option is selected, the selected area will be treated as a hyperlink and
 
 ## Header
 
-<img src="./images/edit-header.png" width="600" class="naked">
+<img src="./images/edit-header.png" width="600">
 
 The header section contains the following elements:
 
