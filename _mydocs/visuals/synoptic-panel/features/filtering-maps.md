@@ -10,8 +10,6 @@ next_reading:       true
 
 Synoptic Panel allows you to change maps using a report filter or a custom selection. This feature is useful when you want to control the rendered map from a slicer or any other visual in your report.
 
-<todo>Screencast of map filtering</todo>
-
 Synoptic Panel provides different ways to obtain this behavior:
 
 - **Map Selector**: Set a special DAX measure to select the map to display.

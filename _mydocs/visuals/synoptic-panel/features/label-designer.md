@@ -42,7 +42,6 @@ The distinction between global settings and specific settings for selected label
 - **Global Settings** affect all labels of a specific type (e.g., all category labels or all data labels), creating a consistent base configuration.
 
 However, specific settings cannot completely override global settings.
-<todo> Example and better explanation needed </todo>
 
 ## Connector
 

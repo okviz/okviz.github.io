@@ -127,8 +127,6 @@ Here is a description of the fields:
     > Note the Drill Path is displayed as a breadcrumb in the visual header. To define the `drillPath` value for the import file, you need to concatenate the single elements of the breadcrumb in the same order as they appear in the visual.  
     E.g. `Category > Sector` becomes `["Category", "Sector"]`.
 
-<todo>Provide a sample JSON file with links to our Github repo base on Synoptic Panel tour</todo>
-
 >> Note that [Synoptic Panel Lite](../versions/index.md) does not support this feature.
 
 ##  Import My Storage Maps
