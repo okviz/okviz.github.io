@@ -4,7 +4,7 @@ title:              Privacy Policy
 published:          true
 toc_h_max:          2
 date:               2024-12-31
-modified:           2025-02-09
+modified:           2025-02-12
 order:              /legal/02
 ---
 
@@ -93,27 +93,18 @@ For specific details on the Personal Data used for each purpose, please see the 
 
 Below is a breakdown of the services used by the Application, including the types of Data processed, locations, legal categories (according to the CCPA), and any applicable legal classifications.
 
-### Access to Third-Party Accounts
-
-This service allows the Application to access Data from your account on a third-party service—only after you give explicit authorization.
-
-#### GitHub Account Access (GitHub Inc.)
-- **Data Processed:** device information; email address; Trackers; Usage Data.
-- **Place of Processing:** United States – <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
-- **CCPA Category:** identifiers; internet or other electronic network activity information.
-- **This Processing Constitutes:** a Sale in California.
-
-#### Azure B2C Account Access (Microsoft Corp.)
-- This service connects the Application to your Azure B2C account.
-
-
-
 ### Analytics
 
 These services monitor and analyze web traffic and user behavior.
 
 #### Direct Analytics (This Application)
 - **Data Processed:** Usage Data.
+- **CCPA Category:** internet or other electronic network activity information.
+- **This Processing Constitutes:** a Sale in California.
+
+#### Google Analytics (Google LLC)
+- **Data Processed:** Cookies; Usage Data.
+- **Place of Processing:** United States – <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a> – <a href="https://tools.google.com/dlpage/gaoptout">Opt out</a>.
 - **CCPA Category:** internet or other electronic network activity information.
 - **This Processing Constitutes:** a Sale in California.
 
@@ -125,14 +116,12 @@ These services monitor and analyze web traffic and user behavior.
 - **Additional Note:** Data may be used to support interest-based advertising. You can opt out via your device settings or the <a href="http://optout.networkadvertising.org/?c=1">Network Advertising Initiative opt-out page</a>.
 
 
-
 ### Backup Saving and Management
 
 This service allows the Owner to back up the Application (including source code, content, and user-provided Data) on external servers.
 
 #### Backup on Azure
 - **Note:** Backups are stored on Azure servers in the United States (if sourced from the United States), The Netherlands (if sourced from The Netherlands), or Australia (if sourced from Australia).
-
 
 
 ### Contacting the User
@@ -148,8 +137,6 @@ This service allows the Owner to back up the Application (including source code,
 - **Data Processed:** country; email address; first name; last name; Usage Data.
 - **CCPA Category:** identifiers; internet or other electronic network activity information.
 - **This Processing Constitutes:** a Sale in the United States.
-
-
 
 ### Content Commenting
 
@@ -174,6 +161,12 @@ This service allows you to view and interact with content hosted on external pla
 - **CCPA Category:** identifiers; internet or other electronic network activity information.
 - **This Processing Constitutes:** a Sale in California.
 
+#### Google Fonts (Google LLC)
+- **Data Processed:** Usage Data; various types of Data as specified in the service’s privacy policy.
+- **Place of Processing:** United States – <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
+- **CCPA Category:** identifiers; internet or other electronic network activity information.
+- **This Processing Constitutes:** a Sale in California.
+
 #### YouTube IFrame Player (Google LLC)
 - **Data Processed:** Usage Data.
 - **Place of Processing:** United States – <a href="http://www.google.com/policies/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a> – <a href="https://security.google.com/settings/security/permissions">Opt out</a>.
@@ -194,7 +187,6 @@ This service allows you to view and interact with content hosted on external pla
 - **This Processing Constitutes:** a Sale in California.
 
 
-
 ### Handling Payments
 
 Unless stated otherwise, payments (via credit card, bank transfer, etc.) are processed by external payment service providers. You provide your payment details directly to these providers; the Application only receives a confirmation of payment.
@@ -211,7 +203,6 @@ Unless stated otherwise, payments (via credit card, bank transfer, etc.) are pro
 - **This Processing Constitutes:** a Sale in Virginia, Colorado, Connecticut, Utah, Texas, Oregon, Nevada, Delaware, Iowa, New Hampshire, New Jersey, Nebraska, and Montana.
 
 
-
 ### Hosting and Backend Infrastructure
 
 This service hosts Data and files necessary for the Application’s operation and supports its features.
@@ -220,7 +211,6 @@ This service hosts Data and files necessary for the Application’s operation an
 - **Data Processed:** Various types of Data as specified in the service’s privacy policy.
 - **Place of Processing:** United States, Australia, Netherlands – <a href="https://privacy.microsoft.com/PrivacyStatement" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
 - **CCPA Category:** identifiers.
-
 
 
 ### Managing Contacts and Sending Messages
@@ -234,7 +224,6 @@ This service manages our database of contact information (e.g., email addresses,
 - **This Processing Constitutes:** a Sale in California and a Sharing in California.
 
 
-
 ### Registration and Authentication Provided Directly by This Application
 
 By registering or logging in, you allow us to identify you and provide you with dedicated services. We collect only the data necessary for registration or identification.
@@ -242,7 +231,6 @@ By registering or logging in, you allow us to identify you and provide you with 
 #### Direct Registration (This Application)
 - **Data Processed:** email address; first name; last name; password; profile picture; Usage Data; username.
 - **CCPA Categories:** identifiers; internet or other electronic network activity information; audio, electronic, visual, thermal, olfactory, or similar information.
-
 
 
 ### SPAM Protection
@@ -270,11 +258,9 @@ This Privacy Policy applies to:
 The Personal Data collected is used to provide you with services or to sell goods (including processing payments and arranging delivery). The Data required for payment (such as credit card details, bank account information, or other payment methods) depends on the payment system used.
 
 
-
 ## Cookie Policy
 
 This Application uses Trackers (e.g., Cookies). For more details, please review our [Cookie Policy](./cookies.md).
-
 
 
 ## Further Information for Users in the European Union

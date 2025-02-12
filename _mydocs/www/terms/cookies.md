@@ -4,7 +4,7 @@ title:              Cookie Policy
 published:          true
 toc_h_max:          2
 date:               2024-12-31
-modified:           2025-02-09
+modified:           2025-02-12
 order:              /legal/03
 ---
 
@@ -19,78 +19,34 @@ This Application uses both Trackers managed directly by us (so-called **first-pa
 
 ## How This Application Uses Trackers
 
-### Necessary
+### Strictly Necessary
 
-This Application employs technical Cookies and similar Trackers to perform functions that are strictly necessary for the operation or delivery of the Service.
+This Application uses Strictly Necessary Trackers allow core website functionality such as user login and account management. Ths Application cannot be used properly without these Trackers.
 
+### Performance
 
-### Trackers Managed by Third Parties
+This Application uses Performance Trackers to help us understand how visitors interact with the website by providing information about the areas visited, the time spent on the website, and any issues encountered, such as error messages. This helps us improve the performance of our website.
 
-#### Google reCAPTCHA
+### Targeting
 
-Google reCAPTCHA is a SPAM protection service provided by Google LLC or Google Ireland Limited (depending on how the Owner manages Data processing). Its use is subject to the Google [privacy policy](https://www.google.com/policies/privacy/) and [terms of use](https://www.google.com/intl/en/policies/terms/).  
-To understand how Google uses Data, please review [Google's partner policy](https://www.google.com/policies/privacy/partners/).
+This Application uses Targeting Trackers to deliver personalized marketing content based on your behavior and to operate, serve, and track advertisements.
 
-- **Personal Data processed:** answers to questions, clicks, keypress events, motion sensor events, mouse movements, scroll position, touch events, Trackers, and Usage Data.
-- **Place of processing:**  
-  - United States – [Privacy Policy](https://business.safety.google/privacy/)  
-  - Ireland – [Privacy Policy](https://business.safety.google/privacy/)
-- **Trackers duration:**
-  - `_GRECAPTCHA`: duration of the session  
-  - `rc::a`: indefinite  
-  - `rc::b`: duration of the session  
-  - `rc::c`: duration of the session  
-  - `rc::f`: indefinite
+### Functionality
 
+This Application uses Functionality Trackers to enable additional features and functionalities that allow you to interact with the Application, such as time zone settings and language preferences.
 
-### Experience
+## Trackers List
 
-This Application uses Trackers to enhance your experience and enable interactions with external content, networks, and platforms.
-
-#### YouTube Video Widget (Google LLC)
-
-YouTube is a video content visualization service provided by Google LLC that allows us to display video content on our pages.
-
-- **Personal Data processed:** Trackers and Usage Data.
-- **Place of processing:** United States – [Privacy Policy](https://policies.google.com/privacy).
-- **Trackers duration:**
-  - `PREF`: 8 months  
-  - `VISITOR_INFO1_LIVE`: 8 months  
-  - `VISITOR_PRIVACY_METADATA`: 7 months  
-  - `YSC`: duration of the session  
-  - `YtIdbMeta:databases`: duration of the session  
-  - `iU5q-!O9@$`: indefinite  
-  - `yt-player-headers-readable`: duration of the session  
-  - `yt-remote-cast-installed`: indefinite  
-  - `yt-remote-connected-devices`: duration of the session  
-  - `yt-remote-device-id`: duration of the session  
-  - `yt-remote-fast-check-period`: indefinite  
-  - `yt-remote-session-app`: indefinite  
-  - `yt-remote-session-name`: indefinite  
-  - `ytidb::LAST_RESULT_ENTRY_KEY`: duration of the session
+<!-- Cookie-Script.com Tracking -->
+<script type="text/javascript" charset="UTF-8"  data-cookiescriptreport="report" src="https://report.cookie-script.com/r/65bbf2c5dea744ba098320da8783c873.js"></script>
+<style>
+  ._CookieScriptReportPageTable { font-size: 0.8em; }
+  ._CookieScriptReportPageTable tr td:first-child { max-width: 180px; }
+</style>
+<!-- End Cookie-Script.com Tracking -->
 
 
-#### Vimeo Video (Vimeo, LLC)
-
-Vimeo is a video content visualization service provided by Vimeo, LLC that allows us to display video content on our pages.
-
-- **Personal Data processed:** Trackers and Usage Data.
-- **Place of processing:** United States – [Privacy Policy](https://vimeo.com/privacy).
-- **Trackers duration:**
-  - `player`: 1 year  
-  - `vuid`: 2 years
-
-
-#### GitHub Account Access (GitHub Inc.)
-
-This service allows the Application to connect with your GitHub account, provided by GitHub Inc.
-
-- **Personal Data processed:** device information, email address, Trackers, and Usage Data.
-- **Place of processing:** United States – [Privacy Policy](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
-
-### Trackers That Do Not Fit the Above Categorizations
-
-#### Policy Application
+## Policy Application
 
 This policy applies to:
 - [okviz.com](https://okviz.com) and its subdomains  
@@ -99,7 +55,7 @@ This policy applies to:
 
 ### How to Manage Preferences on This Application
 
-You can set or update your preferences via the privacy choices panel available on this Application.
+You can set or update your preferences via the privacy choices banner available on this Application.
 
 For third-party Trackers, you may manage your preferences by using the related opt-out link (if provided), by following the instructions in the third party's privacy policy, or by contacting the third party directly.
 
@@ -109,8 +65,6 @@ You can use your browser settings to:
 - View which Cookies or similar technologies have been set on your device;
 - Block Cookies or similar technologies;
 - Clear Cookies or similar technologies from your browser.
-
-> **Note:** Browser settings do not provide granular control of consent by category.
 
 For example, you can find information on managing Cookies in common browsers at the following links:
 - [Google Chrome](https://support.google.com/chrome/answer/95647?hl=en&p=cpn_cookies)
