@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2024-05-10
-modified:           2025-01-22
+modified:           2025-02-13
 order:              /synoptic-panel/{99}
 toc_h_max:          2
 ---
@@ -12,7 +12,18 @@ Synoptic Panel uses **Power BI Custom Visuals API v5.11.0**.
 
 > **NOTE:** Synoptic Panel Lite is a subset of Synoptic Panel with limited features. Both versions share the same codebase and changelog.
 
-## v2.2.6 - RC
+## v2.2.7
+**Released:** 2025-02-13
+
+### Improvements
+- Improve license dialog
+- Add support for feature flags
+
+### Bug Fixes
+- Fix category labels with custom text
+- Fix auto-match with SVG elements with special characters
+
+## v2.2.6
 **Released:** 2025-01-22
 
 ### Improvements

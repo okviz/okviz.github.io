@@ -3,7 +3,7 @@ layout:             page
 title:              Changelog
 published:          true
 date:               2022-07-17
-modified:           2025-01-22
+modified:           2025-02-13
 order:              /calendar-pro/{99}
 toc_h_max:            2
 ---
@@ -11,10 +11,14 @@ This page contains a quick summary of versions and notable changes of Calendar P
 Smart Filter Pro uses **Power BI Custom Visuals API v5.11.0**.
 
 ## v1.0.9
-**Released:** 2025-01-22
+**Released:** 2025-02-13
+
+### Improvements
+- Improve license dialog
+- Add support for feature flags
 
 ### Bug Fixes
-- Fix missing date picker when granularity is set to "Day" and grouping to "None".
+- Fix missing date picker when granularity is set to "Day" and grouping to "None"/"Day".
 
 ## v1.0.8
 **Released:** 2025-01-05
