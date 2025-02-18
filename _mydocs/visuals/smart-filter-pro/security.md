@@ -3,7 +3,7 @@ layout:             page
 title:              Security & Privacy
 published:          true
 date:               2022-07-13
-modified:           2024-05-22
+modified:           2025-02-18
 order:              /smart-filter-pro/{96}
 toc_h_max:            2
 ---
@@ -32,22 +32,10 @@ If you have questions, write to [support@okviz.com](mailto:support@okviz.com)
 
 Smart Filter Pro **does not send user/report data over the Internet** to external services.
 
-However, it periodically communicate with external services to check the current status of your license and collect anonymous usage data (Telemetry). Although you can disable telemetry, you cannot block communication with our license servers, otherwise the visual will stop working properly.
+However, it periodically communicate with external services to check the current status of your license. Note that you cannot block communication with our license servers, otherwise the visual will stop working properly.
 
 If you have a corporate firewall that blocks outbound connections, you need to whitelist this URL:
 
-- `https://okvizviews.table.core.windows.net/`
+- **From v2.3.2.0**: `https://api.okviz.com/`
 
-### Telemetry
-
-OKVIZ collects some anonymous usage data through Google Analytics and a proprietary system hosted on Microsoft Azure servers.
-
-The collected data are:
-
-- **License status** (licensed or unlicensed)
-- **Number of rows** loaded by the visual (not the content)
-- **Report mode** (Editing or Reading mode)
-- **Working mode** (Dropdown, Observer, Filter, Search, or Hierarchy modes)
-- **Check for updates** option status
-
-You can disable telemetry in the [About & License](options/about/send-telemetry.md) options pane.
+- **Before v2.3.2.0**: `https://okvizviews.table.core.windows.net/`
