@@ -26,7 +26,7 @@ How come? Does it mean that Smart Filter Pro is not safe or we want to keep our 
 
 We will certainly certify Smart Filter Pro in the future, but right now we can only provide some additional information to companies interested in purchasing this visual and concerned about the security of their data. In some cases and at our sole discretion, after signing an NDA document, we can provide temporary read-only access to the source code of the visual.
 
-If you have questions, write to [support@okviz.com](mailto:support@okviz.com)
+If you have questions, write to [support@okviz.com](mailto:support@okviz.com).
 
 ## Data Sent over the Internet
 
